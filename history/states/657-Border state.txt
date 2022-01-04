@@ -8,10 +8,10 @@ state={
 	}
 
 
-	state_category = pastoral
+	state_category = town
 
 	history = {
-		owner = SOV
+		owner = VLA
 		buildings = {
 			infrastructure = 2
 			air_base = 2

@@ -7,10 +7,10 @@ state = {
 		chromium = 9 # was: 12
 	}
 	
-	state_category = rural
+	state_category = city
 
 	history = {
-		owner = SOV
+		owner = VLA
 		victory_points = {
 			12189 1
 		}

@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = VLA
 		victory_points = {
 			7835 2 
 		}
@@ -25,6 +25,7 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = BYA
+		add_core_of = VLA
 	}
 
 	provinces={
