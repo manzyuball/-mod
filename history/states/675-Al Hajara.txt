@@ -6,7 +6,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = IRQ
+		owner = TUR
 		victory_points = {
 			12413 1 
 		}
@@ -14,6 +14,7 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = IRQ
+		add_core_of = TUR
 	}
 	
 	provinces={

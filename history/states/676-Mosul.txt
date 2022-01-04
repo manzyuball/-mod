@@ -11,7 +11,7 @@ state={
 
 
 	history={
-		owner = IRQ
+		owner = TUR
 		buildings = {
 			infrastructure = 2
 		}
@@ -26,6 +26,7 @@ state={
 		}
 		add_core_of = IRQ
 		add_core_of = KUR
+		add_core_of = TUR
 	}
 	
 	provinces={

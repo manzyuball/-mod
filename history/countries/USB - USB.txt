@@ -2,7 +2,7 @@
 
 oob = "USA_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 set_stability = 0.75
 set_war_support = 0.5
 set_variable = { var = senators_support value = 48 }
@@ -177,14 +177,14 @@ set_convoys = 400
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 99
-	communism = 1
+	neutrality = 1
+	communism = 99
 }
 
 add_ideas = {
