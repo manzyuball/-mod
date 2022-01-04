@@ -7,12 +7,13 @@ state={
 	state_category = city
 
 	history={
-		owner = USA
+		owner = USB
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 4
 		}
 		add_core_of = USA
+		add_core_of = USB
 		victory_points = {
 			1770 3 
 		}

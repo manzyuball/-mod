@@ -8,7 +8,7 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = USA
+		owner = USB
 		buildings = {
 			infrastructure = 4 #was: 8
 			arms_factory = 2
@@ -22,6 +22,7 @@ state={
 
 		}
 		add_core_of = USA
+		add_core_of = USB
 		victory_points = {
 			3878 30.0 
 		}
