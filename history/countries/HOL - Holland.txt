@@ -243,6 +243,8 @@ set_popularities = {
 set_convoys = 150
 set_stability = 0.75
 
+GER = { add_to_faction = HOL }
+
 
 ### VARIANTS ###
 # 1936 Start #

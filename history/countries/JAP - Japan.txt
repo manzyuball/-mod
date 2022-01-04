@@ -110,6 +110,27 @@ set_technology = {
 	synth_oil_experiments = 1
 	fuel_refining = 1
 }
+set_autonomy = {
+	target = PHI
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.2
+}
+set_autonomy = {
+	target = INS
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.3
+}
+set_autonomy = {
+	target = HAW
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.1
+}
+set_autonomy = {
+	target = FER
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.5
+}
+
 
 if = {
 	limit = {
@@ -189,12 +210,6 @@ if = {
 	set_technology = {
 		armored_car1 = 1
 	}
-}
-
-create_import = {
-		resource = oil
-		factories = 2
-		exporter = USA
 }
 
 1939.1.1 = {
@@ -400,6 +415,11 @@ set_popularities = {
 	democratic = 100
 }
 
+give_guarantee = MAN
+give_guarantee = VLA
+give_guarantee = VIN
+
+
 recruit_character = JAP_tetsu_katayama
 recruit_character = JAP_kyuichi_tokuda
 recruit_character = JAP_emperor_hirohito
@@ -555,12 +575,6 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 
-	give_guarantee = VIN
-	give_guarantee = SIA
-	give_guarantee = BRM
-	give_guarantee = PHI
-	give_guarantee = INS
-	give_guarantee = MAN
 
 
 
