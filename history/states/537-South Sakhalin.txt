@@ -1,0 +1,34 @@
+state= {
+	id=537
+	name="STATE_537"
+	manpower = 295196
+	resources={
+		oil=11 # was: 4
+	}
+	
+	state_category = city
+
+	history= {
+		owner = FER
+		add_core_of = FER
+		add_core_of = JAP
+		add_core_of = SOV
+		
+		buildings = {
+			infrastructure = 2
+			12446 = {
+				naval_base = 1
+
+			}
+		}
+		victory_points = {
+			12446 1
+		}
+
+	}
+	provinces=
+	{
+1322 1820 12446 	}
+
+	local_supplies=0.0 
+}
