@@ -1,8 +1,8 @@
 state=
 {
 	id=743
-	name="所借地"
-	manpower = 385000
+	name="STATE_743"
+	manpower = 663000
 	state_category = large_city
 	
 	history=
