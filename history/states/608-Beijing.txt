@@ -7,9 +7,10 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = CHI
+		owner = MAN
 		add_core_of = CHI
 		add_core_of = PRC
+		add_core_of = MAN
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2

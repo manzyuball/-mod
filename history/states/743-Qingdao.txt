@@ -1,9 +1,9 @@
 state=
 {
 	id=743
-	name="STATE_743"
+	name="所借地"
 	manpower = 385000
-	state_category = large_town
+	state_category = large_city
 	
 	history=
 	{
@@ -31,7 +31,7 @@ state=
 		}
 	}
 	provinces={
-		10000
+		10000 11928 7071
 	}
 
 	local_supplies=0.0 

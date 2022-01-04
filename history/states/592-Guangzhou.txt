@@ -10,8 +10,7 @@ state={
 	}
 
 	history={
-		owner = TAN
-		add_core_of = TAN
+		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		
