@@ -194,9 +194,15 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
+	set_autonomy = {
+		target = TZN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4.5
+	}
 	else = {
 		puppet = MAL
 		puppet = RAJ
+		puppet = TZN
 	}
 }
 
