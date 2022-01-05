@@ -3,7 +3,7 @@ state={
 	name="STATE_770"
 
 	history={
-		owner = TZN
+		owner = POR
 		add_core_of = MLW
 		add_core_of = TZN
 		victory_points = {

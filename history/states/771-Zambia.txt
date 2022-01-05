@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = TZN
+		owner = POR
 		add_core_of = ZAM
 		add_core_of = TZN
 		victory_points = {
