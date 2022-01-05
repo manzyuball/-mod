@@ -2619,140 +2619,8 @@ focus_tree = {
 		}
 	}
 	
-	focus = { #should already be signed in 39
-		id = GER_mol_rib_pact
-		icon = GFX_goal_molotov_ribbentrop_pact
-		prerequisite = { focus = GER_soviet_treaty }
-		mutually_exclusive = { focus = GER_anti_soviet_pact }
-		available = {
-			is_subject = no
-			has_government = fascism
-			has_army_manpower = { size > 849999 } #ca 90 div
-			SOV = {
-				NOT = { has_war_with = GER }
-				country_exists = SOV
-				has_civil_war = no
-			}
-			NOT = { has_completed_focus = GER_bulwark_against_bolshevism }
-			NOT = { has_completed_focus = GER_the_great_red_menace }
-			NOT = { has_global_flag = beck_ribbentrop_signed }
-		}
-		cancel = {
-			OR = {
-				has_war_with = SOV
-				NOT = { country_exists = SOV }
-				has_global_flag = beck_ribbentrop_signed
-			}
-		}
-		cancel_if_invalid = no
-		x = 1
-		y = 3
-		relative_position_id = GER_soviet_treaty
-		cost = 10
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				NOT = { has_completed_focus = GER_anti_comitern_pact }
-			}
-			modifier ={
-				factor = 2
-				has_idea = SOV_soviet_german_trade_agreement
-			}
-		}	
-		completion_reward = {
-			
-			SOV = {
-				country_event = { id = germany.11 days = 1 }
-				custom_effect_tooltip = GER_mol_rib_pact_tt
-				custom_effect_tooltip = needs_approval
-			}
-		}
-	}
-	
-	focus = {
-		id = GER_soviet_ally
-		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = GER_mol_rib_pact }
-		mutually_exclusive = { focus = GER_ussr_war_goal }
-		available = {
-			is_subject = no
-			has_government = fascism
-			has_war = no
-			SOV = {
-				has_war = no
-				NOT = { has_war_with = GER }
-				is_subject = no
-			}
-		}
-		bypass = {
-			SOV = {
-				is_in_faction_with = GER
-			}
-		}
-		x = 1
-		y = 1
-		relative_position_id = GER_mol_rib_pact
-		cost = 10
-		ai_will_do = {
-			factor = 0.01
-			modifier = {
-				factor = 0
-				NOT = { is_in_faction_with = POL }
-				country_exists = POL
-			}			
-			modifier = {
-				factor = 0
-				OR = {
-					has_war_with = POL
-					has_war_with = FRA
-				}
-			}				
-		}	
-		completion_reward = {
-			if = {
-				limit = { is_faction_leader = yes }
-				custom_effect_tooltip = ger_sov_buddies_tooltip_2
-			}
-			custom_effect_tooltip = ger_sov_buddies_tooltip
-			add_ideas = soviet_german_friendship
-			SOV = {
-				add_opinion_modifier = { target = GER modifier = ger_sov_alliance_focus }
-				add_ideas = soviet_german_friendship
-				country_event = germany.89
-			}
-		}
-	}
-	
-	focus = {
-		id = GER_turkey_puppet
-		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = GER_soviet_ally }
-		available = {
-			is_subject = no
-			has_government = fascism
-			OR = {
-				GRE = {
-					is_in_faction_with = GER
-					all_owned_state = {
-						controller = { is_in_faction_with = GER }
-					}
-				}
-			}
-			NOT = { has_war_with = SOV }
-			country_exists = TUR
-		}
-		x = 0
-		y = 2
-		relative_position_id = GER_soviet_ally
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}	
-		completion_reward = {
-			TUR = { country_event = { id = germany.79 days = 1 } }
-		}
-	}
+
+
 
 	focus = {
 		id = GER_rhineland
@@ -2764,90 +2632,29 @@ focus_tree = {
 		available = {
 			is_subject = no
 		}
-		bypass = {
-			42 = { is_demilitarized_zone = no }
-			51 = { is_demilitarized_zone = no }
-		}
 		ai_will_do = {
 			factor = 10
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		completion_reward = {
-			42 = { set_demilitarized_zone = no }
-			51 = { set_demilitarized_zone = no }
-			custom_effect_tooltip = GER_rhineland_ultimatum
-			add_political_power = 120
-			army_experience = 5
-			add_named_threat = { threat = 5 name = GER_rhineland }
-			if = {
-				limit = { FRA = { is_subject = no } }
-				FRA = {
-					country_event = { id = germany.60 }
-					custom_effect_tooltip = may_provoke_hostility
+			add_country_leader_trait = dictator
+            start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+				state = 62 64 65
+				num_provinces = 7
 				}
-			}
-		}		
-	}
-
-	focus = {
-		id = GER_japan_friend
-		icon = GFX_goal_generic_military_deal
-		prerequisite = { focus = GER_rhineland }
-		mutually_exclusive = { focus = GER_china_friend }
-		available = {
-			is_subject = no
-			AND = {
-				country_exists = JAP
-				JAP = { is_subject = no }
-				NOT = { has_war_with = JAP }
-				JAP = {
-					custom_trigger_tooltip = {
-						tooltip = GER_alone_or_peace_faction_tt
-						is_alone_or_in_faction_at_peace_with_GER = yes
-					}
+				defender = {
+				state = 63 68 66
+				num_provinces = 6
 				}
-			}
-		}
-		x = 1
-		y = 1
-		relative_position_id = GER_rhineland
-		cost = 10
-
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_in_faction_with = JAP
-				factor = 0 #GER-sempai has already noticed you!
-			}
-		}	
-		completion_reward = {
-			JAP = {
-				add_opinion_modifier = { target = GER modifier = ger_jap_diplomacy_focus }
-			}
-			event_target:WTT_current_china_leader = {
-				add_opinion_modifier = { target = GER modifier = withdrew_advisors }
-				country_event = { id = china.3 hours = 6 }
-			}
-			custom_effect_tooltip = GER_japan_friend_tt
-			set_global_flag = falkenhausen_recalled
-			if = {
-				limit = {
-					has_dlc = "Waking the Tiger"
-				}
-				create_corps_commander = {
-					name = "Alexander von Falkenhausen"
-					gfx = GFX_portrait_chi_alexander_von_falkenhausen
-					skill = 3
-					attack_skill = 2
-					defense_skill = 2
-					planning_skill = 3
-					logistics_skill = 3
-					legacy_id = 603
-					traits = { infantry_officer }
-				}
-			}
+		    }
+			set_border_war_data = {
+				attacker = 62 64 65
+				defender = 63 68 66
+				defender_modifier = -1.5
+				combat_width = 210 }
+		
 		}
 	}
 
@@ -2855,7 +2662,6 @@ focus_tree = {
 		id = GER_china_friend
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = GER_rhineland }
-		mutually_exclusive = { focus = GER_japan_friend }
 		available = {
 			is_subject = no
 			AND = {
@@ -2870,7 +2676,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = GER_rhineland
 		cost = 10
@@ -2900,14 +2706,13 @@ focus_tree = {
 		id = GER_anti_comitern_pact
 		icon = GFX_goal_anti_comintern_pact
 		prerequisite = { focus = GER_rhineland  }
-		x = -3
+		x = -1.5
 		y = 2
 		relative_position_id = GER_rhineland
 		cost = 10
 		available = {
 			is_subject = no
-			NOT = { has_government = communism }
-			NOT = { is_in_faction_with = SOU }
+			NOT = { is_in_faction_with = ENG }
 		}
 		bypass = {
 
@@ -2952,56 +2757,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_anti_soviet_pact
-		icon = GFX_goal_anti_comintern_pact
-		prerequisite = { focus = GER_anti_comitern_pact }
-		mutually_exclusive = { focus = GER_mol_rib_pact }
-		available = {
-			is_subject = no
-			has_army_manpower = { size > 849999 } #ca 90 div
-			SOU = {
-				has_government = communism
-			}
-		}
-		x = 0
-		y = 3
-		relative_position_id = GER_anti_comitern_pact
-		cost = 10
-		ai_will_do = {
-			factor = 2.5
-			modifier ={
-				factor = 0.1
-				has_idea = SOV_soviet_german_trade_agreement
-			}
-		}
-		completion_reward = {
-			hidden_effect = {
-				SOV = { remove_opinion_modifier = { target = ROOT modifier = pact_against_us } }
-				add_ideas = anti_soviet_pact
-			}
-			SOU = { add_opinion_modifier = { target = ROOT modifier = worse_pact_against_us } }
-			custom_effect_tooltip = GER_anti_soviet_pact_tt_3
-			custom_effect_tooltip = GER_anti_soviet_pact_tt
-			custom_effect_tooltip = GER_anti_soviet_pact_tt_2
-			every_other_country = {
-				limit = {
-					has_opinion_modifier = anti_comintern_pact_opinion
-					OR = {
-						NOT = { is_in_faction = yes }
-						is_in_faction_with = GER
-					}
-					NOT = { tag = GER }
-					NOT = { has_war_with = GER }
-				}
-				country_event = germany.83
-			}
-			hidden_effect = {
-				news_event = { hours = 12 id = news.215 }
-			}
-		}
-	}
-
-	focus = {
 		id = GER_ussr_war_goal
 		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = { focus = GER_anti_comitern_pact }
@@ -3017,8 +2772,8 @@ focus_tree = {
 		available = {
 			is_subject = no
 		}
-		x = 1
-		y = 4
+		x = 0
+		y = 2
 		relative_position_id = GER_anti_comitern_pact
 		cost = 10
 		historical_ai = {
@@ -3080,98 +2835,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = GER_turkey_friend
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = GER_ussr_war_goal }
-		prerequisite = { focus = GER_italy_ally }
-
-
-		available = { 
-			is_subject = no 
-			NOT = { has_war_with = TUR }
-			TUR = {
-				exists = yes
-				is_subject = no
-			}
-
-			TUR = {
-				custom_trigger_tooltip = {
-					tooltip = GER_alone_or_peace_faction_tt
-					is_alone_or_in_faction_at_peace_with_GER = yes
-				}
-			}
-		}
-
-		#bypass = {
-		#	OR = {
-		#		TUR = { is_in_faction_with = GER }
-		#		NOT = { country_exists = TUR }
-		#	}
-		#}
-		x = 0
-		y = 2
-		relative_position_id = GER_ussr_war_goal
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}	
-
-		available_if_capitulated = no
-		completion_reward = {
-			TUR = {
-				add_opinion_modifier = { target = GER modifier = ger_tur_diplomacy_focus }
-				if = {
-					limit = {
-						TUR = {
-							is_ai = yes
-							NOT = {
-								is_in_faction = yes
-							}
-							NOT = {
-								is_puppet = yes
-							}
-							has_government = ROOT
-						}
-						GER = { is_faction_leader = yes }
-					}
-					TUR = {
-						country_event = generic.5
-					}
-					add_ai_strategy = {
-						type = alliance
-						id = "GER"
-						value = 200
-					}
-				}
-				if = {
-					limit = {
-						GER = {
-							has_government = fascism
-						}
-					}
-					add_timed_idea = { idea = fascist_influence days = 1095 }
-				}
-				if = {
-					limit = {
-						GER = {
-							has_government = communism
-						}
-					}
-					add_timed_idea = { idea = communist_influence days = 1095 }
-				}
-				if = {
-					limit = {
-						GER = {
-							has_government = democratic
-						}
-					}
-					add_timed_idea = { idea = democratic_influence days = 1095 }
-				}
-				country_event = { id = generic.1 }
-			}
-		}
-	}
 
 	focus = {
 		id = GER_anschluss
@@ -3182,13 +2845,6 @@ focus_tree = {
 			is_subject = no
 			has_army_manpower = { size > 499999 }
 			NOT = { has_idea = rhineland_challenge_met }
-		}
-		cancel = {
-			OR = {
-				is_subject = yes
-				has_idea = rhineland_challenge_met
-				has_war_with = AUS
-			}
 		}
 		cancel_if_invalid = no
 		x = 3
@@ -3203,135 +2859,12 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-			OR = {
-				AUS = {
-					OR = {
-						is_subject = yes
-						exists = no 
-						AND = {
-							is_in_faction = yes
-							NOT = { is_in_faction_with = GER }
-						}
-					}
-				}
-				GER = {
-					owns_state = 4
-					owns_state = 152
-					owns_state = 153
-				}
-			}
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			army_experience = 10
-			if = {
-				limit = {
-					country_exists = AUS
-					AUS = {
-						has_civil_war = no
-						OR = {
-							owns_state = 4
-							owns_state = 152
-							owns_state = 153
-						}
-					}
-				}
-
-				AUS = {
-					country_event = germany.28
-				}				
-				custom_effect_tooltip = anschluss_mefo_bills_tt
-			}
-			if = {
-				limit = {
-					any_other_country = {
-						original_tag = AUS
-						has_civil_war = yes
-						OR = {
-							owns_state = 4
-							owns_state = 152
-							owns_state = 153
-						}
-					}
-				}
-				custom_effect_tooltip = germany.126.warning
-				random_other_country = {
-					limit = {
-						original_tag = AUS
-						OR = {
-							has_government = fascism
-							AND = {
-								has_government = neutrality
-								NOT = {
-									any_other_country = {
-										original_tag = AUS
-										has_government = fascism
-									}
-								}
-							}
-							NOT = {
-								any_other_country = {
-									original_tag = AUS
-									OR = {
-										has_government = fascism
-										has_government = neutrality
-									}
-								}
-							}							
-						}
-					}
-					country_event = { id = germany.126 days = 1 }
-				}
+        POL = { kill_country_leader = yes }
+		POL = { add_stability = -0.3 }
 			}
 
-			if = {
-				limit = {
-					4 = {
-						owner = {
-							NOT = {
-								tag = AUS
-							}
-							NOT = {
-								is_in_faction_with = ROOT
-							}
-						}
-					}
-				}
-				add_state_core = 4
-			}
-			if = {
-				limit = {
-					152 = {
-						owner = {
-							NOT = {
-								tag = AUS
-							}
-							NOT = {
-								is_in_faction_with = ROOT
-							}
-						}
-					}
-				}
-				add_state_core = 152
-			}
-			if = {
-				limit = {
-					153 = {
-						owner = {
-							NOT = {
-								tag = AUS
-							}
-							NOT = {
-								is_in_faction_with = ROOT
-							}
-						}
-					}
-				}
-				add_state_core = 153
-			}
-		}
-	}
+}
 
 	focus = {
 		id = GER_demand_memel
@@ -3613,7 +3146,7 @@ focus_tree = {
 	focus = {
 		id = GER_around_maginot
 		icon = GFX_goal_generic_attack_allies
-		prerequisite = { focus = GER_danzig_or_war focus = GER_poland_friend}
+		prerequisite = { focus = GER_danzig_or_war }
 		
 		available = {
 			OR = {
@@ -3849,32 +3382,6 @@ focus_tree = {
 		icon = GFX_goal_demand_sudetenland
 		prerequisite = { focus = GER_anschluss }
 		mutually_exclusive = { focus = GER_czech_friend }
-		will_lead_to_war_with = CZE
-		will_lead_to_war_with = FRA
-		available = {
-			is_subject = no
-			has_army_manpower = { size > 724999 } #80 div		
-			NOT = {
-				AND = {
-					CZE = { is_in_faction_with = GER }
-					has_war = yes
-				}
-			}
-		}
-		bypass = {
-			OR = {
-				CZE = { is_puppet_of = GER }
-				69 = { 
-					CONTROLLER = {
-						has_war_with = GER
-					}
-				}
-				GER = { controls_state = 69 }
-			}
-		}
-		cancel = {
-			is_puppet = yes
-		}
 		cancel_if_invalid = yes
 		x = -1
 		y = 1
@@ -3882,168 +3389,30 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			factor = 10
-		}	
+		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			if =  {
-				limit = {
-					OR = {
-						ENG = { exists = no }
-						ENG = {
-							is_subject = yes
-						}
-						ENG = { has_completed_focus = ENG_a_change_in_course }
-						has_war_with = ENG
-						has_war_with = FRA
-						AND = {
-							CZE = { is_subject = yes }
-							OR = {
-								CZE = { 
-									NOT = {
-										is_puppet_of = HUN
-									}
-								}
-								NOT = { has_dlc = "Death or Dishonor" }
-							}
-						}
-						CZE = { has_war_with = ENG }
-						CZE = { has_war_with = FRA }
-						CZE = { is_in_faction_with = GER }
-					}
-					CZE = { controls_state = 69 }
+			diplomatic_relation = {
+				country = SOV
+				relation = non_aggression_pact
+				active = no
 				}
-				if = {
-					limit = {
-						CZE = { is_subject = no }
+				diplomatic_relation = {
+					country = LAT
+					relation = non_aggression_pact
+					active = no
 					}
-					CZE = {
-						country_event = { id = germany.122 }
-					}
-					else = {
-						CZE = {
-							OVERLORD = { country_event = { id = germany.122 } }
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_dlc = "Death or Dishonor"
-					CZE = { NOT = { is_in_faction_with = GER } } #in case AH is in faction with GER and dragged a subject CZE along.
-					OR = {
-						69 = { is_owned_by = HUN } #AH restored
-						AND = {
-							CZE = { is_subject_of = HUN }
-							69 = { is_owned_by = CZE }
-						}
-					}
-				}
-				HUN = {
-					country_event = germany.122
-				}
-			}
-			if = {
-				limit = {
-					ENG = { exists = yes }
-					ENG = { is_subject = no }
-					NOT = { ENG = { has_completed_focus = ENG_a_change_in_course } }
-					NOT = { has_war_with = ENG }
-					NOT = { has_war_with = FRA }
-					CZE = { is_subject = no }
-					NOT = {
-						AND = {
-							CZE = { is_in_faction_with = HOL }
-							HOL = { is_faction_leader = yes }
-							HOL = { has_completed_focus = HOL_foundations_for_a_european_union }
-						}
-					}
-					CZE = { NOT = { is_in_faction_with = GER } }
-					CZE = { NOT = { has_war_with = ENG } }
-					CZE = { controls_state = 69 }
-					OR = {
-						HUN = {
-							NOT = {
-								has_completed_focus = HUN_protect_czechoslovakia #DOD only
-							}
-						}
-						CZE = {
-							has_country_flag = HUN_AH_CZE_refused
-						}
-					}
-				}
-				ENG = {
-					country_event = germany.40
-				}
-				add_named_threat = { threat = 3 name = GER_demand_sudetenland_threat }
-			}
-			if = {
-				limit = {
-					HOL = { exists = yes }
-					HOL = { is_subject = no }
-					HOL = { has_completed_focus = HOL_foundations_for_a_european_union }
-					HOL = { is_faction_leader = yes }
-					NOT = { has_war_with = HOL }
-					NOT = { has_war_with = FRA }
-					CZE = { is_subject = no }
-					CZE = { is_in_faction_with = HOL }
-					CZE = { controls_state = 69 }
-					OR = {
-						HUN = {
-							NOT = {
-								has_completed_focus = HUN_protect_czechoslovakia #DOD only
-							}
-						}
-						CZE = {
-							has_country_flag = HUN_AH_CZE_refused
-						}
-					}
-				}
-				HOL = {
-					country_event = germany.40
-				}
-				add_named_threat = { threat = 3 name = GER_demand_sudetenland_threat }
-			}
-			69 = {
-				add_claim_by = GER
-			}
-			if = { 
-				limit = {
-					NOT = { CZE = { controls_state = 69 } }
-					NOT = {
-						69 = { is_controlled_by = HUN }
-						HUN = { has_completed_focus = HUN_protect_czechoslovakia }
-					}
-					69 = {
-						controller = {
-							NOT = { is_in_faction_with = GER }
-						}
-					}
-				}
-				69 = { #This technically allows nations who are in a war with CZE to give away their land... diplomacy never looked so real.
-					controller = {
-						country_event = { id = germany.1041 days = 2 random_days = 10 }
-					}
-				}
-				add_named_threat = { threat = 3 name = GER_demand_sudetenland_threat }
-			}
-		}
+					diplomatic_relation = {
+						country = AUS
+						relation = non_aggression_pact
+						active = no
+						}	
 	}
-
+}
 	focus = {
 		id = GER_first_vienna_award
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = GER_demand_sudetenland }
-		bypass = {
-			OR = {
-				AND = {
-					NOT = { CZE = { controls_state = 664 } }
-					NOT = { owns_state = 664 }
-				}
-				HUN = { is_friend_or_potential_friend_of_GER = no }
-				CZE = { is_puppet_of = GER }
-				CZE = { is_in_faction_with = GER }
-			}
-		}
 		available = {
 			is_subject = no
 			owns_state = 69
@@ -4056,18 +3425,34 @@ focus_tree = {
 			factor = 10
 		}	
 		completion_reward = {
-			HUN = {
-				country_event = { id = germany.51 }
-				add_opinion_modifier = { target = GER modifier = GER_first_vienna_award_GER }
-			}
-			every_other_country = {
-				limit = {
-					is_faction_leader = yes
-				}
-				reverse_add_opinion_modifier = { target = HUN modifier = GER_first_vienna_award_other }
-			}
+			SOV = { set_state_owner = 96
+			        set_state_owner = 95
+			        set_state_owner = 94
+			        set_state_owner = 93
+			        set_state_owner = 199
+			        set_state_owner = 97
+			        set_state_owner = 92
+					set_state_owner = 10
+					set_state_owner = 98
+					set_state_owner = 87
+					set_state_owner = 90
+					set_state_owner = 10
+    LAT = { set_state_owner = 784
+			set_state_owner = 180
+			set_state_owner = 814
+		}
+	AUS = {
+		set_state_owner = 88
+		set_state_owner = 91
+		set_state_owner = 89
+	}
+	annex_country = {
+		target = GER
+		transfer_troops = yes
 		}
 	}
+}
+}
 
 	focus = {
 		id = GER_end_of_czechoslovakia
@@ -4076,24 +3461,7 @@ focus_tree = {
 		available = { 
 			is_subject = no
 			has_army_manpower = { size > 749999 }
-			NOT = { has_war_with = CZE }
 		}
-
-		bypass = {
-			OR = {
-				CZE = { is_puppet_of = GER }
-				CZE = { is_in_faction_with = GER }
-				has_war_with = CZE
-				NOT = { country_exists = CZE }
-				any_other_country = {
-					is_in_faction_with = GER
-					CZE = {
-						is_puppet_of = PREV
-					}
-				}
-			}
-		}
-
 		x = 0
 		y = 1
 		relative_position_id = GER_first_vienna_award
@@ -4104,73 +3472,19 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			if = {
-				limit = { 
-					country_exists = CZE 
-					CZE = {
-						NOT = {
-							is_subject_of = HUN
-							is_in_faction_with = POL
-						}
-						has_war = no
-					}
-					NOT = { POL = { has_guaranteed = CZE } }
-				}
-				set_global_flag = end_of_czechoslovakia
-				CZE = { country_event = germany.53 }
-			}
-			if = {
-				limit = { 
-					OR = {
-						CZE = {
-							is_subject_of = HUN
-						}
-						HUN = {
-							owns_state = 9#Prague - AH annexed CZE
-						}
-					}
-				}
-				add_state_claim = 9
-				add_state_claim = 75
-				create_wargoal = {
-					type = take_state_focus
-					target = CZE
-					generator = { 9 75 }
-				}
-			}
-			if = {
-				limit = { 
-					OR = { #If Poland has done Miedzymorze or Baltic Alliance
-						CZE = {
-							is_in_faction_with = POL
-						}
-						CZE = {
-							has_war = yes
-						}
-						POL = { has_guaranteed = CZE }
-					}
-				}
-				add_state_claim = 9
-				add_state_claim = 75
-				create_wargoal = {
-					type = take_state_focus
-					target = CZE
-					generator = { 9 75 }
-				}
-			}
-			if = {
-				limit = { NOT = { country_exists = CZE } }
-				country_event = { id = germany.55 hours = 6 }
-			}
-			add_named_threat = { threat = 5 name = GER_end_of_czechoslovakia }
-			custom_effect_tooltip = end_of_czechoslovakia_mefo_bills_tt
+			add_state_core = 763
+			add_state_core = 5
+			add_state_core = 85
+			add_state_core = 807
+			add_state_core = 86
+			add_state_core = 762	
 		}
 	}
 
 	focus = {
 		id = GER_second_vienna_award
 		icon = GFX_goal_generic_cavalry
-		prerequisite = { focus = GER_czech_friend focus = GER_end_of_czechoslovakia }
+		prerequisite = { focus = GER_end_of_czechoslovakia }
 		x = 0
 		y = 3
 		relative_position_id = GER_czech_friend
@@ -4240,168 +3554,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_italy_ally
-		icon = GFX_goal_generic_major_alliance
-		prerequisite = { focus = GER_second_vienna_award }
-		available = {
-			NOT = { has_war_with = ITA }
-			NOT = { has_country_flag = ENG_ditched_the_italians_flag }
-		}
-
-		bypass = {
-			
-			OR = {
-				is_in_faction_with = ITA
-				has_war_with = ITA
-				NOT = { country_exists = ITA }
-			}
-		}
-
-		x = 0
-		y = 1
-		relative_position_id = GER_second_vienna_award
-		cost = 10
-		ai_will_do = {
-			factor = 10
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			ITA = {
-				add_opinion_modifier = { target = GER modifier = ger_ita_alliance_focus }
-			}
-		}
-	}
-	
-	focus = {
-		id = GER_nationalist_spain_ally
-		icon = GFX_goal_generic_major_alliance
-		prerequisite = { focus = GER_italy_ally }
-		available = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "La Resistance" }
-				}
-				SPR = { has_civil_war = no }
-				any_other_country = {
-					original_tag = SPR
-					has_government = fascism
-					NOT = { has_war_with = GER }
-					NOT = { is_in_faction_with = GER }
-				}
-			}
-			if = {
-				limit = {
-					has_dlc = "La Resistance"
-				}
-				SPA = {
-					exists = yes
-					has_civil_war = no
-					NOT = { has_war_with = GER }
-					NOT = { is_in_faction_with = GER }
-					NOT = { has_completed_focus = SPA_join_the_allies }
-				}
-			}
-			FRA = {
-				OR = {
-					exists = no
-					has_capitulated = yes
-					has_government = fascism
-				}
-			}
-		}
-		
-		#bypass = {
-		#	any_other_country = {
-		#		original_tag = SPR
-		#		has_government = fascism
-		#		is_in_faction_with = GER
-		#	}
-		#}
-		x = 0
-		y = 1
-		relative_position_id = GER_italy_ally
-		cost = 10
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				OR = {
-					is_historical_focus_on = yes
-					date < 1942.01.01
-					surrender_progress > 0
-					AND = {
-						has_war_with = ENG
-						ENG = { surrender_progress < 0.2 }
-					}
-				}
-			}
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					OR = { 
-						AND = {
-							NOT = { has_dlc = "La Resistance" }
-							NOT = { country_exists = SPR }
-							SPR = { NOT = { has_government = fascism } }
-						}
-						AND = {
-							has_dlc = "La Resistance"
-							NOT = { country_exists = SPA }
-						}
-					}
-				}
-				custom_effect_tooltip = GER_nationalist_spain_ally_tt
-			}
-			if = {
-				limit = {
-					NOT = { has_dlc = "La Resistance" }
-				}
-				random_other_country = {
-					limit = {
-						original_tag = SPR
-						has_government = fascism
-					}
-					remove_ideas = SPA_recovering_from_civil_war
-					add_opinion_modifier = { target = GER modifier = ger_spa_alliance_focus }
-				}
-			}
-			if = {
-				limit = {
-					has_dlc = "La Resistance"
-				}
-				SPA = {
-					remove_ideas = SPA_recovering_from_civil_war
-					add_opinion_modifier = { target = GER modifier = ger_spa_alliance_focus }
-				}
-			}
-		}
-	}
-
-
-
-	focus = {
 		id = GER_danzig_vs_slovakia
 		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = { focus = GER_end_of_czechoslovakia }
 		mutually_exclusive = { focus = GER_danzig_or_war }
-		available = {
-			is_subject = no
-			OR = {
-				SLO = {
-					exists = yes
-					is_in_faction_with = GER
-				}
-				owns_state = 70
-			}
-			NOT = { owns_state = 85 }
-			NOT = { has_war_with = POL }
-			POL = { owns_state = 72 }
-		}
-
-
 		x = 0
 		y = 1
 		relative_position_id = GER_end_of_czechoslovakia
@@ -4411,69 +3567,9 @@ focus_tree = {
 		}	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			POL = {
-				country_event = { id = germany.80 days = 1 }
+			add_country_leader_trait = permanent_revolutionary
 			}
 		}
-	}
-
-	focus = {
-		id = GER_poland_friend
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = GER_danzig_vs_slovakia }
-		available = {
-			NOT = { has_global_flag = sov_yes_pact }
-			NOT = { has_war_with = POL }
-			POL = {
-				custom_trigger_tooltip = {
-					tooltip = GER_alone_or_peace_faction_tt
-					is_alone_or_in_faction_at_peace_with_GER = yes
-				}
-			}
-		}
-		bypass = {
-			is_in_faction_with = POL
-			is_alone_or_in_faction_at_peace_with_GER = no
-		}
-		x = 0
-		y = 1
-		relative_position_id = GER_danzig_vs_slovakia
-		cost = 10
-		ai_will_do = {
-			factor = 0
-		}	
-		completion_reward = {
-			POL = {
-				add_opinion_modifier = { target = GER modifier = ger_pol_diplomacy_focus }
-				if = {
-					limit = {
-						GER = {
-							has_government = fascism
-						}
-					}
-					add_timed_idea = { idea = fascist_influence days = 1095 }
-				}
-				if = {
-					limit = {
-						GER = {
-							has_government = communism
-						}
-					}
-					add_timed_idea = { idea = communist_influence days = 1095 }
-				}
-				if = {
-					limit = {
-						GER = {
-							has_government = democratic
-						}
-					}
-					add_timed_idea = { idea = democratic_influence days = 1095 }
-				}
-				country_event = { id = generic.1 }
-			}
-		}
-	}
-
 	focus = {
 		id = GER_war_with_france
 		icon = GFX_goal_generic_major_war
@@ -5306,60 +4402,6 @@ focus_tree = {
 					remove_ideas = neutrality_idea
 				}
 			}
-		}
-	}
-
-	focus = {
-		id = GER_improve_national_spirit
-		prerequisite = { focus = GER_anschluss }
-		icon = GFX_goal_support_fascism
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = GER_improve_national_spirit_tooltip
-				OR = {
-					GER = { controls_state = 126 }
-					any_other_country = {
-						is_in_faction_with = GER
-						controls_state = 126
-					}
-				}
-				OR = {
-					GER = { controls_state = 16 }
-					any_other_country = {
-						is_in_faction_with = GER
-						controls_state = 16
-					}
-				}
-			}
-		}
-		cancel = {
-			AND = {
-				has_war = no
-				126 = {
-					owner = {
-						NOT = { tag = GER }
-						NOT = { is_in_faction_with = GER }
-					}
-				}
-				16 = {
-					owner = {
-						NOT = { tag = GER }
-						NOT = { is_in_faction_with = GER }
-					}
-				}
-			}
-		}
-		cancel_if_invalid = no
-		x = 5
-		y = 1
-		relative_position_id = GER_anschluss
-		cost = 10
-		ai_will_do = {
-			factor = 10
-		}	
-		completion_reward = {
-			remove_ideas = sour_loser
-			add_ideas = triumphant_will
 		}
 	}
 
