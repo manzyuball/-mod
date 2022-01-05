@@ -18,15 +18,14 @@ country_event = {
 		country_exists = USA
 		country_exists = USB
 		country_exists = CSA
-		date < 1936.02.1
+		date < 1936.03.5
 	}
 	
 	mean_time_to_happen = {
-		days = 0
+		days = 7
 	}
 
 	immediate = {
-		set_global_flag = USA_civir_war
 		declare_war_on = {
 			target = USB
 			type = annex_everything
