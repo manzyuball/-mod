@@ -4,16 +4,16 @@ state={
 	name="STATE_512"
 	manpower = 226638
 	
-	state_category = rural
+	state_category = large_town
 	
 	resources={
-		oil=5 # was: 6
+		oil=22 # was: 6
 	}
 
 	history={
 		owner = ARG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			10953 = {
 				naval_base = 1
 			}

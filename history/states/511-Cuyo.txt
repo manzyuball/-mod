@@ -4,7 +4,7 @@ state={
 	name="STATE_511" # Mendoza
 	manpower = 1090274
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = ARG
@@ -15,7 +15,7 @@ state={
 		}
 		add_core_of = ARG
 		victory_points = {
-			12942 1 
+			12942 3
 		}
 
 	}

@@ -4,7 +4,7 @@ state={
 	name="STATE_509" # Chaco Australis
 	manpower = 704241
 	
-	state_category = town
+	state_category = large_town
 	
 	resources={
 		tungsten=35 # was: 46
@@ -14,8 +14,8 @@ state={
 	history={
 		owner = ARG
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 4
+			industrial_complex = 2
 		}
 		add_core_of = ARG
 	}

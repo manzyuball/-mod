@@ -314,7 +314,7 @@ set_technology = { #VANILLA & DLC
 	fuel_silos = 1
 	basic_train = 1
 }
-
+AUS = { add_to_faction = BUL }
 
 
 ##############
@@ -462,6 +462,5 @@ set_technology = { #VANILLA & DLC
 		}
 		set_oob = "BUL_1939_nsb"
 	}
-
 	
 }
