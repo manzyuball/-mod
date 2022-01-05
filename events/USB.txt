@@ -1,0 +1,42 @@
+﻿###########################
+# USA Events
+###########################
+
+add_namespace = usa
+
+# Amelia Eartharts wants to join the USAAC
+country_event = {
+	id = usa.0
+	title = usa.0.t
+	desc = usa.0.d
+	picture = GFX_news_event_064.dds
+
+	fire_only_once = yes
+	
+	trigger = {
+		country_exists = USA
+		country_exists = USB
+		country_exists = CSA
+		date < 1936.02.1
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	immediate = {
+		set_global_flag = USA_civir_war
+		declare_war_on = {
+			target = USA
+			type = annex_everything
+		}
+			declare_war_on = {
+				target = CSA
+				type = annex_everything
+				}	
+}
+	option = { # Refuse
+		name = usa.1.b
+	}
+}
+
