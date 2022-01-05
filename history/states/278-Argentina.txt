@@ -2,7 +2,7 @@
 state={
 	id=278
 	name="STATE_278" # Pampas
-	manpower = 5596366
+	manpower = 9824296
 	
 	state_category = megalopolis
 
