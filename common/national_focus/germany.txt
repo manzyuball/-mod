@@ -22,7 +22,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_four_year_plan
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_support_fourth_int
 		x = 0
 		y = 0
 		cost = 10
@@ -618,7 +618,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_form_the_reichskommissariats
-		icon = GFX_focus_ger_reichskommisariats
+		icon = GFX_focus_ger_great_red_menace
 		prerequisite = { focus = GER_german_war_economy }
 		available = {
 			has_government = communism
@@ -1430,7 +1430,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_anschluss
-		icon = GFX_goal_anschluss
+		icon = GFX_focus_SOV_penal_battalions
 		prerequisite = { focus = GER_rhineland }
 		available_if_capitulated = no
 		available = {
@@ -1460,11 +1460,12 @@ focus_tree = {
 
 	focus = {
 		id = GER_demand_memel
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_focus_generic_forest_brothers
 		prerequisite = { focus = GER_anschluss }
+		prerequisite = { focus =  GER_demand_sudetenland }
 		available = { is_subject = no }
 		x = 1
-		y = 1
+		y = 1.4
 		relative_position_id = GER_anschluss
 		cost = 10
 		bypass = {
@@ -1490,7 +1491,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_danzig_or_war
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_focus_generic_scandinavian_alliance
 		prerequisite = { focus = GER_demand_memel }
 		x = 21
 		y = 5
@@ -1509,28 +1510,6 @@ focus_tree = {
 						type = annex_everything
 						}
 					}
-	}
-	
-	focus = {
-		id = GER_weserubung
-		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = { focus = GER_danzig_or_war }
-		mutually_exclusive = { focus = GER_denmark_friend }
-		x = 0
-		y = 1
-		relative_position_id = GER_danzig_or_war
-		cost = 4
-		ai_will_do = {
-			factor = 10	
-			modifier = {
-				factor = 0
-				date < 1939.1.1
-			}
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_ideas = GER_idea
-		}
 	}
 
 	focus = {
@@ -1639,7 +1618,7 @@ focus_tree = {
 	
 	focus = {
 		id = GER_demand_sudetenland
-		icon = GFX_goal_demand_sudetenland
+		icon = GFX_focus_hol_the_foundations_of_defense
 		prerequisite = { focus = GER_anschluss }
 		mutually_exclusive = { focus = GER_czech_friend }
 		cancel_if_invalid = yes
@@ -1671,7 +1650,7 @@ focus_tree = {
 }
 	focus = {
 		id = GER_first_vienna_award
-		icon = GFX_goal_generic_military_deal
+		icon = GFX_focus_POL_polish_revanchism
 		prerequisite = { focus = GER_demand_sudetenland }
 		x = 0
 		y = 1
@@ -1702,13 +1681,21 @@ focus_tree = {
 		set_state_owner = 91
 		set_state_owner = 89
 	}
-	annex_country = {
-		GER = {
-		target = POL
-		transfer_troops = yes }
+	GER = {
+		set_state_owner = 68
+		set_state_owner = 63
+		set_state_owner = 66
+		set_state_owner = 67
+		set_state_owner = 762
+		set_state_owner = 86
+		set_state_owner = 807
+		set_state_owner = 85
+		set_state_owner = 5
+		set_state_owner = 763
+		set_state_owner = 62
+	        }
 		}
 	}
-}
 }
 
 	focus = {
@@ -1736,9 +1723,9 @@ focus_tree = {
 
 	focus = {
 		id = GER_second_vienna_award
-		icon = GFX_goal_generic_cavalry
+		icon = GFX_focus_SOV_builder_of_the_red_army
 		prerequisite = { focus = GER_end_of_czechoslovakia }
-		x = 0
+		x = 2
 		y = 3
 		relative_position_id = GER_czech_friend
 		cost = 10
@@ -1752,10 +1739,10 @@ focus_tree = {
 
 	focus = {
 		id = GER_danzig_vs_slovakia
-		icon = GFX_goal_generic_intelligence_exchange
+		icon = GFX_focus_fra_loyalty_trotzky
 		prerequisite = { focus = GER_end_of_czechoslovakia }
 		mutually_exclusive = { focus = GER_danzig_or_war }
-		x = 0
+		x = 2
 		y = 1
 		relative_position_id = GER_end_of_czechoslovakia
 		cost = 10
@@ -1764,7 +1751,7 @@ focus_tree = {
 		}	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			add_country_leader_trait = permanent_revolutionary
+			add_country_leader_trait = devoted_trotskyist
 			}
 		}
 
