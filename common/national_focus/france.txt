@@ -1182,22 +1182,9 @@
 
 		search_filters = { FOCUS_FILTER_POLITICAL  }
 		completion_reward = {
-			add_country_leader_role = {
-				character = FRA_leon_blum
-				country_leader = {
-					expire = "1965.1.1"
-					ideology = socialism
-					traits = {
-						reluctant_interventionist
-						stout_defender
-					}
-				}
-				promote_leader = yes
+			add_political_power = 450
 			}
-			set_country_flag = { flag = FRA_popular_front_cooldown value = 1 days = 360 } #fires strike event if labour laws not reformed in time
 		}
-	}
-
 
 	focus = {
 		id = FRA_reform_the_labour_laws
@@ -1476,7 +1463,6 @@
 		prerequisite = {
 			focus = FRA_nationalize_key_industry
 		}
-		mutually_exclusive = { focus = FRA_france_undividable }
 		relative_position_id = FRA_expand_the_citizenship
 		cost = 10
 
@@ -1500,6 +1486,168 @@
 			remove_worker_shortage_effect = yes
 		}
 	}
+
+	focus = {
+		id = FRA_encourage_immigration_2
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = FRA_encourage_immigration
+		}
+		relative_position_id = FRA_encourage_immigration
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			annex_country = {
+				target = BRI
+				transfer_troops = yes
+				}
+		}
+	}
+
+	focus = {
+		id = FRA_encourage_immigration_3
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = FRA_encourage_immigration_2
+		}
+		relative_position_id = FRA_encourage_immigration_2
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_resource = {
+				type = rubber
+				amount = 23
+				state = 16
+					}
+					add_resource = {
+						type = aluminium
+						amount = 28
+						state = 16
+							}	
+				}
+	}
+	focus = {
+		id = FRA_encourage_immigration_4
+		icon = GFX_goal_generic_national_unity
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = FRA_encourage_immigration_2
+		}
+		relative_position_id = FRA_encourage_immigration_2
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			create_country_leader = {
+				name = "Lev Davidovich Trotsky"
+				desc = "革命家"
+				picture = "Portrait_Leon_Trotsky.dds"
+				expire = "1965.1.1"
+				ideology = communism
+				traits = {
+					triumphant_revolutionary anti_democrat
+				}
+				}
+				}
+	}
+
+	focus = {
+		id = FRA_encourage_immigration_4
+		icon = GFX_goal_generic_national_unity
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = FRA_encourage_immigration_2
+		}
+		relative_position_id = FRA_encourage_immigration_2
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_state_core = 165
+			add_state_core = 794
+			add_state_core = 166
+			add_state_core = 172
+			add_state_core = 792
+			add_state_core = 176
+			add_state_core = 167
+			add_state_core = 793
+			add_state_core = 168
+			add_state_core = 177
+				}
+	}	
+
+
+
+
+
 	focus = {
 		id = FRA_review_foreign_policy
 		icon = GFX_goal_support_democracy
