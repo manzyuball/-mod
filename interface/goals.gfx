@@ -711,7 +711,26 @@ spriteTypes = {
 	}	
 	
 	
-	#### German goal icons
+	#### German goal icons 
+
+	SpriteType = {
+		name = "GFX_focus_invasion_of_albania"
+		texturefile = "gfx/interface/goals/GFX_focus_invasion_of_albania.png"
+				
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_ita_on_northern_italy"
+		texturefile = "gfx/interface/goals/GFX_focus_ita_on_northern_italy.png"
+				
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_ita_villaggio_mussolini"
+		texturefile = "gfx/interface/goals/GFX_focus_ita_villaggio_mussolini.png"
+				
+	}	
+
 
 	SpriteType = {
 		name = "GFX_goal_fortify_the_westwall"
