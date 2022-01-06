@@ -7,7 +7,7 @@ state={
 	state_category = rural
 	
 	resources={
-		oil=2 # was: 2
+		oil=23 # was: 2
 	}
 
 	history={
@@ -21,7 +21,7 @@ state={
 			}
 		}
 		victory_points = {
-			10760 3 
+			10760 15
 		}
 		add_core_of = OMA
 	}

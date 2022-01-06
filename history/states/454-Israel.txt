@@ -4,10 +4,11 @@ state={
 	name="STATE_454" #Palestine
 	manpower = 933142
 	
-	state_category = rural
+	state_category = city
 
 	history={
-		owner = ENG
+		owner = EGY
+		add_core_of = EGY
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1

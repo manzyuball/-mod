@@ -4,11 +4,12 @@ state={
 	name="STATE_453"
 	manpower = 15359
 	
-	state_category = wasteland
+	state_category = town
 	
 	
 	history = {
-		owner = ENG
+		owner = EGY
+		add_core_of = EGY
 		buildings = {
 			infrastructure = 1
 		}

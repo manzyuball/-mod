@@ -300,8 +300,6 @@
 		}	
 		completion_reward = {
 			# French border
-			158 = {
-				custom_effect_tooltip = ITA_fortification_effort_forts
 				hidden_effect = {
 					add_building_construction = {
 						type = bunker
@@ -335,35 +333,9 @@
 					}
 				}
 			}
-			# Dodecanese
-			164 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 3
-					province = 10007
-					instant_build = yes
-				}
-			}
-			# Sardinia
-			114 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 3
-					province = 9863
-					instant_build = yes
-				}
-			}
-			# Sicily
-			115 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 3
-					province = 4159
-					instant_build = yes
-				}
-			}
-		}
-	}
+
+
+}
 
 	focus = {
 		id = ITA_extra_tech_slot
@@ -532,11 +504,6 @@
 		icon = GFX_goal_generic_oil_refinery
 		text = ITA_libyan_refineries
 		prerequisite = { focus = ITA_prospect_for_oil }
-		available = {
-			ITA = {
-				controls_state = 450
-			}
-		}
 		x = -1
 		y = 1
 		relative_position_id = ITA_prospect_for_oil
@@ -1510,8 +1477,8 @@
 				name = "Benito Amilcare Andrea Mussolini"
 				picture = "Portrait_Italy_Benito_Mussolini.dds"
 				expire = "1965.1.1"
-				ideology = fascism
-				traits = { great_war_hero autocratic_imperialist
+				ideology = communism
+				traits = { great_war_hero
 				}
 				}
 			}
@@ -1532,12 +1499,12 @@
 			start_border_war = {
 				change_state_after_war = no
 				attacker = {
-				state = 2 state = 161 state = 2
-				num_provinces = 6
+				state = 162
+				num_provinces = 3
 				}
 				defender = {
 				state = 157
-				num_provinces = 4
+				num_provinces = 2
 				}
 				}
 			}
