@@ -1355,7 +1355,6 @@
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
 			add_ideas = { FRA_expanded_citizenship }
-			remove_worker_shortage_effect = yes
 		}
 	}
 
@@ -1494,16 +1493,7 @@
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			create_country_leader = {
-				name = "Lev Davidovich Trotsky"
-				desc = "革命家"
-				picture = "Portrait_Leon_Trotsky.dds"
-				expire = "1965.1.1"
-				ideology = communism
-				traits = {
-					triumphant_revolutionary anti_democrat
-				}
-				}
+			
 				}
 	}
 
@@ -1535,16 +1525,16 @@
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_state_core = 165
-			add_state_core = 794
-			add_state_core = 166
-			add_state_core = 172
-			add_state_core = 792
-			add_state_core = 176
-			add_state_core = 167
-			add_state_core = 793
-			add_state_core = 168
-			add_state_core = 177
+			create_country_leader = {
+				name = "Lev Davidovich Trotsky"
+				desc = "革命家"
+				picture = "Portrait_Leon_Trotsky.dds"
+				expire = "1965.1.1"
+				ideology = communism
+				traits = {
+					triumphant_revolutionary anti_democrat
+				}
+				}
 				}
 	}	
 
