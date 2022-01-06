@@ -1,4 +1,4 @@
-﻿capital = 116
+﻿capital = 117
 
 #oob = ""
 
@@ -64,6 +64,9 @@ recruit_character = MLT_nccr
 		dispersed_industry2 = 1
 	}
 }
+
+ENG = { add_to_faction = MLT }
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
@@ -71,8 +74,8 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
+	democratic = 55
 	fascism = 8
-	communism = 15
-	neutrality = 27
+	communism = 2
+	neutrality = 35
 }

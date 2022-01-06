@@ -3,7 +3,7 @@ state={
 	name="STATE_688"
 	manpower = 45900
 	
-	state_category = pastoral
+	state_category = town
 	
 	resources={
 		tungsten=3 # was: 4
@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = PAR
+		owner = ARG
+		add_core_of = ARG
 		buildings = {
 			infrastructure = 1
 		}

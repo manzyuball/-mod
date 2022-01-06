@@ -1433,11 +1433,6 @@ focus_tree = {
 		icon = GFX_focus_SOV_penal_battalions
 		prerequisite = { focus = GER_rhineland }
 		available_if_capitulated = no
-		available = {
-			is_subject = no
-			has_army_manpower = { size > 499999 }
-			NOT = { has_idea = rhineland_challenge_met }
-		}
 		cancel_if_invalid = no
 		x = 3
 		y = 2
@@ -1495,7 +1490,6 @@ focus_tree = {
 		prerequisite = { focus = GER_demand_memel }
 		x = 21
 		y = 5
-		mutually_exclusive = { focus = GER_danzig_vs_slovakia }
 		completion_reward = {
 			declare_war_on = {
 				target = DEN
@@ -1741,7 +1735,7 @@ focus_tree = {
 		id = GER_danzig_vs_slovakia
 		icon = GFX_focus_fra_loyalty_trotzky
 		prerequisite = { focus = GER_end_of_czechoslovakia }
-		mutually_exclusive = { focus = GER_danzig_or_war }
+		prerequisite = { focus = GER_danzig_or_war }
 		x = 2
 		y = 1
 		relative_position_id = GER_end_of_czechoslovakia

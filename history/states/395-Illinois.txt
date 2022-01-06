@@ -15,6 +15,7 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = USB
+		add_core_of = CSA
 		victory_points = {
 			9450 30.0
 		}

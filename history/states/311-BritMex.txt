@@ -7,8 +7,9 @@ state=
 	state_category = pastoral
 	history=
 	{
+		add_core_of = HON
 		add_core_of = GUA
-		owner = GUA
+		owner = HON
 		victory_points = {
 			2077 1 
 		}

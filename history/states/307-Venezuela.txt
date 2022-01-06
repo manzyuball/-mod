@@ -7,11 +7,12 @@ state={
 	
 	manpower = 1335010
 	resources={
-		oil=41 # was: 58
+		oil=64 # was: 58
 	}
 
 	history={
-		owner = VEN
+		owner = COL
+		add_core_of = COL
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

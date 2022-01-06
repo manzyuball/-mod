@@ -6,7 +6,8 @@ state=
 	manpower=11532
 	history=
 	{
-		owner = ECU
+		owner = PRU
+		add_core_of = PRU
 		buildings = {
 			infrastructure = 1
 			5023 = {

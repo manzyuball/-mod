@@ -17,6 +17,8 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = USA
+		add_core_of = USB
+		add_core_of = CSA
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

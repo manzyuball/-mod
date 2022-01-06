@@ -11,7 +11,7 @@ state=
 	
 
 	history= {
-		owner = LIB
+		owner = TZN
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -24,6 +24,7 @@ state=
 			7959 3
 		}
 		add_core_of = LIB
+		add_core_of = TZN
 	}
 	provinces={
 		7959 8006

@@ -3,11 +3,11 @@ state= {
 	name="STATE_2" # Latium
 	manpower = 2781971
 	
-	state_category = city
+	state_category = large_city
 
 	history=
 	{
-		owner = ITA
+		owner = MLT
 		victory_points = { 9904 40 }
 		victory_points = { 11846 5 }
 		buildings = {
@@ -23,6 +23,7 @@ state= {
 			}
 		}
 		add_core_of = ITA
+		add_core_of = MLT
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
