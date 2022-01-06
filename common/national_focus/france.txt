@@ -1122,13 +1122,7 @@
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_ideas = { FRA_matignon_agreements }
-			if = {
-				limit = {
-					has_idea = FRA_factory_strikes
-				}
-				remove_ideas = FRA_factory_strikes
-			}
+			add_offsite_building = { type = arms_factory level = 6 }
 		}
 	}
 	focus = {
@@ -1525,9 +1519,9 @@
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			retire_country_leader = yes
 			create_country_leader = {
 				name = "Lev Davidovich Trotsky"
-				desc = "革命家"
 				picture = "Portrait_Leon_Trotsky.dds"
 				expire = "1965.1.1"
 				ideology = communism
@@ -1536,7 +1530,7 @@
 				}
 				}
 				}
-	}	
+	}
 
 
 
