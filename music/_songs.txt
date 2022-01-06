@@ -2,10 +2,10 @@
 music_station = "base_music"
 
 music = {
-	song = "maintheme"
+	song = "Gibraltar"
 	chance = {
 		modifier = {
-			factor = 0.5
+			factor = 0.7
 		}		
 	}
 }
@@ -271,6 +271,19 @@ music = {
 
 music = {
 	song = "comintern_war_3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = communism
+		}		
+	}	
+}
+
+music = {
+	song = "Der offene Aufmarsch"
 	
 	chance = {
 		modifier = {
