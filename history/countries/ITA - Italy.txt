@@ -319,7 +319,6 @@ set_popularities = {
 
 GER = { add_to_faction = ITA }
 
-
 recruit_character = ITA_palmiro_togliatti
 recruit_character = ITA_victor_emmanuel_iii
 recruit_character = ITA_ferruccio_parri
