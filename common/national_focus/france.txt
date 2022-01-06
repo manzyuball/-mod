@@ -176,7 +176,7 @@
 		}	
 	focus = {
 		id = FRA_metropolitan_france
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_goal_support_fourth_int
 		available = {
 			any_owned_state = {
 				is_core_of = ROOT
@@ -242,7 +242,7 @@
 		icon = GFX_focus_generic_industry_3
 		available = {
 		}
-		prerequisite = { focus = FRA_metropolitan_france focus = FRA_algerie_france }
+		prerequisite = { focus = FRA_metropolitan_france }
 		x = 0
 		y = 1
 		relative_position_id = FRA_metropolitan_france
@@ -344,102 +344,6 @@
 			}				
 		}
 	}
-
-
-	focus = {
-		id = FRA_algerie_france
-		icon = GFX_focus_generic_industry_1
-		available = {
-			any_state = {
-				OR = {
-					state = 459
-					state = 460
-					state = 513
-				}
-				OWNER = {
-					OR = {
-						tag = ROOT
-						is_subject_of = ROOT
-					}
-				}
-				free_building_slots = {
-					building = industrial_complex
-					size > 1
-					include_locked = yes
-				}
-			}
-		}
-		x = 2
-		y = 1
-		cost = 10
-		ai_will_do = {
-			factor = 0.2
-		}
-		prerequisite = { focus = FRA_invest_in_the_metropole }
-		relative_position_id = FRA_invest_in_the_metropole
-		available_if_capitulated = yes
-
-		bypass = {
-			
-		}		
-
-		complete_tooltip = {
-			every_state = {
-				limit = { 
-					OR = {
-						state = 459
-						state = 460
-						state = 513
-					}
-					is_owned_or_subject_trigger = yes	
-					OR = {	
-						has_state_flag = FRA_industrial_expansion_target
-						has_state_flag = FRA_colonial_industry_target
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			random_state = {
-				limit = { 
-					OR = {
-						state = 459
-						state = 460
-						state = 513
-					}
-					NOT  = {
-						has_state_flag = FRA_industrial_expansion_target
-						has_state_flag = FRA_colonial_industry_target
-					}
-					is_owned_or_subject_trigger = yes	
-				}
-				add_extra_state_shared_building_slots = 2
-				set_state_flag = FRA_industrial_expansion_target
-				set_state_flag = FRA_colonial_industry_target
-				random_neighbor_state = {
-					limit = { 
-						OR = {
-							state = 459
-							state = 460
-							state = 513
-						}
-						is_owned_or_subject_trigger = yes
-						NOT  = {
-							has_state_flag = FRA_industrial_expansion_target
-							has_state_flag = FRA_colonial_industry_target
-						}		
-					}
-					add_extra_state_shared_building_slots = 2
-					set_state_flag = FRA_industrial_expansion_target
-					set_state_flag = FRA_colonial_industry_target
-				}
-			}
-		}
-	}	
-
 
 	focus = {
 		id = FRA_extra_research_slot
@@ -1153,7 +1057,7 @@
 
 	focus = {
 		id = FRA_form_the_popular_front
-		icon = GFX_goal_generic_intelligence_exchange
+		icon = GFX_focus_hol_the_foundations_of_defense
 		x = 14
 		y = 0
 		offset = {
@@ -1188,7 +1092,7 @@
 
 	focus = {
 		id = FRA_reform_the_labour_laws
-		icon = GFX_goal_generic_production
+		icon = GFX_focus_YUG_pan_slavic_congress
 		x = 0
 		y = 2
 		offset = {
@@ -1378,7 +1282,7 @@
 
 	focus = {
 		id = FRA_ban_the_leagues
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_goal_generic_war_with_comintern
 		x = 1
 		y = 1
 		offset = {
@@ -1457,7 +1361,7 @@
 
 	focus = {
 		id = FRA_encourage_immigration
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_focus_prc_agrarian_socialism
 		x = 0
 		y = 1
 		prerequisite = {
@@ -1489,7 +1393,7 @@
 
 	focus = {
 		id = FRA_encourage_immigration_2
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_goal_demand_sudetenland
 		x = 0
 		y = 1
 		prerequisite = {
@@ -1524,7 +1428,7 @@
 
 	focus = {
 		id = FRA_encourage_immigration_3
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny
 		x = 0
 		y = 1
 		prerequisite = {
@@ -1605,7 +1509,7 @@
 
 	focus = {
 		id = FRA_encourage_immigration_4
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_focus_fra_loyalty_trotzky
 		x = 2
 		y = 1
 		prerequisite = {
@@ -1658,7 +1562,6 @@
 			y = 0
 		}
 		prerequisite = {
-			focus = FRA_reform_the_labour_laws
 			focus = FRA_protect_the_rights_of_man
 		}
 		relative_position_id = FRA_reform_the_labour_laws
@@ -2974,12 +2877,12 @@
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		complete_tooltip = {
-			navy_experience = 25
+			navy_experience = 300
 			every_state = {
 				limit = { has_state_flag = FRA_naval_rearmament_2NB }
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}		
@@ -3005,7 +2908,7 @@
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 3
 						instant_build = yes
 					}
 					set_state_flag = FRA_naval_rearmament_2NB
@@ -3031,7 +2934,7 @@
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = naval_base
-						level = 3
+						level = 4
 						province = 1145
 						instant_build = yes
 					}
@@ -3043,7 +2946,7 @@
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = naval_base
-						level = 3
+						level = 7
 						province = 4948
 						instant_build = yes
 					}
@@ -3055,7 +2958,7 @@
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = naval_base
-						level = 3
+						level = 7
 						province = 5139
 						instant_build = yes
 					}
@@ -3095,7 +2998,7 @@
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 					set_state_flag = FRA_colonial_dockyards
@@ -3107,7 +3010,7 @@
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 					set_state_flag = FRA_colonial_dockyards
@@ -3119,7 +3022,7 @@
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 					set_state_flag = FRA_colonial_dockyards
@@ -3132,7 +3035,6 @@
 		id = FRA_the_old_school
 		icon = GFX_focus_generic_navy_battleship2
 	 	prerequisite = { focus = FRA_naval_rearmament }
-	 	mutually_exclusive = { focus = FRA_the_young_school }
 		x = 0
 		y = 1
 		relative_position_id = FRA_naval_rearmament
@@ -3147,7 +3049,7 @@
 					is_coastal = yes
 					is_controlled_by = ROOT
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = dockyard
 					level = 3
@@ -3160,7 +3062,6 @@
 	focus = {
 		id = FRA_capital_ship_focus
 		icon = GFX_goal_generic_navy_battleship
-	 	mutually_exclusive = { focus = FRA_carrier_focus }
 	 	prerequisite = { focus = FRA_the_old_school }
 		x = -1
 		y = 1
@@ -3172,8 +3073,8 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_capital_ship_focus
-				bonus = 1.0
-				uses = 2
+				bonus = 3.0
+				uses = 4
 				category = bb_tech
 				category = bc_tech
 			}
@@ -3183,7 +3084,6 @@
 	focus = {
 		id = FRA_carrier_focus
 		icon = GFX_goal_generic_navy_carrier
-	 	mutually_exclusive = { focus = FRA_capital_ship_focus }
 	 	prerequisite = { focus = FRA_the_old_school }
 		x = 1
 		y = 1
@@ -3195,8 +3095,8 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_carrier_focus
-				bonus = 1.0
-				uses = 2
+				bonus = 3.0
+				uses = 4
 				category = cv_tech
 			}
 		}
@@ -3347,7 +3247,6 @@
 		id = FRA_the_young_school
 		icon = GFX_goal_generic_navy_cruiser
 	 	prerequisite = { focus = FRA_naval_rearmament }
-	 	mutually_exclusive = { focus = FRA_the_old_school }
 		x = 4
 		y = 1
 		relative_position_id = FRA_naval_rearmament
@@ -3375,8 +3274,8 @@
 			navy_experience = 25
 			add_tech_bonus = {
 				name = FRA_undersea_combat
-				bonus = 1.0
-				uses = 2
+				bonus = 3.0
+				uses = 3
 				category = ss_tech
 			}
 		}
@@ -3397,8 +3296,8 @@
 			navy_experience = 25
 			add_tech_bonus = {
 				name = FRA_surface_combat
-				bonus = 2.0
-				uses = 1
+				bonus = 3.0
+				uses = 3
 				category = dd_tech
 			}
 		}
@@ -3448,7 +3347,7 @@
 			add_doctrine_cost_reduction = {
 				name = FRA_naval_doctrine
 				cost_reduction = 0.5
-				uses = 2
+				uses = 4
 				category = naval_doctrine
 			}
 		}
