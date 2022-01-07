@@ -1387,15 +1387,20 @@
 				change_state_after_war = yes
 				attacker = {
 				state = 162
-				num_provinces = 3
+				num_provinces = 4
 				}
 				defender = {
 				state = 2
-				num_provinces = 2
+				num_provinces = 3
 				}
-				}
-			}
+		    }
+			set_border_war_data = {
+				attacker = 162
+				defender = 2
+				attacker_modifier = 1.75
+				combat_width = 100 }
 		}
+	}
 	focus = {
 		id = ITA_albania_war_goal
 		icon = GFX_focus_invasion_of_albania
@@ -1496,17 +1501,22 @@
 			factor = 1
 		}
 		completion_reward = {
-			start_border_war = {
-				change_state_after_war = no
+	    start_border_war = {
+				change_state_after_war = yes
 				attacker = {
-				state = 162
-				num_provinces = 3
+				state = 161
+				num_provinces = 4
 				}
 				defender = {
 				state = 157
-				num_provinces = 2
+				num_provinces = 3
 				}
-				}
+		    }
+			set_border_war_data = {
+				attacker = 161
+				defender = 157
+				attacker_modifier = 1.75
+				combat_width = 100 }
 			}
 	}
 
