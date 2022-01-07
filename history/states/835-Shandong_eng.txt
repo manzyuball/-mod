@@ -1,0 +1,26 @@
+state=
+{
+	id=835
+	name="STATE_835"
+	manpower = 23200
+	state_category = town
+	
+	
+	history=
+	{
+		owner = ENG
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = MEN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+		}
+	}
+	provinces={
+		4205
+	}
+
+	local_supplies=4.0 
+}
