@@ -1,0 +1,40 @@
+
+state = {
+	id = 837
+	name = "STATE_837"
+	manpower = 18374
+	
+	state_category = rural
+
+	history = {
+		owner = ENG
+		victory_points = {
+			4205 2 
+		}
+		buildings = {
+		
+			infrastructure = 2
+			air_base = 2
+			dockyard = 1
+			4205 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+			
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
+	}
+
+	provinces = {
+		4205
+	}
+
+	local_supplies = 6.0 
+}
