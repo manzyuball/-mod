@@ -74,6 +74,41 @@ music = {
 }
 
 music = {
+	song = "Der_offene_Aufmarsch"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = communism
+		}		
+	}	
+}music = {
+	song = "La Marseillaise"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = communism
+		}		
+	}	
+}music = {
+	song = "Le Chant du depart"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = communism
+		}		
+	}	
+}
+
+music = {
 	song = "axis_peace_1"
 	
 	chance = {

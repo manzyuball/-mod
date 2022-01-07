@@ -1352,7 +1352,7 @@
 	
 	focus = {
 		id = ITA_slovenia_dalmatia_claims
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_focus_generic_adriatic_sea_focus
 		prerequisite = { focus = ITA_victoryinETH }
 		mutually_exclusive = { focus = ITA_yugoslavia_friend }
 		x = 1
