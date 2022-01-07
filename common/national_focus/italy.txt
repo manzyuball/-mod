@@ -1387,7 +1387,7 @@
 				change_state_after_war = yes
 				attacker = {
 				state = 162
-				num_provinces = 4
+				num_provinces = 3
 				}
 				defender = {
 				state = 2
@@ -1446,10 +1446,6 @@
 		icon = GFX_focus_ita_villaggio_mussolini
 		prerequisite = { focus = ITA_bulgaria_friend }
 		mutually_exclusive = { focus = ITA_pact_of_steel }
-		cancel = {
-			is_in_faction_with = GER
-			is_in_faction_with = FRA
-		}
 		x = 1
 		y = 1
 		relative_position_id = ITA_bulgaria_friend
@@ -1497,11 +1493,11 @@
 				change_state_after_war = yes
 				attacker = {
 				state = 161
-				num_provinces = 4
+				num_provinces = 1
 				}
 				defender = {
 				state = 157
-				num_provinces = 3
+				num_provinces = 1
 				}
 		    }
 			set_border_war_data = {
@@ -1635,13 +1631,6 @@
 		id = ITA_japan_friend
 		icon = GFX_focus_man_claim_the_mandate_of_heaven
 		prerequisite = { focus = ITA_anti_uk_war_goals }
-		available = {
-			CHI = { 
-				is_in_faction = no
-				country_exists = CHI
-				has_government = ROOT
-			}
-		}
 		x = 0
 		y = 1
 		relative_position_id = ITA_anti_uk_war_goals
