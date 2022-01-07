@@ -1,7 +1,7 @@
 
 state = {
-	id = 834
-	name = "STATE_834"
+	id = 835
+	name = "STATE_835"
 	manpower = 183748
 	
 	state_category = rural
@@ -24,11 +24,6 @@ state = {
 			
 		}
 		add_core_of = MLT
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
-			}
-		}
 	}
 
 	provinces = {
