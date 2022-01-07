@@ -1475,19 +1475,11 @@
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_political_power = 120
-			retire_country_leader = yes
 			add_war_support = 0.3
 			set_rule = { can_use_kamikaze_pilots = yes }
-			create_country_leader = {
-				name = "Benito Amilcare Andrea Mussolini"
-				picture = "Portrait_Italy_Benito_Mussolini.dds"
-				expire = "1965.1.1"
-				ideology = communism
-				traits = { great_war_hero
-				}
+				add_country_leader_trait = devoted_trotskyist
 				}
 			}
-	}
 
 	focus = {
 		id = ITA_romania_friend

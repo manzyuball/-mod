@@ -1519,16 +1519,7 @@
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			retire_country_leader = yes
-			create_country_leader = {
-				name = "Lev Davidovich Trotsky"
-				picture = "Portrait_Leon_Trotsky.dds"
-				expire = "1965.1.1"
-				ideology = communism
-				traits = {
-					triumphant_revolutionary
-				}
-				}
+			add_country_leader_trait = devoted_trotskyist
 				}
 	}
 
