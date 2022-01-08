@@ -1,0 +1,22 @@
+state={
+	id=847
+	name="STATE_847"
+	provinces={
+		1167 1191 7145 10055 
+	}
+	state_category = town
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		}
+		air_base = 2
+		7145 = {
+			naval_base = 2
+			coastal_bunker = 1
+			bunker = 1
+	
+		}
+	manpower=623427
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

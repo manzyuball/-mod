@@ -2,14 +2,9 @@
 state={
 	id=115
 	name="STATE_115"
-	manpower = 3836571
-	
-	state_category = city
+
 	history={
-		owner = ENG
-		victory_points = {
-			10074 20 
-		}
+		owner = MLT
 		victory_points = {
 			4159 10 
 		}
@@ -20,24 +15,32 @@ state={
 			dockyard = 1
 			10074 = {
 				naval_base = 2
+
 			}
 			7059 = {
 				naval_base = 5
+
 			}
 			4159 = {
 				naval_base = 8
+
 			}
 			4014 = {
 				naval_base = 3
+
 			}
+
 		}
 		add_core_of = ITA
 		add_core_of = MLT
+
 	}
 
 	provinces={
-		1009 1156 3857 4014 4159 7059 7147 10074 12047 
+		1009 1156 3857 4014 4159 7059 7147 12047 
 	}
-
-	local_supplies=0.0 
+	manpower=3836571
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }
