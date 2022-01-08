@@ -1,4 +1,21 @@
 characters={
+    MLT_government={
+		name=MLT_Government
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Adolf_Hitler.dds"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ dictator }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+
 	MLT_aco2={
 		advisor={
 			slot = army_chief

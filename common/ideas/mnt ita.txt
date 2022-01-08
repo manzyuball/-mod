@@ -1,0 +1,82 @@
+ideas = {
+
+	country = {
+		ITA_sangyo = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.25
+				production_speed_buildings_factor = 0.25
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_infrastructure_factor = 0.2
+			}
+		}
+		
+		ITA_seityo = {		
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.3
+				production_speed_industrial_complex_factor = 0.5
+			}
+		}
+
+		ITA_nougyou = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				global_building_slots_factor = -0.5
+			}
+		}
+		
+		ITA_kougyou = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			picture = generic_air_bonus
+		
+			research_bonus = {
+				global_building_slots_factor = 0.3
+			}
+
+		}
+
+		ITA_gun = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+			picture = generic_research_bonus
+	
+			modifier = {
+				army_core_attack_factor = 0.5
+				army_core_defence_factor = 0.5
+				partisan_effect = 0.65
+				planning_speed = 0.20
+				max_planning = 0.3
+			}
+	
+		}
+
+
+	}
+
+
+
+
+}
