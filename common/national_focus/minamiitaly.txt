@@ -16,7 +16,7 @@
 
 	focus = {
 		id = ITA_industrial_effort
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = focus_ita_money_for_your_homeland
 		text = industrial_effort
 		x = 0
 		y = 0
@@ -362,7 +362,7 @@
 	
 	focus = {
 		id = ITA_prospect_for_oil
-		icon = GFX_goal_generic_production
+		icon = GFX_focus_focus_fra_ratify_stresa
 		text = ITA_prospect_for_oil
 		prerequisite = { focus = ITA_italian_highways }
 		
@@ -1107,7 +1107,7 @@
 
 	focus = {
 		id = ITA_victoryinETH
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_focus_hol_the_foundations_of_defense
 		
 		available_if_capitulated = yes
 
@@ -1127,7 +1127,7 @@
 	
 	focus = {
 		id = ITA_slovenia_dalmatia_claims
-		icon = GFX_focus_generic_adriatic_sea_focus
+		icon = GFX_focus_SOV_organize_wreckers
 		prerequisite = { focus = ITA_victoryinETH }
 		mutually_exclusive = { focus = ITA_yugoslavia_friend }
 		x = 1
@@ -1149,7 +1149,7 @@
 
 	focus = {
 		id = ITA_bulgaria_friend
-		icon = GFX_focus_generic_provoke_border_clashes
+		icon = GFX_focus_POL_complete_april_constitution
 		prerequisite = { focus = ITA_slovenia_dalmatia_claims  }
 		x = -2
 		y = 1
@@ -1162,7 +1162,7 @@
 }
 	focus = {
 		id = ITA_albania_war_goal
-		icon = GFX_focus_invasion_of_albania
+		icon = GFX_focus_focus_fra_maquis
 		prerequisite = { focus = ITA_slovenia_dalmatia_claims }
 		x = 1
 		y = 1
@@ -1185,7 +1185,7 @@
 
 	focus = {
 		id = ITA_italy_first
-		icon = GFX_focus_ita_villaggio_mussolini
+		icon = GFX_focus_generic_royal_wedding
 		prerequisite = { focus = ITA_bulgaria_friend }
 		mutually_exclusive = { focus = ITA_pact_of_steel }
 		x = 1
@@ -1206,7 +1206,7 @@
 
 	focus = {
 		id = ITA_german_rd_treaty
-		icon = GFX_goal_generic_scientific_exchange
+		icon = GFX_focus_eng_imperial_federation
 		prerequisite = { focus = ITA_italy_first }
 		x = -2
 		y = 1
@@ -1232,7 +1232,7 @@
 
 	focus = {
 		id = ITA_greece_friend
-		icon = GFX_focus_generic_attack_bulgaria
+		icon = GFX_focus_focus_fra_revolution_utmost
 		prerequisite = { focus = ITA_italy_first }
 		x = 2
 		y = 1
@@ -1257,7 +1257,7 @@
 
 	focus = {
 		id = ITA_anti_uk_war_goals
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_monarchy_2
 		prerequisite = { focus = ITA_italy_first }	
 		x = 0
 		y = 1
@@ -1273,7 +1273,7 @@
 
 	focus = {
 		id = ITA_japan_friend
-		icon = GFX_focus_man_claim_the_mandate_of_heaven
+		icon = GFX_focus_prc_infiltration
 		prerequisite = { focus = ITA_anti_uk_war_goals }
 		x = 0
 		y = 1

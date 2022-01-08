@@ -3,16 +3,32 @@ characters={
 		name=MLT_Government
 		portraits={
 			civilian={
-				large="gfx/leaders/GER/Portrait_Germany_Adolf_Hitler.dds"
+				large="gfx/leaders/ITA/portrait_ita_ferruccio_parri.dds"
 			}
 		}
 		country_leader={
-			ideology=nazism
-			traits={ dictator }
+			ideology=conservatism
+			traits={ 	cabinet_crisis }
 			expire="1965.1.1.1"
 			id=-1
 		}
 	}
+
+
+	ITA_kouou={
+		name=ITA_Umberto_II
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ the_sacred_king }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
 
 
 
