@@ -15,7 +15,7 @@ characters={
 	}
 
 
-	ITA_kouou={
+	MLT_kouou={
 		name=MLT_Umberto_II
 		portraits={
 			civilian={

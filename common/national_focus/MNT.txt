@@ -1,5 +1,5 @@
 ﻿focus_tree = {
-	id = MNT_focus
+	id = MLT_focus
 
 	country = {
 		factor = 0
@@ -15,7 +15,7 @@
 	continuous_focus_position = { x = 50 y = 1100 }
 
 	focus = {
-		id = ITA_industrial_effort
+		id = MLT_industrial_effort
 		icon = focus_ita_money_for_your_homeland
 		text = industrial_effort
 		x = 0
@@ -107,7 +107,7 @@
 				}				
 			}
             add_timed_idea = {
-				idea = ITA_seityo
+				idea = MLT_seityo
 				days = 180
 			}
 
@@ -115,13 +115,13 @@
 	}
 
 	focus = {
-		id = ITA_industrial_effort_2
+		id = MLT_industrial_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
 		text = industrial_effort_2
-		prerequisite = { focus = ITA_industrial_effort }
+		prerequisite = { focus = MLT_industrial_effort }
 		x = 0
 		y = 1
-		relative_position_id = ITA_industrial_effort
+		relative_position_id = MLT_industrial_effort
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -280,13 +280,13 @@
 
 
 	focus = {
-		id = ITA_extra_tech_slot
+		id = MLT_extra_tech_slot
 		icon = GFX_focus_research
 		text = extra_tech_slot
-		prerequisite = { focus = ITA_industrial_effort_2 }
+		prerequisite = { focus = MLT_industrial_effort_2 }
 		x = 0
 		y = 1
-		relative_position_id = ITA_industrial_effort_2
+		relative_position_id = MLT_industrial_effort_2
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -301,13 +301,13 @@
 	}
 
 	focus = {
-		id = ITA_italian_highways
+		id = MLT_italian_highways
 		icon = GFX_goal_generic_construct_infrastructure
 		text = ITA_italian_highways
-		prerequisite = { focus = ITA_extra_tech_slot }
+		prerequisite = { focus = MLT_extra_tech_slot }
 		x = 0
 		y = 1
-		relative_position_id = ITA_extra_tech_slot
+		relative_position_id = MLT_extra_tech_slot
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -361,14 +361,14 @@
 	
 	
 	focus = {
-		id = ITA_prospect_for_oil
+		id = MLT_prospect_for_oil
 		icon = GFX_focus_focus_fra_ratify_stresa
-		text = ITA_prospect_for_oil
-		prerequisite = { focus = ITA_italian_highways }
+		text = MLT_prospect_for_oil
+		prerequisite = { focus = MLT_italian_highways }
 		
 		x = 0
 		y = 1
-		relative_position_id = ITA_italian_highways
+		relative_position_id = MLT_italian_highways
 		cost = 10
 
 		available_if_capitulated = yes
@@ -378,14 +378,14 @@
 			factor = 1
 		}	
 		completion_reward = {
-			add_ideas = ITA_sangyo
+			add_ideas = MLT_sangyo
 		}
 	}
 
 		
 
 	focus = {
-		id = ITA_army_primacy
+		id = MLT_army_primacy
 		icon = GFX_goal_generic_axis_build_infantry
 		x = 4
 		y = 0
@@ -487,12 +487,12 @@
 	}
 
 	focus = {
-		id = ITA_modernized_artillery
+		id = MLT_modernized_artillery
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = ITA_army_primacy }
+		prerequisite = { focus = MLT_army_primacy }
 		x = -1
 		y = 1
-		relative_position_id = ITA_army_primacy
+		relative_position_id = MLT_army_primacy
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -512,13 +512,13 @@
 	}
 
 	focus = {
-		id = ITA_modernized_army
+		id = MLT_modernized_army
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = ITA_modernized_artillery }
-		prerequisite = { focus = ITA_industrial_effort }
+		prerequisite = { focus = MLT_modernized_artillery }
+		prerequisite = { focus = MLT_industrial_effort }
 		x = 0
 		y = 1
-		relative_position_id = ITA_modernized_artillery
+		relative_position_id = MLT_modernized_artillery
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -548,13 +548,13 @@
 	}
 
 	focus = {
-		id = ITA_special_forces
+		id = MLT_special_forces
 		icon = GFX_goal_generic_special_forces
 		text = special_forces
-		prerequisite = { focus = ITA_modernized_army }
+		prerequisite = { focus = MLT_modernized_army }
 		x = 0
 		y = 2
-		relative_position_id = ITA_modernized_army
+		relative_position_id = MLT_modernized_army
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -584,12 +584,12 @@
 	}
 
 	focus = {
-		id = ITA_armored_effort
+		id = MLT_armored_effort
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = ITA_special_forces }
+		prerequisite = { focus = MLT_special_forces }
 		x = 0
 		y = 1
-		relative_position_id = ITA_special_forces
+		relative_position_id = MLT_special_forces
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -610,7 +610,7 @@
 	}
 
 	focus = {
-		id = ITA_mare_nostrum
+		id = MLT_mare_nostrum
 		icon = GFX_goal_generic_build_navy
 		x = 6
 		y = 0
@@ -712,13 +712,13 @@
 	}
 
 	focus = {
-		id = ITA_air_innovation
+		id = MLT_air_innovation
 		icon = GFX_goal_generic_build_airforce
 		text = air_innovation
-		prerequisite = { focus = ITA_army_primacy focus = ITA_mare_nostrum }
+		prerequisite = { focus = MLT_army_primacy focus = MLT_mare_nostrum }
 		x = 1
 		y = 1
-		relative_position_id = ITA_army_primacy
+		relative_position_id = MLT_army_primacy
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -745,12 +745,12 @@
 	}
 
 	focus = {
-		id = ITA_carrier_effort
+		id = MLT_carrier_effort
 		icon = GFX_goal_generic_navy_carrier
-		prerequisite = { focus = ITA_mare_nostrum }
+		prerequisite = { focus = MLT_mare_nostrum }
 		x = 1
 		y = 1
-		relative_position_id = ITA_mare_nostrum
+		relative_position_id = MLT_mare_nostrum
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -770,12 +770,12 @@
 	}
 
 	focus = {
-		id = ITA_capital_ships
+		id = MLT_capital_ships
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = ITA_mare_nostrum }
+		prerequisite = { focus = MLT_mare_nostrum }
 		x = 3
 		y = 1
-		relative_position_id = ITA_mare_nostrum
+		relative_position_id = MLT_mare_nostrum
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -804,13 +804,13 @@
 	}
 
 	focus = {
-		id = ITA_bomber_effort
+		id = MLT_bomber_effort
 		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = ITA_army_primacy }
-		prerequisite = { focus = ITA_air_innovation }
+		prerequisite = { focus = MLT_army_primacy }
+		prerequisite = { focus = MLT_air_innovation }
 		x = 0
 		y = 3
-		relative_position_id = ITA_army_primacy
+		relative_position_id = MLT_army_primacy
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -822,7 +822,7 @@
 		completion_reward = {
 
 			add_tech_bonus = {
-				name = ITA_bomber_effort
+				name = MLT_bomber_effort
 				bonus = 1.0
 				uses = 1
 				category = tactical_bomber
@@ -830,7 +830,7 @@
 				#technology = tactical_bomber3
 			}
 			add_tech_bonus = {
-				name = ITA_bomber_effort
+				name = MLT_bomber_effort
 				bonus = 1.0
 				uses = 1
 				category = cas_bomber
@@ -841,14 +841,14 @@
 	}
 
 	focus = {
-		id = ITA_naval_air_effort
+		id = MLT_naval_air_effort
 		icon = GFX_goal_generic_air_naval_bomber
 		text = naval_air_effort
-		prerequisite = { focus = ITA_air_innovation }
-		prerequisite = { focus = ITA_carrier_effort }
+		prerequisite = { focus = MLT_air_innovation }
+		prerequisite = { focus = MLT_carrier_effort }
 		x = 1
 		y = 2
-		relative_position_id = ITA_air_innovation
+		relative_position_id = MLT_air_innovation
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -873,13 +873,13 @@
 	}
 
 	focus = {
-		id = ITA_atlantic_fleet
+		id = MLT_atlantic_fleet
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = ITA_carrier_effort }
-		prerequisite = { focus = ITA_capital_ships }
+		prerequisite = { focus = MLT_carrier_effort }
+		prerequisite = { focus = MLT_capital_ships }
 		x = 1
 		y = 2
-		relative_position_id = ITA_carrier_effort
+		relative_position_id = MLT_carrier_effort
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -891,13 +891,13 @@
 		completion_reward = {
 			navy_experience = 25
 			add_tech_bonus = {
-				name = ITA_atlantic_fleet
+				name = MLT_atlantic_fleet
 				bonus = 1.0
 				uses = 1
 				category = cv_tech
 			}
 			add_tech_bonus = {
-				name = ITA_atlantic_fleet
+				name = MLT_atlantic_fleet
 				bonus = 1.0
 				uses = 1
 				category = bb_tech
@@ -906,12 +906,12 @@
 	}
 
 	focus = {
-		id = ITA_marines_and_landing_craft
+		id = MLT_marines_and_landing_craft
 		icon = GFX_goal_generic_amphibious_assault
-		prerequisite = { focus = ITA_atlantic_fleet }
+		prerequisite = { focus = MLT_atlantic_fleet }
 		x = 0
 		y = 1
-		relative_position_id = ITA_atlantic_fleet
+		relative_position_id = MLT_atlantic_fleet
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -922,7 +922,7 @@
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = ITA_marines_and_landing_craft
+				name = MLT_marines_and_landing_craft
 				bonus = 1.0
 				uses = 1
 				category = marine_tech
@@ -930,7 +930,7 @@
 				#technology = marines2
 			}
 			add_tech_bonus = {
-				name = ITA_marines_and_landing_craft
+				name = MLT_marines_and_landing_craft
 				bonus = 1.0
 				uses = 1
 				category = tp_tech
@@ -942,13 +942,13 @@
 	}
 
 	focus = {
-		id = ITA_air_innovation_2
+		id = MLT_air_innovation_2
 		icon = GFX_goal_generic_build_airforce
 		text = air_innovation_2
-		prerequisite = { focus = ITA_bomber_effort focus = ITA_naval_air_effort }
+		prerequisite = { focus = MLT_bomber_effort focus = MLT_naval_air_effort }
 		x = 1
 		y = 1
-		relative_position_id = ITA_bomber_effort
+		relative_position_id = MLT_bomber_effort
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -974,12 +974,12 @@
 	}
 
 	focus = {
-		id = ITA_jet_engine_effort
+		id = MLT_jet_engine_effort
 		icon = GFX_focus_rocketry
-		prerequisite = { focus = ITA_air_innovation_2 }
+		prerequisite = { focus = MLT_air_innovation_2 }
 		x = 0
 		y = 1
-		relative_position_id = ITA_air_innovation_2
+		relative_position_id = MLT_air_innovation_2
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -991,7 +991,7 @@
 		completion_reward = {
 		# Caproni Campini N.1
 			add_tech_bonus = {
-				name = ITA_jet_engine_effort
+				name = MLT_jet_engine_effort
 				bonus = 1.0
 				uses = 1
 				category = jet_technology
@@ -1002,7 +1002,7 @@
 	}
 
 	focus = {
-		id = ITA_light_ship_effort
+		id = MLT_light_ship_effort
 		icon = GFX_goal_generic_navy_cruiser
 		x = 11
 		y = 0
@@ -1034,12 +1034,12 @@
 	}
 
 	focus = {
-		id = ITA_escort_effort
+		id = MLT_escort_effort
 		icon = GFX_goal_generic_navy_anti_submarine
-		prerequisite = { focus = ITA_light_ship_effort }
+		prerequisite = { focus = MLT_light_ship_effort }
 		x = 1
 		y = 1
-		relative_position_id = ITA_light_ship_effort
+		relative_position_id = MLT_light_ship_effort
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1050,13 +1050,13 @@
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = ITA_escort_effort
+				name = MLT_escort_effort
 				bonus = 1.0
 				uses = 1
 				category = dd_tech
 			}
 			add_doctrine_cost_reduction = {
-				name = ITA_escort_effort
+				name = MLT_escort_effort
 				cost_reduction = 0.5
 				uses = 2
 				category = convoy_defense_tree
@@ -1069,13 +1069,13 @@
 	}
 
 	focus = {
-		id = ITA_submarine_effort
+		id = MLT_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
 		text = submarine_effort
-		prerequisite = { focus = ITA_light_ship_effort }
+		prerequisite = { focus = MLT_light_ship_effort }
 		x = -1
 		y = 2
-		relative_position_id = ITA_light_ship_effort
+		relative_position_id = MLT_light_ship_effort
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1106,7 +1106,7 @@
 
 
 	focus = {
-		id = ITA_victoryinETH
+		id = MLT_victoryinETH
 		icon = GFX_focus_hol_the_foundations_of_defense
 		
 		available_if_capitulated = yes
@@ -1126,13 +1126,13 @@
 	}
 	
 	focus = {
-		id = ITA_slovenia_dalmatia_claims
+		id = MLT_slovenia_dalmatia_claims
 		icon = GFX_focus_SOV_organize_wreckers
 		prerequisite = { focus = ITA_victoryinETH }
 		mutually_exclusive = { focus = ITA_yugoslavia_friend }
 		x = 1
 		y = 1
-		relative_position_id = ITA_victoryinETH
+		relative_position_id = MLT_victoryinETH
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1140,17 +1140,17 @@
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = ITA_nougyou
-				add_idea = ITA_kougyou
+				remove_idea = MLT_nougyou
+				add_idea = MLT_kougyou
 				}
 			}
 		}
 
 
 	focus = {
-		id = ITA_bulgaria_friend
+		id = MLT_bulgaria_friend
 		icon = GFX_focus_POL_complete_april_constitution
-		prerequisite = { focus = ITA_slovenia_dalmatia_claims  }
+		prerequisite = { focus = MLT_slovenia_dalmatia_claims  }
 		x = -2
 		y = 1
 		relative_position_id = ITA_slovenia_dalmatia_claims
@@ -1161,9 +1161,9 @@
 	}
 }
 	focus = {
-		id = ITA_albania_war_goal
+		id = MLT_albania_war_goal
 		icon = GFX_focus_focus_fra_maquis
-		prerequisite = { focus = ITA_slovenia_dalmatia_claims }
+		prerequisite = { focus = MLT_slovenia_dalmatia_claims }
 		x = 1
 		y = 1
 		relative_position_id = ITA_slovenia_dalmatia_claims
@@ -1184,13 +1184,13 @@
 	}
 
 	focus = {
-		id = ITA_italy_first
+		id = MLT_italy_first
 		icon = GFX_focus_generic_royal_wedding
-		prerequisite = { focus = ITA_bulgaria_friend }
-		mutually_exclusive = { focus = ITA_pact_of_steel }
+		prerequisite = { focus = MLT_bulgaria_friend }
+		mutually_exclusive = { focus = MLT_pact_of_steel }
 		x = 1
 		y = 1
-		relative_position_id = ITA_bulgaria_friend
+		relative_position_id = MLT_bulgaria_friend
 		cost = 10
 		ai_will_do = {
 			factor = 2.5
@@ -1205,12 +1205,12 @@
 			}
 
 	focus = {
-		id = ITA_german_rd_treaty
+		id = MLT_german_rd_treaty
 		icon = GFX_focus_eng_imperial_federation
-		prerequisite = { focus = ITA_italy_first }
+		prerequisite = { focus = MLT_italy_first }
 		x = -2
 		y = 1
-		relative_position_id = ITA_italy_first
+		relative_position_id = MLT_italy_first
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1231,12 +1231,12 @@
 	}
 
 	focus = {
-		id = ITA_greece_friend
+		id = MLT_greece_friend
 		icon = GFX_focus_focus_fra_revolution_utmost
-		prerequisite = { focus = ITA_italy_first }
+		prerequisite = { focus = MLT_italy_first }
 		x = 2
 		y = 1
-		relative_position_id = ITA_italy_first
+		relative_position_id = MLT_italy_first
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1256,12 +1256,12 @@
 
 
 	focus = {
-		id = ITA_anti_uk_war_goals
+		id = MLT_anti_uk_war_goals
 		icon = GFX_focus_generic_monarchy_2
-		prerequisite = { focus = ITA_italy_first }	
+		prerequisite = { focus = MLT_italy_first }	
 		x = 0
 		y = 1
-		relative_position_id = ITA_italy_first
+		relative_position_id = MLT_italy_first
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1272,12 +1272,12 @@
 	}
 
 	focus = {
-		id = ITA_japan_friend
+		id = MLT_japan_friend
 		icon = GFX_focus_prc_infiltration
-		prerequisite = { focus = ITA_anti_uk_war_goals }
+		prerequisite = { focus = MLT_anti_uk_war_goals }
 		x = 0
 		y = 1
-		relative_position_id = ITA_anti_uk_war_goals
+		relative_position_id = MLT_anti_uk_war_goals
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1286,7 +1286,7 @@
 			factor = 1
 		}			
 		completion_reward = {
-			add_idea = ITA_gun
+			add_idea = MLT_gun
 		}
 	}
 
