@@ -5,7 +5,7 @@ state={
 		6521 
 	}
 
-	state_category = city
+	state_category =megalopolis
 	history={
 
 	owner = GER
