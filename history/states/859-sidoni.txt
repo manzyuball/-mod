@@ -23,10 +23,10 @@ state={
 
 		}
 		victory_points = {
-			12406 20.0 
+			12406 30
 		}
 		victory_points = {
-			7520 1 
+			7520 1
 		}
 		add_core_of = AST
 

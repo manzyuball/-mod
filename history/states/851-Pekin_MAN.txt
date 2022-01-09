@@ -2,7 +2,7 @@ state={
 	id=851
 	name="STATE_851"
 	provinces={
-		9843 10068 11761 
+		9843 10068 11761
 	}
 	history={
 		owner = MAN
@@ -22,9 +22,8 @@ state={
 		victory_points = {
 			10068 1 
 		}
-		1938.10.25 = {
-			controller = JAP
-
+		victory_points = {
+			9843 35
 		}
 
 	}
