@@ -10,13 +10,13 @@ set_research_slots = 4
 set_stability = 0.4
 set_war_support = 0.3
 add_ideas = {
-	MNT_bundan
-	MNT_nougyou
+	MLT_bundan
+	MLT_nougyou
 }
 
 set_convoys = 5 
 
-recruit_character = MLT_Government 
+recruit_character = MLT_Government
 recruit_character = MLT_Umberto_II
 recruit_character = MLT_nt
 recruit_character = MLT_communist_guy

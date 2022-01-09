@@ -69,10 +69,33 @@
  ITA_german_rd_treaty_desc:0 "ドイツはピザやパスタこそ作れないが 戦車を作るのは上手いようだ 私と技術を交換しないか?"
  ITA_greece_friend:0 "赤いヨーグルト"
  ITA_greece_friend_desc:0 "ブルガリアにクーデターを起こして仲間を増やそう!"
-
-
-
-
-
+ MLT_industrial_effort:0 "英国からの資金"
+ MLT_industrial_effort_desc:0 "南部は北部に比べて工業化が遅れている... 英国から資金の援助を受け工業化を進めよう"
+ MLT_industrial_effort_2:0 "軍事産業の発展"
+ MLT_industrial_effort_2_desc:0 "北に赤の脅威がある限り我々は 次なる戦いに備えなければならない"
+ MLT_extra_tech_slot:0 "北部から科学者を受け入れ"
+ MLT_extra_tech_slot_desc:0 "赤い国から亡命してきた科学者達は 北イタリアを通して我が国にやって来る"
+ MLT_italian_highways:0 "ナポリ高速道路"
+ MLT_italian_highways_desc:0 "インフラを整備することで更なる発展が期待できる"
+ MLT_prospect_for_oil:0 "イタリアの奇跡"
+ MLT_prospect_for_oil_desc:0 "今や南部イタリア経済は急成長を迎えている! 今後も我が国は成長し続けるだろう!"
+ MLT_victoryinETH:0 "イタリア憲法"
+ MLT_victoryinETH_desc:0 "今こそ古き憲法を一新し 時代に合った憲法に作り替えよう"
+ MLT_slovenia_dalmatia_claims:0 "農園改造計画"
+ MLT_slovenia_dalmatia_claims_desc:0 "だだっ広い農園を高度に密集した工業地帯に作り替えよう"
+ MLT_albania_war_goal:0 "英国から武器を購入"
+ MLT_albania_war_goal_desc:0 "英国から小銃を購入し軍隊を強化しよう"
+ MLT_bulgaria_friend:0 "安定した内閣"
+ MLT_bulgaria_friend_desc:0 "長らく不安定だった内閣は安定し 我々は完全な民主主義国家となった"
+ MLT_italy_first:0 "一つのイタリア 一つの祖国"
+ MLT_italy_first_desc:0 "今こそ立憲君主制を取り入れ 正統なイタリアとなるのだ!"
+ MLT_german_rd_treaty:0 "我々の領土"
+ MLT_german_rd_treaty_desc:0 "イタリアは一つでなければならず 南部と北部に亀裂が生まれる事は 断じて許されない!"
+ MLT_anti_uk_war_goals_desc:0 "王様は国家の象徴となり国民の代表である"
+ MLT_anti_uk_war_goals:0 "象徴国王"
+ MLT_greece_friend:0 "先制攻撃"
+ MLT_greece_friend_desc:0 "手遅れになる前に我々から北部に攻撃を仕掛けよう"
+ MLT_japan_friend:0 "イタリア統一運動"
+ MLT_japan_friend_desc:0 "「国民よ、再びイタリアに危機が迫った時は団結し 外からの侵略者を倒さなければならぬ!」"
 
 
