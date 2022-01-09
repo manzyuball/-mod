@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		ITA_bundan = {
+		MNT_bundan = {
 			
 			allowed = {
 				always = yes
@@ -14,7 +14,7 @@ ideas = {
 				stability_factor = -0.3
 			}
 		}
-		ITA_sangyo = {
+		MNT_sangyo = {
 			
 			allowed = {
 				always = no
@@ -31,7 +31,7 @@ ideas = {
 			}
 		}
 		
-		ITA_seityo = {
+		MNT_seityo = {
 			
 			allowed = {
 				always = no
@@ -46,7 +46,7 @@ ideas = {
 			} #ITA_divided_nation_idea
 		}
 
-		ITA_nougyou = {
+		MNT_nougyou = {
 
 			allowed = {
 				always = yes
@@ -59,7 +59,7 @@ ideas = {
 			}
 		}
 		
-		ITA_kougyou = {
+		MNT_kougyou = {
 			removal_cost = -1
 			allowed = {
 				always = no
@@ -72,7 +72,7 @@ ideas = {
 
 		}
 
-		ITA_gun = {
+		MNT_gun = {
 			removal_cost = -1
 			allowed = {
 				always = no # Unlocked via focus

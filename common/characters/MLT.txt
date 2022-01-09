@@ -16,7 +16,7 @@ characters={
 
 
 	ITA_kouou={
-		name=ITA_Umberto_II
+		name=MLT_Umberto_II
 		portraits={
 			civilian={
 				large="gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
