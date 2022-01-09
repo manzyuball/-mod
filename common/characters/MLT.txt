@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism
-			traits={ 	cabinet_crisis }
+			traits={ cabinet_crisis }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -23,7 +23,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=conservatism
 			traits={ the_sacred_king }
 			expire="1965.1.1.1"
 			id=-1

@@ -15,7 +15,7 @@
 	continuous_focus_position = { x = 50 y = 1100 }
 
 	focus = {
-		id = MLT_industrial_effort
+		id = MLT_industrial_effort1
 		icon = GFX_focus_chi_british_cooperation
 		text = industrial_effort
 		x = 0
@@ -118,10 +118,10 @@
 		id = MLT_industrial_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
 		text = industrial_effort_2
-		prerequisite = { focus = MLT_industrial_effort }
+		prerequisite = { focus = MLT_industrial_effort1 }
 		x = 0
 		y = 1
-		relative_position_id = MLT_industrial_effort
+		relative_position_id = MLT_industrial_effort1
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -280,7 +280,7 @@
 
 
 	focus = {
-		id = MLT_extra_tech_slot
+		id = MLT_extra_tech_slot1
 		icon = GFX_focus_research
 		text = extra_tech_slot
 		prerequisite = { focus = MLT_industrial_effort_2 }
@@ -301,13 +301,13 @@
 	}
 
 	focus = {
-		id = MLT_italian_highways
+		id = MLT_italian_highways1
 		icon = GFX_goal_generic_construct_infrastructure
 		text = ITA_italian_highways
-		prerequisite = { focus = MLT_extra_tech_slot }
+		prerequisite = { focus = MLT_extra_tech_slot1 }
 		x = 0
 		y = 1
-		relative_position_id = MLT_extra_tech_slot
+		relative_position_id = MLT_extra_tech_slot1
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -364,11 +364,11 @@
 		id = MLT_prospect_for_oil
 		icon = GFX_focus_focus_fra_ratify_stresa
 		text = MLT_prospect_for_oil
-		prerequisite = { focus = MLT_italian_highways }
+		prerequisite = { focus = MLT_italian_highways1 }
 		
 		x = 0
 		y = 1
-		relative_position_id = MLT_italian_highways
+		relative_position_id = MLT_italian_highways1
 		cost = 10
 
 		available_if_capitulated = yes
