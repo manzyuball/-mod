@@ -1,0 +1,24 @@
+state={
+	id=868
+	name="STATE_868"
+	provinces={
+		2101 4949 5020 5064 8090 10789 
+	}
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = AFG
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		}
+
+	manpower=543214
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

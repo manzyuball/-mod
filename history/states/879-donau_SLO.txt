@@ -1,0 +1,21 @@
+state={
+	id=879
+	name="STATE_879"
+	provinces={
+		665 6672 
+	}
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 3
+			}
+		add_core_of = YUG
+		add_core_of = AUS
+		add_core_of = SLV
+
+	}
+	manpower=44300
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

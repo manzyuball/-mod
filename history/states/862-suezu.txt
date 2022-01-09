@@ -1,0 +1,24 @@
+state={
+	id=862
+	name="STATE_862"
+	provinces={
+		4073 12049 
+	}
+	history={
+		victory_points = {
+			12049 10
+		}
+		owner = ENG
+		add_core_of = EGY
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+	manpower=153251
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

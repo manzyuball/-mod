@@ -1,0 +1,22 @@
+state={
+	id=874
+	name="STATE_874"
+	provinces={
+		3488 
+	}
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = GER
+	}
+
+	manpower=64321
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
