@@ -6,7 +6,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			picture = ITA_divided_nation_idea
+			picture = prc_low_popular_support3
 
 			removal_cost = -1
 			
@@ -36,7 +36,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			picture = idea_SOV_third_five_year_plan_civilian
+			picture = eng_the_sun_never_sets
 
 			removal_cost = -1
 			
@@ -51,7 +51,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			picture = idea_generic_agrarian_reform
+			picture = generic_agrarian_reform
 			removal_cost = -1
 			
 			modifier = {
@@ -64,7 +64,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			picture = spr_torchbearers_of_tomorrow
+			picture = SOV_third_five_year_plan_civilian
 		
 			research_bonus = {
 				global_building_slots_factor = 0.3
@@ -75,7 +75,7 @@ ideas = {
 		MLT_gun = {
 			removal_cost = -1
 			allowed = {
-				always = no # Unlocked via focus
+				always = no
 			}
 			picture = ITA_correcting_the_north_south_divide_idea
 	

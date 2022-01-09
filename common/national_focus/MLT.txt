@@ -16,7 +16,7 @@
 
 	focus = {
 		id = MLT_industrial_effort
-		icon = focus_ita_money_for_your_homeland
+		icon = GFX_focus_chi_british_cooperation
 		text = industrial_effort
 		x = 0
 		y = 0
@@ -1286,7 +1286,9 @@
 			factor = 1
 		}			
 		completion_reward = {
-			add_idea = MLT_gun
+			add_ideas = {
+			MLT_gun
+			}
 		}
 	}
 

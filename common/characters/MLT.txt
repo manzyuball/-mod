@@ -1,6 +1,6 @@
 characters={
     MLT_government={
-		name=MLT_Government
+		name=南部イタリア臨時内閣
 		portraits={
 			civilian={
 				large="gfx/leaders/ITA/portrait_ita_ferruccio_parri.dds"
@@ -16,7 +16,7 @@ characters={
 
 
 	MLT_kouou={
-		name=MLT_Umberto_II
+		name=イタリア政府
 		portraits={
 			civilian={
 				large="gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
