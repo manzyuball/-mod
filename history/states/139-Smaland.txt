@@ -4,7 +4,7 @@ state={
 	name="STATE_139"
 	manpower = 918593
 	
-	state_category = town
+	state_category = city
 	
 	resources={
 		steel=7 # was: 10

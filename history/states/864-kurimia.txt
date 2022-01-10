@@ -23,6 +23,7 @@ state={
 		add_core_of = CRI
 	}
 	manpower=4024553
+	state_category = city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 

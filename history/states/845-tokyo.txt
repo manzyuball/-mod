@@ -4,17 +4,24 @@ state={
 	provinces={
 		1182 
 	}
-	state_category = city
+	state_category = megalopolis
 	history = {
 		owner = JAP
 		add_core_of = JAP
 		}
 		air_base = 3
+		buildings = {
+			infrastructure = 5 #was: 7
+			arms_factory = 2
+			dockyard = 1
+			industrial_complex = 2
+
 		1182 = {
 			naval_base = 2
 			coastal_bunker = 1
 			bunker = 1
 	
+		}
 		}
 	manpower=2013133
 	buildings_max_level_factor=1.000
