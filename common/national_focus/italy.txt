@@ -1401,6 +1401,23 @@
 				combat_width = 100 }
 		}
 	}
+
+	focus = {
+		id = ITA_bulgaria_friend_2
+		icon = GFX_focus_attack_switzerland
+		prerequisite = { focus = ITA_bulgaria_friend }
+		x = -3
+		y = 2
+		relative_position_id = ITA_slovenia_dalmatia_claims
+		cost = 10
+		completion_reward = {
+			transfer_state = 870
+			transfer_state = 872
+			GER = {	transfer_state = 873 }
+			FRA = {	transfer_state = 871 }
+			puppet = SWI
+		}
+	}	
 	focus = {
 		id = ITA_albania_war_goal
 		icon = GFX_focus_invasion_of_albania
@@ -1643,6 +1660,34 @@
 		}			
 		completion_reward = {
 			CHI = { add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus } }
+		}
+	}
+
+	focus = {
+		id = ITA_japan_friend_w
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = ITA_japan_friend }
+		x = 0
+		y = 1
+		relative_position_id = ITA_japan_friend
+		cost = 10
+		available = {
+			has_full_control_of_state = 843
+		}	
+		available_if_capitulated = yes
+		
+		ai_will_do = {
+			factor = 1
+		}			
+		completion_reward = {
+			add_state_core = 872
+			add_state_core = 870
+			add_state_core = 116
+			add_state_core = 736
+			add_state_core = 163
+			add_state_core = 103
+			add_state_core = 112
+			set_capital = 843
 		}
 	}
 
