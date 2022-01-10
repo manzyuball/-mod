@@ -20,9 +20,9 @@
 		text = industrial_effort
 		x = 0
 		y = 0
-		cost = 10
+		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 30
 		}
 
 		available_if_capitulated = yes
@@ -132,9 +132,9 @@
 		x = 0
 		y = 1
 		relative_position_id = ITA_industrial_effort
-		cost = 10
+		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 29
 		}
 
 		available_if_capitulated = yes
@@ -345,9 +345,9 @@
 		x = 1
 		y = 1
 		relative_position_id = ITA_industrial_effort_2
-		cost = 10
+		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 28
 		}
 
 		available_if_capitulated = yes
@@ -614,9 +614,9 @@
 		icon = GFX_goal_generic_axis_build_infantry
 		x = 4
 		y = 0
-		cost = 10
+		cost = 5
 		ai_will_do = {
-			factor = 0.25
+			factor = 27
 		}
 
 		available_if_capitulated = yes
@@ -1340,7 +1340,7 @@
 		y = 0
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 50
 		}	
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT}
 
@@ -1360,7 +1360,7 @@
 		relative_position_id = ITA_victoryinETH
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 50
 		}
 
 		completion_reward = {
@@ -1382,6 +1382,9 @@
 		y = 1
 		relative_position_id = ITA_slovenia_dalmatia_claims
 		cost = 10
+		ai_will_do = {
+			factor = 50
+		}
 		completion_reward = {
 			start_border_war = {
 				change_state_after_war = yes
@@ -1410,6 +1413,9 @@
 		y = 2
 		relative_position_id = ITA_slovenia_dalmatia_claims
 		cost = 10
+		ai_will_do = {
+			factor = 50
+		}
 		completion_reward = {
 			transfer_state = 870
 			transfer_state = 872
@@ -1468,7 +1474,7 @@
 		relative_position_id = ITA_bulgaria_friend
 		cost = 10
 		ai_will_do = {
-			factor = 2.5
+			factor = 20
 
 			modifier = {
 				factor = 2
@@ -1617,7 +1623,7 @@
 		relative_position_id = ITA_italy_first
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 10
 
 			modifier = {
 				factor = 1.5

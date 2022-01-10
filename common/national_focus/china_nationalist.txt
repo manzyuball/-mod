@@ -57,10 +57,10 @@
 		x = 5
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 3
 		}
 
 		available = {
@@ -93,7 +93,7 @@
 		y = 1
 		relative_position_id = CHI_three_principles_of_the_people
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -132,7 +132,7 @@
 		y = 1
 		relative_position_id = CHI_welfare
 
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 4
@@ -171,7 +171,7 @@
 		y = 1
 		relative_position_id = CHI_welfare
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -207,7 +207,7 @@
 		y = 3
 		relative_position_id = CHI_welfare
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -243,7 +243,7 @@
 		y = 3
 		relative_position_id = CHI_welfare
 
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -287,7 +287,7 @@
 		y = 4
 		relative_position_id = CHI_welfare
 
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -314,7 +314,7 @@
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
 		completion_reward = {
 			add_war_support = 0.3
-			create_faction = "上海枢軸"
+			create_faction = "中華結束同盟"
 			CHI = { add_to_faction = GXC }
 			CHI = { add_to_faction = TAN }
 		}
@@ -377,7 +377,7 @@
 		y = 1
 		relative_position_id = CHI_three_principles_of_the_people
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -414,7 +414,7 @@
 		y = 1
 		relative_position_id = CHI_democracy
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -451,7 +451,7 @@
 		y = 1
 		relative_position_id = CHI_constitutional_reform
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -488,7 +488,7 @@
 		y = 1
 		relative_position_id = CHI_constitutional_reform
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -520,7 +520,7 @@
 		y = 1
 		relative_position_id = CHI_republicanism
 
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -560,7 +560,7 @@
 		y = 1
 		relative_position_id = CHI_judicial_yuan
 
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -597,7 +597,7 @@
 		y = 1
 		relative_position_id = CHI_control_yuan
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -629,7 +629,7 @@
 		y = 1
 		relative_position_id = CHI_democracy
 
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -657,6 +657,9 @@
 					type = annex_everything
 					target = TIB
 					}
+					add_state_core = 322
+					add_state_core = 758
+					add_state_core = 757
 		}
 	}
 
@@ -669,7 +672,7 @@
 		y = 2
 		relative_position_id = CHI_executive_yuan
 
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -704,7 +707,7 @@
 		y = 1
 		relative_position_id = CHI_three_principles_of_the_people
 
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 4
@@ -762,7 +765,7 @@
 		y = 2
 		relative_position_id = CHI_nationalism
 
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -788,12 +791,13 @@
 		}
 
 		completion_reward = {
-			hidden_effect = {
-				news_event = { id = wtt_news.35 days = 1 }
-				declare_war_on = {
+			declare_war_on = {
 					target = MAN
 					type = annex_everything
 					}
+			hidden_effect = {
+				news_event = { id = wtt_news.35 days = 1 }
+				
 			}
 		}
 	}
@@ -807,7 +811,7 @@
 		y = 1
 		relative_position_id = CHI_pick_a_fight_with_japan
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -1050,7 +1054,7 @@
 		y = 0
 		relative_position_id = CHI_three_principles_of_the_people
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -1082,7 +1086,7 @@
 		y = 1
 		relative_position_id = CHI_military_affairs_commission
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -1113,7 +1117,7 @@
 		y = 1
 		relative_position_id = CHI_military_affairs_commission
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 4
@@ -1187,7 +1191,7 @@
 		y = 2
 		relative_position_id = CHI_military_affairs_commission
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1220,7 +1224,7 @@
 		y = 0
 		relative_position_id =  CHI_military_affairs_commission
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -1325,7 +1329,7 @@
 		y = 1
 		relative_position_id = CHI_unified_industrial_planning
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -1380,7 +1384,7 @@
 		y = 1
 		relative_position_id = CHI_rural_reconstruction_movement
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -1467,7 +1471,7 @@
 		y = 1
 		relative_position_id = CHI_mining_commission
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1

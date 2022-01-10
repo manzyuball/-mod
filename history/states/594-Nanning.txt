@@ -3,7 +3,7 @@ state={
 	id=594
 	name="STATE_594"
 	manpower = 6550000
-	state_category = town
+	state_category = city
 	resources={
 		tungsten=11 # was: 14
 		steel = 8 # was: 10
@@ -16,7 +16,7 @@ state={
 		add_core_of = PRC
 		add_core_of = TAN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 1
 		}
 		victory_points = { 
