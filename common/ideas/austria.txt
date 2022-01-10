@@ -1,46 +1,40 @@
 ideas = {
-	# TECHNOLOGY
-	tank_manufacturer = {
-		
-		designer = yes
-		
-		steyr_daimler_puch = {
-			picture = generic_tank_manufacturer_1
-
-			
+	country = {
+	AUS_seizi_1 = {
+			picture = hun_hungarian_monarchy_habsburg
 			allowed = {
-				original_tag = AUS
+				always = no
 			}
 			
-			research_bonus = {
-				armor = 0.15
+			allowed_civil_war = {
+				tag = BUL
 			}
-			
-			traits = { tank_manufacturer }
+			removal_cost = -1
+			modifier = {
+				drift_defence_factor = 0.25
+				stability_weekly = 0.05
+				set_rule = {
+					can_create_factions = yes
+					}
+			}
 		}
-	}
 
-	materiel_manufacturer = {
-		
-		designer = yes
-		
-		AUS_hirtenberger = {
+	AUS_gun = {
 			picture = generic_artillery_manufacturer_3
-
 			
 			allowed = {
-				original_tag = AUS
+				always = no
 			}
 			
-			research_bonus = {
-				artillery = 0.15
+			allowed_civil_war = {
+				tag = BUL
 			}
-			
-			traits = { artillery_manufacturer }
-						
-			ai_will_do = {
-				factor = 1
+			removal_cost = -1
+			modifier = {
+				army_leader_start_level = 3
+				military_leader_cost_factor = -0.50
+				experience_gain_army = 0.05
 			}
 		}
-	}
-}
+	  }
+    }

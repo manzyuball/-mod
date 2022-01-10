@@ -1,0 +1,124 @@
+focus_tree = {
+	id = AUS_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = AUS_seizi_1
+		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
+#		prerequisite = { focus = }
+#   	mutually_exclusive = { focus =  }
+		x = -1
+		y = 0
+#		relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+		factor = 1
+	}	
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+	completion_reward = {
+        add_ideas = AUS_tatenaosi_1
+	}
+}
+
+focus = {
+    id = AUS_seizi_2
+    icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
+	prerequisite = { focus = AUS_seizi_1 }
+    x = -1
+    y = 1
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    add_tech_bonus = {
+        bonus = 1
+        uses = 3
+        category = Infantry_technology
+        }
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 5000
+            producer = AUS
+            }
+}
+}
+
+focus = {
+    id = AUS_seizi_3
+    icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
+	prerequisite = { focus = AUS_seizi_2 }
+    x = -1
+    y = 2
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    army_experience = 50
+    division_template = {
+        name = "二重帝国歩兵部隊"
+        regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 0 y = 3 }
+        infantry = { x = 0 y = 4 }
+        }
+        }
+}
+}
+focus = {
+    id = AUS_seizi_4
+    icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
+	prerequisite = { focus = AUS_seizi_3 }
+    x = -1
+    y = 3
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    add_idea = AUS_gun
+}
+}
+
+
+
+}

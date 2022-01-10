@@ -1,4 +1,4 @@
-﻿capital = 4
+﻿capital = 856
 
 oob = "AUS_1936"
 
@@ -20,7 +20,7 @@ add_to_faction = AUS
 
 recruit_character = AUS_kurt_schuschnigg
 recruit_character = AUS_karl_renner
-recruit_character = AUS_arthur_seyss-inquart
+recruit_character = AUS_Adolf_Hitler
 recruit_character = AUS_alfred_klahr
 recruit_character = AUS_karl_eglseer
 recruit_character = AUS_odilo_globocnik
