@@ -1,19 +1,22 @@
 state={
-	id=869
-	name="STATE_869"
+	id=881
+	name="STATE_881"
 	provinces={
-		5082 12769 12831 
+		5005 5089 
 	}
 	history={
-		owner = RAJ
+		owner = ENG
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
-		}
-		add_core_of = AFG
-	}
+			5005 = {
+				naval_base = 1
 
-	manpower=342134
+			}
+		}
+		add_core_of = PER
+
+	}
+	manpower=54324
 	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

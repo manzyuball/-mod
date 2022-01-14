@@ -5,7 +5,7 @@ state={
 		2101 4949 5020 5064 8090 10789 
 	}
 	history={
-		owner = AFG
+		owner = RAJ
 		victory_points = {
 			5064 1 
 		}
