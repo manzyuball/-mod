@@ -22,7 +22,7 @@ state={
 		add_core_of = USB
 		add_core_of = CSA
 		victory_points = {
-			7315 10 
+			7315 15 
 		}
 
 	}

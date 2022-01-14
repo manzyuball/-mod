@@ -17,6 +17,7 @@ set_technology = {
 
 create_faction = "中央同盟国"
 add_to_faction = AUS
+add_to_faction = AZR
 
 recruit_character = AUS_kurt_schuschnigg
 recruit_character = AUS_karl_renner

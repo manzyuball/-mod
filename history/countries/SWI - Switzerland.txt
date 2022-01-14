@@ -98,9 +98,9 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
+	democratic = 50
+	fascism = 8
+	communism = 42
 }
 
 1939.1.1 = {
