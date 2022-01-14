@@ -1267,13 +1267,6 @@
 			factor = 4
 		}
 
-		available = {
-			OR = {			
-				has_war = no
-				has_stability > 0.7
-			}
-		}
-
 		bypass = {
 
 		}
@@ -1300,11 +1293,6 @@
 
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			num_of_factories > 74
-			amount_research_slots < 5
 		}
 
 		bypass = {
