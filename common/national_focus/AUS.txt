@@ -13,7 +13,7 @@ focus_tree = {
 	
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 1000 }
+	continuous_focus_position = { x = 50 y = 2200 }
 
 	focus = {
 		id = AUS_seizi_1
@@ -40,8 +40,367 @@ focus_tree = {
 }
 
 focus = {
+    id = AUS_lerder1
+    icon = GFX_focus_LIT_new_kind_of_iron_wolf
+#		prerequisite = { focus = }
+prerequisite = { focus = AUS_seizi_1 }
+#   	mutually_exclusive = { focus =  }
+    x = -1
+    y = 1
+#		relative_position_id = 
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    add_popularity = {
+        ideology = fascism
+        popularity = 0.2
+        }
+}
+}
+focus = {
+    id = AUS_lerder2
+    icon = GFX_focus_generic_steel
+#		prerequisite = { focus = }
+prerequisite = { focus = AUS_lerder1 }
+#   	mutually_exclusive = { focus =  }
+    x = -2.5
+    y = 2
+#		relative_position_id = 
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    add_popularity = {
+        ideology = fascism
+        popularity = 0.05
+        }
+        add_resource = {
+            type = steel
+            amount = 18
+            state = 9
+            }
+}
+}
+focus = {
+    id = AUS_lerder3
+    icon = GFX_focus_POL_warsaw_main_station
+#		prerequisite = { focus = }
+prerequisite = { focus = AUS_lerder1 }
+#   	mutually_exclusive = { focus =  }
+    x =  0.5
+    y = 2
+#		relative_position_id = 
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    add_popularity = {
+        ideology = fascism
+        popularity = 0.05
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = industrial_complex
+                    size > 2
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = industrial_complex
+                    size > 2
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+}
+}
+
+focus = {
+    id = AUS_lerder4
+    icon = GFX_focus_generic_royal_wedding
+#		prerequisite = { focus = }
+prerequisite = { focus = AUS_lerder2 }
+prerequisite = { focus = AUS_lerder3 }
+#   	mutually_exclusive = { focus =  }
+    x = -1
+    y = 3
+#		relative_position_id = 
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    aset_politics = {
+        parties = {
+        democratic = {
+        popularity = 15
+        }
+        fascism = {
+        popularity = 80
+        }
+        communism = {
+        popularity = 0
+        }
+        neutrality = {
+        popularity = 5
+        }
+        }
+        ruling_party = fascism
+        }
+}
+}
+focus = {
+    id = AUS_lerder7
+    icon = GFX_focus_generic_military_dictatorship
+#		prerequisite = { focus = }
+prerequisite = { focus = AUS_lerder4 }
+#   	mutually_exclusive = { focus =  }
+    x = -1
+    y = 4.5
+#		relative_position_id = 
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    add_ideas = AUS_NAZI_idea
+}
+}
+
+focus = {
+    id = AUS_lerder8
+    icon = GFX_focus_POL_sanation_right
+#		prerequisite = { focus = }
+prerequisite = { focus = AUS_lerder7 }
+#   	mutually_exclusive = { focus =  }
+    x = -3
+    y = 5.5
+#		relative_position_id = 
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    add_ideas = AUS_NAZI_GUN_idea
+}
+}
+focus = {
+    id = AUS_lerder10
+    icon = GFX_focus_SOV_the_defense_of_moscow
+#		prerequisite = { focus = }
+prerequisite = { focus = AUS_lerder8 }
+#   	mutually_exclusive = { focus =  }
+    x = -3.5
+    y = 6.8
+#		relative_position_id = 
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    add_ideas = AUS_NAZI_GUN2_idea
+}
+}
+focus = {
+    id = AUS_lerder11
+    icon = GFX_focus_SOV_restore_cossack_units
+#		prerequisite = { focus = }
+prerequisite = { focus = AUS_lerder10 }
+#   	mutually_exclusive = { focus =  }
+    x = -3.5
+    y = 7.8
+#		relative_position_id = 
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    add_ideas = AUS_NAZI_GUN3_idea
+}
+}
+focus = {
+    id = AUS_lerder9
+    icon = GFX_goal_generic_construction
+#		prerequisite = { focus = }
+prerequisite = { focus = AUS_lerder7 }
+#   	mutually_exclusive = { focus =  }
+    x = 1
+    y = 5.5
+#		relative_position_id = 
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+    completion_reward = {
+        add_tech_bonus = {
+            bonus = 1.0
+            uses = 2
+            technology = excavation1
+            technology = excavation2
+            technology = excavation3
+            technology = excavation4
+            technology = excavation5
+    }
+}
+}
+focus = {
+    id = AUS_lerder12
+    icon = GFX_focus_spa_the_spanish_miracle
+#		prerequisite = { focus = }
+prerequisite = { focus = AUS_lerder9 }
+#   	mutually_exclusive = { focus =  }
+    x = 1.5
+    y = 6.8
+#		relative_position_id = 
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+    completion_reward = {
+        add_ideas = AUS_NAZI_GUN5_idea
+}
+}
+focus = {
+    id = AUS_lerder5
+    icon = GFX_focus_generic_aircraft_production
+#		prerequisite = { focus = }
+prerequisite = { focus = AUS_lerder2 }
+#   	mutually_exclusive = { focus =  }
+    x = -3.5
+    y = 3.4
+#		relative_position_id = 
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    add_offsite_building = { type = arms_factory level = 6 }
+}
+}
+focus = {
+    id = AUS_lerder6
+    icon = GFX_goal_generic_army_motorized
+#		prerequisite = { focus = }
+prerequisite = { focus = AUS_lerder3 }
+#   	mutually_exclusive = { focus =  }
+    x = 1.5
+    y = 3.4
+#		relative_position_id = 
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    add_resource = {
+        type = 	Rubber
+        amount = 9
+        state = 856
+        }
+        add_resource = {
+            type = 	Rubber
+            amount = 4
+            state = 9
+            }
+            add_resource = {
+                type = 	Rubber
+                amount = 12
+                state = 43
+                }
+}
+}
+focus = {
     id = AUS_seizi_2
-    icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
+    icon = GFX_focus_focus_fra_maquis
 	prerequisite = { focus = AUS_seizi_1 }
     x = -10
     y = 1
@@ -56,11 +415,6 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-    add_tech_bonus = {
-        bonus = 1
-        uses = 3
-        category = Infantry_technology
-        }
         add_equipment_to_stockpile = {
             type = infantry_equipment
             amount = 5000
@@ -71,7 +425,7 @@ completion_reward = {
 
 focus = {
     id = AUS_seizi_3
-    icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
+    icon = GFX_focus_POL_sanation_left
 	prerequisite = { focus = AUS_seizi_2 }
     x = -10
     y = 2
@@ -120,8 +474,28 @@ completion_reward = {
 }
 }
 focus = {
+    id = AUS_seizi_5
+    icon = GFX_focus_SOV_the_glory_of_the_red_army_alternative
+	prerequisite = { focus = AUS_seizi_2 }
+    x = -11.5
+    y = 2
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    add_idea = AUS_NAZI_GUN3_idea
+}
+}
+focus = {
     id = AUS_seizi_4
-    icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
+    icon = GFX_focus_research2
 	prerequisite = { focus = AUS_seizi_3 }
     x = -10
     y = 3
