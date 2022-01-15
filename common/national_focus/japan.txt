@@ -800,12 +800,46 @@
 
 
 		completion_reward = {
-			army_experience = 30
-		}
+			STATE_866 = {
+				add_state_modifier = {
+				modifier = {
+				production_speed_buildings_factor = 0.25
+				}
+				}
+		    }
+			STATE_865 = {
+				add_state_modifier = {
+				modifier = {
+				production_speed_buildings_factor = 0.25
+				}
+				}
+		    }
+			STATE_525 = {
+				add_state_modifier = {
+				modifier = {
+				production_speed_buildings_factor = 0.25
+				}
+				}
+		    }
+			STATE_867 = {
+				add_state_modifier = {
+				modifier = {
+				production_speed_buildings_factor = 0.25
+				}
+				}
+		    }
+			STATE_527 = {
+				add_state_modifier = {
+				modifier = {
+				production_speed_buildings_factor = 0.25
+				}
+				}
+		    }
 	}
+}
 	focus = {
 		id = JAP_sen4
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_jap_cast_the_die
 		prerequisite = { focus = JAP_sen1 }
 		x = 39
 		y = 1
@@ -830,12 +864,29 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			STATE_745 =  { 
+				add_extra_state_shared_building_slots = 2
 		}
+		STATE_743 =  { 
+			add_extra_state_shared_building_slots = 2
 	}
+	STATE_836 =  { 
+		add_extra_state_shared_building_slots = 2
+}
+STATE_858 =  { 
+	add_extra_state_shared_building_slots = 2
+}
+STATE_728 =  { 
+	add_extra_state_shared_building_slots = 2
+}
+STATE_524 =  { 
+	add_extra_state_shared_building_slots = 2
+}
+	}
+}
 	focus = {
 		id = JAP_sen5
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = { focus = JAP_sen4 }
 		x = 39.5
 		y = 2
@@ -860,12 +911,19 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			STATE_836 = {
+			add_building_construction = {
+				type = naval_base
+				level = 3
+				instant_build = yes
+				province = 11928
+				}
 		}
 	}
+}
 	focus = {
 		id = JAP_sen6
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = JAP_sen5 }
 		x = 39.5
 		y = 3
@@ -890,12 +948,53 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			STATE_836 = {
+				add_state_modifier = {
+					modifier = {
+					non_core_manpower = 0.2
+					}
+					}
+			}
+			STATE_858 = {
+				add_state_modifier = {
+					modifier = {
+					non_core_manpower = 0.2
+					}
+					}
+			}
+			STATE_728 = {
+				add_state_modifier = {
+					modifier = {
+					non_core_manpower = 0.2
+					}
+					}
+			}
+			STATE_524 = {
+				add_state_modifier = {
+					modifier = {
+					non_core_manpower = 0.2
+					}
+					}
+			}
+			STATE_743 = {
+				add_state_modifier = {
+					modifier = {
+					non_core_manpower = 0.2
+					}
+					}
+			}
+			STATE_745 = {
+				add_state_modifier = {
+					modifier = {
+					non_core_manpower = 0.2
+					}
+					}
+			}
 		}
 	}
 	focus = {
 		id = JAP_sen7
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_chi_one_china_policy
 		prerequisite = { focus = JAP_sen6 }
 		x = 39.5
 		y = 4
@@ -920,7 +1019,12 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_state_core = 745
+			add_state_core = 743
+			add_state_core = 836
+			add_state_core = 858
+			add_state_core = 728
+			add_state_core = 524
 		}
 	}
 	focus = {
@@ -950,7 +1054,12 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_building_construction = {
+				type = naval_base
+				level = 4
+				instant_build = yes
+				province = 4056
+				}
 		}
 	}
 	focus = {
@@ -980,7 +1089,18 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			STATE_525 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+			add_state_modifier = {
+				modifier = {
+				global_building_slots_factor = 0.20
+				}
+				}
+		}
 		}
 	}
 	focus = {
@@ -1010,8 +1130,19 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			STATE_826 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+					}
+			add_state_modifier = {
+				modifier = {
+				global_building_slots_factor = 0.25
+				}
+				}
 		}
+	}
 	}
 	focus = {
 		id = JAP_sen11
@@ -1040,12 +1171,18 @@
 
 
 		completion_reward = {
-			army_experience = 30
+		STATE_826 = {
+		add_state_modifier = {
+			modifier = {
+			MONTHLY_POPULATION = 0.85
+			}
+			}
+	}
 		}
 	}
 	focus = {
 		id = JAP_sen12
-		icon = GFX_focus_generic_aircraft_production
+		icon = GFX_goal_generic_air_fighter2
 		prerequisite = { focus = JAP_sen9 }
 		x = 37.5
 		y = 4
@@ -1070,7 +1207,11 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_building_construction = {
+				type = air_base
+				level = 4
+				instant_build = yes
+				}
 		}
 	}
 	focus = {
@@ -1100,7 +1241,11 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_resource = {
+				type = steel
+				amount = 19
+				state = 527
+				}
 		}
 	}
 	focus = {
@@ -1130,7 +1275,27 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			STATE_525 = { 
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			STATE_865 = { 
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			STATE_866 = { 
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -1160,9 +1325,15 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			STATE_867 = { 
+				add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+				}
 		}
 	}
+}
 	focus = {
 		id = JAP_sen16
 		icon = GFX_goal_generic_construct_naval_dockyard
@@ -1190,7 +1361,13 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			STATE_865 = { 
+				add_building_construction = {
+				type = naval_base
+				level = 2
+				instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -1221,7 +1398,46 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			STATE_865 = { 
+				add_state_modifier = {
+				modifier = {
+					enemy_partisan_effect = -0.75
+					global_building_slots_factor = 0.3
+				}
+				}
+			}
+			STATE_866 = { 
+				add_state_modifier = {
+				modifier = {
+					enemy_partisan_effect = -0.75
+					global_building_slots_factor = 0.3
+				}
+				}
+			}
+			STATE_525 = { 
+				add_state_modifier = {
+				modifier = {
+					enemy_partisan_effect = -0.75
+					global_building_slots_factor = 0.3
+				}
+				}
+			}
+			STATE_867 = { 
+				add_state_modifier = {
+				modifier = {
+					enemy_partisan_effect = -0.75
+					global_building_slots_factor = 0.3
+				}
+				}
+			}
+			STATE_527 = { 
+				add_state_modifier = {
+				modifier = {
+					enemy_partisan_effect = -0.75
+					global_building_slots_factor = 0.3
+				}
+				}
+			}
 		}
 	}
 	focus = {
@@ -1281,7 +1497,7 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -1461,7 +1677,11 @@
 
 
 		completion_reward = {
-			army_experience = 30
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 800
+			producer = JAP
+			}
 		}
 	}
 	focus = {
@@ -1491,7 +1711,12 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_building_construction = {
+				type = naval_base
+				level = 4
+				instant_build = yes
+				province = 4188
+				}
 		}
 	}
 	focus = {
@@ -1521,9 +1746,36 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			STATE_282 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+				}
+		}
+		STATE_532 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+				}
+		}
+		STATE_531 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+				}
+		}
+		STATE_529 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+				}
 		}
 	}
+}
 	focus = {
 		id = JAP_sen27
 		icon = GFX_focus_SOV_merge_plants
@@ -1551,9 +1803,24 @@
 
 
 		completion_reward = {
-			army_experience = 30
+
+		STATE_535 = { 
+			set_state_category = metropolis
+		}
+		STATE_532 = { 
+			set_state_category = megalopolis
+		}
+		STATE_531 = { 
+			set_state_category = megalopolis
+		}
+		STATE_529 = { 
+			set_state_category = metropolis
+		}
+		STATE_528 = { 
+			set_state_category = metropolis
 		}
 	}
+}
 	focus = {
 		id = JAP_sen29
 		icon = GFX_focus_SOV_womens_fascist_movement
@@ -1581,7 +1848,8 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_stability = 0.25
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -1611,7 +1879,11 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_building_construction = {
+				type = air_base
+				level = 7
+				instant_build = yes
+				}
 		}
 	}
 	focus = {
@@ -1641,7 +1913,27 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			STATE_528 = { 
+				add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+		}
+		STATE_529 = { 
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+	}
+	STATE_282 = { 
+		add_building_construction = {
+		type = arms_factory
+		level = 1
+		instant_build = yes
+		}
+}
 		}
 	}
 	focus = {
@@ -1671,7 +1963,7 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_offsite_building = { type = arms_factory level = 8 }
 		}
 	}
 	focus = {
@@ -1702,7 +1994,7 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_ideas = JAP_sen1_idea
 		}
 	}
 

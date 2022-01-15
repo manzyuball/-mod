@@ -103,6 +103,26 @@ ideas = {
 				consumer_goods_factor = 0.1
 			}
 		}
+		JAP_sen1_idea = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				global_building_slots_factor = 0.15
+				production_factory_max_efficiency_factor = 0.15
+				production_speed_buildings_factor = 0.15
+			}
+		}
 
 		the_long_lance = {
 			allowed = {
