@@ -178,22 +178,11 @@ completion_reward = {
         ideology = fascism
         popularity = 0.1
         }
-    aset_politics = {
-        parties = {
-        democratic = {
-        popularity = 15
-        }
-        fascism = {
-        popularity = 80
-        }
-        communism = {
-        popularity = 0
-        }
-        neutrality = {
-        popularity = 5
-        }
-        }
-        ruling_party = fascism
+        set_politics = {
+            ruling_party = fascism
+                elections_allowed = no
+                last_election = "1935.12.17"
+                election_frequency = 48
         }
 }
 }
