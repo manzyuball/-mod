@@ -769,7 +769,7 @@
 
 
 		completion_reward = {
-			set_political_power = 100
+			add_political_power = 100
 			add_stability = 0.05
 		}
 	}
@@ -864,22 +864,22 @@
 
 
 		completion_reward = {
-			STATE_745 =  { 
+		745 =  { 
 				add_extra_state_shared_building_slots = 2
 		}
-		STATE_743 =  { 
+		743 =  { 
 			add_extra_state_shared_building_slots = 2
 	}
-	STATE_836 =  { 
+	836 =  { 
 		add_extra_state_shared_building_slots = 2
 }
-STATE_858 =  { 
+858 =  { 
 	add_extra_state_shared_building_slots = 2
 }
-STATE_728 =  { 
+728 =  { 
 	add_extra_state_shared_building_slots = 2
 }
-STATE_524 =  { 
+524 =  { 
 	add_extra_state_shared_building_slots = 2
 }
 	}
@@ -911,7 +911,7 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			STATE_836 = {
+			836 = {
 			add_building_construction = {
 				type = naval_base
 				level = 3
@@ -948,42 +948,42 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			STATE_836 = {
+			836 = {
 				add_state_modifier = {
 					modifier = {
 					non_core_manpower = 0.2
 					}
 					}
 			}
-			STATE_858 = {
+			858 = {
 				add_state_modifier = {
 					modifier = {
 					non_core_manpower = 0.2
 					}
 					}
 			}
-			STATE_728 = {
+			728 = {
 				add_state_modifier = {
 					modifier = {
 					non_core_manpower = 0.2
 					}
 					}
 			}
-			STATE_524 = {
+			524 = {
 				add_state_modifier = {
 					modifier = {
 					non_core_manpower = 0.2
 					}
 					}
 			}
-			STATE_743 = {
+			743 = {
 				add_state_modifier = {
 					modifier = {
 					non_core_manpower = 0.2
 					}
 					}
 			}
-			STATE_745 = {
+			745 = {
 				add_state_modifier = {
 					modifier = {
 					non_core_manpower = 0.2
@@ -1089,7 +1089,7 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			STATE_525 = {
+			525 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -1130,7 +1130,7 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			STATE_826 = {
+			826 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -1171,7 +1171,7 @@ STATE_524 =  {
 
 
 		completion_reward = {
-		STATE_826 = {
+		826 = {
 		add_state_modifier = {
 			modifier = {
 			MONTHLY_POPULATION = 0.85
@@ -1207,11 +1207,12 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			add_building_construction = {
+			525 = { add_building_construction = {
 				type = air_base
 				level = 4
 				instant_build = yes
 				}
+		}
 		}
 	}
 	focus = {
@@ -1275,21 +1276,21 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			STATE_525 = { 
+			525 = { 
 				add_building_construction = {
 				type = infrastructure
 				level = 2
 				instant_build = yes
 				}
 			}
-			STATE_865 = { 
+			865 = { 
 				add_building_construction = {
 				type = infrastructure
 				level = 2
 				instant_build = yes
 				}
 			}
-			STATE_866 = { 
+			866 = { 
 				add_building_construction = {
 				type = infrastructure
 				level = 2
@@ -1325,7 +1326,7 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			STATE_867 = { 
+			867 = { 
 				add_building_construction = {
 				type = arms_factory
 				level = 2
@@ -1361,7 +1362,7 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			STATE_865 = { 
+			865 = { 
 				add_building_construction = {
 				type = naval_base
 				level = 2
@@ -1398,7 +1399,7 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			STATE_865 = { 
+			865 = { 
 				add_state_modifier = {
 				modifier = {
 					enemy_partisan_effect = -0.75
@@ -1406,7 +1407,7 @@ STATE_524 =  {
 				}
 				}
 			}
-			STATE_866 = { 
+			866 = { 
 				add_state_modifier = {
 				modifier = {
 					enemy_partisan_effect = -0.75
@@ -1414,7 +1415,7 @@ STATE_524 =  {
 				}
 				}
 			}
-			STATE_525 = { 
+			525 = { 
 				add_state_modifier = {
 				modifier = {
 					enemy_partisan_effect = -0.75
@@ -1422,7 +1423,7 @@ STATE_524 =  {
 				}
 				}
 			}
-			STATE_867 = { 
+			867 = { 
 				add_state_modifier = {
 				modifier = {
 					enemy_partisan_effect = -0.75
@@ -1430,7 +1431,7 @@ STATE_524 =  {
 				}
 				}
 			}
-			STATE_527 = { 
+			527 = { 
 				add_state_modifier = {
 				modifier = {
 					enemy_partisan_effect = -0.75
@@ -1467,7 +1468,11 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			army_experience = 30
+			create_import = {
+				resource = 	Rubber
+				amount = 10
+				exporter = INS
+				}
 		}
 	}
 	focus = {
@@ -1527,7 +1532,7 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			army_experience = 30
+			add_offsite_building = { type = industrial_complex level = 8 }
 		}
 	}
 	focus = {
@@ -1557,7 +1562,8 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			army_experience = 30
+			add_stability = 0.15
+			INS = {  add_stability = 0.25 }
 		}
 	}
 	focus = {
@@ -1587,7 +1593,24 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			army_experience = 30
+			335 = {
+				set_state_category = large_city
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+						}
+				add_state_modifier = {
+				modifier = {
+					MONTHLY_POPULATION = 0.75
+				}
+				}
+			}
 		}
 	}
 	focus = {
@@ -1617,7 +1640,46 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			army_experience = 30
+			335 = {
+				add_state_modifier = {
+				modifier = {
+				industrial_capacity_factory = 0.15
+				global_building_slots_factor = 0.15
+				}
+				}
+			}
+			672 = {
+				add_state_modifier = {
+				modifier = {
+				industrial_capacity_factory = 0.15
+				global_building_slots_factor = 0.15
+				}
+				}
+			}
+			334 = {
+				add_state_modifier = {
+				modifier = {
+				industrial_capacity_factory = 0.15
+				global_building_slots_factor = 0.15
+				}
+				}
+			}
+			673 = {
+				add_state_modifier = {
+				modifier = {
+				industrial_capacity_factory = 0.15
+				global_building_slots_factor = 0.15
+				}
+				}
+			}
+			667 = {
+				add_state_modifier = {
+				modifier = {
+				industrial_capacity_factory = 0.15
+				global_building_slots_factor = 0.15
+				}
+				}
+			}
 		}
 	}
 	focus = {
@@ -1647,7 +1709,7 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			army_experience = 30
+			add_country_leader_trait = el_jefe_maximo
 		}
 	}
 	focus = {
@@ -1746,28 +1808,28 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			STATE_282 = {
+		282 = {
 			add_building_construction = {
 				type = infrastructure
 				level = 5
 				instant_build = yes
 				}
 		}
-		STATE_532 = {
+		532 = {
 			add_building_construction = {
 				type = infrastructure
 				level = 5
 				instant_build = yes
 				}
 		}
-		STATE_531 = {
+		531 = {
 			add_building_construction = {
 				type = infrastructure
 				level = 5
 				instant_build = yes
 				}
 		}
-		STATE_529 = {
+		529 = {
 			add_building_construction = {
 				type = infrastructure
 				level = 5
@@ -1804,19 +1866,19 @@ STATE_524 =  {
 
 		completion_reward = {
 
-		STATE_535 = { 
+		535 = { 
 			set_state_category = metropolis
 		}
-		STATE_532 = { 
+		532 = { 
 			set_state_category = megalopolis
 		}
-		STATE_531 = { 
+		531 = { 
 			set_state_category = megalopolis
 		}
-		STATE_529 = { 
+		529 = { 
 			set_state_category = metropolis
 		}
-		STATE_528 = { 
+	    528 = { 
 			set_state_category = metropolis
 		}
 	}
@@ -1879,11 +1941,13 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			add_building_construction = {
+			531 = {
+				add_building_construction = {
 				type = air_base
 				level = 7
 				instant_build = yes
 				}
+			}
 		}
 	}
 	focus = {
@@ -1913,21 +1977,21 @@ STATE_524 =  {
 
 
 		completion_reward = {
-			STATE_528 = { 
+			528 = { 
 				add_building_construction = {
 				type = arms_factory
 				level = 1
 				instant_build = yes
 				}
 		}
-		STATE_529 = { 
+		529 = { 
 			add_building_construction = {
 			type = arms_factory
 			level = 1
 			instant_build = yes
 			}
 	}
-	STATE_282 = { 
+282 = { 
 		add_building_construction = {
 		type = arms_factory
 		level = 1
