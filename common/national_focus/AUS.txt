@@ -34,7 +34,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 	completion_reward = {
-        add_ideas = AUS_tatenaosi_1
+        add_political_power = 250
+        add_stability = 0.25
 	}
 }
 
@@ -42,7 +43,7 @@ focus = {
     id = AUS_seizi_2
     icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
 	prerequisite = { focus = AUS_seizi_1 }
-    x = -1
+    x = -10
     y = 1
 
     cost = 10
@@ -72,7 +73,7 @@ focus = {
     id = AUS_seizi_3
     icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
 	prerequisite = { focus = AUS_seizi_2 }
-    x = -1
+    x = -10
     y = 2
 
     cost = 10
@@ -86,23 +87,43 @@ focus = {
 
 completion_reward = {
     army_experience = 50
-    division_template = {
-        name = "二重帝国歩兵部隊"
-        regiments = {
-        infantry = { x = 0 y = 0 }
-        infantry = { x = 0 y = 1 }
-        infantry = { x = 0 y = 2 }
-        infantry = { x = 0 y = 3 }
-        infantry = { x = 0 y = 4 }
+    create_corps_commander = {
+        name = "Amwolf Müller"
+        picture = "portrait_europe_generic_land_19.dds"
+        traits = { organizer trait_engineer infantry_leader }
+        skill = 4
+        attack_skill = 2
+        defense_skill = 3
+        planning_skill = 2
+        logistics_skill = 3
         }
-        }
+        create_corps_commander = {
+            name = "Alger Fischer"
+            picture = "portrait_ger_wilhelm_ritter_von_thoma.dds"
+            traits = { cavalry_leader cavalry_expert organizer }
+            skill = 3
+            attack_skill = 4
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 4
+            }
+            create_corps_commander = {
+                name = "Jarvis Schulz"
+                picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
+                traits = { panzer_leader panzer_expert trickster expert_improviser}
+                skill = 6
+                attack_skill = 5
+                defense_skill = 3
+                planning_skill = 4
+                logistics_skill = 3
+                }
 }
 }
 focus = {
     id = AUS_seizi_4
     icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
 	prerequisite = { focus = AUS_seizi_3 }
-    x = -1
+    x = -10
     y = 3
 
     cost = 10
@@ -115,7 +136,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-    add_idea = AUS_gun
+    add_research_slot = 1
 }
 }
 
