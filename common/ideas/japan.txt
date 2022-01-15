@@ -85,6 +85,25 @@ ideas = {
 			}
 		}
 
+		JAP_zaisei1_idea = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+
 		the_long_lance = {
 			allowed = {
 				always = no
