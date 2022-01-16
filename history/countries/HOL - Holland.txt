@@ -76,12 +76,21 @@ if = {
 			has_dlc = "Man the Guns"
 		}
 	}
+	set_autonomy = {
+		target = INS
+		autonomous_state = autonomy_integrated_puppet
+	}
 	else = {
 		puppet = INS
 	}
 }
 
 set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
+
+add_ideas = {
+	HOL_wilhelmina
+}
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -89,6 +98,7 @@ if = {
 	add_ideas = {
 		HOL_aloof_neutrality
 		HOL_shell_shocked_spectator_5
+		HOL_de_crisisjaren_5
 		HOL_weak_government
 	}
 }
@@ -229,21 +239,19 @@ recruit_character = HOL_wilhelmina
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 10
-	fascism = 5
-	communism = 85
+	democratic = 93
+	fascism = 4
+	communism = 3
 }
 
 set_convoys = 150
 set_stability = 0.75
-
-GER = { add_to_faction = HOL }
 
 
 ### VARIANTS ###
@@ -427,6 +435,9 @@ if = {
 				fixed_ship_engine_slot = sub_ship_engine_3
 				front_1_custom_slot = ship_mine_layer_sub
 				rear_1_custom_slot = ship_torpedo_sub_2
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty 
+				mid_5_custom_slot = empty
 			}
 		}
 		# Destroyers #
@@ -442,8 +453,21 @@ if = {
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = light_ship_engine_2
 				fixed_ship_torpedo_slot = ship_torpedo_1
-				mid_1_custom_slot = ship_mine_layer_1
-				rear_1_custom_slot = ship_depth_charge_1
+				fixed_ship_sonar_slot =  empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_light_battery_2
+				rear_1_custom_slot = empty
+				depth_1_custom_slot = ship_depth_charge_1
+				depth_2_custom_slot = empty
+				depth_3_custom_slot = empty
+				depth_4_custom_slot = empty
+				anti_1_custom_slot = empty
+				anti_2_custom_slot = empty
+				layer_1_custom_slot = ship_mine_layer_1
+				layer_2_custom_slot = ship_mine_layer_1
+				sweeper_1_custom_slot = empty
+				torp_1_custom_slot = ship_torpedo_1
+				torp_2_custom_slot = empty
 			}
 		}
 		create_equipment_variant = {
@@ -457,8 +481,21 @@ if = {
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = light_ship_engine_1
 				fixed_ship_torpedo_slot = empty
-				mid_1_custom_slot = ship_mine_layer_1
-				rear_1_custom_slot = ship_mine_layer_1
+				fixed_ship_sonar_slot =  empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_light_battery_2
+				rear_1_custom_slot = empty
+				depth_1_custom_slot = ship_depth_charge_1
+				depth_2_custom_slot = empty
+				depth_3_custom_slot = empty
+				depth_4_custom_slot = empty
+				anti_1_custom_slot = empty
+				anti_2_custom_slot = empty
+				layer_1_custom_slot = ship_mine_layer_1
+				layer_2_custom_slot = ship_mine_layer_1
+				sweeper_1_custom_slot = empty
+				torp_1_custom_slot = ship_torpedo_1
+				torp_2_custom_slot = empty
 			}
 		}
 		# Light Cruisers #
@@ -473,9 +510,24 @@ if = {
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_2
-				mid_1_custom_slot = ship_torpedo_1
-				mid_2_custom_slot = empty
-				rear_1_custom_slot = ship_airplane_launcher_1
+				front_1_custom_slot = ship_light_medium_battery_1
+				mid_1_custom_slot = ship_light_medium_battery_1
+				mid_2_custom_slot = ship_light_medium_battery_1
+				rear_1_custom_slot = empty
+				rear_2_custom_slot = empty
+				torp_1_custom_slot = ship_torpedo_1
+				torp_2_custom_slot = ship_torpedo_1
+				anti_1_custom_slot = empty
+				anti_2_custom_slot = empty
+				anti_3_custom_slot = ship_anti_air_1
+				anti_4_custom_slot = ship_anti_air_1
+				sec_1_custom_slot = empty
+				sec_2_custom_slot = empty
+				launcher_1_custom_slot = ship_airplane_launcher_1
+				fixed_layer_1_slot = empty
+				fixed_layer_2_slot = empty
+				fixed_layer_3_slot = ship_mine_layer_1
+				fixed_depth_1_slot = empty
 			}
 		}
 	}
