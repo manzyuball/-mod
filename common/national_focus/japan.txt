@@ -17,7 +17,7 @@
 
 	focus = {
 		id = JAP_min1
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_fortify_city
 		x = 15
 		y = 0
 
@@ -41,12 +41,13 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_ideas = JAP_min1
+			add_stability = 0.1
 		}
 	}
 	focus = {
 		id = JAP_min2
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		prerequisite = { focus = JAP_min1 }
 		x = 15
 		y = 2
@@ -77,8 +78,9 @@
 
 	focus = {
 		id = JAP_min3
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_eng_the_sun_never_sets
 		prerequisite = { focus = JAP_min2 }
+		mutually_exclusive = { focus = JAP_min4 }
 		x = 13
 		y = 3
 
@@ -102,20 +104,21 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			ENG = { add_to_faction = JAP }
 		}
 	}
 	focus = {
 		id = JAP_min4
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = JAP_min2 }
+		mutually_exclusive = { focus = JAP_min3 }
 		x = 17
 		y = 3
 
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 0.000000005
 		}
 
 		available = {
@@ -137,7 +140,7 @@
 	}
 	focus = {
 		id = JAP_min5
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_support_democracy
 		prerequisite = { focus = JAP_min3 }
 		x = 13
 		y = 4
@@ -162,12 +165,21 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			USA = {
+				add_timed_idea = {
+				idea = JAP_min1
+				days = 25 }
+				}
+			CHI = {
+				add_timed_idea = {
+				idea = JAP_min1
+				days = 25 }
+				}
 		}
 	}
 	focus = {
 		id = JAP_min6
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_eng_imperial_federation
 		prerequisite = { focus = JAP_min5 }
 		x = 13
 		y = 5
@@ -192,12 +204,15 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			swap_ideas = {
+				remove_idea = Daikyokou
+				add_idea = Daikyokou1
+				}
 		}
 	}
 	focus = {
 		id = JAP_min7
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_jap_zaibatsu
 		prerequisite = { focus = JAP_min6 }
 		mutually_exclusive = { focus = JAP_min8 }
 		x = 12
@@ -223,12 +238,12 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			remove_ideas = JAP_zaibatsus
 		}
 	}
 	focus = {
 		id = JAP_min8
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_jap_zaibatsu
 		prerequisite = { focus = JAP_min6 }
 		mutually_exclusive = { focus = JAP_min7 }
 		x = 14
@@ -254,12 +269,15 @@
 
 
 		completion_reward = {
-			army_experience = 30
+		swap_ideas = {
+			remove_idea = JAP_zaibatsus
+			add_idea = JAP_zaibatsus_challenged
+			}
 		}
 	}
 	focus = {
 		id = JAP_min9
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_reichsautobahn
 		prerequisite = { focus = JAP_min8 }
 		x = 14
 		y = 7
@@ -284,12 +302,12 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_ideas = JAP_min2_idea
 		}
 	}
 	focus = {
 		id = JAP_min10
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_jap_strike_south
 		prerequisite = { focus = JAP_min7 }
 		x = 12
 		y = 7
@@ -314,12 +332,23 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_resource = {
+				type = steel
+				amount = 25
+				state = 335
+				}
+				add_resource = {
+					type = 	Tungsten
+					amount = 37
+					state = 335
+					}
+			INS = { add_offsite_building = { type = industrial_complex level = 4 }		
+		}
 		}
 	}
 	focus = {
 		id = JAP_min11
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_SOV_breadbasket_of_the_union
 		prerequisite = { focus = JAP_min10 }
 		prerequisite = { focus = JAP_min9 }
 		x = 13
@@ -345,12 +374,53 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			533 = {
+				add_state_modifier = {
+				modifier = {
+				MONTHLY_POPULATION = 0.3
+				}
+				}
+			}
+			534 = {
+				add_state_modifier = {
+				modifier = {
+				MONTHLY_POPULATION = 0.3
+				}
+				}
+			}
+			528 = {
+				add_state_modifier = {
+				modifier = {
+				MONTHLY_POPULATION = 0.3
+				}
+				}
+			}
+			531 = {
+				add_state_modifier = {
+				modifier = {
+				MONTHLY_POPULATION = 0.3
+				}
+				}
+			}
+			532 = {
+				add_state_modifier = {
+				modifier = {
+				MONTHLY_POPULATION = 0.3
+				}
+				}
+			}
+			282 = {
+				add_state_modifier = {
+				modifier = {
+				MONTHLY_POPULATION = 0.3
+				}
+				}
+			}
 		}
 	}
 	focus = {
 		id = JAP_min12
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_spa_the_spanish_miracle
 		prerequisite = { focus = JAP_min11 }
 		x = 12
 		y = 9
@@ -375,12 +445,15 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			swap_ideas = {
+				remove_idea = Daikyokou1
+				add_idea = Daikyokou2
+				}
 		}
 	}
 	focus = {
 		id = JAP_min13
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = JAP_min11 }
 		x = 14
 		y = 9
@@ -405,12 +478,16 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_resource = {
+				type = steel
+				amount = 14
+				state = 535
+				}
 		}
 	}
 	focus = {
 		id = JAP_min14
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_generic_japanese_imperial_glory
 		prerequisite = { focus = JAP_min12 }
 		x = 10.5
 		y = 10
@@ -435,12 +512,12 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_ideas = JAP_min4
 		}
 	}
 	focus = {
 		id = JAP_min15
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_mex_privatisation
 		prerequisite = { focus = JAP_min12 }
 		prerequisite = { focus = JAP_min13 }
 		x = 12.5
@@ -466,12 +543,12 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			remove_ideas = Daikyokou2
 		}
 	}
 	focus = {
 		id = JAP_min16
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = JAP_min13 }
 		x = 14.5
 		y = 10
@@ -496,12 +573,12 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_stability = -0.05
 		}
 	}
 	focus = {
 		id = JAP_min17
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_POL_complete_april_constitution
 		prerequisite = { focus = JAP_min16 }
 		x = 15
 		y = 11
@@ -526,12 +603,17 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_stability = -0.1
+			add_state_core = 865
+			add_state_core = 866
+			add_state_core = 525
+			add_state_core = 867
+			add_state_core = 527
 		}
 	}
 	focus = {
 		id = JAP_min18
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_chi_one_china_policy
 		prerequisite = { focus = JAP_min15 }
 		prerequisite = { focus = JAP_min14 }
 		x = 12.5
@@ -557,12 +639,30 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_war_support = 0.15
+			add_building_construction = {
+				type = bunker
+				level = 4
+				instant_build = yes
+				province = 9790
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = 11770
+					}
+					add_building_construction = {
+						type = bunker
+						level = 4
+						instant_build = yes
+						province = 6928
+						}
 		}
 	}
 	focus = {
 		id = JAP_min19
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_SOV_panslavic_nationalism
 		prerequisite = { focus = JAP_min18 }
 		x = 12.5
 		y = 12
@@ -587,12 +687,22 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 4000
+				target = VLA
+				}
+				VLA = {
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = GER_align_romania
+					}
+				}
 		}
 	}
 	focus = {
 		id = JAP_min20
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_defence
 		prerequisite = { focus = JAP_min19 }
 		x = 11.5
 		y = 13
@@ -604,8 +714,10 @@
 		}
 
 		available = {
-
-		}
+		MAN = {
+			has_war_with = CHI
+		    }
+	    }
 
 		bypass = {
 
@@ -617,7 +729,7 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_ideas = JAP_min5
 		}
 	}
 	focus = {
@@ -692,7 +804,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 0.00000005
 		}
 
 		available = {
@@ -800,35 +912,35 @@
 
 
 		completion_reward = {
-			STATE_866 = {
+			866 = {
 				add_state_modifier = {
 				modifier = {
 				production_speed_buildings_factor = 0.25
 				}
 				}
 		    }
-			STATE_865 = {
+			865 = {
 				add_state_modifier = {
 				modifier = {
 				production_speed_buildings_factor = 0.25
 				}
 				}
 		    }
-			STATE_525 = {
+			525 = {
 				add_state_modifier = {
 				modifier = {
 				production_speed_buildings_factor = 0.25
 				}
 				}
 		    }
-			STATE_867 = {
+			867 = {
 				add_state_modifier = {
 				modifier = {
 				production_speed_buildings_factor = 0.25
 				}
 				}
 		    }
-			STATE_527 = {
+			27 = {
 				add_state_modifier = {
 				modifier = {
 				production_speed_buildings_factor = 0.25
@@ -1130,7 +1242,7 @@
 
 
 		completion_reward = {
-			826 = {
+			867 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -1171,7 +1283,7 @@
 
 
 		completion_reward = {
-		826 = {
+		867 = {
 		add_state_modifier = {
 			modifier = {
 			MONTHLY_POPULATION = 0.85

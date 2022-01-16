@@ -22,7 +22,78 @@ ideas = {
 				army_morale_factor = 0.1
 			}
 		}
-	
+		Daikyokou = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.40
+				consumer_goods_factor = 0.5
+				industrial_capacity_factory = -0.35
+				industrial_capacity_dockyard = -0.35
+				local_resources_factor = -0.45
+				production_factory_max_efficiency_factor = -0.2
+			}
+		}
+		Daikyokou1 = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.30
+				consumer_goods_factor = 0.4
+				industrial_capacity_factory = -0.20
+				industrial_capacity_dockyard = -0.20
+				local_resources_factor = -0.20
+				production_factory_max_efficiency_factor = -0.1
+			}
+		}
+		Daikyokou2 = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.20
+				consumer_goods_factor = 0.3
+				local_resources_factor = -0.10
+				production_factory_max_efficiency_factor = -0.5
+			}
+		}
+		JAP_min4 = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				guarantee_cost = -0.75
+				army_org_Factor = 0.10
+				defence = 0.1
+				defensive_war_stability_factor = 0.4
+			}
+		}
+		JAP_min5 = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+				production_factory_max_efficiency_factor = 0.15
+			}
+		}
 	
 		# POLITICAL
 		student_mobilization_idea = {
@@ -101,6 +172,64 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = 0.1
+			}
+		}
+		JAP_min1_idea = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				democratic_drift = 0.05
+			}
+		}
+		JAP_min2_idea = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_industrial_complex_factor = 0.25
+				production_speed_infrastructure_factor = 0.25
+			}
+		}
+		JAP_min3_idea = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				
 			}
 		}
 		JAP_sen1_idea = {
@@ -217,7 +346,7 @@ ideas = {
 		JAP_zaibatsus = {
 
 			allowed = {
-				always = no
+				always = yes
 			}
 
 			allowed_civil_war = {
