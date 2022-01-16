@@ -1,4 +1,4 @@
-﻿capital = 64
+﻿capital = 842
 
 if = {
 	limit = {
@@ -346,20 +346,22 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	democratic = 5
+	fascism = 5
+	communism = 90
 }
 
-create_faction = Axis
+create_faction = "世界革命連合"
 add_to_faction = GER
-
+add_to_faction = HOL
+add_to_faction = FRA
+add_to_faction = ITA
 
 add_ideas = {
 	sour_loser

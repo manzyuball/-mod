@@ -1,4 +1,4 @@
-﻿capital = 282
+﻿capital = 845
 
 
 
@@ -12,7 +12,7 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-
+    Daikyokou
 	JAP_zaibatsus
 	JAP_duplicate_research_efforts
 	JAP_militarism
@@ -351,11 +351,11 @@ if = {
 		not = { has_dlc = "Waking the Tiger" }
 	}
 	set_autonomy = {
-		target = MEN
+		target = INS
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
-		target = MAN
+		target = HAW
 		autonomous_state = autonomy_integrated_puppet
 	}
 }
@@ -367,11 +367,11 @@ if = {
 		}
 	}
 	set_autonomy = {
-		target = MEN
+		target = INS
 		autonomous_state = autonomy_puppet
 	}
 	set_autonomy = {
-		target = MAN
+		target = HAW
 		autonomous_state = autonomy_puppet
 	}
 }
@@ -380,23 +380,24 @@ if = {
 		has_dlc = "Waking the Tiger"
 	}
 	set_autonomy = {
-		target = MEN
+		target = INS
 		autonomous_state = autonomy_wtt_imperial_protectorate
 	}
 	set_autonomy = {
-		target = MAN
+		target = HAW
 		autonomous_state = autonomy_wtt_imperial_protectorate
 	}
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 100
+	fascism = 2
+	democratic = 98
 }
 
 recruit_character = JAP_tetsu_katayama

@@ -27,7 +27,7 @@ if = {
 	}
 }
 
-set_research_slots = 3
+set_research_slots = 7
 set_stability = 0.5
 add_command_power = 20
 
@@ -293,31 +293,25 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 64
+	democratic = 5
 	fascism = 1
-	neutrality = 15
-	communism = 20
+	neutrality = 4
+	communism = 90
 }
 
 add_ideas = {
-	FRA_victors_of_wwi
 	FRA_disjointed_government
-	FRA_protected_by_the_maginot_line
 	limited_conscription
 	FRA_full_employment
 	FRA_political_violence
 	FRA_inefficient_economy_2
 }
-
-give_guarantee = CZE
-give_guarantee = YUG
-give_guarantee = ROM
 
 recruit_character = FRA_philippe_petain
 recruit_character = FRA_maurice_thorez

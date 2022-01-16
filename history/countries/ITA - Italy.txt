@@ -316,15 +316,15 @@ if = {
 set_convoys = 200
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 22
-	fascism = 76
-	communism = 2
+	fascism = 2
+	communism = 76
 }
 
 recruit_character = ITA_palmiro_togliatti
