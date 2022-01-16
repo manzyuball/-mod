@@ -26,11 +26,11 @@ characters={
 		}
 	}
 	AUS_arthur_seyss-inquart={
-		name=AUS_arthur_seyss-inquart
+		name=AUS_Adolf_Hitler
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				large="gfx/leaders/GER/Portrait_Germany_Adolf_Hitler.dds"
+				small="gfx/interface/ideas/idea_GER_adolf_hitler.dds"
 			}
 		}
 		country_leader={
@@ -40,12 +40,12 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = AUS_arthur_seyss-inquart
+			idea_token = AUS_Adolf_Hitler
 			allowed  = {
 					original_tag  = AUS
 				}
 				traits  = {
-					prince_of_terror 
+					autocratic_imperialist anti_communist anti_democrat
 				}
 		}
 	}

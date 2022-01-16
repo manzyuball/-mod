@@ -17,6 +17,33 @@
 		engineer = { x = 0 y = 0 }   # Pioneer Bn
 	}
 }
+division_template = {
+name = "Infanterie Division2"
+division_names_group = AUS_INF_02
+
+regiments = {
+	infantry = { x = 0 y = 0 }
+	infantry = { x = 0 y = 1 }
+	infantry = { x = 0 y = 2 }
+	mountaineers = { x = 0 y = 3 }
+	infantry = { x = 1 y = 0 }
+	infantry = { x = 1 y = 1 }
+	infantry = { x = 1 y = 2 }
+	mountaineers = { x = 1 y = 3 }
+	infantry = { x = 2 y = 0 }
+	infantry = { x = 2 y = 1 }
+	infantry = { x = 2 y = 2 }
+	mountaineers = { x = 2 y = 3 }
+	infantry = { x = 3 y = 0 }
+	infantry = { x = 3 y = 1 }
+	infantry = { x = 3 y = 2 }
+	mountaineers = { x = 3 y = 3 }
+}
+support = {
+	engineer = { x = 0 y = 0 } 
+	artillery = { x = 0 y = 1 }  # Pioneer Bn
+}
+}
 
 division_template = {
 	name = "Alpenjäger Division"
@@ -51,11 +78,197 @@ units = {
 	##### Österreichisches Bundesheer #####
 	# I Korps
 	division= {	
-		name = "Schnelle Division"
-		location = 11666  # Vienna
-		division_template = "Schnelle Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		name = "二重帝国歩兵部隊"
+		location = 9598  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+
+	division= {	
+		name = "二重帝国歩兵部隊"
+		location = 3943  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		name = "二重帝国歩兵部隊"
+		location = 9555  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		name = "二重帝国歩兵部隊"
+		location = 3569  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 11539  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 6799  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 3601  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 690  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 9606  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 746  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 3581  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 3585  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		name = "二重帝国歩兵部隊"
+		location = 11542  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+
+	division= {	
+		name = "二重帝国歩兵部隊"
+		location = 3569  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		name = "二重帝国歩兵部隊"
+		location = 9660  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		name = "二重帝国歩兵部隊"
+		location = 6711  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 619  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 6626  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 3601  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 3924  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 9606  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 746  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 3581  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {
+		name = "二重帝国歩兵部隊"
+		location = 3585  # Vienna
+		division_template = "Infanterie Division2"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 	division= {	# "1. Division"
@@ -154,7 +367,7 @@ air_wings = {
 		fighter_equipment_0 =  {
 			owner = "AUS" 
 			creator = "ITA"
-			amount = 42
+			amount = 420
 		}
 	}
 }

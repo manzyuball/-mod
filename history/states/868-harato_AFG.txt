@@ -5,17 +5,14 @@ state={
 		2101 4949 5020 5064 8090 10789 
 	}
 	history={
-		owner = AFG
+		owner = RAJ
+		victory_points = {
+			5064 1 
+		}
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = AFG
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-
-		}
 		}
 
 	manpower=543214

@@ -4,7 +4,7 @@ state={
 	name="STATE_16"
 	manpower = 7038500
 	
-	state_category = metropolis
+	state_category = megalopolis
 	
 
 	history={

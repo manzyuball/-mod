@@ -12,8 +12,8 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 4
-			arms_factory = 3
-			industrial_complex = 3
+			arms_factory = 6
+			industrial_complex = 4
 			air_base = 2
 		}
 		victory_points = {
@@ -40,7 +40,7 @@ state={
 	}
 	manpower=52963300
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=megalopolis
 
 	local_supplies=0.0 
 }

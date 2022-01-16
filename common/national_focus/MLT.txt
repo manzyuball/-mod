@@ -22,7 +22,7 @@
 		y = 0
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available_if_capitulated = yes
@@ -124,7 +124,7 @@
 		relative_position_id = MLT_industrial_effort1
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available_if_capitulated = yes
@@ -289,7 +289,7 @@
 		relative_position_id = MLT_industrial_effort_2
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available_if_capitulated = yes
@@ -310,7 +310,7 @@
 		relative_position_id = MLT_extra_tech_slot1
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}	
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
@@ -375,7 +375,7 @@
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}	
 		completion_reward = {
 			add_ideas = MLT_sangyo
@@ -391,7 +391,7 @@
 		y = 0
 		cost = 10
 		ai_will_do = {
-			factor = 0.25
+			factor = 100
 		}
 
 		available_if_capitulated = yes
@@ -1213,7 +1213,7 @@
 		relative_position_id = MLT_italy_first
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available_if_capitulated = yes

@@ -2,12 +2,11 @@ state={
 	id=851
 	name="STATE_851"
 	provinces={
-		9843 10068 11761 
+		9843 10068 11761
 	}
 	history={
 		owner = MAN
 		add_core_of = MAN
-		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 3
@@ -22,9 +21,8 @@ state={
 		victory_points = {
 			10068 1 
 		}
-		1938.10.25 = {
-			controller = JAP
-
+		victory_points = {
+			9843 35
 		}
 
 	}
