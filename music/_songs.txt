@@ -84,6 +84,7 @@ music = {
 			has_government = communism
 		}		
 	}
+	}
 	music = {
 		song = "1812 Overture"
 		
@@ -94,6 +95,7 @@ music = {
 				tag = VLA
 			}		
 		}
+	}
 		music = {
 			song = "Battotai"
 			
@@ -103,6 +105,7 @@ music = {
 					tag = JAP
 				}		
 			}
+		}
 			music = {
 				song = "Ceddin Deden"
 				
@@ -113,6 +116,7 @@ music = {
 						has_war = no
 						tag = TUR
 					}		
+					}
 				}
 				music = {
 					song = "Erika"
@@ -123,6 +127,7 @@ music = {
 				        tag = GER
 						}		
 					}
+					}
 					music = {
 						song = "Gott erhalte Franz den Kaiser"
 						
@@ -132,28 +137,34 @@ music = {
 					        tag = aus
 							}		
 						}
-						music = {
-							song = "I Vow to Thee My Country"
+					}
+
+
+music = {
+ song = "I Vow to Thee My Country"
 							
-							chance = {
-								modifier = {
-									factor = 15
-						        tag = ENG
-								}		
-							}
-							music = {
-								song = "Marching Through Georgia"
+ chance = {
+	modifier = {
+		factor = 15
+		tag = ENG
+	}		
+	}
+}
+
+music = {
+		song = "Marching Through Georgia"
 								
-								chance = {
-									modifier = {
-										factor = 15
+	chance = {
+		modifier = {
+			factor = 15
 							
-										tag = USA
-										tag = CSA
-										tag = USB
-									}		
-								}
-}music = {
+			tag = USA
+			tag = CSA
+			tag = USB
+			}		
+       }
+}
+music = {
 	song = "La Marseillaise"
 	
 	chance = {
@@ -164,7 +175,8 @@ music = {
 			has_government = communism
 		}		
 	}	
-}music = {
+}
+music = {
 	song = "Le Chant du depart"
 	
 	chance = {
