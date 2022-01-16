@@ -9,12 +9,11 @@ state={
 		owner = JAP
 		add_core_of = JAP
 		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
 		air_base = 2
-		7145 = {
-			naval_base = 2
-			coastal_bunker = 1
-			bunker = 1
-	
 		}
 	manpower=623427
 	buildings_max_level_factor=1.000

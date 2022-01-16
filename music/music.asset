@@ -26,19 +26,67 @@ music = {
 music = {
 	name = "Der_offene_Aufmarsch"
 	file = "Der offene Aufmarsch.ogg"
-	volume = 0.65
+	volume = 0.95
 }
 
 music = {
 	name = "La Marseillaise"
 	file = "La Marseillaise.ogg"
-	volume = 0.65
+	volume = 0.95
 }
 
 music = {
 	name = "Le Chant du depart"
 	file = "Le Chant du depart.ogg"
-	volume = 0.65
+	volume = 0.95
+}
+
+music = {
+	name = "Marching Through Georgia"
+	file = "Marching Through Georgia.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "When Johnny Comes Marching Home"
+	file = "When Johnny Comes Marching Home.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "I Vow to Thee My Country"
+	file = "I Vow to Thee My Country.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "Gott erhalte Franz den Kaiser"
+	file = "Gott erhalte Franz den Kaiser.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "Erika"
+	file = "Erika.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "Ceddin Deden"
+	file = "Ceddin Deden.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "Battotai"
+	file = "Battotai.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "1812 Overture"
+	file = "1812 Overture.ogg"
+	volume = 0.95
 }
 
 # General war:

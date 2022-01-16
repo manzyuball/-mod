@@ -83,7 +83,76 @@ music = {
 			has_war = no
 			has_government = communism
 		}		
-	}	
+	}
+	music = {
+		song = "1812 Overture"
+		
+		chance = {
+			modifier = {
+				factor = 15
+
+				tag = VLA
+			}		
+		}
+		music = {
+			song = "Battotai"
+			
+			chance = {
+				modifier = {
+					factor = 15
+					tag = JAP
+				}		
+			}
+			music = {
+				song = "Ceddin Deden"
+				
+				chance = {
+					modifier = {
+						factor = 15
+			
+						has_war = no
+						tag = TUR
+					}		
+				}
+				music = {
+					song = "Erika"
+					
+					chance = {
+						modifier = {
+							factor = 15
+				        tag = GER
+						}		
+					}
+					music = {
+						song = "Gott erhalte Franz den Kaiser"
+						
+						chance = {
+							modifier = {
+								factor = 15
+					        tag = aus
+							}		
+						}
+						music = {
+							song = "I Vow to Thee My Country"
+							
+							chance = {
+								modifier = {
+									factor = 15
+						        tag = ENG
+								}		
+							}
+							music = {
+								song = "Marching Through Georgia"
+								
+								chance = {
+									modifier = {
+										factor = 15
+							
+										tag = USA
+										tag = CSA
+										tag = USB
+									}		
+								}
 }music = {
 	song = "La Marseillaise"
 	
