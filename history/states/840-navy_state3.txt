@@ -5,7 +5,7 @@ state={
 		4296 4398 7315 7386 10157 10242 
 	}
 	history={
-		owner = USA
+		owner = USN
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -19,6 +19,7 @@ state={
 
 		}
 		add_core_of = USA
+		add_core_of = USN
 		add_core_of = USB
 		add_core_of = CSA
 		victory_points = {
