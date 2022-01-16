@@ -24,10 +24,12 @@ ideas = {
 		}
 		Daikyokou = {
 			allowed = {
-				always = yes
+				original_tag = JAP
 			}
 			
 			removal_cost = -1
+
+			picture = usa_great_depression_3
 
 			modifier = {
 				stability_factor = -0.40
@@ -45,6 +47,9 @@ ideas = {
 			
 			removal_cost = -1
 
+			picture = usa_great_depression_3
+
+
 			modifier = {
 				stability_factor = -0.30
 				consumer_goods_factor = 0.4
@@ -61,11 +66,13 @@ ideas = {
 			
 			removal_cost = -1
 
+			picture = usa_great_depression_2
+
 			modifier = {
 				stability_factor = -0.20
 				consumer_goods_factor = 0.3
 				local_resources_factor = -0.10
-				production_factory_max_efficiency_factor = -0.5
+				production_factory_max_efficiency_factor = -0.05
 			}
 		}
 		JAP_min4 = {
@@ -74,6 +81,8 @@ ideas = {
 			}
 			
 			removal_cost = -1
+
+			picture = ast_naval_auxiliary_patrol
 
 			modifier = {
 				guarantee_cost = -0.75
@@ -88,7 +97,7 @@ ideas = {
 			}
 			
 			removal_cost = -1
-
+			picture = generic_exploit_mines
 			modifier = {
 				production_speed_arms_factory_factor = 0.15
 				production_factory_max_efficiency_factor = 0.15
@@ -186,6 +195,8 @@ ideas = {
 			
 			removal_cost = -1
 
+			picture = generic_democratic_drift_bonus
+
 			picture = generic_manpower_bonus
 			
 			modifier = {
@@ -204,7 +215,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_manpower_bonus
+			picture = generic_production_bonus
 			
 			modifier = {
 				consumer_goods_factor = -0.1
@@ -225,7 +236,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_manpower_bonus
+			picture = tur_balkan_central_bank_wealthy_greece
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -244,7 +255,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_manpower_bonus
+			picture = man_five_year_plan_industry
 			
 			modifier = {
 				global_building_slots_factor = 0.15

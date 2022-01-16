@@ -166,14 +166,16 @@
 
 		completion_reward = {
 			USA = {
-				add_timed_idea = {
-				idea = JAP_min1
-				days = 25 }
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.1
+					}
 				}
 			CHI = {
-				add_timed_idea = {
-				idea = JAP_min1
-				days = 25 }
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.1
+					}
 				}
 		}
 	}
@@ -1821,7 +1823,9 @@
 
 
 		completion_reward = {
-			add_country_leader_trait = el_jefe_maximo
+			INS = {
+				add_country_leader_trait = el_jefe_maximo
+			}
 		}
 	}
 	focus = {
