@@ -5,6 +5,7 @@ state={
 	resources={
 		oil=180.000
 		aluminium=8.000
+		GOLD=15.00000
 	}
 
 	history={

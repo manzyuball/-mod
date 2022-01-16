@@ -8,6 +8,7 @@ state={
 	
 	resources={
 		oil=44 # was: 66
+		COCA=12
 	}
 
 	history={

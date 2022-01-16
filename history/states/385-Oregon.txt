@@ -5,6 +5,9 @@ state={
 	manpower = 953785
 	
 	state_category = large_city
+	resources={
+		GOLD=21
+	}
 
 	history={
 		owner = USA

@@ -351,8 +351,7 @@
 	focus = {
 		id = JAP_min11
 		icon = GFX_focus_SOV_breadbasket_of_the_union
-		prerequisite = { focus = JAP_min10 }
-		prerequisite = { focus = JAP_min9 }
+		prerequisite = { focus = JAP_min10 focus = JAP_min9 }
 		x = 13
 		y = 8
 

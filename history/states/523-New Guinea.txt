@@ -2,7 +2,9 @@
 state={
 	id=523
 	name="STATE_523"
-
+	resources={
+		GOLD=13
+	}
 	history={
 		add_core_of = PNG
 		owner = AST

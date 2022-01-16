@@ -3,7 +3,9 @@ state={
 	id=276
 	name="STATE_276" # Southern Ontario
 	manpower = 3117017
-	
+	resources={
+		BRONZE=41
+	}
 	state_category = large_city
 	
 	history={

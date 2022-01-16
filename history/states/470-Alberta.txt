@@ -5,6 +5,9 @@ state={
 	manpower = 690800
 
 	state_category = rural
+	resources={
+		GOLD=8.000
+	}
 
 
 	history={

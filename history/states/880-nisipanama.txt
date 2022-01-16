@@ -4,6 +4,10 @@ state={
 	provinces={
 		1633 4611 4624 
 	}
+	resources={
+		BRONZE=31
+		COCA=21
+	}
 	history={
 		owner = HON
 		buildings = {

@@ -2,7 +2,9 @@ state = {
 
 	id = 823
 	name = "STATE_823" #Karakalpakstan
-
+	resources={
+		GOLD=31
+	}
 	history = {
 	
 		victory_points = {

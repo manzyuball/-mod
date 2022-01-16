@@ -4,6 +4,10 @@ state={
 	manpower = 314300
 
 	state_category = pastoral
+	resources={
+		GOLD=52
+		SILVER=73
+	}
 
 	history= {
 		owner = INS
