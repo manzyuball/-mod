@@ -1,4 +1,4 @@
-﻿capital = 613 # Nanjing
+﻿capital = 608 # Nanjing
 
 oob = "CHI_1936"
 if = {
@@ -47,8 +47,8 @@ recruit_character = CHI_soong_mei_ling
 recruit_character = CHI_random_prince_of_terror
 recruit_character = CHI_lin_sen
 
-set_stability = 0.2
-set_war_support = 0.5
+set_stability = 0.4
+set_war_support = 0.3
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -93,10 +93,6 @@ if = {
 	}
 }
 
-add_ideas = {
-	german_advisors
-}
-
 if = {
 	limit = {
 		NOT = {
@@ -114,7 +110,6 @@ if = {
 		has_dlc = "Waking the Tiger"
 	}		
 	add_ideas = {
-		CHI_nine_power_treaty
 		CHI_army_corruption_1
 		CHI_ineffective_bureaucracy
 		CHI_incompetent_officers
@@ -255,14 +250,14 @@ set_convoys = 40
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	fascism = 100
 }
 
 add_opinion_modifier = { target = PRC modifier = hostile_status }
@@ -287,21 +282,8 @@ if = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
-			fixed_ship_sonar_slot =  empty
 			mid_1_custom_slot = empty
-			mid_2_custom_slot = ship_light_battery_1
 			rear_1_custom_slot = empty
-			depth_1_custom_slot = ship_depth_charge_1
-			depth_2_custom_slot = empty
-			depth_3_custom_slot = empty
-			depth_4_custom_slot = empty
-			anti_1_custom_slot = empty
-			anti_2_custom_slot = empty
-			layer_1_custom_slot = ship_mine_layer_1
-			layer_2_custom_slot = ship_mine_layer_1
-			sweeper_1_custom_slot = empty
-			torp_1_custom_slot = ship_torpedo_1
-			torp_2_custom_slot = empty
 		}
 	}
 	# Light Cruisers #
@@ -311,29 +293,15 @@ if = {
 		name_group = CHI_CL_HISTORICAL
 		parent_version = 0
 		modules = {
-			rear_2_custom_slot = ship_medium_battery_1
+			fixed_ship_battery_slot = ship_light_medium_battery_1
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = empty
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
-			front_1_custom_slot = ship_medium_battery_1
-			torp_4_custom_slot = empty
-			torp_5_custom_slot = empty
-			anti_1_custom_slot = empty
-			anti_2_custom_slot = empty
-			anti_3_custom_slot = empty
-			anti_4_custom_slot = empty
-			sec_1_custom_slot = empty
-			sec_2_custom_slot = ship_secondaries_1
-			launcher_1_custom_slot = ship_airplane_launcher_1
-			fixed_layer_1_slot = empty
-			fixed_layer_2_slot = empty
-			fixed_layer_3_slot = empty
-			fixed_depth_1_slot = empty
-
 		}
 		obsolete = yes
 	}
@@ -343,29 +311,16 @@ if = {
 		name_group = CHI_CL_HISTORICAL
 		parent_version = 0
 		modules = {
-			rear_2_custom_slot = ship_medium_battery_1
+			fixed_ship_battery_slot = ship_medium_battery_1
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = empty
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
-			front_1_custom_slot = ship_medium_battery_1
-			torp_4_custom_slot = empty
-			torp_5_custom_slot = empty
-			anti_1_custom_slot = empty
-			anti_2_custom_slot = empty
-			anti_3_custom_slot = empty
-			anti_4_custom_slot = empty
-			sec_1_custom_slot = empty
-			sec_2_custom_slot = ship_secondaries_1
-			launcher_1_custom_slot = ship_airplane_launcher_1
-			fixed_layer_1_slot = empty
-			fixed_layer_2_slot = empty
-			fixed_layer_3_slot = empty
-			fixed_depth_1_slot = empty
 		}
 		obsolete = yes
 	}
@@ -380,24 +335,9 @@ if = {
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
-			front_1_custom_slot = ship_light_medium_battery_1
-			mid_1_custom_slot = ship_light_medium_battery_1
-			mid_2_custom_slot = ship_light_medium_battery_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
-			rear_2_custom_slot = empty
-			torp_1_custom_slot = ship_torpedo_1
-			torp_2_custom_slot = ship_torpedo_1
-			anti_1_custom_slot = empty
-			anti_2_custom_slot = empty
-			anti_3_custom_slot = ship_anti_air_1
-			anti_4_custom_slot = ship_anti_air_1
-			sec_1_custom_slot = empty
-			sec_2_custom_slot = empty
-			launcher_1_custom_slot = ship_airplane_launcher_1
-			fixed_layer_1_slot = empty
-			fixed_layer_2_slot = empty
-			fixed_layer_3_slot = ship_mine_layer_1
-			fixed_depth_1_slot = empty
 		}
 	}
 }

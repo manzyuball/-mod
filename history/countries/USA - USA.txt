@@ -284,30 +284,23 @@ set_convoys = 500
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	democratic = 30
+	communism = 70
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
 	disarmed_nation
 	free_trade
-	home_of_the_free
 }
 
 
 # DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
-}
 
 1939.1.1 = {
 	set_politics = {
@@ -548,9 +541,6 @@ if = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = empty
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty 
-			mid_5_custom_slot = empty
 		}
 		obsolete = yes
 	}
@@ -563,9 +553,6 @@ if = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = empty
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty 
-			mid_5_custom_slot = empty
 		}
 		obsolete = yes
 	}
@@ -578,9 +565,6 @@ if = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_2
 			rear_1_custom_slot = empty
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty 
-			mid_5_custom_slot = empty
 		}
 	}
 	# Destroyers #
@@ -596,23 +580,8 @@ if = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = ship_torpedo_1
-			fixed_ship_sonar_slot =  ship_sonar_1
-			front_1_custom_slot = ship_light_battery_1
-			mid_1_custom_slot = ship_light_battery_1
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = ship_light_battery_1
-			depth_1_custom_slot = empty
-			depth_2_custom_slot = empty
-			depth_3_custom_slot = empty
-			depth_4_custom_slot = ship_depth_charge_1
-			anti_1_custom_slot = empty
-			anti_2_custom_slot = empty
-			layer_1_custom_slot = empty
-			layer_2_custom_slot = ship_mine_layer_1
-#			sweeper_1_custom_slot = ship_mine_sweeper_1
-			sweeper_1_custom_slot = empty
-			torp_1_custom_slot = empty
-			torp_2_custom_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
 		}
 		obsolete = yes
 	}
@@ -625,26 +594,11 @@ if = {
 			fixed_ship_battery_slot = ship_light_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
 			fixed_ship_engine_slot = light_ship_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_1
-			fixed_ship_sonar_slot =  ship_sonar_1
-			front_1_custom_slot = ship_light_battery_2
-			mid_1_custom_slot = ship_light_battery_2
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = ship_light_battery_2
-			depth_1_custom_slot = empty
-			depth_2_custom_slot = empty
-			depth_3_custom_slot = empty
-			depth_4_custom_slot = ship_depth_charge_1
-			anti_1_custom_slot = empty
-			anti_2_custom_slot = empty
-			layer_1_custom_slot = empty
-			layer_2_custom_slot = ship_mine_layer_1
-#			sweeper_1_custom_slot = ship_mine_sweeper_1
-			sweeper_1_custom_slot = empty
-			torp_1_custom_slot = empty
-			torp_2_custom_slot = ship_torpedo_1
-			fixed_ship_radar_slot = empty
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
 	# Light Cruisers #
@@ -660,24 +614,9 @@ if = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
-			front_1_custom_slot = ship_medium_battery_1
-			mid_1_custom_slot = ship_medium_battery_1
-			mid_2_custom_slot = ship_medium_battery_1
-			rear_1_custom_slot = empty
-			rear_2_custom_slot = empty
-			torp_1_custom_slot = ship_torpedo_1
-			torp_2_custom_slot = ship_torpedo_1
-			anti_1_custom_slot = empty
-			anti_2_custom_slot = empty
-			anti_3_custom_slot = ship_anti_air_1
-			anti_4_custom_slot = ship_anti_air_1
-			sec_1_custom_slot = empty
-			sec_2_custom_slot = empty
-			launcher_1_custom_slot = ship_airplane_launcher_1
-			fixed_layer_1_slot = empty
-			fixed_layer_2_slot = empty
-			fixed_layer_3_slot = empty
-			fixed_depth_1_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_light_medium_battery_1
 		}
 		obsolete = yes
 	}
@@ -694,24 +633,10 @@ if = {
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 			fixed_ship_armor_slot = ship_armor_cruiser_3
 			fixed_ship_secondaries_slot = ship_secondaries_1
-			rear_1_custom_slot = ship_light_medium_battery_2
-			rear_2_custom_slot = empty
-			torp_1_custom_slot = empty
-			torp_2_custom_slot = empty
-			anti_1_custom_slot = empty
-			anti_2_custom_slot = empty
-			anti_3_custom_slot = ship_anti_air_1
-			anti_4_custom_slot = ship_anti_air_1
-			sec_1_custom_slot = empty
-			sec_2_custom_slot = empty
-			launcher_1_custom_slot = ship_airplane_launcher_1
-			fixed_layer_1_slot = empty
-			fixed_layer_2_slot = empty
-			fixed_layer_3_slot = empty
-			fixed_depth_1_slot = empty
-			mid_1_custom_slot = ship_light_medium_battery_2
-			mid_2_custom_slot = ship_light_medium_battery_2
 			front_1_custom_slot = ship_light_medium_battery_2
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_light_medium_battery_2
 		}
 	}
 	create_equipment_variant = {
@@ -726,24 +651,9 @@ if = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = empty
-			front_1_custom_slot = ship_medium_battery_1
-			mid_1_custom_slot = ship_medium_battery_1
-			mid_2_custom_slot = ship_medium_battery_1
-			rear_1_custom_slot = empty
-			rear_2_custom_slot = empty
-			torp_1_custom_slot = ship_torpedo_1
-			torp_2_custom_slot = ship_torpedo_1
-			anti_1_custom_slot = empty
-			anti_2_custom_slot = empty
-			anti_3_custom_slot = ship_anti_air_1
-			anti_4_custom_slot = ship_anti_air_1
-			sec_1_custom_slot = empty
-			sec_2_custom_slot = empty
-			launcher_1_custom_slot = ship_airplane_launcher_1
-			fixed_layer_1_slot = ship_mine_layer_1
-			fixed_layer_2_slot = ship_mine_layer_1
-			fixed_layer_3_slot = ship_mine_layer_1
-			fixed_depth_1_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
 		}
 	}
 	# Heavy Cruisers #
@@ -760,24 +670,9 @@ if = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
-			front_1_custom_slot = ship_medium_battery_1
 			mid_1_custom_slot = ship_medium_battery_1
-			mid_2_custom_slot = ship_medium_battery_1
-			rear_1_custom_slot = empty
-			rear_2_custom_slot = empty
-			torp_1_custom_slot = ship_torpedo_1
-			torp_2_custom_slot = ship_torpedo_1
-			anti_1_custom_slot = empty
-			anti_2_custom_slot = empty
-			anti_3_custom_slot = ship_anti_air_1
-			anti_4_custom_slot = ship_anti_air_1
-			sec_1_custom_slot = empty
-			sec_2_custom_slot = empty
-			launcher_1_custom_slot = ship_airplane_launcher_1
-			fixed_layer_1_slot = empty
-			fixed_layer_2_slot = empty
-			fixed_layer_3_slot = empty
-			fixed_depth_1_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_airplane_launcher_1
 		}
 		obsolete = yes
 	}
@@ -794,24 +689,9 @@ if = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_cruiser_2
-			rear_1_custom_slot = ship_medium_battery_1
-			rear_2_custom_slot = empty
-			torp_1_custom_slot = empty
-			torp_2_custom_slot = empty
-			anti_1_custom_slot = empty
-			anti_2_custom_slot = empty
-			anti_3_custom_slot = ship_anti_air_1
-			anti_4_custom_slot = ship_anti_air_1
-			sec_1_custom_slot = empty
-			sec_2_custom_slot = empty
-			launcher_1_custom_slot = ship_airplane_launcher_1
-			fixed_layer_1_slot = empty
-			fixed_layer_2_slot = empty
-			fixed_layer_3_slot = empty
-			fixed_depth_1_slot = empty
-			mid_1_custom_slot = empty
+			mid_1_custom_slot = ship_airplane_launcher_1
 			mid_2_custom_slot = empty
-			front_1_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = ship_medium_battery_1
 		}
 		obsolete = yes
 	}
@@ -828,24 +708,9 @@ if = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_cruiser_2
-			rear_1_custom_slot = ship_light_medium_battery_2
-			rear_2_custom_slot = empty
-			torp_1_custom_slot = empty
-			torp_2_custom_slot = empty
-			anti_1_custom_slot = empty
-			anti_2_custom_slot = empty
-			anti_3_custom_slot = ship_anti_air_1
-			anti_4_custom_slot = ship_anti_air_1
-			sec_1_custom_slot = empty
-			sec_2_custom_slot = empty
-			launcher_1_custom_slot = ship_airplane_launcher_1
-			fixed_layer_1_slot = empty
-			fixed_layer_2_slot = empty
-			fixed_layer_3_slot = empty
-			fixed_depth_1_slot = empty
-			mid_1_custom_slot = ship_light_medium_battery_2
-			mid_2_custom_slot = ship_light_medium_battery_2
-			front_1_custom_slot = ship_light_medium_battery_2
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_medium_battery_2
 		}
 	}
 	# Heavy Cruisers #
@@ -861,24 +726,9 @@ if = {
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_2
 				fixed_ship_armor_slot = ship_armor_cruiser_3
+				mid_1_custom_slot = ship_airplane_launcher_1
+				mid_2_custom_slot = ship_anti_air_1
 				rear_1_custom_slot = ship_medium_battery_2
-				rear_2_custom_slot = empty
-				torp_1_custom_slot = empty
-				torp_2_custom_slot = empty
-				anti_1_custom_slot = empty
-				anti_2_custom_slot = empty
-				anti_3_custom_slot = ship_anti_air_1
-				anti_4_custom_slot = ship_anti_air_1
-				sec_1_custom_slot = empty
-				sec_2_custom_slot = empty
-				launcher_1_custom_slot = ship_airplane_launcher_1
-				fixed_layer_1_slot = empty
-				fixed_layer_2_slot = empty
-				fixed_layer_3_slot = empty
-				fixed_depth_1_slot = empty
-				mid_1_custom_slot = ship_medium_battery_2
-				mid_2_custom_slot = ship_medium_battery_2
-				front_1_custom_slot = ship_medium_battery_2
 			}
 		}
 	# Battleships #
@@ -888,38 +738,17 @@ if = {
 		name_group = USA_BB_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = ship_double_heavy_battery_2
+			fixed_ship_battery_slot = ship_heavy_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_1
-			launcher_1_custom_slot = ship_airplane_launcher_1
-			sec_1_custom_slot = ship_secondaries_1
-			front_1_custom_slot = ship_triple_heavy_battery_2
-			anti_1_custom_slot = ship_anti_air_1
-			anti_2_custom_slot = ship_anti_air_1
-			anti_3_custom_slot = ship_anti_air_1
-			torp_1_custom_slot = empty
-			anti_4_custom_slot = empty
-			rear_1_custom_slot = ship_double_heavy_battery_2
-			sec_2_custom_slot = ship_secondaries_1
-			torp_2_custom_slot = empty
-			anti_5_custom_slot = ship_anti_air_1
-			launcher_2_custom_slot = ship_airplane_launcher_1
-			sec_3_custom_slot = ship_secondaries_1
-			mid_1_custom_slot = ship_secondaries_1
-			anti_6_custom_slot = ship_anti_air_1
-			#launcher_3_custom_slot = empty
-			mid_2_custom_slot = ship_anti_air_1
-			anti_7_custom_slot = ship_anti_air_1
-			launcher_4_custom_slot = empty
-			fixed_ship_slot_1 = ship_triple_heavy_battery_2
-#			fixed_ship_slot_2 = ship_secondaries_1
-			fixed_ship_slot_3 = empty
-			fixed_ship_slot_4 = empty
-			fixed_ship_slot_5 = empty
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_1
 		}
 		obsolete = yes
 	}
@@ -929,38 +758,17 @@ if = {
 		name_group = USA_BB_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = ship_triple_heavy_battery_2
+			fixed_ship_battery_slot = ship_heavy_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_2
-			anti_2_custom_slot = ship_anti_air_1
-			launcher_1_custom_slot = ship_airplane_launcher_1
-			sec_1_custom_slot = ship_secondaries_1
-			front_1_custom_slot = ship_triple_heavy_battery_2
-			anti_1_custom_slot = ship_anti_air_1
-			anti_3_custom_slot = ship_anti_air_1
-			torp_1_custom_slot = empty
-			anti_4_custom_slot = empty
-			rear_1_custom_slot = ship_triple_heavy_battery_2
-			sec_2_custom_slot = ship_secondaries_1
-			torp_2_custom_slot = empty
-			anti_5_custom_slot = ship_anti_air_1
-			launcher_2_custom_slot = ship_airplane_launcher_1
-			sec_3_custom_slot = ship_secondaries_1
-			mid_1_custom_slot = ship_secondaries_1
-			anti_6_custom_slot = ship_anti_air_1
-			#launcher_3_custom_slot = empty
-			mid_2_custom_slot = ship_anti_air_1
-			anti_7_custom_slot = ship_anti_air_1
-			launcher_4_custom_slot = empty
-			fixed_ship_slot_1 = ship_triple_heavy_battery_2
-#			fixed_ship_slot_2 = ship_secondaries_1
-			fixed_ship_slot_3 = empty
-			fixed_ship_slot_4 = empty
-			fixed_ship_slot_5 = empty
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_1
 		}
 		obsolete = yes
 	}
@@ -970,38 +778,17 @@ if = {
 		name_group = USA_BB_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = ship_double_heavy_battery_4
+			fixed_ship_battery_slot = ship_heavy_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_2
-			anti_2_custom_slot = ship_anti_air_1
-			sec_1_custom_slot = ship_secondaries_1
-			launcher_1_custom_slot = ship_airplane_launcher_1
-			front_1_custom_slot = ship_double_heavy_battery_4
-			anti_1_custom_slot = ship_anti_air_1
-			anti_3_custom_slot = ship_anti_air_1
-			torp_1_custom_slot = empty
-			anti_4_custom_slot = empty
-			rear_1_custom_slot = ship_double_heavy_battery_4
-			sec_2_custom_slot = ship_secondaries_1
-			torp_2_custom_slot = empty
-			anti_5_custom_slot = ship_anti_air_1
-			launcher_2_custom_slot = ship_airplane_launcher_1
-			sec_3_custom_slot = ship_secondaries_1
+			front_1_custom_slot = ship_anti_air_1
 			mid_1_custom_slot = ship_secondaries_1
-			anti_6_custom_slot = ship_anti_air_1
-			#launcher_3_custom_slot = empty
-			mid_2_custom_slot = ship_anti_air_1
-			anti_7_custom_slot = ship_anti_air_1
-			launcher_4_custom_slot = empty
-			fixed_ship_slot_1 = ship_double_heavy_battery_4
-#			fixed_ship_slot_2 = ship_secondaries_1
-			fixed_ship_slot_3 = empty
-			fixed_ship_slot_4 = empty
-			fixed_ship_slot_5 = empty
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_2
 		}
 	}
 	# Carriers #
@@ -1018,17 +805,6 @@ if = {
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			mid_1_custom_slot = ship_deck_space
-			front_1_custom_slot = ship_deck_space
-			mid_2_custom_slot = ship_deck_space
-			fixed_ship_armor_slot_1 = ship_armor_carrier_deck
-			fixed_ship_armor_slot_2 = ship_armor_carrier_deck
-			custom_ship_armor_slot_1 = empty
-			custom_ship_armor_slot_2 = empty
-			custom_ship_armor_slot_3 = empty
-			custom_ship_secondaries_slot_1 = empty
-			custom_ship_secondaries_slot_2 = empty
-			custom_ship_secondaries_slot_3 = empty
-			custom_ship_anti_slot_1 = empty
 		}
 		obsolete = yes
 	}
@@ -1045,13 +821,6 @@ if = {
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
 			front_1_custom_slot = ship_deck_space
-			mid_1_custom_slot = ship_deck_space
-			fixed_ship_armor_slot_1 = ship_armor_carrier_deck
-			fixed_ship_armor_slot_2 = ship_armor_carrier_deck
-			custom_ship_secondaries_slot_1 = empty
-			custom_ship_secondaries_slot_2 = empty
-			custom_ship_secondaries_slot_3 = empty
-			custom_ship_anti_slot_1 = empty
 			
 		}
 		obsolete = yes
@@ -1069,13 +838,6 @@ if = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_2
 			front_1_custom_slot = ship_deck_space
-			mid_1_custom_slot = ship_deck_space
-			fixed_ship_armor_slot_1 = ship_armor_carrier_deck
-			fixed_ship_armor_slot_2 = ship_armor_carrier_deck
-			custom_ship_secondaries_slot_1 = empty
-			custom_ship_secondaries_slot_2 = empty
-			custom_ship_secondaries_slot_3 = empty
-			custom_ship_anti_slot_1 = empty
 		}
 	}
 }
@@ -1140,9 +902,6 @@ if = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub_2
 				fixed_ship_engine_slot = sub_ship_engine_2
 				rear_1_custom_slot = ship_torpedo_sub_2
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty 
-				mid_5_custom_slot = empty
 			}
 		}
 		# Destroyers #
@@ -1155,26 +914,11 @@ if = {
 				fixed_ship_battery_slot = dp_light_battery
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
+				fixed_ship_radar_slot = ship_sonar_1
 				fixed_ship_engine_slot = light_ship_engine_2
 				fixed_ship_torpedo_slot = ship_torpedo_1
-				fixed_ship_sonar_slot =  ship_sonar_1
-				front_1_custom_slot = dp_light_battery
-				mid_1_custom_slot = dp_light_battery
-				mid_2_custom_slot = empty
-				rear_1_custom_slot = dp_light_battery
-				depth_1_custom_slot = empty
-				depth_2_custom_slot = empty
-				depth_3_custom_slot = empty
-				depth_4_custom_slot = ship_depth_charge_1
-				anti_1_custom_slot = empty
-				anti_2_custom_slot = empty
-				layer_1_custom_slot = empty
-				layer_2_custom_slot = ship_mine_layer_1
-#				sweeper_1_custom_slot = ship_mine_sweeper_1
-				sweeper_1_custom_slot = empty
-				torp_1_custom_slot = empty
-				torp_2_custom_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_torpedo_1
+				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
 		create_equipment_variant = {
@@ -1186,26 +930,11 @@ if = {
 				fixed_ship_battery_slot = dp_light_battery
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
+				fixed_ship_radar_slot = ship_sonar_2
 				fixed_ship_engine_slot = light_ship_engine_2
 				fixed_ship_torpedo_slot = ship_torpedo_2
-				fixed_ship_sonar_slot =  ship_sonar_2
-				front_1_custom_slot = dp_light_battery
-				mid_1_custom_slot = dp_light_battery
-				mid_2_custom_slot = empty
-				rear_1_custom_slot = dp_light_battery
-				depth_1_custom_slot = empty
-				depth_2_custom_slot = empty
-				depth_3_custom_slot = empty
-				depth_4_custom_slot = ship_depth_charge_1
-				anti_1_custom_slot = empty
-				anti_2_custom_slot = empty
-				layer_1_custom_slot = empty
-				layer_2_custom_slot = ship_mine_layer_1
-#				sweeper_1_custom_slot = ship_mine_sweeper_1
-				sweeper_1_custom_slot = empty
-				torp_1_custom_slot = empty
-				torp_2_custom_slot = ship_torpedo_2
+				mid_1_custom_slot = ship_torpedo_2
+				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
 		
@@ -1216,38 +945,18 @@ if = {
 			name_group = USA_BB_HISTORICAL
 			parent_version = 0
 			modules = {
-				fixed_ship_battery_slot = ship_triple_heavy_battery_4
+				fixed_ship_battery_slot = ship_heavy_battery_3
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = heavy_ship_engine_2
 				fixed_ship_secondaries_slot = dp_ship_secondaries
 				fixed_ship_armor_slot = ship_armor_bb_2
-				front_1_custom_slot = ship_triple_heavy_battery_4
-				launcher_1_custom_slot = ship_airplane_launcher_1
-				anti_1_custom_slot = ship_anti_air_1
-				anti_2_custom_slot = ship_anti_air_1
-				anti_3_custom_slot = ship_anti_air_1
-				torp_1_custom_slot = empty
-				anti_4_custom_slot = empty
-				sec_1_custom_slot = dp_ship_secondaries
-				rear_1_custom_slot = ship_triple_heavy_battery_4
-				sec_2_custom_slot = dp_ship_secondaries
-				torp_2_custom_slot = empty
-				anti_5_custom_slot = ship_anti_air_1
-				launcher_2_custom_slot = ship_airplane_launcher_1
-				sec_3_custom_slot = dp_ship_secondaries
-				mid_1_custom_slot = dp_ship_secondaries
-				anti_6_custom_slot = ship_anti_air_1
-				#launcher_3_custom_slot = empty
-				mid_2_custom_slot = ship_anti_air_1
-				anti_7_custom_slot = ship_anti_air_1
-				launcher_4_custom_slot = empty
-				fixed_ship_slot_1 = empty
-#				fixed_ship_slot_2 = ship_secondaries_1
-				fixed_ship_slot_3 = empty
-				fixed_ship_slot_4 = empty
-				fixed_ship_slot_5 = empty
+				front_1_custom_slot = ship_heavy_battery_3
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = dp_ship_secondaries
+				mid_3_custom_slot = empty
+				rear_1_custom_slot = ship_airplane_launcher_1
 			}
 		}
 		# Carriers #
@@ -1264,13 +973,6 @@ if = {
 				fixed_ship_engine_slot = carrier_ship_engine_1
 				fixed_ship_secondaries_slot = ship_secondaries_2
 				front_1_custom_slot = ship_deck_space
-				mid_1_custom_slot = ship_deck_space
-				fixed_ship_armor_slot_1 = ship_armor_carrier_deck
-				fixed_ship_armor_slot_2 = ship_armor_carrier_deck
-				custom_ship_secondaries_slot_1 = empty
-				custom_ship_secondaries_slot_2 = empty
-				custom_ship_secondaries_slot_3 = empty
-				custom_ship_anti_slot_1 = empty
 			}
 		}
 	}
