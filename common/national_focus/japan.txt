@@ -12,7 +12,7 @@
 
 	default = no
 
-	continuous_focus_position = { x = 20 y = 1200 }
+	continuous_focus_position = { x = 20 y = 1600 }
 
 
 	focus = {
@@ -2215,7 +2215,7 @@
 		id = JAP_com4
 		icon = GFX_goal_generic_army_doctrines
 		cost = 10
-		x = -3
+		x = -8
 		y = 1
 		prerequisite = {
 			focus = JAP_com1
@@ -2298,7 +2298,7 @@
 		id = JAP_com11
 		icon = GFX_goal_generic_army_doctrines
 		cost = 10
-		x = 8
+		x = 9
 		y = 2
 		prerequisite = {
 			focus = JAP_com3
@@ -2310,13 +2310,508 @@
 		id = JAP_com12
 		icon = GFX_goal_generic_army_doctrines
 		cost = 10
-		x = 8
+		x = 9
 		y = 3
 		prerequisite = {
 			focus = JAP_com11
 		}
 		completion_reward = { }
 	}
+
+	focus = {
+		id = JAP_com13
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 10
+		y = 4
+		prerequisite = {
+			focus = JAP_com12
+		}
+		mutually_exclusive = {
+			focus = JAP_com14
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com14
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 8
+		y = 4
+		prerequisite = {
+			focus = JAP_com12
+		}
+		mutually_exclusive = {
+			focus = JAP_com14
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com15
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 9
+		y = 5
+
+		prerequisite = {
+			focus = JAP_com14
+			focus = JAP_com13
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com16
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 9
+		y = 6
+		prerequisite = {
+			focus = JAP_com15
+		}
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = JAP_com17
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 9
+		y = 7
+		prerequisite = {
+			focus = JAP_com16
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com18
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = JAP_com8
+		}
+		mutually_exclusive = {
+			focus = JAP_com19
+			focus = JAP_com20
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com19
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 4
+		y = 4
+		prerequisite = {
+			focus = JAP_com8
+		}
+		mutually_exclusive = {
+			focus = JAP_com18
+			focus = JAP_com20
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com20
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -4
+		y = 4
+		prerequisite = {
+			focus = JAP_com8
+		}
+		mutually_exclusive = {
+			focus = JAP_com18
+			focus = JAP_com19
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com21
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -2
+		y = 5
+		prerequisite = {
+			focus = JAP_com20
+			focus = JAP_com18
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com22
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -2
+		y = 6
+		prerequisite = {
+			focus = JAP_com21
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com23
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -2
+		y = 7
+		prerequisite = {
+			focus = JAP_com22
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com24
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -2
+		y = 8
+		prerequisite = {
+			focus = JAP_com23
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com25
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 1
+		y = 5
+		prerequisite = {
+			focus = JAP_com18
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com26
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 1
+		y = 6
+		prerequisite = {
+			focus = JAP_com25
+		}
+		prerequisite = {
+			focus = JAP_com21
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com27
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 1
+		y = 7
+		prerequisite = {
+			focus = JAP_com26
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com28
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 1
+		y = 9
+		prerequisite = {
+			focus = JAP_com26
+		}
+		prerequisite = {
+			focus = JAP_com24
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com29
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -5
+		y = 6
+		prerequisite = {
+			focus = JAP_com20
+		}
+		prerequisite = {
+			focus = JAP_com21
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com30
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -5
+		y = 8
+		prerequisite = {
+			focus = JAP_com20
+		}
+		prerequisite = {
+			focus = JAP_com23
+		}
+		prerequisite = {
+			focus = JAP_com37
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com31
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -5
+		y = 9
+		prerequisite = {
+			focus = JAP_com30
+		}
+		prerequisite = {
+			focus = JAP_com24
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com32
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -5
+		y = 2
+		prerequisite = {
+			focus = JAP_com4
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com33
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -5
+		y = 3
+		prerequisite = {
+			focus = JAP_com32
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com34
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -7
+		y = 2
+		prerequisite = {
+			focus = JAP_com4
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com35
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -7
+		y = 3
+		prerequisite = {
+			focus = JAP_com34
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = JAP_com36
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -7
+		y = 4
+		prerequisite = {
+			focus = JAP_com35
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com37
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -7
+		y = 6
+		prerequisite = {
+			focus = JAP_com35
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com38
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -9
+		y = 2
+		prerequisite = {
+			focus = JAP_com4
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com39
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -9
+		y = 3
+		prerequisite = {
+			focus = JAP_com38
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com40
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -9
+		y = 4
+		prerequisite = {
+			focus = JAP_com39
+		}
+		prerequisite = {
+			focus = JAP_com43
+		}
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = JAP_com41
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -9
+		y = 5
+		prerequisite = {
+			focus = JAP_com40
+		}
+		prerequisite = {
+			focus = JAP_com36
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com42
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -11
+		y = 2
+		prerequisite = {
+			focus = JAP_com4
+		}
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com43
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -11
+		y = 3
+		prerequisite = {
+			focus = JAP_com42
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com44
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = -2
+		y = 10
+		prerequisite = {
+			focus = JAP_com28
+			focus = JAP_com31
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com45
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 4
+		y = 5
+		prerequisite = {
+			focus = JAP_com19
+		}
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = JAP_com46
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 4
+		y = 6
+		prerequisite = {
+			focus = JAP_com45
+		}
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = JAP_com47
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 6
+		y = 7
+		prerequisite = {
+			focus = JAP_com46
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com48
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 4
+		y = 8
+		prerequisite = {
+			focus = JAP_com46
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = JAP_com49
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 4
+		y = 9
+		prerequisite = {
+			focus = JAP_com48
+		}
+		completion_reward = { }
+	}
+
+
+
+
+
 
 	focus = {
 		id = JAP_army_expansion_law
