@@ -2261,7 +2261,7 @@
 
 	focus = {
 		id = JAP_com8
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_jap_cast_the_die
 		cost = 10
 		x = 0
 		y = 3
@@ -2308,7 +2308,7 @@
 
 	focus = {
 		id = JAP_com12
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_chi_one_china_policy
 		cost = 10
 		x = 9
 		y = 3
@@ -2350,7 +2350,7 @@
 
 	focus = {
 		id = JAP_com15
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_position_armies
 		cost = 10
 		x = 9
 		y = 5
@@ -2485,7 +2485,7 @@
 
 	focus = {
 		id = JAP_com25
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_jap_cast_the_die
 		cost = 10
 		x = 1
 		y = 5
@@ -2497,7 +2497,7 @@
 
 	focus = {
 		id = JAP_com26
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_POL_complete_april_constitution
 		cost = 10
 		x = 1
 		y = 6
@@ -2587,7 +2587,7 @@
 
 	focus = {
 		id = JAP_com32
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_POL_warsaw_main_station
 		cost = 10
 		x = -5
 		y = 2
@@ -2599,7 +2599,7 @@
 
 	focus = {
 		id = JAP_com33
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_POL_warsaw_main_station
 		cost = 10
 		x = -5
 		y = 3
@@ -2682,7 +2682,7 @@
 
 	focus = {
 		id = JAP_com40
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_generic_industry_3
 		cost = 10
 		x = -9
 		y = 4
@@ -2697,7 +2697,7 @@
 	
 	focus = {
 		id = JAP_com41
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_SOV_merge_plants
 		cost = 10
 		x = -9
 		y = 5
@@ -2762,7 +2762,7 @@
 	
 	focus = {
 		id = JAP_com46
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_eng_imperial_federation
 		cost = 10
 		x = 4
 		y = 6
@@ -2786,7 +2786,7 @@
 
 	focus = {
 		id = JAP_com48
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_jap_strike_south
 		cost = 10
 		x = 4
 		y = 8
@@ -2798,7 +2798,7 @@
 
 	focus = {
 		id = JAP_com49
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_generic_industry_3
 		cost = 10
 		x = 4
 		y = 9
