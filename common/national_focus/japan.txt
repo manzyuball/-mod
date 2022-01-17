@@ -2041,7 +2041,7 @@
 
 	focus = {
 		id = JAP_com1
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_prc_agrarian_socialism
 		cost = 10
 		x = 0
 		y = 0
@@ -2051,7 +2051,7 @@
 
 	focus = {
 		id = JAP_com2
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_generic_join_comintern
 		cost = 10
 		x = 0
 		y = 1
@@ -2063,7 +2063,7 @@
 
 	focus = {
 		id = JAP_com3
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_SOV_proclaim_soviet_hegemony
 		cost = 10
 		x = 5
 		y = 1
@@ -2075,7 +2075,7 @@
 
 	focus = {
 		id = JAP_com4
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_construct_infrastructure
 		cost = 10
 		x = -8
 		y = 1
@@ -2087,7 +2087,7 @@
 
 	focus = {
 		id = JAP_com5
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_SOV_builder_of_the_red_army
 		cost = 10
 		x = 2
 		y = 2
@@ -2099,7 +2099,7 @@
 
 	focus = {
 		id = JAP_com6
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_generic_women_in_military
 		cost = 10
 		x = 0
 		y = 2
@@ -2111,7 +2111,7 @@
 
 	focus = {
 		id = JAP_com7
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_focus_fra_revolution_utmost
 		cost = 10
 		x = 2
 		y = 3
@@ -2134,7 +2134,7 @@
 	}
 	focus = {
 		id = JAP_com9
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny
 		cost = 10
 		x = 5
 		y = 2
@@ -2146,7 +2146,7 @@
 
 	focus = {
 		id = JAP_com10
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_navy_battleship
 		cost = 10
 		x = 5
 		y = 3
@@ -2158,7 +2158,7 @@
 
 	focus = {
 		id = JAP_com11
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_SOV_the_last_purge
 		cost = 10
 		x = 9
 		y = 2
@@ -2182,7 +2182,7 @@
 
 	focus = {
 		id = JAP_com13
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_prc_infiltration
 		cost = 10
 		x = 10
 		y = 4
@@ -2197,7 +2197,7 @@
 
 	focus = {
 		id = JAP_com14
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		cost = 10
 		x = 8
 		y = 4
@@ -2226,7 +2226,7 @@
 
 	focus = {
 		id = JAP_com16
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_construct_civilian
 		cost = 10
 		x = 9
 		y = 6
@@ -2238,7 +2238,7 @@
 	
 	focus = {
 		id = JAP_com17
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_hol_the_foundations_of_defense
 		cost = 10
 		x = 9
 		y = 7
@@ -2250,7 +2250,7 @@
 
 	focus = {
 		id = JAP_com18
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_jap_showa_restoration
 		cost = 10
 		x = 0
 		y = 4
@@ -2266,7 +2266,7 @@
 
 	focus = {
 		id = JAP_com19
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_ger_great_red_menace
 		cost = 10
 		x = 4
 		y = 4
@@ -2282,7 +2282,7 @@
 
 	focus = {
 		id = JAP_com20
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_support_fourth_int
 		cost = 10
 		x = -4
 		y = 4
@@ -2298,7 +2298,7 @@
 
 	focus = {
 		id = JAP_com21
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_por_workers_of_iberia
 		cost = 10
 		x = -2
 		y = 5
@@ -2311,7 +2311,7 @@
 
 	focus = {
 		id = JAP_com22
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_SOV_the_supreme_soviet
 		cost = 10
 		x = -2
 		y = 6
@@ -2323,7 +2323,7 @@
 
 	focus = {
 		id = JAP_com23
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_generic_socialist_science
 		cost = 10
 		x = -2
 		y = 7
@@ -2335,7 +2335,7 @@
 
 	focus = {
 		id = JAP_com24
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_jap_pacific_guardian
 		cost = 10
 		x = -2
 		y = 8
@@ -2374,7 +2374,7 @@
 
 	focus = {
 		id = JAP_com27
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 10
 		x = 1
 		y = 7
@@ -2386,7 +2386,7 @@
 
 	focus = {
 		id = JAP_com28
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_construction2
 		cost = 10
 		x = 1
 		y = 9
@@ -2401,7 +2401,7 @@
 
 	focus = {
 		id = JAP_com29
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_POL_riot_of_37
 		cost = 10
 		x = -5
 		y = 6
@@ -2416,7 +2416,7 @@
 
 	focus = {
 		id = JAP_com30
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_generic_socialist_science
 		cost = 10
 		x = -5
 		y = 8
@@ -2434,7 +2434,7 @@
 
 	focus = {
 		id = JAP_com31
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_soviet_construction
 		cost = 10
 		x = -5
 		y = 9
@@ -2461,7 +2461,7 @@
 
 	focus = {
 		id = JAP_com33
-		icon = GFX_focus_POL_warsaw_main_station
+		icon = GFX_focus_SOV_the_road_of_life
 		cost = 10
 		x = -5
 		y = 3
@@ -2473,7 +2473,7 @@
 
 	focus = {
 		id = JAP_com34
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_usa_guarantee_the_american_dream
 		cost = 10
 		x = -7
 		y = 2
@@ -2485,7 +2485,7 @@
 
 	focus = {
 		id = JAP_com35
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_spa_save_the_alcazar
 		cost = 10
 		x = -7
 		y = 3
@@ -2496,7 +2496,7 @@
 	}
 	focus = {
 		id = JAP_com36
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_spa_the_spanish_miracle
 		cost = 10
 		x = -7
 		y = 4
@@ -2508,7 +2508,7 @@
 
 	focus = {
 		id = JAP_com37
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_SOV_organize_wreckers
 		cost = 10
 		x = -7
 		y = 6
@@ -2520,7 +2520,7 @@
 
 	focus = {
 		id = JAP_com38
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_SOV_breadbasket_of_the_union
 		cost = 10
 		x = -9
 		y = 2
@@ -2532,7 +2532,7 @@
 
 	focus = {
 		id = JAP_com39
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_YUG_pan_slavic_congress
 		cost = 10
 		x = -9
 		y = 3
@@ -2574,7 +2574,7 @@
 
 	focus = {
 		id = JAP_com42
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_position_armies
 		cost = 10
 		x = -11
 		y = 2
@@ -2587,7 +2587,7 @@
 
 	focus = {
 		id = JAP_com43
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_generic_steel
 		cost = 10
 		x = -11
 		y = 3
@@ -2599,7 +2599,7 @@
 
 	focus = {
 		id = JAP_com44
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_SOV_father_of_nations
 		cost = 10
 		x = -2
 		y = 10
@@ -2612,7 +2612,7 @@
 
 	focus = {
 		id = JAP_com45
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_national_unity
 		cost = 10
 		x = 4
 		y = 5
@@ -2636,7 +2636,7 @@
 	
 	focus = {
 		id = JAP_com47
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_SOV_south_manchuria_railway
 		cost = 10
 		x = 6
 		y = 7
