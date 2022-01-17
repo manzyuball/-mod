@@ -1,5 +1,53 @@
 ideas = {
 	country = {
-		
+		JES = {
+			name = J_JES
+			picture = JP_JES
+		}
+		High_night_vision = {
+			name = HNV
+			picture = JP_HNV
+		}
+		The_Fourth_Fleet_Incident = {
+			name = TFFI
+			picture = JP_TFFI
+		}
+		disaster_prone_countries = {
+			name = DPC
+			picture = JP_DPC
+		}
+		A_double_research_system = {
+			name = ADRS
+			picture = JP_ADRS
+		}
+		Shared_shells = {
+			name = JP_SS
+			picture = JP_SS
+		}
+		to_kikan = {
+			name = TOKIKAN
+			picture = JP_TOKIKAN
+		}
+		Oxygen_torpedoes = {
+			name = OT
+			picture = JP_OT
+
+		}
+		Sea_Power_State = {
+			name = SPS
+			picture = JP_SPS
+		}
+		Type_91_armour_piercing_ammunition = {
+			name = T91APA
+			picture = JP_T91APA
+		}
+		Preservation_of_old_ships = {
+			name = POOS
+			picture = JP_POOS
+		}
+		Magic_transformation = {
+			name = MT
+			picture = JP_MT
+		}
 	}
 }

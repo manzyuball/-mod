@@ -1,0 +1,51 @@
+spriteTypes = {	
+	SpriteType = {
+		name = JP_JES
+		texturefile = "gfx/interface/ideas/idea_JAP_industrial_standard.png"
+	}
+	SpriteType = {
+		name = JP_HNV
+		texturefile = "gfx/interface/ideas/idea_JAP_night_vision.png"
+	}
+	SpriteType = {
+		name = JP_TFFI
+		texturefile = "gfx/interface/ideas/idea_JAP_4th_fleet_incident.png"
+	}
+	SpriteType = {
+		name = JP_DPC
+		texturefile = "gfx/interface/ideas/idea_JAP_disaster-stricken_country.png"
+	}
+	SpriteType = {
+		name = JP_SAS
+		texturefile = "gfx/interface/ideas/idea_JAP_sea_power.png"
+	}
+	SpriteType = {
+		name = JP_ADRS
+		texturefile = "gfx/interface/ideas/idea_JAP_double_research.png"
+	}
+	SpriteType = {
+		name = JP_SS
+		texturefile = "gfx/interface/ideas/idea_JAP_share_shell.png"
+	}
+	SpriteType = {
+		name = JP_TOKIKAN
+		texturefile = "gfx/interface/ideas/idea_JAP_to_kikan.png"
+	}
+	SpriteType = {
+		name = JP_OT
+		texturefile = "gfx/interface/ideas/idea_JAP_type_93_torpedo.png"
+	}
+	SpriteType = {
+		name = JP_T91APA
+		texturefile = "gfx/interface/ideas/idea_JAP_type_91_AP.png"
+	}
+	SpriteType = {
+		name = JP_POOS
+		textureFile = "gfx/interface/ideas/idea_JAP_naval_escort_battle.png"
+	}
+	SpriteType = {
+		name = JP_MT
+		textureFile = "gfx/interface/ideas/NVF.png"
+	}	
+
+}
