@@ -3,6 +3,9 @@ ideas = {
 		JES = {
 			name = J_JES
 			picture = JP_JES
+			modifier = {
+				political_power_factor = -0.01
+			}
 		}
 		High_night_vision = {
 			name = HNV
@@ -27,6 +30,9 @@ ideas = {
 		to_kikan = {
 			name = TOKIKAN
 			picture = JP_TOKIKAN
+			modifier = {
+				operative_slot = 2
+			}
 		}
 		Oxygen_torpedoes = {
 			name = OT
