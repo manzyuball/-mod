@@ -2651,7 +2651,7 @@
 		x = -7
 		y = 6
 		prerequisite = {
-			focus = JAP_com35
+			focus = JAP_com36
 		}
 		completion_reward = { }
 	}
