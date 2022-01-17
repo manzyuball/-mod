@@ -914,39 +914,19 @@
 
 		completion_reward = {
 			866 = {
-				add_state_modifier = {
-				modifier = {
-				production_speed_buildings_factor = 0.25
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_tyosen_kaihatu } 
 		    }
 			865 = {
-				add_state_modifier = {
-				modifier = {
-				production_speed_buildings_factor = 0.25
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_tyosen_kaihatu } 
 		    }
 			525 = {
-				add_state_modifier = {
-				modifier = {
-				production_speed_buildings_factor = 0.25
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_tyosen_kaihatu } 
 		    }
 			867 = {
-				add_state_modifier = {
-				modifier = {
-				production_speed_buildings_factor = 0.25
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_tyosen_kaihatu } 
 		    }
 			27 = {
-				add_state_modifier = {
-				modifier = {
-				production_speed_buildings_factor = 0.25
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_tyosen_kaihatu } 
 		    }
 	}
 }
@@ -1062,46 +1042,22 @@
 
 		completion_reward = {
 			836 = {
-				add_state_modifier = {
-					modifier = {
-					non_core_manpower = 0.2
-					}
-					}
+				add_dynamic_modifier = { modifier = JAP_CHI_yuugou } 
 			}
 			858 = {
-				add_state_modifier = {
-					modifier = {
-					non_core_manpower = 0.2
-					}
-					}
+				add_dynamic_modifier = { modifier = JAP_CHI_yuugou } 
 			}
 			728 = {
-				add_state_modifier = {
-					modifier = {
-					non_core_manpower = 0.2
-					}
-					}
+				add_dynamic_modifier = { modifier = JAP_CHI_yuugou } 
 			}
 			524 = {
-				add_state_modifier = {
-					modifier = {
-					non_core_manpower = 0.2
-					}
-					}
+				add_dynamic_modifier = { modifier = JAP_CHI_yuugou } 
 			}
 			743 = {
-				add_state_modifier = {
-					modifier = {
-					non_core_manpower = 0.2
-					}
-					}
+				add_dynamic_modifier = { modifier = JAP_CHI_yuugou } 
 			}
 			745 = {
-				add_state_modifier = {
-					modifier = {
-					non_core_manpower = 0.2
-					}
-					}
+				add_dynamic_modifier = { modifier = JAP_CHI_yuugou } 
 			}
 		}
 	}
