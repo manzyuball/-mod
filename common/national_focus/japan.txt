@@ -376,46 +376,22 @@
 
 		completion_reward = {
 			533 = {
-				add_state_modifier = {
-				modifier = {
-				MONTHLY_POPULATION = 0.3
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_nougyoukaikaku }
 			}
 			534 = {
-				add_state_modifier = {
-				modifier = {
-				MONTHLY_POPULATION = 0.3
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_nougyoukaikaku }
 			}
 			528 = {
-				add_state_modifier = {
-				modifier = {
-				MONTHLY_POPULATION = 0.3
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_nougyoukaikaku }
 			}
 			531 = {
-				add_state_modifier = {
-				modifier = {
-				MONTHLY_POPULATION = 0.3
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_nougyoukaikaku }
 			}
 			532 = {
-				add_state_modifier = {
-				modifier = {
-				MONTHLY_POPULATION = 0.3
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_nougyoukaikaku }
 			}
 			282 = {
-				add_state_modifier = {
-				modifier = {
-				MONTHLY_POPULATION = 0.3
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_nougyoukaikaku }
 			}
 		}
 	}
@@ -914,19 +890,19 @@
 
 		completion_reward = {
 			866 = {
-				add_dynamic_modifier = { modifier = JAP_tyosen_kaihatu } 
+				add_dynamic_modifier = { modifier = JAP_kaihatu } 
 		    }
 			865 = {
-				add_dynamic_modifier = { modifier = JAP_tyosen_kaihatu } 
+				add_dynamic_modifier = { modifier = JAP_kaihatu } 
 		    }
 			525 = {
-				add_dynamic_modifier = { modifier = JAP_tyosen_kaihatu } 
+				add_dynamic_modifier = { modifier = JAP_kaihatu } 
 		    }
 			867 = {
-				add_dynamic_modifier = { modifier = JAP_tyosen_kaihatu } 
+				add_dynamic_modifier = { modifier = JAP_kaihatu } 
 		    }
 			27 = {
-				add_dynamic_modifier = { modifier = JAP_tyosen_kaihatu } 
+				add_dynamic_modifier = { modifier = JAP_kaihatu } 
 		    }
 	}
 }
@@ -1042,22 +1018,22 @@
 
 		completion_reward = {
 			836 = {
-				add_dynamic_modifier = { modifier = JAP_CHI_yuugou } 
+				add_dynamic_modifier = { modifier = JAP_Yuuwa} 
 			}
 			858 = {
-				add_dynamic_modifier = { modifier = JAP_CHI_yuugou } 
+				add_dynamic_modifier = { modifier = JAP_Yuuwa } 
 			}
 			728 = {
-				add_dynamic_modifier = { modifier = JAP_CHI_yuugou } 
+				add_dynamic_modifier = { modifier = JAP_Yuuwa } 
 			}
 			524 = {
-				add_dynamic_modifier = { modifier = JAP_CHI_yuugou } 
+				add_dynamic_modifier = { modifier = JAP_Yuuwa } 
 			}
 			743 = {
-				add_dynamic_modifier = { modifier = JAP_CHI_yuugou } 
+				add_dynamic_modifier = { modifier = JAP_Yuuwa } 
 			}
 			745 = {
-				add_dynamic_modifier = { modifier = JAP_CHI_yuugou } 
+				add_dynamic_modifier = { modifier = JAP_Yuuwa } 
 			}
 		}
 	}
@@ -1164,14 +1140,11 @@
 					level = 1
 					instant_build = yes
 					}
-			add_state_modifier = {
-				modifier = {
-				global_building_slots_factor = 0.20
-				}
-				}
-		}
+					add_dynamic_modifier = { modifier = JAP_kaihatu2 }
 		}
 	}
+
+}	
 	focus = {
 		id = JAP_sen10
 		icon = GFX_goal_generic_construct_civilian
@@ -1205,11 +1178,7 @@
 					level = 2
 					instant_build = yes
 					}
-			add_state_modifier = {
-				modifier = {
-				global_building_slots_factor = 0.25
-				}
-				}
+					add_dynamic_modifier = { modifier = JAP_kaihatu2 } 
 		}
 	}
 	}
@@ -1240,13 +1209,14 @@
 
 
 		completion_reward = {
-		867 = {
-		add_state_modifier = {
-			modifier = {
-			MONTHLY_POPULATION = 0.85
-			}
-			}
-	}
+			867 = {
+			add_manpower = 56700 
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				}
+				}
 		}
 	}
 	focus = {
@@ -1468,46 +1438,7 @@
 
 
 		completion_reward = {
-			865 = { 
-				add_state_modifier = {
-				modifier = {
-					enemy_partisan_effect = -0.75
-					global_building_slots_factor = 0.3
-				}
-				}
-			}
-			866 = { 
-				add_state_modifier = {
-				modifier = {
-					enemy_partisan_effect = -0.75
-					global_building_slots_factor = 0.3
-				}
-				}
-			}
-			525 = { 
-				add_state_modifier = {
-				modifier = {
-					enemy_partisan_effect = -0.75
-					global_building_slots_factor = 0.3
-				}
-				}
-			}
-			867 = { 
-				add_state_modifier = {
-				modifier = {
-					enemy_partisan_effect = -0.75
-					global_building_slots_factor = 0.3
-				}
-				}
-			}
-			527 = { 
-				add_state_modifier = {
-				modifier = {
-					enemy_partisan_effect = -0.75
-					global_building_slots_factor = 0.3
-				}
-				}
-			}
+			add_stability = 0.3
 		}
 	}
 	focus = {
@@ -1710,44 +1641,19 @@
 
 		completion_reward = {
 			335 = {
-				add_state_modifier = {
-				modifier = {
-				industrial_capacity_factory = 0.15
-				global_building_slots_factor = 0.15
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_kaihatu2 }
 			}
 			672 = {
-				add_state_modifier = {
-				modifier = {
-				industrial_capacity_factory = 0.15
-				global_building_slots_factor = 0.15
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_kaihatu2 }
 			}
 			334 = {
-				add_state_modifier = {
-				modifier = {
-				industrial_capacity_factory = 0.15
-				global_building_slots_factor = 0.15
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_kaihatu2 }
 			}
 			673 = {
-				add_state_modifier = {
-				modifier = {
-				industrial_capacity_factory = 0.15
-				global_building_slots_factor = 0.15
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_kaihatu2 }
 			}
 			667 = {
-				add_state_modifier = {
-				modifier = {
-				industrial_capacity_factory = 0.15
-				global_building_slots_factor = 0.15
-				}
-				}
+				add_dynamic_modifier = { modifier = JAP_kaihatu2 }
 			}
 		}
 	}
