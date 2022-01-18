@@ -3548,4 +3548,97 @@ focus_tree = {
 		}
 	}
 
+	
+	focus = {
+		id = ENG_DEMO1
+		icon = GFX_focus_generic_scandinavia_flags
+		prerequisite = { focus = ENG_steady_as_she_goes }
+		x = 45
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 100000
+				If = {
+					GER = { has_full_control_of_state = 85
+				}
+				}
+				}
+			}
+
+		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY}	
+		completion_reward = {
+			diplomatic_relation = {
+				country = SWE
+				relation = guarantee
+				active = yes
+				}
+				diplomatic_relation = {
+					country = NOR
+					relation = guarantee
+					active = yes
+					}
+					diplomatic_relation = {
+						country = DEN
+						relation = guarantee
+						active = yes
+						}
+		}
+	}
+
+	focus = {
+		id = ENG_DEMO2
+		icon = GFX_focus_eng_the_sun_never_sets
+		prerequisite = { focus = ENG_DEMO1 }
+		x = 45
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+			}
+
+		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY}	
+		completion_reward = {
+		SWE = { add_offsite_building = { type = arms_factory level = 4 }
+			add_offsite_building = { type = industrial_complex level = 8 }
+		}
+			NOR = { add_offsite_building = { type = arms_factory level = 3 }
+			add_offsite_building = { type = industrial_complex level = 5 }
+			}
+			DEN = { add_offsite_building = { type = arms_factory level = 2 }
+			add_offsite_building = { type = industrial_complex level = 5 }
+		}
+		}
+	}
+
+	focus = {
+		id = ENG_DEMO3
+		icon = GFX_focus_SOV_reinforce_western_naval_bases
+		prerequisite = { focus = ENG_DEMO2 }
+		x = 45
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 5
+			}
+
+		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY}	
+		completion_reward = {
+		SWE = {
+			add_ai_strategy = {
+			type = protect
+			id = DEN
+			value = 650
+			}
+		}
+		NOR = {
+			add_ai_strategy = {
+			type = protect
+			id = DEN
+			value = 650
+			}
+		}
+		}
+	}
 }
