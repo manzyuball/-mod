@@ -3641,4 +3641,74 @@ focus_tree = {
 		}
 		}
 	}
+	focus = {
+		id = ENG_DEMO4
+		icon = GFX_focus_jap_pacific_guardian
+		prerequisite = { focus = ENG_steady_as_she_goes }
+		x = 43
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 5
+			}
+
+		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY}	
+		completion_reward = {
+			diplomatic_relation = {
+				country = JAP
+				relation = guarantee
+				active = yes
+				}
+				JAP = {
+					diplomatic_relation = {
+					country = ENG
+					relation = guarantee
+					active = yes
+					}
+				}
+		}
+	}
+	focus = {
+		id = ENG_DEMO5
+		icon = GFX_focus_chi_collaboration_with_the_japanese
+		prerequisite = { focus = ENG_steady_as_she_goes }
+		x = 43
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+			}
+
+		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY}	
+		completion_reward = {
+			set_rule = {
+				can_join_opposite_factions = yes
+			}
+				JAP = {
+					ENG = { add_to_faction = JAP }
+					set_rule = {
+						can_join_opposite_factions = yes
+						}
+				}
+		}
+	}
+	focus = {
+		id = ENG_DEMO6
+		icon = GFX_focus_eng_global_defense
+		prerequisite = { focus = ENG_steady_as_she_goes }
+		x = 43
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 5
+			}
+
+		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY}	
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 4 }
+			JAP = {
+				add_offsite_building = { type = industrial_complex level = 4 }
+			}
+		}
+	}
 }
