@@ -4,6 +4,9 @@ state={
 	provinces={
 		657 660 674 687 3076 3663 6677 6695 9635 9651 11619 11636 
 	}
+	resources={
+		oil=44.000
+	}
 	history={
 		owner = BUL
 		victory_points = {

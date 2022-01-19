@@ -4,8 +4,8 @@ state={
 	name="STATE_487"
 
 	history={
-		owner = PRU
-		add_core_of = PRU
+		owner = BRA
+		add_core_of = BRA
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
