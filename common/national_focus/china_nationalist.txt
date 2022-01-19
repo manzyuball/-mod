@@ -810,12 +810,6 @@
 			factor = 4
 		}
 
-		available = {
-			NOT = {
-				has_idea = CHI_army_corruption_1
-			}		
-		}
-
 		bypass = {
 			has_offensive_war_with = JAP
 		}
@@ -874,13 +868,6 @@
 
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			NOT = {
-				has_idea = CHI_army_corruption_2
-			}
-			has_defensive_war = yes
 		}
 
 		bypass = {
@@ -955,9 +942,7 @@
 		available = {
 			OR = {
 				has_war_with = JAP
-				has_war_with = MAN
 			}
-			has_country_flag = CHI_lessons_of_war_completed
 		}
 
 		bypass = {
