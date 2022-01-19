@@ -2,8 +2,9 @@ state={
 	id=903
 	name="STATE_903"
 	provinces={
-		2198 5216 8185 8254 10960 12919 12965 13083 
+		    12919 13083 
 	}
+	
 	history={
 		owner = BRA
 		buildings = {
