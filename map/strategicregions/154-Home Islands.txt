@@ -4,7 +4,7 @@ strategic_region={
 	name="STRATEGICREGION_154"
 	provinces={
 		1092 1167 1191
- 		4197 4198
+ 		4197
 		7050 7145 7212
 		9968 10052 10055 
 		11946 11985     
