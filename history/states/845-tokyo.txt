@@ -9,7 +9,6 @@ state={
 		owner = JAP
 		add_core_of = JAP
 		}
-		air_base = 3
 		buildings = {
 			infrastructure = 4
 			air_base = 6

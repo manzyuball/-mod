@@ -2,30 +2,28 @@
 state={
 	id=510
 	name="STATE_510"
-	manpower = 6199200
 	resources={
-		oil=8 # was: 12
+		oil=8.000
 	}
-	
-	state_category = metropolis
 
 	history={
 		owner = ARG
 		buildings = {
-			infrastructure = 6 #was: 5
+			infrastructure = 6
 			industrial_complex = 4
 			air_base = 5
 			arms_factory = 1
-		}
-		victory_points = {
-			7500 10 
+
 		}
 		add_core_of = ARG
+
 	}
 
 	provinces={
-		1449 2172 5163 7500 8187 8208 8238 10515 10943 10975 10985 11007 12453 12964 13000 
+		1449 2172 10515 10943 12453
 	}
-
-	local_supplies=0.0 
+	manpower=6199200
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
 }

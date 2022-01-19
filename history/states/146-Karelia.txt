@@ -1,32 +1,32 @@
+
 state={
 	id=146
 	name="STATE_146"
-
-	state_category = town
 
 	history={
 		owner = FIN
 		add_core_of = FIN
 		add_core_of = KAR
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			industrial_complex = 2
-
-			#Mannerheim Line
 			9100 = {
 				bunker = 2
+
 			}
 			9105 = {
 				bunker = 2
+
 			}
 			9206 = {
 				coastal_bunker = 1
+
 			}
+
 		}
 		victory_points = {
 			9206 3 
 		}
-		
 
 	}
 
@@ -35,6 +35,6 @@ state={
 	}
 	manpower=418635
 	buildings_max_level_factor=1.000
-
-	local_supplies=0.0 
+	state_category=town
+	local_supplies=0.000
 }

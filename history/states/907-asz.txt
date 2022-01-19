@@ -1,0 +1,32 @@
+state={
+	id=907
+	name="STATE_907"
+	provinces={
+		12364 
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 6
+			arms_factory = 4
+			industrial_complex = 13
+			dockyard = 1
+			12364 = {
+				naval_base = 7
+				bunker = 1
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = ARG
+		victory_points = {
+			12364 40 
+		}
+
+	}
+	manpower=4321785
+	state_category =megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

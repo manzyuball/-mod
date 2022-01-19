@@ -1,0 +1,26 @@
+state={
+	id=937
+	name="STATE_937"
+	provinces={
+		253 311 3274 6363 9364 
+	}
+	history={
+		owner = ENG
+		victory_points = {
+			311 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = ENG
+		add_core_of = WLS
+
+	}
+
+	manpower=615890
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

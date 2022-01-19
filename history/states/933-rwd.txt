@@ -1,0 +1,20 @@
+state={
+	id=933
+	name="STATE_933"
+	provinces={
+		27 3059 6080 6114 6136 9032 9135 9227 11028 11037 11135 11206 
+	}
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = NOR
+
+	}
+	manpower=431923
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

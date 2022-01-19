@@ -1,15 +1,11 @@
 
 state={
 	id=509
-	name="STATE_509" # Chaco Australis
-	manpower = 4233900
-	
-	state_category = large_town
-	
+	name="STATE_509"
 	resources={
-		tungsten=35 # was: 46
-		steel=6 # was: 8
-			BRONZE=31
+		tungsten=35.000
+		steel=6.000
+		bronze=31.000
 	}
 
 	history={
@@ -17,13 +13,17 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+
 		}
 		add_core_of = ARG
+
 	}
 
 	provinces={
-		2106 2208 5143 5213 8169 8255 10944 10965 10986 12922 12943 
+		2106 2208 5143 5213 8169 8255 10965 10986 
 	}
-
-	local_supplies=6.0 
+	manpower=4233900
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=6.000
 }
