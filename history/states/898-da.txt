@@ -5,12 +5,12 @@ state={
 		2007 10792 12729 12770 12825 
 	}
 	history={
-		owner = BRA
+		owner = COL
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = BRA
+		add_core_of = COL
 
 	}
 
