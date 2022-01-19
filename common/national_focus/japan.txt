@@ -2045,6 +2045,9 @@
 		cost = 10
 		x = 0
 		y = 0
+		ai_will_do = {
+			factor = 0
+		}
 		mutually_exclusive = { focus = JAP_min1 }
 		completion_reward = { }
 	}
