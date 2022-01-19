@@ -60,7 +60,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 3
+			factor = 100
 		}
 
 		available = {
@@ -96,7 +96,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 100
 		}
 
 		available = {
@@ -135,7 +135,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 4
+			factor = 100
 		}
 
 		available = {
@@ -174,7 +174,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 100
 		}
 
 		available = {
@@ -210,7 +210,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 4100
 		}
 
 		available = {
@@ -246,7 +246,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -290,7 +290,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -331,14 +331,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			amount_research_slots < 5
-			NOT = {
-				has_idea = CHI_hyper_inflation_5
-			}
+			factor = 1100
 		}
 
 		bypass = {
@@ -380,7 +373,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -417,7 +410,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -454,7 +447,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 0.5
 		}
 
 		available = {
@@ -491,7 +484,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -523,7 +516,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -563,7 +556,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -600,7 +593,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -632,7 +625,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -675,7 +668,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -710,7 +703,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 4
+			factor = 4100
 		}
 
 		available = {
@@ -768,7 +761,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -1057,7 +1050,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 5
 		}
 
 		available = {
@@ -1089,7 +1082,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 41
 		}
 
 		available = {
@@ -1162,7 +1155,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 110
 		}
 
 		available = {
@@ -1227,7 +1220,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 4100
 		}
 
 		available = {
@@ -1264,7 +1257,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 4
+			factor = 4100
 		}
 
 		bypass = {
@@ -1292,7 +1285,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		bypass = {
@@ -1320,7 +1313,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 4100
 		}
 
 		available = {
