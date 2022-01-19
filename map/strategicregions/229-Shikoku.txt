@@ -1,14 +1,7 @@
-
-strategic_region={
-	id=154
-	name="STRATEGICREGION_154"
-	provinces={
-		1092 1167 1191
- 		4197 4198
-		7050 7145 7212
-		9968 10052 10055 
-		11946 11985     
-	}
+strategic_region = {
+	id = 229
+	name = "STRATEGICREGION_229"
+	provinces = { 9965 12028 7197 7046 11997 4179 4094 }
 	weather={
 		period={
 			between={ 0.0 30.0 }
@@ -167,5 +160,4 @@ strategic_region={
 			min_snow_level=0.000
 		}
 	}
-
 }

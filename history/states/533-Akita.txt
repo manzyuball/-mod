@@ -2,7 +2,7 @@
 state={
 	id=533
 	name="STATE_533" # Tohoku
-	manpower = 6575000
+	manpower = 3575000
 	state_category = large_city
 	resources={
 		steel=33 # was: 35
@@ -15,13 +15,9 @@ state={
 		
 			arms_factory = 1
 			industrial_complex = 2
-			fuel_silo = 1
+			fuel_silo = 2
 			infrastructure = 2
-			air_base = 6
-			9859 = {
-				naval_base = 6
-
-			}
+			air_base = 4
 		}
 		
 		victory_points = {
@@ -35,7 +31,7 @@ state={
 	}
 
 	provinces={
-		1024 1063 1165 3848 4067 4118 4122 4153 6870 6873 6994 7169 9807 9859 9865 11847 12056 
+		1024 1165 4067 4118 4122 4153 7169 
 	}
 
 	local_supplies=9.0 
