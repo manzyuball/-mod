@@ -1,12 +1,21 @@
 ﻿division_template = {
-	name = "Local Defense Volunteers"
+	name = "労働民兵"
 
-	division_names_group = USA_INF_01
+	division_names_group = USA_INF_04
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
 	}
 }
 
@@ -40,103 +49,185 @@ division_template = {
 
 units = {
 	division = {
-		name = "1. Wisconsin Volunteers"
-		location = 12357  # 
+		name = "ニューヨーク労働民兵"
+		location = 3878
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2. Wisconsin Volunteers"
-		location = 12357  # 
+		name = "ニューヨーク労働民兵"
+		location = 859
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3. Wisconsin Volunteers"
-		location = 12357  # 
+		name = "ニューヨーク労働民兵"
+		location = 3602
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Wisconsin Defense Force"
-		location = 12357  # 
-		division_template = "State Defense Force"
-	}
-	division = {
-		name = "1. Iowa Volunteers"
-		location = 1770  # 
+		name = "ボストン労働民兵"
+		location = 6732
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2. Iowa Volunteers"
-		location = 1770  # 
+		name = "ボストン労働民兵"
+		location = 6732
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3. Iowa Volunteers"
-		location = 1770  # 
+		name = "ボストン労働民兵"
+		location = 9832
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Iowa Defense Force"
-		location = 1770  # 
-		division_template = "State Defense Force"
-	}
-	division = {
-		name = "1. Michigan Volunteers"
-		location = 695  # 
+		name = "フィラフィルデア労働民兵"
+		location = 6882
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2. Michigan Volunteers"
-		location = 695  # 
+		name = "首都護衛労働民兵"
+		location = 3957
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3. Michigan Volunteers"
-		location = 695  # 
+		name = "首都護衛労働民兵"
+		location = 3957
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Michigan Defense Force"
-		location = 6710  # 
-		division_template = "State Defense Force"
-	}
-	division = {
-		name = "1. Illinois Volunteers"
-		location = 7626  # 
+		name = "首都護衛労働民兵"
+		location = 6984
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2. Illinois Volunteers"
-		location = 7626  # 
+		name = "首都護衛労働民兵"
+		location = 6823
 		division_template = "Local Defense Volunteers"
-	}
-	division = {
-		name = "3. Illinois Volunteers"
-		location = 7626  # 
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}	division = {
+		name = "ピッツバーグ労働民兵"
+		location = 11800
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Illinois Defense Force"
-		location = 9450  # 
-		division_template = "State Defense Force"
-	}
-	division = {
-		name = "1. Indiana Volunteers"
-		location = 1881  # 
+		name = "デトロイト労働民兵"
+		location = 6710
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2. Indiana Volunteers"
-		location = 1881  # 
+		name = "デトロイト労働民兵"
+		location = 6710
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3. Indiana Volunteers"
-		location = 1881  # 
+		name = "グリーブランド労働民兵"
+		location = 6890
 		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Indiana Defense Force"
-		location = 1595  # 
-		division_template = "State Defense Force"
+		name = "シカゴ労働民兵"
+		location = 9450
+		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
 	}
+	division = {
+		name = "シカゴ労働民兵"
+		location = 9450
+		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ピッツバーグ労働民兵"
+		location = 11800
+		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "デトロイト労働民兵"
+		location = 6710
+		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "デトロイト労働民兵"
+		location = 6710
+		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "グリーブランド労働民兵"
+		location = 6890
+		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "シカゴ労働民兵"
+		location = 9450
+		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "シカゴ労働民兵"
+		location = 9450
+		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ミルウォーキー労働民兵"
+		location = 12357
+		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ミルウォーキー労働民兵"
+		location = 12357
+		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ミネアポリス労働民兵"
+		location = 1866
+		division_template = "Local Defense Volunteers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
 }
