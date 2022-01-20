@@ -1,6 +1,7 @@
 ##### JAPAN NAME LISTS #####
 ####一等駆逐艦・主力護衛艦####
 	####峯風型####
+
 	JAP_DD_HISTORICAL = {
 		name = JAP_DD_HISTORICAL
 		for_countries = { JAP }
@@ -104,13 +105,24 @@
 			 }}
 
 ####海防艦(新定義艦)####
-	JAP_PE_HISTORICAL = {
-	name = JAP_PE_HISTORICAL
+	JAP_MINELAYERS_HISTORICAL = {
+	name = JAP_MINELAYERS_HISTORICAL
 	for_countries = { JAP }
 	type = ship
 	ship_types = { ship_hull_light destroyer }
-	fallback_name = "第%d号水雷艇"
+	fallback_name = "第%d号海防艦"
 	unique = {
+		"沖島" "津軽" "箕面" "厳島" "八重山"
+			#急設網艦
+			"初鷹" "蒼鷹" "若鷹" "白鷹"
+			#敷設艇
+			"燕" "鴎"
+			"夏島" "那沙美"
+			"猿島"
+			"測天" "白神" "巨済" "成生" "浮島" "平島" "澎湖" "石埼" "鷹島" "済州" "新井埼" "由利島" "怒和島" "前島" "諸島"
+			"網代"
+			"神島" "粟島"
+			"戸島" "黒島" "葦埼" "加徳" "圓島" "黒神" "片島" "江之島" "似島" "黒埼" "鷲埼"
 		# 占守型
 		"千鶴" "真鶴" "友鶴" "初雁"
 		"占守" "国後" "八丈" "石垣"
@@ -196,7 +208,7 @@
 		for_countries = { JAP }
 
 		type = ship
-		ship_types = { ship_hull_cruiser heavy_cruiser  }
+		ship_types = { ship_hull_cruiser heavy_cruiser ship_hull_heavy battle_cruiser }
 
 		fallback_name = "重巡洋艦第%d号"
 
@@ -223,33 +235,17 @@
 			"飯野" "宝達" "段戸" "十勝" "大雪" "白倉" "雲取" "八雲" "清澄" "荒川"
 			"姫神" "湧蓋" "雨飾" "白馬" "久能" "岩湧" "薬師" "武尊" "阿寒" "竜王"
 			"由布" "至仏" "有明" "白山" "月山" "磐梯" "白神" "三峰" "甫与志" "飯縄"
+			"筑波" "生駒" "伊吹" "鞍馬"
+			"浅間" "磐手" "吾妻" "八雲" "出雲" "春日" "満洲" "対馬" "浅間" "常磐"
+			"霧島" "金剛" "比叡" "榛名"
+			"天城" "愛宕" "高雄"
+			"岩木" "朝日" "蔵王" "飯豊" "磐梯" "那須" "巻機" "谷川" "高妻" "穂高"
+			"筑波" "武尊" "常念" "乗鞍" "蓼科" "瑞牆" "丹沢" "恵那" "塩見" "赤石"
+			"大峰" "石鎚" "阿蘇" "開聞" "和賀" "栗駒" "森吉" "守門" "八海" "岩菅" "妙義" "武甲"
+			"白石" "愛鷹" "大鈴" "市房" "由布" "雲仙" "有明" "飯縄"
 		}}
 
 	####敷設艦####
-	JAP_MINELAYERS_HISTORICAL = {
-		name = JAP_MINELAYERS_HISTORICAL
-
-		for_countries = { JAP }
-
-		type = ship
-		ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
-
-		fallback_name = "敷設艦第%d号"
-
-		unique = {
-			#敷設艦
-			"沖島" "津軽" "箕面" "厳島" "八重山"
-			#急設網艦
-			"初鷹" "蒼鷹" "若鷹" "白鷹"
-			#敷設艇
-			"燕" "鴎"
-			"夏島" "那沙美"
-			"猿島"
-			"測天" "白神" "巨済" "成生" "浮島" "平島" "澎湖" "石埼" "鷹島" "済州" "新井埼" "由利島" "怒和島" "前島" "諸島"
-			"網代"
-			"神島" "粟島"
-			"戸島" "黒島" "葦埼" "加徳" "圓島" "黒神" "片島" "江之島" "似島" "黒埼" "鷲埼"
-			}}
 	#### 戦艦 ####
 
 	JAP_BB_HISTORICAL = {
@@ -275,27 +271,7 @@
 			"備前" "出雲" "阿波" "下総" "越中" "讃岐" "出羽" "伊豆" "美作" "志摩"
 			"伊予" "伯耆" "肥後" "近江"
 	}}
-	#### 巡洋戦艦 ####
-	JAP_BC_HISTORICAL = {
-		name = JAP_BC_HISTORICAL
 
-		for_countries = { JAP }
-
-		type = ship
-		ship_types = { ship_hull_heavy battle_cruiser }
-
-		fallback_name = "巡洋戦艦第%d号"
-
-		unique = {
-			"筑波" "生駒" "伊吹" "鞍馬"
-			"浅間" "磐手" "吾妻" "八雲" "出雲" "春日" "満洲" "対馬" "浅間" "常磐"
-			"霧島" "金剛" "比叡" "榛名"
-			"天城" "愛宕" "高雄"
-		"岩木" "朝日" "蔵王" "飯豊" "磐梯" "那須" "巻機" "谷川" "高妻" "穂高"
-		"筑波" "武尊" "常念" "乗鞍" "蓼科" "瑞牆" "丹沢" "恵那" "塩見" "赤石"
-		"大峰" "石鎚" "阿蘇" "開聞" "和賀" "栗駒" "森吉" "守門" "八海" "岩菅" "妙義" "武甲"
-		"白石" "愛鷹" "大鈴" "市房" "由布" "雲仙" "有明" "飯縄" }
-	}
 #### 正規空母・軽空母 ####
 	JAP_CV_HISTORICAL = {
 		name = JAP_CV_HISTORICAL
@@ -331,7 +307,18 @@
 			"丹鵬" "賢鵬" "陽鵬" "寛鵬" "敦鵬" "大鵬"
 		}
 	}
+	JAP_TOWN = {
+		name = JAP_TOWN
+		for_countries = { JAP }
+		type = ship
+		ship_types = {  ship_hull_carrier carrier   }
+		fallback_name = "軽航空母艦第%d号"
+		unique = {
+			"千歳" "千代田"
+			"札幌" "仙台" "稚内"
+		}
 
+	}
 
 
 	JAP_CVL_HISTORICAL = {
@@ -345,7 +332,7 @@
 		fallback_name = "軽航空母艦第%d号"
 
 		unique = {
-			"隼鷹" "飛鷹" "瑞鳳" "祥鳳" "龍鳳" "千歳" "千代田" "隼鷹" "飛鷹" "大鷹" "雲鷹" "冲鷹" "神鷹" "海鷹"
+			"隼鷹" "飛鷹" "瑞鳳" "祥鳳" "龍鳳" "隼鷹" "飛鷹" "大鷹" "雲鷹" "冲鷹" "神鷹" "海鷹"
 			"白鷹" "黒鷹" "若鷹" "天鷹" "山鷹" "賢鷹" "紅鷹" "蒼鷹" "平鷹" "済鷹" "春鷹" "夏鷹" "秋鷹" "冬鷹"
 			"丹鷹" "賢鷹" "陽鷹" "寛鷹" "敦鷹"
 			"慶鷹" "嵐鷹" "瑞鷹" "閃鷹" "灼鷹" "碧鷹" "翠鷹"
@@ -353,7 +340,7 @@
 		}
 	}
 	JAP_SS_HISTORICAL = {
-		name = 一等潜水艦
+		name = JAP_SS_HISTORICAL
 
 		for_countries = { JAP }
 
@@ -416,7 +403,7 @@
 		}
 	}
 	JAP_SS2_HISTORICAL = {
-		name = 二等潜水艦
+		name = JAP_SS2_HISTORICAL
 
 		for_countries = { JAP }
 
@@ -430,7 +417,7 @@
 		}
 	}
 	JAP_SS3_HISTORICAL = {
-		name = 三等潜水艦
+		name = JAP_SS3_HISTORICAL
 
 		for_countries = { JAP }
 
@@ -445,7 +432,7 @@
 	}
 	#### 潜水空母 ####
 	JAP_SVL_HISTORICAL = {
-		name = 潜水空母
+		name = JAP_SVL_HISTORICAL
 
 
 		type = ship
@@ -454,7 +441,7 @@
 	}
 	#### 大型潜水艦 ####
 	JAP_SC_HISTORICAL = {
-		name = 巡洋潜水艦
+		name = JAP_SC_HISTORICAL
 
 
 		type = ship

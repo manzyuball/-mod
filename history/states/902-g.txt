@@ -1,10 +1,9 @@
 state={
-	id=903
-	name="STATE_903"
+	id=902
+	name="STATE_902"
 	provinces={
-		    12919 13083 
+		2198 5216 8185 8254 10960 12965 
 	}
-	
 	history={
 		owner = BRA
 		buildings = {
@@ -14,9 +13,8 @@ state={
 		add_core_of = BRA
 
 	}
-
-	manpower=85314
-	state_category=pastoral
+	state_category = town
+	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

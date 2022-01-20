@@ -19,6 +19,7 @@ state={
 		}
 		add_core_of = SWE
 	}
+	state_category = town
 	manpower=321421
 	state_category=rural
 	buildings_max_level_factor=1.000
