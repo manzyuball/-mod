@@ -1,6 +1,6 @@
 ﻿capital = 361
 
-oob = "USB_defense_force"
+oob = "USB_1936"
 
 set_research_slots = 4
 set_stability = 0.75

@@ -96,6 +96,21 @@ units = {
 	}
 	division = {
 		name = "ジョンソン隊"
+		location = 10740  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ジョンソン隊"
+		location = 10894  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ジョンソン隊"
+		location = 4955  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ジョンソン隊"
 		location = 1998  # 
 		division_template = "アメリカ解放軍"
 	}
@@ -157,6 +172,31 @@ units = {
 	division = {
 		name = "ブラッグ隊"
 		location = 901  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 913  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 8083  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 8014  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 7045  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 9876  # 
 		division_template = "アメリカ解放軍"
 	}
 	division = {
