@@ -100,8 +100,8 @@ recruit_character = CSA_yvan_gerard
 		USA_prepare_intervention
 
 		#laws
-		isolation
-		volunteer_only
+		Total_Mobilization
+		Service by_Requirement
 
 		new_deal
 	}

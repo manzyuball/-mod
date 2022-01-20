@@ -138,8 +138,8 @@ if = {
 		USA_war_department
 		USA_intervention_in_europe
 		#laws
-		isolation
-		volunteer_only
+		War_Economy
+		Extensive_Conscription
 		great_depression_3
 		new_deal
 	}

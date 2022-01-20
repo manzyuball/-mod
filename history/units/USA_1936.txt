@@ -23,7 +23,7 @@ division_template = {
 division_template = {
 	name = "州兵"  	# Standard formation for frontline divisions
 
-	division_names_group = USA_INF_09
+	division_names_group = USA_INF_07
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
