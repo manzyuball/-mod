@@ -1,6 +1,6 @@
-﻿capital = 361
+﻿capital = 371
 
-oob = "USA_1936"
+oob = "CSA_fascist_uprising"
 
 set_research_slots = 3
 set_stability = 0.75
