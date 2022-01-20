@@ -13,7 +13,7 @@ state={
 		add_core_of = SOV
 	}
 	state_category = town
-	manpower=32191
+	manpower=321911
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
