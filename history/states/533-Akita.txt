@@ -30,6 +30,6 @@ state={
 	provinces={
 		1024 1165 4067 4118 4122 4153 7169 
 	}
-
+	buildings_max_level_factor=1.000
 	local_supplies=9.0 
 }
