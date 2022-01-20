@@ -26,19 +26,19 @@ music = {
 music = {
 	name = "Der_offene_Aufmarsch"
 	file = "Der offene Aufmarsch.ogg"
-	volume = 0.95
+	volume = 1.15
 }
 
 music = {
 	name = "La Marseillaise"
 	file = "La Marseillaise.ogg"
-	volume = 0.95
+	volume = 1.25
 }
 
 music = {
 	name = "Le Chant du depart"
 	file = "Le Chant du depart.ogg"
-	volume = 0.95
+	volume = 1.25
 }
 
 music = {
@@ -62,7 +62,7 @@ music = {
 music = {
 	name = "Gott erhalte Franz den Kaiser"
 	file = "Gott erhalte Franz den Kaiser.ogg"
-	volume = 0.95
+	volume = 1.25
 }
 
 music = {
