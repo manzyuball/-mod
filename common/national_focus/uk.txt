@@ -672,7 +672,7 @@ focus = {
 	}
 	focus = {
 		id = uk_fu24
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_goal_generic_trade
 		prerequisite = { focus = uk_fu22 }
 		x = 14
 		y = 4
