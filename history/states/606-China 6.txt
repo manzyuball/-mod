@@ -20,10 +20,10 @@ state={
 		1938.10.25 = {
 			controller = JAP
 			buildings = {
-				industrial_complex = 3
+				industrial_complex = 6
 				infrastructure = 3 #was: 6
 				air_base = 1
-				arms_factory = 1
+				arms_factory = 6
 
 			}
 

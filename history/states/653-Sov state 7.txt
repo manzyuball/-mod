@@ -4,7 +4,7 @@ state={
 	name="STATE_653" # Sverdlovsk
 	manpower = 2161650
 	
-	state_category = city
+	state_category = metropolis
 
 	history={
 		owner = SOV
@@ -13,8 +13,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3 #was: 6
-			arms_factory = 2
-			industrial_complex = 1
+			arms_factory = 6
+			industrial_complex = 11
 			air_base = 1
 
 		}

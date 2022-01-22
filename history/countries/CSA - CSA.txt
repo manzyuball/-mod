@@ -4,7 +4,9 @@ oob = "CSA_fascist_uprising"
 
 set_research_slots = 3
 set_stability = 0.75
-set_war_support = 0
+set_war_support = 95
+add_command_power = 20
+add_political_power = 450
 set_variable = { var = senators_support value = 48 }
 set_variable = { var = senators_total value = 96 }
 set_variable = { var = representatives_support value = 218 }
@@ -82,6 +84,8 @@ recruit_character = CSA_jules_iserentant
 recruit_character = CSA_jules_pire
 recruit_character = CSA_oscar_michiels
 recruit_character = CSA_yvan_gerard
+
+
 
 
 1939.1.1 = {

@@ -4,7 +4,7 @@ state={
 	name="STATE_199"
 	manpower = 1424022
 	
-	state_category = town
+	state_category = city
 
 	history={
 		victory_points = {
@@ -13,7 +13,7 @@ state={
 		owner = POL
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 1
+			industrial_complex = 4
 			air_base = 3
 		}
 		add_core_of = SOV

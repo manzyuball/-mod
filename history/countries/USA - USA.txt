@@ -14,8 +14,9 @@ if = {
 
 set_research_slots = 4
 set_stability = 0.75
-set_war_support = 0.7
+set_war_support = 0.85
 add_command_power = 20
+add_political_power = 450
 set_variable = { var = senators_support value = 48 }
 set_variable = { var = senators_total value = 96 }
 set_variable = { var = representatives_support value = 218 }

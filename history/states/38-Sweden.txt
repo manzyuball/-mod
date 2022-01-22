@@ -7,16 +7,16 @@ state={
 		steel=40 # was: 62
 	}
 	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = SWE
 		victory_points = {
-			156 3 
+			156 5 
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 4
 			air_base = 3
 			130 = {
 				naval_base = 1

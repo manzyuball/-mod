@@ -2,7 +2,7 @@
 state={
 	id=139
 	name="STATE_139"
-	manpower = 918593
+	manpower = 1718593
 	
 	state_category = city
 	
@@ -15,11 +15,11 @@ state={
 	history={
 		owner = SWE
 		victory_points = {
-			11380 5 
+			11380 15 
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			industrial_complex = 4
 			air_base = 2
 			11380 = {
 				naval_base = 1
