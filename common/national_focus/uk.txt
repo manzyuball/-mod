@@ -234,7 +234,7 @@ focus_tree = {
 		prerequisite = { focus = uk_gu22 }
 		icon = GFX_focus_usa_guarantee_the_american_dream
 		x = 12
-		y = 11
+		y = 12
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -248,7 +248,7 @@ focus_tree = {
 		prerequisite = { focus = uk_gu23 }
 		icon = GFX_focus_SOV_organize_wreckers
 		x = 12
-		y = 12
+		y = 13
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -262,20 +262,6 @@ focus_tree = {
 		prerequisite = { focus = uk_gu24 }
 		icon = GFX_goal_generic_construct_military
 		x = 12
-		y = 13
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}	
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = uk_gu26
-		prerequisite = { focus = uk_gu25 }
-		icon = GFX_focus_spa_save_the_alcazar
-		x = 12
 		y = 14
 		cost = 10
 		ai_will_do = {
@@ -287,7 +273,7 @@ focus_tree = {
 	}
 	focus = {
 		id = uk_gu27
-		prerequisite = { focus = uk_gu26 }
+		prerequisite = { focus = uk_gu25 }
 		prerequisite = { focus = uk_gu52 focus = uk_gu21 }
 		prerequisite = { focus = uk_gu13 focus = uk_gu44 }
 		prerequisite = { focus = uk_gu17 focus = uk_gu48 }
@@ -547,7 +533,7 @@ focus = {
 		id = uk_fu11
 		prerequisite = { focus = uk_fu1 }
 		icon = GFX_focus_SOV_penal_battalions
-		x = 6.8
+		x = 6.5
 		y = 3
 		cost = 10
 		ai_will_do = {
@@ -561,7 +547,7 @@ focus = {
 		id = uk_fu12
 		prerequisite = { focus = uk_fu1 }
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = 9.2
+		x = 9.5
 		y = 3
 		cost = 10
 		ai_will_do = {
@@ -623,7 +609,7 @@ focus = {
 		icon = GFX_goal_support_democracy
 		mutually_exclusive = { focus = uk_fu3 }
 		prerequisite = { focus = uk_fu }
-		x = 12.5
+		x = 13
 		y = 1
 		cost = 5
 		ai_will_do = {
@@ -637,7 +623,7 @@ focus = {
 		id = uk_fu21
 		icon = GFX_focus_spa_the_spanish_miracle
 		prerequisite = { focus = uk_fu2 }
-		x = 11
+		x = 11.5
 		y = 2
 		cost = 4
 		ai_will_do = {
@@ -651,7 +637,7 @@ focus = {
 		id = uk_fu22
 		icon = GFX_focus_eng_bring_the_dominions_back_into_the_fold
 		prerequisite = { focus = uk_fu2 }
-		x = 14
+		x = 14.5
 		y = 2
 		cost = 5
 		ai_will_do = {
@@ -665,7 +651,7 @@ focus = {
 		id = uk_fu23
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		prerequisite = { focus = uk_fu21 }
-		x = 11
+		x = 11.5
 		y = 4
 		cost = 3
 		ai_will_do = {
@@ -679,7 +665,7 @@ focus = {
 		id = uk_fu24
 		icon = GFX_goal_generic_trade
 		prerequisite = { focus = uk_fu22 }
-		x = 14
+		x = 14.5
 		y = 4
 		cost = 5
 		ai_will_do = {
@@ -693,7 +679,7 @@ focus = {
 		id = uk_fu25
 		icon = GFX_focus_generic_home_defense
 		prerequisite = { focus = uk_fu2 }
-		x = 12.5
+		x = 13
 		y = 3
 		cost = 3
 		ai_will_do = {
@@ -710,7 +696,7 @@ focus = {
 		prerequisite = { focus = uk_fu25 }
 		prerequisite = { focus = uk_fu23 }
 		prerequisite = { focus = uk_fu24 }
-		x = 12.5
+		x = 13
 		y = 5
 		cost = 3
 		ai_will_do = {
@@ -726,7 +712,7 @@ focus = {
 		mutually_exclusive = { focus = uk_fu2 }
 		prerequisite = { focus = uk_fu }
 		icon = GFX_focus_POL_complete_april_constitution
-		x = 3.5
+		x = 3
 		y = 1
 		cost = 5
 		ai_will_do = {
@@ -740,7 +726,7 @@ focus = {
 		id = uk_fu31
 		prerequisite = { focus = uk_fu3 }
 		icon = GFX_focus_generic_self_management
-		x = 2.5
+		x = 2
 		y = 2
 		cost = 4
 		ai_will_do = {
@@ -754,7 +740,7 @@ focus = {
 		id = uk_fu32
 		prerequisite = { focus = uk_fu3 }
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 4.5
+		x = 4
 		y = 2
 		cost = 5
 		ai_will_do = {
@@ -768,7 +754,7 @@ focus = {
 		id = uk_fu33
 		prerequisite = { focus = uk_fu31 }
 		icon = GFX_focus_generic_military_academy
-		x = 2.5
+		x = 2
 		y = 3
 		cost = 5
 		ai_will_do = {
@@ -785,7 +771,7 @@ focus = {
 		id = uk_fu34
 		prerequisite = { focus = uk_fu32 }
 		icon = GFX_focus_eng_the_sun_never_sets
-		x = 4.5
+		x = 4
 		y = 3
 		cost = 4
 		ai_will_do = {
@@ -801,7 +787,7 @@ focus = {
 		prerequisite = { focus = uk_fu33 }
 		prerequisite = { focus = uk_fu34 }
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		x = 3.5
+		x = 3
 		y = 4
 		cost = 4
 		ai_will_do = {
@@ -818,7 +804,7 @@ focus = {
 		id = uk_fu36
 		prerequisite = { focus = uk_fu35 }
 		icon = GFX_focus_usa_reestablish_the_gold_standard
-		x = 3.5
+		x = 3
 		y = 5
 		cost = 5
 		ai_will_do = {
