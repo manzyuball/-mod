@@ -607,7 +607,7 @@ focus = {
 		icon = GFX_focus_eng_global_defense
 		x = 8
 		y = 7
-		cost = 10
+		cost = 7.5
 		ai_will_do = {
 			factor = 1
 		}	
@@ -625,7 +625,7 @@ focus = {
 		prerequisite = { focus = uk_fu }
 		x = 12.5
 		y = 1
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}	
@@ -639,7 +639,7 @@ focus = {
 		prerequisite = { focus = uk_fu2 }
 		x = 11
 		y = 2
-		cost = 10
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}	
@@ -653,7 +653,7 @@ focus = {
 		prerequisite = { focus = uk_fu2 }
 		x = 14
 		y = 2
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}	
@@ -667,7 +667,7 @@ focus = {
 		prerequisite = { focus = uk_fu21 }
 		x = 11
 		y = 4
-		cost = 10
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}	
@@ -681,7 +681,7 @@ focus = {
 		prerequisite = { focus = uk_fu22 }
 		x = 14
 		y = 4
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}	
@@ -695,7 +695,7 @@ focus = {
 		prerequisite = { focus = uk_fu2 }
 		x = 12.5
 		y = 3
-		cost = 10
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}	
@@ -712,7 +712,7 @@ focus = {
 		prerequisite = { focus = uk_fu24 }
 		x = 12.5
 		y = 5
-		cost = 10
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}	
@@ -728,7 +728,7 @@ focus = {
 		icon = GFX_focus_POL_complete_april_constitution
 		x = 3.5
 		y = 1
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}	
@@ -742,7 +742,7 @@ focus = {
 		icon = GFX_focus_generic_self_management
 		x = 2.5
 		y = 2
-		cost = 10
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}	
@@ -756,7 +756,7 @@ focus = {
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 4.5
 		y = 2
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}	
@@ -770,7 +770,7 @@ focus = {
 		icon = GFX_focus_generic_military_academy
 		x = 2.5
 		y = 3
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}	
@@ -787,7 +787,7 @@ focus = {
 		icon = GFX_focus_eng_the_sun_never_sets
 		x = 4.5
 		y = 3
-		cost = 10
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}	
@@ -803,7 +803,7 @@ focus = {
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = 3.5
 		y = 4
-		cost = 10
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}	
@@ -820,7 +820,7 @@ focus = {
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x = 3.5
 		y = 5
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}	
