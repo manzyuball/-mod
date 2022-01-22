@@ -17,7 +17,502 @@ focus_tree = {
 			tag = ENG
 		}
 	}
+	continuous_focus_position = { x = 3500 y = 1700 }
 	default = no
+	focus = {
+		id = uk_gu
+		icon = GFX_focus_eng_the_sun_never_sets
+		x = 12
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu1
+		prerequisite = { focus = uk_gu }
+		icon = GFX_focus_generic_combined_arms
+		x = 6
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu10
+		prerequisite = { focus = uk_gu1 }
+		icon = GFX_goal_generic_navy_battleship
+		x = 4.5
+		y = 10
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu11
+		prerequisite = { focus = uk_gu1 }
+		icon = GFX_focus_prc_infiltration
+		x = 2.5
+		y = 10
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu12
+		prerequisite = { focus = uk_gu11 }
+		icon = GFX_focus_eng_bring_the_dominions_back_into_the_fold
+		x = 2.5
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu13
+		prerequisite = { focus = uk_gu12 }
+		icon = GFX_focus_generic_military_mission
+		x = 2.5
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu14
+		prerequisite = { focus = uk_gu1 }
+		icon = GFX_goal_generic_air_fighter
+		x = 5.5
+		y = 11
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu15
+		prerequisite = { focus = uk_gu14 }
+		icon = GFX_focus_generic_tank_production
+		x = 5.5
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu16
+		prerequisite = { focus = uk_gu15 }
+		icon = GFX_goal_generic_army_artillery2
+		x = 5.5
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu17
+		prerequisite = { focus = uk_gu16 }
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 5.5
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu18
+		prerequisite = { focus = uk_gu1 focus = uk_gu4 }
+		mutually_exclusive = { focus = uk_gu49 }
+		icon = GFX_focus_generic_aircraft_production
+		x = 9
+		y = 11
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu19
+		prerequisite = { focus = uk_gu18 }
+		icon = GFX_focus_eng_global_defense
+		x = 9
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu20
+		prerequisite = { focus = uk_gu19 }
+		icon = GFX_focus_research
+		x = 9
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu21
+		prerequisite = { focus = uk_gu20 }
+		icon = GFX_focus_generic_air_defense
+		x = 9
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu22
+		prerequisite = { focus = uk_gu1 focus = uk_gu4 }
+		icon = GFX_focus_focus_fra_maquis
+		x = 12
+		y = 10
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu23
+		prerequisite = { focus = uk_gu22 }
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = 12
+		y = 11
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu24
+		prerequisite = { focus = uk_gu23 }
+		icon = GFX_focus_SOV_organize_wreckers
+		x = 12
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu25
+		prerequisite = { focus = uk_gu24 }
+		icon = GFX_goal_generic_construct_military
+		x = 12
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu26
+		prerequisite = { focus = uk_gu25 }
+		icon = GFX_focus_spa_save_the_alcazar
+		x = 12
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu27
+		prerequisite = { focus = uk_gu26 }
+		prerequisite = { focus = uk_gu52 focus = uk_gu21 }
+		prerequisite = { focus = uk_gu13 focus = uk_gu44 }
+		prerequisite = { focus = uk_gu17 focus = uk_gu48 }
+		icon = GFX_focus_generic_support_the_left_right
+		x = 12
+		y = 15.5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu28
+		prerequisite = { focus = uk_gu27 }
+		icon = GFX_focus_hol_united_netherlands
+		x = 10
+		y = 16.5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu29
+		prerequisite = { focus = uk_gu27 }
+		icon = GFX_focus_eng_imperial_federation
+		x = 14
+		y = 16.5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu4
+		prerequisite = { focus = uk_gu }
+		icon = GFX_focus_generic_women_in_military
+		x = 18
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu41
+		prerequisite = { focus = uk_gu4 }
+		icon = GFX_focus_usa_escort_fighters
+		x = 19.5
+		y = 10
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu42
+		prerequisite = { focus = uk_gu4 }
+		icon = GFX_focus_focus_fra_revolution_utmost
+		x = 22.5
+		y = 10
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu43
+		prerequisite = { focus = uk_gu42 }
+		icon = GFX_focus_generic_manpower
+		x = 22.5
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu44
+		prerequisite = { focus = uk_gu43 }
+		icon = GFX_focus_generic_military_academy
+		x = 22.5
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu45
+		prerequisite = { focus = uk_gu4 }
+		icon = GFX_goal_generic_wolf_pack
+		x = 18.5
+		y = 11
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu46
+		prerequisite = { focus = uk_gu45 }
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_alternative
+		x = 18.5
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu47
+		prerequisite = { focus = uk_gu46 }
+		icon = GFX_goal_generic_small_arms
+		x = 18.5
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu48
+		prerequisite = { focus = uk_gu47 }
+		icon = GFX_goal_generic_army_artillery
+		x = 18.5
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu49
+		prerequisite = { focus = uk_gu4 focus = uk_gu1 }
+		mutually_exclusive = { focus = uk_gu18 }
+		icon = GFX_focus_generic_navy_battleship2
+		x = 15
+		y = 11
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu50
+		prerequisite = { focus = uk_gu49 }
+		icon = GFX_goal_generic_navy_battleship
+		x = 15
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu51
+		prerequisite = { focus = uk_gu50 }
+		icon = GFX_goal_generic_occupy_states_coastal
+		x = 15
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = uk_gu52
+		prerequisite = { focus = uk_gu51 }
+		icon = GFX_focus_generic_coastal_fort
+		x = 15
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			
+		}
+	}
 focus = {
 		id = uk_fu
 		icon = GFX_focus_generic_strike_at_democracy1
@@ -123,7 +618,7 @@ focus = {
 		icon = GFX_goal_support_democracy
 		mutually_exclusive = { focus = uk_fu3 }
 		prerequisite = { focus = uk_fu }
-		x = 12
+		x = 12.5
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -137,7 +632,7 @@ focus = {
 		id = uk_fu21
 		icon = GFX_focus_spa_the_spanish_miracle
 		prerequisite = { focus = uk_fu2 }
-		x = 10.5
+		x = 11
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -151,7 +646,7 @@ focus = {
 		id = uk_fu22
 		icon = GFX_focus_eng_bring_the_dominions_back_into_the_fold
 		prerequisite = { focus = uk_fu2 }
-		x = 13.5
+		x = 14
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -165,7 +660,7 @@ focus = {
 		id = uk_fu23
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		prerequisite = { focus = uk_fu21 }
-		x = 10.5
+		x = 11
 		y = 4
 		cost = 10
 		ai_will_do = {
@@ -179,7 +674,7 @@ focus = {
 		id = uk_fu24
 		icon = GFX_goal_generic_improve_relations
 		prerequisite = { focus = uk_fu22 }
-		x = 13.5
+		x = 14
 		y = 4
 		cost = 10
 		ai_will_do = {
@@ -193,7 +688,7 @@ focus = {
 		id = uk_fu25
 		icon = GFX_focus_generic_home_defense
 		prerequisite = { focus = uk_fu2 }
-		x = 12
+		x = 12.5
 		y = 3
 		cost = 10
 		ai_will_do = {
@@ -209,7 +704,7 @@ focus = {
 		prerequisite = { focus = uk_fu25 }
 		prerequisite = { focus = uk_fu23 }
 		prerequisite = { focus = uk_fu24 }
-		x = 12
+		x = 12.5
 		y = 5
 		cost = 10
 		ai_will_do = {
@@ -225,7 +720,7 @@ focus = {
 		mutually_exclusive = { focus = uk_fu2 }
 		prerequisite = { focus = uk_fu }
 		icon = GFX_focus_POL_complete_april_constitution
-		x = 4
+		x = 3.5
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -239,7 +734,7 @@ focus = {
 		id = uk_fu31
 		prerequisite = { focus = uk_fu3 }
 		icon = GFX_focus_generic_self_management
-		x = 3
+		x = 2.5
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -253,7 +748,7 @@ focus = {
 		id = uk_fu32
 		prerequisite = { focus = uk_fu3 }
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 5
+		x = 4.5
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -267,7 +762,7 @@ focus = {
 		id = uk_fu33
 		prerequisite = { focus = uk_fu31 }
 		icon = GFX_focus_generic_military_academy
-		x = 3
+		x = 2.5
 		y = 3
 		cost = 10
 		ai_will_do = {
@@ -281,7 +776,7 @@ focus = {
 		id = uk_fu34
 		prerequisite = { focus = uk_fu32 }
 		icon = GFX_focus_eng_the_sun_never_sets
-		x = 5
+		x = 4.5
 		y = 3
 		cost = 10
 		ai_will_do = {
@@ -296,7 +791,7 @@ focus = {
 		prerequisite = { focus = uk_fu33 }
 		prerequisite = { focus = uk_fu34 }
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		x = 4
+		x = 3.5
 		y = 4
 		cost = 10
 		ai_will_do = {
@@ -310,7 +805,7 @@ focus = {
 		id = uk_fu36
 		prerequisite = { focus = uk_fu35 }
 		icon = GFX_focus_usa_reestablish_the_gold_standard
-		x = 4
+		x = 3.5
 		y = 5
 		cost = 10
 		ai_will_do = {
@@ -354,7 +849,7 @@ focus = {
 			num_subjects > 0
 		} 
 		icon = GFX_goal_generic_national_unity
-		x = 28
+		x = 30
 		y = 0
 		cost = 5
 		ai_will_do = {
