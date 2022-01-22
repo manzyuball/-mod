@@ -523,7 +523,10 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = ENG_Kyoukou
+				add_idea = ENG_Kyoukou2
+				}
 		}
 	}
 	focus = {
@@ -565,7 +568,7 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_research_slot = 1
 		}
 	}
 	focus = {
@@ -595,7 +598,7 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			remove_ideas = ENG_Kyoukou2
 		}
 	}
 	focus = {
@@ -609,7 +612,9 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			set_major = yes
+			add_stability = 0.15
+			add_war_support = 0.15
 		}
 	}
 
@@ -625,7 +630,7 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -639,7 +644,7 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_offsite_building = { type = industrial_complex level = 9 }
 		}
 	}
 	focus = {
@@ -653,7 +658,7 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_ideas = ENG_Kyoukou3
 		}
 	}
 	focus = {
@@ -667,7 +672,7 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_ideas = ENG_Kyoukou5
 		}
 	}
 	focus = {
@@ -681,7 +686,7 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_ideas = ENG_Kyoukou4
 		}
 	}
 	focus = {
@@ -695,7 +700,8 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_political_power = 250
+			add_stability = 0.15
 		}
 	}
 	focus = {
@@ -711,7 +717,7 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_stability = 0.15
 		}
 	}
 
@@ -727,7 +733,7 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -741,7 +747,7 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_ideas = ENG_Hukusi
 		}
 	}
 	focus = {
@@ -755,7 +761,7 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_ideas = ENG_Kyoukou6
 		}
 	}
 	focus = {
@@ -769,7 +775,10 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = ENG_Hukusi
+				add_idea = ENG_Hukusi2
+				}
 		}
 	}
 	focus = {
@@ -783,7 +792,8 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_political_power = -250
+			add_stability = 0.25
 		}
 	}
 	focus = {
@@ -798,7 +808,10 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+				}
 		}
 	}
 	focus = {
@@ -812,7 +825,10 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = ENG_Hukusi2
+				add_idea = ENG_Hukusi3
+				}
 		}
 	}
 
