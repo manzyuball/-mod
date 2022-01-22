@@ -39,7 +39,9 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
+		mutually_exclusive = {
+			focus = JAP_com1
+		}
 		completion_reward = {
 			add_ideas = JAP_min1
 			add_stability = 0.1
