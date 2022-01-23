@@ -85,8 +85,12 @@ recruit_character = CSA_jules_pire
 recruit_character = CSA_oscar_michiels
 recruit_character = CSA_yvan_gerard
 
-
-
+add_ideas = {
+	CSA1
+	#laws
+	Total_Mobilization
+	Service by_Requirement
+}
 
 1939.1.1 = {
 

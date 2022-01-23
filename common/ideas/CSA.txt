@@ -1,5 +1,51 @@
 ideas = {
+		country = {
+			CSA1 = {
+				name = CSA1
+				picture = generic_communist_army
+				modifier = {
+					conscription = 0.05
+					army_core_attack_factor = 0.1
+					army_core_defence_factor = 0.1
+				}
+			}
+			CSA2 = {
+				name = CSA2
+				picture = GFX_idea_JAP_night_vision
+				modifier = {
+					war_support_factor = 0.5
+					enemy_justify_war_goal_time = 0.5
+					justify_war_goal_time = 0.95
+					training_time_army_factor = -0.1
+					targeted_modifier = { tag = USA attack_bonus_against = 0.15 }
+					targeted_modifier = { tag = USB attack_bonus_against = 0.15 }
+				}
+			}
+			CSA3 = {
+				name = CSA3
+				picture = GFX_idea_JAP_4th_fleet_incident
+				modifier = {
+					planning_speed = 0.75
+					max_planning = 0.95
+			}
+		}
+			CSA4 = {
+				name = CSA4
+				picture = GFX_idea_JAP_disaster-stricken_country
+				modifier = {
+					army_leader_start_level = 4
+					army_leader_start_attack_level= 3
+					army_leader_start_planning_level= 4
+					army_leader_start_defense_level= 3
+					army_leader_start_logistics_level= 3
+			}
+			}
+			CSA5 = {
+				name = CSA5
+				picture = GFX_idea_JAP_double_research
+			}
 
+		}
 	aircraft_manufacturer = {
 	
 		designer = yes
