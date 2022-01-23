@@ -2,58 +2,58 @@ ideas = {
 	country = {
 		JES = {
 			name = J_JES
-			picture = GFX_idea_JAP_industrial_standard
+			picture = JAP_industrial_standard
 			modifier = {
 				political_power_factor = -0.01
 			}
 		}
 		High_night_vision = {
 			name = HNV
-			picture = GFX_idea_JAP_night_vision
+			picture = JAP_night_vision
 		}
 		The_Fourth_Fleet_Incident = {
 			name = TFFI
-			picture = GFX_idea_JAP_4th_fleet_incident
+			picture = JAP_4th_fleet_incident
 		}
 		disaster_prone_countries = {
 			name = DPC
-			picture = GFX_idea_JAP_disaster-stricken_country
+			picture = JAP_disaster-stricken_country
 		}
 		A_double_research_system = {
 			name = ADRS
-			picture = GFX_idea_JAP_double_research
+			picture = JAP_double_research
 		}
 		Shared_shells = {
 			name = JP_SS
-			picture = GFX_idea_JAP_share_shell
+			picture = JAP_share_shell
 		}
 		to_kikan = {
 			name = TOKIKAN
-			picture = GFX_idea_JAP_to_kikan
+			picture = JAP_to_kikan
 			modifier = {
 				operative_slot = 2
 			}
 		}
 		Oxygen_torpedoes = {
 			name = OT
-			picture = GFX_idea_JAP_type_93_torpedo
+			picture = JAP_type_93_torpedo
 
 		}
 		Sea_Power_State = {
 			name = SPS
-			picture = GFX_idea_JAP_sea_power
+			picture = JAP_sea_power
 		}
 		Type_91_armour_piercing_ammunition = {
 			name = T91APA
-			picture = GFX_idea_JAP_type_91_AP
+			picture = JAP_type_91_AP
 		}
 		Preservation_of_old_ships = {
 			name = POOS
-			picture = GFX_idea_JAP_naval_escort_battle
+			picture = JAP_naval_escort_battle
 		}
 		Magic_transformation = {
 			name = MT
-			picture = GFX_NVF
+			picture = NVF
 		}
 	}
 }
