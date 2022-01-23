@@ -26,7 +26,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = yes
-				allowed_module_categories = { ship_anti_air }
+				allowed_module_categories = { ship_anti_air sam }
 			}
 			fixed_ship_fire_control_system_slot = {
 				required = yes
@@ -60,6 +60,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+
 				}
 			}
 			
@@ -86,18 +87,24 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_airplane_launcher
+					sam
+					ssm
 				}
 			}
 			anti_4_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					sam
 				}
 			}
 			sec_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_secondaries
+					sam
+					ssm
+
 				}
 			}
 			rear_1_custom_slot = {
@@ -105,6 +112,9 @@ equipments = {
 				allowed_module_categories = {
 					#ship_heavy_battery	
 					ship_double_pd_heavy_battery
+					sam
+					ssm
+
 				}
 			}
 			sec_2_custom_slot = {
@@ -187,6 +197,9 @@ equipments = {
 					ship_triple_heavy_battery	
 					ship_quad_heavy_battery
 					ship_super_heavy_secondaries
+					sam
+					ssm
+					
 				}
 			}
 #			fixed_ship_slot_2 = {
