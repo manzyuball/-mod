@@ -4,22 +4,123 @@ ideas = {
 
 		ENG_kuni = {
 			name = ENG_KUNI
-
 			picture = eng_the_sun_never_sets
-
 			modifier = {
 				stability_factor = 0.05
 			}
 		}
+		ENG_loiyalnavy = {
+			name = ENG_loiyalnavy
+			picture = generic_navy_bonus
+			modifier = {
+
+			}
+		}
+		ENG_tank = {
+			name = ENG_tank
+			picture = eng_preparing_the_second_front
+			modifier = {
+				army_armor_speed_factor = -0.08
+				army_armor_defence_factor = 0.40
+			}
+		}
+		ENG_d = {
+			name = ENG_d
+			picture = generic_acquire_tanks
+			modifier = {
+				defence = 0.15
+			}
+		}
+		ENG_k = {
+			name = ENG_k
+			picture = generic_acquire_tanks
+			modifier = {
+				offence = 0.15
+			}
+		}
+		ENG_mamoru = {
+			name = ENG_mamoru
+			picture = generic_aircraft_support
+			modifier = {
+				war_support_factor = 0.35
+				army_core_defence_factor = 0.35
+				army_core_attack_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.35
+				production_speed_anti_air_building_factor = 0.35
+				air_interception_attack_factor = 0.1
+				air_interception_defence_factor = 0.1
+				air_interception_agility_factor = 0.1
+			}
+		}
+		ENG_BIG = {
+			name = ENG_BIG
+			picture = generic_artillery_regiments
+			modifier = {
+				army_artillery_attack_factor = 0.15
+			}
+		}
+		ENG_loiyalnavy2 = {
+			name = ENG_loiyalnavy2
+			picture = generic_navy_bonus
+			modifier = {
+				sortie_efficiency = 0.1
+				naval_coordination = 0.05
+				naval_hit_chance = 0.05
+			}
+		}
+		ENG_loiyalnavy3 = {
+			name = ENG_loiyalnavy3
+			picture = generic_navy_bonus
+			modifier = {
+				navy_chief_cost_factor = -0.25
+				naval_speed_factor = 0.1
+			}
+		}
+		ENG_Saigunnbi = {
+			name = ENG_Saigunnbi
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				mobilization_laws_cost_factor = -0.25
+			}
+		}
+		ENG_Saigunnbi2 = {
+			name = ENG_Saigunnbi
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				mobilization_laws_cost_factor = -0.75
+				training_time_army_factor = -0.1
+				planning_speed = 0.10
+				max_planning = -0.25
+			}
+		}
+		ENG_Saigunnbi3 = {
+			name = ENG_Saigunnbi
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				mobilization_laws_cost_factor = -0.25
+				high_command_cost_factor = 0.25
+				military_leader_cost_factor = -0.50
+				conscription_factor = 0.02
+			}
+		}
+		ENG_Saigunnbi4 = {
+			name = ENG_Saigunnbi
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				mobilization_laws_cost_factor = -0.25
+				high_command_cost_factor = 0.25
+				military_leader_cost_factor = -0.50
+				conscription_factor = 0.02
+				training_time_army_factor = -0.1
+			}
+		}
 		ENG_Kyoukou = {
 			name = ENG_Kyoukou
-
 			picture = usa_great_depression_3
-
 			modifier = {
 				consumer_goods_factor = 0.25
-				production_factory_start_efficiency_factor = -0.15
-				industrial_capacity_factory = -0.15
+				production_factory_start_efficiency_factor = -0.1
+				industrial_capacity_factory = -0.1
 			}
 		}
 		ENG_Kyoukou2 = {
@@ -102,7 +203,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
-		ENG_Hukusi = {
+		ENG_Hukusi2 = {
 			name = ENG_Hukusi2
 			allowed = {
 				always = no
@@ -114,7 +215,7 @@ ideas = {
 				consumer_goods_factor = 0.9
 			}
 		}
-		ENG_Hukusi2 = {
+		ENG_Hukusi3 = {
 			name = ENG_Hukusi3
 			allowed = {
 				always = no

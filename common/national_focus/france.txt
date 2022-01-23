@@ -1069,7 +1069,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -1106,7 +1106,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -1290,7 +1290,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -1327,7 +1327,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -1358,13 +1358,13 @@
 		x = 0
 		y = 1
 		prerequisite = {
-			focus = FRA_nationalize_key_industry
+			focus = FRA_expand_the_citizenship
 		}
 		relative_position_id = FRA_expand_the_citizenship
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -1396,7 +1396,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {

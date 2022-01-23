@@ -231,7 +231,7 @@
 
 		search_filters = { FOCUS_FILTER_STABILITY }
 		completion_reward = {
-			add_offsite_building = { type = arms_factory level = 6 }
+			add_offsite_building = { type = arms_factory level = 9 }
 		}
 	}
 
@@ -1541,7 +1541,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 4
+			factor = 1
 		}
 
 		available = {
