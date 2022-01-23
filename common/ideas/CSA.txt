@@ -11,7 +11,7 @@ ideas = {
 			}
 			CSA2 = {
 				name = CSA2
-				picture = GFX_idea_JAP_night_vision
+				picture = usa_desegregation_1
 				modifier = {
 					war_support_factor = 0.5
 					enemy_justify_war_goal_time = 0.5
@@ -23,7 +23,7 @@ ideas = {
 			}
 			CSA3 = {
 				name = CSA3
-				picture = GFX_idea_JAP_4th_fleet_incident
+				picture = cze_planning_bonus
 				modifier = {
 					planning_speed = 0.75
 					max_planning = 0.95
@@ -31,7 +31,7 @@ ideas = {
 		}
 			CSA4 = {
 				name = CSA4
-				picture = GFX_idea_JAP_disaster-stricken_country
+				picture = hol_haven_of_tolerance
 				modifier = {
 					army_leader_start_level = 4
 					army_leader_start_attack_level= 3
