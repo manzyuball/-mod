@@ -138,10 +138,7 @@ ideas = {
 		}
 		ENG_Kyoukou3 = {
 			name = ENG_Kyoukou3
-			allowed = {
-				always = no
-			}
-			picture = spr_seize_the_gold_reserves
+			picture = generic_closed_economy
 
 			modifier = {
 				targeted_modifier = { tag = CAN trade_cost_for_target_factor = -0.85 }
@@ -154,11 +151,9 @@ ideas = {
 				targeted_modifier = { tag = RAJ trade_cost_for_target_factor = -0.85 }
 			}
 		}
+
 		ENG_Kyoukou4 = {
 			name = ENG_Kyoukou4
-			allowed = {
-				always = no
-			}
 			picture = generic_export_focus
 
 			modifier = {
@@ -169,9 +164,6 @@ ideas = {
 		}
 		ENG_Kyoukou5 = {
 			name = ENG_Kyoukou5
-			allowed = {
-				always = no
-			}
 			picture = SOV_third_five_year_plan
 
 			modifier = {
@@ -181,9 +173,6 @@ ideas = {
 		}
 		ENG_Kyoukou6 = {
 			name = ENG_Kyoukou6
-			allowed = {
-				always = no
-			}
 			picture = POL_succesful_four_year_plan
 
 			modifier = {
@@ -193,9 +182,6 @@ ideas = {
 		}
 		ENG_Hukusi = {
 			name = ENG_Hukusi
-			allowed = {
-				always = no
-			}
 			picture = generic_export_focus
 
 			modifier = {
@@ -205,9 +191,6 @@ ideas = {
 		}
 		ENG_Hukusi2 = {
 			name = ENG_Hukusi2
-			allowed = {
-				always = no
-			}
 			picture = generic_goods_red_bonus
 
 			modifier = {
@@ -217,9 +200,6 @@ ideas = {
 		}
 		ENG_Hukusi3 = {
 			name = ENG_Hukusi3
-			allowed = {
-				always = no
-			}
 			picture = idea_send_attache
 
 			modifier = {

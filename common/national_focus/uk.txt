@@ -30,6 +30,7 @@ focus_tree = {
 		}	
 		completion_reward = {
 			army_experience = 50
+			add_ideas = ENG_Saigunnbi
 			130 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
@@ -45,6 +46,7 @@ focus_tree = {
 		id = uk_gu1
 		prerequisite = { focus = uk_gu }
 		icon = GFX_focus_generic_combined_arms
+		mutually_exclusive = { focus = uk_gu4 }
 		x = 6
 		y = 9
 		cost = 4
@@ -330,6 +332,7 @@ focus_tree = {
 		id = uk_gu28
 		prerequisite = { focus = uk_gu27 }
 		icon = GFX_focus_hol_united_netherlands
+		mutually_exclusive = { focus = uk_gu29 }
 		x = 10
 		y = 16.5
 		cost = 10
@@ -344,6 +347,7 @@ focus_tree = {
 		id = uk_gu29
 		prerequisite = { focus = uk_gu27 }
 		icon = GFX_focus_eng_imperial_federation
+		mutually_exclusive = { focus = uk_gu28 }
 		x = 14
 		y = 16.5
 		cost = 10
@@ -358,6 +362,7 @@ focus_tree = {
 		id = uk_gu4
 		prerequisite = { focus = uk_gu }
 		icon = GFX_focus_generic_women_in_military
+		mutually_exclusive = { focus = uk_gu1 }
 		x = 18
 		y = 9
 		cost = 7
@@ -366,7 +371,7 @@ focus_tree = {
 		}	
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = my_idea_1
+				remove_idea = ENG_Saigunnbi
 				add_idea = ENG_Saigunnbi3
 				}
 		}
@@ -597,7 +602,7 @@ focus = {
 		id = uk_fu11
 		prerequisite = { focus = uk_fu1 }
 		icon = GFX_focus_SOV_penal_battalions
-		x = 6.5
+		x = 7
 		y = 3
 		cost = 10
 		ai_will_do = {
@@ -611,8 +616,8 @@ focus = {
 		id = uk_fu12
 		prerequisite = { focus = uk_fu1 }
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = 9.5
-		y = 3
+		x = 9
+		y = 5
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -623,8 +628,7 @@ focus = {
 	}
 	focus = {
 		id = uk_fu13
-		prerequisite = { focus = uk_fu11 }
-		prerequisite = { focus = uk_fu12 }
+		prerequisite = { focus = uk_fu1 }
 		icon = GFX_focus_rocketry
 		x = 8
 		y = 4

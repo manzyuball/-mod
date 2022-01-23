@@ -32,7 +32,7 @@ load_oob = "ENG_Motorized"
 set_research_slots = 4
 
 set_stability = 0.6
-set_war_support = 0.1
+set_war_support = 0.15
 add_command_power = 20
 
 # Starting tech
@@ -152,9 +152,9 @@ add_ideas = {
 	stiff_upper_lip
 	ENG_the_war_to_end_all_wars
 	george_v
-	ENG_Saigunnbi
 	ENG_Kyoukou
 	ENG_kuni
+	ENG_loiyalnavy
 }
 	
 

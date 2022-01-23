@@ -57,13 +57,14 @@
  uk_gu52:0 "効果的な対空兵器"
 
 #IDEAS
+
  ENG_kuni:0 "大英帝国"
  ENG_loiyalnavy:0 "ロイヤルネイビー"
  ENG_loiyalnavy2:0 "ロイヤルネイビー"
  ENG_loiyalnavy3:0 "ロイヤルネイビー"
  ENG_tank:0 "英国式戦車"
  ENG_d:0 "防衛主義"
- NG_k:0 "攻撃主義"
+ ENG_k:0 "攻撃主義"
  ENG_mamoru:0 "我々は決して降伏しない!"
  ENG_BIG:0 "大型砲の開発"
  ENG_Saigunnbi:0 "再軍備計画"

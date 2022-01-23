@@ -1,5 +1,16 @@
 ideas = {
 	country = {
+		CHI_sensi = {
+			removal_cost = -1
+
+			picture = mex_politicised_army_2
+
+			modifier = {
+				terrain_penalty_reduction = 0.75
+				army_attack_factor = 0.1
+				army_speed_factor = 0.05
+			}
+		}
 		german_advisors = {
 		
 			allowed = {
