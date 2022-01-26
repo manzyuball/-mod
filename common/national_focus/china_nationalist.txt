@@ -642,6 +642,10 @@
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			modify_timed_idea = {
+				idea = CHI_SANGAK
+				days = 85
+				}
 			create_wargoal = {
 				type = annex_everything
 				target = YUN
@@ -653,6 +657,7 @@
 					add_state_core = 322
 					add_state_core = 758
 					add_state_core = 757
+					
 		}
 	}
 

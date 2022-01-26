@@ -43,21 +43,5 @@
 			add_war_support = 0.25
 		}
 	}
-focus = {
-	id = CSA_3
-	icon = GFX_goal_generic_allies_build_infantry
-	prerequisite = { focus = CSA_2 }
-	x = 10
-	y = 2
-	cost = 10	
-	available_if_capitulated = yes
-	completion_reward = {
-		country_event = {
-			id = CSA_event.1
-			days = 1
-			}
-	}
-}
-
 
 }

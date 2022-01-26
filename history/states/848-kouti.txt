@@ -12,7 +12,7 @@ state={
 		}
 		buildings = {
 			industrial_complex = 2
-			infrastructure = 1
+			infrastructure = 3
 		}
 	}
 	manpower=502321

@@ -3,12 +3,23 @@ ideas = {
 		CHI_sensi = {
 			removal_cost = -1
 
-			picture = mex_politicised_army_2
+			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
 				terrain_penalty_reduction = 0.75
 				army_attack_factor = 0.1
 				army_speed_factor = 0.05
+			}
+		}
+		CHI_SANGAK = {
+			removal_cost = -1
+
+			picture = man_five_year_plan_tank
+
+			modifier = {
+				supply_consumption_factor = -0.60
+				attrition = -0.1
+				army_speed_factor = 0.25
 			}
 		}
 		german_advisors = {
