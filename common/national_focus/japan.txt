@@ -795,7 +795,12 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			MAN = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.35
+					}
+				}
 		}
 	}
 	focus = {
@@ -825,7 +830,9 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			MAN = {
+				add_core_of = CHI
+			}
 		}
 	}
 	focus = {
@@ -855,7 +862,10 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_war_support = 0.1
+			ENG = {
+				add_war_support = 0.1
+			}
 		}
 	}
 	focus = {
@@ -885,7 +895,16 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SOV
+				}
+			VLA = {
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+					}
+				}
 		}
 	}
 	focus = {
@@ -915,20 +934,27 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = GER
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = FRA
+					}
 		}
 	}
 	focus = {
 		id = JAP_NF_7
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		icon = GFX_focus_spr_masters_of_our_own_fate
 		prerequisite = { focus = JAP_NF_6 }
 		x = 12.5
 		y = 20
 
-		cost = 10
+		cost = 25
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 
 		available = {
@@ -945,7 +971,42 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			GER = {
+				start_civil_war = {
+				ruling_party = communism
+				ideology = democratic
+				size = 0.5
+				only_own_territory = no
+				capital = 58
+				states = {
+				58 59 56 57 51 874 42 55
+				}
+				}
+			}
+			HOL = {
+				start_civil_war = {
+				ruling_party = communism
+				ideology = democratic
+				size = 0.5
+				only_own_territory = no
+				capital = 7
+				states = {
+				7 35 36 
+				}
+				}
+			}
+			FRA = {
+				start_civil_war = {
+				ruling_party = communism
+				ideology = democratic
+				size = 0.5
+				only_own_territory = no
+				capital = 21
+				states = {
+				735 32 21 22 20 31 25 33 19 806
+				}
+				}
+			}
 		}
 	}
 	focus = {
@@ -975,7 +1036,9 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			VLA = {
+				add_core_of = SOV
+			}
 		}
 	}
 	focus = {
@@ -1095,7 +1158,13 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			USN = {
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+					}
+				}
+				ENG = { add_to_faction = USN }
 		}
 	}
 	focus = {
@@ -1125,7 +1194,36 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			add_building_construction = {
+				type = coastal_bunker
+				level = 4
+				instant_build = yes
+				province = 4180
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 4
+					instant_build = yes
+					province = 7159
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						level = 4
+						instant_build = yes
+						province = 10048
+						}
+						add_building_construction = {
+							type = coastal_bunker
+							level = 4
+							instant_build = yes
+							province = 12021
+							}
+							add_building_construction = {
+								type = coastal_bunker
+								level = 4
+								instant_build = yes
+								province = 7112
+								}
 		}
 	}
 	focus = {
@@ -2391,7 +2489,7 @@
 
 
 		completion_reward = {
-			add_ideas = JAP_sen1_idea
+			add_ideas = KAIHATUSYUURYOU
 		}
 	}
 
