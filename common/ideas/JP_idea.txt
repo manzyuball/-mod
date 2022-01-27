@@ -80,7 +80,7 @@ ideas = {
 		}
 		Samurai = {
 			name = Samurai
-			picture = idea_jap_militarism_showa
+			picture = jap_militarism_showa
 			modifier = {
 				amphibious_invasion = 0.45
 				invasion_preparation = -0.6
@@ -89,7 +89,7 @@ ideas = {
 		}
 		SEKKYOKUZAISEI = {
 			name = SEKKYOKUZAISEI
-			picture = spr_seize_the_gold_reserves
+			picture = generic_economic_increase
 			modifier = {
 				consumer_goods_factor = 0.05
 			}

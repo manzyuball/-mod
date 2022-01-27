@@ -4,7 +4,7 @@ ideas = {
 
 		ENG_kuni = {
 			name = ENG_KUNI
-			picture = ENG_kuni.dds
+			picture = eng_the_kings_party
 			modifier = {
 				stability_factor = 0.05
 			}
