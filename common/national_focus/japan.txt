@@ -43,7 +43,7 @@
 			focus = JAP_com1
 		}
 		completion_reward = {
-			add_ideas = JAP_min1
+			add_ideas = JAP_min1_idea
 			add_stability = 0.1
 		}
 	}
@@ -209,8 +209,8 @@
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = Daikyokou
-				add_idea = Daikyokou1
+				remove_idea = Kyoukou
+				add_idea = Kyoukou1
 				}
 		}
 	}
@@ -242,7 +242,7 @@
 
 
 		completion_reward = {
-			remove_ideas = JAP_zaibatsus
+			add_ideas = Zaibatu1
 		}
 	}
 	focus = {
@@ -273,10 +273,7 @@
 
 
 		completion_reward = {
-		swap_ideas = {
-			remove_idea = JAP_zaibatsus
-			add_idea = JAP_zaibatsus_challenged
-			}
+			add_ideas = Zaibatu2
 		}
 	}
 	focus = {
@@ -306,7 +303,7 @@
 
 
 		completion_reward = {
-			add_ideas = JAP_min2_idea
+			add_ideas = Kigyouseisinn
 		}
 	}
 	focus = {
@@ -425,8 +422,8 @@
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = Daikyokou1
-				add_idea = Daikyokou2
+				remove_idea = Kyoukou2
+				add_idea = Kyoukou3
 				}
 		}
 	}
@@ -491,7 +488,7 @@
 
 
 		completion_reward = {
-			add_ideas = JAP_min4
+			add_ideas = Samurai
 		}
 	}
 	focus = {
@@ -522,7 +519,7 @@
 
 
 		completion_reward = {
-			remove_ideas = Daikyokou2
+			remove_ideas = Kyoukou3
 		}
 	}
 	focus = {
@@ -708,14 +705,13 @@
 
 
 		completion_reward = {
-			add_ideas = JAP_min5
+			add_ideas = Senzihou
 		}
 	}
 	focus = {
 		id = JAP_min21
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_jap_pacific_guardian
 		prerequisite = { focus = JAP_min19 }
-		mutually_exclusive = { focus = JAP_min22 }
 		x = 13.5
 		y = 13
 
@@ -743,12 +739,11 @@
 		}
 	}
 	focus = {
-		id = JAP_min22
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = JAP_min19 }
-		mutually_exclusive = { focus = JAP_min21 }
-		x = 18
-		y = 13
+		id = JAP_NF_1
+		icon = GFX_focus_chi_whampoa_military_academy
+		prerequisite = { focus = JAP_min21 }
+		x = 13.5
+		y = 14
 
 		cost = 10
 
@@ -774,16 +769,376 @@
 		}
 	}
 	focus = {
-		id = JAP_san1
-		icon = GFX_goal_generic_army_doctrines
-		mutually_exclusive = { focus = JAP_sen1 }
-		x = 23
-		y = 0
+		id = JAP_NF_2
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = JAP_NF_1 }
+		x = 13.5
+		y = 15
 
 		cost = 10
 
 		ai_will_do = {
-			factor = 0.00000005
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = JAP_NF_3
+		icon = GFX_focus_chi_one_china_policy
+		prerequisite = { focus = JAP_NF_2 }
+		x = 13.5
+		y = 16
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = JAP_NF_4
+		icon = GFX_focus_usa_focus_on_europe
+		prerequisite = { focus = JAP_NF_3 }
+		x = 12
+		y = 17
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = JAP_NF_5
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		prerequisite = { focus = JAP_NF_4 }
+		x = 11.5
+		y = 18
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = JAP_NF_6
+		icon = GFX_focus_SOV_behead_the_snake
+		prerequisite = { focus = JAP_NF_4 }
+		x = 12.5
+		y = 19
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = JAP_NF_7
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		prerequisite = { focus = JAP_NF_6 }
+		x = 12.5
+		y = 20
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = JAP_NF_8
+		icon = GFX_focus_SOV_panslavic_nationalism
+		prerequisite = { focus = JAP_NF_5 }
+		x = 10.5
+		y = 19
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = JAP_NF_9
+		icon = GFX_focus_generic_the_giant_wakes
+		prerequisite = { focus = JAP_NF_3 }
+		x = 14.5
+		y = 17
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = JAP_NF_10
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAP_NF_9 }
+		x = 14.5
+		y = 18
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = JAP_NF_11
+		icon = GFX_focus_hol_the_foundations_of_defense
+		prerequisite = { focus = JAP_NF_10 }
+		x = 14.5
+		y = 19
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = JAP_NF_12
+		icon = GFX_focus_spa_the_war_of_vengeance
+		prerequisite = { focus = JAP_NF_3 }
+		x = 17
+		y = 17
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = JAP_NF_13
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = JAP_NF_12 }
+		x = 17
+		y = 18
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = JAP_NF_14
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = JAP_NF_13 }
+		x = 17
+		y = 19
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
 		}
 
 		available = {
@@ -806,7 +1161,6 @@
 	focus = {
 		id = JAP_sen1
 		icon = GFX_focus_usa_reestablish_the_gold_standard
-		mutually_exclusive = { focus = JAP_san1 }
 		x = 35
 		y = 0
 
@@ -830,7 +1184,7 @@
 
 
 		completion_reward = {
-			add_ideas = JAP_zaisei1_idea
+			add_ideas = SEKKYOKUZAISEI
 		}
 	}
 	focus = {
@@ -2751,7 +3105,7 @@
 	focus = {
 		id = JAP_army_expansion_law
 		icon = GFX_goal_generic_army_doctrines
-		x = 70
+		x = 45
 		y = 0
 
 		cost = 10
