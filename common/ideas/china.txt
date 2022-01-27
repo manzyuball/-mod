@@ -22,6 +22,7 @@ ideas = {
 				army_speed_factor = 0.25
 			}
 		}
+		
 		german_advisors = {
 		
 			allowed = {

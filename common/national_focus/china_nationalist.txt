@@ -644,7 +644,7 @@
 		completion_reward = {
 			modify_timed_idea = {
 				idea = CHI_SANGAK
-				days = 85
+				days = 100
 				}
 			create_wargoal = {
 				type = annex_everything

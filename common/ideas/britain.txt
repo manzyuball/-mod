@@ -4,7 +4,7 @@ ideas = {
 
 		ENG_kuni = {
 			name = ENG_KUNI
-			picture = eng_the_sun_never_sets
+			picture = ENG_kuni.dds
 			modifier = {
 				stability_factor = 0.05
 			}
@@ -141,14 +141,8 @@ ideas = {
 			picture = generic_closed_economy
 
 			modifier = {
-				targeted_modifier = { tag = CAN trade_cost_for_target_factor = -0.85 }
-				targeted_modifier = { tag = SAF trade_cost_for_target_factor = -0.85 }
-				targeted_modifier = { tag = AST trade_cost_for_target_factor = -0.85 }
-				targeted_modifier = { tag = NZL trade_cost_for_target_factor = -0.85 }
-				targeted_modifier = { tag = MAL trade_cost_for_target_factor = -0.85 }
-				targeted_modifier = { tag = EGY trade_cost_for_target_factor = -0.85 }
-				targeted_modifier = { tag = TZN trade_cost_for_target_factor = -0.85 }
-				targeted_modifier = { tag = RAJ trade_cost_for_target_factor = -0.85 }
+				min_export = 0.05
+				consumer_goods_factor = -0.09
 			}
 		}
 

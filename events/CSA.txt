@@ -6,8 +6,8 @@ country_event = {
 	desc = CSA_events.1.d
 	picture = GFX_report_event_generic_panzer_attack
 	trigger = {
-		tag = CSA
-		date < 1936.0.20
+			
+    has_completed_focus = CSA_2
 	}
 	option = {
 		name = CSA_events.1.a
