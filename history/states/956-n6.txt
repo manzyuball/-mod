@@ -4,6 +4,17 @@ state={
 	provinces={
 		14033 14034 14036 14038 14040 14050 14051 14052 14053 14054 14055 14056 14057 14058 14059 14060 14061 14062 14063 14067 14071 14072 14073 14279 14280 14281 14282 14283 14284 14285 14286 14292 
 	}
+	history={
+		owner = NAN
+		add_core_of = NAN
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	state_category=wasteland
+	manpower=0
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
