@@ -2,7 +2,7 @@ state={
 	id=963
 	name="STATE_963"
 	provinces={
-		8257 8468 8988 9012 13538 
+		8257 8283 8468 8667 8645 8988 9012 13538 
 	}
 	state_category = small_island
 	
