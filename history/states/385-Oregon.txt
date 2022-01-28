@@ -11,6 +11,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		add_core_of = USA
 		add_core_of = USB
@@ -22,7 +23,7 @@ state={
 	}
 
 	provinces={
-		1414 3471 3513 4274 4328 4347 4826 7398 7721 7865 10151 10305 10625 12183 12553 
+		1414 3471 3513 4274 4328 4347 4826 7398 7721 7865 10151 10305 10625 12183 12553 13658 
 	}
 	manpower=353785
 	buildings_max_level_factor=1.000

@@ -1,11 +1,8 @@
 
 state={
 	id=306
-	name="STATE_306" # Cundinamarca
-	manpower = 4953049
-	
-	state_category = city
-	
+	name="STATE_306"
+
 	history={
 		owner = COL
 		buildings = {
@@ -13,17 +10,20 @@ state={
 			arms_factory = 1
 			industrial_complex = 5
 			air_base = 2
+
 		}
 		add_core_of = COL
 		victory_points = {
-			10747 10
+			10747 10 
 		}
 
 	}
 
 	provinces={
-		2079 7936 7991 7993 10747 10790 10846 
+		2079 7936 7991 7993 8325 10747 10790 10846 
 	}
-
-	local_supplies=4.0 
+	manpower=4953049
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=4.000
 }

@@ -1,23 +1,23 @@
+
 state={
 	id=786
-	name="STATE_786" # Mauritanian Desert
-	manpower = 124200
-	
-	state_category = wasteland
-	impassable = yes
+	name="STATE_786"
 
 	history={
 		owner = GNA
 		add_core_of = GNA
 		buildings = {
 			infrastructure = 0
+
 		}
 
 	}
 
 	provinces={
-		1897 1962 7943 8035 10771 10779 10838 13359 13360 13361
+		1962 7943 8035 10771 10779 10838 13359 13360 13361 
 	}
-
-	local_supplies=0.0 
+	manpower=124200
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

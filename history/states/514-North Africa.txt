@@ -1,23 +1,23 @@
 
 state={
 	id=514
-	name="STATE_514" # Algerian Desert
-	manpower = 207733
-	
-	state_category = wasteland
-	impassable = yes
+	name="STATE_514"
 
 	history={
 		owner = GNA
 		add_core_of = GNA
 		buildings = {
 			infrastructure = 0
+
 		}
+
 	}
 
 	provinces={
-		1043 2049 5035 5095 8061 8077 8088 10749 12842 12849 13928 
+		1043 8088 10749 12849 
 	}
-
-	local_supplies=0.0 
+	manpower=207733
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

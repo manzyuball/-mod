@@ -1,3 +1,4 @@
+
 state={
 	id=88
 	name="STATE_88"
@@ -15,7 +16,7 @@ state={
 			442 3 
 		}
 		victory_points = {
-			9494 1
+			9494 1 
 		}
 		buildings = {
 			infrastructure = 3
@@ -30,11 +31,10 @@ state={
 	}
 
 	provinces={
-		417 442 466 3410 3434 6499 6522 9412 9427 9494 11398 11413 11507 13205 
+		417 442 466 3410 3434 5874 6499 6522 8870 9412 9427 9494 11398 11413 11507 13205 13418 13598 13765 13766 13857 13864 13865 13889 13909 
 	}
 	manpower=3692800
 	buildings_max_level_factor=1.000
 	state_category=large_city
-
-	local_supplies=12.0 
+	local_supplies=12.000
 }
