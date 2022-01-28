@@ -2,7 +2,7 @@ state={
 	id=841
 	name="STATE_841"
 	provinces={
-		332 11251 
+		13356 13419
 	}
 	state_category = rural
 	history={

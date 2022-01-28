@@ -2,12 +2,15 @@ state={
 	id=843
 	name="STATE_843"
 	provinces={
-		9904 
+		9904 13307 13424
 	}
 	history={
 		owner = MLT
 		victory_points = {
 			9904 40 
+		}
+		victory_points = {
+			13307 25
 		}
 		buildings = {
 			infrastructure = 1

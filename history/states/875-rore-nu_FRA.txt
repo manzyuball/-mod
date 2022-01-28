@@ -2,7 +2,7 @@ state={
 	id=875
 	name="STATE_875"
 	provinces={
-		678 1346 6529 9503 
+		678 1346 5506 6529
 	}
 	history={
 		owner = FRA
