@@ -8,14 +8,14 @@ state={
 	add_core_of = PRC
 	}
 	air_base = 3
-	4205 = {
+	13265 = {
 		naval_base = 2
 		coastal_bunker = 1
 		bunker = 1
 
 	}
 	provinces={
-		4205 
+		13265
 	}
 	manpower=23100
 	buildings_max_level_factor=1.000

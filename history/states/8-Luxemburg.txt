@@ -22,9 +22,9 @@ state=
 		add_core_of = HOL
 	}
 
-	provinces=
-	{
-6583 	}
+	provinces={
+		6583 13901 11502	
+	}
 
 	local_supplies=0.0 
 }
