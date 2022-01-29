@@ -1,0 +1,9 @@
+AUS_decisions_fof = {
+ icon = category_SOV_propaganda
+ allowed = {
+	has_government = fascism
+ }
+
+
+
+}
