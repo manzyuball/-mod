@@ -1,5 +1,78 @@
 ideas = {
 	country = {
+
+		SWE_gun = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_aircraft_support
+			
+			modifier = {
+				conscription_factor = 0.05
+			}
+		}
+		SWE_gun1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_aircraft_support
+			
+			modifier = {
+				conscription_factor = 0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.25
+				training_time_army_factor = -0.1
+				experience_gain_army = 0.15
+			}
+		}
+		SWE_gun2 = {
+			
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			picture = generic_aircraft_support
+			
+			modifier = {
+				conscription_factor = 0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.25
+				training_time_army_factor = -0.1
+				army_bonus_air_superiority_factor = 0.15
+				experience_gain_army = 0.15
+				experience_gain_air = 0.15
+			}
+		}
+		SWE_gun3 = {
+			
+			allowed = {
+				always = no
+			}
+
+
+			removal_cost = -1
+
+			picture = generic_aircraft_support
+			
+			modifier = {
+				conscription_factor = 0.07
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.3
+				training_time_army_factor = -0.15
+				army_bonus_air_superiority_factor = 0.2
+				experience_gain_army = 0.15
+				experience_gain_air = 0.15
+			}
+		}
 	
 		en_svensk_tiger = {
 			
@@ -18,6 +91,225 @@ ideas = {
 			modifier = {
 				drift_defence_factor = 0.1
 				enemy_justify_war_goal_time = 0.1
+			}
+		}
+		SWE_roudou = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		ziyuukenn = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_constitutional_guarantee
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				stability_weekly = 0.02
+			}
+		}
+		ookina_seihu = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			modifier = {
+				political_power_factor = 0.25
+				trade_laws_cost_factor = -0.25
+				mobilization_laws_cost_factor = -0.25
+				economy_cost_factor = -0.25
+				local_resources_factor = 0.10
+				production_speed_buildings_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		tiisana_seihu = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			modifier = {
+				political_power_factor = -0.1
+				mobilization_laws_cost_factor = 0.15
+				economy_cost_factor = 0.15
+				consumer_goods_factor = -0.1
+				production_speed_industrial_complex_factor = 0.1
+				research_time_factor = -0.05
+			}
+		}
+		tiisana_seihu2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			modifier = {
+				political_power_factor = -0.1
+				mobilization_laws_cost_factor = 0.15
+				economy_cost_factor = 0.15
+				consumer_goods_factor = -0.15
+				production_speed_industrial_complex_factor = 0.1
+				research_time_factor = -0.05
+			}
+		}
+		ookina_seihu2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			modifier = {
+				political_power_factor = 0.25
+				trade_laws_cost_factor = -0.25
+				mobilization_laws_cost_factor = -0.25
+				economy_cost_factor = -0.25
+				local_resources_factor = 0.10
+				production_speed_buildings_factor = 0.1
+				production_speed_arms_factory_factor = 0.15
+				production_speed_industrial_complex_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		No_kakumei = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ger_bulwark_against_bolshevism
+			
+			modifier = {
+				communism_acceptance = -45
+				war_support_weekly = 0.03
+				targeted_modifier = { tag = GER attack_bonus_against = 0.1 }
+				targeted_modifier = { tag = ITA attack_bonus_against = 0.1 }
+				targeted_modifier = { tag = FRA attack_bonus_against = 0.1 }
+			}
+		}
+		keizaitougou = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = tur_balkan_central_bank_wealthy_greece
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.02
+			}
+		}
+		keizaitougou1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = tur_balkan_central_bank_wealthy_greece
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_dockyard = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		keizaitougou2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = tur_balkan_central_bank_wealthy_greece
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				production_speed_buildings_factor = 0.05
+				production_factory_start_efficiency_factor = 0.1
+				industrial_capacity_dockyard = 0.1
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.15
+				global_building_slots_factor = 0.15
+			}
+		}
+		keizaitougou3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = tur_balkan_central_bank_wealthy_greece
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.2
+				production_speed_buildings_factor = 0.15
+				production_factory_start_efficiency_factor = 0.1
+				industrial_capacity_dockyard = 0.1
+				consumer_goods_factor = -0.1
+				local_resources_factor = 0.15
+				global_building_slots_factor = 0.15
+			}
+		}
+		winter_war_news = {
+			picture = tur_sub_zero_survival_training
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.03
+				mobilization_speed = 0.85
+				winter_attrition_factor = -0.1
+				army_core_defence_factor = 0.1
 			}
 		}
 	

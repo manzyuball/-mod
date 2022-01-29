@@ -31,7 +31,7 @@
  SWE_50:0 "北欧の団結"
  SWE_51:0 "研究機関の統合"
  SWE_52:0 "過疎地の開拓"
- SWE_53:0 "連邦横断鉄道"
+ SWE_53:0 "連邦横断高速道路"
  SWE_54:0 "共通通貨の採用"
  SWE_55:0 "北欧連邦企業構想"
  SWE_60:0 "共同演習"
@@ -42,9 +42,32 @@
  SWE_65:0 "三つの壁計画"
  SWE_66:0 "生まれ変わった連邦軍"
  SWE_67:0 "四人の王、一つの国"
+ SWE_68:0 "緊急旧式機配備"
 
-
-
-#IDEAS
-
+ #IDEAS
+ SWE_gun:0 "連邦軍"
+ SWE_gun2:0 "連邦軍"
+ SWE_gun3:0 "連邦軍"
+ SWE_gun1:0 "連邦軍"
+ SWE_roudou:0 "労働者の権利の保障"
+ ziyuukenn:0 "国民の権利の保障"
+ tiisana_seihu:0 "小さな政府"
+ tiisana_seihu2:0 "小さな政府"
+ ookina_seihu:0 "大きな政府"
+ ookina_seihu2:0 "大きな政府"
+ No_kakumei:0 "反革命精神"
+ keizaitougou:0 "連邦の経済統合"
+ keizaitougou1:0 "連邦の経済統合"
+ keizaitougou2:0 "連邦の経済統合"
+ keizaitougou3:0 "連邦の経済統合"
+ winter_war_news:0 "対ソビエト連邦防衛軍"
+ winter_war_news_desc:0 "東の憎きソビエトは最近我々の領地を奪おうと目論んでいる... 今こそ対ソビエト連邦防衛軍を編成し東の敵に備えるべきだ!"
+ #友好度
+ Kokuminnhogo:0 "我が国の国民を保護した"
+ DokusainoHitei:0 "我が国へ批判"
+ kyuusekkinn:0 "外交上の急接近"
  
+ #隠し効果
+ SWE_NF_1:0 "スェーデン主催の会議により§Hデンマーク・スェーデン・ノルウェー§!の三国が\n合体しスカンジナビアに統一国が誕生します"
+ SWE_autobahn_tt:0 "コペンハーゲン・ストックホルム・オスロを結ぶ州のインフラがMAXになります"
+ swe_hokuous_tt:0 "連邦にフィンランドが加わり北欧連邦に国名を変更します"

@@ -23,7 +23,10 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.25
+				}
 		}
 	}
 
@@ -37,7 +40,11 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			add_popularity = {
+				ideology = communism
+				popularity = 0.15
+				}
+				add_political_power = 150
 		}
 	}
 	focus = {
@@ -50,7 +57,7 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			add_political_power = 250
 		}
 	}
 	focus = {
@@ -62,7 +69,10 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			add_stability = 0.15
+			add_ideas = {
+				SWE_roudou
+			}
 		}
 	}
 	focus = {
@@ -74,7 +84,10 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			reverse_add_opinion_modifier = {
+				target = SOV
+				modifier = DokusainoHitei
+				}
 		}
 	}
 	focus = {
@@ -86,7 +99,9 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+        add_ideas = {
+			ziyuukenn
+		}
 		}
 	}
 	focus = {
@@ -98,7 +113,10 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			reverse_add_opinion_modifier = {
+				target = AUS
+				modifier = DokusainoHitei
+				}
 		}
 	}
 	focus = {
@@ -110,7 +128,10 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			add_manpower = 200000
+			army_experience = 25
+			navy_experience = 25
+			air_experience = 25
 		}
 	}
 	focus = {
@@ -122,19 +143,29 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			reverse_add_opinion_modifier = {
+				target = ENG
+				modifier = kyuusekkinn
+				}
+			add_opinion_modifier = {
+				target = ENG
+				modifier = kyuusekkinn
+				}
 		}
 	}
 	focus = {
 		id = SWE_10
 		icon = GFX_focus_eng_imperial_federation
 		prerequisite = { focus = SWE_9 }
+		available = {
+			has_completed_focus = SWE_34
+		}
 		x = 10
 		y = 6
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			ENG = { add_to_faction = SWE }
 		}
 	}
 	focus = {
@@ -143,9 +174,16 @@
 		x = 14
 		y = 0
 		cost = 10	
+		available = {
+			NOT = {
+				has_completed_focus = SWE_30
+			}
+		}
 		available_if_capitulated = yes
 		completion_reward = {
-
+            add_ideas = {
+				ookina_seihu
+			}
 		}
 	}
 	focus = {
@@ -157,7 +195,10 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = ookina_seihu
+				add_idea = ookina_seihu2
+				}
 		}
 	}
 	focus = {
@@ -169,7 +210,23 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			add_stability = -0.07
+			139 = {
+				add_extra_state_shared_building_slots = 1
+                    add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				}
+				138 = {
+					add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+						}
+					}	
 		}
 	}
 	focus = {
@@ -178,9 +235,16 @@
 		x = 17
 		y = 0
 		cost = 10	
+		available = {
+			NOT = {
+				has_completed_focus = SWE_20
+			}
+		}
 		available_if_capitulated = yes
 		completion_reward = {
-
+			add_ideas = {
+				tiisana_seihu
+			}
 		}
 	}
 	focus = {
@@ -193,7 +257,38 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			141 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+				}
+			}
+			139 = {
+				add_extra_state_shared_building_slots = 3
+                    add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+					}
+				}
+				38 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
+				}
+				138 = {
+					add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+						}
+					}
 		}
 	}
 	focus = {
@@ -206,7 +301,10 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = tiisana_seihu
+				add_idea = tiisana_seihu2
+				}
 		}
 	}
 	focus = {
@@ -219,7 +317,8 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			add_war_support = 0.15
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -230,9 +329,23 @@
 		x = 15.5
 		y = 4
 		cost = 10	
+		available = {
+			has_completed_focus = SWE_9
+		}
 		available_if_capitulated = yes
 		completion_reward = {
-
+			diplomatic_relation = {
+				country = ENG
+				relation = guarantee
+				active = yes
+				}
+			ENG = {
+				diplomatic_relation = {
+					country = SWE
+					relation = guarantee
+					active = yes
+					}
+			}
 		}
 	}
 	focus = {
@@ -245,7 +358,21 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			reverse_add_opinion_modifier = {
+				target = GER
+				modifier = DokusainoHitei
+				}
+				reverse_add_opinion_modifier = {
+					target = FRA
+					modifier = DokusainoHitei
+					}
+					reverse_add_opinion_modifier = {
+						target = ITA
+						modifier = DokusainoHitei
+						}
+			add_ideas = {
+                No_kakumei
+			}
 		}
 	}
 	focus = {
@@ -253,10 +380,39 @@
 		icon = "GFX_focus_SOV_reinforce_western_naval_bases"
 		x = 1
 		y = 0
-		cost = 10	
+		cost = 0.3
+		ai_will_do = {
+			factor = 1000
+		}
+		available = {
+			has_war_with = GER
+			NOR = {
+				has_war_with = GER
+			}
+			DEN = {
+				has_war_with = GER
+			}
+			
+		}
 		available_if_capitulated = yes
 		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = DEN
+				modifier = kyuusekkinn
+				}
+			add_opinion_modifier = {
+				target = DEN
+				modifier = kyuusekkinn
+				}
 
+				reverse_add_opinion_modifier = {
+					target = NOR
+					modifier = kyuusekkinn
+					}
+				add_opinion_modifier = {
+					target = NOR
+					modifier = kyuusekkinn
+					}
 		}
 	}
 	focus = {
@@ -265,7 +421,7 @@
 		prerequisite = { focus = SWE_40 }
 		x = 1
 		y = 1
-		cost = 10	
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
 
@@ -277,10 +433,46 @@
 		prerequisite = { focus = SWE_41 }
 		x = 1
 		y = 2
-		cost = 10	
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
+			custom_effect_tooltip = SWE_NF_1
+			hidden_effect = {
+				if = {
+					limit = {
+						has_dlc = "Waking the Tiger"
+					}   
+					activate_decision = form_scandinavia
+				}
+				set_cosmetic_tag = SCA_UNIFIED
+				NOR = {
+					transfer_navy = {
+					target = SWE
+					}
+				}
+				DEN = {
+					transfer_navy = {
+					target = SWE
+					}
+				}
+				annex_country = {
+					target = DEN
+					transfer_troops = yes
+					}
+					annex_country = {
+						target = NOR
+						transfer_troops = yes
+						}
+						add_core_of = NOR
+						add_core_of = DEN
+						NOR = {
+							remove_core_of = NOR
+						}
+						DEN = {
+							remove_core_of = DEN
+						}
 
+			}
 		}
 	}
 	focus = {
@@ -289,10 +481,12 @@
 		prerequisite = { focus = SWE_42 }
 		x = -3
 		y = 3
-		cost = 10	
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
-
+        add_ideas = {
+			SWE_gun
+		}
 		}
 	}
 	focus = {
@@ -301,10 +495,12 @@
 		prerequisite = { focus = SWE_42 }
 		x = 5
 		y = 3
-		cost = 10	
+		cost = 5	
 		available_if_capitulated = yes
 		completion_reward = {
-
+        add_ideas = {
+        keizaitougou
+		}
 		}
 	}
 	focus = {
@@ -313,10 +509,15 @@
 		prerequisite = { focus = SWE_44 }
 		x = 7
 		y = 4
-		cost = 10	
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
-
+          916 = { add_manpower = 42000 }
+		  144 = { add_manpower = 28000 }
+		  reverse_add_opinion_modifier = {
+			target = FIN
+			modifier = Kokuminnhogo
+			}
 		}
 	}
 	focus = {
@@ -325,10 +526,13 @@
 		prerequisite = { focus = SWE_44 }
 		x = 2
 		y = 4
-		cost = 10	
+		cost = 5	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = keizaitougou
+				add_idea = keizaitougou1
+				}
 		}
 	}
 	focus = {
@@ -337,10 +541,25 @@
 		prerequisite = { focus = SWE_45 }
 		x = 6
 		y = 5
-		cost = 10	
+		cost = 5	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			841 = {
+				add_building_construction = {
+				type = bunker
+				level = 6
+				instant_build = yes
+				province = 13356
+				}
+			}
+			841 = {
+				add_building_construction = {
+				type = bunker
+				level = 6
+				instant_build = yes
+				province = 13419
+				}
+			}
 		}
 	}
 	focus = {
@@ -349,10 +568,29 @@
 		prerequisite = { focus = SWE_45 }
 		x = 8
 		y = 5
-		cost = 10	
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
-
+		custom_effect_tooltip = swe_hokuous_tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_dlc = "Waking the Tiger"
+				}   
+				activate_decision = form_nordic_league
+			}
+			set_cosmetic_tag = NDC_UNIFIED
+			set_global_flag = form_nordic_league_flag
+			FIN = {
+				transfer_navy = {
+				target = SWE
+				}
+			}
+			annex_country = {
+				target = FIN
+				transfer_troops = yes
+				}
+		}
 		}
 	}
 	focus = {
@@ -361,10 +599,12 @@
 		prerequisite = { focus = SWE_48 }
 		x = 8
 		y = 6
-		cost = 10	
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
-
+        add_ideas = {
+			winter_war_news
+		}
 		}
 	}
 	focus = {
@@ -374,10 +614,10 @@
 		prerequisite = { focus = SWE_47  }
 		x = 7
 		y = 7
-		cost = 10	
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
-
+			add_war_support = 0.45
 		}
 	}
 	focus = {
@@ -386,10 +626,10 @@
 		prerequisite = { focus = SWE_46 }
 		x = 2
 		y = 5
-		cost = 10	
+		cost = 5	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			add_research_slot = 1
 		}
 	}
 	focus = {
@@ -398,10 +638,13 @@
 		prerequisite = { focus = SWE_46 }
 		x = 0
 		y = 5
-		cost = 10	
+		cost = 5	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = keizaitougou1
+				add_idea = keizaitougou2
+				}
 		}
 	}
 	focus = {
@@ -410,22 +653,99 @@
 		prerequisite = { focus = SWE_46 }
 		x = 4
 		y = 5
-		cost = 10	
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
+			custom_effect_tooltip = SWE_autobahn_tt
+			hidden_effect = {
+				37 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				110 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
 
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				141 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				932 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				140 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				139 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				138 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+			}		
 		}
 	}
 	focus = {
 		id = SWE_54
 		icon = "GFX_focus_POL_complete_april_constitution"
 		prerequisite = { focus = SWE_51 }
-		x = 2
+		prerequisite = { focus = SWE_52 }
+		x = 1
 		y = 6
-		cost = 10	
+		cost = 5	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = keizaitougou2
+				add_idea = keizaitougou3
+				}
 		}
 	}
 	focus = {
@@ -447,34 +767,56 @@
 		prerequisite = { focus = SWE_43 }
 		x = -5
 		y = 4
-		cost = 10	
+		cost = 5	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			army_experience = 250
+			navy_experience = 250
+			air_experience = 250
 		}
 	}
 	focus = {
 		id = SWE_61
 		icon = "GFX_focus_SOV_the_road_of_life"
-		prerequisite = { focus = SWE_60 }
-		x = -7
-		y = 5
-		cost = 10	
+		prerequisite = { focus = SWE_63 }
+		x = -4
+		y = 6
+		cost = 5	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			add_equipment_to_stockpile = {
+				type = 	motorized_equipment_1
+				amount = 950
+				producer = SWE
+				}
 		}
 	}
 	focus = {
 		id = SWE_62
 		icon = "GFX_goal_generic_navy_battleship"
-		prerequisite = { focus = SWE_60 }
-		x = -6
-		y = 6
-		cost = 10	
+		prerequisite = { focus = SWE_64 }
+		x = -4
+		y = 7
+		cost = 3.5
 		available_if_capitulated = yes
 		completion_reward = {
-
+			ENG = {
+				transfer_ship = {
+				prefer_name = "Stockholm class battleship"
+				type = light_cruiser
+				target = SWE
+				}
+				transfer_ship = {
+					prefer_name = "Kobenhavn class battleship"
+					type = light_cruiser
+					target = SWE
+					}
+					transfer_ship = {
+						prefer_name = "Oslo class battleship"
+						type = light_cruiser
+						target = SWE
+						}
+			}
 		}
 	}
 	focus = {
@@ -483,21 +825,49 @@
 		prerequisite = { focus = SWE_60 }
 		x = -5
 		y = 5
-		cost = 10	
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = SWE_gun
+				add_idea = SWE_gun1
+				}
 		}
 	}
 	focus = {
 		id = SWE_64
 		icon = "GFX_focus_SOV_women_in_aviation"
-		prerequisite = { focus = SWE_60 }
-		x = -4
+		prerequisite = { focus = SWE_63 }
+		x = -6
 		y = 6
-		cost = 10	
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = SWE_gun1
+				add_idea = SWE_gun2
+				}
+		}
+	}
+	focus = {
+		id = SWE_68
+		icon = "GFX_focus_usa_escort_fighters"
+		prerequisite = { focus = SWE_64 }
+		x = -6.5
+		y = 7
+		cost = 3.5
+		available_if_capitulated = yes
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = 	fighter_equipment_2
+				amount = 650
+				producer = SWE
+				}
+				add_equipment_to_stockpile = {
+					type = 	CAS_equipment_1
+					amount = 450
+					producer = SWE
+					}
 
 		}
 	}
@@ -516,15 +886,26 @@
 	focus = {
 		id = SWE_66
 		icon = "GFX_focus_POL_sanation_right"
-		prerequisite = { focus = SWE_63 }
 		prerequisite = { focus = SWE_64 }
-		prerequisite = { focus = SWE_62 }
-		x = -5
+		x = -5.3
 		y = 8
-		cost = 10	
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = SWE_gun2
+				add_idea = SWE_gun3
+				}
+				create_corps_commander = {
+					name = "Johan Theodor Herje Westrin"
+					picture = "portrait_ger_wilhelm_ritter_von_thoma.dds"
+					traits = { organizer trickster expert_improviser guerilla_fighter winter_specialist winter_expert ranger adaptable }
+					skill = 8
+					attack_skill = 4
+					defense_skill = 4
+					planning_skill = 3
+					logistics_skill = 3
+					}
 		}
 	}
 	focus = {
@@ -537,7 +918,10 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+        	set_major = yes
+			add_political_power = 350
+			add_stability = 0.5
+			add_war_support = 0.5
 		}
 	}
 
