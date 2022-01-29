@@ -1,0 +1,546 @@
+﻿focus_tree = {
+	id = SWE_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SWE 
+		}
+
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+	continuous_focus_position = { x = 2900 y = 250 }
+
+	focus = {
+		id = SWE_1
+		icon = GFX_focus_generic_home_defense
+		x = 10
+		y = 0
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SWE_2
+		icon = GFX_focus_prc_agrarian_socialism
+		prerequisite = { focus = SWE_1 }
+		mutually_exclusive = { focus = SWE_3 }
+		x = 8.5
+		y = 1
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_3
+		icon = GFX_focus_generic_the_giant_wakes
+		prerequisite = { focus = SWE_1 }
+		mutually_exclusive = { focus = SWE_2 }
+		x = 11.5
+		y = 1
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_4
+		icon = GFX_focus_SOV_womens_fascist_movement
+		prerequisite = { focus = SWE_2 }
+		x = 8.5
+		y = 2
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_5
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		prerequisite = { focus = SWE_4 }
+		x = 8.5
+		y = 3
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_6
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = SWE_3 }
+		x = 11.5
+		y = 2
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_7
+		icon = GFX_focus_POL_ban_nazi_party
+		prerequisite = { focus = SWE_6 }
+		x = 11.5
+		y = 3
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_8
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		prerequisite = { focus = SWE_5 focus = SWE_7 }
+		x = 10
+		y = 4
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_9
+		icon = GFX_focus_chi_british_cooperation
+		prerequisite = { focus = SWE_8 }
+		x = 10
+		y = 5
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_10
+		icon = GFX_focus_eng_imperial_federation
+		prerequisite = { focus = SWE_9 }
+		x = 10
+		y = 6
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_20
+		icon = GFX_goal_support_democracy
+		x = 14
+		y = 0
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_21
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = SWE_20 }
+		x = 14
+		y = 1
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_22
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = SWE_21 }
+		x = 14
+		y = 2
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_30
+		icon = GFX_goal_generic_territory_or_war
+		x = 17
+		y = 0
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_31
+		icon = GFX_goal_generic_consumer_goods
+		
+		prerequisite = { focus = SWE_30 }
+		x = 17
+		y = 1
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_32
+		icon = "GFX_focus_mex_privatisation"
+		
+		prerequisite = { focus = SWE_31 }
+		x = 17
+		y = 2
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_33
+		icon = "GFX_focus_generic_tank_production"
+		
+		prerequisite = { focus = SWE_32 focus = SWE_22 }
+		x = 15.5
+		y = 3
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_34
+		icon = "GFX_focus_hol_the_foundations_of_defense"
+		
+		prerequisite = { focus = SWE_33 }
+		x = 15.5
+		y = 4
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_35
+		icon = GFX_focus_ger_great_red_menace
+		
+		prerequisite = { focus = SWE_34 }
+		x = 15.5
+		y = 5
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_40
+		icon = "GFX_focus_SOV_reinforce_western_naval_bases"
+		x = 1
+		y = 0
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_41
+		icon = "GFX_focus_SOV_merge_plants"
+		prerequisite = { focus = SWE_40 }
+		x = 1
+		y = 1
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_42
+		icon = "GFX_focus_generic_scandinavia_flags"
+		prerequisite = { focus = SWE_41 }
+		x = 1
+		y = 2
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_43
+		icon = "GFX_focus_generic_aircraft_production"
+		prerequisite = { focus = SWE_42 }
+		x = -3
+		y = 3
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_44
+		icon = "GFX_focus_mex_privatisation"
+		prerequisite = { focus = SWE_42 }
+		x = 5
+		y = 3
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_45
+		icon = "GFX_focus_EST_national_pride_in_finland"
+		prerequisite = { focus = SWE_44 }
+		x = 7
+		y = 4
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_46
+		icon = "GFX_focus_chi_british_cooperation"
+		prerequisite = { focus = SWE_44 }
+		x = 2
+		y = 4
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_47
+		icon = "GFX_focus_fra_loyalty_trotzky"
+		prerequisite = { focus = SWE_45 }
+		x = 6
+		y = 5
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_48
+		icon = "GFX_focus_invite_finland"
+		prerequisite = { focus = SWE_45 }
+		x = 8
+		y = 5
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_49
+		icon = "GFX_focus_fra_loyalty_stalin"
+		prerequisite = { focus = SWE_48 }
+		x = 8
+		y = 6
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_50
+		icon = "GFX_focus_generic_scandinavian_alliance"
+		prerequisite = { focus = SWE_49 }
+		prerequisite = { focus = SWE_47  }
+		x = 7
+		y = 7
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_51
+		icon = "GFX_goal_tfv_generic_tech_sharing"
+		prerequisite = { focus = SWE_46 }
+		x = 2
+		y = 5
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_52
+		icon = "GFX_goal_reichsautobahn"
+		prerequisite = { focus = SWE_46 }
+		x = 0
+		y = 5
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_53
+		icon = "GFX_focus_POL_warsaw_main_station"
+		prerequisite = { focus = SWE_46 }
+		x = 4
+		y = 5
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_54
+		icon = "GFX_focus_POL_complete_april_constitution"
+		prerequisite = { focus = SWE_51 }
+		x = 2
+		y = 6
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_55
+		icon = "GFX_focus_spa_the_spanish_miracle"
+		prerequisite = { focus = SWE_54 }
+		prerequisite = { focus = SWE_50 }
+		x = 4
+		y = 8
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_60
+		icon = "GFX_focus_SOV_restore_cossack_units"
+		prerequisite = { focus = SWE_43 }
+		x = -5
+		y = 4
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_61
+		icon = "GFX_focus_SOV_the_road_of_life"
+		prerequisite = { focus = SWE_60 }
+		x = -7
+		y = 5
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_62
+		icon = "GFX_goal_generic_navy_battleship"
+		prerequisite = { focus = SWE_60 }
+		x = -6
+		y = 6
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_63
+		icon = "GFX_focus_SOV_the_glory_of_the_red_army_alternative"
+		prerequisite = { focus = SWE_60 }
+		x = -5
+		y = 5
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_64
+		icon = "GFX_focus_SOV_women_in_aviation"
+		prerequisite = { focus = SWE_60 }
+		x = -4
+		y = 6
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_65
+		icon = "GFX_goal_generic_fortify_city"
+		prerequisite = { focus = SWE_60 }
+		x = -3
+		y = 5
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_66
+		icon = "GFX_focus_POL_sanation_right"
+		prerequisite = { focus = SWE_63 }
+		prerequisite = { focus = SWE_64 }
+		prerequisite = { focus = SWE_62 }
+		x = -5
+		y = 8
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = SWE_67
+		icon = "GFX_goal_tfv_strengthen_commonwealth_ties"
+		prerequisite = { focus = SWE_66 }
+		prerequisite = { focus = SWE_55 }
+		x = 0
+		y = 9.5
+		cost = 10	
+		available_if_capitulated = yes
+		completion_reward = {
+
+		}
+	}
+
+	
+
+}
