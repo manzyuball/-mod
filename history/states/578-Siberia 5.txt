@@ -5,6 +5,7 @@ state={
 	manpower = 609304
 	
 	state_category = rural
+	impassable = yes
 
 	history={
 		owner = SOV

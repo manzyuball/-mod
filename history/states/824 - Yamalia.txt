@@ -4,7 +4,8 @@ state = {
 	name = "STATE_824" # Yamalia
 	manpower = 21974
 	
-	state_category = pastoral
+	state_category = pastora
+	impassable = yes
 
 	history = {
 		owner = SOV

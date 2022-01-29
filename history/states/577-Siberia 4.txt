@@ -8,6 +8,7 @@ state = {
 	}
 	
 	state_category = pastoral
+	impassable = yes
 
 	history = {
 		owner = SOV
