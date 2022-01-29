@@ -1,17 +1,23 @@
 state={
-	id=963
-	name="STATE_963"
+	id=966
+	name="STATE_966"
 	provinces={
-		8257 8283 8468 8645 8667 8988 9012 13538 
+		10245 10636 12512 13066 13574 
 	}
 	history={
 		owner = DEN
-		add_core_of = DEN
 		buildings = {
 			infrastructure = 1
+			12512 = {
+				naval_base = 1
+
+			}
+
 		}
+		add_core_of = DEN
+
 	}
-	manpower=5000
+	manpower=31500
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

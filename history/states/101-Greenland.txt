@@ -7,18 +7,13 @@ state={
 		owner = DEN
 		buildings = {
 			infrastructure = 1
-			12512 = {
-				naval_base = 1
-
-			}
-
 		}
 		add_core_of = DEN
 
 	}
 
 	provinces={
-		10245 10636 12512 13058 13066 13326 13515 13516 13528 13540 13545 13546 13547 13551 13574 13851 13867 13904 
+		13058 13326 13515 13516 13528 13540 13545 13546 13547 13551 13851 13867 13904 
 	}
 	manpower=18000
 	buildings_max_level_factor=1.000

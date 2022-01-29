@@ -1,0 +1,20 @@
+state={
+	id=967
+	name="STATE_967"
+	provinces={
+		3792 4894 5259 5556 5789 5815 6426 8868 13539 13548 13549 13550 13552 13553 13554 13555 13556 13557 
+	}
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CAN
+
+	}
+
+	manpower=27000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
