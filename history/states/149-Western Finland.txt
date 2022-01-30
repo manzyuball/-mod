@@ -4,7 +4,7 @@ state={
 	name="STATE_149" # Pohjanmaa
 	manpower = 811029
 	
-	state_category = town
+	state_category = city
 	
 	history={
 		owner = FIN
@@ -13,7 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_complex = 4
 			3122 = {
 				naval_base = 1
 			}

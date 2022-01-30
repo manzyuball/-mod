@@ -1,6 +1,51 @@
 ideas = {
 	country = {
 
+		The_tower = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = send_attache
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				roduction_factory_efficiency_gain_factor = 0.35
+			}
+		}
+
+		Paladox = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = send_attache
+			
+			modifier = {
+				research_time_factor = -0.7
+				production_speed_buildings_factor = 0.7
+				industrial_capacity_factory = 0.7
+				industrial_capacity_dockyard = 0.7
+				global_building_slots_factor = 0.7
+				production_factory_max_efficiency_factor = 0.7
+				production_factory_efficiency_gain_factor = 0.7
+				MONTHLY_POPULATION = 0.7
+				conscription = 0.5
+				offence = 0.95
+				defence = 0.95
+				army_speed_factor = 0.95
+				justify_war_goal_time = -0.95
+			}
+		}
+
 		SWE_gun = {
 			
 			allowed = {

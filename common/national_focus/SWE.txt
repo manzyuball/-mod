@@ -424,7 +424,7 @@
 		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
-
+			activate_decision = syuto
 		}
 	}
 	focus = {
@@ -758,7 +758,7 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-
+			activate_decision = kigyou
 		}
 	}
 	focus = {
@@ -800,23 +800,7 @@
 		cost = 3.5
 		available_if_capitulated = yes
 		completion_reward = {
-			ENG = {
-				transfer_ship = {
-				prefer_name = "Stockholm class battleship"
-				type = light_cruiser
-				target = SWE
-				}
-				transfer_ship = {
-					prefer_name = "Kobenhavn class battleship"
-					type = light_cruiser
-					target = SWE
-					}
-					transfer_ship = {
-						prefer_name = "Oslo class battleship"
-						type = light_cruiser
-						target = SWE
-						}
-			}
+			navy_experience = 350
 		}
 	}
 	focus = {
@@ -877,10 +861,19 @@
 		prerequisite = { focus = SWE_60 }
 		x = -3
 		y = 5
-		cost = 10	
+		cost = 10
+		available = {
+			has_full_control_of_state = 111
+			has_full_control_of_state = 149
+			has_full_control_of_state = 37
+			has_full_control_of_state = 141
+			has_full_control_of_state = 140
+			has_full_control_of_state = 110
+			has_full_control_of_state = 932
+		}
 		available_if_capitulated = yes
 		completion_reward = {
-
+			activate_decision =  mittunokabe
 		}
 	}
 	focus = {

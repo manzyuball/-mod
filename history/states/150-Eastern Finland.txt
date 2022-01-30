@@ -4,7 +4,7 @@ state={
 	name="STATE_150" # Savo
 	manpower = 611100
 	
-	state_category = town
+	state_category = city
 	
 	resources={
 		steel=3 # was: 4
@@ -13,7 +13,7 @@ state={
 		owner = FIN
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 3
 		}
 		add_core_of = FIN
 	}
