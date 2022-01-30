@@ -105,6 +105,7 @@ if = {
 
 set_convoys = 20
 
+recruit_character = BRI_Mr.Sun
 recruit_character = BRI_fascist_guy
 recruit_character = BRI_coi
 recruit_character = BRI_acr
@@ -216,16 +217,16 @@ recruit_character = BRI_awt
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 40
+	democratic = 60
+	fascism = 20
 	communism = 10
-	neutrality = 30
+	neutrality = 10
 }
 
 create_country_leader = {
@@ -233,13 +234,6 @@ create_country_leader = {
 	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
-}
-
-create_country_leader = {
-	name = "Morvan Marchal"
-	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
 }
 
 create_country_leader = {

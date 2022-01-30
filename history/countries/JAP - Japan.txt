@@ -428,6 +428,7 @@ give_guarantee = VLA
 give_guarantee = VIN
 
 
+recruit_character = JAP_Shidehara
 recruit_character = JAP_tetsu_katayama
 recruit_character = JAP_kyuichi_tokuda
 recruit_character = JAP_emperor_hirohito
@@ -509,7 +510,7 @@ if = {
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
-		nationalities = { MAN JAP CHI }
+		nationalities = { MAN JAP MEN MON GXC TAN YUN XSM PRC CHI }
 	}
 
 	create_operative_leader = {

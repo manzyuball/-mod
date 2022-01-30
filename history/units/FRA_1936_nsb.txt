@@ -1,6 +1,6 @@
 ﻿##### Division Templates #####
 division_template = {
-	name = "Division d'Infanterie"		
+	name = "フランス革命軍"		
 	division_names_group = FRA_INF_01
 	# Represents: Division d'Infanterie (Series A and B), Div. d'Inf. de Forteresse
 	# Difference is their equipment
@@ -96,7 +96,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Division Légère Mécanique" 		# Division Légère Mécanique
+	name = "フランス機甲革命軍" 		# Division Légère Mécanique
 	division_names_group = FRA_MEC_01
 
 	regiments = {

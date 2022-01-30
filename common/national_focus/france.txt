@@ -1069,7 +1069,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 10
+			factor = 10000
 		}
 
 		available = {
@@ -1290,7 +1290,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 10
+			factor = 10090
 		}
 
 		available = {
@@ -1305,8 +1305,9 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		search_filters = {FOCUS_FILTER_FRA_POLITICAL_VIOLENCE }
-		completion_reward = {
+		completion_reward = { 
 			remove_ideas = { FRA_political_violence }
+			remove_ideas = { FRA_disjointed_government }
 			set_temp_variable = { FRA_rw_support = party_popularity@neutrality }
 			add_to_temp_variable = { FRA_rw_support = party_popularity@fascism }
 			multiply_temp_variable = { FRA_rw_support = -0.5 }

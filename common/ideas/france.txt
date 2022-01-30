@@ -16,7 +16,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription_factor = -0.25
+				conscription_factor = -0.1
 			}
 		}
 		FRA_worker_shortage = {
@@ -33,9 +33,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription_factor = -0.25
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
+				conscription_factor = -0.1
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
 			}
 		}
 		FRA_inefficient_economy_1 = {
@@ -52,8 +52,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
 			}
 		}
 		FRA_inefficient_economy_2 = {
@@ -71,8 +71,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				industrial_capacity_factory = -0.2
-				industrial_capacity_dockyard = -0.2
+				industrial_capacity_factory = -0.08
+				industrial_capacity_dockyard = -0.08
 			}
 		}
 		FRA_political_violence = {
