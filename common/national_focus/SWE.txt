@@ -424,7 +424,10 @@
 		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
-			activate_decision = syuto
+			custom_effect_tooltip = SWE_syut
+			hidden_effect = {
+			set_country_flag = syut
+			}
 		}
 	}
 	focus = {
@@ -758,7 +761,10 @@
 		cost = 10	
 		available_if_capitulated = yes
 		completion_reward = {
-			activate_decision = kigyou
+			custom_effect_tooltip = SWE_kig
+			hidden_effect = {
+			set_country_flag = kigyou1
+			}
 		}
 	}
 	focus = {
@@ -873,7 +879,10 @@
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			activate_decision =  mittunokabe
+			custom_effect_tooltip = SWE_kab
+			hidden_effect = {
+			set_country_flag = kab
+			}
 		}
 	}
 	focus = {

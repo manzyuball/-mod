@@ -4,6 +4,9 @@ SWE_decisions_fof = {
      icon = gre_faction_management_category
      cost = 35
      fire_only_once = yes
+     visible = {
+     has_completed_focus = SWE_65
+     }
      complete_effect = {
       custom_effect_tooltip = itinokabe
       hidden_effect = {
@@ -23,6 +26,9 @@ SWE_decisions_fof = {
         icon = gre_faction_management_category
         cost = 120
         fire_only_once = yes
+        visible = {
+         has_completed_focus = SWE_65
+         }
         complete_effect = {
          custom_effect_tooltip = ninokabe
          hidden_effect = {
@@ -101,6 +107,9 @@ SWE_decisions_fof = {
             icon = gre_faction_management_category
             cost = 125
             fire_only_once = yes
+            visible = {
+               has_completed_focus = SWE_65
+               }
             complete_effect = {
                custom_effect_tooltip = sannokabe
                hidden_effect = {
@@ -164,6 +173,9 @@ syuto = {
       icon = generic_form_nation
       cost = 0
       fire_only_once = yes
+      visible = {
+         has_completed_focus = SWE_41
+         }
       complete_effect = {
          set_capital = 141
          add_stability = 0.05
@@ -176,6 +188,9 @@ syuto = {
       icon = generic_form_nation
       cost = 0
       fire_only_once = yes
+      visible = {
+         has_completed_focus = SWE_41
+         }
       complete_effect = {
          set_capital = 110
          add_stability = 0.05
@@ -188,6 +203,9 @@ syuto = {
       icon = generic_form_nation
       cost = 0
       fire_only_once = yes
+      visible = {
+         has_completed_focus = SWE_41
+         }
       complete_effect = {
          set_capital = 37
          add_stability = 0.05
@@ -202,6 +220,9 @@ kigyou = {
       icon = hol_obtain_foreign_colonial_investments
       cost = 25
       fire_only_once = yes
+      visible = {
+         has_completed_focus = SWE_55
+         }
       complete_effect = {
       ENG = {
          add_opinion_modifier = {
@@ -233,6 +254,9 @@ kigyou = {
       icon = generic_fascism
       cost = 25
       fire_only_once = yes
+      visible = {
+         has_completed_focus = SWE_55
+         }
       complete_effect = {
          AUS = {
             add_opinion_modifier = {
@@ -264,6 +288,9 @@ kigyou = {
       icon = SOV_merge_designers
       cost = 1500
       fire_only_once = yes
+      visible = {
+         has_completed_focus = SWE_55
+         }
       complete_effect = {
          add_stability = 0.05
          custom_effect_tooltip = NO!

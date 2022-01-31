@@ -9,18 +9,18 @@ AUS_decisions_fof = {
 SWE_decisions_fof = {
 	icon = category_generic
 	allowed = {
-		has_completed_focus = SWE_65	
+		has_country_flag = kab
 	}
-   }
+}
    syuto = {
 	icon = category_usa_congress
 	allowed = {
-		has_completed_focus = SWE_41
+		has_country_flag = syut
 	}
    }
    kigyou = {
 	icon = category_generic_democracy
 	allowed = {
-		has_completed_focus = SWE_55
+	has_country_flag = kigyou1
 	}
-   }   
+   }

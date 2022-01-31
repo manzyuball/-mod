@@ -28,7 +28,7 @@ characters={
 		}
 	}
 
-	JAP_JAP_Shidehara={
+	JAP_Shidehara={
 		name=JAP_Shidehara
 		portraits={
 			civilian={

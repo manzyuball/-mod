@@ -115,21 +115,6 @@ characters={
 		}
 	}
 
-	GXC_li_ting={
-		name=GXC_li_ting
-		portraits={
-			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
-			}
-		}
-		country_leader={
-			ideology=rexism
-			traits={ compassionate_gentleman }
-			expire="1953.1.1.12"
-			id=-1
-		}
-	}
-
 
 	### THEORISTS ###
 
