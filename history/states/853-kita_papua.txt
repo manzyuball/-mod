@@ -9,6 +9,9 @@ state={
 	history={
 		add_core_of = PNG
 		owner = AST
+		victory_points = {
+			12237 1 
+		}
 		buildings = {
 			infrastructure = 1
 			12237 = {
@@ -23,10 +26,6 @@ state={
 				naval_base = 1
 
 			}
-			victory_points = {
-				12237 1 
-			}
-
 		}
 
 	}

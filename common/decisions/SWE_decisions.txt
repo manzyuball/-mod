@@ -218,6 +218,13 @@ syuto = {
 kigyou = {
    jap_kigyou = {
       icon = hol_obtain_foreign_colonial_investments
+      available = {
+         OR = {
+            NOT = { has_idea = The_tower }
+            NOT = { has_idea = Paladox }
+
+         }
+      }
       cost = 25
       fire_only_once = yes
       visible = {
@@ -245,13 +252,17 @@ kigyou = {
                add_ideas = {
                   The_tower
                }
-               hidden_effect = {
-                  remove_targeted_decision = kigyou
-                  }   
       }
    }
    Aus_kigyou = {
       icon = generic_fascism
+      available = {
+         OR = {
+            NOT = { has_idea = The_tower }
+            NOT = { has_idea = Paladox }
+
+         }
+      }
       cost = 25
       fire_only_once = yes
       visible = {
@@ -286,6 +297,13 @@ kigyou = {
    }
    SWE_kigyou = {
       icon = SOV_merge_designers
+      available = {
+         OR = {
+            NOT = { has_idea = The_tower }
+            NOT = { has_idea = Paladox }
+
+         }
+      }
       cost = 1500
       fire_only_once = yes
       visible = {

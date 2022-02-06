@@ -1,28 +1,24 @@
 ENG_decisions_fof = {
 
-     enzetu = {
-
-     icon = generic_speech
-
-     available = {
-        has_war = yes
-     }
+   enzetu = {
+   icon = generic_speech
+   available = {
+   has_war = yes
+   }
 
 
-     cost = 35
-     fire_only_once = yes
-     bisible = {
-        has_war = yes
-     }
-     complete_effect = {
+   cost = 35
+   fire_only_once = yes
+   visible = {
+      has_war = yes
+   }
+   complete_effect = {
         add_stability = 0.1
         add_war_support = 0.35
+   }
 
-
-
-     }
-
-     }
+   }
+   
      souryokusennenzetu = {
 
         icon = generic_speech
@@ -34,7 +30,7 @@ ENG_decisions_fof = {
    
         cost = 45
         fire_only_once = yes
-        bisible = {
+        visible = {
            has_war = yes
         }
         complete_effect = {
@@ -47,27 +43,21 @@ ENG_decisions_fof = {
         }
    
         }
-        souryokusennenzetu2 = {
-
-            icon = generic_speech
+      souryokusennenzetu2 = {
+         icon = generic_speech
+         available = {
+            has_war = yes
+            surrender_progress > 0.2
+         }
+         cost = 50
+         fire_only_once = yes
+         visible = {
+         has_war = yes
+         }
+         complete_effect = {
+            add_ideas = Souryokusenn
+         }
        
-            available = {
-               has_war = yes
-               surrender_progress > 0.2
-            }
-       
-       
-            cost = 50
-            fire_only_once = yes
-            bisible = {
-               has_war = yes
-            }
-            complete_effect = {
-               add_ideas = Souryokusenn
-    
-            }
-       
-            }
-
-
+      }
+      
 }

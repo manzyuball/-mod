@@ -48,12 +48,6 @@ music = {
 }
 
 music = {
-	name = "When Johnny Comes Marching Home"
-	file = "When Johnny Comes Marching Home.ogg"
-	volume = 0.95
-}
-
-music = {
 	name = "I Vow to Thee My Country"
 	file = "I Vow to Thee My Country.ogg"
 	volume = 1.35

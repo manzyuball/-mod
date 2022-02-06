@@ -304,13 +304,13 @@
 					add_building_construction = {
 						type = bunker
 						level = 7
-						province = 6875
+						province = 13870
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 7
-						province = 9750
+						province = 11721
 						instant_build = yes
 					}
 					add_building_construction = {
@@ -322,13 +322,13 @@
 					add_building_construction = {
 						type = bunker
 						level = 7
-						province = 9879
+						province = 13872
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 7
-						province = 9924
+						province = 611
 						instant_build = yes
 					}
 				}
@@ -1589,14 +1589,14 @@
 					ruling_party = fascism
 					ideology = communism
 					size = 0.8
-					only_own_territory = no
+					only_own_territory = yes
 					capital = 212
 					states = {
 					212 184 731 106 803 48
 					}
-					}	
+				}
 			}
-			}
+		}
 	}
 
 

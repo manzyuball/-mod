@@ -441,6 +441,14 @@
 		completion_reward = {
 			custom_effect_tooltip = SWE_NF_1
 			hidden_effect = {
+				add_core_of = NOR
+				add_core_of = DEN
+				NOR = {
+					remove_core_of = NOR
+				}
+				DEN = {
+					remove_core_of = DEN
+				}
 				if = {
 					limit = {
 						has_dlc = "Waking the Tiger"
@@ -465,14 +473,6 @@
 					annex_country = {
 						target = NOR
 						transfer_troops = yes
-						}
-						add_core_of = NOR
-						add_core_of = DEN
-						NOR = {
-							remove_core_of = NOR
-						}
-						DEN = {
-							remove_core_of = DEN
 						}
 
 			}

@@ -17,8 +17,6 @@ ideas = {
 					enemy_justify_war_goal_time = 0.5
 					justify_war_goal_time = 0.95
 					training_time_army_factor = -0.1
-					targeted_modifier = { tag = USA attack_bonus_against = 0.15 }
-					targeted_modifier = { tag = USB attack_bonus_against = 0.15 }
 				}
 			}
 			CSA3 = {
