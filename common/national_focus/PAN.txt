@@ -1,0 +1,728 @@
+focus_tree = {
+	id = PAN_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAN
+		}
+
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1100 }
+
+	focus = {
+		id = PAN_seizi_1
+		icon = GFX_focus_POL_belarus_army
+		x = -1
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+		factor = 1
+	}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+	completion_reward = {
+        
+	}
+}
+
+focus = {
+    id = PAN_lerder1
+    icon = GFX_focus_por_concordat
+prerequisite = { focus = PAN_seizi_1 }
+    x = -1
+    y = 1
+
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+}
+}
+
+focus = {
+    id = PAN_min
+    icon = "GFX_goal_support_democracy"
+prerequisite = { focus = PAN_lerder1 }
+    x = -5
+    y = 2
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+
+}
+
+focus = {
+    id = PAN_min1
+    icon = "GFX_focus_LIT_restore_the_grand_duchy"
+prerequisite = { focus = PAN_min }
+    x = -5
+    y = 3
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+
+
+}
+
+focus = {
+    id = PAN_min2
+    icon = "GFX_focus_jap_pacific_guardian"
+prerequisite = { focus = PAN_min1 }
+    x = -5
+    y = 4
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+
+}
+
+focus = {
+    id = PAN_min3
+    icon = "GFX_focus_eng_the_sun_never_sets"
+prerequisite = { focus = PAN_min2 }
+    x = -5
+    y = 5
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+
+}
+
+focus = {
+    id = PAN_min4
+    icon = "GFX_goal_support_communism"
+prerequisite = { focus = PAN_min3 }
+    x = -5
+    y = 6
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+
+}
+
+focus = {
+    id = PAN_kir1
+    icon = GFX_focus_spa_save_the_alcazar
+prerequisite = { focus = PAN_lerder1 }
+    x = -1
+    y = 2
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_kir2
+    icon = GFX_focus_eng_concessions_to_the_trade_unions
+prerequisite = { focus = PAN_kir1 }
+    x = -1
+    y = 3
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_kir3
+    icon = "GFX_focus_SOV_breadbasket_of_the_union"
+prerequisite = { focus = PAN_kir2 }
+    x = -1
+    y = 4
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_kir4
+    icon = "GFX_focus_generic_royal_wedding"
+prerequisite = { focus = PAN_kir3 }
+    x = -1
+    y = 5
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+focus = {
+    id = PAN_kir5
+    icon = "GFX_focus_GRE_hellenic_armed_forces"
+prerequisite = { focus = PAN_kir4 }
+    x = -1
+    y = 6
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_kir6
+    icon = "GFX_focus_hol_the_foundations_of_defense"
+prerequisite = { focus = PAN_kir1 }
+    x = -3
+    y = 3
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+
+}
+
+}
+
+focus = {
+    id = PAN_kir7
+    icon = "GFX_focus_usa_reestablish_the_gold_standard"
+prerequisite = { focus = PAN_kir6 }
+    x = -3
+    y = 4
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_kir8
+    icon = "GFX_focus_SOV_organize_wreckers"
+prerequisite = { focus = PAN_kir7 }
+    x = -3
+    y = 5
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_kir9
+    icon = "GFX_focus_spa_the_spanish_miracle"
+prerequisite = { focus = PAN_kir1 }
+    x = -3
+    y = 6
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+focus = {
+    id = PAN_kir10
+    icon = "GFX_focus_spr_the_anti_fascist_workers_revolution"
+prerequisite = { focus = PAN_kir1 }
+    x = 1
+    y = 3
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+focus = {
+    id = PAN_kir11
+    icon = "GFX_goal_generic_positive_trade_relations"
+prerequisite = { focus = PAN_kir10 }
+    x = 1
+    y = 4
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_kir12
+    icon = "GFX_goal_generic_fortify_city"
+prerequisite = { focus = PAN_kir11 }
+    x = 1
+    y = 5
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_kir13
+    icon = "GFX_focus_usa_guarantee_the_american_dream"
+prerequisite = { focus = PAN_kir12 }
+    x = 1
+    y = 6
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_gun
+    icon = "GFX_focus_POL_sanation_right"
+prerequisite = { focus = PAN_lerder1 }
+    x = 4
+    y = 2
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_gun1
+    icon = "GFX_focus_POL_sanation_left"
+prerequisite = { focus = PAN_gun }
+    x = 3
+    y = 3
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+focus = {
+    id = PAN_gun2
+    icon = "GFX_focus_SOV_the_glory_of_the_red_army_alternative"
+prerequisite = { focus = PAN_gun1 }
+    x = 3
+    y = 4
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+focus = {
+    id = PAN_gun3
+    icon = "GFX_focus_NZL_bob_semple_tank"
+prerequisite = { focus = PAN_gun2 }
+    x = 3
+    y = 5
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_gun4
+    icon = "GFX_focus_generic_military_mission"
+prerequisite = { focus = PAN_gun3 }
+    x = 3
+    y = 6
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+focus = {
+    id = PAN_gun5
+    icon = "GFX_goal_generic_political_pressure"
+prerequisite = { focus = PAN_gun }
+    x = 5
+    y = 3
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_gun6
+    icon = "GFX_focus_generic_combined_arms"
+prerequisite = { focus = PAN_gun5 }
+    x = 5
+    y = 4
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+focus = {
+    id = PAN_gun7
+    icon = "GFX_focus_SOV_restore_cossack_units"
+prerequisite = { focus = PAN_gun6 }
+    x = 5
+    y = 5
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_gun8
+    icon = "GFX_focus_mex_soldaderas"
+prerequisite = { focus = PAN_gun7 }
+    x = 5
+    y = 6
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+focus = {
+    id = PAN_gun9
+    icon = "GFX_focus_LIT_claim_livonia"
+prerequisite = { focus = PAN_gun8 }
+prerequisite = { focus = PAN_gun4 }
+    x = 4
+    y = 7
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_hiz
+    icon = "GFX_focus_generic_military_dictatorship"
+prerequisite = { focus = PAN_lerder1 }
+    x = 7
+    y = 2
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_hiz1
+    icon = "GFX_goal_generic_occupy_states_ongoing_war"
+prerequisite = { focus = PAN_hiz }
+    x = 7
+    y = 3
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_hiz2
+    icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
+prerequisite = { focus = PAN_hiz1 }
+    x = 7
+    y = 4
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+
+focus = {
+    id = PAN_hiz3
+    icon = "GFX_focus_SOV_mobilization_plan"
+prerequisite = { focus = PAN_hiz2 }
+    x = 7
+    y = 5
+    cost = 10
+
+    ai_will_do = {
+    factor = 1
+}	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+    
+}
+
+}
+}

@@ -9,7 +9,7 @@ state={
 		COCA=21
 	}
 	history={
-		owner = HON
+		owner = PAN
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -21,7 +21,6 @@ state={
 			}
 		}
 		add_core_of = PAN
-		add_core_of = HON
 
 	}
 
