@@ -538,7 +538,10 @@ prerequisite = { focus = PAN_gun }
     available_if_capitulated = no
 
 completion_reward = {
-    
+    swap_ideas = {
+        remove_idea = gun_pan
+        add_idea = gun_pan1
+        }
 }
 
 }
@@ -558,7 +561,10 @@ prerequisite = { focus = PAN_gun1 }
     available_if_capitulated = no
 
 completion_reward = {
-    
+    swap_ideas = {
+        remove_idea = gun_pan1
+        add_idea = gun_pan2
+        }
 }
 
 }
@@ -578,7 +584,10 @@ prerequisite = { focus = PAN_gun2 }
     available_if_capitulated = no
 
 completion_reward = {
-    
+    swap_ideas = {
+        remove_idea = gun_pan2
+        add_idea = gun_pan3
+        }
 }
 
 }
@@ -599,7 +608,10 @@ prerequisite = { focus = PAN_gun3 }
     available_if_capitulated = no
 
 completion_reward = {
-    
+    swap_ideas = {
+        remove_idea = gun_pan3
+        add_idea = gun_pan4
+        }
 }
 
 }
@@ -672,6 +684,9 @@ prerequisite = { focus = PAN_gun7 }
     x = 5
     y = 6
     cost = 10
+    available = {
+            has_completed_focus = PAN_gun4
+    }
 
     ai_will_do = {
     factor = 1
@@ -681,6 +696,10 @@ prerequisite = { focus = PAN_gun7 }
     available_if_capitulated = no
 
 completion_reward = {
+    swap_ideas = {
+        remove_idea = gun_pan4
+        add_idea = gun_pan5
+        }
     
 }
 
@@ -702,7 +721,10 @@ prerequisite = { focus = PAN_gun4 }
     available_if_capitulated = no
 
 completion_reward = {
-    
+    swap_ideas = {
+        remove_idea = gun_pan5
+        add_idea = gun_pan6
+        }
 }
 
 }
@@ -713,17 +735,23 @@ focus = {
 prerequisite = { focus = PAN_lerder1 }
     x = 7
     y = 2
-    cost = 10
+    cost = 0.2
 
     ai_will_do = {
-    factor = 1
+    factor = 1000
 }	
+
+available = {
+    has_defensive_war = yes
+}
+
+
     cancel_if_invalid = yes
     continue_if_invalid = no
     available_if_capitulated = no
 
 completion_reward = {
-    
+    add_ideas = hiz_pan
 }
 
 }
@@ -734,17 +762,24 @@ focus = {
 prerequisite = { focus = PAN_hiz }
     x = 7
     y = 3
-    cost = 10
+    cost = 3
 
     ai_will_do = {
-    factor = 1
-}	
+    factor = 100
+}
+available = {
+    has_defensive_war = yes
+}
+
     cancel_if_invalid = yes
     continue_if_invalid = no
     available_if_capitulated = no
 
 completion_reward = {
-    
+    swap_ideas = {
+        remove_idea = hiz_pan
+        add_idea = hiz_pan1
+        }
 }
 
 }
@@ -755,17 +790,24 @@ focus = {
 prerequisite = { focus = PAN_hiz1 }
     x = 7
     y = 4
-    cost = 10
+    cost = 3
 
     ai_will_do = {
-    factor = 1
+    factor = 100
 }	
+available = {
+    has_defensive_war = yes
+}
+
     cancel_if_invalid = yes
     continue_if_invalid = no
     available_if_capitulated = no
 
 completion_reward = {
-    
+    swap_ideas = {
+        remove_idea = hiz_pan1
+        add_idea = hiz_pan2
+        }
 }
 
 }
@@ -776,17 +818,24 @@ focus = {
 prerequisite = { focus = PAN_hiz2 }
     x = 7
     y = 5
-    cost = 10
+    cost = 3
 
     ai_will_do = {
-    factor = 1
+    factor = 100
 }	
+available = {
+    has_defensive_war = yes
+}
+
     cancel_if_invalid = yes
     continue_if_invalid = no
     available_if_capitulated = no
 
 completion_reward = {
-    
+    swap_ideas = {
+        remove_idea = hiz_pan2
+        add_idea = hiz_pan3
+        }
 }
 
 }

@@ -18,7 +18,7 @@
 	focus = {
 		id = SWE_1
 		icon = GFX_focus_generic_home_defense
-		x = 10
+		x = 11
 		y = 0
 		cost = 10	
 		available_if_capitulated = yes
@@ -35,7 +35,7 @@
 		icon = GFX_focus_prc_agrarian_socialism
 		prerequisite = { focus = SWE_1 }
 		mutually_exclusive = { focus = SWE_3 }
-		x = 8.5
+		x = 9
 		y = 1
 		cost = 10	
 		available_if_capitulated = yes
@@ -52,7 +52,7 @@
 		icon = GFX_focus_generic_the_giant_wakes
 		prerequisite = { focus = SWE_1 }
 		mutually_exclusive = { focus = SWE_2 }
-		x = 11.5
+		x = 13
 		y = 1
 		cost = 10	
 		available_if_capitulated = yes
@@ -64,7 +64,7 @@
 		id = SWE_4
 		icon = GFX_focus_SOV_womens_fascist_movement
 		prerequisite = { focus = SWE_2 }
-		x = 8.5
+		x = 9
 		y = 2
 		cost = 10	
 		available_if_capitulated = yes
@@ -79,7 +79,7 @@
 		id = SWE_5
 		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		prerequisite = { focus = SWE_4 }
-		x = 8.5
+		x = 9
 		y = 3
 		cost = 10	
 		available_if_capitulated = yes
@@ -94,7 +94,7 @@
 		id = SWE_6
 		icon = GFX_focus_generic_self_management
 		prerequisite = { focus = SWE_3 }
-		x = 11.5
+		x = 13
 		y = 2
 		cost = 10	
 		available_if_capitulated = yes
@@ -108,7 +108,7 @@
 		id = SWE_7
 		icon = GFX_focus_POL_ban_nazi_party
 		prerequisite = { focus = SWE_6 }
-		x = 11.5
+		x = 13
 		y = 3
 		cost = 10	
 		available_if_capitulated = yes
@@ -123,7 +123,7 @@
 		id = SWE_8
 		icon = GFX_focus_ger_bulwark_against_bolshevism
 		prerequisite = { focus = SWE_5 focus = SWE_7 }
-		x = 10
+		x = 11
 		y = 4
 		cost = 10	
 		available_if_capitulated = yes
@@ -138,7 +138,7 @@
 		id = SWE_9
 		icon = GFX_focus_chi_british_cooperation
 		prerequisite = { focus = SWE_8 }
-		x = 10
+		x = 11
 		y = 5
 		cost = 10	
 		available_if_capitulated = yes
@@ -160,7 +160,7 @@
 		available = {
 			has_completed_focus = SWE_34
 		}
-		x = 10
+		x = 11
 		y = 6
 		cost = 10	
 		available_if_capitulated = yes
@@ -171,7 +171,7 @@
 	focus = {
 		id = SWE_20
 		icon = GFX_goal_support_democracy
-		x = 14
+		x = 16
 		y = 0
 		cost = 10	
 		available = {
@@ -190,7 +190,7 @@
 		id = SWE_21
 		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = { focus = SWE_20 }
-		x = 14
+		x = 16
 		y = 1
 		cost = 10	
 		available_if_capitulated = yes
@@ -205,7 +205,7 @@
 		id = SWE_22
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = SWE_21 }
-		x = 14
+		x = 16
 		y = 2
 		cost = 10	
 		available_if_capitulated = yes
@@ -232,7 +232,7 @@
 	focus = {
 		id = SWE_30
 		icon = GFX_goal_generic_territory_or_war
-		x = 17
+		x = 20
 		y = 0
 		cost = 10	
 		available = {
@@ -252,7 +252,7 @@
 		icon = GFX_goal_generic_consumer_goods
 		
 		prerequisite = { focus = SWE_30 }
-		x = 17
+		x = 20
 		y = 1
 		cost = 10	
 		available_if_capitulated = yes
@@ -296,7 +296,7 @@
 		icon = "GFX_focus_mex_privatisation"
 		
 		prerequisite = { focus = SWE_31 }
-		x = 17
+		x = 20
 		y = 2
 		cost = 10	
 		available_if_capitulated = yes
@@ -312,7 +312,7 @@
 		icon = "GFX_focus_generic_tank_production"
 		
 		prerequisite = { focus = SWE_32 focus = SWE_22 }
-		x = 15.5
+		x = 18
 		y = 3
 		cost = 10	
 		available_if_capitulated = yes
@@ -326,7 +326,7 @@
 		icon = "GFX_focus_hol_the_foundations_of_defense"
 		
 		prerequisite = { focus = SWE_33 }
-		x = 15.5
+		x = 18
 		y = 4
 		cost = 10	
 		available = {
@@ -353,7 +353,7 @@
 		icon = GFX_focus_ger_great_red_menace
 		
 		prerequisite = { focus = SWE_34 }
-		x = 15.5
+		x = 18
 		y = 5
 		cost = 10	
 		available_if_capitulated = yes

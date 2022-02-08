@@ -142,6 +142,224 @@ ideas = {
 			}
 		}
 
+		gun_pan = {
+			
+			allowed = {
+				always = yes
+			}
+			picture = LIT_victory_in_trust
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.05
+			}
+		}
+		gun_pan1 = {
+			
+			allowed = {
+				always = yes
+			}
+			picture = LIT_victory_in_trust
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.05
+				army_leader_start_level = 5
+				army_leader_start_defense_level= 4
+				army_leader_start_logistics_level= 4
+			}
+		}
+		gun_pan2 = {
+			
+			allowed = {
+				always = yes
+			}
+			picture = LIT_victory_in_trust
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.05
+				army_leader_start_level = 5
+				army_leader_start_defense_level= 4
+				army_leader_start_logistics_level= 4
+				army_armor_speed_factor = 0.15
+				army_armor_defence_factor = 0.25
+			}
+		}
+		gun_pan3 = {
+			
+			allowed = {
+				always = yes
+			}
+			picture = LIT_victory_in_trust
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.05
+				army_leader_start_level = 5
+				army_leader_start_defense_level= 4
+				army_leader_start_logistics_level= 4
+				army_armor_speed_factor = 0.15
+				army_armor_defence_factor = 0.25
+				motorized_defence_factor = 0.25
+				army_speed_factor = 0.15
+			}
+		}
+		gun_pan4 = {
+			
+			allowed = {
+				always = yes
+			}
+			picture = LIT_victory_in_trust
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.05
+				army_leader_start_level = 5
+				army_leader_start_defense_level= 4
+				army_leader_start_logistics_level= 4
+				army_armor_speed_factor = 0.15
+				army_armor_defence_factor = 0.25
+				motorized_defence_factor = 0.25
+				army_speed_factor = 0.15
+				invasion_preparation = -0.5
+				max_planning = 0.5
+			}
+		}
+		gun_pan5 = {
+			
+			allowed = {
+				always = yes
+			}
+			picture = LIT_victory_in_trust
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.05
+				army_leader_start_level = 5
+				army_leader_start_defense_level= 4
+				army_leader_start_logistics_level= 4
+				army_armor_speed_factor = 0.15
+				army_armor_defence_factor = 0.25
+				motorized_defence_factor = 0.25
+				army_speed_factor = 0.15
+				invasion_preparation = -0.5
+				max_planning = 0.5
+				supply_consumption_factor = -0.5
+			}
+		}
+		gun_pan6 = {
+			
+			allowed = {
+				always = yes
+			}
+			picture = LIT_victory_in_trust
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.05
+				army_leader_start_level = 5
+				army_leader_start_defense_level= 4
+				army_leader_start_logistics_level= 4
+				army_armor_speed_factor = 0.15
+				army_armor_defence_factor = 0.25
+				motorized_defence_factor = 0.25
+				army_speed_factor = 0.15
+				invasion_preparation = -0.5
+				max_planning = 0.5
+				supply_consumption_factor = -0.5
+				experience_gain_army = 0.15
+			}
+		}
+
+		hiz_pan = {
+			
+			allowed = {
+				always = yes
+			}
+			picture = hol_liberation
+
+			removal_cost = -1
+			
+			cancel = {
+				has_defensive_war = no
+			}
+
+			modifier = {
+				war_support_factor = 0.85
+			}
+		}
+		hiz_pan1 = {
+			
+			allowed = {
+				always = yes
+			}
+			picture = hol_liberation
+
+			removal_cost = -1
+			
+			cancel = {
+				has_defensive_war = no
+			}
+
+			modifier = {
+				war_support_factor = 0.85
+				partisan_effect = 0.9
+				terrain_penalty_reduction = 0.5
+			}
+		}
+		hiz_pan2 = {
+			
+			allowed = {
+				always = yes
+			}
+			picture = hol_liberation
+
+			removal_cost = -1
+			
+			cancel = {
+				has_defensive_war = no
+			}
+
+			modifier = {
+				war_support_factor = 0.85
+				partisan_effect = 0.9
+				terrain_penalty_reduction = 0.5
+				defence = 0.85
+				attrition = -0.5
+			}
+		}
+		hiz_pan3 = {
+			
+			allowed = {
+				always = yes
+			}
+			picture = hol_liberation
+
+			removal_cost = -1
+			
+			cancel = {
+				has_defensive_war = no
+			}
+
+			modifier = {
+				war_support_factor = 0.85
+				partisan_effect = 0.9
+				terrain_penalty_reduction = 0.5
+				defence = 0.85
+				offence = 0.85
+				army_speed_factor = 0.45
+				attrition = -0.5
+			}
+		}
+
 
 	}
 
