@@ -26,6 +26,11 @@ opinion_modifiers = {
 		value = 35
 	}
 
+	dakyou = {		
+		value = 10
+	}
+
+
 	cheat_opinion_modifier_good = {
 		value = 200
 	}
