@@ -378,7 +378,7 @@ completion_reward = {
 focus = {
     id = PAN_kir9
     icon = "GFX_focus_spa_the_spanish_miracle"
-prerequisite = { focus = PAN_kir1 }
+prerequisite = { focus = PAN_kir8 }
     x = -3
     y = 6
     cost = 10
