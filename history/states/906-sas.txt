@@ -18,10 +18,10 @@ state={
 
 		}
 		victory_points = {
-			10513 20 
+			10513 35 
 		}
 		victory_points = {
-			5112 1 
+			5112 5 
 		}
 
 	}

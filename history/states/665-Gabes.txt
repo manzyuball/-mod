@@ -1,3 +1,4 @@
+
 state={
 	id=665
 	name="STATE_665"
@@ -12,15 +13,14 @@ state={
 			infrastructure = 2
 
 		}
+
 	}
-	
-	state_category = town
 
 	provinces={
-		1105 3987 4992 7005 9983 10026 10082 11935 11957 12000 
+		1105 3987 4992 7005 9983 10026 10082 11957 12000 
 	}
 	manpower=427824
 	buildings_max_level_factor=1.000
-
-	local_supplies=0.0 
+	state_category=town
+	local_supplies=0.000
 }
