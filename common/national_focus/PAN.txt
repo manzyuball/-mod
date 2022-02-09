@@ -631,7 +631,27 @@ prerequisite = { focus = PAN_gun }
     available_if_capitulated = no
 
 completion_reward = {
-    
+    army_experience = 250
+    create_corps_commander = {
+        name = "Rodriguez Tassigny"
+        picture = "Portrait_USA_Generic_land_4.dds"
+        traits = { infantry_leader trickster ambusher guerilla_fighter }
+        skill = 6
+        attack_skill = 2
+        defense_skill = 4
+        planning_skill = 4
+        logistics_skill = 3
+        }
+        create_field_marshal = {
+            name = "Omar Torrijos"
+            picture = "Portrait_USA_Jimmy_Doolittle.dds"
+            traits = { inflexible_strategist defensive_doctrine unyielding_defender }
+            skill = 5
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 2
+            }
 }
 
 }
@@ -652,7 +672,11 @@ prerequisite = { focus = PAN_gun5 }
     available_if_capitulated = no
 
 completion_reward = {
-    
+    add_equipment_to_stockpile = {
+        type = infantry_equipment
+        amount = 6500
+        producer = PAN
+        }
 }
 
 }
@@ -672,7 +696,7 @@ prerequisite = { focus = PAN_gun6 }
     available_if_capitulated = no
 
 completion_reward = {
-    
+    add_manpower = 843000
 }
 
 }
