@@ -1,26 +1,26 @@
 #AUS
 AUS_decisions_fof = {
  icon = category_SOV_propaganda
- allowed = {
+ visible = {
 	has_government = fascism
  }
 }
 #SWE
 SWE_decisions_fof = {
 	icon = category_generic
-	allowed = {
+	visible = {
 		has_country_flag = kab
 	}
 }
    syuto = {
 	icon = category_usa_congress
-	allowed = {
+	visible = {
 		has_country_flag = syut
 	}
    }
    kigyou = {
 	icon = category_generic_democracy
-	allowed = {
+	visible = {
 	has_country_flag = kigyou1
 	}
    }

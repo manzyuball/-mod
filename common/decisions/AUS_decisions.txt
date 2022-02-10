@@ -18,6 +18,39 @@ AUS_decisions_fof = {
      }
 
      }
+
+     ENG_urge_restraint = {
+
+		icon = eng_propaganda_campaigns
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			NOT = { has_country_flag = ENG_restrained_march_flag }
+		}
+
+		cost = 25
+
+		fire_only_once = no
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			add_popularity = { ideology = fascism popularity = -0.01 }
+			119 = { set_state_flag = ENG_has_blackshirt_support }
+			custom_effect_tooltip = ENG_urge_restraint_tt
+			set_country_flag = ENG_restrained_march_flag
+			custom_effect_tooltip = ENG_speech_against_germany_tt
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+   
      souryokusennenzetu = {
 
         icon = generic_speech

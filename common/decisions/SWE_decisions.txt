@@ -21,6 +21,7 @@ SWE_decisions_fof = {
      }
      }
    }
+
      daininokabe = {
 
         icon = gre_faction_management_category
@@ -168,6 +169,7 @@ SWE_decisions_fof = {
          }
       }
   
+
 syuto = {
    sutokkuhorumu = {
       icon = generic_form_nation
@@ -175,6 +177,9 @@ syuto = {
       fire_only_once = yes
       visible = {
          has_completed_focus = SWE_41
+         controls_state = 141
+         controls_state = 110
+         controls_state = 37
          }
       complete_effect = {
          set_capital = 141
@@ -190,6 +195,9 @@ syuto = {
       fire_only_once = yes
       visible = {
          has_completed_focus = SWE_41
+         controls_state = 141
+         controls_state = 110
+         controls_state = 37
          }
       complete_effect = {
          set_capital = 110
@@ -205,6 +213,9 @@ syuto = {
       fire_only_once = yes
       visible = {
          has_completed_focus = SWE_41
+         controls_state = 141
+         controls_state = 110
+         controls_state = 37
          }
       complete_effect = {
          set_capital = 37

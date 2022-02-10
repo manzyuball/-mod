@@ -27,7 +27,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		ai_will_do = {
-			factor = 12
+			factor = 120
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
@@ -54,7 +54,7 @@ focus_tree = {
 		cost = 10
 		
 		ai_will_do = {
-			factor = 9
+			factor = 90
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
@@ -82,7 +82,7 @@ focus_tree = {
 		relative_position_id = GER_autarky
 		cost = 10
 		ai_will_do = {
-			factor = 9
+			factor = 90
 		}
 
 		available_if_capitulated = no
@@ -161,7 +161,7 @@ focus_tree = {
 		relative_position_id = GER_hermann_goring_werke
 		cost = 10
 		ai_will_do = {
-			factor = 5
+			factor = 50
 		}
 
 		available_if_capitulated = no
@@ -301,7 +301,7 @@ focus_tree = {
 		relative_position_id = GER_kdf_wagen
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available_if_capitulated = yes
@@ -1247,6 +1247,40 @@ focus_tree = {
 				defender = 63
 				attacker_modifier = 0.75
 				combat_width = 100 }
+
+				start_border_war = {
+					change_state_after_war = yes
+					attacker = {
+					state = 64
+					num_provinces = 4
+					}
+					defender = {
+					state = 68
+					num_provinces = 3
+					}
+				}
+				set_border_war_data = {
+					attacker = 64
+					defender = 68
+					attacker_modifier = 0.75
+					combat_width = 100 }
+					
+					start_border_war = {
+						change_state_after_war = yes
+						attacker = {
+						state = 65
+						num_provinces = 2
+						}
+						defender = {
+						state = 66
+						num_provinces = 1
+						}
+					}
+					set_border_war_data = {
+						attacker = 65
+						defender = 66
+						attacker_modifier = 0.75
+						combat_width = 100 }
 		}
 	}
 
@@ -1757,7 +1791,7 @@ focus_tree = {
 		y = 1
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available_if_capitulated = yes
@@ -1864,7 +1898,7 @@ focus_tree = {
 		relative_position_id = GER_naval_rearmament
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available_if_capitulated = yes
@@ -1956,7 +1990,7 @@ focus_tree = {
 		relative_position_id = GER_naval_effort
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available_if_capitulated = yes
