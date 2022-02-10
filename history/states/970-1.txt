@@ -4,7 +4,17 @@ state={
 	provinces={
 		4562 4603 13437 
 	}
-	manpower=0
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = JOR
+		add_core_of = TUR
+
+	}
+	manpower=157535
+	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

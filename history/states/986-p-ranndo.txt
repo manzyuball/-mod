@@ -4,7 +4,19 @@ state={
 	provinces={
 		2900 2923 4692 6815 13064 
 	}
-	manpower=0
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = TAY
+
+	}
+	manpower=74321
+	state_category=pastoral
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	impassable = yes
 }

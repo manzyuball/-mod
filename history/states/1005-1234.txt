@@ -4,7 +4,16 @@ state={
 	provinces={
 		7830 13249 
 	}
-	manpower=0
+	manpower = 13213
+	state_category = wasteland
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CAN
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

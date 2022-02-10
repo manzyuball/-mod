@@ -4,7 +4,19 @@ state={
 	provinces={
 		1141 4970 5053 7033 7149 9943 10059 12034 12888 13077 
 	}
-	manpower=0
+	history={
+		owner = ALG
+		add_core_of = ALG
+		victory_points = {
+			12034 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	manpower=126241
+	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

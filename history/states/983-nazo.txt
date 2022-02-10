@@ -4,7 +4,21 @@ state={
 	provinces={
 		13217 
 	}
-	manpower=0
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SAF
+		victory_points = {
+			8214 1 
+		}
+
+	}
+
+	manpower=34000
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
 }
