@@ -6,9 +6,6 @@ state={
 	history={
 		owner = ALG
 		add_core_of = TUN
-		victory_points = {
-			7005 1 
-		}
 		buildings = {
 			infrastructure = 2
 
@@ -17,9 +14,9 @@ state={
 	}
 
 	provinces={
-		1105 3987 4992 7005 9983 10026 10082 11957 12000 
+		1105 3987 4992 9983 10082 12000 
 	}
-	manpower=427824
+	manpower=227824
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

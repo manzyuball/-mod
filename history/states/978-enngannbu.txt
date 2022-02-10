@@ -4,7 +4,26 @@ state={
 	provinces={
 		1201 4206 5081 13409 13410 13412 13413 
 	}
-	manpower=0
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			4206 = {
+				naval_base = 3
+
+			}
+		}
+		victory_points = {
+			4206 1 
+		}
+		add_core_of = PAL
+		add_core_of = ISR
+	}
+
+	manpower=733142
 	buildings_max_level_factor=1.000
+	state_category=city
 	local_supplies=0.000
 }

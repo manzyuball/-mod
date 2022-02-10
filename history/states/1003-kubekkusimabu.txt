@@ -4,7 +4,18 @@ state={
 	provinces={
 		1712 3691 7813 
 	}
-	manpower=0
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CAN
+
+	}
+
+	manpower=27000
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

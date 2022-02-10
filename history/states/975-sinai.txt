@@ -4,7 +4,20 @@ state={
 	provinces={
 		4161 11979 
 	}
-	manpower=0
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4161 3 
+		}
+		add_core_of = EGY
+
+	}
+	manpower=75359
 	buildings_max_level_factor=1.000
+	state_category=city
 	local_supplies=0.000
 }
