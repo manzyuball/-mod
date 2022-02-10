@@ -341,7 +341,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.1
 			}
-			research_bonus = { industry = 0.05}
+			research_bonus = { industry = 0.05 }
 		}
 		FRA_anti_decandence = {
 			picture = generic_oppression

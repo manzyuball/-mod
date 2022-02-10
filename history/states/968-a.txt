@@ -17,7 +17,8 @@ state={
 		add_core_of = SAU
 
 	}
-	manpower=0
+	manpower=81213
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }
