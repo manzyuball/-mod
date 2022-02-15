@@ -169,7 +169,125 @@ equipments = {
 		
 		manpower = 600
 	}
-
+	ship_hull_medium_cruiser_1 = {
+		year = 1922
+		visual_level = 0
+		archetype = ship_hull_cruiser
+		priority = 1900
+		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = no
+				allowed_module_categories = { ship_light_battery ship_medium_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_fire_control_system }
+			}
+			fixed_ship_sonar_slot = {
+				required = no
+				allowed_module_categories = { ship_sonar }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { cruiser_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries }
+			}
+			fixed_ship_armor_slot = {
+				required = no
+				allowed_module_categories = { ship_cruiser_armor }	
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_light_battery
+					ship_medium_battery
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = { ship_light_battery }
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = { ship_light_battery }
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = { ship_light_battery ship_medium_battery }
+			}
+			rear_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_light_battery
+					ship_medium_battery
+					ship_airplane_launcher
+				}
+			}
+			torp_1_custom_slot = {
+				required = no
+				allowed_module_categories = { UW_torpedo }
+			}
+			torp_2_custom_slot = torp_1_custom_slot
+			anti_1_custom_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			anti_2_custom_slot = anti_1_custom_slot
+			sec_1_custom_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries }
+			}
+			sec_2_custom_slot = sec_1_custom_slot
+			fixed_depth_1_slot = {
+				required = no
+				allowed_module_categories = { ship_depth_charge ship_mine_layer }
+			}
+		}
+		
+		module_count_limit = {
+			category = ship_medium_battery
+			count < 5
+		}
+		
+		default_modules = {
+			fixed_ship_battery_slot = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_sonar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+			rear_2_custom_slot = empty
+			torp_1_custom_slot = ship_torpedo_1
+			torp_2_custom_slot = ship_torpedo_1
+			anti_1_custom_slot = empty
+			anti_2_custom_slot = empty
+			anti_3_custom_slot = ship_anti_air_1
+			anti_4_custom_slot = ship_anti_air_1
+			sec_1_custom_slot = empty
+			sec_2_custom_slot = empty
+			launcher_1_custom_slot = ship_airplane_launcher_1
+			fixed_layer_1_slot = empty
+			fixed_layer_2_slot = empty
+			fixed_layer_3_slot = empty
+			fixed_depth_1_slot = empty
+		}
+	}
 	ship_hull_cruiser_1 = {
 		year = 1922
 		visual_level = 0

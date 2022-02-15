@@ -167,7 +167,51 @@ equipments = {
 		
 		manpower = 4500
 	}
-
+	super_light_carrier = {
+		visual_level = 1
+		archetype = ship_hull_carrier
+		priority = 300
+		module_slots = {
+			fixed_ship_deck_slot_1 = {
+				required = yes
+				allowed_module_categories = { ship_deck_light_space }
+				gfx = ship_deck_space_slot
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { carrier_ship_engine cruiser_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries ship_light_battery ship_anti_air_cannon}
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries ship_light_battery  ship_anti_air_cannon}
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries ship_light_battery  ship_anti_air_cannon }
+			}
+		}
+		default_modules = {
+			fixed_ship_deck_slot_1 = super_light_deck_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_anti_air_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+		}
+	}
 	ship_hull_carrier_1 = {
 		year = 1936
 		visual_level = 1
