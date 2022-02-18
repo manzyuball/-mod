@@ -1234,51 +1234,51 @@ focus_tree = {
             start_border_war = {
 				change_state_after_war = yes
 				attacker = {
-				state = 62
+				state = 63
 				num_provinces = 7
 				}
 				defender = {
-				state = 63
+				state = 807
 				num_provinces = 3
 				}
 		    }
 			set_border_war_data = {
-				attacker = 62
-				defender = 63
+				attacker = 63
+				defender = 807
 				attacker_modifier = 0.75
 				combat_width = 100 }
 
 				start_border_war = {
 					change_state_after_war = yes
 					attacker = {
-					state = 64
+					state = 68
 					num_provinces = 4
 					}
 					defender = {
-					state = 68
+					state = 66
 					num_provinces = 3
 					}
 				}
 				set_border_war_data = {
-					attacker = 64
-					defender = 68
+					attacker = 68
+					defender = 66
 					attacker_modifier = 0.75
 					combat_width = 100 }
 					
 					start_border_war = {
 						change_state_after_war = yes
 						attacker = {
-						state = 65
+						state = 68
 						num_provinces = 2
 						}
 						defender = {
-						state = 66
+						state = 86
 						num_provinces = 1
 						}
 					}
 					set_border_war_data = {
-						attacker = 65
-						defender = 66
+						attacker = 68
+						defender = 86
 						attacker_modifier = 0.75
 						combat_width = 100 }
 		}
