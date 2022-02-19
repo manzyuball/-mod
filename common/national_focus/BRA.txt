@@ -46,7 +46,7 @@ focus_tree = {
 	focus = {
 		id = BRA_na_3
 		icon = "GFX_focus_fra_devalue_the_franc"
-		x = 8.5
+		x = 8
 		y = 2
 		mutually_exclusive = { focus = BRA_na_4 }
 		prerequisite = { focus = BRA_na_2 }
@@ -62,7 +62,7 @@ focus_tree = {
 	focus = {
 		id = BRA_na_4
 		icon = "GFX_focus_generic_treaty"
-		x = 11.5
+		x = 12
 		y = 2
 		mutually_exclusive = { focus = BRA_na_3 }
 		prerequisite = { focus = BRA_na_2 }
@@ -139,7 +139,7 @@ focus_tree = {
 	focus = {
 		id = BRA_na_9
 		icon = "GFX_focus_generic_military_academy"
-		x = 8.5
+		x = 8
 		y = 7
 		mutually_exclusive = { focus = BRA_na_10 }
 		prerequisite = { focus = BRA_na_8 }
@@ -155,7 +155,7 @@ focus_tree = {
 	focus = {
 		id = BRA_na_10
 		icon = "GFX_focus_spr_the_anti_fascist_workers_revolution"
-		x = 11.5
+		x = 12
 		y = 7
 		mutually_exclusive = { focus = BRA_na_9 }
 		prerequisite = { focus = BRA_na_8 }
