@@ -15,7 +15,7 @@ state={
 			industrial_complex = 1
 			anti_air_building = 2
 			air_base = 5
-			9458 = {
+			6489 = {
 				naval_base = 10
 
 			}
