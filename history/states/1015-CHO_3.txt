@@ -1,0 +1,23 @@
+state={
+	id=1015
+	name="STATE_1015"
+	provinces={
+		10750 12846 
+	}
+	history={
+		owner = PRC
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=212141
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

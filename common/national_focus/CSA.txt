@@ -11,7 +11,7 @@
 
 	}
 	
-	default = yes
+	default = no
 	reset_on_civilwar = no
 
 	initial_show_position = {
