@@ -283,7 +283,7 @@ focus_tree = {
 		icon = "GFX_focus_hol_the_fourth_ally"
     	prerequisite = { focus = PRC_na_8 }
 		x = 11
-		y = 3
+		y = 4
 		cost = 10
 
 		ai_will_do = {
@@ -316,7 +316,7 @@ focus_tree = {
 		icon = "GFX_focus_attack_china"
     	prerequisite = { focus = PRC_na_8 }
 		x = 13
-		y = 3.5
+		y = 4
 		cost = 10
 
 		ai_will_do = {
@@ -349,7 +349,7 @@ focus_tree = {
 		icon = "GFX_focus_LIT_restore_the_grand_duchy"
     	prerequisite = { focus = PRC_na_8 }
 		x = 5
-		y = 3.5
+		y = 4
 		cost = 10
 
 		ai_will_do = {
@@ -382,7 +382,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_military_sphere"
     	prerequisite = { focus = PRC_na_8 }
 		x = 7
-		y = 3
+		y = 4
 		cost = 10
 
 		ai_will_do = {
@@ -415,7 +415,7 @@ focus_tree = {
 		icon = "GFX_focus_eng_move_to_secure_the_dominions"
     	prerequisite = { focus = PRC_na_12 }
 		x = 7
-		y = 4
+		y = 5
 		cost = 10
 
 		ai_will_do = {
@@ -448,7 +448,7 @@ focus_tree = {
 		icon = "GFX_focus_focus_fra_revolution_utmost"
     	prerequisite = { focus = PRC_na_13 }
 		x = 7
-		y = 5
+		y = 6
 		cost = 10
 
 		ai_will_do = {
@@ -481,7 +481,7 @@ focus_tree = {
 		icon = "GFX_focus_ger_great_red_menace"
     	prerequisite = { focus = PRC_na_14 }
 		x = 7
-		y = 6
+		y = 7
 		cost = 10
 
 		ai_will_do = {
@@ -514,7 +514,7 @@ focus_tree = {
 		icon = "GFX_focus_focus_fra_maquis"
     	prerequisite = { focus = PRC_na_11 }
 		x = 5
-		y = 4.5
+		y = 5
 		cost = 10
 
 		ai_will_do = {
@@ -547,7 +547,7 @@ focus_tree = {
 		icon = "GFX_focus_mex_soldaderas"
     	prerequisite = { focus = PRC_na_16 }
 		x = 5
-		y = 6.5
+		y = 7
 		cost = 10
 
 		ai_will_do = {
@@ -580,7 +580,7 @@ focus_tree = {
 		icon = "GFX_focus_chi_whampoa_military_academy"
     	prerequisite = { focus = PRC_na_17 }
 		x = 5
-		y = 5.5
+		y = 6
 		cost = 10
 
 		ai_will_do = {
@@ -613,7 +613,7 @@ focus_tree = {
 		icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
     	prerequisite = { focus = PRC_na_10 }
 		x = 13
-		y = 4.5
+		y = 5
 		cost = 10
 
 		ai_will_do = {
@@ -646,7 +646,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_provoke_border_clashes"
     	prerequisite = { focus = PRC_na_19 }
 		x = 13
-		y = 6.5
+		y = 7
 		cost = 10
 
 		ai_will_do = {
@@ -679,7 +679,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_propaganda"
     	prerequisite = { focus = PRC_na_20 }
 		x = 13
-		y = 5.5
+		y = 6
 		cost = 10
 
 		ai_will_do = {
@@ -712,7 +712,7 @@ focus_tree = {
 		icon = "GFX_focus_jap_pacific_guardian"
     	prerequisite = { focus = PRC_na_9 }
 		x = 11
-		y = 4
+		y = 5
 		cost = 10
 
 		ai_will_do = {
@@ -745,7 +745,7 @@ focus_tree = {
 		icon = "GFX_focus_jap_zaibatsu"
     	prerequisite = { focus = PRC_na_22 }
 		x = 11
-		y = 6
+		y = 7
 		cost = 10
 
 		ai_will_do = {
@@ -778,7 +778,7 @@ focus_tree = {
 		icon = "GFX_focus_usa_reestablish_the_gold_standard"
     	prerequisite = { focus = PRC_na_23 }
 		x = 11
-		y = 5
+		y = 6
 		cost = 10
 
 		ai_will_do = {
@@ -941,7 +941,7 @@ focus_tree = {
 	focus = {
 		id = PRC_na_29
 		icon = "GFX_focus_SOV_builder_of_the_red_army"
-    	prerequisite = { focus = PRC_na_27 }
+    	prerequisite = { focus = PRC_na_28 }
 		x = 3
 		y = 7
 		cost = 10
