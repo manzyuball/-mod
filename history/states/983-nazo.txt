@@ -11,9 +11,6 @@ state={
 
 		}
 		add_core_of = SAF
-		victory_points = {
-			8214 1 
-		}
 
 	}
 

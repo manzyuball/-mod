@@ -6,9 +6,6 @@ state={
 	history={
 		owner = UAE
 		victory_points = {
-			12758 1 
-		}
-		victory_points = {
 			12883 1 
 		}
 		buildings = {
