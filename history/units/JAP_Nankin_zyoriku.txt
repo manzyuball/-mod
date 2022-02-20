@@ -1,0 +1,178 @@
+﻿division_template = {
+	name = "海兵隊" 		
+	division_names_group = JAP_zyo_01
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		marine = { x = 2 y = 0 }
+		marine = { x = 2 y = 1 }
+		marine = { x = 2 y = 2 }
+		marine = { x = 3 y = 0 }
+		marine = { x = 3 y = 1 }
+		marine = { x = 3 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "空挺兵"
+	division_names_group = JAP_zyo_02
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 2 y = 2 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "特殊機甲部隊"
+	division_names_group = JAP_zyo_03
+	regiments = {
+		amphibious_Tank_Battalion = { x = 0 y = 0 }
+		amphibious_Tank_Battalion = { x = 0 y = 1 }
+		amphibious_Tank_Battalion = { x = 0 y = 2 }
+		amtrac_Battalion = { x = 1 y = 0 }
+		amtrac_Battalion = { x = 1 y = 1 }
+		amtrac_Battalion = { x= 1 y = 2 }
+		amtrac_Battalion = { x= 1 y = 3 }
+		amtrac_Battalion = { x= 1 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 1 }
+	}
+}
+units = {
+	division = {
+		name = "空挺兵"
+		location = 1047
+		division_template = "空挺兵"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "空挺兵"
+		location = 9978
+		division_template = "空挺兵"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "空挺兵"
+		location = 9970
+		division_template = "空挺兵"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "空挺兵"
+		location = 10105
+		division_template = "空挺兵"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "空挺兵"
+		location = 419
+		division_template = "空挺兵"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "空挺兵"
+		location = 4207
+		division_template = "空挺兵"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "海兵隊"
+		location = 13769
+		division_template = "海兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "海兵隊"
+		location = 7108
+		division_template = "海兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "海兵隊"
+		location = 10062
+		division_template = "海兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "特殊機甲部隊"
+		location = 13769
+		division_template = "特殊機甲部隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "特殊機甲部隊"
+		location = 7108
+		division_template = "特殊機甲部隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "特殊機甲部隊"
+		location = 10062
+		division_template = "特殊機甲部隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "特殊機甲部隊"
+		location = 4189
+		division_template = "特殊機甲部隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "海兵隊"
+		location = 11938
+		division_template = "海兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "海兵隊"
+		location = 13769
+		division_template = "海兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "海兵隊"
+		location = 7108
+		division_template = "海兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "海兵隊"
+		location = 10062
+		division_template = "海兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "海兵隊"
+		location = 4189
+		division_template = "海兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "海兵隊"
+		location = 11938
+		division_template = "海兵隊"
+		start_experience_factor = 0.3
+	}
+}

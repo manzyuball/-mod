@@ -47,6 +47,268 @@
 			add_stability = 0.1
 		}
 	}
+
+	focus = {
+		id = JAP_nityu
+		icon = "GFX_focus_attack_china"
+		x = 23
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_war_support = 0.3
+		}
+	}
+
+	focus = {
+		id = JAP_nityu1
+		icon = "GFX_focus_research2"
+		x = 23
+		y = 1
+		prerequisite = { focus = JAP_nityu }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		set_technology = {
+			basic_amphibious_tractor = 1
+			marines = 1
+			marines2 = 1
+			paratroopers = 1
+			paratroopers2 = 1
+			amphibious_tank = 1
+			amphibious_tank_2 = 1
+			improved_light_spaa = 1
+			improved_light_art = 1
+			improved_light_td = 1
+		}
+		}
+	}
+	focus = {
+		id = JAP_nityu2
+		icon = "GFX_focus_focus_fra_maquis"
+		x = 25
+		y = 1
+		prerequisite = { focus = JAP_nityu }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 8500
+				producer = JAP
+				}
+		}
+	}
+
+	focus = {
+		id = JAP_nityu3
+		icon = "GFX_focus_prc_infiltration"
+		x = 21
+		y = 1
+		prerequisite = { focus = JAP_nityu }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			army_experience = 250
+			navy_experience = 250
+			air_experience = 250
+		}
+	}
+
+	focus = {
+		id = JAP_nityu4
+		icon = "GFX_focus_jap_zero"
+		x = 21
+		y = 2
+		prerequisite = { focus = JAP_nityu3 }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = JAP_nityu5
+		icon = "GFX_goal_generic_amphibious_assault"
+		x = 23
+		y = 2
+		prerequisite = { focus = JAP_nityu1 }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			custom_effect_tooltip = JAP_zyo
+			hidden_effect = {
+				set_province_controller = 13769
+				set_province_controller = 7108
+				set_province_controller = 1047
+				set_province_controller = 9978
+				set_province_controller = 9970
+				set_province_controller = 10105
+				set_province_controller = 419
+				set_province_controller = 4207
+				set_province_controller = 10062
+				set_province_controller = 13769
+				set_province_controller = 7108
+				set_province_controller = 10062
+				set_province_controller = 4189
+				load_oob = "JAP_Nankin_zyoriku"
+			}
+		}
+	}
+	focus = {
+		id = JAP_nityu6
+		icon = "GFX_focus_usa_recruit_the_free_corps"
+		x = 25
+		y = 2
+		prerequisite = { focus = JAP_nityu2 }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			OR = {
+				has_war_with = USA
+				has_war_with = USB
+				has_war_with = CSA
+				}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			USN = {
+				transfer_navy = {
+				target = JAP
+				}
+			}
+		}
+	}
+	focus = {
+		id = JAP_nityu7
+		icon = "GFX_focus_usa_escort_fighters"
+		x = 23
+		y = 3
+		prerequisite = { focus = JAP_nityu5 }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = JAP_min1_idea
+			add_stability = 0.1
+		}
+	}
+
 	focus = {
 		id = JAP_min2
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
