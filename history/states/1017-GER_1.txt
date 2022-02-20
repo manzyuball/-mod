@@ -4,6 +4,7 @@ state={
 	provinces={
 		3438 6595 9470 11517 
 	}
+	state_category = town
 	resources={
 		steel=30.000
 		aluminium=16.000

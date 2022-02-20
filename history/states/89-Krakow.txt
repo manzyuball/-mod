@@ -4,9 +4,6 @@ state={
 	name="STATE_89"
 
 	history={
-		victory_points = {
-			11411 1 
-		}
 		owner = POL
 		buildings = {
 			infrastructure = 3
@@ -20,7 +17,7 @@ state={
 	}
 
 	provinces={
-		438 3483 3562 3743 9454 11427 11550 
+		438 3483 3562 3743 11427 11550 
 	}
 	manpower=2180300
 	buildings_max_level_factor=1.000
