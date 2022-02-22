@@ -14,4 +14,191 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	continuous_focus_position = { x = 1760 y = 30 }
+
+    focus = {
+		id = SPR_republican_provisional_government
+		icon = GFX_goal_unknown
+		x = 8
+		y = 0
+		cost = 10	
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_breakwater_of_democracy
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+        relative_position_id = SPR_republican_provisional_government
+		cost = 10
+        prerequisite = {
+            focus = SPR_republican_provisional_government
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_appease_farangist_party
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+        relative_position_id = SPR_breakwater_of_democracy
+		cost = 10
+        prerequisite = {
+            focus = SPR_breakwater_of_democracy
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_sabotage_to_commies
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+        relative_position_id = SPR_republican_provisional_government
+		cost = 10
+        prerequisite = {
+            focus = SPR_republican_provisional_government
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_support_portugal
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+        relative_position_id = SPR_sabotage_to_commies
+		cost = 10
+        prerequisite = {
+            focus = SPR_sabotage_to_commies
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_bind_monarchists
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+        relative_position_id = SPR_republican_provisional_government
+		cost = 10
+        prerequisite = {
+            focus = SPR_appease_farangist_party
+        }
+        prerequisite = {
+            focus = SPR_support_portugal
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_expand_national_protection
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+        relative_position_id = SPR_bind_monarchists
+		cost = 10
+        prerequisite = {
+            focus = SPR_bind_monarchists
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_effort_to_domestic_reconstruction
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+        relative_position_id = SPR_expand_national_protection
+		cost = 10
+        prerequisite = {
+            focus = SPR_expand_national_protection
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_parliamentary_democracy
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+        relative_position_id = SPR_effort_to_domestic_reconstruction
+		cost = 10
+        prerequisite = {
+            focus = SPR_effort_to_domestic_reconstruction
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_criticize_fascism
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+        relative_position_id = SPR_parliamentary_democracy
+		cost = 10
+        prerequisite = {
+            focus = SPR_parliamentary_democracy
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_public_first
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+        relative_position_id = SPR_parliamentary_democracy
+		cost = 10
+        prerequisite = {
+            focus = SPR_parliamentary_democracy
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
 }
