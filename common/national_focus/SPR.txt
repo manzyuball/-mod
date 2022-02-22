@@ -17,7 +17,7 @@ focus_tree = {
 
     focus = {
 		id = SPR_republican_provisional_government
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_maintain_the_republic
 		x = 8
 		y = 0
 		cost = 10	
@@ -30,7 +30,7 @@ focus_tree = {
 	}
     focus = {
 		id = SPR_breakwater_of_democracy
-		icon = GFX_goal_unknown
+		icon = GFX_goal_support_democracy
 		x = -2
 		y = 1
         relative_position_id = SPR_republican_provisional_government
@@ -47,7 +47,7 @@ focus_tree = {
 	}
     focus = {
 		id = SPR_appease_farangist_party
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spa_the_phalanx_ascendant
 		x = 0
 		y = 1
         relative_position_id = SPR_breakwater_of_democracy
@@ -64,7 +64,7 @@ focus_tree = {
 	}
     focus = {
 		id = SPR_sabotage_to_commies
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ger_bulwark_against_bolshevism
 		x = 2
 		y = 1
         relative_position_id = SPR_republican_provisional_government
@@ -81,7 +81,7 @@ focus_tree = {
 	}
     focus = {
 		id = SPR_support_portugal
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_befriend_portugal
 		x = 0
 		y = 1
         relative_position_id = SPR_sabotage_to_commies
@@ -98,7 +98,7 @@ focus_tree = {
 	}
     focus = {
 		id = SPR_bind_monarchists
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rom_handle_king
 		x = 0
 		y = 3
         relative_position_id = SPR_republican_provisional_government
@@ -118,7 +118,7 @@ focus_tree = {
 	}
     focus = {
 		id = SPR_expand_national_protection
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
         relative_position_id = SPR_bind_monarchists
@@ -135,7 +135,7 @@ focus_tree = {
 	}
     focus = {
 		id = SPR_effort_to_domestic_reconstruction
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_merge_plants
 		x = 0
 		y = 1
         relative_position_id = SPR_expand_national_protection
@@ -152,7 +152,7 @@ focus_tree = {
 	}
     focus = {
 		id = SPR_parliamentary_democracy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_support_the_left_right
 		x = 0
 		y = 1
         relative_position_id = SPR_effort_to_domestic_reconstruction
@@ -169,8 +169,8 @@ focus_tree = {
 	}
     focus = {
 		id = SPR_criticize_fascism
-		icon = GFX_goal_unknown
-		x = -2
+		icon = GFX_focus_focus_fra_fascist_threat
+		x = -3
 		y = 1
         relative_position_id = SPR_parliamentary_democracy
 		cost = 10
@@ -186,13 +186,348 @@ focus_tree = {
 	}
     focus = {
 		id = SPR_public_first
-		icon = GFX_goal_unknown
-		x = 2
+		icon = GFX_goal_generic_improve_relations
+		x = 3
 		y = 1
         relative_position_id = SPR_parliamentary_democracy
 		cost = 10
         prerequisite = {
             focus = SPR_parliamentary_democracy
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    #########################
+    ### CRITICIZE FASCISM ###
+    #########################
+    focus = {
+		id = SPR_unity_of_democratic_nations
+		icon = GFX_goal_support_democracy
+		x = 0
+		y = 1
+        relative_position_id = SPR_criticize_fascism
+		cost = 10
+        prerequisite = {
+            focus = SPR_criticize_fascism
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_country_of_nationalism
+		icon = GFX_goal_generic_territory_or_war
+		x = -2
+		y = 1
+        relative_position_id = SPR_unity_of_democratic_nations
+		cost = 10
+        prerequisite = {
+            focus = SPR_unity_of_democratic_nations
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_barcelona_accord
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 0
+		y = 1
+        relative_position_id = SPR_country_of_nationalism
+		cost = 10
+        prerequisite = {
+            focus = SPR_country_of_nationalism
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_rise_of_iberian_league
+		icon = GFX_focus_por_iberian_summit
+		x = 0
+		y = 1
+        relative_position_id = SPR_barcelona_accord
+		cost = 10
+        prerequisite = {
+            focus = SPR_barcelona_accord
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_appeal_for_self_determination
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		x = 0
+		y = 1
+        relative_position_id = SPR_rise_of_iberian_league
+		cost = 10
+        prerequisite = {
+            focus = SPR_rise_of_iberian_league
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_country_of_anti_communism
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 2
+		y = 1
+        relative_position_id = SPR_unity_of_democratic_nations
+		cost = 10
+        prerequisite = {
+            focus = SPR_unity_of_democratic_nations
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_prevent_the_revolutions
+		icon = GFX_goal_anti_comintern_pact
+		x = 0
+		y = 1
+        relative_position_id = SPR_country_of_anti_communism
+		cost = 10
+        prerequisite = {
+            focus = SPR_country_of_anti_communism
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_turns_red_when_blended_vermilion
+		icon = GFX_focus_generic_join_comintern
+		x = 0
+		y = 1
+        relative_position_id = SPR_prevent_the_revolutions
+		cost = 10
+        prerequisite = {
+            focus = SPR_prevent_the_revolutions
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_cold_war_on_pirineos
+		icon = GFX_focus_GRE_a_land_of_mountains
+		x = 0
+		y = 1
+        relative_position_id = SPR_turns_red_when_blended_vermilion
+		cost = 10
+        prerequisite = {
+            focus = SPR_turns_red_when_blended_vermilion
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_export_democracy
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 1
+		y = 1
+        relative_position_id = SPR_appeal_for_self_determination
+		cost = 10
+        prerequisite = {
+            focus = SPR_appeal_for_self_determination
+        }
+        prerequisite = {
+            focus = SPR_cold_war_on_pirineos
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    ####################
+    ### Public First ###
+    ####################
+    focus = {
+		id = SPR_stabilize_government
+		icon = GFX_focus_generic_self_management
+		x = -2
+		y = 1
+        relative_position_id = SPR_public_first
+		cost = 10
+        prerequisite = {
+            focus = SPR_public_first
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_countermeasures_for_debt
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 0
+		y = 1
+        relative_position_id = SPR_stabilize_government
+		cost = 10
+        prerequisite = {
+            focus = SPR_stabilize_government
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_strengthen_pll #protective labourer law
+		icon = GFX_goal_generic_demand_territory
+		x = 0
+		y = 1
+        relative_position_id = SPR_countermeasures_for_debt
+		cost = 10
+        prerequisite = {
+            focus = SPR_countermeasures_for_debt
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_invest_for_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 2
+		y = 1
+        relative_position_id = SPR_public_first
+		cost = 10
+        prerequisite = {
+            focus = SPR_public_first
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_no_unemployed
+		icon = GFX_focus_SOV_organize_wreckers
+		x = 0
+		y = 1
+        relative_position_id = SPR_invest_for_industry
+		cost = 10
+        prerequisite = {
+            focus = SPR_invest_for_industry
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_maintenance_domestic_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+        relative_position_id = SPR_no_unemployed
+		cost = 10
+        prerequisite = {
+            focus = SPR_no_unemployed
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_the_sun_rises_again
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 2
+		y = 1
+        relative_position_id = SPR_strengthen_pll
+		cost = 10
+        prerequisite = {
+            focus = SPR_strengthen_pll
+        }
+        prerequisite = {
+            focus = SPR_maintenance_domestic_infrastructure
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_forget_the_civil_war
+		icon = GFX_focus_spr_war_of_independence
+		x = 0
+		y = 1
+        relative_position_id = SPR_the_sun_rises_again
+		cost = 10
+        prerequisite = {
+            focus = SPR_the_sun_rises_again
+        }
+        available = {
+        }
+        bypass = {
+        }
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = SPR_national_scale_rehabilitation
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 0
+		y = 1
+        relative_position_id = SPR_forget_the_civil_war
+		cost = 10
+        prerequisite = {
+            focus = SPR_forget_the_civil_war
         }
         available = {
         }
