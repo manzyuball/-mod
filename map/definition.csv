@@ -13573,7 +13573,7 @@
 13572;0;83;225;sea;false;ocean;0
 13573;43;20;20;land;false;desert;5
 13574;140;190;255;land;true;mountain;1
-13575;0;40;255;sea;false;ocean;0
+13575;1;40;255;sea;false;ocean;0
 13576;0;96;236;sea;false;ocean;0
 13577;0;74;222;sea;false;ocean;0
 13578;15;87;233;sea;true;ocean;0
@@ -14359,8 +14359,9 @@
 14358;1;1;78;sea;true;ocean;0
 14359;1;1;79;sea;true;ocean;0
 14360;1;1;80;sea;true;ocean;0
-14361;240;240;206;land;true;hills;3
-14362;240;240;207;land;true;hills;3
+14361;240;240;206;land;true;hills;0
+14362;240;240;207;land;true;hills;0
 14363;1;1;81;sea;true;ocean;0
 14364;1;1;82;sea;true;ocean;0
 14365;1;1;83;sea;true;ocean;0
+14366;1;1;84;sea;true;ocean;0
