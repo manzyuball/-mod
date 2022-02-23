@@ -7,11 +7,12 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SOV
 		buildings = {
 			infrastructure = 1
 		}
+		owner = VLA
 		add_core_of = SOV
+		add_core_of = VLA
 		add_core_of = ALT
 		victory_points = {
 			4800 1 #Oyrot-Tura/Gorno-Altaysk
