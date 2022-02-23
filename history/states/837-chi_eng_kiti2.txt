@@ -6,7 +6,6 @@ state={
 	owner = ENG
 	add_core_of = CHI
 	add_core_of = PRC
-	}
 	buildings = {
 		infrastructure = 4
 		air_base = 3
@@ -16,7 +15,9 @@ state={
 		bunker = 1
 
 	}
-}
+    }
+	}
+
 	provinces={
 		13265
 	}
