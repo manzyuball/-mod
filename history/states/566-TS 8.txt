@@ -11,7 +11,7 @@ state={
 	history={
 		owner = VLA
 		victory_points = {
-			4797 3 
+			4797 5 
 		}
 		buildings = {
 			infrastructure = 2

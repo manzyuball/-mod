@@ -5,6 +5,7 @@ state={
 	resources={
 		gold=21.000
 	}
+
 	history={
 		add_core_of = PNG
 		owner = AST
@@ -12,15 +13,18 @@ state={
 			12237 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			12237 = {
 				naval_base = 2
+
 			}
 			12154 = {
 				naval_base = 1
+
 			}
 			12240 = {
 				naval_base = 1
+
 			}
 		}
 

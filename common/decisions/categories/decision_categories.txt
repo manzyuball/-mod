@@ -24,11 +24,3 @@ SWE_decisions_fof = {
 	has_country_flag = kigyou1
 	}
    }
-
- #ENG
- ENG_decisions_fof = {
-	icon = category_generic_propaganda
-	visible = {
-	   has_war = yes
-	}
-}  

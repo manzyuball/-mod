@@ -1,9 +1,10 @@
 state={
 	id=729
 	name="STATE_729"
-	manpower = 157805	
+	manpower = 157805
+	
 	state_category = enclave
-	local_supplies = 0.0 
+	
 	history={
 		owner = POR
 		add_core_of = CHI
@@ -18,7 +19,10 @@ state={
 			}
 		}
 	}
+	
 	provinces={
 		4189 
 	}
+
+	local_supplies=0.0 
 }
