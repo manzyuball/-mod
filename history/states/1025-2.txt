@@ -1,0 +1,23 @@
+state={
+	id=1025
+	name="STATE_1025"
+	provinces={
+		4901 10454 
+	}
+	history={
+		owner = AZR
+		victory_points = {
+			4901 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = AZR
+
+	}
+	state_category=rural
+	manpower=812142
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

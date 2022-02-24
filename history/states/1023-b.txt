@@ -1,0 +1,34 @@
+state={
+	id=1023
+	name="STATE_1023"
+	provinces={
+		657 687 3076 6677 9635 11603 13905 
+	}
+	history={
+		owner = BUL
+		victory_points = {
+			657 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 3
+			657 = {
+				naval_base = 8
+
+			}
+			687 = {
+				naval_base = 1
+
+			}
+			dockyard = 1
+
+		}
+		add_core_of = BUL
+
+	}
+	manpower=4213112
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

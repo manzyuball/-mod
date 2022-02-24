@@ -11,7 +11,7 @@ state={
 	history={
 		owner = MON
 		victory_points = {
-			4801 10
+			4801 15
 		}
 		victory_points = {
 			7799 1 

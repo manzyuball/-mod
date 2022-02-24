@@ -18,7 +18,7 @@ state={
 		}
 		add_core_of = CUB
 		victory_points = {
-			7622 5 
+			7622 10 
 		}
 
 	}

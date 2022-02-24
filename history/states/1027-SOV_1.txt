@@ -1,0 +1,22 @@
+state={
+	id=1027
+	name="STATE_1027"
+	provinces={
+		1768 1784 4817 7685 10692 12542 12574 12639 12672 
+	}
+	impassable = yes
+	history={
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = OVO
+
+	}
+	manpower=12412
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

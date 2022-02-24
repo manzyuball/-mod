@@ -1,0 +1,22 @@
+state={
+	id=1024
+	name="STATE_1024"
+	provinces={
+		1636 1896 4755 4825 12793 
+	}
+	history={
+		owner = AZR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = SOV
+		add_core_of = ARM
+		add_core_of = TUR
+		add_core_of = AZR
+	}
+	state_category=rural
+	manpower=712132
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

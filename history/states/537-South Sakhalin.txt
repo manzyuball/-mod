@@ -9,9 +9,8 @@ state= {
 	state_category = city
 
 	history= {
-		owner = FER
+		owner = JAP
 		add_core_of = FER
-		add_core_of = SOV
 		
 		buildings = {
 			infrastructure = 2
