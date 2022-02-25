@@ -11,7 +11,7 @@ state = {
 			1614 1
 		}
 		
-		owner = UZB
+		owner = KAZ
 		
 		buildings = {
 			infrastructure = 2
@@ -19,6 +19,7 @@ state = {
 		}
 		
 		add_core_of = SOV
+		add_core_of = KAZ
 		add_core_of = UZB
 		add_core_of = KKP
 		

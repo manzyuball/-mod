@@ -23,7 +23,7 @@ state={
 		victory_points = {
 			5117 3 
 		}
-		add_core_of = OGG
+		add_core_of = COG
 		add_core_of = TZN
 
 	}

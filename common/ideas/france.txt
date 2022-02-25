@@ -75,6 +75,25 @@ ideas = {
 				industrial_capacity_dockyard = -0.08
 			}
 		}
+		FRA_GUN = {
+			picture = fra_deluge
+			allowed = {
+				original_tag = FRA
+			}
+			allowed_civil_war = {
+				tag = FRA
+			}
+			removal_cost = -1
+			modifier = {
+				army_org_Factor = 0.05
+				hidden_effect = {
+					ai_focus_aggressive_factor = 0.75
+					conscription_factor = 0.5
+					army_attack_factor = 0.25
+				}
+				
+			}
+		}
 		FRA_political_violence = {
 
 			allowed = {

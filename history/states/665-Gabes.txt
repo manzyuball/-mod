@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = ALG
-		add_core_of = TUN
+		add_core_of = ALG
 		buildings = {
 			infrastructure = 2
 

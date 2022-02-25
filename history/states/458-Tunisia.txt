@@ -8,16 +8,11 @@ state={
 
 	history={
 		owner = ALG
-		add_core_of = TUN
+		add_core_of = ALG
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 8
-			9994 = {
-				naval_base = 8
-
-			}
-
 		}
 
 	}
