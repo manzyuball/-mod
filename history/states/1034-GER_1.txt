@@ -1,26 +1,21 @@
 state={
-	id=1017
-	name="STATE_1017"
+	id=1034
+	name="STATE_1034"
 	provinces={
-		3438 6595 8520 9470 11517 
+		388 3460 3532 13767 
 	}
-	state_category = town
-	resources={
-		steel=30.000
-		aluminium=16.000
-	}
-
 	history={
 		owner = GER
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = POL
-		add_core_of = SIL
 		add_core_of = GER
+			add_claim_by = POL
+
 	}
-	manpower = 1808159
+	manpower=412112
+	state_category = town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

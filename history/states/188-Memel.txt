@@ -11,7 +11,7 @@ state=
 		victory_points = {
 			3288 3
 		}
-		owner = POL
+		owner = LAT
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
@@ -20,12 +20,7 @@ state=
 			}
 		}
 		add_core_of = LAT
-		add_core_of = POL
 
-		1939.3.22 = {
-			owner = GER
-			controller = GER
-		}
 	}
 	provinces={
 		3288 	
