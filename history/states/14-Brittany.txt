@@ -4,7 +4,7 @@ state={
 	name="STATE_14"
 	manpower = 2396600
 	
-	state_category = city
+	state_category = large_city
 
 	history={
 		owner = FRA
@@ -19,7 +19,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			dockyard = 5
+			dockyard = 6
+			industrial_complex = 2
 			air_base = 5
 			3552 = {
 				naval_base = 10
