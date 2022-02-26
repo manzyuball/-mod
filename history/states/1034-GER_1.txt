@@ -5,13 +5,13 @@ state={
 		388 3460 3532 13767 
 	}
 	history={
-		owner = GER
+		owner = POL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = GER
-			add_claim_by = POL
+		add_core_of = POL
+			add_claim_by = GER
 
 	}
 	manpower=412112

@@ -2,7 +2,7 @@ state={
 	id=1017
 	name="STATE_1017"
 	provinces={
-		3438 6595 8520 9470 11517 
+		552 3438 6534 6595 8520 9470 11517 
 	}
 	state_category = town
 	resources={
