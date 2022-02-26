@@ -1,0 +1,145 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# ヒトラー当選
+news_event = {
+	id = news.1
+	title = news.1.title
+	desc = news.1.desc
+	picture = GFX_news_event_herman_goring
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = { tag = AUS }
+			NOT = { has_government = democratic }
+			NOT = { has_government = communism }
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = {
+			NOT = { tag = AUS }
+			NOT = { has_government = communism }
+			has_government = democratic
+		}
+	}
+	option = {
+		name = news.1.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.1.d
+		trigger = {
+			tag = AUS
+		}
+	}
+}
+# FRA_大粛清
+news_event = {
+	id = news.2
+	title = news.2.title
+	desc = news.2.desc
+	picture = GFX_news_event_turkey_affirms_interest_in_protecting_balkans
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			NOT = { tag = FRA }
+			NOT = { has_government = democratic }
+			NOT = { has_government = communism }
+		}
+	}
+	option = {
+		name = news.2.b
+		trigger = {
+			NOT = { tag = FRA }
+			NOT = { has_government = communism }
+			has_government = democratic
+		}
+	}
+	option = {
+		name = news.2.c
+		trigger = {
+			NOT = { tag = FRA }
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.2.d
+		trigger = {
+			tag = FRA
+		}
+	}
+}
+
+#極東戦争
+
+news_event = {
+	id = news.3
+	title = news.3.title
+	desc = news.3.desc
+	picture = GFX_report_event_soviet_soldiers_tank
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.3.a
+		trigger = {
+			NOT = { tag = SOV }
+			NOT = { tag = VLA }
+		}
+	}
+	option = {
+		name = news.3.b
+		trigger = {
+			NOT = { tag = SOV }
+			tag = VLA 
+		}
+	}
+	option = {
+		name = news.3.c
+		trigger = {
+			NOT = { tag = VLA }
+			tag = SOV
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+﻿###########################
+# Bulgarian Events
+###########################
+
+add_namespace = bulgaria
+
+# Treaty of Craiova - Romania Accepts

@@ -1,0 +1,3 @@
+﻿add_namespace = czech
+
+# Ask SOV about joining Comintern
