@@ -1,0 +1,776 @@
+focus_tree = {
+	id = PRU_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PRU
+		}
+
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1100 }
+
+	focus = {
+		id = PRU_se1
+		icon ="GFX_focus_ger_return_of_the_kaiser"
+		x = -1
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+		factor = 1
+	    }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+	    completion_reward = {
+          
+	    }
+}
+
+focus = {
+    id = PRU_se2
+    icon = "GFX_goal_reichsautobahn"
+    prerequisite = { focus = PRU_se1 }
+    x = -1
+    y = 1
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se3
+    icon = "GFX_goal_molotov_ribbentrop_pact"
+    prerequisite = { focus = PRU_se2 }
+    x = -4
+    y = 2
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se31
+    icon = "GFX_focus_POL_riot_of_37"
+    prerequisite = { focus = PRU_se3 }
+    x = -4
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se32
+    icon = "GFX_focus_generic_military_mission"
+    prerequisite = { focus = PRU_se31 }
+    x = -4
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se33
+    icon = "GFX_focus_GRE_a_land_of_mountains"
+    prerequisite = { focus = PRU_se32 }
+    x = -4
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se34
+    icon = "GFX_focus_hol_the_foundations_of_defense"
+    prerequisite = { focus = PRU_se33 }
+    x = -4
+    y = 6
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se35
+    icon = "GFX_goal_generic_propaganda"
+    prerequisite = { focus = PRU_se34 }
+    x = -4
+    y = 7
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se4
+    icon = "GFX_goal_generic_intelligence_exchange"
+    prerequisite = { focus = PRU_se2 }
+    x = -8
+    y = 2
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se41
+    icon = "GFX_focus_usa_focus_on_europe"
+    prerequisite = { focus = PRU_se4 }
+    x = -7
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se42
+    icon = "GFX_focus_fra_loyalty_trotzky"
+    prerequisite = { focus = PRU_se41 }
+    x = -7
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se43
+    icon = "GFX_goal_tripartite_pact"
+    prerequisite = { focus = PRU_se42 }
+    x = -7
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se44
+    icon = "GFX_focus_chi_reach_out_to_france"
+    prerequisite = { focus = PRU_se43 }
+    x = -7
+    y = 6
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se45
+    icon = "GFX_focus_prc_infiltration"
+    prerequisite = { focus = PRU_se44 }
+    x = -7
+    y = 7
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se46
+    icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
+    prerequisite = { focus = PRU_se4 }
+    x = -9
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se47
+    icon = "GFX_focus_eng_move_to_secure_the_dominions"
+    prerequisite = { focus = PRU_se46 }
+    x = -9
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se48
+    icon = "GFX_focus_usa_recruit_the_free_corps"
+    prerequisite = { focus = PRU_se47 }
+    x = -9
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se49
+    icon = "GFX_focus_eng_imperial_federation"
+    prerequisite = { focus = PRU_se48 }
+    x = -9
+    y = 6
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se5
+    icon = "GFX_focus_POL_belarus_army"
+    prerequisite = { focus = PRU_se2 }
+    x = 0
+    y = 2
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se51
+    icon = "GFX_focus_hol_abandon_the_gold_standard"
+    prerequisite = { focus = PRU_se5 }
+    x = 0
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se52
+    icon = "GFX_focus_SOV_breadbasket_of_the_union"
+    prerequisite = { focus = PRU_se51 }
+    x = -1
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se53
+    icon = "GFX_focus_por_recover_brazil"
+    prerequisite = { focus = PRU_se52 }
+    x = -1
+    y = 5
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se54
+    icon = "GFX_focus_spr_torchbearers_of_tomorrow"
+    prerequisite = { focus = PRU_se53 }
+    x = -1
+    y = 6
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se55
+    icon = "GFX_focus_mex_soldaderas"
+    prerequisite = { focus = PRU_se54 }
+    x = -1
+    y = 7
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se56
+    icon = "GFX_focus_spa_the_spanish_miracle"
+    prerequisite = { focus = PRU_se51 }
+    x = 1
+    y = 4
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se57
+    icon = "GFX_focus_CZE_german_puppet"
+    prerequisite = { focus = PRU_se56 }
+    x = 1
+    y = 5
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se58
+    icon = "GFX_goal_generic_position_armies"
+    prerequisite = { focus = PRU_se57 }
+    x = 1
+    y = 6
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se59
+    icon = "GFX_focus_YUG_pan_slavic_congress"
+    prerequisite = { focus = PRU_se58 }
+    x = 1
+    y = 7
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se60
+    icon = "GFX_focus_generic_aircraft_production"
+    prerequisite = { focus = PRU_se59 }
+    x = 1
+    y = 8
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se6
+    icon = "GFX_focus_por_latin_american_communism"
+    prerequisite = { focus = PRU_se2 }
+    x = 4
+    y = 2
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se61
+    icon = "GFX_goal_support_communism"
+    prerequisite = { focus = PRU_se6 }
+    x = 4
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se62
+    icon = "GFX_focus_spr_anarchism_knows_no_borders"
+    prerequisite = { focus = PRU_se61 }
+    mutually_exclusive = {
+        focus = PRU_se63
+    }
+    x = 3
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se63
+    icon = "GFX_focus_attack_mexico"
+    prerequisite = { focus = PRU_se61 }
+    mutually_exclusive = {
+        focus = PRU_se62
+    }
+    x = 5
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se64
+    icon = "GFX_focus_jap_pacific_guardian"
+    prerequisite = { focus = PRU_se62 focus = PRU_se63 }
+    x = 4
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se65
+    icon = "GFX_focus_generic_provoke_border_clashes"
+    prerequisite = { focus = PRU_se64 }
+    x = 4
+    y = 6
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se66
+    icon = "GFX_focus_SOV_the_last_purge"
+    prerequisite = { focus = PRU_se65 }
+    x = 4
+    y = 7
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = PRU_se67
+    icon = "GFX_focus_spr_masters_of_our_own_fate"
+    prerequisite = { focus = PRU_se66 }
+    x = 4
+    y = 8
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+}
