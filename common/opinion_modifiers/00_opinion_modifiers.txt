@@ -30,6 +30,10 @@ opinion_modifiers = {
 		value = 10
 	}
 
+	uragiri = {		#裏切り
+		value = -70
+	}
+
 
 	cheat_opinion_modifier_good = {
 		value = 200
