@@ -726,7 +726,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_s1
-		icon = "GFX_focus_SOV_womens_fascist_movement"
+		icon = "GFX_focus_ger_great_red_menace"
 		x = 9
 		y = 8
 		cost = 5
@@ -846,7 +846,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_s17
-		icon = "GFX_focus_ger_great_red_menace"
+		icon = "GFX_focus_SOV_socialism_in_one_country"
 		x = 7
 		y = 11
 		cost = 5
@@ -1056,7 +1056,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_s36
-		icon = "GFX_focus_ger_great_red_menace"
+		icon = "GFX_focus_POL_complete_april_constitution"
 		x = -2
 		y = 12
 		cost = 5
