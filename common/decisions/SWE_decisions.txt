@@ -1,4 +1,4 @@
-SWE_decisions_fof = {
+SWE_decisions = {
 
      daiitinokabe = {
      icon = gre_faction_management_category
