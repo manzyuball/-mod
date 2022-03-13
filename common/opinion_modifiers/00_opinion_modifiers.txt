@@ -14,8 +14,13 @@ opinion_modifiers = {
 		value = -65
 	}
 
+	Doumeinoizi = {		
+		value = 30
+	}
+
 	kyousannsei = {		
 		value = -65
+		trade = no
 	}
 
 	yuuti = {		
@@ -34,8 +39,13 @@ opinion_modifiers = {
 		value = 10
 	}
 
+	dankou = {		
+		value = -100
+	}
+
 	uragiri = {		#裏切り
 		value = -70
+		trade = no
 	}
 
 

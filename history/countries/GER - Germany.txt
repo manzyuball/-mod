@@ -357,9 +357,10 @@ set_popularities = {
 	communism = 60
 }
 
-create_faction = "世界革命連合"
-add_to_faction = GER
-
+FRA = { add_to_faction = GER }
+give_guarantee = ITA
+give_guarantee = HOL
+give_guarantee = FRA
 
 add_ideas = {
 	sour_loser

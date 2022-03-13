@@ -44,5 +44,7 @@ set_popularities = {
 	neutrality = 100
 }
 
-set_convoys = 5
+YUG = { add_to_faction = ALB }
+
+set_convoys = 10
 

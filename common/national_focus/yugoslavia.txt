@@ -53,7 +53,7 @@ focus_tree = {
 focus = {
 	id = YUG_d1
 	icon = "GFX_goal_anschluss"
-	mutually_exclusive = { focus = ROM_k1 }
+	mutually_exclusive = { focus = YUG_k1 }
 	x = 5
 	y = 0
 	cost = 10
@@ -67,7 +67,18 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		reverse_add_opinion_modifier = {
+			target = ROM
+			modifier = Doumeinoizi
+			}
+			reverse_add_opinion_modifier = {
+				target = ALB
+				modifier = Doumeinoizi
+				}
+				reverse_add_opinion_modifier = {
+					target = GRE
+					modifier = Doumeinoizi
+					}
 	}
 }
 focus = {
@@ -87,7 +98,10 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_war_support = 0.05
+		AUS = {
+			add_stability = -0.1
+		}	
 	}
 }
 focus = {
@@ -107,7 +121,18 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+	POL = {
+    diplomatic_relation = {
+			country = YUG
+			relation = guarantee
+			active = yes
+			}
+		}
+		diplomatic_relation = {
+			country = POL
+			relation = guarantee
+			active = yes
+			}
 	}
 }
 focus = {
@@ -127,7 +152,11 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_war_support = 0.05
+	BUL = {
+		remove_state_core = 803
+		remove_state_core = 106
+	}	
 	}
 }
 focus = {
@@ -147,7 +176,10 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_timed_idea = {
+			idea = Yonennkann
+			days = 1440
+			}
 	}
 }
 focus = {
@@ -167,8 +199,19 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
-	}
+		ENG = {
+			diplomatic_relation = {
+					country = YUG
+					relation = guarantee
+					active = yes
+					}
+				}
+				diplomatic_relation = {
+					country = ENG
+					relation = guarantee
+					active = yes
+					}
+			}
 }
 focus = {
 	id = YUG_d7
@@ -189,7 +232,21 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		custom_effect_tooltip = YUG_balkan
+		hidden_effect = {
+			reverse_add_opinion_modifier = {
+				target = BUL
+				modifier = dankou
+				}
+				reverse_add_opinion_modifier = {
+					target = TUR
+					modifier = dankou
+					}
+					reverse_add_opinion_modifier = {
+						target = AUS
+						modifier = dankou
+						}
+		}
 	}
 }
 focus = {
@@ -209,7 +266,17 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		random_list = {
+			80 = {
+				custom_effect_tooltip = YUG_sanka
+				hidden_effect = {
+					set_global_flag = kroacia_sanka
+				}
+			}
+			20 = {
+				add_stability = -0.05
+			}
+		}
 	}
 }
 focus = {
@@ -229,7 +296,17 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		random_list = {
+			50 = {
+				custom_effect_tooltip = YUG_sanka
+				hidden_effect = {
+					set_global_flag = srovenia_sanka
+				}
+			}
+			50 = {
+				add_stability = -0.04
+			}
+		}
 	}
 }
 focus = {
@@ -249,7 +326,17 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		random_list = {
+			40 = {
+				custom_effect_tooltip = YUG_sanka
+				hidden_effect = {
+					set_global_flag = cyeko_sanka
+				}
+			}
+			60 = {
+				add_stability = -0.03
+			}
+		}
 	}
 }
 focus = {
@@ -269,7 +356,17 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		random_list = {
+			30 = {
+				custom_effect_tooltip = YUG_sanka
+				hidden_effect = {
+					set_global_flag = slo_sanka
+				}
+			}
+			70 = {
+				add_stability = -0.02
+			}
+		}
 	}
 }
 focus = {
@@ -289,7 +386,17 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		random_list = {
+			10 = {
+				custom_effect_tooltip = YUG_sanka
+				hidden_effect = {
+					set_global_flag = hun_sanka
+				}
+			}
+			90 = {
+				add_stability = -0.01
+			}
+		}
 	}
 }
 focus = {
@@ -310,7 +417,84 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		custom_effect_tooltip = YUG_war
+		declare_war_on = {
+			target = AUS
+			type = annex_everything
+			}
+			hidden_effect = {
+			if = {
+				limit = {
+					has_global_flag = kroacia_sanka
+				}   
+				set_state_controller = 104
+				set_state_controller = 109
+				set_state_controller = 103
+				set_state_controller = 163
+				set_state_controller = 879
+				set_state_controller = 804
+			}
+			if = {
+				limit = {
+					has_global_flag = srovenia_sanka
+				}   
+				set_state_controller = 102
+				set_state_controller = 736
+			}
+			if = {
+				limit = {
+					has_global_flag = cyeko_sanka
+				}  
+				CZE = {
+					declare_war_on = {
+					target = AUS
+					type = annex_everything
+					}
+					YUG = { add_to_faction = CZE }
+					set_state_controller = 9
+					set_state_controller = 75
+					set_state_controller = 69
+					set_state_controller = 74
+					set_state_controller = 72
+					load_oob = "CZE_san"
+				}
+			}
+			if = {
+				limit = {
+					has_global_flag = slo_sanka
+				}
+				add_political_power = 150
+			}
+			if = {
+				limit = {
+					has_global_flag = hun_sanka
+				}
+				HUN = {
+					declare_war_on = {
+					target = AUS
+					type = annex_everything
+					}
+					YUG = { add_to_faction = HUN }
+					set_state_controller = 155
+					set_state_controller = 43
+					set_state_controller = 154
+					set_state_controller = 83
+					set_state_controller = 76
+					set_state_controller = 84
+					set_state_controller = 82
+					set_state_controller = 764
+					set_state_controller = 45
+					set_state_controller = 876
+					set_state_controller = 877
+					set_state_controller = 878
+					set_state_controller = 70
+					set_state_controller = 71
+					set_state_controller = 664
+					set_state_controller = 73
+					load_oob = "HUN_sanka"
+				}
+			}
+		}
 	}
 }
 focus = {
@@ -330,7 +514,10 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_political_power = -100
+		TUR = {
+			add_stability = -0.15
+		}
 	}
 }
 focus = {
@@ -350,7 +537,17 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		custom_effect_tooltip = YUG_das
+		hidden_effect = {
+			transfer_state = 803
+		}
+    MAC = {
+		declare_war_on = {
+			target = BUL
+			type = annex_everything
+			}
+			set_state_controller = 106
+	}
 	}
 }
 focus = {
@@ -371,7 +568,10 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = BUL
+			}
 	}
 }
 
@@ -392,7 +592,7 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_war_support = 0.15
 	}
 }
 focus = {
@@ -412,7 +612,7 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_stability = 0.2
 	}
 }
 focus = {
@@ -432,7 +632,7 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_ideas = YUG_gua
 	}
 }
 focus = {
@@ -452,7 +652,10 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		swap_ideas = {
+			remove_idea = YUG_gua
+			add_idea = YUG_gua1
+			}
 	}
 }
 focus = {
@@ -472,7 +675,10 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		swap_ideas = {
+			remove_idea = YUG_gua1
+			add_idea = YUG_gua2
+			}
 	}
 }
 focus = {
@@ -492,7 +698,8 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_stability = 0.5
+		add_war_support = 0.5
 	}
 }
 focus = {
@@ -524,8 +731,9 @@ focus = {
 	y = 0
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
+	mutually_exclusive = { focus = YUG_d1 }
 
 	available = {
 	}
