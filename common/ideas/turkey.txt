@@ -15,8 +15,12 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-			army_leader_start_defense_level = 1
-			military_leader_cost_factor = -0.3
+			stability_factor = -1
+			stability_weekly = -0.8
+			political_power_factor = -0.5
+			research_time_factor = 0.35
+			production_speed_buildings_factor = -0.25
+			industrial_capacity_factory = -0.25
 		}
 	}
 	rengou = { #借金
@@ -30,8 +34,15 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-			army_leader_start_defense_level = 1
-			military_leader_cost_factor = -0.3
+			JAP = {
+				targeted_modifier = { tag = TUR trade_cost_for_target_factor = -0.85 }
+			}
+			ENG = {
+				targeted_modifier = { tag = TUR trade_cost_for_target_factor = -0.85 }
+			}
+			consumer_goods_factor = 0.85
+			trade_laws_cost_factor = 0.5
+			economy_cost_factor = 0.5
 		}
 	}
 	arabu = { #アラブの反抗
@@ -45,8 +56,7 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-			army_leader_start_defense_level = 1
-			military_leader_cost_factor = -0.3
+			non_core_manpower = -0.5
 		}
 	}
 	gun = { #前時代的な軍隊
@@ -60,9 +70,17 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-			army_leader_start_defense_level = 1
-			military_leader_cost_factor = -0.3
+			conscription_factor = 0.85
+			planning_speed = -0.30
+			max_planning = -0.40
+			army_org_Factor = -0.25
+			offence = -0.35
+			defence = -0.35
+			experience_gain_army = -0.25
+			experience_gain_air = -0.25
+			experience_gain_navy = -0.25
 		}
+
 	}
 	kenpou = { #新憲法論争
 		

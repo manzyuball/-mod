@@ -14,6 +14,734 @@ focus_tree = {
 
 	continuous_focus_position = { x = 100 y = 3250 }
 
+	focus = {
+		id = TUR_s1
+		icon ="GFX_focus_POL_warsaw_main_station"
+		x = -1
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+		factor = 50
+	    }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+	    completion_reward = {
+          
+	    }
+}
+
+focus = {
+    id = TUR_s2
+    icon = "GFX_focus_GRE_reevaluating_the_drachma"
+    prerequisite = { focus = TUR_s1 }
+	relative_position_id = TUR_s1
+    x = -1
+    y = 1
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s3
+    icon = "GFX_focus_research2"
+    prerequisite = { focus = TUR_s1 }
+	relative_position_id = TUR_s1
+    x = 1
+    y = 1
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s4
+    icon = "GFX_focus_LAT_suspend_constitution_of_latvia"
+    prerequisite = { focus = TUR_s3 }
+	mutually_exclusive = { focus = TUR_s5 }
+	relative_position_id = TUR_s1
+    x = 2
+    y = 2
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s5
+    icon = "GFX_focus_hol_abandon_the_gold_standard"
+    prerequisite = { focus = TUR_s2 }
+	mutually_exclusive = { focus = TUR_s4 }
+	relative_position_id = TUR_s1
+    x = -2
+    y = 2
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s6
+    icon = "GFX_focus_mex_arrest_general_cedillo"
+    prerequisite = { focus = TUR_s5 }
+	relative_position_id = TUR_s1
+    x = -4
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s7
+    icon = "GFX_focus_SOV_merge_plants"
+    prerequisite = { focus = TUR_s5 }
+	relative_position_id = TUR_s1
+    x = -2
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s8
+    icon = "GFX_focus_SOV_south_manchuria_railway"
+    prerequisite = { focus = TUR_s5 focus = TUR_s4 }
+	relative_position_id = TUR_s1
+    x = 0
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = TUR_s9
+    icon = "GFX_focus_mex_privatisation"
+    prerequisite = { focus = TUR_s4 }
+	relative_position_id = TUR_s1
+    x = 2
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s10
+    icon = "GFX_focus_POL_riot_of_37"
+    prerequisite = { focus = TUR_s4 }
+	relative_position_id = TUR_s1
+    x = 4
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s11
+    icon = "GFX_goal_generic_oil_refinery"
+    prerequisite = { focus = TUR_s8 }
+	relative_position_id = TUR_s1
+    x = 0
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s12
+    icon = "GFX_focus_POL_develop_polish_shipbuilding"
+    prerequisite = { focus = TUR_s11 }
+	relative_position_id = TUR_s1
+    x = 0
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s13
+    icon = "GFX_focus_jap_zaibatsu"
+    prerequisite = { focus = TUR_s9 }
+	prerequisite = { focus = TUR_s10 }
+	relative_position_id = TUR_s1
+    x = 3
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s14
+    icon = "GFX_focus_POL_complete_april_constitution"
+    prerequisite = { focus = TUR_s13 }
+	relative_position_id = TUR_s1
+    x = 3
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s15
+    icon = "GFX_focus_generic_africa_infrastructure"
+    prerequisite = { focus = TUR_s6 }
+	prerequisite = { focus = TUR_s7 }
+	relative_position_id = TUR_s1
+    x = -3
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s16
+    icon = "GFX_focus_TUR_treaty_of_saadabad"
+    prerequisite = { focus = TUR_s15 }
+	relative_position_id = TUR_s1
+    x = -3
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s17
+    icon = "GFX_focus_SOV_rebuild_the_savior_cathedral"
+    prerequisite = { focus = TUR_s16 }
+	prerequisite = { focus = TUR_s12 }
+	relative_position_id = TUR_s1
+    x = -1
+    y = 6
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s18
+    icon = "GFX_focus_spa_the_spanish_miracle"
+    prerequisite = { focus = TUR_s14 }
+	prerequisite = { focus = TUR_s12 }
+	relative_position_id = TUR_s1
+    x = 1
+    y = 6
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_s19
+    icon = "GFX_focus_LAT_aizsargi"
+    prerequisite = { focus = TUR_s17 focus = TUR_s18 }
+	relative_position_id = TUR_s1
+    x = 0
+    y = 7
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+
+focus = {
+    id = TUR_g1
+    icon = "GFX_focus_generic_military_mission"
+    x = 8
+    y = 0
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g2
+    icon = "GFX_focus_generic_military_academy"
+    x = 0
+    y = 1
+	prerequisite = {  focus = TUR_g1 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g3
+    icon = "GFX_focus_RAJ_lions_of_the_great_war"
+    x = -3
+    y = 2
+	prerequisite = {  focus = TUR_g2 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g4
+    icon = "GFX_focus_generic_military_dictatorship"
+    x = 3
+    y = 2
+	prerequisite = {  focus = TUR_g2 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g5
+    icon = "GFX_focus_SOV_flying_clubs"
+    x = 3
+    y = 3
+	prerequisite = {  focus = TUR_g4 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g6
+    icon = "GFX_goal_generic_navy_submarine"
+    x = 3
+    y = 4
+	prerequisite = {  focus = TUR_g5 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g7
+    icon = "GFX_focus_generic_tank_production"
+    x = 2
+    y = 5
+	prerequisite = {  focus = TUR_g6 }
+	prerequisite = {  focus = TUR_g9 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g8
+    icon = "GFX_focus_POL_sanation_right"
+    x = 1
+    y = 2
+	prerequisite = {  focus = TUR_g2 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g9
+    icon = "GFX_focus_generic_manpower"
+    x = 1
+    y = 3
+	prerequisite = {  focus = TUR_g8 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g10
+    icon = "GFX_focus_generic_strike_at_democracy1"
+    x = -1
+    y = 2
+	prerequisite = {  focus = TUR_g2 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g11
+    icon = "GFX_focus_SOV_mobilization_plan"
+    x = -1
+    y = 3
+	prerequisite = {  focus = TUR_g10 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g12
+    icon = "GFX_goal_generic_army_artillery2"
+    x = -3
+    y = 3
+	prerequisite = {  focus = TUR_g3 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g13
+    icon = "GFX_goal_generic_cavalry"
+    x = -3
+    y = 4
+	prerequisite = {  focus = TUR_g12 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g14
+    icon = "GFX_goal_generic_military_sphere"
+    x = -2
+    y = 5
+	prerequisite = {  focus = TUR_g13 }
+	prerequisite = {  focus = TUR_g11 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g15
+    icon = "GFX_focus_TUR_pivot_to_the_past"
+    x = 0
+    y = 6
+	prerequisite = {  focus = TUR_g14 focus = TUR_g7 }
+	prerequisite = {  focus = TUR_g16 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TUR_g16
+    icon = "GFX_focus_POL_beck_ribbentrop"
+    x = 0
+    y = 4
+	prerequisite = {  focus = TUR_g11 focus = TUR_g9 }
+	relative_position_id = TUR_g1
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
 
 
 
@@ -28,5 +756,4 @@ focus_tree = {
 
 
 
-	
 }
