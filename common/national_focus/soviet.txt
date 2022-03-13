@@ -38,6 +38,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			custom_effect_tooltip = SOV_setumei
 			add_ideas =	Gonenkann
 		}
 	}
@@ -272,7 +273,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			swap_ideas = {
+				remove_idea = Gonenkann
+				add_idea = Gonenkann1
+				}
 		}
 	}
 	focus = {
@@ -489,7 +493,24 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			if = {
+				limit = {
+					has_completed_focus = SOV_p1	
+				}
+				swap_ideas = {
+					remove_idea = Gonenkann1
+					add_idea = soviet_1
+					}
+			}
+			if = {
+				limit = {
+					has_completed_focus = SOV_p3	
+				}
+				swap_ideas = {
+					remove_idea = zendo1
+					add_idea = soviet_2
+					}
+			}
 		}
 	}
 	focus = {
@@ -1079,10 +1100,12 @@ focus_tree = {
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s }
 		ai_will_do = {
-			factor = 0
+			factor = 10
 		}
 		completion_reward = {
-        
+			set_rule = {
+				can_create_factions = yes
+				}
 		}
 	}
 	focus = {
@@ -1097,7 +1120,16 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			add_state_core = 813
+			add_state_core = 912
+			add_state_core = 13
+			add_state_core = 811
+			add_state_core = 12
+			add_state_core = 191
+			add_state_core = 12
+			add_state_core = 810
+			add_state_core = 808
+
 		}
 	}
 	focus = {
@@ -1112,7 +1144,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = LAT
+				}
 		}
 	}
 	focus = {
@@ -1127,7 +1162,49 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			add_opinion_modifier = {
+				target = GER
+				modifier = kyousannsei
+				}
+				add_opinion_modifier = {
+					target = HOL
+					modifier = kyousannsei
+					}
+					add_opinion_modifier = {
+						target = FRA
+						modifier = kyousannsei
+						}
+						add_opinion_modifier = {
+							target = ITA
+							modifier = kyousannsei
+							}
+							hidden_trigger = {
+								FRA = {
+									add_opinion_modifier = {
+											target = SOV
+											modifier = kyousannsei
+											}
+										}
+										HOL = {
+											add_opinion_modifier = {
+													target = SOV
+													modifier = kyousannsei
+													}
+												}
+												GER = {
+													add_opinion_modifier = {
+															target = SOV
+															modifier = kyousannsei
+															}
+														}
+														ITA = {
+															add_opinion_modifier = {
+																	target = SOV
+																	modifier = kyousannsei
+																	}
+																}
+							}
+	
 		}
 	}
 	focus = {
@@ -1142,7 +1219,11 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			custom_effect_tooltip = SOV_fra
+			declare_war_on = {
+				target = FRA
+				type = annex_everything
+				}
 		}
 	}
 	focus = {
@@ -1157,7 +1238,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			remove_ideas = Torotuky
 		}
 	}
 	focus = {
@@ -1172,7 +1253,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-        
+        	load_oob = "SOV_civilwar"
 		}
 	}
 	focus = {
@@ -1187,7 +1268,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = VLA
+				}
 		}
 	}
 	focus = {
@@ -1199,7 +1283,7 @@ focus_tree = {
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s16 }
 		ai_will_do = {
-			factor = 10
+			factor = 0
 		}
 		completion_reward = {
         
@@ -1229,7 +1313,7 @@ focus_tree = {
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s16 }
 		ai_will_do = {
-			factor = 10
+			factor = 0
 		}
 		completion_reward = {
         
@@ -1252,7 +1336,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_s21
-		icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
+		icon = "GFX_focus_generic_attack_finland"
 		x = 5
 		y = 10
 		cost = 5
@@ -1262,12 +1346,22 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+				state = 195
+				num_provinces = 2
+				}
+				defender = {
+				state = 146
+				num_provinces = 2
+				}
+				}
 		}
 	}
 	focus = {
 		id = SOV_s22
-		icon = "GFX_goal_support_communism"
+		icon = "GFX_focus_generic_scandinavian_alliance"
 		x = 5
 		y = 11
 		cost = 5
@@ -1292,7 +1386,23 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-        
+        	add_threat = 10
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = NOR
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = SWE
+					}
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = DEN
+						}
+						create_wargoal = {
+							type = puppet_wargoal_focus
+							target = FIN
+							}
 		}
 	}
 	focus = {

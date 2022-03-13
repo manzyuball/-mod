@@ -14,6 +14,10 @@ opinion_modifiers = {
 		value = -65
 	}
 
+	kyousannsei = {		
+		value = -65
+	}
+
 	yuuti = {		
 		value = 5
 	}

@@ -420,6 +420,40 @@ ideas = {
 			
 		}
 
+		soviet_1 = {
+
+			allowed = {
+				always = yes
+			}
+			picture = jap_the_unthinkable_option
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+				production_speed_buildings_factor = 0.25
+				industrial_capacity_factory = 0.1
+			}
+			
+		}
+
+		soviet_2 = {
+
+			allowed = {
+				always = yes
+			}
+			picture = jap_the_unthinkable_option
+
+			removal_cost = -1
+			
+			modifier = {
+				global_building_slots_factor = 0.25
+				industry_air_damage_factor = -0.4
+				local_resources_factor = 0.50
+				min_export = -0.2
+			}
+			
+		}
 	}
 
 }
