@@ -61,7 +61,7 @@ focus = {
 	y = 0
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 
 	available = {
@@ -615,7 +615,7 @@ focus = {
 	y = 0
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 
 	available = {

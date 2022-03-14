@@ -58,7 +58,7 @@ focus = {
 	y = 0
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -89,7 +89,7 @@ focus = {
 	y = 1
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -112,7 +112,7 @@ focus = {
 	y = 1
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -143,7 +143,7 @@ focus = {
 	y = 1
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -167,7 +167,7 @@ focus = {
 	y = 1
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -190,7 +190,7 @@ focus = {
 	y = 1
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -223,7 +223,7 @@ focus = {
 	y = 2
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -257,7 +257,7 @@ focus = {
 	y = 3
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -287,7 +287,7 @@ focus = {
 	y = 4
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -317,7 +317,7 @@ focus = {
 	y = 5
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -347,7 +347,7 @@ focus = {
 	y = 6
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -377,7 +377,7 @@ focus = {
 	y = 6
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -408,7 +408,7 @@ focus = {
 	y = 7
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -505,7 +505,7 @@ focus = {
 	y = 3
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -528,7 +528,7 @@ focus = {
 	y = 3
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -559,7 +559,7 @@ focus = {
 	y = 7
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -583,7 +583,7 @@ focus = {
 	y = 2
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -603,7 +603,7 @@ focus = {
 	y = 3
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -623,7 +623,7 @@ focus = {
 	y = 4
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -643,7 +643,7 @@ focus = {
 	y = 5
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -666,7 +666,7 @@ focus = {
 	y = 6
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -689,7 +689,7 @@ focus = {
 	y = 11
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -710,7 +710,7 @@ focus = {
 	y = 10
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -752,7 +752,7 @@ focus = {
 	prerequisite = { focus = YUG_k1 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -772,7 +772,7 @@ focus = {
 	prerequisite = { focus = YUG_k2 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -792,7 +792,7 @@ focus = {
 	prerequisite = { focus = YUG_k3 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -812,7 +812,7 @@ focus = {
 	prerequisite = { focus = YUG_k4 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -832,7 +832,7 @@ focus = {
 	prerequisite = { focus = YUG_k5 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -852,7 +852,7 @@ focus = {
 	prerequisite = { focus = YUG_k6 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -872,7 +872,7 @@ focus = {
 	prerequisite = { focus = YUG_k3 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -892,7 +892,7 @@ focus = {
 	prerequisite = { focus = YUG_k8 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -912,7 +912,7 @@ focus = {
 	prerequisite = { focus = YUG_k9 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -932,7 +932,7 @@ focus = {
 	prerequisite = { focus = YUG_k10 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -952,7 +952,7 @@ focus = {
 	prerequisite = { focus = YUG_k10 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -972,7 +972,7 @@ focus = {
 	prerequisite = { focus = YUG_k11 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -992,7 +992,7 @@ focus = {
 	prerequisite = { focus = YUG_k13 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1012,7 +1012,7 @@ focus = {
 	prerequisite = { focus = YUG_k1 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1032,7 +1032,7 @@ focus = {
 	prerequisite = { focus = YUG_k15 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1052,7 +1052,7 @@ focus = {
 	prerequisite = { focus = YUG_k16 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1072,7 +1072,7 @@ focus = {
 	prerequisite = { focus = YUG_k17 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1092,7 +1092,7 @@ focus = {
 	prerequisite = { focus = YUG_k18 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1112,7 +1112,7 @@ focus = {
 	prerequisite = { focus = YUG_k18 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1133,7 +1133,7 @@ focus = {
 	prerequisite = { focus = YUG_k20 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1153,7 +1153,7 @@ focus = {
 	prerequisite = { focus = YUG_k21 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1173,7 +1173,7 @@ focus = {
 	prerequisite = { focus = YUG_k21 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1193,7 +1193,7 @@ focus = {
 	prerequisite = { focus = YUG_k1 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1213,7 +1213,7 @@ focus = {
 	prerequisite = { focus = YUG_k24 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1233,7 +1233,7 @@ focus = {
 	prerequisite = { focus = YUG_k25 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1253,7 +1253,7 @@ focus = {
 	prerequisite = { focus = YUG_k26 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1273,7 +1273,7 @@ focus = {
 	prerequisite = { focus = YUG_k27 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1293,7 +1293,7 @@ focus = {
 	prerequisite = { focus = YUG_k28 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1313,7 +1313,7 @@ focus = {
 	prerequisite = { focus = YUG_k28 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1333,7 +1333,7 @@ focus = {
 	prerequisite = { focus = YUG_k29 focus = YUG_k21 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1353,7 +1353,7 @@ focus = {
 	prerequisite = { focus = YUG_k30 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1373,7 +1373,7 @@ focus = {
 	prerequisite = { focus = YUG_k31 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1393,7 +1393,7 @@ focus = {
 	prerequisite = { focus = YUG_k33 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1413,7 +1413,7 @@ focus = {
 	prerequisite = { focus = YUG_k34 }
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -1750,7 +1750,7 @@ focus = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 100
+			factor = 1000
 		}
 
 		available = {
@@ -2052,7 +2052,7 @@ focus = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 100
+			factor = 1000
 		}
 
 		available = {
@@ -2348,7 +2348,7 @@ focus = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 100
+			factor = 1000
 		}
 
 		available = {
@@ -2414,7 +2414,7 @@ focus = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 100
+			factor = 1000
 		}
 
 		available = {
@@ -3298,7 +3298,7 @@ focus = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 
 		available = {

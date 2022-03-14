@@ -25,7 +25,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -39,7 +39,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = BRA_kyoukou
+				add_idea = BRA_kyoukou1
+				}
 		}
 	}
 
@@ -55,7 +58,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_political_power = 100
+			remove_ideas = BRA_kyoukou1
 		}
 	}
 
@@ -71,7 +75,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			reverse_add_opinion_modifier = {
+				target = ARG
+				modifier = kyuusekkinn
+				}
+				remove_ideas = BRA_kyoukou1
 		}
 	}
 
@@ -87,7 +95,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_timed_idea = {
+				idea = BRA_4kanenn
+				days = 1440
+				}
 		}
 	}
 
@@ -102,7 +113,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = BRA_mayaku
+				add_idea = BRA_mayaku1
+				}
 		}
 	}
 
@@ -117,7 +131,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			remove_ideas = BRA_mayaku1
 		}
 	}
 
@@ -132,6 +146,18 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			custom_effect_tooltip = BRA_1w
+			hidden_effect = {
+				start_civil_war = {
+					ruling_party = fascism
+					ideology = communism
+					size = 0.1
+					capital = 498
+					states = {
+					498 497 
+					}
+					}
+			}
 
 		}
 	}
@@ -148,7 +174,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_political_power = 100
+			add_stability = -0.1
 		}
 	}
 
@@ -164,7 +191,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_political_power = -100
+			add_stability = 0.1
 		}
 	}
 
@@ -180,7 +208,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_research_slot = 1
 		}
 	}
 
@@ -196,7 +224,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.15
+				}
+				add_stability = 0.1
 		}
 	}
 
@@ -211,7 +243,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_ideas =	BRA_keizai
 		}
 	}
 
@@ -226,7 +258,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = BRA_keizai
+				add_idea = BRA_keizai1
+				}
 		}
 	}
 
@@ -241,7 +276,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = BRA_keizai1
+				add_idea = BRA_keizai2
+				}
 		}
 	}
 
@@ -256,7 +294,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_research_slot = 1
 		}
 	}
 	focus = {
@@ -270,7 +308,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_stability = 0.15
 		}
 	}
 
@@ -285,7 +323,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_ideas =	BRA_gaiko
 		}
 	}
 
@@ -300,7 +338,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = BRA_gaiko
+				add_idea = BRA_gaiko1
+				}
 		}
 	}
 	focus = {
@@ -314,7 +355,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			reverse_add_opinion_modifier = {
+				target = JAP
+				modifier = kyuusekkinn
+				}
 		}
 	}
 	focus = {
@@ -328,7 +372,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_manpower = -2140
+			army_experience = 100
+			RAJ = {
+			add_manpower = 2140
+			army_experience = 100
+			}
 		}
 	}
 
@@ -337,7 +386,7 @@ focus_tree = {
 		icon = "GFX_focus_ger_bulwark_against_bolshevism"
 		x = -3
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = yes
 
@@ -351,7 +400,7 @@ focus_tree = {
 		x = -3
 		y = 2
 		prerequisite = { focus = BRA_na_34 }
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = yes
 
@@ -366,7 +415,7 @@ focus_tree = {
 		x = -2
 		y = 4
 		prerequisite = { focus = BRA_na_35 }
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = yes
 
@@ -387,7 +436,37 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			custom_effect_tooltip = BRA_123
+			create_corps_commander = {
+				name = "Jean de Lattre de Tassigny"
+				picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+				traits = { trickster brilliant_strategist }
+				skill = 3
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 4
+				logistics_skill = 3
+				}
+				create_corps_commander = {
+					name = "Friedrich von Schiller"
+					picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
+					traits = { jungle_rat commando }
+					skill = 4
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 3
+					logistics_skill = 5
+					}
+					create_corps_commander = {
+						name = "Principe di Montenevoso"
+						picture = "portrait_italy_emilio_de_bono.dds"
+						traits = { 	trait_engineer old_guard war_hero }
+						skill = 7
+						attack_skill = 1
+						defense_skill = 5
+						planning_skill = 1
+						logistics_skill = 1
+						}
 		}
 	}
 
@@ -402,7 +481,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			reverse_add_opinion_modifier = {
+				target = AUS
+				modifier = kyuusekkinn
+				}
+				AUS = { add_to_faction = BRA }
 		}
 	}
 
@@ -417,7 +500,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			reverse_add_opinion_modifier = {
+				target = POR
+				modifier = kyuusekkinn
+				}
 		}
 	}
 
@@ -432,7 +518,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_offsite_building = { type = industrial_complex level = 2 }
+			reverse_add_opinion_modifier = {
+				target = ENG
+				modifier = kyuusekkinn
+				}
 		}
 	}
 
@@ -447,7 +537,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_war_support = 0.1
 		}
 	}
 
@@ -462,7 +552,22 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			random_owned_controlled_state = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
+			}	
+			random_owned_controlled_state = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
+			}
 		}
 	}
 
@@ -477,7 +582,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = category_army
+				}
 		}
 	}
 
@@ -492,7 +601,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+        add_ideas = BRA_pro_gun
 		}
 	}
 
@@ -507,7 +616,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			custom_effect_tooltip = BRA_gun
+			hidden_effect = {
+				load_oob = "BRA_gun"
+			}
+			
 		}
 	}
 
@@ -520,7 +633,9 @@ focus_tree = {
 		cost = 10
 
 		available_if_capitulated = yes
-
+		ai_will_do = {
+			factor = 0
+		}	
 		completion_reward = {
 
 		}
@@ -576,12 +691,12 @@ focus_tree = {
 		icon = "GFX_focus_hol_the_foundations_of_defense"
 		x = 3
 		y = 0.5
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+        add_ideas = BRA_bra
 		}
 	}
 	focus = {
@@ -589,13 +704,34 @@ focus_tree = {
 		icon = "GFX_focus_SOV_merge_plants"
 		x = 3
 		y = 1.5
-		cost = 10
+		cost = 5
 		prerequisite = { focus = BRA_na_50 }
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			custom_effect_tooltip = BRA_bq
+			random_state = {
+				limit = {
+					num_of_civilian_factories > 2
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 2
+					}
+			}
+			random_state = {
+				limit = {
+					num_of_civilian_factories > 2
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 2
+					}
+			}
+			hidden_effect = {
+				set_global_flag = BRA_ba5
+			}
 		}
 	}
 	focus = {
@@ -603,13 +739,75 @@ focus_tree = {
 		icon = "GFX_goal_molotov_ribbentrop_pact"
 		x = 3
 		y = 2.5
-		cost = 10
+		cost = 5
 		prerequisite = { focus = BRA_na_51 }
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			custom_effect_tooltip = BRA_bq1
+			set_capital = 905
+			add_stability = 0.1
+			remove_ideas = BRA_bra
+			remove_ideas = BRA_tasimonndai
+			if = {
+				limit = {
+					has_global_flag = BRA_ba1
+				}   
+				905 = {
+					set_building_level = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+						}
+				}
+			}
+			if = {
+				limit = {
+					has_global_flag = BRA_ba2
+				}   
+				905 = {
+					set_state_category = megalopolis
+				}
+			}
+			if = {
+				limit = {
+					has_global_flag = BRA_ba3
+				}   
+				905 = {
+					add_building_construction = {
+						type = synthetic_refinery
+						level = 2
+						instant_build = yes
+						}
+						add_building_construction = {
+							type = fuel_silo
+							level = 1
+							instant_build = yes
+							}
+				}
+			}
+			if = {
+				limit = {
+					has_global_flag = BRA_ba4
+				}   
+				905 = {
+					add_manpower = 953200
+				}
+			}
+			if = {
+				limit = {
+					has_global_flag = BRA_ba5
+				}   
+				905 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 4
+						instant_build = yes
+						}
+				}
+			}
 		}
 	}
 	focus = {
@@ -617,13 +815,17 @@ focus_tree = {
 		icon = "GFX_focus_mex_privatisation"
 		x = 0
 		y = 1.5
-		cost = 10
+		cost = 5
 		prerequisite = { focus = BRA_na_50 }
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			custom_effect_tooltip = BRA_bq
+			add_political_power = -150
+			hidden_effect = {
+				set_global_flag = BRA_ba3
+			}
 		}
 	}
 	focus = {
@@ -631,13 +833,22 @@ focus_tree = {
 		icon = "GFX_focus_spr_torchbearers_of_tomorrow"
 		x = 0
 		y = 2.5
-		cost = 10
+		cost = 5
 		prerequisite = { focus = BRA_na_53 }
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			custom_effect_tooltip = BRA_bq
+			every_owned_state = { 
+				limit = {
+				state_population > 100000
+				}
+				add_manpower = -7900
+			}
+			hidden_effect = {
+				set_global_flag = BRA_ba4
+			}
 		}
 	}
 	focus = {
@@ -645,13 +856,16 @@ focus_tree = {
 		icon = "GFX_focus_SOV_the_road_of_life"
 		x = 6
 		y = 1.5
-		cost = 10
+		cost = 5
 		prerequisite = { focus = BRA_na_50 }
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			custom_effect_tooltip = BRA_bq
+			hidden_effect = {
+				set_global_flag = BRA_ba1
+			}
 		}
 	}
 	focus = {
@@ -659,13 +873,17 @@ focus_tree = {
 		icon = "GFX_focus_POL_warsaw_main_station"
 		x = 6
 		y = 2.5
-		cost = 10
+		cost = 5
 		prerequisite = { focus = BRA_na_55 }
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			custom_effect_tooltip = BRA_bq
+			add_political_power = -100
+			hidden_effect = {
+				set_global_flag = BRA_ba2
+			}
 		}
 	}
 }
