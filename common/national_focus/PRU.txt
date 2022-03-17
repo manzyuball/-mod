@@ -10,7 +10,12 @@ focus_tree = {
 		}
 
 	}
+<<<<<<< HEAD
 	
+=======
+	######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
+>>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	default = no
 	
 	continuous_focus_position = { x = 50 y = 1100 }
@@ -445,7 +450,12 @@ completion_reward = {
    
 }
 }
+<<<<<<< HEAD
 
+=======
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
+>>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 focus = {
     id = PRU_se53
     icon = "GFX_focus_por_recover_brazil"
@@ -692,7 +702,12 @@ completion_reward = {
    
 }
 }
+<<<<<<< HEAD
 focus = {
+=======
+focus = {######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
+>>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
     id = PRU_se64
     icon = "GFX_focus_jap_pacific_guardian"
     prerequisite = { focus = PRU_se62 focus = PRU_se63 }
@@ -752,7 +767,12 @@ completion_reward = {
    
 }
 }
+<<<<<<< HEAD
 
+=======
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
+>>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 focus = {
     id = PRU_se67
     icon = "GFX_focus_spr_masters_of_our_own_fate"

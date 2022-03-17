@@ -14,7 +14,12 @@ focus_tree = {
 	default = no
 	
 	continuous_focus_position = { x = 50 y = 1100 }
+<<<<<<< HEAD
 
+=======
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
+>>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = PAN_seizi_1
 		icon = GFX_focus_POL_belarus_army
@@ -700,7 +705,12 @@ completion_reward = {
 }
 
 }
+<<<<<<< HEAD
 
+=======
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
+>>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 focus = {
     id = PAN_gun8
     icon = "GFX_focus_mex_soldaderas"
@@ -835,7 +845,12 @@ completion_reward = {
 }
 
 }
+<<<<<<< HEAD
 
+=======
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
+>>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 focus = {
     id = PAN_hiz3
     icon = "GFX_focus_SOV_mobilization_plan"
