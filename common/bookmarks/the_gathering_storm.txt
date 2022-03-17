@@ -1,0 +1,292 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = commmunism
+			available = { NOT = { has_dlc = "La Resistance" } }
+			ideas = {
+				FRA_full_employment
+				FRA_disjointed_government
+				FRA_firepower
+			}
+			focuses = {
+				FRA_ban_the_leagues
+				FRA_encourage_immigration_2
+				FRA_encourage_immigration_4
+			}
+		}
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = commmunism
+			available = { has_dlc = "La Resistance" } 
+			ideas = {
+				FRA_full_employment
+				FRA_disjointed_government
+				FRA_firepower
+			}
+			focuses = {
+				FRA_ban_the_leagues
+				FRA_encourage_immigration_2
+				FRA_encourage_immigration_4
+			}
+		}
+		"AUS"={
+			minor = yes
+			history = "LIT_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				AUS_seizi_1
+				AUS_NAZI_idea
+				AUS_NAZI_GUN5_idea
+			}
+			focuses = {
+				AUS_lerder1
+				AUS_lerder7
+				AUS_seizi_3
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { has_dlc = "Man the Guns" }
+			ideas = {
+				ENG_loiyalnavy
+				ENG_Kyoukou
+				george_v
+			}
+			focuses = {
+				uk_gu
+				uk_fu
+				uk_fu15
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "Man the Guns" } }
+			ideas = {
+				ENG_loiyalnavy
+				ENG_Kyoukou
+				george_v
+			}
+			focuses = {
+				uk_gu
+				uk_fu
+				uk_fu15
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = commmunism
+			available = { has_dlc = "Waking the Tiger" }
+			ideas = {
+				general_staff
+				GER_barbarossa
+				GER_mefo_bills_1
+			}
+			focuses = {
+				GER_anschluss
+				GER_danzig_or_war
+				GER_revive_the_kaiserreich
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = commmunism
+			available = { NOT = { has_dlc = "Waking the Tiger" } }
+			ideas = {
+				general_staff
+				GER_barbarossa
+				GER_mefo_bills_1
+			}
+			focuses = {
+				GER_anschluss
+				GER_danzig_or_war
+				GER_ussr_war_goal
+			}
+		}
+		"ARG"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				vittoria_mutilata
+				victor_emmanuel
+			}	
+			focuses = {
+				ITA_pact_of_steel
+				ITA_spanish_italian_faction
+				ITA_italy_first
+			}		
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				Kyoukou
+				Preservation_of_old_ships
+				Sea_Power_State
+			}	
+			focuses = {
+				JAP_the_zero
+				JAP_min1
+				JAP_min21
+			}			
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			available = { has_dlc = "No Step Back" }
+			ideas = {
+				trotskyite_plot_nsb
+				SOV_second_five_year_plan_fake_1936_ns
+				SOV_politicized_military
+			}
+			focuses = {
+				SOV_behead_the_snake
+				SOV_the_supreme_soviet
+				SOV_reconvene_the_zemsky_sobor
+			}	
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			available = { NOT = { has_dlc = "No Step Back" } }
+			ideas = {
+				trotskyite_plot_nsb
+				SOV_second_five_year_plan_fake_1936_ns
+				SOV_politicized_military
+			}
+			focuses = {
+				SOV_behead_the_snake
+				SOV_father_of_nations
+				SOV_the_supreme_soviet
+			}	
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		"VLA"={
+			minor = yes
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SWE"={
+			minor = yes
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				The_tower
+				SWE_gun3
+				keizaitougou3
+			}
+			focuses = {
+				SWE_50
+				SWE_10
+				SWE_35
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				CHI_sensi
+				CHI_hyper_inflation_1
+				CHI_SANGAK
+			}
+			focuses = {
+				CHI_rural_schooling
+				CHI_pick_a_fight_with_japan
+				CHI_legislative_yuan
+			}
+		}
+		"PRC"={
+			minor = yes
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				PRC_the_long_march_1
+				PRC_low_popular_support_3
+				PRC_power_struggles
+			}
+			focuses = {
+				PRC_na_31
+				PRC_na_8
+				PRC_na_7
+			}
+		}
+		
+		"HOL"={
+			minor = yes
+			history = "NETHERLANDS_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				HOL_wilhelmina
+				HOL_shell_shocked_spectator_5
+				HOL_de_crisisjaren_5
+			}
+			focuses = {
+				HOL_continue_the_war_in_batavia
+				HOL_liberation
+				HOL_prepare_the_inundation_lines
+			}
+		}
+		"TUR"={
+			minor = yes
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				TUR_sectarian_woes
+				TUR_disorganised_armed_forces
+				TUR_debt_council
+			}
+			focuses = {
+				TUR_ratify_the_six_arrows
+				TUR_reaffirm_the_balkan_pact
+				TUR_pivot_to_the_past
+			}
+		}	
+		"USA"={
+			minor = yes
+			history = "LAT_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"POL"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				uncontrolled_exports
+				POL_april_constitution_1
+				POL_looming_peasants_strike
+			}
+			focuses = {
+				POL_complete_april_constitution
+				POL_organize_the_peasants_strike
+				POL_fulfil_fifth_of_november
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

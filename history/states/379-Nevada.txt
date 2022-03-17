@@ -2,29 +2,30 @@
 state={
 	id=379
 	name="STATE_379"
-	manpower = 91057
-	
-	state_category = city
-	
 	resources={
-		steel=70 # was: 136
-		tungsten=32 # was: 62
-		aluminium=25 # was: 44
+		steel=70.000
+		tungsten=32.000
+		aluminium=25.000
+		gold=13.000
 	}
 
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 2
+
 		}
 		add_core_of = USA
 		add_core_of = USB
 		add_core_of = CSA
+
 	}
 
 	provinces={
-		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425 
+		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425 13961 13962 
 	}
-
-	local_supplies=0.0 
+	manpower=91057
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

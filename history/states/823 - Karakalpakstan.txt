@@ -2,14 +2,16 @@ state = {
 
 	id = 823
 	name = "STATE_823" #Karakalpakstan
-
+	resources={
+		GOLD=31
+	}
 	history = {
 	
 		victory_points = {
 			1614 1
 		}
 		
-		owner = SOV
+		owner = UZB
 		
 		buildings = {
 			infrastructure = 2
@@ -23,7 +25,7 @@ state = {
 	}
 
 	provinces = {
-		1479 1576 1614 1721 4488 4618 7541 10348 12233 12471 12474 13207 
+		1479 1576 1614 4488 4618 7541 10348 12233 12471 12474 13207 
 	}
 	
 	manpower = 258430 #Was 516860 but was divided by 2 due to Khiva (831) becoming a new state 

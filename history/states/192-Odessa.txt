@@ -4,7 +4,7 @@ state = {
 	name = "STATE_192"
 	manpower = 1286238 #1 8th removed due to Balta-Tiraspol
 	
-	state_category = city
+	state_category = metropolis
 
 	history = {
 		owner = SOV
@@ -13,7 +13,8 @@ state = {
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 1
+			arms_factory = 6
+			industrial_complex = 7
 			air_base = 6
 			11670 ={
 				naval_base = 3

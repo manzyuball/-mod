@@ -1,12 +1,17 @@
+
 state={
 	id=853
 	name="STATE_853"
-	provinces={
-		1389 4393 5135 7365 7614 10251 10423 11004 11018 12154 12193 12237 12240 12400 12428 
+	resources={
+		gold=21.000
 	}
+
 	history={
 		add_core_of = PNG
 		owner = AST
+		victory_points = {
+			12237 1 
+		}
 		buildings = {
 			infrastructure = 1
 			12237 = {
@@ -21,14 +26,15 @@ state={
 				naval_base = 1
 
 			}
-			victory_points = {
-				12237 1 
-			}
-
 		}
+
+	}
+
+	provinces={
+		1389 4393 5135 7365 7614 10251 10423 11018 12154 12193 12237 12240 12400 
 	}
 	manpower=521465
-	state_category =rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

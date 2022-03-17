@@ -1,0 +1,17 @@
+SOV_kyu_decisions = {
+
+     soviet_aaa = {
+
+     icon = generic_merge_plant_ship
+
+     cost = 35
+     fire_only_once = yes
+     visible = {
+     }
+     complete_effect = {
+        add_stability = 0.1
+        add_war_support = 0.35
+     }
+
+     }
+}

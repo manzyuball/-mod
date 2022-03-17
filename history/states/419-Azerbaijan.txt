@@ -6,7 +6,7 @@ state={
 	
 	state_category = rural
 	history={
-		owner = AZR
+		owner = PER
 		buildings = {
 			infrastructure = 2
 		}
@@ -21,11 +21,10 @@ state={
 		}
 		add_core_of = PER
 		add_core_of = KUR
-		add_core_of = AZR
 	}
 
 	provinces={
-		1636 1822 1896 2071 4755 4825 7604 12793 12861 13120 
+		1636 1822 1896 2071 4755 4825 7604 12793 12861 13873 
 	}
 
 	local_supplies=4.0 

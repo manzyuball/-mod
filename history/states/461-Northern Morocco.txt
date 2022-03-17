@@ -4,11 +4,13 @@ state={
 	name="STATE_461"
 	resources={
 		chromium=12.000 #added due to portugal setup
+		SILVER=24
+		JEWELLERY=31
 	}
 
 	manpower = 3197719
 	
-	state_category = rural
+	state_category = town
 	
 	history={
 		owner = ALG

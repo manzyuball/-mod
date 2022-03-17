@@ -1,0 +1,11 @@
+units = {
+	fleet = {
+		name = "división blindada marítima"
+		naval_base = 13303
+		task_force = { 
+			name = "regimiento principal"
+			location = 13303
+			
+		}
+	}
+}

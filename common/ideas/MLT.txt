@@ -19,7 +19,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			picture = spr_seize_the_gold_reserves
+			picture = generic_exploit_mines
 
 			removal_cost = -1
 			

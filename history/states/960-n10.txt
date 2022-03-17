@@ -1,0 +1,20 @@
+state={
+	id=960
+	name="STATE_960"
+	provinces={
+		14093 14094 14095 14174 14175 14176 14188 14189 14190 14191 14192 14193 
+	}
+	history={
+		owner = NAN
+		add_core_of = NAN
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

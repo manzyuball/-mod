@@ -1,4 +1,8 @@
 ﻿l_english:
+ CSA1:0 "赤の軍隊"
+ CSA2:0 "アメリカ内戦"
+ CSA3:0 "南部参謀本部"
+ CSA4:0 "将軍たちの引き抜き"
  GER_rhineland:0 "国境の刺激"
  GER_rhineland_desc:0 "ドイツは革命の犠牲にいくつかの領土をポーランドに奪われてしまった 国内が安定した今こそ領土を取り戻す時なのだ"
  GER_china_friend:0 "中国との友好"
@@ -155,6 +159,7 @@
  CHI_democracy_desc:0 "中華を統一する為我々は努力を惜しまない"
  CHI_executive_yuan:0 "目指すはヒマラヤ!"
  CHI_executive_yuan_desc:0 "チベットや雲南... 山脈にある軍閥を征服するのは困難だが 我々の辞書には不可能という言葉はない!"
+ CHI_SANGAK:0 "ヒマラヤ登頂への挑戦"
  CHI_constitutional_reform:0 "努力の油"
  CHI_constitutional_reform_desc:0 "幸い我々には土地がある ならば燃料に使える植物を栽培する方が良いだろう"
  CHI_inter_party_coordination_council:0 "永遠の指導者"
@@ -165,6 +170,7 @@
  CHI_judicial_yuan_desc:0 "我々の西にある砂漠はかつて中国であった これらなくして中国は成り立たない"
  CHI_legislative_yuan:0 "アカに死を!"
  CHI_legislative_yuan_desc:0 "毛沢東率いる共産勢力は直ちに滅ぶべきだ"
+ CHI_sensi:0 "中国の戦士"
  CHI_control_yuan:0 "狂った国家"
  CHI_control_yuan_desc:0 "中国は暴走機関車のように とどまるところを知らない!"
  CHI_examination_yuan:0 "実力主義"
@@ -211,3 +217,13 @@
  AUS_lerder11_desc:0 "我が国の民族は平等で徴兵も平等だ"
  AUS_lerder12:0 "狂乱的公共事業"
  AUS_lerder12_desc:0 "金なんて知らん!後で元を回収すれば良い!"
+ HOKUOU_f:0 "北欧の団結"
+ HOKUOU_f_desc:0 "赤い侵略者の前で 相容れない点は今は置いておくべきだ 団結した北欧に乾杯!"
+
+
+
+
+
+
+
+

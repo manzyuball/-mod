@@ -1,5 +1,28 @@
 ideas = {
 	country = {
+		CHI_sensi = {
+			removal_cost = -1
+
+			picture = FRA_scw_intervention_republicans_focus
+
+			modifier = {
+				terrain_penalty_reduction = 0.75
+				army_attack_factor = 0.1
+				army_speed_factor = 0.05
+			}
+		}
+		CHI_SANGAK = {
+			removal_cost = -1
+
+			picture = man_five_year_plan_tank
+
+			modifier = {
+				supply_consumption_factor = -0.60
+				attrition = -0.1
+				army_speed_factor = 0.25
+			}
+		}
+		
 		german_advisors = {
 		
 			allowed = {
@@ -107,9 +130,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_attack_factor = -0.3
-				army_defence_factor = -0.3
-				mobilization_speed = -0.3
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
 			}
 
 		}
@@ -131,9 +153,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_attack_factor = -0.2
-				army_defence_factor = -0.2
-				mobilization_speed = -0.2
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
 			}
 
 		}
@@ -155,9 +176,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_attack_factor = -0.1
-				army_defence_factor = -0.1
-				mobilization_speed = -0.1
+				army_attack_factor = -0.01
 			}
 
 		}
@@ -197,7 +216,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				command_power_gain_mult = -0.7
+				command_power_gain_mult = -0.05
 			}
 
 		}

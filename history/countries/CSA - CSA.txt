@@ -1,10 +1,12 @@
-﻿capital = 361
+﻿capital = 371
 
-oob = "USA_1936"
+oob = "CSA_fascist_uprising"
 
 set_research_slots = 3
 set_stability = 0.75
-set_war_support = 0
+set_war_support = 95
+add_command_power = 20
+add_political_power = 450
 set_variable = { var = senators_support value = 48 }
 set_variable = { var = senators_total value = 96 }
 set_variable = { var = representatives_support value = 218 }
@@ -83,6 +85,12 @@ recruit_character = CSA_jules_pire
 recruit_character = CSA_oscar_michiels
 recruit_character = CSA_yvan_gerard
 
+add_ideas = {
+	CSA1
+	#laws
+	Total_Mobilization
+	Service by_Requirement
+}
 
 1939.1.1 = {
 
@@ -100,8 +108,8 @@ recruit_character = CSA_yvan_gerard
 		USA_prepare_intervention
 
 		#laws
-		isolation
-		volunteer_only
+		Total_Mobilization
+		Service by_Requirement
 
 		new_deal
 	}

@@ -1,0 +1,20 @@
+state={
+	id=995
+	name="STATE_995"
+	provinces={
+		5078 7148 10127 12033 12091 13364 13491 
+	}
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=22556
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

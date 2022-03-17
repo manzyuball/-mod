@@ -32,7 +32,7 @@ load_oob = "ENG_Motorized"
 set_research_slots = 4
 
 set_stability = 0.6
-set_war_support = 0.1
+set_war_support = 0.15
 add_command_power = 20
 
 # Starting tech
@@ -152,6 +152,9 @@ add_ideas = {
 	stiff_upper_lip
 	ENG_the_war_to_end_all_wars
 	george_v
+	ENG_Kyoukou
+	ENG_kuni
+	ENG_loiyalnavy
 }
 	
 
@@ -182,27 +185,27 @@ if = {
 	set_autonomy = {
 		target = SAF
 		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
+		freedom_level = 0.3
 	}
 	set_autonomy = {
 		target = AST
 		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
+		freedom_level = 0.3
 	}
 	set_autonomy = {
 		target = NZL
 		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
+		freedom_level = 0.3
 	}
 	set_autonomy = {
 		target = TZN
 		autonomous_state = autonomy_dominion
-		freedom_level = 0.45
+		freedom_level = 0.1
 	}
 	set_autonomy = {
 		target = EGY
 		autonomous_state = autonomy_dominion
-		freedom_level = 0.45
+		freedom_level = 0.1
 	}
 	else = {
 		puppet = MAL

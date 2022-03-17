@@ -1,0 +1,406 @@
+﻿division_template = {
+	name = "労働民兵"
+
+	division_names_group = USB_INF_04
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "State Defense Force"
+
+	division_names_group = USB_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+
+		infantry = { x = 4 y = 0 }
+		infantry = { x = 4 y = 1 }
+		infantry = { x = 4 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "ニューヨーク労働民兵"
+		location = 3878
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ニューヨーク労働民兵"
+		location = 859
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ニューヨーク労働民兵"
+		location = 3602
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ボストン労働民兵"
+		location = 6732
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ボストン労働民兵"
+		location = 6732
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ボストン労働民兵"
+		location = 9832
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "フィラフィルデア労働民兵"
+		location = 6882
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "首都護衛労働民兵"
+		location = 3957
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "首都護衛労働民兵"
+		location = 3957
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "首都護衛労働民兵"
+		location = 6984
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "首都護衛労働民兵"
+		location = 6823
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}	division = {
+		name = "ピッツバーグ労働民兵"
+		location = 11800
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ピッツバーグ労働民兵"
+		location = 11800
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ピッツバーグ労働民兵"
+		location = 11800
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "デトロイト労働民兵"
+		location = 6710
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "デトロイト労働民兵"
+		location = 6710
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "グリーブランド労働民兵"
+		location = 6890
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "グリーブランド労働民兵"
+		location = 6890
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "グリーブランド労働民兵"
+		location = 6890
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "シカゴ労働民兵"
+		location = 9450
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "シカゴ労働民兵"
+		location = 9450
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ピッツバーグ労働民兵"
+		location = 11800
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "デトロイト労働民兵"
+		location = 6710
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "デトロイト労働民兵"
+		location = 6710
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "グリーブランド労働民兵"
+		location = 6890
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "シカゴ労働民兵"
+		location = 9450
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "シカゴ労働民兵"
+		location = 9450
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ミルウォーキー労働民兵"
+		location = 12357
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ミルウォーキー労働民兵"
+		location = 12357
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ミネアポリス労働民兵"
+		location = 1866
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "ミネアポリス労働民兵"
+		location = 1866
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}	division = {
+		name = "ミネアポリス労働民兵"
+		location = 1866
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 11667
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 10618
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 12597
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 10719
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 1867
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}	division = {
+		name = "国境部労働民兵"
+		location = 12577
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 12464
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 9892
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 10666
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 1678
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 1586
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 12365
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 7831
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 954
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 11621
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 4601
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 971
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 3082
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "国境部労働民兵"
+		location = 3829
+		division_template = "労働民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+}

@@ -216,10 +216,10 @@ characters={
 					original_tag  = ALG
 				}
 				traits  = {
-					army_chief_defensive_2 
+					army_chief_defensive_3
 				}
 				ai_will_do  = {
-					factor  = 1.000
+					factor  = 5.000
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
@@ -277,6 +277,18 @@ characters={
 			}
 		}
 	}
+	Mouloud_Feraoun = {
+	corps_commander = {
+		traits = { infantry_leader trickster ambusher guerilla_fighter }
+		skill = 7
+		attack_skill = 3
+		defense_skill = 5
+		planning_skill = 3
+		logistics_skill = 3
+		legacy_id = 190
+		visible = { tag = ARG }
+	}
+    }
 	ALG_ncs={
 		advisor={
 			slot = high_command

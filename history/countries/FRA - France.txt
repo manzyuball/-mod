@@ -28,7 +28,8 @@ if = {
 }
 
 set_research_slots = 4
-set_stability = 0.5
+set_stability = 0.7
+set_war_support = 0.85
 add_command_power = 20
 
 
@@ -175,7 +176,7 @@ if = {
 	complete_national_focus = FRA_invest_in_the_metropole
 
 	give_guarantee = POL
-	ENG = { add_to_faction = FRA }
+
 
 	
 	if = {
@@ -312,19 +313,17 @@ add_ideas = {
 	FRA_political_violence
 	FRA_inefficient_economy_2
 }
-GER = { add_to_faction = FRA }
+
+create_faction = "世界革命連合"
+add_to_faction = FRA
 
 declare_war_on = {
 	target = ALG
 	type = annex_everything
-
-
-
 }
-
 give_guarantee = ITA
 give_guarantee = GER
-
+give_guarantee = HOL
 
 recruit_character = FRA_philippe_petain
 recruit_character = FRA_maurice_thorez

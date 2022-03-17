@@ -2,7 +2,7 @@ state={
 	id=867
 	name="STATE_867"
 	provinces={
-		848 1003 4052 4107 6928 7070 7155 7171 9981 10065 10083 11770 11915 12040 
+		848 6928 7070 7155 7171 9981 10065 10083 11770 11915 12040 13293 13294
 	}
 	history={
 		owner = JAP
@@ -10,9 +10,6 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 
-		}
-		victory_points = {
-			4052 5
 		}
 		add_core_of = KOR
 

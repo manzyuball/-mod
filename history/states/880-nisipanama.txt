@@ -4,8 +4,12 @@ state={
 	provinces={
 		1633 4611 4624 
 	}
+	resources={
+		BRONZE=31
+		COCA=21
+	}
 	history={
-		owner = HON
+		owner = PAN
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -17,7 +21,6 @@ state={
 			}
 		}
 		add_core_of = PAN
-		add_core_of = HON
 
 	}
 

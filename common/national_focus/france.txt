@@ -489,6 +489,8 @@
 			show_ideas_tooltip = maxime_weygand
 		}
 	}
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = FRA_firepower_kills
 		icon = GFX_goal_generic_army_artillery
@@ -925,6 +927,8 @@
 			add_ideas = { FRA_air_dominance }
 		}
 	}
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = FRA_cas_focus
 		icon = GFX_goal_generic_CAS
@@ -1069,7 +1073,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10000
 		}
 
 		available = {
@@ -1106,7 +1110,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -1290,7 +1294,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10090
 		}
 
 		available = {
@@ -1305,8 +1309,9 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		search_filters = {FOCUS_FILTER_FRA_POLITICAL_VIOLENCE }
-		completion_reward = {
+		completion_reward = { 
 			remove_ideas = { FRA_political_violence }
+			remove_ideas = { FRA_disjointed_government }
 			set_temp_variable = { FRA_rw_support = party_popularity@neutrality }
 			add_to_temp_variable = { FRA_rw_support = party_popularity@fascism }
 			multiply_temp_variable = { FRA_rw_support = -0.5 }
@@ -1327,7 +1332,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -1358,13 +1363,13 @@
 		x = 0
 		y = 1
 		prerequisite = {
-			focus = FRA_nationalize_key_industry
+			focus = FRA_expand_the_citizenship
 		}
 		relative_position_id = FRA_expand_the_citizenship
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -1396,7 +1401,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {

@@ -1,0 +1,20 @@
+state={
+	id=984
+	name="STATE_984"
+	provinces={
+		7770 12519 
+	}
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SAF
+		add_core_of = NMB
+	}
+	manpower=97536
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

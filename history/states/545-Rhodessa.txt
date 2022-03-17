@@ -1,8 +1,6 @@
+
 state={
 	id=545
-	
-	state_category = pastoral
-	
 	name="STATE_545"
 
 	history={
@@ -15,13 +13,14 @@ state={
 			10929 1 
 		}
 		add_core_of = ZIM
+
 	}
 
 	provinces={
-		1874 2151 2216 4851 7842 10929
+		1874 2151 2216 4851 7842 10929 13918 
 	}
 	manpower=1171336
 	buildings_max_level_factor=1.000
-
-	local_supplies=3.0 
+	state_category=pastoral
+	local_supplies=3.000
 }

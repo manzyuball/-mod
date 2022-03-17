@@ -1,0 +1,32 @@
+state={
+	id=998
+	name="STATE_998"
+	provinces={
+		7162 10026 10091 11921 11969 
+	}
+	history={
+		owner = ALG
+		add_core_of = TUN
+		victory_points = {
+			11969 10 
+		}
+		victory_points = {
+			11921 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 8
+			11969 = {
+				naval_base = 8
+
+			}
+
+		}
+
+	}
+	manpower=982940
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

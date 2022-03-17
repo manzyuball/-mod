@@ -6,8 +6,7 @@ state=
 	
 	state_category = rural
 	
-	history=
-	{
+	history= {
 		owner = ETH
 		add_core_of = ERI
 		add_core_of = ETH
@@ -23,7 +22,7 @@ state=
 		}
 	}
 	provinces={
-		5017 5047 5091 8043 12723 12766
+		5017 5047 5091 8043 12723 12766 13325
 	}
 
 	local_supplies=0.0 

@@ -5,6 +5,9 @@ state={
 	manpower = 475020
 	
 	state_category = rural
+	resources={
+		BRONZE=19
+	}
 
 	history={
 		owner = CAN

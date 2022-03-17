@@ -16,7 +16,7 @@ characters = {
 		name = SOV_iosif_stalin
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
+				large = "gfx/leaders/SOV/Portrait_Soviet_Starlin.dds.dds"
 			}
 			army = {
 				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"

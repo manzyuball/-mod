@@ -1,0 +1,134 @@
+ideas = {
+	country = {
+		BRA_kyoukou = {
+			removal_cost = -1
+			picture = great_depression
+			modifier = {
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.20
+				industrial_capacity_dockyard = -0.20
+			}
+		}
+		BRA_mayaku = {
+			removal_cost = -1
+			picture = prc_permit_opium_trade
+			modifier = {
+                political_power_factor = -0.25
+                stability_weekly = -0.01
+			}
+		}
+		BRA_tasimonndai = {
+			removal_cost = -1
+			picture = isolation
+			modifier = {
+                global_building_slots_factor = -0.25
+                stability_factor = -0.25
+                MONTHLY_POPULATION = -0.15
+			}
+		}
+
+		BRA_mayaku1 = {
+			removal_cost = -1
+			picture = prc_permit_opium_trade
+			modifier = {
+                political_power_factor = -0.15
+			}
+		}
+
+		BRA_pro_gun = {
+			removal_cost = -1
+			picture = ger_revive_the_kaiserreich
+			modifier = {
+				training_time_army_factor = 0.15
+				army_org_Factor = 0.2
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+		BRA_kyoukou1 = {
+			removal_cost = -1
+			picture = great_depression
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+			}
+		}
+		BRA_4kanenn = {
+			removal_cost = -1
+			picture = POL_succesful_four_year_plan
+			modifier = {
+				consumer_goods_factor = -0.1
+                production_speed_buildings_factor = 0.1
+			}
+		}
+		BRA_keizai = {
+			removal_cost = -1
+			picture = generic_export_focus
+			modifier = {
+				political_power_factor = 0.05
+				global_building_slots_factor = 0.15
+			}
+		}
+		BRA_keizai1 = {
+			removal_cost = -1
+			picture = generic_export_focus
+			modifier = {
+				political_power_factor = 0.05
+				global_building_slots_factor = 0.15
+				production_speed_infrastructure_factor = 0.35
+			}
+		}
+		BRA_keizai2 = {
+			removal_cost = -1
+			picture = generic_export_focus
+			modifier = {
+				political_power_factor = 0.05
+				global_building_slots_factor = 0.15
+				production_speed_infrastructure_factor = 0.35
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		BRA_gaiko = {
+			removal_cost = -1
+			picture = SOV_scientist_defect
+			modifier = {
+				improve_relations_maintain_cost_factor = -0.75
+				opinion_gain_monthly_factor = 0.35
+				opinion_gain_monthly_same_ideology_factor = 0.5
+			}
+		}
+		BRA_gaiko1 = {
+			removal_cost = -1
+			picture = SOV_scientist_defect
+			modifier = {
+				democratic_acceptance = 85
+				improve_relations_maintain_cost_factor = -0.75
+				opinion_gain_monthly_factor = 0.35
+				opinion_gain_monthly_same_ideology_factor = 0.5
+			}
+		}
+		BRA_bra = {
+			removal_cost = -1
+			picture = generic_constitutional_guarantee
+			modifier = {
+				
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+	
+}

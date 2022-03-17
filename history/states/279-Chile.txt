@@ -8,6 +8,7 @@ state={
 	
 	resources={
 		steel=16 # was: 24
+		SILVER=18
 	}
 
 	history={
@@ -29,13 +30,13 @@ state={
 		}
 		add_core_of = CHL
 		victory_points = {
-			650 10
+			650 25
 		}
 
 	}
 
 	provinces={
-		650 5121 5169 5191 8194 8222 8229 8251 12920 12954 12984 
+		650 5121 5169 5191 8194 8222 8229 8251 12920 12954 12984 13490 
 	}
 
 	local_supplies=0.0 

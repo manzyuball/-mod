@@ -4,7 +4,7 @@ state={
 	name="STATE_212"
 	manpower = 1814936
 	
-	state_category = large_town
+	state_category=large_city
 
 	resources={
 		chromium = 1
@@ -31,7 +31,7 @@ state={
 	}
 
 	provinces={
-		878 893 3937 6814 6857 6923 6952 6982 9818 9862 11813 
+		878 893 3937 6814 6857 6923 6952 6982 9818 9862 11813 13317 13320 
 	}
 
 	local_supplies=5.0 

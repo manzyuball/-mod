@@ -2,8 +2,8 @@
 
 
 
-set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
-set_war_support = 0.8
+set_stability = 0.3 #baseline, THE EMPEROR PROTECTS
+set_war_support = 0.3
 
 set_research_slots = 4
 set_fuel_ratio = 1.0
@@ -12,79 +12,22 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-
+	JES
+	High_night_vision
+	The_Fourth_Fleet_Incident
+	disaster_prone_countries
+	A_double_research_system
+	Shared_shells
+	to_kikan
+	Oxygen_torpedoes
+	Sea_Power_State
+	Type_91_armour_piercing_ammunition
+	Preservation_of_old_ships
+	Magic_transformation
 	JAP_zaibatsus
 	JAP_duplicate_research_efforts
 	JAP_militarism
-}
-
-609 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-527 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-525 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-745 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-524 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-647 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-684 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-633 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-if = {
-	limit = { has_dlc = "Waking the Tiger" }
-	add_ideas = {
-		JAP_interservice_rivalry_balanced		
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = MTG_naval_treaty_adherent
+	Kyoukou
 }
 
 set_technology = {
@@ -429,7 +372,7 @@ give_guarantee = VLA
 give_guarantee = VIN
 
 
-recruit_character = JAP_tetsu_katayama
+recruit_character = JAP_Shidehara
 recruit_character = JAP_kyuichi_tokuda
 recruit_character = JAP_emperor_hirohito
 recruit_character = JAP_tomoyuki_yamashita
@@ -510,7 +453,7 @@ if = {
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
-		nationalities = { MAN JAP CHI }
+		nationalities = { MAN JAP MEN MON GXC TAN YUN XSM PRC CHI }
 	}
 
 	create_operative_leader = {

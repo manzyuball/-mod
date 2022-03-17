@@ -1,0 +1,24 @@
+state={
+	id=989
+	name="STATE_989"
+	provinces={
+		709 751 4854 5205 10599 
+	}
+	history={
+		owner = USB
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+		}
+		add_core_of = USA
+		add_core_of = USB
+		add_core_of = CSA
+
+	}
+	manpower=542323
+	buildings_max_level_factor=1.000
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

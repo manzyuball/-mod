@@ -60,7 +60,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 3
+			factor = 100
 		}
 
 		available = {
@@ -96,7 +96,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 100
 		}
 
 		available = {
@@ -135,7 +135,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 4
+			factor = 100
 		}
 
 		available = {
@@ -174,7 +174,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 100
 		}
 
 		available = {
@@ -210,7 +210,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 4100
 		}
 
 		available = {
@@ -231,7 +231,7 @@
 
 		search_filters = { FOCUS_FILTER_STABILITY }
 		completion_reward = {
-			add_offsite_building = { type = arms_factory level = 6 }
+			add_offsite_building = { type = arms_factory level = 9 }
 		}
 	}
 
@@ -246,7 +246,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -290,7 +290,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -331,14 +331,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			amount_research_slots < 5
-			NOT = {
-				has_idea = CHI_hyper_inflation_5
-			}
+			factor = 1100
 		}
 
 		bypass = {
@@ -380,7 +373,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -417,7 +410,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -454,7 +447,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 0.5
 		}
 
 		available = {
@@ -491,7 +484,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -523,7 +516,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -563,7 +556,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -600,7 +593,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -632,7 +625,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -649,6 +642,10 @@
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			modify_timed_idea = {
+				idea = CHI_SANGAK
+				days = 100
+				}
 			create_wargoal = {
 				type = annex_everything
 				target = YUN
@@ -660,6 +657,7 @@
 					add_state_core = 322
 					add_state_core = 758
 					add_state_core = 757
+					
 		}
 	}
 
@@ -675,7 +673,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -710,7 +708,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 4
+			factor = 4100
 		}
 
 		available = {
@@ -768,7 +766,7 @@
 		cost = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		available = {
@@ -815,12 +813,6 @@
 
 		ai_will_do = {
 			factor = 4
-		}
-
-		available = {
-			NOT = {
-				has_idea = CHI_army_corruption_1
-			}		
 		}
 
 		bypass = {
@@ -881,13 +873,6 @@
 
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			NOT = {
-				has_idea = CHI_army_corruption_2
-			}
-			has_defensive_war = yes
 		}
 
 		bypass = {
@@ -962,9 +947,7 @@
 		available = {
 			OR = {
 				has_war_with = JAP
-				has_war_with = MAN
 			}
-			has_country_flag = CHI_lessons_of_war_completed
 		}
 
 		bypass = {
@@ -1057,7 +1040,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 5
 		}
 
 		available = {
@@ -1089,7 +1072,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 41
 		}
 
 		available = {
@@ -1162,7 +1145,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 110
 		}
 
 		available = {
@@ -1227,7 +1210,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 4100
 		}
 
 		available = {
@@ -1264,7 +1247,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 4
+			factor = 4100
 		}
 
 		bypass = {
@@ -1292,7 +1275,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 1100
 		}
 
 		bypass = {
@@ -1320,7 +1303,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 4100
 		}
 
 		available = {
@@ -1563,7 +1546,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 4
+			factor = 1
 		}
 
 		available = {

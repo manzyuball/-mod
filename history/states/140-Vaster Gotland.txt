@@ -2,8 +2,8 @@
 state={
 	id=140
 	name="STATE_140"
-	manpower = 1282827
-	state_category = large_town
+	manpower = 2282827
+	state_category = large_city
 	
 	resources={
 		steel=6 # was: 10
@@ -16,12 +16,12 @@ state={
 			11114 1 
 		}
 		victory_points = {
-			383 15 
+			383 20 
 		}
 		buildings = {
 			infrastructure = 3 #was: 6
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 3
+			industrial_complex = 5
 			dockyard = 1
 			air_base = 1
 			383 = {
@@ -34,7 +34,7 @@ state={
 	
 	
 	provinces={
-		69 147 171 295 383 3063 3128 3141 3286 3375 3386 6028 6195 6310 6331 6406 9054 9138 9218 11070 11114 13096 
+		69 147 171 295 383 3063 3128 3141 3286 3375 3386 6028 6195 6310 6331 6406 9054 9138 9218 11070 11114 
 	}
 
 	local_supplies=0.0 

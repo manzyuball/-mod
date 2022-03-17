@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Volunteer Brigade"
+	name = "アメリカ解放軍"
 
 	division_names_group = CSA_INF_01
 
@@ -7,202 +7,361 @@
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
 	}
 }
 
 division_template = {
-	name = "Volunteer Cavalry"
+	name = "国民民兵隊"
 
 	division_names_group = CSA_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
-
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
 	}
 }
 
 units = {
 	division = {
-		name = "1. Virginia Volunteers"
-		location = 10412  # 
-		division_template = "Volunteer Brigade"
+		name = "リー隊"
+		location = 7552
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "2. Virginia Volunteers"
-		location = 10412  # 
-		division_template = "Volunteer Brigade"
+		name = "リー隊"
+		location = 7552  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "3. Virginia Volunteers"
-		location = 10412  # 
-		division_template = "Volunteer Brigade"
+		name = "リー隊"
+		location = 7552  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "1. Norfolk Volunteers"
-		location = 788  # 
-		division_template = "Volunteer Brigade"
+		name = "リー隊"
+		location = 7552  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "2. Norfolk Volunteers"
-		location = 788  # 
-		division_template = "Volunteer Brigade"
+		name = "リー隊"
+		location = 11975  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "3. Norfolk Volunteers"
-		location = 788  # 
-		division_template = "Volunteer Brigade"
+		name = "リー隊"
+		location = 11975  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "1. Virginia Irregulars"
-		location = 7558  # 
-		division_template = "Volunteer Brigade"
+		name = "リー隊"
+		location = 11975  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "2. Virginia Irregulars"
-		location = 7558  # 
-		division_template = "Volunteer Brigade"
+		name = "リー隊"
+		location = 11975  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "3. Virginia Irregulars"
-		location = 7558  # 
-		division_template = "Volunteer Brigade"
+		name = "リー隊"
+		location = 11975  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "1. Charlotte Rifles"
-		location = 7138  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンソン隊"
+		location = 10740  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "2. Charlotte Rifles"
-		location = 7138  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンソン隊"
+		location = 10894  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "3. Charlotte Rifles"
-		location = 7138  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンソン隊"
+		location = 4955  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "1. Tennessee Irregulars"
-		location = 12501  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンソン隊"
+		location = 10740  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "2. Tennessee Irregulars"
-		location = 12501  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンソン隊"
+		location = 10894  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "3. Tennessee Irregulars"
-		location = 12501  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンソン隊"
+		location = 4955  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "1. Tennesee Citizen Regiment"
-		location = 10657  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンソン隊"
+		location = 1998  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "2. Tennesee Citizen Regiment"
-		location = 10657  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンソン隊"
+		location = 9908  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "3. Tennesee Citizen Regiment"
-		location = 10657  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンソン隊"
+		location = 12893  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "1. Florida Volunteers"
-		location = 12353  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンストン隊"
+		location = 4955  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "2. Florida Volunteers"
-		location = 12353  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンストン隊"
+		location = 7762  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "3. Florida Volunteers"
-		location = 12353  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンストン隊"
+		location = 10798  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "1. Birmingham Rifles"
-		location = 12735  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンストン隊"
+		location = 7904  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "2. Birmingham Rifles"
-		location = 12735  # 
-		division_template = "Volunteer Brigade"
+		name = "ジョンストン隊"
+		location = 1806  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "3. Birmingham Rifles"
-		location = 12735  # 
-		division_template = "Volunteer Brigade"
+		name = "ブラッグ隊"
+		location = 4567  # 
+		division_template = "アメリカ解放軍"
 	}
 	division = {
-		name = "1. Georgia Marksmen"
+		name = "ブラッグ隊"
+		location = 1646  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ブラッグ隊"
+		location = 7797  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ブラッグ隊"
+		location = 12502  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ブラッグ隊"
+		location = 901  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 913  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 8083  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 8014  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 7045  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 9876  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 913  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 8083  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 8014  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 7045  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "ボーリガード隊"
+		location = 9876  # 
+		division_template = "アメリカ解放軍"
+	}
+	division = {
+		name = "第三民兵"
+		location = 7388  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 1843  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 1572  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 7388  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 1843  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 1572  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 7388  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 1843  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 1572  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 1132  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 7202  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 11975  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 1132  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 7202  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 11975  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 1132  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 7202  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 11975  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
 		location = 12384  # 
-		division_template = "Volunteer Brigade"
+		division_template = "国民民兵隊"
 	}
 	division = {
-		name = "2. Georgia Marksmen"
+		name = "第三民兵"
+		location = 12735  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 492  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
 		location = 12384  # 
-		division_template = "Volunteer Brigade"
+		division_template = "国民民兵隊"
 	}
 	division = {
-		name = "3. Georgia Marksmen"
+		name = "第三民兵"
+		location = 12735  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
+		location = 492  # 
+		division_template = "国民民兵隊"
+	}
+	division = {
+		name = "第三民兵"
 		location = 12384  # 
-		division_template = "Volunteer Brigade"
+		division_template = "国民民兵隊"
 	}
 	division = {
-		name = "1. Coastal Guards"
-		location = 4464  # 
-		division_template = "Volunteer Brigade"
+		name = "第三民兵"
+		location = 12735  # 
+		division_template = "国民民兵隊"
 	}
 	division = {
-		name = "2. Coastal Guards"
-		location = 4464  # 
-		division_template = "Volunteer Brigade"
+		name = "第三民兵"
+		location = 492  # 
+		division_template = "国民民兵隊"
 	}
-	division = {
-		name = "3. Coastal Guards"
-		location = 4464  # 
-		division_template = "Volunteer Brigade"
-	}
-	division = {
-		name = "1. Texas Mounted Rifles"
-		location = 3960  # 
-		division_template = "Volunteer Cavalry"
-	}
-	division = {
-		name = "2. Texas Mounted Rifles"
-		location = 3960  # 
-		division_template = "Volunteer Cavalry"
-	}
-	division = {
-		name = "3. Texas Mounted Rifles"
-		location = 3960  # 
-		division_template = "Volunteer Cavalry"
-	}
-	division = {
-		name = "1. Volunteer Mounted Rifles"
-		location = 12489  # 
-		division_template = "Volunteer Cavalry"
-	}
-	division = {
-		name = "2. Volunteer Mounted Rifles"
-		location = 12489  # 
-		division_template = "Volunteer Cavalry"
-	}
-	division = {
-		name = "3. Volunteer Mounted Rifles"
-		location = 12489  # 
-		division_template = "Volunteer Cavalry"
-	}
+
+
 }

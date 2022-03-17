@@ -1,0 +1,166 @@
+﻿division_template = {
+	name = "蜂起軍"				# Infantry Brigade
+
+	division_names_group = HUN_INF_05
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+units = {
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 9660
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 619
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 9606
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 6711
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 3696
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 746
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 3581
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 11539
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 9692
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 11581
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 11627
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 682
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 6700
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 730
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 690
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 555
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 730
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 9660
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 6685
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 9640
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 619
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 11539
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 9595
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 13376
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "ハンガリー蜂起軍"
+		location = 9676
+		division_template = "蜂起軍"
+		start_experience_factor = 0.1
+	}
+}

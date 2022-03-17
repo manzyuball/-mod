@@ -2,7 +2,7 @@ state={
 	id=877
 	name="STATE_877"
 	provinces={
-		665 6672 
+		596 665 6672 
 	}
 	history={
 		owner = AUS

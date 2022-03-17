@@ -1,10 +1,7 @@
 
 state={
 	id=460
-	name="STATE_460" # Constantine
-	manpower = 2343837
-	
-	state_category = town
+	name="STATE_460"
 
 	history={
 		owner = ALG
@@ -13,19 +10,26 @@ state={
 			7081 1 
 		}
 		victory_points = {
-			12051 3 
+			12051 15 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 2
 			7081 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		1058 1160 4046 7065 7081 7166 9976 10078 11953 12051 13077 
+		1160 4046 7081 7166 10078 12051 
 	}
-
-	local_supplies=0.0 
+	manpower=2343837
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

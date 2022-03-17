@@ -1,0 +1,28 @@
+state={
+	id=980
+	name="STATE_980"
+	provinces={
+		13303 
+	}
+	history={
+		owner = CUB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			1550 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CUB
+		victory_points = {
+			13303 3 
+		}
+
+	}
+	manpower=64215
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

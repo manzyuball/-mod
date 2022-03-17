@@ -5,7 +5,7 @@ state={
 		3677 3678 9671
 	}
 	history={
-		owner = USA
+		owner = USN
 		buildings = {
 			infrastructure = 3
 			dockyard = 2
@@ -20,6 +20,7 @@ state={
 		add_core_of = USA
 		add_core_of = USB
 		add_core_of = CSA
+		add_core_of = USN
 		victory_points = {
 			9671 25 
 		}

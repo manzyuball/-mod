@@ -2,19 +2,15 @@
 state={
 	id=763
 	name="STATE_763"
-	manpower = 2140234
-	state_category = city
 
 	history={
 		owner = POL
 		controller = POL
-		
 		victory_points = {
 			6332 10 
 		}
-
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 			industrial_complex = 2
 			6332 = {
 				bunker = 1
@@ -26,18 +22,24 @@ state={
 
 			}
 			air_base = 6
+
 		}
 		add_core_of = POL
 		1939.1.1 = {
 			buildings = {
 				anti_air_building = 5
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		281 348 395 3384 6332 11265
+		281 348 395 3384 6332 11265 13568 13591 13762 13763 13764 
 	}
-
-	local_supplies=0.0 
+	manpower=2140234
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

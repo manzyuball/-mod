@@ -1,0 +1,23 @@
+state={
+	id=996
+	name="STATE_996"
+	provinces={
+		7005 11957 
+	}
+	history={
+		owner = ALG
+		add_core_of = TUN
+		victory_points = {
+			7005 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=277824
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

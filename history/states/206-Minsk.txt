@@ -4,7 +4,7 @@ state={
 	name="STATE_206"
 	manpower =  1163163
 	
-	state_category = city
+	state_category = metropolis
 
 	history={
 		owner = SOV
@@ -16,7 +16,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			industrial_complex = 7
+			arms_factory = 2
 			air_base = 8
 		}
 		add_core_of = SOV

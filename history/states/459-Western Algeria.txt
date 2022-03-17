@@ -3,10 +3,11 @@ state={
 	id=459
 	name="STATE_459" # Algiers
 	manpower = 3089944
-	state_category = town
+	state_category = city
 	
 	resources={
 		steel=26 # was: 36
+		JEWELLERY=12
 	}
 
 	history={
@@ -26,7 +27,7 @@ state={
 				naval_base = 2
 			}
 			7132 = {
-				naval_base = 6
+				naval_base = 8
 			}
 		}
 	}

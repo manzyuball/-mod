@@ -1,0 +1,19 @@
+state={
+	id=1010
+	name="STATE_1010"
+	provinces={
+		49 77 114 156 3045 3070 3148 6093 9117 9182 9193 11091 11147 11197 
+	}
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = SWE
+	}
+	manpower=326231
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

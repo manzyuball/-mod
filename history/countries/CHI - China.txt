@@ -47,12 +47,17 @@ recruit_character = CHI_soong_mei_ling
 recruit_character = CHI_random_prince_of_terror
 recruit_character = CHI_lin_sen
 
+set_research_slots = 3
 set_stability = 0.4
-set_war_support = 0.3
+set_war_support = 0.6
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
+	motorised_infantry = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
 	interwar_antiair = 1
 	early_fighter = 1
 	early_bomber = 1
@@ -101,6 +106,7 @@ if = {
 	}
 	add_ideas = {
 		CHI_communist_uprisings
+		CHI_sensi
 	}
 }
 
@@ -115,6 +121,7 @@ if = {
 		CHI_incompetent_officers
 		free_trade
 		CHI_hyper_inflation_1
+		CHI_sensi
 	}
 }
 save_global_event_target_as = WTT_current_china_leader
@@ -174,7 +181,7 @@ set_convoys = 40
 		CHI_chen_shaokuan
 		jiangnan_shipyard_group
 		camco
-
+		CHI_sensi
 	}
 	if = {
 		limit = {

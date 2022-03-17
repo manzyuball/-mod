@@ -1,0 +1,26 @@
+#AUS
+AUS_decisions = {
+ icon = SOV_propaganda
+ visible = {
+	has_government = fascism
+ }
+}
+#SWE
+SWE_decisions = {
+	icon = generic
+	visible = {
+		has_country_flag = kab
+	}
+}
+   syuto = {
+	icon = usa_congress
+	visible = {
+		has_country_flag = syut
+	}
+   }
+   kigyou = {
+	icon = generic_democracy
+	visible = {
+	has_country_flag = kigyou1
+	}
+   }

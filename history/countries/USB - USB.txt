@@ -1,10 +1,11 @@
 ﻿capital = 361
 
-oob = "USA_1936"
+oob = "USB_1936"
 
 set_research_slots = 4
 set_stability = 0.75
-set_war_support = 0.5
+set_war_support = 0.85
+add_political_power = 450
 set_variable = { var = senators_support value = 48 }
 set_variable = { var = senators_total value = 96 }
 set_variable = { var = representatives_support value = 218 }
@@ -19,6 +20,8 @@ set_technology = {
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
 	gw_artillery = 1
 	early_fighter = 1
 	cv_early_fighter = 1
@@ -84,9 +87,8 @@ recruit_character = USB_jules_iserentant
 		USA_prepare_intervention
 
 		#laws
-		isolation
-		volunteer_only
-
+		War_Economy
+		Extensive_Conscription
 		new_deal
 	}
 

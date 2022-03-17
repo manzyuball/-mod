@@ -21,6 +21,29 @@ division_template = {
 	}
 }
 division_template = {
+	name = "州兵"  	# Standard formation for frontline divisions
+
+	division_names_group = USA_INF_07
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
 	name = "National Guard Division"  	# Standard formation for NG divisions through late 1940
 
 	division_names_group = USA_INF_01
@@ -99,388 +122,415 @@ division_template = {
 
 ###### OOB ######
 units = {
-	####### CONUS Theater #######
-	### Carribean Forces ###
-	division = {			
-		name = "Puerto Rico Department"
-		location = 1440
-		division_template = "Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
-
-	}			
-	division = {			
-		name = "Panama Canal Force"		
-		location = 7617
-		division_template = "Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
-
-	}
-
-	### 1st Army -- note: Armies only paper organizations in 1936 ###
-	# I Army Corps #
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 26
-		}
-		location = 6732
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 43
-		}
-		location = 6732
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	# II Army Corps #
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 3878
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 27
-		}
-		location = 3878
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 44
-		}
-		location = 3878
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	# III Army Corps #
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 28
-		}
-		location = 6984
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 29
-		}
-		location = 6984
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-
-
-	### 2nd Army -- note: Armies only paper organizations in 1936 ###
-	# V Army Corps #
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 37
-		}
-		location = 6855
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 38
-		}
-		location = 6855
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	# VI Army Corps #
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 32
-		}
-		location = 9450
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 33
-		}
-		location = 9450
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-
-
-	### 3rd Army -- note: Armies only paper organizations in 1936 ###
-	# IV Army Corps #
-	division = {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 30
-		}
-		location = 12384
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 31
-		}
-		location = 12384
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	# VIII Army Corps #
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 12782
-		division_template = "Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 36
-		}
-		location = 12782
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 45
-		}
-		location = 12782
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 12782
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.3
-	}			
-					
-	### 4th Army -- note: Armies only paper organizations in 1936 ###
-	# VII Army Corps (CO: Bishop) #
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 34
-		}
-		location = 12586
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 35
-		}
-		location = 12586
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	# IX Army Corps (CO: DeWitt) #
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 9671
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
-	}			
-	division = {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 40
-		}
-		location = 9671
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 41
-		}
-		location = 9671
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-					
-
-	####### Pacific Theater	#######
-	### Alaska Defense Command ###
-	division = {			
-		name = "Alaska Defense Command"		
-		location = 13091
-		division_template = "Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
-
-	}			
-	division= {			
-		name = "Attu Island Garrison"		
-		location = 13067
-		division_template = "Garrison Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
-
-	}
-			
-	### Hawaiian Department ###
-	division = {			
-		name = "Hawaiian Division"		
-		location = 4180
-		division_template = "National Guard Division"		# older equipment, less training than NG division
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-
-	# North Pacific Defenses #
-	division= {				
-		name = "Midway Island Garrison"			
-		location = 13052
-		division_template = "Garrison Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
-
-	}				
-	division= {				
-		name = "Wake Island Garrison"			
-		location = 13047
-		division_template = "Garrison Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
-
-	}				
-	division= {				
-		name = "Guam Garrison"			
-		location = 12140
-		division_template = "Garrison Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
-
-	}				
 	
-	# South Pacific Defenses #
-	division= {			
-		name = "Christmas Island Garrison"		
-		location = 13048
-		division_template = "Garrison Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
 
-	}			
-	division= {			
-		name = "Jarvis Island Garrison"		
-		location = 13049
-		division_template = "Garrison Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
-
-	}			
-	division= {			
-		name = "Palmyra Garrison"		
-		location = 13050
-		division_template = "Garrison Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
-
-	}			
-	division= {			
-		name = "Phoenix Island Garrison"		
-		location = 13053
-		division_template = "Garrison Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
-
-	}			
-	division= {			
-		name = "Johnston Island Garrison"		
-		location = 13051
-		division_template = "Garrison Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
-
-	}			
-
-	### U.S. Army Forces in the Far East ###		
-	division = {										
-		name = "Philippine Division"			
-		location = 10265
-		division_template = "Infantry Division"			# older equipment, less training than NG division
+	division = {			
+		name = "オレゴン州兵"
+		location = 12211
+		division_template = "州兵"
+		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+	}
+	division = {			
+		name = "オレゴン州兵"
+		location = 4274
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+	}
+	division = {			
+		name = "ワシントン州兵"
+		location = 10327
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
 
-	}				
-}
+	}
+	division = {			
+		name = "ワシントン州兵"
+		location = 7414
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ワシントン州兵"
+		location = 7442
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カルフォルニア州兵"
+		location = 3588
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カルフォルニア州兵"
+		location = 1440
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カルフォルニア州兵"
+		location = 9713
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カルフォルニア州兵"
+		location = 4518
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カルフォルニア州兵"
+		location = 10387
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カルフォルニア州兵"
+		location = 7986
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カルフォルニア州兵"
+		location = 986
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カルフォルニア州兵"
+		location = 3637
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カルフォルニア州兵"
+		location = 1432
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ネバダ州兵"
+		location = 10591
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "アリゾナ州兵"
+		location = 10573
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "アリゾナ州兵"
+		location = 11814
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "アリゾナ州兵"
+		location = 3834
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ニューメキシコ州兵"
+		location = 4975
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ニューメキシコ州兵"
+		location = 2102
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ニューメキシコ州兵"
+		location = 10867
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ニューメキシコ州兵"
+		location = 12720
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ニューメキシコ州兵"
+		location = 3867
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ニューメキシコ州兵"
+		location = 12791
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ユタ州兵"
+		location = 3867
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ユタ州兵"
+		location = 4865
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+		division = {			
+		name = "ユタ州兵"
+		location = 13153
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "アイダホ州兵"
+		location = 12535
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ユタ州兵"
+		location = 9616
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ユタ州兵"
+		location = 1832
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "モンタナ州兵"
+		location = 10624
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "モンタナ州兵"
+		location = 4860
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ノースダコタ州兵"
+		location = 4759
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ノースダコタ州兵"
+		location = 3719
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ノースダコタ州兵"
+		location = 1870
+		division_template = "州兵"
+		start_equipment_factor= 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ノースダコタ州兵"
+		location = 10685
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "サウスダコタ州兵"
+		location = 4880
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "サウスダコタ州兵"
+		location = 12667
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "サウスダコタ州兵"
+		location = 10595
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ネブラスカ州兵"
+		location = 1832
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ネブラスカ州兵"
+		location = 12586
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ネブラスカ州兵"
+		location = 10676
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カンザス州兵"
+		location = 4740
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カンザス州兵"
+		location = 4586
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カンザス州兵"
+		location = 9802
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ミズーリ州兵"
+		location = 4569
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ミズーリ州兵"
+		location = 4569
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ミズーリ州兵"
+		location = 10717
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ミズーリ州兵"
+		location = 1534
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ケンタッキー州兵"
+		location = 9727
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "バージニア州兵"
+		location = 788
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+
 	
 	
 air_wings = {
@@ -500,7 +550,7 @@ air_wings = {
 	}
 
 	### 2 USAAF Wing -- Norfolk
-	362 = { 
+	386 = { 
 		# 1st Pursuit Group 
 		# 8th Pursuit Group 
 		fighter_equipment_0 =  {
@@ -516,7 +566,7 @@ air_wings = {
 	}
 
 	### 3 USAAF Wing -- Louisiana
-	371 = { 
+	362 = { 
 		# 20th Pursuit Group 
 		fighter_equipment_0 =  {
 			owner = "USA" 
@@ -529,33 +579,7 @@ air_wings = {
 		}
 	}
 
-	### 18th Composite Wing -- Hawaii
-	629 = { 
-		# 18th Pursuit Group 
-		fighter_equipment_0 =  {
-			owner = "USA" 
-			amount = 48
-		}
-		# 5th Composite Group 
-		tac_bomber_equipment_0 = {
-			owner = "USA" 
-			amount = 36
-		}
-	}
-
 	### 19th Composite Wing -- Panama Canal
-	685 = { 
-		# 16th Pursuit Group 
-		fighter_equipment_0 =  {
-			owner = "USA" 
-			amount = 96
-		}
-		# 6th Composite Group 
-		tac_bomber_equipment_0 = {
-			owner = "USA" 
-			amount = 12
-		}
-	}
 
 	### Philippines Composite Group -- Manilla
 #	327 = { 
@@ -632,4 +656,5 @@ instant_effect = {
 	}
 
 }
-#####################
+
+}

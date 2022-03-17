@@ -5,6 +5,10 @@ state={
 	manpower = 3563249
 	resources={
 		oil=14 # was: 18
+		GOLD=68
+		SILVER=63
+		COCA=671
+		
 	}
 	
 	state_category = large_city
@@ -22,7 +26,7 @@ state={
 		}
 		add_core_of = PRU
 		victory_points = {
-			12997 5 
+			12997 35 
 		}
 
 	}

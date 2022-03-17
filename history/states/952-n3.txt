@@ -1,0 +1,20 @@
+state={
+	id=952
+	name="STATE_952"
+	provinces={
+		14074 14075 14105 14106 14147 14211 14212 14213 14214 14215 14216 
+	}
+	history={
+		owner = NAN
+		add_core_of = NAN
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
