@@ -615,7 +615,7 @@ focus = {
 	y = 0
 	cost = 10
 	ai_will_do = {
-		factor = 0
+		factor = 10
 	}
 
 	available = {
@@ -624,7 +624,7 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+	add_war_support = 0.15
 	}
 }
 focus = {
@@ -644,7 +644,7 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_stability = 0.1
 	}
 }
 focus = {
@@ -664,7 +664,10 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.2
+			}
 	}
 }
 focus = {
@@ -684,7 +687,8 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_state_core = 78
+		add_state_core = 766
 	}
 }
 focus = {
@@ -704,7 +708,8 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_political_power = 100
+		add_war_support = 0.1
 	}
 }
 focus = {
@@ -724,7 +729,30 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		random_owned_state = { 
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}	
+		 }
+		 random_owned_state = { 
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}	
+		 }
+		 random_owned_state = { 
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}	
+		 }
 	}
 }
 focus = {
@@ -746,7 +774,11 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		AUS = { add_to_faction = ROM }
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.3
+			}
 	}
 }
 focus = {
@@ -768,7 +800,7 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_political_power = 450
 	}
 }
 focus = {
@@ -781,7 +813,7 @@ focus = {
 	y = 2
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 1
 	}
 
 	available = {
@@ -790,7 +822,11 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		ENG = { add_to_faction = ROM }
+		add_popularity = {
+			ideology = democracy
+			popularity = 0.3
+			}
 	}
 }
 focus = {
@@ -801,7 +837,7 @@ focus = {
 	y = 3
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 
 	available = {
