@@ -14,7 +14,8 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	continuous_focus_position = { x = 1760 y = 30 }
-
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 	focus = {
 		id = ARG_na_1
 		icon = "GFX_focus_por_recover_latin_america"
@@ -135,12 +136,9 @@ focus_tree = {
 		completion_reward = {
 
 		}
-<<<<<<< HEAD
-=======
-		######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	}
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。	
 	focus = {
 		id = ARG_na_9
 		icon = "GFX_focus_NZL_bob_semple_tank"
@@ -383,6 +381,8 @@ focus_tree = {
 
 		}
 	}
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。	
 	focus = {
 		id = ARG_na_25
 		icon = "GFX_focus_POL_warsaw_main_station"
@@ -488,11 +488,6 @@ focus_tree = {
 
 		}
 	}
-<<<<<<< HEAD
-=======
-	######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = ARG_na_32
 		icon = "GFX_focus_generic_aircraft_production"
@@ -523,12 +518,6 @@ focus_tree = {
 
 		}
 	}
-<<<<<<< HEAD
-=======
-	######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
-
 }
 
 

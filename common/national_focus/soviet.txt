@@ -11,6 +11,8 @@
 ### search_filters = {FOCUS_FILTER_NAVY_XP}
 ### search_filters = {FOCUS_FILTER_AIR_XP}
 # Reminder that focus filters prio has to be handled in the generic focus file :)
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 focus_tree = {
 	id = soviet_focus
 
@@ -648,7 +650,8 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = SOV_p30 }
 		#mutually_exclusive = { focus = SWE_3 }
-
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 		ai_will_do = {
 			factor = 10
 		}
@@ -1157,6 +1160,8 @@ focus_tree = {
 		y = 9
 		cost = 5
 		#mutually_exclusive = { focus = SWE_3 }
+		#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 		prerequisite = { focus = SOV_s1 }
 		ai_will_do = {
 			factor = 10
@@ -1581,3 +1586,5 @@ focus_tree = {
 		}
 	}
 }
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。

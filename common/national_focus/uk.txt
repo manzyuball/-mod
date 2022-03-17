@@ -5,11 +5,6 @@
 ### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 ### search_filters = {FOCUS_FILTER_MANPOWER}
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
-<<<<<<< HEAD
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 
 focus_tree = {
 	id = british_focus
@@ -47,6 +42,8 @@ focus_tree = {
 			}
 		}
 	}
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 	focus = {
 		id = uk_gu1
 		prerequisite = { focus = uk_gu }
@@ -809,11 +806,6 @@ focus = {
 			add_ideas = ENG_Hukusi
 		}
 	}
-<<<<<<< HEAD
-=======
-	######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = uk_fu32
 		prerequisite = { focus = uk_fu3 }
@@ -1512,11 +1504,6 @@ focus = {
 			}
 		}
 	}
-<<<<<<< HEAD
-=======
-	######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = uk_malta_focus 
 		prerequisite = { focus = uk_mediterranean_focus }
@@ -1543,13 +1530,7 @@ focus = {
 		#			size < 1
 		#		}
 		#	}
-<<<<<<< HEAD
 		#}
-=======
-		#}######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
-
 		completion_reward = {
 			116 = {
 				add_extra_state_shared_building_slots = 1
@@ -1659,12 +1640,6 @@ focus = {
 		cost = 3
 
 		available_if_capitulated = yes
-<<<<<<< HEAD
-
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 		completion_reward = {
 			random_country = {
 				limit = {
@@ -1748,7 +1723,8 @@ focus = {
 			}
 		}
 	}
-
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 	focus = {
 		id = uk_india_focus 
 		prerequisite = { focus = uk_commonwealth_focus }
@@ -2726,11 +2702,6 @@ focus = {
 		}
 		}
 	}
-<<<<<<< HEAD
-=======
-	######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = uk_b41
 		icon = "GFX_focus_spr_crush_the_revolution"
@@ -2874,6 +2845,8 @@ focus = {
 			
 		}
 	}
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 	focus = {
 		id = uk_b55
 		icon = "GFX_focus_prc_maoism"
@@ -3006,11 +2979,6 @@ focus = {
 				add_war_support = 0.15
 			}
 		}
-<<<<<<< HEAD
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです		
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	}
 	focus = {
 		id = uk_b61
@@ -3148,11 +3116,6 @@ focus = {
 
 		}
 	}
-<<<<<<< HEAD
-=======
-	######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = uk_b68
 		icon = "GFX_goal_molotov_ribbentrop_pact"
@@ -3191,4 +3154,5 @@ focus = {
 				}
 		}
 	}
-}
+}#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。

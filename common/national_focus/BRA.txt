@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 focus_tree = {
 	id = BRA_focus
 	
@@ -302,11 +296,6 @@ focus_tree = {
 			add_research_slot = 1
 		}
 	}
-<<<<<<< HEAD
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = BRA_na_24
 		icon = "GFX_goal_generic_consumer_goods"
@@ -599,12 +588,6 @@ focus_tree = {
 				}
 		}
 	}
-<<<<<<< HEAD
-
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = BRA_na_43
 		icon = "GFX_focus_ger_return_of_the_kaiser"
@@ -749,11 +732,6 @@ focus_tree = {
 			}
 		}
 	}
-<<<<<<< HEAD
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです	
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = BRA_na_52
 		icon = "GFX_goal_molotov_ribbentrop_pact"
@@ -830,11 +808,6 @@ focus_tree = {
 			}
 		}
 	}
-<<<<<<< HEAD
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです	
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = BRA_na_53
 		icon = "GFX_focus_mex_privatisation"

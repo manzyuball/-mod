@@ -1,0 +1,101 @@
+#
+#こんにちは、Empire of Breakwaters制作チーム 製作監督の饅頭ボールです
+#
+#この度はこのmodをサブスクライブしていただきまして誠にありがとうございます
+#恐らくこのModファイルを見ているという事は内部データの閲覧か新たな改造をするという事でしょう
+#大変恐れ入りますがこのmodの一部ファイルは著作権法で保護されており、ファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
+#その為私が管理するこのModファイルの不正コピーが発覚した場合は通報又は法的処置を取らせていただきます
+#
+#またこのMod独自のアイデアや資源 フォーカスツリーなどには一部レンダリングや特別な出力形式文字が施してありEoB環境下以外でNFや資源 アイデア等を動かすのは極めて困難であり
+#もし貴方のModへの不正利用の疑いがある場合はファイルを照合させて頂きます
+#
+#Hello, Empire of Breakwaters Production Team Production Manager, Manju Ball!
+#
+#Thank you very much for subscribing to this mod!
+#Perhaps you're looking at this mod file, which means you're either viewing internal data or making a new modification.
+#I'm sorry, but some of the files in this mod are protected by copyright law and any use of the files, in whole or in part, outside of EoB is not permitted.
+#Therefore, any unauthorized copying of this mod file under my control will be reported or legal action will be taken.
+#
+#And because some of the ideas, resources, focus trees, etc. unique to this mod have been rendered and specially formatted with text, it is extremely difficult to run NF, resources, ideas, etc. outside of the EoB environment, and it is very difficult to run the mod outside of the EoB environment.
+#If we suspect any abuse of your mod, we will check the file.
+#
+#Здравствуйте, производственная команда "Империи Брейквотерс" Я - руководитель производства, булочный шар.
+#
+#Большое спасибо за подписку на этот мод!
+#Возможно, вы смотрите на этот файл мода, что означает, что вы либо просматриваете внутренние данные, либо делаете новую модификацию.
+#Я очень сожалею, но некоторые файлы в этом моде защищены законом об авторском праве, и любое использование этих файлов, частично или полностью, для чего-либо, кроме EoB, не разрешается.
+#Таким образом, о любом несанкционированном копировании этого мод-файла под моим контролем будет сообщено, или будут предприняты юридические действия.
+#
+#And also that the mod's own ideas, resources, focus trees, etc. have some rendering and special output formatting characters that make it extremely difficult to run NFs, resources, ideas, etc. outside the EoB environment, and that the mod's own ideas, resources, ideas, etc. are not suitable for use outside the EoB environment.
+#Если мы заподозрим злоупотребление вашим модом, мы проверим файл.
+#
+#Hello, Empire of Breakwaters production team 我是生产经理，包子球。
+
+#非常感谢你订阅这个mod!
+#也许你正在看这个mod文件，这意味着你要么在查看内部数据，要么在做新的修改。
+#我非常抱歉，但是这个mod中的一些文件是受版权法保护的，不允许将这些文件的部分或全部用于EoB以外的任何地方。
+#因此，在我的控制下，任何未经授权复制此MOD文件的行为都将被报告，或采取法律行动。
+
+#还有，MOD自己的创意、资源、焦点树等有一些渲染和特殊的输出格式字符，使得在EoB环境之外运行NF、资源、创意等极为困难，MOD自己的创意、资源、创意等不适合在EoB环境之外使用。
+#如果我们怀疑你的mod有任何滥用，我们会检查文件。
+#
+
+
+
+
+
+#
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
+#
+#© 2022 Empire of Breakwaters Produktionsteam, Brötchen. Alle Rechte vorbehalten.
+#Diese Datei ist urheberrechtlich geschützt und darf außerhalb von EoB weder in Teilen noch als Ganzes verwendet werden.
+#
+#© 2022 Empire of Breakwaters production team, bun ball. Tous droits réservés.
+#Ce fichier est protégé par la loi sur le droit d'auteur et toute utilisation de ce fichier, en partie ou en totalité, en dehors d'EoB n'est pas autorisée.
+#
+#© 2022 Производственная группа "Империя Брейквотерс", булочный шар. Все права защищены.
+#Этот файл защищен законом об авторском праве, и любое использование этого файла, частично или полностью, за пределами EoB не разрешается.
+#
+#© 2022 Empire of Breakwaters equipe de produção, bun ball. Todos os direitos reservados.
+#Este arquivo é protegido pela lei de direitos autorais e qualquer uso deste arquivo, em parte ou no todo, fora da EoB não é permitido.
+#
+#© 2022年《防波堤帝国》制作团队，包子球。保留所有权利。
+#该文件受版权法保护，不允许在EoB之外使用该文件的部分或全部内容。
+#
+
+
+
+#
+#万が一このModの翻訳Modの製作をご希望であれば我々のDiscordサーバーに参加してください  招待コード → 9We3XkjqwB
+#
+#如果你想制作这个mod的翻译mod，请加入我们的Discord服务器 邀请码→9We3XkjqwB
+#
+#Если вы хотите сделать перевод этого мода, пожалуйста, присоединяйтесь к нашему серверу Discord Код приглашения → 9We3XkjqwB
+#
+#In case you would like to make a translation mod of this mod, please join our Discord server Invitation Code → 9We3XkjqwB
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

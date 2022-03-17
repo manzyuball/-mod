@@ -18,7 +18,8 @@
 	continuous_focus_position = { x = 50 y = 1500 }
 	default = no
 
-#	focus = {
+#	focus = {#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 #		id = NZL_
 #		icon = GFX_
 #		prerequisite = { focus = }
@@ -980,7 +981,8 @@
 
 
 
-
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 
 	focus = {
 		id = NZL_d_1
@@ -1414,6 +1416,8 @@
 		completion_reward = {
 		}
 	}
+	#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 	focus = {
 		id = NZL_5
 		icon = "GFX_goal_generic_improve_relations"

@@ -9,7 +9,8 @@ focus_tree = {
 			tag = TUR
 		}
 	}
-	
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。	
 	default = no
 
 	continuous_focus_position = { x = 100 y = 3250 }
@@ -333,6 +334,8 @@ completion_reward = {
    
 }
 }
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 focus = {
     id = TUR_s16
     icon = "GFX_focus_TUR_treaty_of_saadabad"
@@ -479,6 +482,8 @@ completion_reward = {
    
 }
 }
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 focus = {
     id = TUR_g4
     icon = "GFX_focus_generic_military_dictatorship"

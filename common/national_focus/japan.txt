@@ -8,12 +8,8 @@
 			tag = JAP
 		}
 	}
-	
-<<<<<<< HEAD
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
+	#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 
 	default = no
 
@@ -2081,12 +2077,8 @@
 				}
 				ENG = { add_to_faction = USN }
 		}
-	}
-<<<<<<< HEAD
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
+	}#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 	focus = {
 		id = JAP_NF_13
 		icon = GFX_goal_generic_fortify_city
@@ -3453,12 +3445,8 @@
 		}
 		completion_reward = { }
 	}
-<<<<<<< HEAD
-
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 	focus = {
 		id = JAP_com4
 		icon = GFX_goal_generic_construct_infrastructure
@@ -4922,13 +4910,8 @@
 				factor = 2
 				has_completed_focus = JAP_purge_the_kodoha_faction
 			}
-		}
-<<<<<<< HEAD
-
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
+		}#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 		available = {
 
 		}
