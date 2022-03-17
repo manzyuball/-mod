@@ -20,8 +20,6 @@ focus_tree = {
 		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
 #		prerequisite = { focus = }
 #   	mutually_exclusive = { focus =  }
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
 		x = -1
 		y = 0
 #		relative_position_id = 
@@ -374,8 +372,7 @@ prerequisite = { focus = AUS_lerder3 }
     cancel_if_invalid = yes
     continue_if_invalid = no
     available_if_capitulated = no
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 completion_reward = {
     add_resource = {
         type = 	Rubber

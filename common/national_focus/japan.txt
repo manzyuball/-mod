@@ -9,8 +9,6 @@
 		}
 	}
 	
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
 
 	default = no
 
@@ -2079,8 +2077,6 @@
 				ENG = { add_to_faction = USN }
 		}
 	}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = JAP_NF_13
 		icon = GFX_goal_generic_fortify_city
@@ -3447,8 +3443,7 @@
 		}
 		completion_reward = { }
 	}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 	focus = {
 		id = JAP_com4
 		icon = GFX_goal_generic_construct_infrastructure
@@ -4913,8 +4908,7 @@
 				has_completed_focus = JAP_purge_the_kodoha_faction
 			}
 		}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 		available = {
 
 		}

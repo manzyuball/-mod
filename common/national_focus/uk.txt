@@ -5,8 +5,6 @@
 ### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 ### search_filters = {FOCUS_FILTER_MANPOWER}
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
 
 focus_tree = {
 	id = british_focus
@@ -806,8 +804,6 @@ focus = {
 			add_ideas = ENG_Hukusi
 		}
 	}
-	######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = uk_fu32
 		prerequisite = { focus = uk_fu3 }
@@ -1506,8 +1502,6 @@ focus = {
 			}
 		}
 	}
-	######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = uk_malta_focus 
 		prerequisite = { focus = uk_mediterranean_focus }
@@ -1534,8 +1528,7 @@ focus = {
 		#			size < 1
 		#		}
 		#	}
-		#}######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+		#}
 
 		completion_reward = {
 			116 = {
@@ -1646,8 +1639,7 @@ focus = {
 		cost = 3
 
 		available_if_capitulated = yes
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 		completion_reward = {
 			random_country = {
 				limit = {
@@ -2709,8 +2701,6 @@ focus = {
 		}
 		}
 	}
-	######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = uk_b41
 		icon = "GFX_focus_spr_crush_the_revolution"
@@ -2986,8 +2976,6 @@ focus = {
 				add_war_support = 0.15
 			}
 		}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです		
 	}
 	focus = {
 		id = uk_b61
@@ -3125,8 +3113,6 @@ focus = {
 
 		}
 	}
-	######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = uk_b68
 		icon = "GFX_goal_molotov_ribbentrop_pact"

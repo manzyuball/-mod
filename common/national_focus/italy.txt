@@ -121,8 +121,7 @@
 					}
 				}				
 			}
-		}######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+		}
 	}
 
 	focus = {
@@ -749,8 +748,7 @@
 		ai_will_do = {
 			factor = 1
 		}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
@@ -1482,8 +1480,7 @@
 				factor = 2
 				ai_irrationality > 20
 			}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 			modifier = {
 				factor = 2
 				ai_irrationality > 30
@@ -1671,8 +1668,7 @@
 			CHI = { add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus } }
 		}
 	}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 	focus = {
 		id = ITA_japan_friend_w
 		icon = GFX_goal_support_fourth_int

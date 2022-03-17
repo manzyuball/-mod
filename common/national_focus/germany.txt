@@ -19,8 +19,7 @@ focus_tree = {
 	}
 	
 	default = no
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 	focus = {
 		id = GER_four_year_plan
 		icon = GFX_goal_support_fourth_int
@@ -1213,8 +1212,7 @@ focus_tree = {
 		}
 	}
 	
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 
 
 	focus = {
@@ -1937,8 +1935,7 @@ focus_tree = {
 					instant_build = yes
 				}
 				set_state_flag = GER_naval_effort2_2dockyards
-			}######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+			}
 			random_owned_controlled_state = {
 				limit = {
 					dockyard > 0
@@ -2146,8 +2143,7 @@ focus_tree = {
 			}
 		}
 	}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 	focus = {
 		id = GER_modular_construction
 		icon = GFX_goal_generic_construct_naval_dockyard

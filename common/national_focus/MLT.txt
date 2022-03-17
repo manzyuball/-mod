@@ -24,8 +24,7 @@
 		ai_will_do = {
 			factor = 100
 		}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 		available_if_capitulated = yes
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1033,8 +1032,7 @@
 			}
 		}
 	}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 	focus = {
 		id = MLT_escort_effort
 		icon = GFX_goal_generic_navy_anti_submarine
@@ -1293,6 +1291,5 @@
 			}
 		}
 	}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
+
 }
