@@ -37,7 +37,8 @@
 #		bypass = {
 #
 #		}
-#
+#######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 #		cancel_if_invalid = yes
 #		continue_if_invalid = no
 #		available_if_capitulated = no
@@ -458,6 +459,8 @@ focus = {
 
 	}
 }
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 focus = {
 	id = ROM_d24
 	icon = "GFX_focus_spr_the_anti_fascist_workers_revolution"
@@ -1259,7 +1262,8 @@ focus = {
 			}
 		}
 	}
-
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = ROM_nuclear_bomb_project
 		icon = GFX_focus_wonderweapons
@@ -1732,7 +1736,8 @@ focus = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 		completion_reward = {
 			custom_effect_tooltip = ROM_the_armored_division_tt
 			#Give template depending on recon tech and medium
@@ -2354,3 +2359,5 @@ focus = {
 		}
 	}
 }
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです

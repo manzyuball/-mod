@@ -38,6 +38,8 @@ focus_tree = {
 #		}
 #
 #		cancel_if_invalid = yes
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 #		continue_if_invalid = no
 #		available_if_capitulated = no
 #
@@ -278,6 +280,8 @@ focus = {
 			}
 		}
 	}
+	######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 }
 focus = {
 	id = YUG_d9
@@ -605,7 +609,8 @@ focus = {
 	ai_will_do = {
 		factor = 100
 	}
-
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	available = {
 	}
 
@@ -2075,7 +2080,8 @@ focus = {
 			add_research_slot = 1
 		}
 	}
-
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = YUG_develop_military_industry
 		icon = GFX_goal_generic_construct_mil_factory
@@ -3942,6 +3948,7 @@ focus = {
 				category = ss_tech
 			}
 		}
-	}
+	}######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 
 }

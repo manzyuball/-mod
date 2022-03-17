@@ -135,6 +135,8 @@ focus_tree = {
 		completion_reward = {
 
 		}
+		######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	}
 	focus = {
 		id = ARG_na_9
@@ -483,6 +485,8 @@ focus_tree = {
 
 		}
 	}
+	######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = ARG_na_32
 		icon = "GFX_focus_generic_aircraft_production"
@@ -513,6 +517,8 @@ focus_tree = {
 
 		}
 	}
+	######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 
 }
 

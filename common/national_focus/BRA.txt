@@ -1,4 +1,5 @@
-
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 focus_tree = {
 	id = BRA_focus
 	
@@ -297,6 +298,8 @@ focus_tree = {
 			add_research_slot = 1
 		}
 	}
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = BRA_na_24
 		icon = "GFX_goal_generic_consumer_goods"
@@ -589,7 +592,8 @@ focus_tree = {
 				}
 		}
 	}
-
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = BRA_na_43
 		icon = "GFX_focus_ger_return_of_the_kaiser"
@@ -734,6 +738,8 @@ focus_tree = {
 			}
 		}
 	}
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです	
 	focus = {
 		id = BRA_na_52
 		icon = "GFX_goal_molotov_ribbentrop_pact"
@@ -810,6 +816,8 @@ focus_tree = {
 			}
 		}
 	}
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです	
 	focus = {
 		id = BRA_na_53
 		icon = "GFX_focus_mex_privatisation"

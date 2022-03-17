@@ -489,6 +489,8 @@
 			show_ideas_tooltip = maxime_weygand
 		}
 	}
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = FRA_firepower_kills
 		icon = GFX_goal_generic_army_artillery
@@ -925,6 +927,8 @@
 			add_ideas = { FRA_air_dominance }
 		}
 	}
+######このNFはEmpire of Breakwaters制作チームによって作られました 
+######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	focus = {
 		id = FRA_cas_focus
 		icon = GFX_goal_generic_CAS
