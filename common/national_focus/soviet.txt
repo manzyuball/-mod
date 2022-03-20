@@ -901,7 +901,7 @@ focus_tree = {
 		x = 5
 		y = 4
 		cost = 5
-		prerequisite = { focus = SOV_g2 }
+		prerequisite = { focus = SOV_g4 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
@@ -961,7 +961,7 @@ focus_tree = {
 		x = 1
 		y = 5
 		cost = 5
-		prerequisite = { focus = SOV_g3 }
+		prerequisite = { focus = SOV_g7 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
@@ -1050,7 +1050,7 @@ focus_tree = {
 		x = -3
 		y = 6
 		cost = 5
-		prerequisite = { focus = SOV_g9 }
+		prerequisite = { focus = SOV_g11 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {

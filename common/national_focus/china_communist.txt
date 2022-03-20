@@ -8,8 +8,6 @@ focus_tree = {
 			add = 10
 			tag = PRC
 		}
-		######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
 	}
 	default = no
 	continuous_focus_position = { x = 20 y = 000 }
@@ -510,12 +508,6 @@ focus_tree = {
 
 		}
 	}
-<<<<<<< HEAD
-
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = PRC_na_16
 		icon = "GFX_focus_focus_fra_maquis"
@@ -548,12 +540,6 @@ focus_tree = {
 
 		}
 	}
-<<<<<<< HEAD
-
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = PRC_na_17
 		icon = "GFX_focus_mex_soldaderas"
@@ -586,12 +572,6 @@ focus_tree = {
 
 		}
 	}
-<<<<<<< HEAD
-
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = PRC_na_18
 		icon = "GFX_focus_chi_whampoa_military_academy"
@@ -1187,12 +1167,6 @@ focus_tree = {
 
 		}
 	}
-<<<<<<< HEAD
-
-=======
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
->>>>>>> 7932548d8f48d89c9cf58a18b684d4e1550d6390
 	focus = {
 		id = PRC_na_36
 		icon = "GFX_goal_support_communism"

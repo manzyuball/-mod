@@ -220,6 +220,7 @@ focus = {
     id = TAN_s12
     icon = "GFX_focus_SOV_breadbasket_of_the_union"
     prerequisite = { focus = TAN_s11 }
+    mutually_exclusive = { focus = TAN_s14 }
 	relative_position_id = TAN_s1
     x = -3
     y = 4
@@ -256,6 +257,7 @@ focus = {
     id = TAN_s14
     icon = "GFX_goal_generic_navy_battleship"
     prerequisite = { focus = TAN_s11 }
+    mutually_exclusive = { focus = TAN_s12 }
 	relative_position_id = TAN_s1
     x = -5
     y = 4
@@ -365,6 +367,7 @@ focus = {
     icon = "GFX_focus_POL_sanation_right"
     prerequisite = { focus = TAN_s19 }
     prerequisite = { focus = TAN_s9 }
+    mutually_exclusive = { focus = TAN_s22 }
 	relative_position_id = TAN_s1
     x = 2
     y = 7
@@ -402,6 +405,7 @@ focus = {
     icon = "GFX_focus_RAJ_lions_of_the_great_war"
     prerequisite = { focus = TAN_s9 }
     prerequisite = { focus = TAN_s16 }
+    mutually_exclusive = { focus = TAN_s20 }
 	relative_position_id = TAN_s1
     x = -2
     y = 7

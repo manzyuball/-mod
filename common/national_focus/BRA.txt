@@ -87,8 +87,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_support_the_left_right"
 		x = 10
 		y = 3
-		prerequisite = { focus = BRA_na_3 }
-		prerequisite = { focus = BRA_na_4 }
+		prerequisite = { focus = BRA_na_3 focus = BRA_na_4 }
 		cost = 10
 
 		available_if_capitulated = yes
