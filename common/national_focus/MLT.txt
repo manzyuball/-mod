@@ -15,380 +15,9 @@
 	continuous_focus_position = { x = 50 y = 1100 }
 
 	focus = {
-		id = MLT_industrial_effort1
-		icon = GFX_focus_chi_british_cooperation
-		text = industrial_effort
-		x = 0
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
-#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
-		available_if_capitulated = yes
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-					is_on_continent = europe
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-					is_on_continent = europe
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			if = {
-				limit = {
-					NOT = {
-						any_owned_state = {
-							free_building_slots = {
-								building = industrial_complex
-								size > 1
-								include_locked = yes
-							}
-							is_on_continent = europe
-						}
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes
-					}
-				}				
-			}
-            add_timed_idea = {
-				idea = MLT_seityo
-				days = 180
-			}
-
-		}
-	}
-
-	focus = {
-		id = MLT_industrial_effort_2
-		icon = GFX_goal_generic_construct_mil_factory
-		text = industrial_effort_2
-		prerequisite = { focus = MLT_industrial_effort1 }
-		x = 0
-		y = 1
-		relative_position_id = MLT_industrial_effort1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-
-		available_if_capitulated = yes
-
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = production_effort_tt
-				NOT = {
-					any_owned_state = {
-						is_controlled_by = ROOT
-						free_building_slots = {
-							building = arms_factory
-							size > 2
-							include_locked = yes
-						}
-					}
-				}
-			}
-		}
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					arms_factory > 0
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-					is_on_continent = europe
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					arms_factory > 0
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-					is_on_continent = europe
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-			if = {
-				limit = {
-					NOT = {
-						any_owned_state = {
-							arms_factory > 0
-							free_building_slots = {
-								building = arms_factory
-								size > 1
-								include_locked = yes
-							}
-							is_on_continent = europe
-						}
-					}					
-				}
-				random_owned_controlled_state = {
-					limit = {
-						arms_factory > 0
-						free_building_slots = {
-							building = arms_factory
-							size > 1
-							include_locked = yes
-						}
-						is_on_continent = europe
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = arms_factory
-						level = 2
-						instant_build = yes
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						arms_factory > 0
-						free_building_slots = {
-							building = arms_factory
-							size > 1
-							include_locked = yes
-						}
-						is_on_continent = europe
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = arms_factory
-						level = 2
-						instant_build = yes
-					}
-				}			
-			}
-			if = {
-				limit = {
-					NOT = {
-						any_owned_state = {
-							free_building_slots = {
-								building = arms_factory
-								size > 1
-								include_locked = yes
-							}
-							is_on_continent = europe
-						}
-					}					
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = arms_factory
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = arms_factory
-						level = 2
-						instant_build = yes
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = arms_factory
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = arms_factory
-						level = 2
-						instant_build = yes
-					}
-				}			
-			}
-		}
-	}
-
-
-
-	focus = {
-		id = MLT_extra_tech_slot1
-		icon = GFX_focus_research
-		text = extra_tech_slot
-		prerequisite = { focus = MLT_industrial_effort_2 }
-		x = 0
-		y = 1
-		relative_position_id = MLT_industrial_effort_2
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
-		id = MLT_italian_highways1
-		icon = GFX_goal_generic_construct_infrastructure
-		text = ITA_italian_highways
-		prerequisite = { focus = MLT_extra_tech_slot1 }
-		x = 0
-		y = 1
-		relative_position_id = MLT_extra_tech_slot1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}	
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-
-		completion_reward = {
-			117 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-				}
-			}
-			159 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-				}
-			}
-			156 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-				}
-			}
-			115 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-				}
-			}								
-			
-		}
-	}	
-	
-	
-	focus = {
-		id = MLT_prospect_for_oil
-		icon = GFX_focus_focus_fra_ratify_stresa
-		text = MLT_prospect_for_oil
-		prerequisite = { focus = MLT_italian_highways1 }
-		
-		x = 0
-		y = 1
-		relative_position_id = MLT_italian_highways1
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-
-		ai_will_do = {
-			factor = 100
-		}	
-		completion_reward = {
-			add_ideas = MLT_sangyo
-		}
-	}
-
-		
-
-	focus = {
 		id = MLT_army_primacy
 		icon = GFX_goal_generic_axis_build_infantry
-		x = 4
+		x = 2
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -613,7 +242,7 @@
 	focus = {
 		id = MLT_mare_nostrum
 		icon = GFX_goal_generic_build_navy
-		x = 6
+		x = 4
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -1005,7 +634,7 @@
 	focus = {
 		id = MLT_light_ship_effort
 		icon = GFX_goal_generic_navy_cruiser
-		x = 11
+		x = 8
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -1075,7 +704,7 @@
 		icon = GFX_goal_generic_navy_submarine
 		text = submarine_effort
 		prerequisite = { focus = MLT_light_ship_effort }
-		x = -1
+		x = 0
 		y = 2
 		relative_position_id = MLT_light_ship_effort
 		cost = 10
@@ -1106,193 +735,552 @@
 		}
 	}
 
-
-	focus = {
-		id = MLT_victoryinETH
-		icon = GFX_focus_hol_the_foundations_of_defense
-		
-		available_if_capitulated = yes
-
-		x = 13
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}	
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT}
-
-		completion_reward = {
-			add_stability = 0.25
-			add_war_support = 0.25
-		}
-	}
-	
-	focus = {
-		id = MLT_slovenia_dalmatia_claims
-		icon = GFX_focus_SOV_organize_wreckers
-		prerequisite = { focus = MLT_victoryinETH }
-		mutually_exclusive = { focus = MLT_yugoslavia_friend }
-		x = 1
-		y = 1
-		relative_position_id = MLT_victoryinETH
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = MLT_nougyou
-				add_idea = MLT_kougyou
-				}
-			}
-		}
-
-
-	focus = {
-		id = MLT_bulgaria_friend
-		icon = GFX_focus_POL_complete_april_constitution
-		prerequisite = { focus = MLT_slovenia_dalmatia_claims  }
-		x = -2
-		y = 1
-		relative_position_id = MLT_slovenia_dalmatia_claims
-		cost = 10
-		completion_reward = {
-			remove_country_leader_trait = cabinet_crisis
-			
-	}
-}
-	focus = {
-		id = MLT_albania_war_goal
-		icon = GFX_focus_focus_fra_maquis
-		prerequisite = { focus = MLT_slovenia_dalmatia_claims }
-		x = 1
-		y = 1
-		relative_position_id = MLT_slovenia_dalmatia_claims
-		
-		cost = 10
-		ai_will_do = {
-			factor = 10
-		}	
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-
-		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 7000
-				producer = ENG
-				}
-		}
-	}
-
-	focus = {
-		id = MLT_italy_first
-		icon = GFX_focus_generic_royal_wedding
-		prerequisite = { focus = MLT_bulgaria_friend }
-		mutually_exclusive = { focus = MLT_pact_of_steel }
-		x = 1
-		y = 1
-		relative_position_id = MLT_bulgaria_friend
-		cost = 10
-		ai_will_do = {
-			factor = 2.5
-		}	
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_political_power = 120
-			add_war_support = 0.3
-			add_stability = 0.4
-				retire_country_leader = yes
-				}
-			}
-
-	focus = {
-		id = MLT_german_rd_treaty
-		icon = GFX_focus_eng_imperial_federation
-		prerequisite = { focus = MLT_italy_first }
-		x = -2
-		y = 1
-		relative_position_id = MLT_italy_first
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_state_core = 162
-			add_state_core = 161
-			add_state_core = 159
-			add_state_core = 160
-			add_state_core = 158
-			add_state_core = 39
-			add_state_core = 736
-		}
-	}
-
-	focus = {
-		id = MLT_greece_friend
-		icon = GFX_focus_focus_fra_revolution_utmost
-		prerequisite = { focus = MLT_italy_first }
-		x = 2
-		y = 1
-		relative_position_id = MLT_italy_first
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		completion_reward = {
-			declare_war_on = {
-				target = ITA
-				type = annex_everything
-				}
-			}
-	}
-
-
-
-
-
-
-	focus = {
-		id = MLT_anti_uk_war_goals
-		icon = GFX_focus_generic_monarchy_2
-		prerequisite = { focus = MLT_italy_first }	
-		x = 0
-		y = 1
-		relative_position_id = MLT_italy_first
-		cost = 10
-		ai_will_do = {
-			factor = 1
-			}
-		completion_reward = {
-			add_country_leader_trait = constitutional_monarch
-		}
-	}
-
-	focus = {
-		id = MLT_japan_friend
-		icon = GFX_focus_prc_infiltration
-		prerequisite = { focus = MLT_anti_uk_war_goals }
-		x = 0
-		y = 1
-		relative_position_id = MLT_anti_uk_war_goals
-		cost = 10
-
-		available_if_capitulated = yes
-		
-		ai_will_do = {
-			factor = 1
-		}			
-		completion_reward = {
-			add_ideas = {
-			MLT_gun
-			}
-		}
-	}
 #© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
 #このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
+#################################################################
+####################################################################################
+##################################################################
+focus = {
+	id = MLT_s1
+	icon = "GFX_focus_spr_crush_the_revolution"
+	x = 15
+	y = 0
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+	available = {
+	has_capitulated = yes	
+	}
+	completion_reward = {
+		add_legitimacy = 10
+		add_war_support = 0.35
+	}
+}
+focus = {
+	id = MLT_s2
+	icon = "GFX_focus_spr_the_anti_fascist_workers_revolution"
+	prerequisite = { focus =  MLT_s1 }
+	x = -1
+	y = 1
+	relative_position_id = MLT_s1
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+	available = {
+		has_capitulated = yes	
+		}
+	completion_reward = {
+		add_legitimacy = 10
+		add_manpower = 500000
+	}
+}
+focus = {
+	id = MLT_s3
+	icon = "GFX_goal_generic_scientific_exchange"
+	prerequisite = { focus =  MLT_s1 }
+	x = 1
+	y = 1
+	relative_position_id = MLT_s1
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+	available = {
+		has_capitulated = yes	
+		}
+	completion_reward = {
+		add_legitimacy = 10
+		add_research_slot = 1
+	}
+}
+focus = {
+	id = MLT_s4
+	icon = "GFX_focus_generic_manpower"
+	prerequisite = { focus =  MLT_s3 }
+	x = 2
+	y = 2
+	relative_position_id = MLT_s1
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+	available = {
+		has_capitulated = yes	
+		}
+	completion_reward = {
+		add_legitimacy = 10
+
+	}
+}
+focus = {
+	id = MLT_s5
+	icon = "GFX_focus_spr_torchbearers_of_tomorrow"
+	prerequisite = { focus =  MLT_s3 }
+	prerequisite = { focus =  MLT_s2 }
+	x = 0
+	y = 2
+	relative_position_id = MLT_s1
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+    add_timed_idea = {
+    idea = MLT_hannkou
+    days = 180
+}
+	}
+}
+focus = {
+	id = MLT_s6
+	icon = "GFX_focus_usa_escort_fighters"
+	prerequisite = { focus =  MLT_s2 }
+	x = -2
+	y = 2
+	relative_position_id = MLT_s1
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+	available = {
+		has_capitulated = yes
+		}
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = fighter_equipment
+			amount = 300
+			producer = ENG
+			}
+	}
+}
+focus = {
+	id = MLT_s7
+	icon = "GFX_focus_hol_the_foundations_of_defense"
+	x = 11
+	y = 2
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		add_stability = 0.25
+	}
+}
+focus = {
+	id = MLT_s8
+	icon = "GFX_focus_LAT_suspend_constitution_of_latvia"
+	relative_position_id = MLT_s7
+	prerequisite = { focus =  MLT_s7 }
+	x = 1
+	y = 1
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+
+	}
+}
+focus = {
+	id = MLT_s9
+	icon = "GFX_focus_SOV_purge_trotskyists"
+	relative_position_id = MLT_s7
+	prerequisite = { focus =  MLT_s8 }
+	x = 1
+	y = 2
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		add_stability = 0.1
+		swap_ideas = {
+			remove_idea = MLT_naikakukiki
+			add_idea = MLT_naikakukiki2
+			}
+	}
+}
+focus = {
+	id = MLT_s10
+	icon = "GFX_goal_generic_defence"
+	relative_position_id = MLT_s7
+	prerequisite = { focus =  MLT_s9 }
+	x = 1
+	y = 3
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+	available = {
+		has_war = yes
+		}
+	completion_reward = {
+    add_ideas = {
+		MLT_Kokudokinnkyuubouei
+	}
+	}
+}
+focus = {
+	id = MLT_s11
+	icon = "GFX_focus_eng_the_sun_never_sets"
+	relative_position_id = MLT_s7
+	prerequisite = { focus =  MLT_s7 }
+	x = -2
+	y = 1
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+
+	}
+}
+focus = {
+	id = MLT_s12
+	icon = "GFX_focus_proclaim_the_restauration_of_Austria_Hungary"
+	relative_position_id = MLT_s7
+	prerequisite = { focus =  MLT_s11 }
+	x = -1
+	y = 2
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+
+	}
+}
+focus = {
+	id = MLT_s13
+	icon = "GFX_focus_chi_collaboration_with_the_japanese"
+	relative_position_id = MLT_s7
+	prerequisite = { focus =  MLT_s11 }
+	x = -3
+	y = 2
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+
+	}
+}
+focus = {
+	id = MLT_s14
+	icon = "GFX_focus_POL_complete_april_constitution"
+	relative_position_id = MLT_s7
+	prerequisite = { focus =  MLT_s11 }
+	prerequisite = { focus =  MLT_s9 }
+	x = -1
+	y = 3
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = MLT_naikakukiki2
+			add_idea = MLT_naikakukiki3
+			}
+	}
+}
+focus = {
+	id = MLT_s15
+	icon = "GFX_focus_generic_monarchy_2"
+	relative_position_id = MLT_s7
+	prerequisite = { focus =  MLT_s14 }
+	x = -1
+	y = 4
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		remove_ideas = MLT_naikakukiki3
+	}
+}
+focus = {
+	id = MLT_s16
+	icon = "GFX_focus_generic_home_defense"
+	x = 15
+	y = 3
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = MLT_keizaikiki
+			add_idea = MLT_keizaikiki2
+			}
+	}
+}
+focus = {
+	id = MLT_s17
+	icon = "focus_ita_correcting_the_north_south_divide"
+	relative_position_id = MLT_s16
+	prerequisite = { focus =  MLT_s16 }
+	x = 1
+	y = 1
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		every_owned_state = {
+			add_extra_state_shared_building_slots = 1
+		 }
+	}
+}
+focus = {
+	id = MLT_s18
+	icon = "GFX_goal_generic_intelligence_exchange"
+	relative_position_id = MLT_s16
+	prerequisite = { focus =  MLT_s16 }
+	x = -1
+	y = 1
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = MLT_keizaikiki2
+			add_idea = MLT_keizaikiki3
+			}
+	}
+}
+focus = {
+	id = MLT_s19
+	icon = "GFX_focus_generic_royal_wedding"
+	relative_position_id = MLT_s16
+	prerequisite = { focus =  MLT_s18 }
+	x = -1
+	y = 2
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = MLT_keizaikiki3
+			add_idea = MLT_keizaikiki4
+			}
+	}
+}
+focus = {
+	id = MLT_s20
+	icon = "GFX_focus_focus_fra_ratify_stresa"
+	relative_position_id = MLT_s16
+	prerequisite = { focus =  MLT_s19 }
+	x = -2
+	y = 3
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		remove_ideas = MLT_keizaikiki4
+	}
+}
+focus = {
+	id = MLT_s21
+	icon = "GFX_focus_SOV_breadbasket_of_the_union"
+	relative_position_id = MLT_s16
+	prerequisite = { focus =  MLT_s17 }
+	x = 1
+	y = 2
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		add_political_power = 100
+		add_stability = 0.15
+	}
+}
+focus = {
+	id = MLT_s22
+	icon = "GFX_focus_generic_strike_at_democracy2"
+	relative_position_id = MLT_s16
+	prerequisite = { focus =  MLT_s20 }
+	prerequisite = { focus =  MLT_s15 }
+	x = -4
+	y = 4
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		add_stability = 0.3
+		add_war_support = 0.3
+	}
+}
+focus = {
+	id = MLT_s23
+	icon = "GFX_goal_generic_national_unity"
+	relative_position_id = MLT_s16
+	prerequisite = { focus =  MLT_s22 }
+	x = -4
+	y = 5
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		custom_effect_tooltip = ITA_bq
+		hidden_effect = {
+			add_state_core = 159
+			add_state_core = 160
+			add_state_core = 161
+			add_state_core = 162
+			add_state_core = 158
+		}
+		
+	}
+}
+focus = {
+	id = MLT_s24
+	icon = "focus_ita_money_for_your_homeland"
+	relative_position_id = MLT_s16
+	prerequisite = { focus =  MLT_s23 }
+	x = -5
+	y = 6
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = { 
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+				
+	}
+	random_owned_controlled_state = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			
+}
+random_owned_controlled_state = { 
+	add_extra_state_shared_building_slots = 1
+	add_building_construction = {
+		type = industrial_complex
+		level = 1
+		instant_build = yes
+		}
+		
+}
+random_owned_controlled_state = { 
+	add_extra_state_shared_building_slots = 1
+	add_building_construction = {
+		type = industrial_complex
+		level = 1
+		instant_build = yes
+		}
+		
+}
+}
+}
+focus = {
+	id = MLT_s25
+	icon = "GFX_goal_molotov_ribbentrop_pact"
+	relative_position_id = MLT_s16
+	prerequisite = { focus =  MLT_s23 }
+	x = -3
+	y = 6
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+
+	}
+}
+focus = {
+	id = MLT_s26
+	icon = "GFX_focus_NZL_bob_semple_tank"
+	relative_position_id = MLT_s16
+	prerequisite = { focus =  MLT_s21 }
+	x = 1
+	y = 3
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		add_political_power = 100
+		random_owned_controlled_state = { 
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+				
+	}
+	}
+}
+focus = {
+	id = MLT_s27
+	icon = "GFX_focus_POL_warsaw_main_station"
+	relative_position_id = MLT_s16
+	prerequisite = { focus =  MLT_s21 }
+	x = 1
+	y = 4
+	cost = 10
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = { 
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+				}
+				
+	}
+	random_owned_controlled_state = { 
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			
+}
+	}
+}
+
 }

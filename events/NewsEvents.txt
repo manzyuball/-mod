@@ -1,1 +1,127 @@
-﻿
+﻿add_namespace = news
+
+# フランスのアフリカ進出
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_032
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				is_in_faction_with = GER
+				is_in_faction_with = ENG
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		is_in_faction_with = FRA
+	}
+	option = {
+		name = news.1.c
+		is_in_faction_with = ENG
+	}
+}
+
+# 1936年ソフィアオリンピック
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_070
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			NOT = {
+				TAG = BUL
+			}
+		}
+	}
+	option = {
+		name = news.2.b
+		trigger = { TAG = BUL }
+	}
+}
+
+# イスタンブール＝バクダード鉄道の全面開通
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_enosis
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.3.a
+		trigger = {
+			NOT = {
+				is_in_faction_with = AUS
+			}
+		}
+	}
+	option = {
+		name = news.3.b
+		trigger = { is_in_faction_with = AUS }
+	}
+}
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_imro
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.4.a
+		trigger = {
+			NOT = {
+				is_in_faction_with = AUS
+			}
+		}
+	}
+	option = {
+		name = news.4.b
+		trigger = { is_in_faction_with = AUS }
+	}
+}
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_news_event_008
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.5.a
+		trigger = {
+			NOT = {
+				TAG = BUL
+			}
+		}
+	}
+	option = {
+		name = news.5.b
+		trigger = { TAG = BUL }
+	}
+}
