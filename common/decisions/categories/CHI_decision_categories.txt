@@ -6,6 +6,6 @@ CHI_habatukousou = {
 	}
 
 	visible = {
-		has_completed_focus = my_focus
+		has_completed_focus = CHI_S2
 	}
 }

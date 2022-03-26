@@ -79,6 +79,7 @@ news_event = {
 		trigger = { is_in_faction_with = AUS }
 	}
 }
+#ベオグラード条約機構の崩壊
 news_event = {
 	id = news.4
 	title = news.4.t
@@ -102,7 +103,8 @@ news_event = {
 		trigger = { is_in_faction_with = AUS }
 	}
 }
-news_event = {
+#ローマ再興
+news_event = { 
 	id = news.5
 	title = news.5.t
 	desc = news.5.d
@@ -123,5 +125,29 @@ news_event = {
 	option = {
 		name = news.5.b
 		trigger = { TAG = BUL }
+	}
+}
+#小説：太陽の夜
+news_event = { 
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_news_event_008
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.6.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+			}
+		}
+	}
+	option = {
+		name = news.6.b
+		trigger = { TAG = JAP }
 	}
 }

@@ -1,11 +1,11 @@
 #reload countrycolors
 
 GER = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 142 30 22 }
+	color_ui = rgb { 142 30 22 }
 }
 ENG = {
-	color = rgb { 201 56 93 }
+	color = rgb { 217 0 69 }
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
@@ -17,7 +17,7 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
+	color = rgb { 0 35 149 }
 	color_ui = rgb { 74 147 255 }
 }
 LUX = {
@@ -50,8 +50,8 @@ EST = {
 	color_ui = rgb { 99 204 254 }
 }
 LAT = {
-	color = rgb { 75 77 186 }
-	color_ui = rgb { 124 125 184 }
+	color = rgb { 80 73 82 }
+	color_ui = rgb { 138 155 116 }
 }
 SPR = {
 	color = rgb { 242 205 94 }
@@ -74,7 +74,7 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 171 190 152 }
+	color = rgb { 157 0 6 }
 	color_ui = rgb { 222 247 198 }
 }
 GRE = {
@@ -142,7 +142,7 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
+	color = rgb { 194 0 45 } #255 244 190
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
 CHL = {
@@ -309,13 +309,13 @@ CRO = {
 }
 
 PRC = {
-	color = rgb { 245 12 55 }
+	color = rgb { 253 219 142 }
 	color_ui = rgb { 178 34 60 }
 }
 
 GXC = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 71 113 97 }
+	color = rgb { 24 36 163 }
+	color_ui = rgb { 24 36 163 }
 }
 
 SHX = {
@@ -423,7 +423,7 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 255 120 71 }
+	color = rgb { 179 70 30 }
 	color_ui = rgb { 255 120 71 }
 }
 ANG = {
@@ -748,8 +748,8 @@ YAK = {
 	color_ui = rgb { 0 179 179 }
 }
 VLA = {
-	color = rgb { 255 204 0 }
-	color_ui = rgb { 204 163 0 }
+	color = rgb { 247 247 247 }
+	color_ui = hsv { 0.05 0.25 1.2 }
 }
 KKP = {
 	color = rgb { 255 128 0 }
