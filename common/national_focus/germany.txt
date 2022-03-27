@@ -385,7 +385,6 @@ focus_tree = {
 		id = GER_german_war_economy
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = GER_autobahn }
-		mutually_exclusive = { focus = GER_integrate_war_economies }
 		x = 0
 		y = 1
 		relative_position_id = GER_autobahn
@@ -1220,7 +1219,6 @@ focus_tree = {
 	focus = {
 		id = GER_rhineland
 		icon = GFX_goal_generic_military_sphere
-		mutually_exclusive = { focus = GER_oppose_hitler }
 		x = 17
 		y = 0
 		cost = 10
@@ -1388,7 +1386,6 @@ focus_tree = {
 		id = GER_ussr_war_goal
 		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = { focus = GER_anti_comitern_pact }
-		mutually_exclusive = { focus = GER_soviet_ally }
 		available_if_capitulated = no
 		will_lead_to_war_with = SOV
 
@@ -1966,7 +1963,7 @@ focus_tree = {
 		id = GER_plan_z
 		icon = GFX_goal_generic_navy_battleship
 		prerequisite = { focus = GER_naval_effort }
-		mutually_exclusive = { focus = GER_u_boat_effort focus = GER_rebuild_the_high_seas_fleet focus = GER_accept_british_naval_dominance }
+		mutually_exclusive = { focus = GER_u_boat_effort  }
 		x = -1
 		y = 3
 		relative_position_id = GER_naval_effort
@@ -2054,7 +2051,7 @@ focus_tree = {
 		id = GER_u_boat_effort
 		icon = GFX_goal_generic_navy_submarine
 		prerequisite = { focus = GER_naval_effort }
-		mutually_exclusive = { focus = GER_plan_z focus = GER_rebuild_the_high_seas_fleet focus = GER_accept_british_naval_dominance }
+		mutually_exclusive = { focus = GER_plan_z }
 		x = 1
 		y = 3
 		relative_position_id = GER_naval_effort

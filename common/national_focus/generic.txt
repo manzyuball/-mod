@@ -533,7 +533,6 @@ focus_tree = {
 		id = rocket_effort
 		icon = GFX_focus_rocketry
 		prerequisite = { focus = aviation_effort_2 }
-		prerequisite = { focus = infrastructure_effort }
 		x = 0
 		y = 2
 		relative_position_id = aviation_effort_2

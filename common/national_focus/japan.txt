@@ -3579,7 +3579,7 @@
 			focus = JAP_com12
 		}
 		mutually_exclusive = {
-			focus = JAP_com14
+			focus = JAP_com13
 		}
 		completion_reward = { }
 	}

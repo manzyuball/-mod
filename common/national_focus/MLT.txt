@@ -145,7 +145,6 @@
 		id = MLT_modernized_army
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = MLT_modernized_artillery }
-		prerequisite = { focus = MLT_industrial_effort }
 		x = 0
 		y = 1
 		relative_position_id = MLT_modernized_artillery

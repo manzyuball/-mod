@@ -144,7 +144,6 @@
 		id = ITA_modernized_army
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = ITA_modernized_artillery }
-		prerequisite = { focus = ITA_industrial_effort }
 		x = 0
 		y = 1
 		relative_position_id = ITA_modernized_artillery

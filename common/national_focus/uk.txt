@@ -915,7 +915,6 @@ focus = {
 
 	focus = {
 		id = uk_empire_focus 
-		mutually_exclusive = { focus = ENG_revisit_colonial_policy }
 		available = {
 			NOT = { has_government = communism }
 			num_subjects > 0
@@ -1849,7 +1848,6 @@ focus = {
 	focus = {
 		id = uk_free_india_focus 
 		prerequisite = { focus = uk_india_focus }
-		mutually_exclusive = { focus = ENG_indian_autonomy }
 		icon = GFX_goal_generic_improve_relations
 		x = 0
 		y = 1

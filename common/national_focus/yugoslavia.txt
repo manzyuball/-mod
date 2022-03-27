@@ -2530,7 +2530,6 @@ focus = {
 		id = YUG_local_developers
 		icon = GFX_goal_generic_air_production
 		prerequisite = { focus = YUG_modernize_the_air_force }
-		mutually_exclusive = { focus = YUG_purchase_foreign }
 		x = 0
 		y = 1
 		relative_position_id = YUG_modernize_the_air_force
