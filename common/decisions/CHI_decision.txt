@@ -1,0 +1,511 @@
+CHI_habatukousou = {
+
+	CHI_koukuu1 = {
+
+		allowed = {
+				original_tag = CHI
+		}
+
+		available = {
+			CHI = {
+				
+			}
+		}
+
+		visible = {
+			CHI = {
+				has_completed_focus = {
+
+            }
+			}
+		}
+
+		cost = 25
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CHI_koukuu
+         air_experience = 10
+         add_equipment_to_stockpile = {
+            type = fighter_equipment_1
+            amount = 25
+            producer = CHI
+            }
+			hidden_effect = {
+            add_to_variable = {
+               var = CHI_koukuu_h
+               value = 10
+            }
+          }
+
+		}
+	}
+
+   CHI_koukuu2 = {
+
+		allowed = {
+				original_tag = CHI
+		}
+
+		available = {
+			CHI = {
+				
+			}
+		}
+
+		visible = {
+			CHI = {
+				has_completed_focus = {
+
+            }
+			}
+		}
+
+		cost = 75
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CHI_koukuu
+         air_experience = 20
+         random_owned_controlled_state = {
+         add_building_construction = {
+            type = air_base
+            level = 2
+            instant_build = yes
+            }
+         }
+			hidden_effect = {
+            add_to_variable = {
+               var = CHI_koukuu_h
+               value = 25
+            }
+          }
+
+		}
+	}
+
+   CHI_koukuu3 = {
+
+		allowed = {
+				original_tag = CHI
+		}
+
+		available = {
+			CHI = {
+				
+			}
+		}
+
+		visible = {
+			CHI = {
+				has_completed_focus = {
+
+            }
+			}
+		}
+
+		cost = 100
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CHI_koukuu
+         set_rule = {
+            can_use_kamikaze_pilots = yes
+            }
+			hidden_effect = {
+            add_to_variable = {
+               var = CHI_koukuu_h
+               value = 30
+            }
+          }
+
+		}
+	}
+
+   CHI_koukuu4 = {
+
+		allowed = {
+				original_tag = CHI
+		}
+
+		available = {
+			CHI = {
+				
+			}
+		}
+
+		visible = {
+			CHI = {
+				has_completed_focus = {
+
+            }
+			}
+		}
+
+		cost = 100
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CHI_koukuu
+         set_rule = {
+            can_generate_female_aces = yes
+            }
+			hidden_effect = {
+            add_to_variable = {
+               var = CHI_koukuu_h
+               value = 30
+            }
+          }
+
+		}
+	}
+
+   #############################################################
+   #############################################################
+   #############################################################
+   #############################################################
+   #############################################################
+   #############################################################
+   #############################################################
+   #############################################################
+   #############################################################
+
+   CHI_rikugun1 = {
+
+		allowed = {
+				original_tag = CHI
+		}
+
+		available = {
+			CHI = {
+				
+			}
+		}
+
+		visible = {
+			CHI = {
+				has_completed_focus = {
+
+            }
+			}
+		}
+
+		cost = 25
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CHI_rikugun
+         army_experience = 10
+         add_manpower = 50000
+			hidden_effect = {
+            add_to_variable = {
+               var = CHI_riku_h
+               value = 10
+            }
+          }
+
+		}
+	}
+
+   CHI_rikugun2 = {
+
+		allowed = {
+				original_tag = CHI
+		}
+
+		available = {
+			CHI = {
+				
+			}
+		}
+
+		visible = {
+			CHI = {
+				has_completed_focus = {
+
+            }
+			}
+		}
+
+		cost = 75
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CHI_rikugun
+         army_experience = 20
+         load_oob = "CHI_sinpei"
+			hidden_effect = {
+            add_to_variable = {
+               var = CHI_riku_h
+               value = 25
+            }
+          }
+
+		}
+	}
+   CHI_rikugun3 = {
+
+		allowed = {
+				original_tag = CHI
+		}
+
+		available = {
+			CHI = {
+				
+			}
+		}
+
+		visible = {
+			CHI = {
+				has_completed_focus = {
+
+            }
+			}
+		}
+
+		cost = 75
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CHI_rikugun
+         army_experience = 20
+         random_owned_controlled_state = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+               type = arms_factory
+               level = 1
+               instant_build = yes
+               }
+          }
+			hidden_effect = {
+            add_to_variable = {
+               var = CHI_riku_h
+               value = 25
+            }
+          }
+
+		}
+	}
+   
+   #############################################################
+   #############################################################
+   #############################################################
+   #############################################################
+   #############################################################
+   #############################################################
+   #############################################################
+   #############################################################
+   #############################################################
+
+   CHI_tetudou1 = {
+
+		allowed = {
+				original_tag = CHI
+		}
+
+		available = {
+			CHI = {
+				
+			}
+		}
+
+		visible = {
+			CHI = {
+				has_completed_focus = {
+
+            }
+			}
+		}
+
+		cost = 25
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CHI_tetudou
+         random_owned_controlled_state = {
+            add_resource = {
+            type = steel
+            amount = 6
+            }
+         }
+			hidden_effect = {
+            add_to_variable = {
+               var = CHI_tetu_h
+               value = 10
+            }
+         }
+
+		}
+	}
+
+   CHI_tetudou2 = {
+
+		allowed = {
+				original_tag = CHI
+		}
+
+		available = {
+			CHI = {
+				
+			}
+		}
+
+		visible = {
+			CHI = {
+				has_completed_focus = {
+
+            }
+			}
+		}
+
+		cost = 25
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CHI_tetudou
+         random_owned_controlled_state = {
+            add_resource = {
+            type = Aluminium
+            amount = 5
+            }
+         }
+			hidden_effect = {
+            add_to_variable = {
+               var = CHI_tetu_h
+               value = 10
+            }
+         }
+
+		}
+	}
+
+   CHI_tetudou3 = {
+
+		allowed = {
+				original_tag = CHI
+		}
+
+		available = {
+			CHI = {
+				
+			}
+		}
+
+		visible = {
+			CHI = {
+				has_completed_focus = {
+
+            }
+			}
+		}
+
+		cost = 75
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CHI_tetudou
+         random_owned_controlled_state = {
+            add_resource = {
+            type = Tungsten
+            amount = 5
+            }
+         }
+			hidden_effect = {
+            add_to_variable = {
+               var = CHI_tetu_h
+               value = 25
+            }
+         }
+
+		}
+	}
+
+   CHI_tetudou4 = {
+
+		allowed = {
+				original_tag = CHI
+		}
+
+		available = {
+			CHI = {
+				
+			}
+		}
+
+		visible = {
+			CHI = {
+				has_completed_focus = {
+
+            }
+			}
+		}
+
+		cost = 185
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CHI_tetudou
+         random_owned_controlled_state = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+               type = synthetic_refinery
+               level = 1
+               instant_build = yes
+               }
+               
+            }
+			hidden_effect = {
+            add_to_variable = {
+               var = CHI_tetu_h
+               value = 45
+            }
+         }
+
+		}
+	}
+
+}

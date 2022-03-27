@@ -1,22 +1,71 @@
 ﻿division_template = {
-	name = "Strelkovaya Polk"		# Army was a single infantry regiment of militia	
+	name = "自由都市防衛隊"
 
 	division_names_group = TAN_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 1 }
 	}
 }
 
-
 units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Tuvy #####
+	
 	division = {
-		name = "1ya Revolyutsionnaya Polk"
-		location = 10627
-		division_template = "Strelkovaya Polk"		
-		start_equipment_factor = 0.7
+		name = "第一広州防衛部隊"
+		location = 7137
+		division_template = "自由都市防衛隊"
+	}
+	division = {
+		name = "第一広州防衛部隊"
+		location = 4121
+		division_template = "自由都市防衛隊"
+	}
+	division = {
+		name = "第一広州防衛部隊"
+		location = 4023
+		division_template = "自由都市防衛隊"
+	}
+	division = {
+		name = "第二海南島防衛部隊"
+		location = 1070
+		division_template = "自由都市防衛隊"
+	}
+	division = {
+		name = "第二海南島防衛部隊"
+		location = 994
+		division_template = "自由都市防衛隊"
+	}
+	division = {
+		name = "第三湾岸都市防衛部隊"
+		location = 1047
+		division_template = "自由都市防衛隊"
+	}
+	division = {
+		name = "第三湾岸都市防衛部隊"
+		location = 13769
+		division_template = "自由都市防衛隊"
+	}
+	division = {
+		name = "第三湾岸都市防衛部隊"
+		location = 11938
+		division_template = "自由都市防衛隊"
+	}
+	division = {
+		name = "第三湾岸都市防衛部隊"
+		location = 7039
+		division_template = "自由都市防衛隊"
+	}
+	division = {
+		name = "第三湾岸都市防衛部隊"
+		location = 9963
+		division_template = "自由都市防衛隊"
 	}
 }
 

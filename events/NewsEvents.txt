@@ -1,15 +1,11 @@
-﻿###########################
-# News Events
-###########################
+﻿add_namespace = news
 
-add_namespace = news
-
-# ヒトラー当選
+# フランスのアフリカ進出
 news_event = {
 	id = news.1
-	title = news.1.title
-	desc = news.1.desc
-	picture = GFX_news_event_herman_goring
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_032
 	
 	major = yes
 	
@@ -18,38 +14,28 @@ news_event = {
 	option = {
 		name = news.1.a
 		trigger = {
-			NOT = { tag = AUS }
-			NOT = { has_government = democratic }
-			NOT = { has_government = communism }
+			NOT = {
+				is_in_faction_with = GER
+				is_in_faction_with = ENG
+			}
 		}
 	}
 	option = {
 		name = news.1.b
-		trigger = {
-			NOT = { tag = AUS }
-			NOT = { has_government = communism }
-			has_government = democratic
-		}
+		is_in_faction_with = FRA
 	}
 	option = {
 		name = news.1.c
-		trigger = {
-			has_government = communism
-		}
-	}
-	option = {
-		name = news.1.d
-		trigger = {
-			tag = AUS
-		}
+		is_in_faction_with = ENG
 	}
 }
-# FRA_大粛清
+
+# 1936年ソフィアオリンピック
 news_event = {
 	id = news.2
-	title = news.2.title
-	desc = news.2.desc
-	picture = GFX_news_event_turkey_affirms_interest_in_protecting_balkans
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_070
 	
 	major = yes
 	
@@ -58,41 +44,23 @@ news_event = {
 	option = {
 		name = news.2.a
 		trigger = {
-			NOT = { tag = FRA }
-			NOT = { has_government = democratic }
-			NOT = { has_government = communism }
+			NOT = {
+				TAG = BUL
+			}
 		}
 	}
 	option = {
 		name = news.2.b
-		trigger = {
-			NOT = { tag = FRA }
-			NOT = { has_government = communism }
-			has_government = democratic
-		}
-	}
-	option = {
-		name = news.2.c
-		trigger = {
-			NOT = { tag = FRA }
-			has_government = communism
-		}
-	}
-	option = {
-		name = news.2.d
-		trigger = {
-			tag = FRA
-		}
+		trigger = { TAG = BUL }
 	}
 }
 
-#極東戦争
-
+# イスタンブール＝バクダード鉄道の全面開通
 news_event = {
 	id = news.3
-	title = news.3.title
-	desc = news.3.desc
-	picture = GFX_report_event_soviet_soldiers_tank
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_enosis
 	
 	major = yes
 	
@@ -101,45 +69,85 @@ news_event = {
 	option = {
 		name = news.3.a
 		trigger = {
-			NOT = { tag = SOV }
-			NOT = { tag = VLA }
+			NOT = {
+				is_in_faction_with = AUS
+			}
 		}
 	}
 	option = {
 		name = news.3.b
+		trigger = { is_in_faction_with = AUS }
+	}
+}
+#ベオグラード条約機構の崩壊
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_imro
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.4.a
 		trigger = {
-			NOT = { tag = SOV }
-			tag = VLA 
+			NOT = {
+				is_in_faction_with = AUS
+			}
 		}
 	}
 	option = {
-		name = news.3.c
-		trigger = {
-			NOT = { tag = VLA }
-			tag = SOV
-		}
+		name = news.4.b
+		trigger = { is_in_faction_with = AUS }
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#ローマ再興
+news_event = { 
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_news_event_008
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.5.a
+		trigger = {
+			NOT = {
+				TAG = BUL
+			}
+		}
+	}
+	option = {
+		name = news.5.b
+		trigger = { TAG = BUL }
+	}
+}
+#小説：太陽の夜
+news_event = { 
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_news_event_008
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.6.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+			}
+		}
+	}
+	option = {
+		name = news.6.b
+		trigger = { TAG = JAP }
+	}
+}

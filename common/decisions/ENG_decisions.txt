@@ -1,4 +1,4 @@
-ENG_decisions_fof = {
+ENG_decision = {
 
    enzetu = {
    icon = generic_speech

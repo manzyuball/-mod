@@ -8,7 +8,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			picture = spr_crush_the_revolution
+			picture = SOV_factionalism_modifier
 
 			removal_cost = -1
 			
@@ -17,13 +17,47 @@ ideas = {
 					political_power_factor = -0.15
 			}
 		}
+		gunnomonndai = {
+
+			allowed = {
+				always = yes
+			}
+			picture = spr_crush_the_revolution
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = -0.3
+				army_core_defence_factor = -0.3
+				army_org_Factor = -0.3
+				max_planning = -0.6
+				recon_factor = -0.75
+			}
+			
+		}
+		Nougyoumonndai = {
+
+			allowed = {
+				always = yes
+			}
+			picture = POL_looming_peasants_strike
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.15
+				stability_factor = -0.15
+				conscription_factor = -0.02
+				industry_air_damage_factor = 0.75
+			}
+		}
 
 		Torotuky = {
 
 			allowed = {
 				always = yes
 			}
-			picture = fourth_international
+			picture = ger_the_great_red_menace
 
 			removal_cost = -1
 			
@@ -33,7 +67,224 @@ ideas = {
 				war_support_factor = -0.10
 			}
 		}
-		Soviet = {
+		#NFアイデア
+		Gonenkann = {  #５か年計画
+
+			allowed = {
+				always = yes
+			}
+			picture = new_economic_policy
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		zendo = { #全土改造計画
+
+		allowed = {
+			always = yes
+		}
+		picture = new_economic_policy
+
+		removal_cost = -1
+		
+		modifier = {
+			consumer_goods_factor = -0.1
+			global_building_slots_factor = 0.15
+		}
+	}
+	zendo1 = { #全土改造計画
+
+	allowed = {
+		always = yes
+	}
+	picture = new_economic_policy
+
+	removal_cost = -1
+	
+	modifier = {
+		consumer_goods_factor = -0.05
+		global_building_slots_factor = 0.2
+		production_speed_buildings_factor = 0.1
+		local_resources_factor = 0.15
+	}
+}
+		Gonenkann1 = {  #５か年計画終
+
+		allowed = {
+			always = yes
+		}
+		picture = new_economic_policy
+
+		removal_cost = -1
+		
+		modifier = {
+			production_speed_buildings_factor = 0.2
+		}
+	}
+		Nougyoumonndai2 = {
+
+			allowed = {
+				always = yes
+			}
+			picture = POL_looming_peasants_strike
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				conscription_factor = -0.02
+				industry_air_damage_factor = 0.75
+			}
+		}
+		Nougyoumonndai2x = {
+
+			allowed = {
+				always = yes
+			}
+			picture = POL_looming_peasants_strike
+
+			removal_cost = -1
+			
+			modifier = {
+				industry_air_damage_factor = 0.75
+				MONTHLY_POPULATION = 0.15
+			}
+		}
+		Nougyoumonndai3x = {
+
+			allowed = {
+				always = yes
+			}
+			picture = POL_looming_peasants_strike
+
+			removal_cost = -1
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.15
+				consumer_goods_factor = -0.2
+			}
+		}
+		Nougyoumonndai3 = {
+
+			allowed = {
+				always = yes
+			}
+			picture = POL_looming_peasants_strike
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				industry_air_damage_factor = 0.75
+			}
+		}
+		sekisyokukanntai = {
+
+			allowed = {
+				always = yes
+			}
+			picture = SOV_sevastopol_marine_plant
+
+			removal_cost = -1
+			
+			modifier = {
+				navy_max_range_factor = 0.1
+				naval_coordination = 0.1
+			}
+		}
+		heikinoseisann = {
+
+			allowed = {
+				always = yes
+			}
+			picture = SOV_third_five_year_plan_military
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.2
+				production_factory_max_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.2
+			}
+		}
+
+		gunnomonndai1 = {
+
+			allowed = {
+				always = yes
+			}
+			picture = generic_license_production
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = -0.3
+				army_core_defence_factor = -0.3
+				army_org_Factor = -0.15
+				max_planning = -0.3
+				recon_factor = -0.2
+			}
+			
+		}
+
+		gunnomonndai2 = {
+
+			allowed = {
+				always = yes
+			}
+			picture = generic_license_production
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = -0.15
+				army_core_defence_factor = -0.15
+				army_org_Factor = -0.05
+				max_planning = -0.3
+				recon_factor = -0.2
+			}
+			
+		}
+
+		gunnomonndai3 = {
+
+			allowed = {
+				always = yes
+			}
+			picture = generic_license_production
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = -0.1
+				army_core_defence_factor = -0.1
+				max_planning = -0.15
+			}
+			
+		}
+
+		gunnomonndai4 = {
+
+			allowed = {
+				always = yes
+			}
+			picture = man_five_year_plan_tank
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.25
+				surrender_limit = 0.5
+				targeted_modifier = { tag = VLA attack_bonus_against = 0.25 }
+				targeted_modifier = { tag = VLA defense_bonus_against = 0.25 }
+			}
+			
+		}
+
+		sensya = {
 
 			allowed = {
 				always = yes
@@ -43,14 +294,166 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_factor = 0.25
-				conscription_factor = 0.25
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
+				army_armor_attack_factor = 0.05
+				army_armor_defence_factor = 0.35
 			}
+			
 		}
-		#NFアイデア
 
+		sensya1 = {
+
+			allowed = {
+				always = yes
+			}
+			picture = SOV_soviet_railways
+
+			removal_cost = -1
+			
+			modifier = {
+				army_armor_attack_factor = 0.25
+				army_infantry_defence_factor = 0.2
+				army_armor_speed_factor = 0.1
+			}
+			
+		}
+
+		daisyukusei = {
+
+			allowed = {
+				always = yes
+			}
+			picture = idea_generic_purge
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.75
+				stability_weekly = 0.005
+			}
+			
+		}
+		daisyukusei1 = {
+
+			allowed = {
+				always = yes
+			}
+			picture = the_war_to_end_all_wars
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.005
+			}
+			
+		}
+
+		dokusai = {
+
+			allowed = {
+				always = yes
+			}
+			picture = SOV_soviet_hegemony
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.35
+				trade_laws_cost_factor = -1
+				mobilization_laws_cost_factor = -1
+				economy_cost_factor = -1
+				political_advisor_cost_factor = -1
+				high_command_cost_factor = -1
+				air_chief_cost_factor = -1
+				army_chief_cost_factor = -1
+				navy_chief_cost_factor = -1
+				military_leader_cost_factor = -1	
+			}
+			
+		}
+
+		NKVD = {
+
+			allowed = {
+				always = yes
+			}
+			picture = nkvd_2
+
+			removal_cost = -1
+			
+			modifier = {
+				decryption_factor = 0.2
+				encryption_factor = 0.2
+				partisan_effect = 0.15
+				subversive_activites_upkeep = -0.2
+			}
+			
+		}
+
+		kokuminnnotiti = {
+
+			allowed = {
+				always = yes
+			}
+			picture = SOV_soviet_hegemony
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.35
+				trade_laws_cost_factor = -1
+				mobilization_laws_cost_factor = -1
+				economy_cost_factor = -1
+				political_advisor_cost_factor = -1
+				high_command_cost_factor = -1
+				air_chief_cost_factor = -1
+				army_chief_cost_factor = -1
+				navy_chief_cost_factor = -1
+				military_leader_cost_factor = -1	
+				decryption_factor = 0.2
+				encryption_factor = 0.2
+				partisan_effect = 0.15
+				subversive_activites_upkeep = -0.2
+				stability_weekly = 0.005
+				stability_factor = 0.5
+				war_support_factor = 0.5
+			}
+			
+		}
+
+		soviet_1 = {
+
+			allowed = {
+				always = yes
+			}
+			picture = jap_the_unthinkable_option
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+				production_speed_buildings_factor = 0.25
+				industrial_capacity_factory = 0.1
+			}
+			
+		}
+
+		soviet_2 = {
+
+			allowed = {
+				always = yes
+			}
+			picture = jap_the_unthinkable_option
+
+			removal_cost = -1
+			
+			modifier = {
+				global_building_slots_factor = 0.25
+				industry_air_damage_factor = -0.4
+				local_resources_factor = 0.50
+				min_export = -0.2
+			}
+			
+		}
 	}
 
 }

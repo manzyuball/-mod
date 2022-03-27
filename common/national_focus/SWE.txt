@@ -14,7 +14,8 @@
 	default = no
 	reset_on_civilwar = no
 	continuous_focus_position = { x = 2900 y = 250 }
-
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 	focus = {
 		id = SWE_1
 		icon = GFX_focus_generic_home_defense
@@ -430,6 +431,8 @@
 			}
 		}
 	}
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。	
 	focus = {
 		id = SWE_42
 		icon = "GFX_focus_generic_scandinavia_flags"
@@ -861,6 +864,8 @@
 
 		}
 	}
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。	
 	focus = {
 		id = SWE_65
 		icon = "GFX_goal_generic_fortify_city"

@@ -1,4 +1,4 @@
-SWE_decisions_fof = {
+SWE_decisions = {
 
      daiitinokabe = {
      icon = gre_faction_management_category
@@ -322,7 +322,7 @@ kigyou = {
          }
       complete_effect = {
          add_stability = 0.05
-         custom_effect_tooltip = NO!
+         custom_effect_tooltip = NO
                hidden_effect = {
                   remove_targeted_decision = kigyou
          add_ideas = {

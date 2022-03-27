@@ -8,7 +8,8 @@
 			tag = JAP
 		}
 	}
-	
+	#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 
 	default = no
 
@@ -57,7 +58,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -85,7 +86,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -211,7 +212,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -289,7 +290,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -314,12 +315,12 @@
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		prerequisite = { focus = JAP_min1 }
 		x = 15
-		y = 2
+		y = 1
 
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available = {
@@ -344,9 +345,9 @@
 		id = JAP_min3
 		icon = GFX_focus_eng_the_sun_never_sets
 		prerequisite = { focus = JAP_min2 }
-		mutually_exclusive = { focus = JAP_min4 }
+		mutually_exclusive = { focus = JAP_k4 }
 		x = 13
-		y = 3
+		y = 2
 
 		cost = 10
 
@@ -372,12 +373,12 @@
 		}
 	}
 	focus = {
-		id = JAP_min4
-		icon = GFX_goal_generic_army_doctrines
+		id = JAP_k4
+		icon = "GFX_goal_generic_demand_territory"
 		prerequisite = { focus = JAP_min2 }
 		mutually_exclusive = { focus = JAP_min3 }
-		x = 17
-		y = 3
+		x = 19
+		y = 2
 
 		cost = 10
 
@@ -402,6 +403,642 @@
 			army_experience = 30
 		}
 	}
+	focus = {
+		id = JAP_k5
+		icon = "GFX_focus_jap_showa_restoration"
+		prerequisite = { focus = JAP_k4 }
+		x = 19
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_k6
+		icon = "GFX_focus_generic_military_dictatorship"
+		prerequisite = { focus = JAP_k5 }
+		x = 17
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_k7
+		icon = "GFX_focus_chi_cooperation_with_the_nationalists"
+		prerequisite = { focus = JAP_k6 }
+		x = 16
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_k8
+		icon = "GFX_focus_man_claim_the_mandate_of_heaven"
+		prerequisite = { focus = JAP_k6 }
+		x = 18
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_k9
+		icon = "GFX_focus_chi_one_china_policy"
+		prerequisite = { focus = JAP_k7 }
+		x = 16
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_k10
+		icon = "GFX_focus_eng_liberate_the_home_of_marx"
+		prerequisite = { focus = JAP_k8 }
+		x = 18
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_k11
+		icon = "GFX_focus_generic_china1"
+		prerequisite = { focus = JAP_k9 }
+		prerequisite = { focus = JAP_k10 }
+		x = 17
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_k12
+		icon = "GFX_focus_SOV_military_purge"
+		prerequisite = { focus = JAP_k11 }
+		x = 16
+		y = 9
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_k13
+		icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
+		prerequisite = { focus = JAP_k12 }
+		x = 16
+		y = 10
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_k14
+		icon = "GFX_focus_chi_whampoa_military_academy"
+		prerequisite = { focus = JAP_k11 }
+		x = 18
+		y = 9
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_k15
+		icon = "GFX_focus_eng_decolonization"
+		prerequisite = { focus = JAP_k14 }
+		x = 18
+		y = 10
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_k16
+		icon = "GFX_focus_RAJ_british_investors"
+		prerequisite = { focus = JAP_k13 }
+		prerequisite = { focus = JAP_k15 }
+		x = 17
+		y = 11
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_k17
+		icon = "GFX_focus_spr_masters_of_our_own_fate"
+		prerequisite = { focus = JAP_k13 }
+		prerequisite = { focus = JAP_k15 }
+		x = 17
+		y = 12
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = JAP_a5
+		icon = "GFX_goal_support_democracy"
+		prerequisite = { focus = JAP_k5 }
+		x = 21
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a6
+		icon = "GFX_focus_jap_cast_the_die"
+		prerequisite = { focus = JAP_a5 }
+		x = 21
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a7
+		icon = "GFX_focus_POL_ban_nazi_party"
+		prerequisite = { focus = JAP_a6 }
+		x = 22
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a8
+		icon = "GFX_focus_jap_manchurian_project"
+		prerequisite = { focus = JAP_a6 }
+		x = 20
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a9
+		icon = "GFX_focus_jap_strike_south"
+		prerequisite = { focus = JAP_a7 }
+		x = 22
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a10
+		icon = "GFX_focus_SOV_panslavic_nationalism"
+		prerequisite = { focus = JAP_a8 }
+		x = 20
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a11
+		icon = "GFX_focus_attack_china"
+		prerequisite = { focus = JAP_a9 }
+		prerequisite = { focus = JAP_a10 }
+		x = 21
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a3
+		icon = "GFX_focus_spa_the_war_of_vengeance"
+		prerequisite = { focus = JAP_a11 }
+		x = 21
+		y = 9
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a12
+		icon = "GFX_goal_generic_trade"
+		prerequisite = { focus = JAP_a3 }
+		x = 20
+		y = 10
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a13
+		icon = "GFX_focus_usa_focus_on_asia"
+		prerequisite = { focus = JAP_a12 }
+		x = 20
+		y = 11
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a13_a
+		icon = "GFX_focus_generic_coastal_fort"
+		prerequisite = { focus = JAP_a13 }
+		x = 20
+		y = 12
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a15_a
+		icon = "GFX_focus_chi_mission_to_the_soviet_union"
+		prerequisite = { focus = JAP_a15 }
+		x = 22
+		y = 12
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a14
+		icon = "GFX_goal_generic_navy_battleship"
+		prerequisite = { focus = JAP_a3 }
+		x = 22
+		y = 10
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a15
+		icon = "GFX_goal_generic_construct_military"
+		prerequisite = { focus = JAP_a14 }
+		x = 22
+		y = 11
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a16
+		icon = "GFX_focus_hol_the_foundations_of_defense"
+		prerequisite = { focus = JAP_a13_a }
+		prerequisite = { focus = JAP_a15_a }
+		x = 21
+		y = 13
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a17
+		icon = "GFX_focus_generic_strike_at_democracy3"
+		prerequisite = { focus = JAP_a16 }
+		x = 21
+		y = 14
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a18
+		icon = "GFX_focus_attack_soviet"
+		prerequisite = { focus = JAP_a17 }
+		x = 21
+		y = 15
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_a19
+		icon = "GFX_focus_spr_anarchism_knows_no_borders"
+		prerequisite = { focus = JAP_a18 }
+		x = 21
+		y = 16
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+
+
+
+
+
+
+
+
+
+
 	focus = {
 		id = JAP_min5
 		icon = GFX_goal_support_democracy
@@ -660,7 +1297,7 @@
 		id = JAP_min12
 		icon = GFX_focus_spa_the_spanish_miracle
 		prerequisite = { focus = JAP_min11 }
-		x = 12
+		x = 11
 		y = 9
 
 		cost = 10
@@ -693,7 +1330,7 @@
 		id = JAP_min13
 		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = JAP_min11 }
-		x = 14
+		x = 13
 		y = 9
 
 		cost = 10
@@ -727,7 +1364,7 @@
 		id = JAP_min14
 		icon = GFX_focus_generic_japanese_imperial_glory
 		prerequisite = { focus = JAP_min12 }
-		x = 10.5
+		x = 9
 		y = 10
 
 		cost = 10
@@ -758,7 +1395,7 @@
 		icon = GFX_focus_mex_privatisation
 		prerequisite = { focus = JAP_min12 }
 		prerequisite = { focus = JAP_min13 }
-		x = 12.5
+		x = 11
 		y = 10
 
 		cost = 10
@@ -788,7 +1425,7 @@
 		id = JAP_min16
 		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = JAP_min13 }
-		x = 14.5
+		x = 13
 		y = 10
 
 		cost = 10
@@ -818,7 +1455,7 @@
 		id = JAP_min17
 		icon = GFX_focus_POL_complete_april_constitution
 		prerequisite = { focus = JAP_min16 }
-		x = 15
+		x = 13
 		y = 11
 
 		cost = 10
@@ -854,7 +1491,7 @@
 		icon = GFX_focus_chi_one_china_policy
 		prerequisite = { focus = JAP_min15 }
 		prerequisite = { focus = JAP_min14 }
-		x = 12.5
+		x = 11
 		y = 11
 
 		cost = 10
@@ -906,7 +1543,7 @@
 		id = JAP_min19
 		icon = GFX_focus_SOV_panslavic_nationalism
 		prerequisite = { focus = JAP_min18 }
-		x = 12.5
+		x = 12
 		y = 12
 
 		cost = 10
@@ -945,9 +1582,9 @@
 	focus = {
 		id = JAP_min20
 		icon = GFX_goal_generic_defence
-		prerequisite = { focus = JAP_min19 }
-		x = 11.5
-		y = 13
+		prerequisite = { focus = JAP_min18 }
+		x = 10
+		y = 12
 
 		cost = 10
 
@@ -978,7 +1615,7 @@
 		id = JAP_min21
 		icon = GFX_focus_jap_pacific_guardian
 		prerequisite = { focus = JAP_min19 }
-		x = 13.5
+		x = 13
 		y = 13
 
 		cost = 10
@@ -1008,7 +1645,7 @@
 		id = JAP_NF_1
 		icon = GFX_focus_chi_whampoa_military_academy
 		prerequisite = { focus = JAP_min21 }
-		x = 13.5
+		x = 13
 		y = 14
 
 		cost = 10
@@ -1038,7 +1675,7 @@
 		id = JAP_NF_2
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = JAP_NF_1 }
-		x = 13.5
+		x = 13
 		y = 15
 
 		cost = 10
@@ -1073,7 +1710,7 @@
 		id = JAP_NF_3
 		icon = GFX_focus_chi_one_china_policy
 		prerequisite = { focus = JAP_NF_2 }
-		x = 13.5
+		x = 13
 		y = 16
 
 		cost = 10
@@ -1138,7 +1775,7 @@
 		id = JAP_NF_5
 		icon = GFX_focus_eng_expose_the_belly_of_the_bear
 		prerequisite = { focus = JAP_NF_4 }
-		x = 11.5
+		x = 11
 		y = 18
 
 		cost = 10
@@ -1177,7 +1814,7 @@
 		id = JAP_NF_6
 		icon = GFX_focus_SOV_behead_the_snake
 		prerequisite = { focus = JAP_NF_4 }
-		x = 12.5
+		x = 12
 		y = 19
 
 		cost = 10
@@ -1214,7 +1851,7 @@
 		id = JAP_NF_7
 		icon = GFX_focus_spr_masters_of_our_own_fate
 		prerequisite = { focus = JAP_NF_6 }
-		x = 12.5
+		x = 12
 		y = 20
 
 		cost = 25
@@ -1279,7 +1916,7 @@
 		id = JAP_NF_8
 		icon = GFX_focus_SOV_panslavic_nationalism
 		prerequisite = { focus = JAP_NF_5 }
-		x = 10.5
+		x = 10
 		y = 19
 
 		cost = 10
@@ -1311,7 +1948,7 @@
 		id = JAP_NF_9
 		icon = GFX_focus_generic_the_giant_wakes
 		prerequisite = { focus = JAP_NF_3 }
-		x = 14.5
+		x = 14
 		y = 17
 
 		cost = 10
@@ -1341,7 +1978,7 @@
 		id = JAP_NF_10
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { focus = JAP_NF_9 }
-		x = 14.5
+		x = 14
 		y = 18
 
 		cost = 10
@@ -1371,7 +2008,7 @@
 		id = JAP_NF_11
 		icon = GFX_focus_hol_the_foundations_of_defense
 		prerequisite = { focus = JAP_NF_10 }
-		x = 14.5
+		x = 14
 		y = 19
 
 		cost = 10
@@ -1401,7 +2038,7 @@
 		id = JAP_NF_12
 		icon = GFX_focus_spa_the_war_of_vengeance
 		prerequisite = { focus = JAP_NF_3 }
-		x = 17
+		x = 16
 		y = 17
 
 		cost = 10
@@ -1440,12 +2077,13 @@
 				}
 				ENG = { add_to_faction = USN }
 		}
-	}
+	}#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 	focus = {
 		id = JAP_NF_13
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = JAP_NF_12 }
-		x = 17
+		x = 16
 		y = 18
 
 		cost = 10
@@ -1506,7 +2144,7 @@
 		id = JAP_NF_14
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = JAP_NF_13 }
-		x = 17
+		x = 16
 		y = 19
 
 		cost = 10
@@ -2807,7 +3445,8 @@
 		}
 		completion_reward = { }
 	}
-
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 	focus = {
 		id = JAP_com4
 		icon = GFX_goal_generic_construct_infrastructure
@@ -2940,7 +3579,7 @@
 			focus = JAP_com12
 		}
 		mutually_exclusive = {
-			focus = JAP_com14
+			focus = JAP_com13
 		}
 		completion_reward = { }
 	}
@@ -4271,8 +4910,8 @@
 				factor = 2
 				has_completed_focus = JAP_purge_the_kodoha_faction
 			}
-		}
-
+		}#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 		available = {
 
 		}

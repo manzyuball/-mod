@@ -1,11 +1,11 @@
 ﻿l_english:
- AUS_decisions_fof:0 "国民に向けた演説"
+ AUS_decisions:0 "国民に向けた演説"
  enzetu:0 "全国民よ!全民族よ!帝国の名の下に団結せよ!"
  souryokusennenzetu:0 "諸君は総力戦を望むか？"
  souryokusennenzetu2:0 "人々よ立ち上がれ!そして嵐を起こせ!"
 
  #SWE
- SWE_decisions_fof:0 "三つの壁計画"
+ SWE_decisions:0 "三つの壁計画"
  daiitinokabe:0 "第一の壁"
  daininokabe:0 "第二の壁"
  daisannokabe:0 "第三の壁"
@@ -22,4 +22,4 @@
  SWE_kigyou:0 "国内の企業を誘致"
  Aus_kigyou:0 "中央同盟国の企業を誘致"
  jap_kigyou:0 "連合国の企業を誘致"
- NO!:0 "この選択肢はやめておいた方が良いだろう、タイムパラドックスを起こしかねない"
+ NO:0 "この選択肢はやめておいた方が良いだろう、タイムパラドックスを起こしかねない"
