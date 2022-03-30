@@ -40,7 +40,10 @@
  GER_s22:0 "Endsieg"
  GER_s23:0 "総動員計画"
  GER_s24:0 "究極の勝利はすぐそこに"
-
-
-
+ 
+##ideas
+ GER_KEIKAKUKEIZAI:0 "計画経済"
+ GER_HEISABOUEKI:0 "活発な閉鎖貿易"
+ GER_IKKOKUKEIZAI:0 "一国社会主義"
+ GER_INTARNASYONARU:0 "繫栄している経済"
 

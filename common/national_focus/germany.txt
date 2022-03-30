@@ -846,6 +846,12 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+			add_ideas = GER_KEIKAKUKEIZAI
 		}
 	}
 	focus = {
@@ -860,6 +866,22 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 focus = {
@@ -874,6 +896,18 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		50 = {
+			add_extra_state_shared_building_slots = 2
+		}
+		52 = {
+			add_extra_state_shared_building_slots = 2
+		}
+		53 = {
+			add_extra_state_shared_building_slots = 2
+		}
+		54 = {
+			add_extra_state_shared_building_slots = 2
+		}
 	}
 }
 focus = {
@@ -888,6 +922,11 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_tech_bonus = {
+			bonus = 1.0
+			uses = 2
+			category = industry
+		}
 	}
 }
 focus = {
@@ -902,6 +941,42 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		if = {
+			limit = {
+				any_owned_state = { 
+					infrastructure < 3
+				}
+			}   
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+		}
+		if = {
+			limit = {
+				any_owned_state = { 
+					infrastructure < 3
+				}
+			}   
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+		}
+		if = {
+			limit = {
+				any_owned_state = { 
+					infrastructure < 3
+				}
+			}   
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+		}
 	}
 }
 focus = {
@@ -917,6 +992,30 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
 	}
 }
 focus = {
@@ -932,6 +1031,30 @@ focus = {
 		factor = 100
 	}
 	completion_reward = {
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
 	}
 }
 focus = {
@@ -946,6 +1069,7 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_ideas = GER_HEISABOUEKI
 	}
 }
 focus = {
@@ -960,6 +1084,30 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
 	}
 }
 focus = {
@@ -974,6 +1122,30 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
 	}
 }
 focus = {
@@ -988,6 +1160,22 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
 	}
 }
 focus = {
@@ -1002,6 +1190,7 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_research_slot = 1
 	}
 }
 focus = {
@@ -1017,6 +1206,22 @@ focus = {
 		factor = 100
 	}
 	completion_reward = {
+		swap_ideas = {
+			remove_idea = GER_KEIKAKUKEIZAI
+			add_idea = GER_INTARNASYONARU
+			}
+		reverse_add_opinion_modifier = {
+			target = FRA
+			modifier = kyuusekkinn
+			}
+			reverse_add_opinion_modifier = {
+				target = HOL
+				modifier = kyuusekkinn
+				}
+				reverse_add_opinion_modifier = {
+					target = ITA
+					modifier = kyuusekkinn
+					}
 	}
 }
 focus = {
@@ -1032,6 +1237,14 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		swap_ideas = {
+			remove_idea = GER_KEIKAKUKEIZAI
+			add_idea = GER_IKKOKUKEIZAI
+			}
+		reverse_add_opinion_modifier = {
+			target = SOV
+			modifier = kyuusekkinn
+			}
 	}
 }
 focus = {
@@ -1046,6 +1259,55 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		64 = {
+		set_building_level = {
+			type = infrastructure
+			level = 10
+			instant_build = yes
+			}
+		}
+		59 = {
+			set_building_level = {
+				type = infrastructure
+				level = 10
+				instant_build = yes
+				}
+			}
+			56 = {
+				set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+					}
+				}
+				57 = {
+					set_building_level = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+						}
+					}
+					55 = {
+						set_building_level = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+							}
+						}
+						51 = {
+							set_building_level = {
+								type = infrastructure
+								level = 10
+								instant_build = yes
+								}
+							}
+							42 = {
+								set_building_level = {
+									type = infrastructure
+									level = 10
+									instant_build = yes
+									}
+								}
 	}
 }
 focus = {
@@ -1060,6 +1322,19 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		any_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = radar_station
+				level = 2
+				instant_build = yes
+			}
+		}
+		modify_building_resources = {
+			building = radar_station
+			resource = rubber
+			amount = 4
+			}
 	}
 }
 
@@ -1074,6 +1349,23 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+			state = 5
+			num_provinces = 3
+			on_win = japan_border_conflict.2
+			on_lose = japan_border_conflict.3
+			on_cancel = japan_border_conflict.4
+			}
+			defender = {
+			state = 1033
+			num_provinces = 2
+			on_win = japan_border_conflict.3
+			on_lose = japan_border_conflict.2
+			on_cancel = japan_border_conflict.4
+			}
+			}
 	}
 }
 focus = {
@@ -1102,6 +1394,10 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		reverse_add_opinion_modifier = {
+			target = CHI
+			modifier = kyuusekkinn
+			}
 	}
 }
 focus = {
@@ -1116,6 +1412,7 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_political_power = 250
 	}
 }
 focus = {
@@ -1130,6 +1427,10 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		reverse_add_opinion_modifier = {
+			target = FRA
+			modifier = kyuusekkinn
+			}
 	}
 }
 focus = {
@@ -1144,6 +1445,18 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = SWE
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = DEN
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = NOR
+					}
 	}
 }
 focus = {
@@ -1158,6 +1471,10 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = LAT
+			}
 	}
 }
 focus = {
@@ -1172,6 +1489,10 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = ENG
+			}
 	}
 }
 focus = {
@@ -1200,6 +1521,14 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_state_core = 86
+		add_state_core = 66
+		add_state_core = 67
+		add_state_core = 762
+		add_state_core = 1033
+		add_state_core = 1032
+		add_state_core = 188
+		add_state_core = 841
 	}
 }
 focus = {
@@ -1214,6 +1543,9 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		CHI = {
+			add_offsite_building = { type = arms_factory level = 3 }
+		}
 	}
 }
 focus = {
@@ -1315,6 +1647,8 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_stability = 0.25
+
 	}
 }
 focus = {
@@ -1358,6 +1692,7 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_war_support = 0.25
 	}
 }
 focus = {
@@ -1400,6 +1735,7 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_war_support = 0.25
 	}
 }
 
