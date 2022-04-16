@@ -1,0 +1,1174 @@
+focus_tree = {
+	id = TAN_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = TAN
+		}
+	}
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。	
+	default = no
+
+	continuous_focus_position = { x = 100 y = 3250 }
+
+	focus = {
+		id = TAN_s1
+		icon ="GFX_focus_POL_complete_april_constitution"
+		x = 7
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+		factor = 50
+	    }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+	    completion_reward = {
+          add_ideas = TAN_kigyou
+	    }
+}
+
+focus = {
+    id = TAN_s2
+    icon = "GFX_focus_usa_reestablish_the_gold_standard"
+    prerequisite = { focus = TAN_s1 }
+	relative_position_id = TAN_s1
+    x = 0
+    y = 1
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    add_political_power = 150
+}
+}
+focus = {
+    id = TAN_s3
+    icon = "GFX_focus_generic_industry_3"
+    prerequisite = { focus = TAN_s2 }
+	relative_position_id = TAN_s1
+    x = 0
+    y = 2
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
+}
+}
+focus = {
+    id = TAN_s4
+    icon = "GFX_focus_hol_abandon_the_gold_standard"
+    prerequisite = { focus = TAN_s3 }
+	relative_position_id = TAN_s1
+    x = 0
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+   swap_ideas = {
+    remove_idea = TAN_kigyou
+    add_idea = TAN_kigyou1
+   }
+}
+}
+focus = {
+    id = TAN_s5
+    icon = "GFX_goal_generic_positive_trade_relations"
+    prerequisite = { focus = TAN_s4 }
+	relative_position_id = TAN_s1
+    x = 1
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+   swap_ideas = {
+    remove_idea = TAN_kigyou1
+    add_idea = TAN_kigyou2
+   }
+}
+}
+focus = {
+    id = TAN_s6
+    icon ="GFX_focus_generic_combined_arms"
+    prerequisite = { focus = TAN_s5 }
+	relative_position_id = TAN_s1
+    x = 1
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    swap_ideas = {
+        remove_idea = TAN_kigyou2
+        add_idea = TAN_kigyou3
+       }
+}
+}
+focus = {
+    id = TAN_s7
+    icon = "GFX_goal_generic_consumer_goods"
+    prerequisite = { focus = TAN_s4 }
+	relative_position_id = TAN_s1
+    x = -1
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+    }
+}
+}
+focus = {
+    id = TAN_s8
+    icon = "GFX_goal_generic_construct_civ_factory"
+    prerequisite = { focus = TAN_s7 }
+	relative_position_id = TAN_s1
+    x = -1
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
+}
+}
+focus = {
+    id = TAN_s9
+    icon = "GFX_goal_generic_construct_naval_dockyard"
+    prerequisite = { focus = TAN_s8 }
+    prerequisite = { focus = TAN_s6 }
+	relative_position_id = TAN_s1
+    x = 0
+    y = 6
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    if = {
+        limit = {
+            NOT = {
+                any_owned_state = {
+                    dockyard > 0
+                    free_building_slots = {
+                        building = dockyard
+                        size > 2
+                        include_locked = yes
+                    }
+                }
+            }
+            any_owned_state = {
+                is_coastal = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                is_coastal = yes
+                free_building_slots = {
+                    building = dockyard
+                    size > 2
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = dockyard
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
+}
+}
+focus = {
+    id = TAN_s10
+    icon = "GFX_focus_SOV_the_road_of_life"
+    prerequisite = { focus = TAN_s2 }
+	relative_position_id = TAN_s1
+    x = -3
+    y = 2
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+   add_ideas = TAN_ahen
+}
+}
+focus = {
+    id = TAN_s11
+    icon = "GFX_goal_generic_trade"
+    prerequisite = { focus = TAN_s10 }
+	relative_position_id = TAN_s1
+    x = -3
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    swap_ideas = {
+        remove_idea = TAN_ahen
+        add_idea = TAN_ahen1
+       }
+}
+}
+focus = {
+    id = TAN_s12
+    icon = "GFX_focus_SOV_breadbasket_of_the_union"
+    prerequisite = { focus = TAN_s11 }
+    mutually_exclusive = { focus = TAN_s14 }
+	relative_position_id = TAN_s1
+    x = -3
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+   swap_ideas = {
+    remove_idea = TAN_ahen1
+    add_idea = TAN_ahen3
+   }
+}
+}
+focus = {
+    id = TAN_s13
+    icon = "GFX_focus_research2"
+    prerequisite = { focus = TAN_s12 }
+	relative_position_id = TAN_s1
+    x = -3
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    add_research_slot = 1
+}
+}
+focus = {
+    id = TAN_s14
+    icon = "GFX_goal_generic_navy_battleship"
+    prerequisite = { focus = TAN_s11 }
+    mutually_exclusive = { focus = TAN_s12 }
+	relative_position_id = TAN_s1
+    x = -5
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    swap_ideas = {
+        remove_idea = TAN_ahen1
+        add_idea = TAN_ahen2
+       }
+}
+}
+focus = {
+    id = TAN_s15
+    icon = "GFX_focus_mex_soldaderas"
+    prerequisite = { focus = TAN_s14 }
+	relative_position_id = TAN_s1
+    x = -5
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    add_manpower = 100000
+}
+}
+focus = {
+    id = TAN_s16
+    icon = "GFX_goal_generic_demand_territory"
+    prerequisite = { focus = TAN_s15 focus = TAN_s13 }
+	relative_position_id = TAN_s1
+    x = -4
+    y = 6
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    add_ideas = TAN_ahen4
+    hidden_effect = {
+    swap_ideas = {
+        remove_idea = TAN_ahen2
+        add_idea = TAN_ahen4
+       }
+       swap_ideas = {
+        remove_idea = TAN_ahen3
+        add_idea = TAN_ahen4
+       }
+    }
+}
+}
+focus = {
+    id = TAN_s17
+    icon = "GFX_focus_POL_sanation_right"
+    prerequisite = { focus = TAN_s2 }
+	relative_position_id = TAN_s1
+    x = 4
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    add_manpower = 85000
+}
+}
+focus = {
+    id = TAN_s18
+    icon = "GFX_focus_fra_devalue_the_franc"
+    prerequisite = { focus = TAN_s17 }
+	relative_position_id = TAN_s1
+    x = 4
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    add_stability = 0.15
+}
+}
+focus = {
+    id = TAN_s19
+    icon = "GFX_focus_SOV_womens_fascist_movement"
+    prerequisite = { focus = TAN_s18 }
+	relative_position_id = TAN_s1
+    x = 4
+    y = 6
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    add_political_power = 250
+}
+}
+focus = {
+    id = TAN_s20
+    icon = "GFX_focus_POL_sanation_right"
+    prerequisite = { focus = TAN_s19 }
+    prerequisite = { focus = TAN_s9 }
+    mutually_exclusive = { focus = TAN_s22 }
+	relative_position_id = TAN_s1
+    x = 2
+    y = 7
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    random_owned_controlled_state = {
+    add_manpower = 21000
+    }
+    random_owned_controlled_state = {
+        add_manpower = 21000
+        }
+        random_owned_controlled_state = {
+            add_manpower = 21000
+            }
+            add_manpower = -63000
+}
+}
+focus = {
+    id = TAN_s21
+    icon = "GFX_focus_spr_the_anti_fascist_workers_revolution"
+    prerequisite = { focus = TAN_s20 }
+	relative_position_id = TAN_s1
+    x = 2
+    y = 8
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    swap_ideas = {
+        remove_idea = TAN_kigyou3
+        add_idea = TAN_kigyou4
+       }
+}
+}
+focus = {
+    id = TAN_s22
+    icon = "GFX_focus_RAJ_lions_of_the_great_war"
+    prerequisite = { focus = TAN_s9 }
+    prerequisite = { focus = TAN_s16 }
+    mutually_exclusive = { focus = TAN_s20 }
+	relative_position_id = TAN_s1
+    x = -2
+    y = 7
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    swap_ideas = {
+        remove_idea = TAN_kigyou3
+        add_idea = TAN_kigyou5
+       }
+}
+}
+focus = {
+    id = TAN_s23
+    icon = "GFX_focus_rom_parties_end"
+    prerequisite = { focus = TAN_s22 }
+	relative_position_id = TAN_s1
+    x = -2
+    y = 8
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    swap_ideas = {
+        remove_idea = TAN_kigyou5
+        add_idea = TAN_kigyou6
+       }
+}
+}
+focus = {
+    id = TAN_s24
+    icon = "GFX_focus_CZE_german_puppet"
+    prerequisite = { focus = TAN_s23 focus = TAN_s21 }
+	relative_position_id = TAN_s1
+    x = 0
+    y = 9
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    add_stability = 0.15
+}
+}
+focus = {
+    id = TAN_s25
+    icon = "GFX_focus_spa_the_spanish_miracle"
+    prerequisite = { focus = TAN_s23 focus = TAN_s21 }
+	relative_position_id = TAN_s1
+    x = 0
+    y = 10
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
+}
+}
+focus = {
+    id = TAN_s26
+    icon = "GFX_goal_generic_construction2"
+    prerequisite = { focus = TAN_s16 }
+	relative_position_id = TAN_s1
+    x = -4
+    y = 7
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    swap_ideas = {
+        remove_idea = TAN_ahen4
+        add_idea = TAN_ahen5
+       }
+}
+}
+focus = {
+    id = TAN_s27
+    icon = "GFX_focus_usa_guarantee_the_american_dream"
+    prerequisite = { focus = TAN_s26 }
+	relative_position_id = TAN_s1
+    x = -4
+    y = 8
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    add_research_slot = 1
+}
+}
+focus = {
+    id = TAN_s28
+    icon = "GFX_goal_generic_neutrality_focus"
+    prerequisite = { focus = TAN_s27 }
+	relative_position_id = TAN_s1
+    x = -4
+    y = 9
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    swap_ideas = {
+        remove_idea = TAN_ahen5
+        add_idea = TAN_ahen6
+       }
+}
+}
+focus = {
+    id = TAN_s29
+    icon = "GFX_focus_spa_save_the_alcazar"
+    prerequisite = { focus = TAN_s28 }
+	relative_position_id = TAN_s1
+    x = -4
+    y = 10
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    add_research_slot = 1
+}
+}
+focus = {
+    id = TAN_s30
+    icon = "GFX_focus_spr_crush_the_revolution"
+    prerequisite = { focus = TAN_s19 }
+	relative_position_id = TAN_s1
+    x = 4
+    y = 9
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    army_experience = 150
+}
+}
+focus = {
+    id = TAN_s31
+    icon = "GFX_focus_SOV_restore_cossack_units"
+    prerequisite = { focus = TAN_s30 }
+	relative_position_id = TAN_s1
+    x = 4
+    y = 10
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TAN_s32
+    icon = "GFX_focus_generic_the_giant_wakes"
+    prerequisite = { focus = TAN_s25 }
+	relative_position_id = TAN_s1
+    x = 0
+    y = 11
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
+}
+}
+focus = {
+    id = TAN_s33
+    icon = "GFX_focus_hol_fokker"
+    prerequisite = { focus = TAN_s32 }
+	relative_position_id = TAN_s1
+    x = 0
+    y = 12
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TAN_s34
+    icon = "GFX_goal_generic_propaganda"
+    prerequisite = { focus = TAN_s33 }
+	relative_position_id = TAN_s1
+    x = 0
+    y = 13
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TAN_s35
+    icon = "GFX_focus_focus_fra_revolution_utmost"
+    prerequisite = { focus = TAN_s34 }
+	relative_position_id = TAN_s1
+    x = 0
+    y = 14
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TAN_s36
+    icon = "GFX_focus_SOV_organize_wreckers"
+    prerequisite = { focus = TAN_s25 }
+	relative_position_id = TAN_s1
+    x = -3
+    y = 11
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = arms_factory
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = arms_factory
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = arms_factory
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = arms_factory
+            level = 2
+            instant_build = yes
+        }
+    }
+}
+}
+focus = {
+    id = TAN_s37
+    icon = "GFX_focus_POL_beck_ribbentrop"
+    prerequisite = { focus = TAN_s36 }
+	relative_position_id = TAN_s1
+    x = -3
+    y = 12
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TAN_s38
+    icon = "GFX_focus_generic_manpower"
+    prerequisite = { focus = TAN_s37 }
+	relative_position_id = TAN_s1
+    x = -3
+    y = 13
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TAN_s39
+    icon = "GFX_focus_SOV_mobilization_plan"
+    prerequisite = { focus = TAN_s38 }
+	relative_position_id = TAN_s1
+    x = -3
+    y = 14
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = TAN_s40
+    icon = "GFX_focus_POL_develop_polish_shipbuilding"
+    prerequisite = { focus = TAN_s25 }
+	relative_position_id = TAN_s1
+    x = 3
+    y = 11
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    if = {
+        limit = {
+            NOT = {
+                any_owned_state = {
+                    dockyard > 0
+                    free_building_slots = {
+                        building = dockyard
+                        size > 2
+                        include_locked = yes
+                    }
+                }
+            }
+            any_owned_state = {
+                is_coastal = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                is_coastal = yes
+                free_building_slots = {
+                    building = dockyard
+                    size > 2
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = dockyard
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
+}
+}
+focus = {
+    id = TAN_s41
+    icon = "GFX_focus_generic_navy_battleship2"
+    prerequisite = { focus = TAN_s40 }
+	relative_position_id = TAN_s1
+    x = 3
+    y = 12
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    if = {
+        limit = {
+            NOT = {
+                any_owned_state = {
+                    dockyard > 0
+                    free_building_slots = {
+                        building = dockyard
+                        size > 2
+                        include_locked = yes
+                    }
+                }
+            }
+            any_owned_state = {
+                is_coastal = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                is_coastal = yes
+                free_building_slots = {
+                    building = dockyard
+                    size > 2
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = dockyard
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
+}
+}
+focus = {
+    id = TAN_s42
+    icon = "GFX_goal_generic_navy_cruiser"
+    prerequisite = { focus = TAN_s41 }
+	relative_position_id = TAN_s1
+    x = 3
+    y = 13
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    add_doctrine_cost_reduction = {
+        name = fleet_in_being_bonus
+        cost_reduction = 0.75
+        uses = 2
+        category = fleet_in_being_tree
+    }
+}
+}
+focus = {
+    id = TAN_s43
+    icon = "GFX_focus_hol_prepare_the_inundation_lines"
+    prerequisite = { focus = TAN_s42 }
+	relative_position_id = TAN_s1
+    x = 3
+    y = 14
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+    navy_experience = 250
+    if = {
+        limit = {
+            NOT = {
+                any_owned_state = {
+                    dockyard > 0
+                    free_building_slots = {
+                        building = dockyard
+                        size > 2
+                        include_locked = yes
+                    }
+                }
+            }
+            any_owned_state = {
+                is_coastal = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                is_coastal = yes
+                free_building_slots = {
+                    building = dockyard
+                    size > 2
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = dockyard
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
+}
+}
+focus = {
+    id = TAN_s44
+    icon = "GFX_focus_mex_privatisation"
+    prerequisite = { focus = TAN_s35 }
+    prerequisite = { focus = TAN_s39 }
+    prerequisite = { focus = TAN_s43 }
+	relative_position_id = TAN_s1
+    x = 0
+    y = 15
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 50
+    }	
+
+completion_reward = {
+   
+}
+}
+
+
+
+
+
+
+
+
+}

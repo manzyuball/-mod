@@ -2,7 +2,7 @@ state={
 	id=879
 	name="STATE_879"
 	provinces={
-		3868 3924 3974 6889 11816 13278
+		3868 3924 3974 6889 11816 
 	}
 	history={
 		owner = AUS

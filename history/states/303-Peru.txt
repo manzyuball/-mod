@@ -26,7 +26,7 @@ state={
 		}
 		add_core_of = PRU
 		victory_points = {
-			12997 35 
+			12997 25 
 		}
 
 	}

@@ -16,12 +16,18 @@ state={
 			industrial_complex = 2
 		}
 		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
 
+			}
+
+		}
 
 	}
 
 	provinces={
-		549 3560 3629 6542 8335 9559 13886 13887 13888
+		549 3629 9559 11502 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000

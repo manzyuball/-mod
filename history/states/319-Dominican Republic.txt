@@ -9,7 +9,8 @@ state=
 	resources={
 		chromium=1 # was: 1
 	}
-	history={
+	history=
+	{
 		owner = CUB
 		buildings = {
 			infrastructure = 2

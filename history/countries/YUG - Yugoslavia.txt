@@ -92,7 +92,11 @@ if = {
 		modifier = BFTB_balkan_pact_enemy
 	}
 }
-
+create_faction = "ベオグラード条約機構"
+add_to_faction = YUG
+add_to_faction = GRE
+add_to_faction = ALB
+add_to_faction = ROM
 set_technology = {
 	tech_support = 1		
 	tech_engineers = 1

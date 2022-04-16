@@ -4,17 +4,16 @@ state={
 	name="STATE_597"
 
 	history={
-		owner = CHI
+		owner = MAN
 		add_core_of = CHI
 		add_core_of = PRC
-		add_core_of = MEN
+		add_core_of = MAN
 		victory_points = {
 			1069 3 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
-			arms_factory = 6
+			industrial_complex = 1
 
 
 		}
@@ -26,7 +25,7 @@ state={
 	}
 
 	provinces={
-		1069 1084 1104 1124 1154 1184 4205 1200 4037 4071 4089 4157 4181 4186 7055 7089 7105 7160 7189 9971 9987 10018 10043 10072 10102 11933 11962 12015 12045 12069 12074 12093 
+		1069 1084 1104 1124 1154 1184 1200 4037 4071 4089 4157 4181 4186 7055 7089 7105 7160 7189 9971 9987 10018 10043 10072 10102 11933 11962 12015 12045 12069 12074 12093 
 	}
 	manpower=38373200
 	buildings_max_level_factor=1.000

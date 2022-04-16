@@ -5,15 +5,14 @@ state={
 	manpower = 609304
 	
 	state_category = rural
-	impassable = yes
 
 	history={
 		owner = VLA
-		add_core_of = SOV
 		add_core_of = VLA
 		buildings = {
 			infrastructure = 2
 		}
+		add_core_of = SOV
 		victory_points = {
 			7789 1
 		}

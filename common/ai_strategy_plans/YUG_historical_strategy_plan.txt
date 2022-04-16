@@ -1,0 +1,59 @@
+YUG_historical = {
+	name = "Yugoslavian historical plan"
+	desc = ""
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		YUG_d1
+		YUG_d2
+		YUG_d4
+		YUG_d3
+		YUG_d7
+		YUG_d5
+		YUG_d17
+		YUG_d18
+		YUG_d19
+		YUG_d20
+		YUG_d21
+		YUG_d14
+		YUG_d8
+		YUG_d9
+		YUG_d10
+		YUG_d11
+		YUG_d12
+		YUG_d13
+	}
+
+	research = {
+		industry = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+		captain_of_industry = 5
+		war_industrialist = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+

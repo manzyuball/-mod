@@ -1,0 +1,7 @@
+CHI_habatukousou = {
+	icon = generic_crisis
+
+	allowed = {
+		original_tag = CHI
+	}
+}

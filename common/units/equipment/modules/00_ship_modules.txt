@@ -14,7 +14,7 @@ ship_light_battery_1 = {
 	sfx = sfx_ui_sd_module_turret
 	add_stats = {
 		build_cost_ic = 57.6
-		lg_attack = 5
+		lg_attack = 1
 	}
 	multiply_stats = {
 		naval_speed = -0.015
@@ -36,7 +36,7 @@ ship_light_battery_2 = {
 	sfx = sfx_ui_sd_module_turret
 	add_stats = {
 		build_cost_ic = 76.8
-		lg_attack = 15
+		lg_attack = 1.5
 	}
 	multiply_stats = {
 		naval_speed = -0.0175
@@ -62,7 +62,7 @@ ship_light_battery_3 = {
 	sfx = sfx_ui_sd_module_turret
 	add_stats = {
 		build_cost_ic = 96
-		lg_attack = 25
+		lg_attack = 2
 	}
 	multiply_stats = {
 		naval_speed = -0.02
@@ -90,7 +90,7 @@ ship_light_battery_4 = {
 	sfx = sfx_ui_sd_module_turret
 	add_stats = {
 		build_cost_ic = 115.2
-		lg_attack = 40
+		lg_attack = 2.5
 	}
 	multiply_stats = {
 		naval_speed = -0.0225
@@ -116,7 +116,7 @@ ship_light_battery_5 = {
 	sfx = sfx_ui_sd_module_turret
 	add_stats = {
 		build_cost_ic = 134.4
-		lg_attack = 55
+		lg_attack = 3
 	}
 	multiply_stats = {
 		naval_speed = -0.025
@@ -142,7 +142,7 @@ ship_light_battery_6 = {
 	sfx = sfx_ui_sd_module_turret
 	add_stats = {
 		build_cost_ic = 153.6
-		lg_attack = 65
+		lg_attack = 3.25
 	}
 	multiply_stats = {
 		naval_speed = -0.025
@@ -170,7 +170,7 @@ ship_light_battery_7 = {
 	sfx = sfx_ui_sd_module_turret
 	add_stats = {
 		build_cost_ic = 172.8
-		lg_attack = 85
+		lg_attack = 3.5
 	}
 	multiply_stats = {
 		naval_speed = -0.024
@@ -198,7 +198,7 @@ ship_light_battery_8 = {
 	sfx = sfx_ui_sd_module_turret
 	add_stats = {
 		build_cost_ic = 192
-		lg_attack = 100
+		lg_attack = 3.75
 	}
 	multiply_stats = {
 		naval_speed = -0.023
@@ -4510,7 +4510,65 @@ ship_airplane_launcher_4 = {
 #  # ##  #    ##       #  ###  #### #    ##
 #  # #   #  # # #       # #    #  # #  # #
 ###  ###  ##  # #     ##  #    #  #  ##  ###
-	
+	ship_deck_space = {
+		category = ship_deck_space
+		gfx = ship_deck_space
+
+		add_equipment_type = capital_ship
+		add_stats = {
+			carrier_size = 20
+			build_cost_ic = 500
+			manpower = 250
+		}
+		manpower = 500 #outside the add_stats section for code reasons
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		dismantle_cost_ic = 175
+	}
+
+	ship_deck_space_4 = {
+		category = ship_deck_space
+		gfx = ship_deck_space
+
+		add_equipment_type = capital_ship
+		add_stats = {
+			carrier_size = 4
+			build_cost_ic = 500
+			manpower = 70
+		}
+		manpower = 500 #outside the add_stats section for code reasons
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		dismantle_cost_ic = 175
+	}
+
+	ship_deck_space_8 = {
+		category = ship_deck_space
+		gfx = ship_deck_space
+
+		add_equipment_type = capital_ship
+		add_stats = {
+			carrier_size = 8
+			build_cost_ic = 500
+			manpower = 120
+		}
+		manpower = 500 #outside the add_stats section for code reasons
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		dismantle_cost_ic = 175
+	}
 
 ### #  # ### #       ###  ##  #  # # #  ##
 #   #  # #   #        #  #  # ## # # # #
@@ -5925,5 +5983,45 @@ ship_armor_cruiser_8 = {
 			module = sam_2
 			convert_cost_ic = 200
 		}
+	}
+	ship_bb_deck_space_1 = {
+		category = ship_bb_deck_space_1
+		add_stats = {
+			build_cost_ic = 1000
+			carrier_size = 1
+		}
+		manpower = 100
+		multiply_stats = {
+			naval_speed = -0.01
+			reliability = -0.025
+		}
+		dismantle_cost_ic = 700
+	}
+	ship_bb_deck_space_2 = {
+		category = ship_bb_deck_space_1
+		add_stats = {
+			build_cost_ic = 1000
+			carrier_size = 2
+		}
+		manpower = 120
+		multiply_stats = {
+			naval_speed = -0.01
+			reliability = -0.025
+		}
+		dismantle_cost_ic = 700
+	}
+	ship_bb_deck_space_2 = {
+		add_equipment_type = carrier
+		category = ship_bb_deck_space_2
+		add_stats = {
+			build_cost_ic = 1000
+		}
+		manpower = 100
+		multiply_stats = {
+			carrier_size = 19
+			naval_speed = -0.01
+			reliability = -0.025
+		}
+		dismantle_cost_ic = 700
 	}
 }

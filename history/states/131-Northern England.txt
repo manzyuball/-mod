@@ -12,16 +12,22 @@ state={
 		victory_points = {
 			351 10 
 		}
+		victory_points = {
+			3311 1 
+		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 5
+			industrial_complex = 6
 			dockyard = 4
 			air_base = 2
 			351 = {
 				naval_base = 6
 
 			}
+			3311 = {
+				naval_base = 1
 
+			}
 
 		}
 		add_core_of = ENG
@@ -37,7 +43,7 @@ state={
 	}
 
 	provinces={
-		351 11270 11299 13625
+		351 3311 11270 11299 
 	}
 	manpower=1128860
 	buildings_max_level_factor=1.000

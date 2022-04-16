@@ -20,16 +20,15 @@ starting_train_buffer = 2
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "FRA_1936_naval_mtg"
-		set_war_support = 0.1
+		set_war_support = 0.5
 	else = {
 		set_naval_oob = "FRA_1936_naval_legacy"
-		set_war_support = 0.15
+		set_war_support = 0.5
 	}
 }
 
 set_research_slots = 4
 set_stability = 0.7
-set_war_support = 0.85
 add_command_power = 20
 
 
@@ -131,7 +130,6 @@ if = {
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 if = {
 	limit = {
@@ -142,7 +140,7 @@ if = {
 	}
 }
 
-set_convoys = 480
+set_convoys = 550
 set_politics = {
 	ruling_party = communism
 	last_election = "1932.5.1"
@@ -157,25 +155,17 @@ set_popularities = {
 }
 
 add_ideas = {
-	FRA_disjointed_government
-	limited_conscription
-	FRA_GUN
-	FRA_full_employment
-	FRA_political_violence
-	FRA_inefficient_economy_2
+	
 }
-GER = { add_to_faction = FRA }
-
+create_faction = "第４インターナショナル"
 declare_war_on = {
 	target = ALG
 	type = annex_everything
-
-
-
 }
-
-give_guarantee = ITA
-give_guarantee = GER
+add_to_faction = GER
+add_to_faction = ITA
+add_to_faction = HOL
+give_guarantee = SOV
 
 recruit_character = FRA_philippe_petain
 recruit_character = FRA_maurice_thorez

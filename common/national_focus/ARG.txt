@@ -1,0 +1,1097 @@
+
+focus_tree = {
+	id = ARG_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ARG
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 1760 y = 30 }
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
+	focus = {
+		id = ARG_na_1
+		icon = "GFX_focus_por_recover_latin_america"
+		x = 3
+		y = 0
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_major = yes
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_2
+		icon = "GFX_goal_generic_construction2"
+		relative_position_id = ARG_na_1
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_1 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 18
+				state = 508
+				}
+		}
+	}
+
+	focus = {
+		id = ARG_na_3
+		icon = "GFX_focus_CZE_german_puppet"
+		relative_position_id = ARG_na_2
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_2 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.15
+		}
+	}
+
+	focus = {
+		id = ARG_na_4
+		icon = "GFX_focus_generic_steel"
+		relative_position_id = ARG_na_3
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_3 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 24
+				state = 508
+				}
+		}
+	}
+
+	focus = {
+		id = ARG_na_5
+		icon = "GFX_focus_generic_industry_3"
+		relative_position_id = ARG_na_4
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_4 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 3.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_6
+		icon = "GFX_focus_usa_reestablish_the_gold_standard"
+		relative_position_id = ARG_na_5
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_5 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 12
+				state = 508
+				}
+				add_resource = {
+					type = iron
+					amount = 23
+					state = 508
+					}
+					add_resource = {
+						type = oil
+						amount = 31
+						state = 512
+						}
+		}
+	}
+	focus = {
+		id = ARG_na_7
+		icon = "GFX_focus_SOV_breadbasket_of_the_union"
+		relative_position_id = ARG_na_1
+		x = 2
+		y = 1
+		prerequisite = { focus = ARG_na_1 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_nougyou
+				add_idea = ARG_nougyou2
+				}
+		}
+	}
+	focus = {
+		id = ARG_na_8
+		icon = "focus_ita_correcting_the_north_south_divide"
+		relative_position_id = ARG_na_7
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_7 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_nougyou2
+				add_idea = ARG_nougyou3
+				}
+		}
+	}
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。	
+	focus = {
+		id = ARG_na_9
+		icon = "GFX_focus_NZL_bob_semple_tank"
+		relative_position_id = ARG_na_8
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_8 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_nougyou3
+				add_idea = ARG_nougyou4
+				}
+		}
+	}
+	focus = {
+		id = ARG_na_10
+		icon = "GFX_focus_hol_abandon_the_gold_standard"
+		relative_position_id = ARG_na_9
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_9 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_nougyou4
+				add_idea = ARG_nougyou5
+				}
+		}
+	}
+	focus = {
+		id = ARG_na_11
+		icon = "GFX_focus_generic_the_giant_wakes"
+		relative_position_id = ARG_na_10
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_10 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_nougyou5
+				add_idea = ARG_nougyou6
+				}
+		}
+	}
+	focus = {
+		id = ARG_na_12
+		icon = "GFX_goal_generic_production"
+		relative_position_id = ARG_na_1
+		x = -2
+		y = 1
+		prerequisite = { focus = ARG_na_1 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_kyoukou
+				add_idea = ARG_kyoukou1
+				}
+		}
+	}
+	focus = {
+		id = ARG_na_13
+		icon = "GFX_focus_generic_self_management"
+		relative_position_id = ARG_na_12
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_12 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+           swap_ideas = {
+			   remove_idea = ARG_kyoukou1
+			   add_idea = ARG_kyoukou2
+		   }
+		}
+	}
+	focus = {
+		id = ARG_na_14
+		icon = "GFX_focus_spa_save_the_alcazar"
+		relative_position_id = ARG_na_13
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_13 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_kyoukou2
+				add_idea = ARG_kyoukou3
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_15
+		icon = "GFX_focus_generic_military_academy"
+		relative_position_id = ARG_na_14
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_14 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_kyoukou3
+				add_idea = ARG_kyoukou4
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_16
+		icon = "GFX_goal_generic_demand_territory"
+		relative_position_id = ARG_na_15
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_15 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_ideas = ARG_kyoukou4
+		}
+	}
+	focus = {
+		id = ARG_na_17
+		icon = "GFX_goal_generic_construct_civ_factory"
+		relative_position_id = ARG_na_12
+		x = -2
+		y = 1
+		prerequisite = { focus = ARG_na_12 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+						random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_18
+		icon = "GFX_focus_SOV_organize_wreckers"
+		relative_position_id = ARG_na_17
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_17 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_ideas = ARG_san1
+		}
+	}
+	focus = {
+		id = ARG_na_19
+		icon = "GFX_focus_research2"
+		relative_position_id = ARG_na_18
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_18 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+			swap_ideas = {
+				remove_idea = ARG_san1
+				add_idea = ARG_san2
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_20
+		icon = "GFX_goal_reichsautobahn"
+		relative_position_id = ARG_na_19
+		x = 0
+		y = 1
+		prerequisite = { focus = ARG_na_19 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_san2
+				add_idea = ARG_san3
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_21
+		icon = "GFX_focus_hol_the_foundations_of_defense"
+		relative_position_id = ARG_na_6
+		x = -1
+		y = 1
+		prerequisite = { focus = ARG_na_6 }
+		prerequisite = { focus = ARG_na_16 focus = ARG_na_20 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			907 = {
+				add_extra_state_shared_building_slots = 5
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_22
+		icon = "GFX_focus_SOV_merge_plants"
+		relative_position_id = ARG_na_21
+		x = -2
+		y = 1
+		prerequisite = { focus = ARG_na_21 }
+		cost = 3
+        mutually_exclusive = { focus = ARG_na_23 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			907 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_23
+		icon = "GFX_focus_eng_global_defense"
+		relative_position_id = ARG_na_21
+		x = 2
+		y = 1
+		prerequisite = { focus = ARG_na_21 }
+		cost = 3
+        mutually_exclusive = { focus = ARG_na_22 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.1
+			907 = {
+				add_manpower = -431231
+			}
+			278 = {
+				add_manpower = 431231
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_24
+		icon = "GFX_focus_spr_torchbearers_of_tomorrow"
+		relative_position_id = ARG_na_21
+		x = 2
+		y = 2
+		prerequisite = { focus = ARG_na_23 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			278 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。	
+	focus = {
+		id = ARG_na_25
+		icon = "GFX_focus_POL_warsaw_main_station"
+		relative_position_id = ARG_na_21
+		x = 3
+		y = 3
+		prerequisite = { focus = ARG_na_24 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			every_owned_state = {
+				add_dynamic_modifier = { modifier = tyuuou }
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_26
+		icon = "GFX_focus_mex_soldaderas"
+		relative_position_id = ARG_na_21
+		x = 3
+		y = 4
+		prerequisite = { focus = ARG_na_25 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		every_owned_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_27
+		icon = "GFX_focus_SOV_flying_clubs"
+		relative_position_id = ARG_na_21
+		x = 1
+		y = 3
+		prerequisite = { focus = ARG_na_23 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			every_owned_state = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+					}
+				}
+		}
+	}
+	focus = {
+		id = ARG_na_28
+		icon = "GFX_focus_usa_guarantee_the_american_dream"
+		relative_position_id = ARG_na_21
+		x = 1
+		y = 4
+		prerequisite = { focus = ARG_na_27 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.15
+		}
+	}
+	focus = {
+		id = ARG_na_29
+		icon = "GFX_focus_mex_privatisation"
+		relative_position_id = ARG_na_21
+		x = -2
+		y = 2
+		prerequisite = { focus = ARG_na_22 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			907 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_30
+		icon = "GFX_focus_spa_the_spanish_miracle"
+		relative_position_id = ARG_na_21
+		x = -3
+		y = 3
+		prerequisite = { focus = ARG_na_29 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			907 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_31
+		icon = "GFX_focus_jap_zaibatsu"
+		relative_position_id = ARG_na_21
+		x = -3
+		y = 4
+		prerequisite = { focus = ARG_na_30 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			907 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_32
+		icon = "GFX_focus_generic_aircraft_production"
+		relative_position_id = ARG_na_21
+		x = -1
+		y = 3
+		prerequisite = { focus = ARG_na_22 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			907 = {
+				set_building_level = {
+					type = air_base
+					level = 10
+					instant_build = yes
+					}
+			}
+		}
+	}
+	focus = {
+		id = ARG_na_33
+		icon = "GFX_focus_POL_develop_polish_shipbuilding"
+		relative_position_id = ARG_na_21
+		x = -1
+		y = 4
+		prerequisite = { focus = ARG_na_32 }
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			907 = {
+				add_building_construction = {
+				type = naval_base
+				level = 6
+				instant_build = yes
+				province = 12364
+				}
+			}
+		}
+	}
+
+	##############################################################
+	##############################################################
+	##############################################################
+	##############################################################
+	##############################################################
+	##############################################################
+	##############################################################
+	##############################################################
+	##############################################################
+	##############################################################
+	focus = {
+		id = ARG_g1
+		icon = "GFX_goal_generic_military_sphere"
+		x = 9
+		y = 6
+		cost = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 150
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = ARG_g2
+		icon = "GFX_focus_generic_military_academy"
+		x = 0
+		y = 1
+		cost = 3
+		relative_position_id = ARG_g1
+		prerequisite = { focus = ARG_g1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_gun
+				add_idea = ARG_gun1
+			}
+		}
+	}
+	focus = {
+		id = ARG_g3
+		icon = "GFX_focus_POL_sanation_right"
+		x = 0
+		y = 2
+		cost = 3
+		mutually_exclusive = { focus = ARG_g10 }
+		relative_position_id = ARG_g1
+		prerequisite = { focus = ARG_g2 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_gun1
+				add_idea = ARG_gun2
+			}
+		}
+	}
+	focus = {
+		id = ARG_g4
+		icon = "GFX_focus_generic_tank_production"
+		x = 0
+		y = 3
+		cost = 3
+		relative_position_id = ARG_g1
+		prerequisite = { focus = ARG_g3 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_gun2
+				add_idea = ARG_gun3
+			}
+		}
+	}
+	focus = {
+		id = ARG_g5
+		icon = "GFX_goal_rhineland"
+		x = 0
+		y = 4
+		cost = 3
+		relative_position_id = ARG_g1
+		prerequisite = { focus = ARG_g4 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_gun3
+				add_idea = ARG_gun4
+			}
+		}
+	}
+	focus = {
+		id = ARG_g6
+		icon = "GFX_goal_generic_air_fighter2"
+		x = 2
+		y = 0
+		cost = 3
+		relative_position_id = ARG_g1
+		available_if_capitulated = yes
+			complete_tooltip = {
+				air_experience = 25
+				if = { limit = { has_country_flag = aviation_effort_AB }
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+				}			
+				add_doctrine_cost_reduction = {
+					name = air_doc_bonus
+					cost_reduction = 0.5
+					uses = 1
+					category = air_doctrine
+				}			
+			}
+	
+			completion_reward = {
+				air_experience = 25
+	
+				if = {
+					limit = {
+						capital_scope = {
+							NOT = {
+								free_building_slots = {
+									building = air_base
+									size > 1
+								}
+							}
+						}
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+						add_building_construction = {
+							type = air_base
+							level = 2
+							instant_build = yes
+						}
+						ROOT = { set_country_flag = aviation_effort_AB }
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+					capital_scope = {
+						add_building_construction = {
+							type = air_base
+							level = 2
+							instant_build = yes
+						}
+						ROOT = { set_country_flag = aviation_effort_AB }
+					}
+				}
+				add_doctrine_cost_reduction = {
+					name = air_doc_bonus
+					cost_reduction = 0.5
+					uses = 1
+					category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = ARG_g7
+		icon = "GFX_goal_generic_CAS"
+		x = 2
+		y = 1
+		cost = 3
+		mutually_exclusive = { focus = ARG_g13 }
+		relative_position_id = ARG_g1
+		available_if_capitulated = yes
+		prerequisite = { focus = ARG_g6 }
+		completion_reward = {
+			add_ideas = ARG_kuu
+		}
+	}
+	focus = {
+		id = ARG_g8
+		icon = "GFX_goal_generic_defence"
+		x = 2
+		y = 2
+		cost = 3
+		relative_position_id = ARG_g1
+		available_if_capitulated = yes
+		prerequisite = { focus = ARG_g7 }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_kuu
+				add_idea = ARG_kuu1
+			}
+		}
+	}
+	focus = {
+		id = ARG_g9
+		icon = "GFX_focus_POL_beck_ribbentrop"
+		x = 2
+		y = 3
+		cost = 3
+		relative_position_id = ARG_g1
+		available_if_capitulated = yes
+		prerequisite = { focus = ARG_g8 }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_kuu1
+				add_idea = ARG_kuu2
+			}
+		}
+	}
+	focus = {
+		id = ARG_g10
+		icon = "GFX_focus_por_luso_tropicalism"
+		x = -2
+		y = 2
+		cost = 3
+		mutually_exclusive = { focus = ARG_g3 }
+		relative_position_id = ARG_g1
+		available_if_capitulated = yes
+		prerequisite = { focus = ARG_g2 }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_gun1
+				add_idea = ARG_gun5
+			}
+		}
+	}
+	focus = {
+		id = ARG_g11
+		icon = "GFX_focus_generic_combined_arms"
+		x = -2
+		y = 3
+		cost = 3
+		relative_position_id = ARG_g1
+		available_if_capitulated = yes
+		prerequisite = { focus = ARG_g10 }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_gun5
+				add_idea = ARG_gun6
+			}
+		}
+	}
+	focus = {
+		id = ARG_g12
+		icon = "GFX_focus_prc_infiltration"
+		x = -2
+		y = 4
+		cost = 3
+		relative_position_id = ARG_g1
+		available_if_capitulated = yes
+		prerequisite = { focus = ARG_g11 }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_gun5
+				add_idea = ARG_gun6
+			}
+		}
+	}
+	focus = {
+		id = ARG_g13
+		icon = "GFX_focus_CZE_military_aeronautical_institute"
+		x = 4
+		y = 1
+		cost = 3
+		mutually_exclusive = { focus = ARG_g7 }
+		relative_position_id = ARG_g1
+		available_if_capitulated = yes
+		prerequisite = { focus = ARG_g6 }
+		completion_reward = {
+			add_ideas = ARG_kuuA1
+		}
+	}
+	focus = {
+		id = ARG_g14
+		icon = "GFX_goal_generic_occupy_start_war"
+		x = 4
+		y = 2
+		cost = 3
+		relative_position_id = ARG_g1
+		available_if_capitulated = yes
+		prerequisite = { focus = ARG_g13 }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_kuuA1
+				add_idea = ARG_kuuA2
+			}
+		}
+	}
+	focus = {
+		id = ARG_g15
+		icon = "GFX_focus_usa_escort_fighters"
+		x = 4
+		y = 3
+		cost = 3
+		relative_position_id = ARG_g1
+		available_if_capitulated = yes
+		prerequisite = { focus = ARG_g14 }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ARG_kuuA2
+				add_idea = ARG_kuuA3
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

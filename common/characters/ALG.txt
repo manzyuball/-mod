@@ -1,4 +1,19 @@
 characters={
+	ALG_EugeneDeloncle={
+		name=ALG_EugeneDeloncle
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/dareka.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+			traits={ anti_communist }
+		}
+	}
+	
 	ALG_ar={
 		advisor={
 			slot = high_command

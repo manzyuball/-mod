@@ -18,12 +18,11 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = POL
 		add_core_of = GER
 	}
 
 	provinces={
-		444 537 3473 3572 6236 11478 
+		444 537 3473 3572 6236 9387 11478 
 	}
 
 	local_supplies=0.0 

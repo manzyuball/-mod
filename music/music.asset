@@ -48,12 +48,6 @@ music = {
 }
 
 music = {
-	name = "I Vow to Thee My Country"
-	file = "I Vow to Thee My Country.ogg"
-	volume = 1.35
-}
-
-music = {
 	name = "Gott erhalte Franz den Kaiser"
 	file = "Gott erhalte Franz den Kaiser.ogg"
 	volume = 1.25
@@ -82,7 +76,71 @@ music = {
 	file = "1812 Overture.ogg"
 	volume = 1.55
 }
-
+music = {
+	name = "Battle of Britain March"
+	file = "Battle of Britain March.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Bella Ciao"
+	file = "Bella Ciao.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Chinese Victory Song"
+	file = "Chinese Victory Song.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Föl föl vitézek"
+	file = "Föl föl vitézek.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Mazurek Dąbrowskiego"
+	file = "Mazurek Dąbrowskiego.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Mecidiye Marşi"
+	file = "Mecidiye Marşi.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Preußens Gloria march"
+	file = "Preußens Gloria march.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Sacred War"
+	file = "Sacred War.ogg"
+	volume = 1.00
+}
+music = {
+	name = "Se il Papa è andato via"
+	file = "Se il Papa è andato via.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Föl föl vitézek"
+	file = "Föl föl vitézek.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Unsere Panzerdivision"
+	file = "Unsere Panzerdivision.ogg"
+	volume = 1.55
+}
+music = {
+	name = "When Johnny Comes Marching Home"
+	file = "When Johnny Comes Marching Home.ogg"
+	volume = 1.55
+}
+music = {
+	name = "勇军进行曲"
+	file = "勇军进行曲.ogg"
+	volume = 1.55
+}
 # General war:
 music = {
 	name = "general_war_1"

@@ -1,18 +1,4 @@
 characters={
-	BRI_SunSun={
-		name=BRI_Mr.Sun
-		portraits={
-			civilian={
-				large="gfx/leaders/BRI/Portrait_BRI_Sunsun.dds"
-			}
-		}
-		country_leader={
-			ideology=liberalism
-			traits={ defeatist }
-			expire="1945.1.1.1"
-			id=-1
-		}
-	}
 	BRI_fascist_guy={
 		advisor={
 			slot = political_advisor

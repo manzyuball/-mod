@@ -60,6 +60,14 @@ JAP_kaihatu = {
 	global_building_slots_factor = 0.15
 }
 
+tyuuou = {
+	enable = { always = yes }
+
+	icon = modifiers_generic_military_plans
+	
+	Monthly_population = 0.5
+}
+
 JAP_kaihatu2 = {
 	enable = { always = yes }
 

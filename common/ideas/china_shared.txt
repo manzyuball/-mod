@@ -1,6 +1,182 @@
 ideas = {
 
 	country = {
+		TAN_kigyou = {
+
+			picture = received_attache
+			removal_cost = -1
+			modifier = {
+				economy_cost_factor = -0.25
+				consumer_goods_factor = -0.01
+			}
+		}
+		TAN_kigyou1 = {
+
+			picture = received_attache
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.15
+				economy_cost_factor = -0.25
+				consumer_goods_factor = -0.01
+			}
+		}
+		TAN_kigyou2 = {
+
+			picture = received_attache
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.15
+				economy_cost_factor = -0.25
+				consumer_goods_factor = -0.01
+				lend_lease_tension = -0.3
+			}
+		}
+		TAN_kigyou3 = {
+
+			picture = received_attache
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.15
+				economy_cost_factor = -0.25
+				consumer_goods_factor = -0.01
+				lend_lease_tension = -0.3
+				license_purchase_cost = -0.85
+				license_production_speed = -0.85
+			}
+		}
+		TAN_kigyou4 = {
+
+			picture = received_attache
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.15
+				economy_cost_factor = -0.25
+				consumer_goods_factor = -0.05
+				lend_lease_tension = -0.3
+				license_purchase_cost = -0.85
+				license_production_speed = -0.85
+			}
+		}
+
+		TAN_kigyou5 = {
+
+			picture = received_attache
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.2
+				economy_cost_factor = -0.25
+				lend_lease_tension = -0.3
+				license_purchase_cost = -0.85
+				license_production_speed = -0.85
+			}
+		}
+		TAN_kigyou6 = {
+
+			picture = received_attache
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.2
+				economy_cost_factor = -0.25
+				lend_lease_tension = -0.3
+				license_purchase_cost = -0.85
+				license_production_speed = -0.85
+				consumer_goods_factor = 0.03
+				Industrial_capacity_factory = 0.2
+			}
+		}
+		TAN_sasasa = {
+
+			picture = generic_spy_political
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.2
+				economy_cost_factor = -0.25
+				lend_lease_tension = -0.3
+				license_purchase_cost = -0.85
+				license_production_speed = -0.85
+				consumer_goods_factor = 0.03
+				Industrial_capacity_factory = 0.2
+			}
+		}
+		TAN_ahen = {
+
+			picture = prc_permit_opium_trade
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				consumer_goods_factor = -0.1
+			}
+		}
+		
+		TAN_ahen1 = {
+
+			picture = prc_permit_opium_trade
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.25
+				consumer_goods_factor = -0.15
+			}
+		}
+		
+		TAN_ahen2 = {
+
+			picture = prc_permit_opium_trade
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.25
+				consumer_goods_factor = -0.1
+				trade_opinion_factor = -0.40
+				min_export = -0.15
+				production_factory_max_efficiency_factor = 0.1
+		}
+		}
+		
+		TAN_ahen3 = {
+
+			picture = prc_permit_opium_trade
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.25
+				consumer_goods_factor = -0.2
+				trade_opinion_factor = -0.40
+			}
+		}
+		TAN_ahen4 = {
+
+			picture = prc_permit_opium_trade
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.25
+				consumer_goods_factor = -0.2
+				trade_opinion_factor = -0.40
+				min_export = -0.15
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
+		TAN_ahen5 = {
+
+			picture = prc_permit_opium_trade
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.3
+				consumer_goods_factor = -0.25
+				trade_opinion_factor = -0.40
+				min_export = -0.15
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
+		TAN_ahen6 = {
+
+			picture = prc_permit_opium_trade
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				consumer_goods_factor = -0.2
+				trade_opinion_factor = -0.40
+				min_export = -0.15
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
 		CHI_wargaming_division = {
 
 			picture = chi_wargaming_division

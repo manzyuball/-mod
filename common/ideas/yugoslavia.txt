@@ -2,30 +2,64 @@ ideas = {
 
 	country = {
 	
-		anti_german_military = {
+		Yonennkann = {
 			
-			picture = generic_fascism_banned
-
-			allowed = {
-				original_tag = YUG
-				always = no
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = fascism
-				}
-			}
+			picture = POL_succesful_four_year_plan
 
 			removal_cost = -1
 			
 			modifier = {
-				drift_defence_factor = 0.05
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = -0.05
 			}
 		}
-		
-		
-		
+
+		YUG_gua = {
+			
+			picture = yug_all_yugoslavian_regiments
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.25
+				production_factory_max_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		YUG_gua1 = {
+			
+			picture = yug_all_yugoslavian_regiments
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.02
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				production_speed_arms_factory_factor = 0.25
+				production_factory_max_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		YUG_gua2 = {
+			
+			picture = yug_all_yugoslavian_regiments
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.05
+				partisan_effect = 0.45
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				production_speed_arms_factory_factor = 0.25
+				production_factory_max_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
 		king_peter_1 = {
 			
 			picture = YUG_peter_ii

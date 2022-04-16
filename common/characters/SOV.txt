@@ -16,7 +16,7 @@ characters = {
 		name = SOV_iosif_stalin
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Starlin.dds.dds"
+				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
 			}
 			army = {
 				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
@@ -25,7 +25,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = stalinism
-			traits = { stalin_heart_of_steel }
+			traits = { Baka }
 			expire = "1953.3.1.1"
 			id = -1
 		}

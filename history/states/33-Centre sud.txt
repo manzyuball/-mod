@@ -14,13 +14,12 @@ state={
 		
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
 		}
 		add_core_of = FRA
 	}
 
 	provinces={
-		651 669 3621 3626 3655 6648 6651 9629 11869 11631 
+		651 669 3621 3626 3655 6648 6651 9629 11869 
 	}
 
 	local_supplies=0.0 

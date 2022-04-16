@@ -12,20 +12,6 @@ characters={
 			id=-1
 		}
 	}
-	AUS_Adolf_Hitler={
-		name=AUS_Hiteler
-		portraits={
-			civilian={
-				large="gfx/leaders/AUS/Portrait_Austria_Adolf_Hitler.dds"
-			}
-		}
-		country_leader={
-			ideology=nazism
-			traits={ inexperienced_imperialist }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
 	AUS_karl_renner={
 		name=AUS_karl_renner
 		portraits={
@@ -37,6 +23,34 @@ characters={
 			ideology=socialism
 			expire="1965.1.1.1"
 			id=-1
+		}
+	}
+	AUS_Adolf_Hitler={
+		name=AUS_Adolf_Hitler
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Adolf_Hitler.dds"
+				small="gfx/interface/ideas/idea_GER_adolf_hitler.dds"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+			traits  = {
+				anti_communist
+				}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Adolf_Hitler
+			allowed  = {
+					original_tag  = AUS
+				}
+				traits  = {
+				constitutional_monarch_minor
+			}
+
 		}
 	}
 	AUS_alfred_klahr={

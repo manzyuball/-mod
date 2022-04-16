@@ -78,7 +78,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 15
 
 			has_war = no
 			has_government = communism
@@ -138,38 +138,33 @@ music = {
 							}		
 						}
 					}
-
-
-music = {
- song = "I Vow to Thee My Country"
-							
- chance = {
-	modifier = {
-		factor = 15
-		tag = ENG
-	}		
-	}
-}
-
-music = {
-		song = "Marching Through Georgia"
-								
-	chance = {
-		modifier = {
-			factor = 15
-							
-			tag = USA
-			tag = CSA
-			tag = USB
-			}		
-       }
-}
+					music = {
+						song = "battle hymn of the republic"
+						
+						chance = {
+							modifier = {
+								factor = 15
+												
+								tag = USA
+								}
+							}	
+					}
+					music = {
+						song = "When Johnny Comes Marching Home"
+						
+						chance = {
+							modifier = {
+								factor = 15
+								tag = CSA
+							}		
+						}	
+					}
 music = {
 	song = "La Marseillaise"
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 15
 
 			has_war = yes
 			has_government = communism
@@ -181,38 +176,122 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 15
 
 			has_war = yes
 			has_government = communism
 		}		
 	}	
 }
-
 music = {
-	song = "axis_peace_1"
+	song = "Battle of Britain March"
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 15
 
-			has_war = no
-			has_government = fascism
+			tag = ENG
 		}		
-	}	
+	}
 }
-
 music = {
-	song = "axis_peace_2"
+	song = "Bella Ciao"
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 15
 
-			has_war = no
-			has_government = fascism
+			tag = MLT
 		}		
-	}	
+	}
+}
+music = {
+	song = "Chinese Victory Song"
+	
+	chance = {
+		modifier = {
+			factor = 15
+
+			tag = CHI
+		}		
+	}
+}
+music = {
+	song = "Föl föl vitézek"
+	
+	chance = {
+		modifier = {
+			factor = 15
+
+			tag = AUS
+		}		
+	}
+}
+music = {
+	song = "Mazurek Dąbrowskiego"
+	
+	chance = {
+		modifier = {
+			factor = 15
+
+			tag = POL
+		}		
+	}
+}
+music = {
+	song = "Preußens Gloria march"
+	
+	chance = {
+		modifier = {
+			factor = 15
+
+			tag = LAT
+		}		
+	}
+}
+music = {
+	song = "Sacred War"
+	
+	chance = {
+		modifier = {
+			factor = 15
+
+			has_war = yes
+		}		
+	}
+}
+music = {
+	song = "Se il Papa è andato via"
+	
+	chance = {
+		modifier = {
+			factor = 15
+
+			tag = ITA
+		}		
+	}
+}
+music = {
+	song = "Unsere Panzerdivision"
+	
+	chance = {
+		modifier = {
+			factor = 15
+
+			tag = GER
+		}		
+	}
+}
+music = {
+	song = "勇军进行曲"
+	
+	chance = {
+		modifier = {
+			factor = 15
+
+			tag = PRC
+		}		
+	}
 }
 
 # WAR SONGS ####################

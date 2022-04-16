@@ -5,13 +5,12 @@ state={
 		5082 12769 12831 
 	}
 	history={
-		owner = RAJ
+		owner = AFG
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 		}
 		add_core_of = AFG
-		add_core_of = PAK
 	}
 
 	manpower=342134

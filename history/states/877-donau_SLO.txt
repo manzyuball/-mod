@@ -2,7 +2,7 @@ state={
 	id=877
 	name="STATE_877"
 	provinces={
-		596 665 6672 
+		665 6672 
 	}
 	history={
 		owner = AUS
@@ -12,7 +12,7 @@ state={
 		add_core_of = YUG
 		add_core_of = AUS
 		add_core_of = SLV
-
+		add_core_of = HUN
 	}
 	manpower=44300
 	state_category = rural

@@ -12,7 +12,7 @@ state={
 		owner = ARG
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
+			industrial_complex = 3
 
 		}
 		add_core_of = ARG

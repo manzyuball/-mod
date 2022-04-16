@@ -1,0 +1,372 @@
+﻿focus_tree = {
+	id = ALG_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ALG
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+	focus = {
+		id = ALG_s1
+		icon = "GFX_focus_mex_restore_the_army_of_christ_shine"
+		x = 2
+		y = 0
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_ideas = {
+				ALG_a1
+			}
+		}
+	}
+	focus = {
+		id = ALG_s2
+		icon = "GFX_focus_generic_little_entente"
+		prerequisite = { focus = ALG_s1 }
+		relative_position_id = ALG_s1
+		x = -2
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_manpower = 65000
+			army_experience = 35
+		}
+	}
+	focus = {
+		id = ALG_s3
+		icon = "GFX_goal_generic_propaganda"
+		prerequisite = { focus = ALG_s2 }
+		relative_position_id = ALG_s1
+		x = -2
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_manpower = 4000
+			swap_ideas = {
+				remove_idea = ALG_a1
+			    add_idea = ALG_a2
+			}
+		}
+	}
+	focus = {
+		id = ALG_s4
+		icon = "GFX_focus_focus_fra_revolution_utmost"
+		prerequisite = { focus = ALG_s3 }
+		relative_position_id = ALG_s1
+		x = -2
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_manpower = 3000
+			army_experience = 50
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = ALG_s5
+		icon = "GFX_focus_TUR_loosen_the_laws_on_secularism"
+		prerequisite = { focus = ALG_s4 }
+		relative_position_id = ALG_s1
+		x = -2
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_manpower = 5000
+			swap_ideas ={
+				remove_idea = ALG_a2
+			    add_idea = ALG_a3
+			}
+		}
+	}
+	focus = {
+		id = ALG_s6
+		icon = "GFX_focus_focus_fra_maquis"
+		prerequisite = { focus = ALG_s1 }
+		relative_position_id = ALG_s1
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = ALG
+				}
+		}
+	}
+	focus = {
+		id = ALG_s8
+		icon = "GFX_focus_chi_british_cooperation"
+		prerequisite = { focus = ALG_s6 }
+		relative_position_id = ALG_s1
+		x = 0
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+				producer = ENG
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment
+					amount = 500
+					producer = ENG
+					}
+					add_equipment_to_stockpile = {
+						type = support_equipment_1
+						amount = 300
+						producer = ENG
+						}
+		}
+	}
+	focus = {
+		id = ALG_s9
+		icon = "GFX_focus_prc_infiltration"
+		prerequisite = { focus = ALG_s8 }
+		relative_position_id = ALG_s1
+		x = 0
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_ideas = {
+				ALG_a5
+			}
+		}
+	}
+	focus = {
+		id = ALG_s10
+		icon = "GFX_focus_SOV_organize_wreckers"
+		prerequisite = { focus = ALG_s9 }
+		relative_position_id = ALG_s1
+		x = 0
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = light_tank_chassis
+				amount = 30
+				producer = ALG
+				}
+				add_equipment_to_stockpile = {
+					type = fighter
+					amount = 50
+					producer = ALG
+					}
+		}
+	}
+	focus = {
+		id = ALG_s11
+		icon = "GFX_focus_usa_guarantee_the_american_dream"
+		prerequisite = { focus = ALG_s1 }
+		relative_position_id = ALG_s1
+		x = 2
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 3 }	
+		}
+	}
+	focus = {
+		id = ALG_s12
+		icon = "GFX_focus_generic_africa_factory"
+		prerequisite = { focus = ALG_s11 }
+		relative_position_id = ALG_s1
+		x = 2
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }	
+		}
+	}
+	focus = {
+		id = ALG_s13
+		icon = "GFX_focus_eng_the_sun_never_sets"
+		prerequisite = { focus = ALG_s12 }
+		relative_position_id = ALG_s1
+		x = 2
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+			add_offsite_building = { type = arms_factory level = 2 }	
+		}
+	}
+	focus = {
+		id = ALG_s14
+		icon = "GFX_focus_CZE_german_puppet"
+		prerequisite = { focus = ALG_s13 }
+		relative_position_id = ALG_s1
+		x = 2
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 3 }
+		}
+	}
+	focus = {
+		id = ALG_s15
+		icon = "GFX_focus_POL_riot_of_37"
+		prerequisite = { focus = ALG_s14 }
+		relative_position_id = ALG_s1
+		x = 2
+		y = 5
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_ideas = {
+				ALG_a5
+			}
+		}
+	}
+	focus = {
+		id = ALG_s16
+		icon = "GFX_goal_generic_radar"
+		prerequisite = { focus = ALG_s11 }
+		relative_position_id = ALG_s1
+		x = 4
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = ALG_s17
+		icon = "GFX_goal_generic_scientific_exchange"
+		prerequisite = { focus = ALG_s16 }
+		relative_position_id = ALG_s1
+		x = 4
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = USA
+				modifier = dankou
+				}
+			add_research_slot = 1
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = ALG_s18
+		icon = "GFX_focus_ger_bulwark_against_bolshevism"
+		prerequisite = { focus = ALG_s17 }
+		relative_position_id = ALG_s1
+		x = 4
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_ideas = ALG_a6
+		}
+	}
+	focus = {
+		id = ALG_s19
+		icon = "GFX_focus_GRE_reviving_the_spartan_warrior_spirit"
+		prerequisite = { focus = ALG_s18 }
+		relative_position_id = ALG_s1
+		x = 4
+		y = 5
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ALG_a6
+			    add_idea = ALG_a7
+			}
+		}
+	}
+	focus = {
+		id = ALG_s20
+		icon = "GFX_focus_fra_le_deluge_shine"
+		prerequisite = { focus = ALG_s5 }
+		prerequisite = { focus = ALG_s10 }
+		relative_position_id = ALG_s1
+		x = -1
+		y = 5
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			swap_ideas ={
+				remove_idea = ALG_a3
+			    add_idea = ALG_a8
+			}
+		}
+	}
+}

@@ -17,11 +17,11 @@ set_technology = {
 
 create_faction = "中央同盟国"
 add_to_faction = AUS
-add_to_faction = AZR
-
+add_to_faction = BUL
+add_to_faction = TUR
 recruit_character = AUS_kurt_schuschnigg
 recruit_character = AUS_karl_renner
-recruit_character = AUS_Hiteler
+recruit_character = AUS_Adolf_Hitler
 recruit_character = AUS_alfred_klahr
 recruit_character = AUS_karl_eglseer
 recruit_character = AUS_odilo_globocnik

@@ -10,7 +10,6 @@ state= {
 
 	history= {
 		owner = JAP
-		add_core_of = FER
 		
 		buildings = {
 			infrastructure = 2

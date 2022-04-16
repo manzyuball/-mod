@@ -31,7 +31,7 @@ recruit_character = ALB_hasan_begolli
 recruit_character = ALB_fiqri_dine
 recruit_character = ALB_midhat_frasheri
 recruit_character = ALB_jocelyn_percy
-
+YUG = { add_to_faction = ALB }
 
 set_politics = {
 	ruling_party = neutrality

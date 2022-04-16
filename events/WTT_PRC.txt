@@ -1,0 +1,3 @@
+﻿add_namespace = wtt_prc
+
+#PRC offers United Front, event for CHI (event_target:WTT_current_china_leader)

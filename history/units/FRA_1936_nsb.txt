@@ -62,26 +62,6 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Division d'Infanterie Alpine"	# Division d'Infanterie Alpine
-	division_names_group = FRA_MNT_01
-	# Note: trimmed to 3x Rgts w/ arty bn added, 1939
-
-	regiments = {
-		mountaineers = { x = 0 y = 0 }	# Regular mountain infantry (Infanterie Alpine)
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }	
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-		mountaineers = { x = 2 y = 0 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 2 y = 1 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 2 y = 2 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 3 y = 0 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 3 y = 1 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 3 y = 2 }	# Chasseurs Alpins (HOI3 elites)
-	}
-}
-division_template = {
 	name = "Division de Cavalerie" 	# Division de Cavalerie
 	division_names_group = FRA_CAV_01
 	# Note: Transformed to DLC, DLM divisions, 1936-39 
@@ -112,31 +92,6 @@ division_template = {
 		engineer = { x = 0 y = 1 }
 	}
 }
-division_template = {
-	name = "Brigade de Chars de Combat" 	# Brigade de Chars de Combat, independent armor brigades of 2x Rgts., 2 Bns. each
-	division_names_group = FRA_ARM_01
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
-	}
-}
-division_template = {
-	name = "Brigade Coloniale"			# Represents: 2xRgt colonial forces and , usually with old equipment
-	division_names_group = FRA_COL_01
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-	priority = 0
-}
-
 ##### OOB #####
 units = {
 	division= {
@@ -172,12 +127,6 @@ units = {
 	division= {
 	    name = "パリ革命軍"
 		location = 6547
-		division_template = "フランス革命軍"
-		start_experience_factor = 0.3
-	}
-	division= {
-	    name = "ノルマンディ革命軍"
-		location = 13788
 		division_template = "フランス革命軍"
 		start_experience_factor = 0.3
 	}
@@ -535,6 +484,7 @@ units = {
 		division_template = "フランス機甲革命軍"
 		start_experience_factor = 0.45
 	}
+
 }
 ### Air Wings
 air_wings = {
@@ -584,6 +534,7 @@ air_wings = {
 		}
 	}
 
+
 	# Aeronautique Navale -- Cherbourg
 	15 = {
 		# Flotille F1
@@ -631,9 +582,8 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = light_tank_chassis_1
+			type = light_tank_equipment_2
 			creator = "FRA" 
-			version_name = "H-35"
 		}
 		requested_factories = 1
 		progress = 0.4

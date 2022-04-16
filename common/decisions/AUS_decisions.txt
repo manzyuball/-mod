@@ -1,4 +1,4 @@
-AUS_decisions_fof = {
+AUS_decisions = {
 
      enzetu = {
 
@@ -10,7 +10,6 @@ AUS_decisions_fof = {
      cost = 35
      fire_only_once = yes
      visible = {
-        has_war = yes
      }
      complete_effect = {
         add_stability = 0.1
@@ -63,7 +62,6 @@ AUS_decisions_fof = {
         cost = 45
         fire_only_once = yes
         visible = {
-           has_war = yes
         }
         complete_effect = {
            add_war_support = 0.45
@@ -71,7 +69,6 @@ AUS_decisions_fof = {
            can_use_kamikaze_pilots = yes
            }
             add_country_leader_trait = warmonger
-
         }
    
         }
@@ -84,17 +81,13 @@ AUS_decisions_fof = {
                surrender_progress > 0.2
             }
        
-       
             cost = 50
             fire_only_once = yes
             visible = {
-               has_war = yes
             }
             complete_effect = {
                add_ideas = Souryokusenn
-    
             }
-       
             }
 
 

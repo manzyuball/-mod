@@ -1,25 +1,26 @@
-
 state={
 	id=81
 	name="STATE_81"
-
+	manpower=1519300
+	
+	
+	state_category = rural
+	
 	history={
-
-		owner = ROM
+		victory_points = {
+			6652 1
+		}
+		owner = BUL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
-
 		}
 		add_core_of = ROM
-
+		add_core_of = BUL
 	}
-
 	provinces={
-		637 3645 5962 6667 8414 11605 13724 
+		637 3630 3645 6652 6667 11588 11605 11657 
 	}
-	manpower=1519300
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

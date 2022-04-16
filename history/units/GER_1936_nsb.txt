@@ -96,174 +96,177 @@ division_template = {
 
 units = {
 
-division= {	
-	name = プロイセン共和国軍 
-	location = 9496
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 349
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 321
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 3522
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 6441
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 6441
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 3368
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 11368
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 6389
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 3512
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 11360
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 495
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 587
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 11531
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 1143
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = プロイセン共和国軍 
-	location = 6488
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = ザクセン共和国軍 
-	location = 514
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = ザクセン共和国軍 
-	location = 573
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = ザクセン共和国軍 
-	location = 538
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = ヴュルテンベルク共和国軍 
-	location = 9655
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = ヴュルテンベルク共和国軍 
-	location = 9517
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = ヴュルテンベルク共和国軍 
-	location = 9655
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = ヴュルテンベルク共和国軍 
-	location = 3479
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = ヴュルテンベルク共和国軍 
-	location = 13989
-	division_template = "ドイツ陸軍"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = ベルリン戦車部隊
-	location = 6521
-	division_template = "ドイツ戦車部隊"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = ベルリン戦車部隊
-	location = 13292
-	division_template = "ドイツ戦車部隊"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = ベルリン戦車部隊
-	location = 375
-	division_template = "ドイツ戦車部隊"
-	start_experience_factor = 0.3
-}
-division= {	
-	name = ベルリン戦車部隊
-	location = 9428
-	division_template = "ドイツ戦車部隊"
-	start_experience_factor = 0.3
-}
+	##### Oberkommando des Heeres #####
+	### 1. Armee (Wehrmacht-Gruppenkommando) ###
+	# II. Armeekorps
+	division= {	
+		name = プロイセン共和国軍 
+		location = 9496
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 349
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 321
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 3522
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 6441
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 6441
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 3368
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 11368
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 6389
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 3512
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 11360
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 495
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 587
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 11531
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 1143
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = プロイセン共和国軍 
+		location = 6488
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ザクセン共和国軍 
+		location = 514
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ザクセン共和国軍 
+		location = 573
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ザクセン共和国軍 
+		location = 538
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ヴュルテンベルク共和国軍 
+		location = 9655
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ヴュルテンベルク共和国軍 
+		location = 9517
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ヴュルテンベルク共和国軍 
+		location = 9655
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ヴュルテンベルク共和国軍 
+		location = 3479
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ヴュルテンベルク共和国軍 
+		location = 6218
+		division_template = "ドイツ陸軍"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ベルリン戦車部隊
+		location = 6521
+		division_template = "ドイツ戦車部隊"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ベルリン戦車部隊
+		location = 375
+		division_template = "ドイツ戦車部隊"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ベルリン戦車部隊
+		location = 375
+		division_template = "ドイツ戦車部隊"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ベルリン戦車部隊
+		location = 9428
+		division_template = "ドイツ戦車部隊"
+		start_experience_factor = 0.3
+	}
 
 }
 ### Air oob
@@ -275,7 +278,6 @@ air_wings = {
 			owner = "GER" 
 			amount = 40
 		}
-		name = "Jagdgeschwader 232"
 	}
 
 	### II. Luftkreiskommando -- Berlin ###
@@ -285,7 +287,6 @@ air_wings = {
 			owner = "GER" 
 			amount = 80
 		}
-		name = "Jagdgeschwader 132"
 		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
 			modifier="fighter_genius"
 			name="Erich"
@@ -301,9 +302,7 @@ air_wings = {
 		tac_bomber_equipment_0 = {		# Ju 86
 			owner = "GER" 
 			amount = 40
-			version_name = "Ju 86"
 		}
-		name = "Kampfgeschwader 153"
 		# TODO: REMOVE THIS LATER ???
 		transport_plane_equipment_1 = {
 			owner = "GER" 
@@ -318,13 +317,11 @@ air_wings = {
 			owner = "GER" 
 			amount = 120
 		}
-		name = "Kampfgeschwader 253"
 		# Sturzkampfgeschwader 162		
 		CAS_equipment_1 =  {			# Hs 123
 			owner = "GER" 
 			amount = 80
-		}
-		name = "Sturzkampfgeschwader 162"	
+		}	
 	}
 
 	### IV. Luftkreiskommando -- Kassel ###
@@ -334,19 +331,16 @@ air_wings = {
 			owner = "GER" 
 			amount = 120
 		}
-		name = "Jagdgeschwader 134"
 		# Kampfgeschwader 152 'Hindenburg'	
 		tac_bomber_equipment_1 = {		# Do 23
 			owner = "GER" 
 			amount = 80
 		}
-		name = "Kampfgeschwader 152"
 		# Kampfgeschwader 155	
 		tac_bomber_equipment_0 = {		# He 45 or Do 23 ? (light bomber)
 			owner = "GER" 
 			amount = 80
 		}
-		name = "Kampfgeschwader 155"
 	}
 
 	### V. Luftkreiskommando -- Munich ###
@@ -356,13 +350,11 @@ air_wings = {
 			owner = "GER" 
 			amount = 40
 		}
-		name = "Jagdgeschwader 136"
 		# Kampfgeschwader 154	
 		tac_bomber_equipment_0 = {		# Do 23
 			owner = "GER" 
 			amount = 80
 		}
-		name = "Kampfgeschwader 154"
 	}
 
 	### VI. Luftkreiskommando -- Kiel ###
@@ -372,7 +364,6 @@ air_wings = {
 			owner = "GER" 
 			amount = 72
 		}
-		name = "Küstenfliegergruppe 106"
 		# Küstenfliegergruppe 206
 	}
 }
@@ -415,9 +406,8 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = light_tank_chassis_2
+			type = light_tank_equipment_2
 			creator = "GER" 
-			version_name = "Panzer II Ausf. a"
 		}
 		requested_factories = 2
 		progress = 0.4

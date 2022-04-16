@@ -18,11 +18,14 @@ state={
 		add_core_of = USA
 		add_core_of = USB
 		add_core_of = CSA
+		victory_points = {
+			4975 1 
+		}
 
 	}
 
 	provinces={
-		1972 5044 10645 10914 12552 13373 13945 
+		1972 5044 10645 10914 12552 
 	}
 	manpower=423316
 	buildings_max_level_factor=1.000

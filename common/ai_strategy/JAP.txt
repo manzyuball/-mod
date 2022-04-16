@@ -1,0 +1,229 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+less_trucks_4_u_JAP = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		date < 1939.1.1
+	}
+	abort = {
+		date > 1939.1.1
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 80
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 15
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = 25
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = -80
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = mountaineers
+		value = -80
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = 100
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 20
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 25
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 20 #From 40 to 20
+	}
+		ai_strategy = {
+		type = equipment_production_min_factories
+		id = artillery
+		value = 15
+	}
+}
+northern_expansion = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		country_exists = CHI
+	}
+	abort = {
+		NOT = {
+			country_exists = CHI
+		}
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 500
+	}
+}
+
+chinese_war = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		country_exists = CHI
+	}
+	abort = {
+		NOT = {
+			country_exists = CHI
+		}
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 500
+	}
+}
+strike_usa = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		country_exists = USA
+	}
+	abort = {
+		NOT = {
+			country_exists = USA
+		}
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 500
+	}
+}
+JAP_area_priority = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 35
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = scandinavia
+		value = -30
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 65
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = 50
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 150
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 30
+	}
+	ai_strategy = {
+		type = area_priority
+		id = suez
+		value = 20
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = 10
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = 80
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = 80
+	}
+}
+
+JAP_USA_we_love_islands = {
+	allowed = {
+		OR = {
+			original_tag = JAP
+			original_tag = USA
+		}
+	}
+	enable = {
+		OR = {
+			JAP = { has_war_with = USA }
+			CHI = { is_subject_of = JAP }
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = 180
+	}
+}

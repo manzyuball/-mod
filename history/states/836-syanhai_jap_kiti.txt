@@ -6,17 +6,16 @@ state={
 		owner = JAP
 		add_core_of = CHI
 		add_core_of = PRC
-		}
 		buildings = {
-			infrastructure = 4
 			air_base = 3
 			11928 = {
 				naval_base = 2
-				coastal_bunker = 1
-				bunker = 1
 			}
 		}
-	
+		}
+		
+
+
 	provinces={
 		4091 11928 
 	}

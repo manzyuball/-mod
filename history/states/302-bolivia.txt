@@ -21,7 +21,7 @@ state={
 		}
 		add_core_of = BOL
 		victory_points = {
-			5230 10 
+			5230 5 
 		}
 
 	}

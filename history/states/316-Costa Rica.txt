@@ -24,13 +24,13 @@ state={
 		}
 		add_core_of = COS
 		victory_points = {
-			13087 5 
+			13087 3
 		}
 
 	}
 
 	provinces={
-		5964 5893 12878 13087 13092 
+		12878 13087 13092 
 	}
 
 	local_supplies=0.0 

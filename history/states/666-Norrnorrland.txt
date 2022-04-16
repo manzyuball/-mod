@@ -12,7 +12,7 @@ state={
 		owner = SWE
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 4
+			industrial_complex = 3
 
 		}
 		add_core_of = SWE
@@ -24,6 +24,6 @@ state={
 	}
 	manpower=415327
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 	local_supplies=0.000
 }

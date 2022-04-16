@@ -15,6 +15,7 @@ state={
 		add_core_of = ARG
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 4
 		}
 		add_core_of = PAR
 		add_core_of = BOL

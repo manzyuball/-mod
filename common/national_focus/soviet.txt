@@ -1,4 +1,19 @@
-﻿focus_tree = {
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_SOV_POLITICAL_PARANOIA}
+### search_filters = {FOCUS_FILTER_PROPAGANDA}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+# Reminder that focus filters prio has to be handled in the generic focus file :)
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
+focus_tree = {
 	id = soviet_focus
 
 	country = {
@@ -19,13 +34,14 @@
 		icon = "GFX_focus_generic_join_comintern"
 		x = 15
 		y = 0
-		cost = 5
+		cost = 7.5
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			custom_effect_tooltip = SOV_setumei
+			add_ideas =	Gonenkann
 		}
 	}
 
@@ -34,15 +50,25 @@
 		icon = "GFX_focus_SOV_merge_plants"
 		x = 10
 		y = 1
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p }
 		mutually_exclusive = { focus = SOV_p3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			add_political_power = 50
+        	195 = {
+				set_state_category = megalopolis
+			}
+			202 = {
+				set_state_category = megalopolis
+			}
+			653 = {
+				set_state_category = megalopolis
+			}
+
 		}
 	}
 	focus = {
@@ -50,15 +76,18 @@
 		icon = "GFX_focus_spa_save_the_alcazar"
 		x = 10
 		y = 2
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p1 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			swap_ideas = {
+				remove_idea = Nougyoumonndai
+				add_idea = Nougyoumonndai2
+				}
 		}
 	}
 	focus = {
@@ -66,15 +95,23 @@
 		icon = "GFX_focus_SOV_third_rome"
 		x = 12
 		y = 2
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p1 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			219 = {
+
+				add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+						}
+					}
 		}
 	}
 	focus = {
@@ -82,15 +119,23 @@
 		icon = "GFX_focus_SOV_the_path_of_marxism_leninism"
 		x = 8
 		y = 2
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p1 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+		195 = {
+
+		add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -98,15 +143,23 @@
 		icon = "GFX_focus_POL_develop_polish_shipbuilding"
 		x = 8
 		y = 3
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p12 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+		195 = {
+
+		add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -114,15 +167,18 @@
 		icon = "GFX_focus_SOV_breadbasket_of_the_union"
 		x = 10
 		y = 3
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p10 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			swap_ideas = {
+				remove_idea = Nougyoumonndai2
+				add_idea = Nougyoumonndai3
+				}
 		}
 	}
 	focus = {
@@ -130,15 +186,23 @@
 		icon = "GFX_focus_spa_the_spanish_miracle"
 		x = 12
 		y = 3
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p11 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			219 = {
+				add_state_modifier = {
+				modifier = {
+				global_building_slots_factor = 0.30
+				production_speed_buildings_factor = 0.1
+				MONTHLY_POPULATION = 0.5
+				}
+				}
+			}
 		}
 	}
 	focus = {
@@ -146,15 +210,22 @@
 		icon = "GFX_focus_generic_aircraft_production"
 		x = 12
 		y = 4
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p15 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			219 = {
+				add_state_modifier = {
+				modifier = {
+				production_speed_arms_factory_factor = 0.5
+				conversion_cost_civ_to_mil_factor = -1
+				}
+				}
+			}
 		}
 	}
 	focus = {
@@ -162,15 +233,15 @@
 		icon = "GFX_focus_SOV_the_road_of_life"
 		x = 10
 		y = 4
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p14 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			remove_ideas = Nougyoumonndai3
 		}
 	}
 	focus = {
@@ -178,15 +249,15 @@
 		icon = "GFX_focus_SOV_organize_wreckers"
 		x = 8
 		y = 4
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p13 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+		add_research_slot = 1
 		}
 	}
 	focus = {
@@ -194,17 +265,20 @@
 		icon = "GFX_goal_generic_position_armies"
 		x = 10
 		y = 5
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p18 }
 		prerequisite = { focus = SOV_p17 }
 		prerequisite = { focus = SOV_p16 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			swap_ideas = {
+				remove_idea = Gonenkann
+				add_idea = Gonenkann1
+				}
 		}
 	}
 	focus = {
@@ -212,15 +286,86 @@
 		icon = "GFX_goal_generic_consumer_goods"
 		x = 15
 		y = 2
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p }
 		#mutually_exclusive = { focus = SWE_3 }
-
+		available = {
+			OR = {
+				has_completed_focus = SOV_p1
+				has_completed_focus = SOV_p3
+				}
+		}
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			if = {
+				limit = {
+					has_completed_focus = SOV_p1	
+				}   
+				202 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+						}
+				}
+				206 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+						}
+				}
+				217 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+						}
+				}
+				260 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+						}
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = SOV_p3	
+				}   
+				add_resource = {
+					type = aluminium
+					amount = 26
+					state = 400
+					}
+					add_resource = {
+						type = chromium
+						amount = 23
+						state = 573
+						}
+						add_resource = {
+							type = steel
+							amount = 26
+							state = 401
+							}
+							add_resource = {
+								type = oil
+								amount = 34
+								state = 232
+								}				
+								add_resource = {
+									type = oil
+									amount = 12
+									state = 262
+									}
+			}
 		}
 	}
 	focus = {
@@ -228,15 +373,35 @@
 		icon = "GFX_goal_generic_production"
 		x = 15
 		y = 3
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p2 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			if = {
+				limit = {
+					has_completed_focus = SOV_p1	
+				}
+				add_tech_bonus = {
+					bonus = 3
+					uses = 1
+					category = industry
+					}
+			}
+			if = {
+				limit = {
+					has_completed_focus = SOV_p3	
+				}
+				add_tech_bonus = {
+					bonus = 1.5
+					uses = 3
+					category = industry
+					}
+			}
+ 
 		}
 	}
 	focus = {
@@ -244,15 +409,57 @@
 		icon = "GFX_goal_generic_soviet_construction"
 		x = 15
 		y = 4
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p20 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			if = {
+				limit = {
+					has_completed_focus = SOV_p1	
+				}
+				add_resource = {
+					type = rubber
+					amount = 10
+					state = 219
+					}
+					add_resource = {
+						type = rubber
+						amount = 8
+						state = 195
+						}
+						add_resource = {
+							type = rubber
+							amount = 8
+							state = 217
+							}				
+			}
+			if = {
+				limit = {
+					has_completed_focus = SOV_p3	
+				}
+				829 = {
+					set_state_category = town
+				}
+				401 = {
+					set_state_category = town
+				}
+				398 = {
+					set_state_category = town
+				}
+				582 = {
+					set_state_category = town
+				}
+				249 = {
+					set_state_category = town
+				}
+				399 = {
+					set_state_category = town
+				}
+			}
 		}
 	}
 	focus = {
@@ -260,15 +467,18 @@
 		icon = "GFX_focus_generic_tank_production"
 		x = 15
 		y = 5
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p21 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			add_timed_idea = {
+				idea = heikinoseisann
+				days = 720
+				}
 		}
 	}
 	focus = {
@@ -276,17 +486,33 @@
 		icon = "GFX_goal_support_communism"
 		x = 15
 		y = 6
-		cost = 5
-		prerequisite = { focus = SOV_p19 }
-		prerequisite = { focus = SOV_p21 }
-		prerequisite = { focus = SOV_p39 }
+		cost = 7.5
+		prerequisite = { focus = SOV_p19 focus = SOV_p39 }
+		prerequisite = { focus = SOV_p22 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			if = {
+				limit = {
+					has_completed_focus = SOV_p1	
+				}
+				swap_ideas = {
+					remove_idea = Gonenkann1
+					add_idea = soviet_1
+					}
+			}
+			if = {
+				limit = {
+					has_completed_focus = SOV_p3	
+				}
+				swap_ideas = {
+					remove_idea = zendo1
+					add_idea = soviet_2
+					}
+			}
 		}
 	}
 	focus = {
@@ -294,15 +520,18 @@
 		icon = "GFX_focus_spr_regional_defense_council_of_aragon"
 		x = 20
 		y = 1
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p }
 		mutually_exclusive = { focus = SOV_p1 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			swap_ideas = {
+				remove_idea = Gonenkann
+				add_idea = zendo
+				}
 		}
 	}
 	focus = {
@@ -310,15 +539,49 @@
 		icon = "GFX_focus_SOV_flying_clubs"
 		x = 20
 		y = 2
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p3 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+		653 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				}
+			}
+			864 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				}
+			}
+			231 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				}
+			}
+			217 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				}
+			}
+			206 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -326,15 +589,38 @@
 		icon = "GFX_focus_SOV_reinforce_southern_naval_bases"
 		x = 18
 		y = 2
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p3 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			864 = {
+				add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			192 = {
+				add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			218 = {
+				add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}		
 		}
 	}
 	focus = {
@@ -342,15 +628,18 @@
 		icon = "GFX_focus_SOV_breadbasket_of_the_union"
 		x = 22
 		y = 2
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p3 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			swap_ideas = {
+				remove_idea = Nougyoumonndai
+				add_idea = Nougyoumonndai2x
+				}
 		}
 	}
 	focus = {
@@ -358,15 +647,31 @@
 		icon = "GFX_goal_generic_construct_mil_factory"
 		x = 20
 		y = 3
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p30 }
 		#mutually_exclusive = { focus = SWE_3 }
-
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+        251 = {
+			add_state_modifier = {
+				modifier = {
+				production_speed_nuclear_reactor_factor = 0.85
+				production_factory_max_efficiency_factor = 0.45
+				}
+				}
+		}
+		252 = {
+			add_state_modifier = {
+				modifier = {
+					production_speed_arms_factory_factor = 0.85
+				production_speed_rocket_site_factor = 0.85
+				}
+				}
+		}
 		}
 	}
 	focus = {
@@ -374,15 +679,30 @@
 		icon = "GFX_focus_generic_navy_battleship2"
 		x = 18
 		y = 3
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p31 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+        214 = {
+			add_building_construction = {
+				type = naval_base
+				level = 5
+				instant_build = yes
+				province = 3338
+				}
+		}
+		579 = {
+			add_building_construction = {
+				type = naval_base
+				level = 2
+				instant_build = yes
+				province = 9142
+				}
+		}
 		}
 	}
 	focus = {
@@ -390,15 +710,16 @@
 		icon = "GFX_focus_focus_fra_liberte_egalite_solidarite"
 		x = 22
 		y = 3
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p32 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			add_political_power = 250
+			add_stability = 0.25
 		}
 	}
 	focus = {
@@ -406,15 +727,18 @@
 		icon = "GFX_focus_mex_privatisation"
 		x = 22
 		y = 4
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p35 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			swap_ideas = {
+				remove_idea = Nougyoumonndai2x
+				add_idea = Nougyoumonndai3x
+				}
 		}
 	}
 	focus = {
@@ -422,15 +746,24 @@
 		icon = "GFX_goal_generic_construction2"
 		x = 20
 		y = 4
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p33 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			add_resource = {
+				type = steel
+				amount = 18
+				state = 249
+				}
+				add_resource = {
+					type = steel
+					amount = 18
+					state = 235
+					}
 		}
 	}
 	focus = {
@@ -438,12 +771,12 @@
 		icon = "GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny"
 		x = 18
 		y = 4
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p34 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
         
@@ -454,17 +787,20 @@
 		icon = "GFX_goal_generic_position_armies"
 		x = 20
 		y = 5
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_p38 }
 		prerequisite = { focus = SOV_p37 }
 		prerequisite = { focus = SOV_p36 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			swap_ideas = {
+				remove_idea = zendo
+				add_idea = zendo1
+				}
 		}
 	}
 
@@ -475,14 +811,16 @@
 		icon = "GFX_focus_generic_military_mission"
 		x = 2
 		y = 0
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			army_experience = 150
+			navy_experience = 150
+			air_experience = 150
 		}
 	}
 
@@ -491,15 +829,18 @@
 		icon = "GFX_focus_SOV_builder_of_the_red_army"
 		x = 2
 		y = 1
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_g }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			swap_ideas = {
+				remove_idea = gunnomonndai
+				add_idea = gunnomonndai1
+				}
 		}
 	}
 	
@@ -508,15 +849,15 @@
 		icon = "GFX_focus_generic_license_production"
 		x = 4
 		y = 2
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_g1 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+        	add_research_slot = 1
 		}
 	}
 	focus = {
@@ -524,15 +865,18 @@
 		icon = "GFX_focus_SOV_restore_cossack_units"
 		x = 0
 		y = 3
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_g1 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 45
 		}
 		completion_reward = {
-        
+			swap_ideas = {
+				remove_idea = gunnomonndai1
+				add_idea = gunnomonndai2
+				}
 		}
 	}
 	focus = {
@@ -540,7 +884,7 @@
 		icon = "GFX_focus_generic_army_tanks2"
 		x = 5
 		y = 3
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_g2 }
 		#mutually_exclusive = { focus = SWE_3 }
 
@@ -548,7 +892,7 @@
 			factor = 10
 		}
 		completion_reward = {
-        
+			add_ideas =	sensya
 		}
 	}
 	focus = {
@@ -556,15 +900,18 @@
 		icon = "GFX_focus_SOV_the_glory_of_the_red_army_communism"
 		x = 5
 		y = 4
-		cost = 5
-		prerequisite = { focus = SOV_g2 }
+		cost = 7.5
+		prerequisite = { focus = SOV_g4 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+        	swap_ideas = {
+				remove_idea = sensya
+				add_idea = sensya1
+				}
 		}
 	}
 	focus = {
@@ -572,7 +919,7 @@
 		icon = "GFX_goal_generic_navy_submarine"
 		x = 3
 		y = 5
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_g2 }
 		#mutually_exclusive = { focus = SWE_3 }
 
@@ -580,7 +927,13 @@
 			factor = 10
 		}
 		completion_reward = {
-        
+			navy_experience = 300
+			create_navy_leader = {
+				name = "Vorontsov Mikhail Semyonovich"
+				picture = "portrait_SOV_sidor_kovpak.dds"
+				traits = { Sea_Wolf Cold_Water_Expert Bold }
+				skill = 5
+				}
 		}
 	}
 	focus = {
@@ -588,7 +941,7 @@
 		icon = "GFX_focus_SOV_women_in_aviation"
 		x = 1
 		y = 4
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_g3 }
 		#mutually_exclusive = { focus = SWE_3 }
 
@@ -596,7 +949,10 @@
 			factor = 10
 		}
 		completion_reward = {
-        
+			air_experience = 100
+			set_rule = {
+				can_use_kamikaze_pilots = yes
+				}
 		}
 	}
 	focus = {
@@ -604,15 +960,37 @@
 		icon = "GFX_focus_SOV_flying_clubs"
 		x = 1
 		y = 5
-		cost = 5
-		prerequisite = { focus = SOV_g3 }
+		cost = 7.5
+		prerequisite = { focus = SOV_g7 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			add_ace = {
+				name = "Andrei"
+				surname = "Borovykh"
+				callsign = "Eagle"
+				type = fighter_genius
+				is_female = no
+				}
+
+				add_ace = {
+					name = "Safonov"
+					surname = "Boris"
+					callsign = "Hurricane"
+					type = bomber_genius
+					is_female = no
+					}
+
+					add_ace = {
+						name = "Gritsevets"
+						surname = "Sergei"
+						callsign = "Major"
+						type = support_genius
+						is_female = no
+						}
 		}
 	}
 	focus = {
@@ -620,15 +998,18 @@
 		icon = "GFX_focus_POL_sanation_right"
 		x = -3
 		y = 4
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_g3 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 54
 		}
 		completion_reward = {
-        
+			swap_ideas = {
+				remove_idea = gunnomonndai2
+				add_idea = gunnomonndai3
+				}
 		}
 	}
 	focus = {
@@ -636,7 +1017,7 @@
 		icon = "GFX_focus_SOV_approach_tukahchevsky"
 		x = -1
 		y = 5
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_g9 }
 		#mutually_exclusive = { focus = SWE_3 }
 
@@ -652,15 +1033,15 @@
 		icon = "GFX_focus_por_workers_of_iberia"
 		x = -3
 		y = 5
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_g9 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 95
 		}
 		completion_reward = {
-        
+			add_war_support = 0.25
 		}
 	}
 	focus = {
@@ -668,15 +1049,15 @@
 		icon = "GFX_focus_SOV_organization_centralization_discipline"
 		x = -3
 		y = 6
-		cost = 5
-		prerequisite = { focus = SOV_g9 }
+		cost = 7.5
+		prerequisite = { focus = SOV_g11 }
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 		completion_reward = {
-        
+			remove_ideas = gunnomonndai3
 		}
 	}
 	focus = {
@@ -684,7 +1065,7 @@
 		icon = "GFX_focus_SOV_womens_fascist_movement"
 		x = 1
 		y = 6
-		cost = 5
+		cost = 7.5
 		prerequisite = { focus = SOV_g8 }
 		#mutually_exclusive = { focus = SWE_3 }
 
@@ -692,7 +1073,9 @@
 			factor = 10
 		}
 		completion_reward = {
-        
+			set_rule = {
+				can_generate_female_aces = yes
+				}
 		}
 	}
 
@@ -701,29 +1084,31 @@
 		icon = "GFX_focus_SOV_stalins_cult_of_personality"
 		x = 3
 		y = 7
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			add_political_power = 300
 		}
 	}
 	focus = {
 		id = SOV_s1
-		icon = "GFX_focus_SOV_womens_fascist_movement"
+		icon = "GFX_focus_ger_great_red_menace"
 		x = 9
 		y = 8
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			set_rule = {
+				can_create_factions = yes
+				}
 		}
 	}
 	focus = {
@@ -731,14 +1116,23 @@
 		icon = "GFX_focus_LAT_threat_on_our_border"
 		x = 13
 		y = 9
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s1 }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			add_state_core = 813
+			add_state_core = 912
+			add_state_core = 13
+			add_state_core = 811
+			add_state_core = 12
+			add_state_core = 191
+			add_state_core = 12
+			add_state_core = 810
+			add_state_core = 808
+
 		}
 	}
 	focus = {
@@ -746,14 +1140,17 @@
 		icon = "GFX_focus_SOV_baltic_security"
 		x = 13
 		y = 10
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s10 }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = LAT
+				}
 		}
 	}
 	focus = {
@@ -761,14 +1158,58 @@
 		icon = "GFX_focus_fra_le_deluge"
 		x = 11
 		y = 9
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
+		#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 		prerequisite = { focus = SOV_s1 }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			add_opinion_modifier = {
+				target = GER
+				modifier = kyousannsei
+				}
+				add_opinion_modifier = {
+					target = HOL
+					modifier = kyousannsei
+					}
+					add_opinion_modifier = {
+						target = FRA
+						modifier = kyousannsei
+						}
+						add_opinion_modifier = {
+							target = ITA
+							modifier = kyousannsei
+							}
+							hidden_trigger = {
+								FRA = {
+									add_opinion_modifier = {
+											target = SOV
+											modifier = kyousannsei
+											}
+										}
+										HOL = {
+											add_opinion_modifier = {
+													target = SOV
+													modifier = kyousannsei
+													}
+												}
+												GER = {
+													add_opinion_modifier = {
+															target = SOV
+															modifier = kyousannsei
+															}
+														}
+														ITA = {
+															add_opinion_modifier = {
+																	target = SOV
+																	modifier = kyousannsei
+																	}
+																}
+							}
+	
 		}
 	}
 	focus = {
@@ -776,14 +1217,18 @@
 		icon = "GFX_focus_attack_france"
 		x = 11
 		y = 10
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s12 }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			custom_effect_tooltip = SOV_fra
+			declare_war_on = {
+				target = FRA
+				type = annex_everything
+				}
 		}
 	}
 	focus = {
@@ -791,14 +1236,14 @@
 		icon = "GFX_focus_SOV_behead_the_snake"
 		x = 11
 		y = 11
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
-		prerequisite = { focus = SOV_s12 }
+		prerequisite = { focus = SOV_s13 }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			remove_ideas = Torotuky
 		}
 	}
 	focus = {
@@ -806,14 +1251,14 @@
 		icon = "GFX_focus_SOV_my_brothers_keeper"
 		x = 7
 		y = 9
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s1 }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+        	load_oob = "SOV_civilwar"
 		}
 	}
 	focus = {
@@ -821,26 +1266,29 @@
 		icon = "GFX_focus_spr_masters_of_our_own_fate"
 		x = 7
 		y = 10
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s15 }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = VLA
+				}
 		}
 	}
 	focus = {
 		id = SOV_s17
-		icon = "GFX_focus_ger_great_red_menace"
+		icon = "GFX_focus_SOV_socialism_in_one_country"
 		x = 7
 		y = 11
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s16 }
 		ai_will_do = {
-			factor = 10
+			factor = 0
 		}
 		completion_reward = {
         
@@ -851,7 +1299,7 @@
 		icon = "GFX_focus_YUG_pan_slavic_congress"
 		x = 7
 		y = 12
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s17 }
 		ai_will_do = {
@@ -866,11 +1314,11 @@
 		icon = "GFX_focus_SOV_the_road_of_life"
 		x = 9
 		y = 11
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s16 }
 		ai_will_do = {
-			factor = 10
+			factor = 0
 		}
 		completion_reward = {
         
@@ -881,7 +1329,7 @@
 		icon = "GFX_focus_SOV_the_glory_of_the_red_army_communism"
 		x = 9
 		y = 12
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s19 }
 		ai_will_do = {
@@ -893,25 +1341,35 @@
 	}
 	focus = {
 		id = SOV_s21
-		icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
+		icon = "GFX_focus_generic_attack_finland"
 		x = 5
 		y = 10
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s15 }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+				state = 195
+				num_provinces = 2
+				}
+				defender = {
+				state = 146
+				num_provinces = 2
+				}
+				}
 		}
 	}
 	focus = {
 		id = SOV_s22
-		icon = "GFX_goal_support_communism"
+		icon = "GFX_focus_generic_scandinavian_alliance"
 		x = 5
 		y = 11
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s21 }
 		ai_will_do = {
@@ -926,14 +1384,30 @@
 		icon = "GFX_focus_CZE_german_puppet"
 		x = 5
 		y = 12
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s17 }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+        	add_threat = 10
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = NOR
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = SWE
+					}
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = DEN
+						}
+						create_wargoal = {
+							type = puppet_wargoal_focus
+							target = FIN
+							}
 		}
 	}
 	focus = {
@@ -941,14 +1415,14 @@
 		icon = "GFX_focus_SOV_the_supreme_soviet"
 		x = 0
 		y = 8
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+        	add_country_leader_trait = dictator
 		}
 	}
 	focus = {
@@ -956,7 +1430,7 @@
 		icon = "GFX_focus_fra_loyalty_stalin"
 		x = 0
 		y = 9
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s3 }
 		ai_will_do = {
@@ -971,7 +1445,7 @@
 		icon = "GFX_focus_SOV_military_purge"
 		x = 0
 		y = 10
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s30 }
 		ai_will_do = {
@@ -986,7 +1460,7 @@
 		icon = "GFX_focus_SOV_purge_trotskyists"
 		x = 0
 		y = 11
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s31 }
 		ai_will_do = {
@@ -1001,7 +1475,7 @@
 		icon = "GFX_goal_generic_war_with_comintern"
 		x = 2
 		y = 10
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s30 }
 		ai_will_do = {
@@ -1016,7 +1490,7 @@
 		icon = "GFX_focus_SOV_penal_battalions"
 		x = 2
 		y = 11
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s33 }
 		ai_will_do = {
@@ -1031,7 +1505,7 @@
 		icon = "GFX_focus_generic_military_dictatorship"
 		x = -2
 		y = 11
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s30 }
 		ai_will_do = {
@@ -1043,17 +1517,17 @@
 	}
 	focus = {
 		id = SOV_s36
-		icon = "GFX_focus_ger_great_red_menace"
+		icon = "GFX_focus_POL_complete_april_constitution"
 		x = -2
 		y = 12
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s35 }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+        	add_ideas =	dokusai
 		}
 	}
 	focus = {
@@ -1061,14 +1535,17 @@
 		icon = "GFX_focus_SOV_third_rome"
 		x = 0
 		y = 12
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s32 }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			swap_ideas = {
+				remove_idea = daisyukusei
+				add_idea = daisyukusei1
+				}
 		}
 	}
 	focus = {
@@ -1076,14 +1553,14 @@
 		icon = "GFX_focus_generic_soviet_politics"
 		x = 2
 		y = 12
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s34 }
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-        
+			add_ideas =	NKVD
 		}
 	}
 	focus = {
@@ -1091,7 +1568,7 @@
 		icon = "GFX_focus_SOV_father_of_nations"
 		x = 0
 		y = 13
-		cost = 5
+		cost = 7.5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s37 }
 		prerequisite = { focus = SOV_s36 }
@@ -1100,17 +1577,14 @@
 			factor = 10
 		}
 		completion_reward = {
-        
+			remove_ideas = {
+				dokusai
+				daisyukusei1
+				NKVD
+				}
+				add_ideas = kokuminnnotiti
 		}
 	}
-
-
-
-
-
-
-
-
-
-
 }
+#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
+#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。

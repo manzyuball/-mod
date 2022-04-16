@@ -1,6 +1,6 @@
-﻿capital = 408 #vladivostok
+﻿capital = 857 #vladivostok
 
-#oob = "VLA_1936"
+ oob = "VLA_1936"
 
 set_research_slots = 4
 
@@ -24,7 +24,7 @@ set_technology = {
 	mass_assault = 1
 	fleet_in_being = 1
 }
-
+recruit_character = VLA_tura
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }

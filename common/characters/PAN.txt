@@ -1,14 +1,13 @@
 characters={
-	PAN_rudowigo = {
-		name="ルドヴィコ・チギ・アルバーニ・デラ・ローヴェレ"
-		portraits = {
-			civilian = {
-				large="gfx/leaders/PAN/rudowigo.dds"
+	PAN_harmodio_arias_madrid={
+		name="Harmodio Arias Madrid"
+		portraits={
+			civilian={
+				large="GFX_portrait_panama_harmodio_arias_madrid"
 			}
 		}
-		country_leader = {
+		country_leader={
 			ideology=liberalism
-			traits = { staunch_constitutionalist stout_defender }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -55,7 +54,19 @@ characters={
 			id=-1
 		}
 	}
-
+	PAN_juan_demostenes_arosemena={
+		name="Juan Demóstenes Arosemena"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1"
+			id=-1
+		}
+	}
 	PAN_july_portocarrero={
 		name="July Portocarrero"
 		portraits={

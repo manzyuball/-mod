@@ -9,8 +9,7 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 5
-			arms_factory = 4
+			industrial_complex = 6
 			7071 = {
 				naval_base = 1
 				coastal_bunker = 1
@@ -25,7 +24,7 @@ state={
 	}
 
 	provinces={
-		1006 1094 1138 1166 1193 4053 4070 4113 4169 7027 7071 7099 7131 10010 10012 10042 10054 10069 10084 10093 11986 12057 12084 13773 13770 
+		1006 1094 1138 1166 1193 4053 4070 4113 4169 7027 7071 7099 7131 10010 10012 10042 10054 10069 10084 10093 11986 12057 12084 
 	}
 	manpower=11755600
 	buildings_max_level_factor=1.000

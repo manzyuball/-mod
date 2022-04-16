@@ -1,0 +1,837 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+
+#	focus = {
+#		id = LAT_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
+
+focus_tree = {
+	id = latvia_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LAT
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 20 y = 1000 }
+
+	focus = {
+		id = LAT_SE
+		icon = "GFX_focus_ger_revive_kaiserreich"
+		x = 11
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE1
+		icon = "GFX_focus_generic_military_mission"
+		prerequisite = { focus = LAT_SE }
+		mutually_exclusive = { focus = LAT_SE2 }
+		relative_position_id = LAT_SE
+		x = -9
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = LAT_SE2
+		icon = "GFX_focus_POL_beck_ribbentrop"
+		prerequisite = { focus = LAT_SE }
+		mutually_exclusive = { focus = LAT_SE1 }
+		relative_position_id = LAT_SE
+		x = -7
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LAT_SE3
+		icon = "GFX_focus_POL_sanation_right"
+		prerequisite = { focus = LAT_SE }
+		mutually_exclusive = { focus = LAT_SE4 }
+		relative_position_id = LAT_SE
+		x = -5
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE4
+		icon = "GFX_focus_YUG_divide_bosnia"
+		prerequisite = { focus = LAT_SE }
+		mutually_exclusive = { focus = LAT_SE3 }
+		relative_position_id = LAT_SE
+		x = -3
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE5
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = { focus = LAT_SE }
+		mutually_exclusive = { focus = LAT_SE6 }
+		relative_position_id = LAT_SE
+		x = -1
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE6
+		icon = "GFX_goal_generic_intelligence_exchange"
+		prerequisite = { focus = LAT_SE }
+		mutually_exclusive = { focus = LAT_SE5 }
+		relative_position_id = LAT_SE
+		x = 1
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE7
+		icon = "GFX_focus_LAT_renew_kviesis_term"
+		prerequisite = { focus = LAT_SE }
+		mutually_exclusive = { focus = LAT_SE8 }
+		relative_position_id = LAT_SE
+		x = 3
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE8
+		icon = "GFX_focus_LIT_exile_voldemaras"
+		prerequisite = { focus = LAT_SE }
+		mutually_exclusive = { focus = LAT_SE7 }
+		relative_position_id = LAT_SE
+		x = 5
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE9
+		icon = "GFX_focus_chi_army_reform"
+		prerequisite = { focus = LAT_SE }
+		mutually_exclusive = { focus = LAT_SE10 }
+		relative_position_id = LAT_SE
+		x = 7
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE10
+		icon = "GFX_goal_generic_army_doctrines"
+		prerequisite = { focus = LAT_SE }
+		mutually_exclusive = { focus = LAT_SE9 }
+		relative_position_id = LAT_SE
+		x = 9
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE11
+		icon = "GFX_focus_POL_prussia_line"
+		prerequisite = { focus = LAT_SE1 focus = LAT_SE2 }
+		prerequisite = { focus = LAT_SE3 focus = LAT_SE4 }
+		mutually_exclusive = { focus = LAT_SE12 }
+		relative_position_id = LAT_SE
+		x = -8
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE12
+		icon = "GFX_focus_LAT_lightning_strike"
+		prerequisite = { focus = LAT_SE3 focus = LAT_SE4 }
+		prerequisite = { focus = LAT_SE1 focus = LAT_SE2 }
+		mutually_exclusive = { focus = LAT_SE11 }
+		relative_position_id = LAT_SE
+		x = -4
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE13
+		icon = "GFX_goal_generic_air_fighter2"
+		prerequisite = { focus = LAT_SE7 focus = LAT_SE8 }
+		prerequisite = { focus = LAT_SE9 focus = LAT_SE10 }
+		mutually_exclusive = { focus = LAT_SE14 }
+		relative_position_id = LAT_SE
+		x = 4
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE14
+		icon = "GFX_focus_SOV_women_in_aviation"
+		prerequisite = { focus = LAT_SE7 focus = LAT_SE8 }
+		prerequisite = { focus = LAT_SE9 focus = LAT_SE10 }
+		mutually_exclusive = { focus = LAT_SE13 }
+		relative_position_id = LAT_SE
+		x = 8
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE15
+		icon = "GFX_goal_generic_allies_build_infantry"
+		prerequisite = { focus = LAT_SE5 focus = LAT_SE6 }
+		relative_position_id = LAT_SE
+		mutually_exclusive = { focus = LAT_SE16 }
+		x = -1
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE16
+		icon = "GFX_focus_usa_escort_fighters"
+		prerequisite = { focus = LAT_SE5 focus = LAT_SE6 }
+		relative_position_id = LAT_SE
+		mutually_exclusive = { focus = LAT_SE15 }
+		x = 1
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE17
+		icon = "GFX_focus_RAJ_lions_of_the_great_war"
+		prerequisite = { focus = LAT_SE11 focus = LAT_SE12 }
+		relative_position_id = LAT_SE
+		mutually_exclusive = { focus = LAT_SE19 }
+		x = -7
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE18
+		icon = "GFX_focus_SOV_organize_wreckers"
+		prerequisite = { focus = LAT_SE17 }
+		relative_position_id = LAT_SE
+		x = -7
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE19
+		icon = "GFX_focus_chi_british_cooperation"
+		prerequisite = { focus = LAT_SE11 focus = LAT_SE12 }
+		relative_position_id = LAT_SE
+		mutually_exclusive = { focus = LAT_SE17 }
+		x = -5
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE20
+		icon = "GFX_focus_generic_manpower"
+		prerequisite = { focus = LAT_SE19 }
+		relative_position_id = LAT_SE
+		x = -5
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE21
+		icon = "GFX_focus_eng_move_to_secure_the_dominions"
+		prerequisite = { focus = LAT_SE15 focus = LAT_SE16 }
+		mutually_exclusive = { focus = LAT_SE23 }
+		relative_position_id = LAT_SE
+		x = -1
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE22
+		icon = "GFX_focus_generic_military_academy"
+		prerequisite = { focus = LAT_SE21 }
+		relative_position_id = LAT_SE
+		x = -1
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE23
+		icon = "GFX_focus_SOV_penal_battalions"
+		prerequisite = { focus = LAT_SE15 focus = LAT_SE16 }
+		mutually_exclusive = { focus = LAT_SE21 }
+		relative_position_id = LAT_SE
+		x = 1
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE24
+		icon = "GFX_focus_spr_crush_the_revolution"
+		prerequisite = { focus = LAT_SE23 }
+		relative_position_id = LAT_SE
+		x = 1
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE25
+		icon = "GFX_focus_mex_soldaderas"
+		prerequisite = { focus = LAT_SE13 focus = LAT_SE14 }
+		relative_position_id = LAT_SE
+		mutually_exclusive = { focus = LAT_SE27 }
+		x = 5
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE26
+		icon = "GFX_focus_generic_little_entente"
+		prerequisite = { focus = LAT_SE25 }
+		relative_position_id = LAT_SE
+		x = 5
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE27
+		icon = "GFX_goal_generic_political_pressure"
+		prerequisite = { focus = LAT_SE13 focus = LAT_SE14  }
+		relative_position_id = LAT_SE
+		mutually_exclusive = { focus = LAT_SE25 }
+		x = 7
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE28
+		icon = "GFX_focus_EST_era_of_silence"
+		prerequisite = { focus = LAT_SE13 focus = LAT_SE14  }
+		relative_position_id = LAT_SE
+		x = 7
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = LAT_SE29
+		icon = "GFX_focus_LIT_king_of_poland"
+		prerequisite = { focus = LAT_SE18 focus = LAT_SE20 }
+		prerequisite = { focus = LAT_SE24 focus = LAT_SE22 }
+		prerequisite = { focus = LAT_SE26 focus = LAT_SE28 }
+		relative_position_id = LAT_SE
+		x = 0
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+}

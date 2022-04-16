@@ -132,12 +132,6 @@ units = {
 	}
 	division= {
 	    name = "ノルマンディ革命軍"
-		location = 13788
-		division_template = "フランス革命軍"
-		start_experience_factor = 0.3
-	}
-	division= {
-	    name = "ノルマンディ革命軍"
 		location = 6449
 		division_template = "フランス革命軍"
 		start_experience_factor = 0.3

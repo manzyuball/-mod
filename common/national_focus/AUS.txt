@@ -184,6 +184,11 @@ completion_reward = {
                 last_election = "1935.12.17"
                 election_frequency = 48
         }
+        news_event = {
+            id = news.8
+            days = 1
+            random = 0
+            }
 }
 }
 focus = {
