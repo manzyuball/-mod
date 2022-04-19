@@ -1,0 +1,24 @@
+
+state={
+	id=1314
+	name="STATE_1314"
+
+	impassable = yes
+
+	history={
+		owner = INS
+		add_core_of = WPP
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1602 8235 
+	}
+	manpower=15715
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

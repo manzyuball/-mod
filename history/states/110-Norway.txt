@@ -8,13 +8,13 @@ state={
 
 	history={
 		victory_points = {
-			6115 35
+			6115 30
 		}
 		owner = NOR
 		buildings = {
-			infrastructure = 3
-			arms_factory = 5
-			industrial_complex = 8
+			infrastructure = 9
+			arms_factory = 2
+			industrial_complex = 2
 			dockyard = 1
 			air_base = 4
 			6115 = {
@@ -25,14 +25,18 @@ state={
 
 		}
 		add_core_of = NOR
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
 
 	}
 
 	provinces={
-	14 144 3021 3171 6115 6160 9103 9157 9204 11078 11184 13248
+		14 3007 3171 6115 9103 11078 11151 11184 
 	}
-	manpower=1410219
+	manpower=700202
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
-	local_supplies=0.000
+	state_category=city
 }

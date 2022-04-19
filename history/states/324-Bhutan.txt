@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = BHU
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -21,11 +21,10 @@ state={
 		victory_points = {
 			8010 3 
 		}
+		add_core_of = BHU
 	}
 
 	provinces={
 		8010 12860 
 	}
-
-	local_supplies=0.0 
 }

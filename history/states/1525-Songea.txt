@@ -1,0 +1,20 @@
+state={
+	id=1525
+	name="STATE_1525"
+	
+	state_category = pastoral
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = TZN
+	}
+
+	provinces={
+		12967 8182 10845 8201 12944
+	}
+	manpower=886700
+	buildings_max_level_factor=1.000
+}

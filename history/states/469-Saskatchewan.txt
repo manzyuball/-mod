@@ -6,19 +6,24 @@ state={
 	history={
 		owner = CAN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 1
 
 		}
 		add_core_of = CAN
+		victory_points = {
+			12603 3 
+		}
+		victory_points = {
+			4739 1
+		}
 
 	}
 
 	provinces={
-		736 1788 3481 3498 3769 4739 9669 10552 10611 10656 11440 12593 12603 12663 13932 13933 13934 
+		736 1671 1788 3481 3498 3769 4739 6779 9669 10552 10611 10656 11440 12593 12603 12663 12682 
 	}
-	manpower=865605
+	manpower=827105
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.000
 }

@@ -9,9 +9,9 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 10
+			industrial_complex = 1
 			air_base = 6
-			dockyard = 3
+			dockyard = 1
 			7014 = {
 				naval_base = 6
 				coastal_bunker = 1
@@ -20,23 +20,20 @@ state={
 			}
 
 		}
+		
 		victory_points = {
-			11913 50 
+			7014 5 
 		}
-		victory_points = {
-			7014 10 
-		}
-		victory_points = {
-			10076 5 
+		1938.10.25 = {
+			owner = RGR
 		}
 
 	}
 
 	provinces={
-		996 1089 7014 7120 10034 10076 11913 11982 12052 12076 
+		7014 12076
 	}
-	manpower=17305100
+	manpower=14203100
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
-	local_supplies=0.000
+	state_category=large_city
 }

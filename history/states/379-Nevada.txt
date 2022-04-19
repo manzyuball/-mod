@@ -6,26 +6,26 @@ state={
 		steel=70.000
 		tungsten=32.000
 		aluminium=25.000
-		gold=13.000
 	}
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 
 		}
 		add_core_of = USA
-		add_core_of = USB
-		add_core_of = CSA
+		victory_points = {
+			4607 1 
+		}
+
 
 	}
 
 	provinces={
-		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425 13961 13962 
+		1862 4521 4607 4736 4816 10422 12134 12399 12425 
 	}
-	manpower=91057
+	manpower=46035
 	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	state_category=rural
 }

@@ -1,0 +1,33 @@
+state={
+	id=1119
+	name="STATE_1119"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 7
+
+		}
+		victory_points = {
+			9546 3 
+		}
+		#victory_points = {
+		#	9439 1
+		#}		
+		add_core_of = POL
+		
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+		584 6401 9439 9546 11515 
+	}
+	manpower=174971
+	buildings_max_level_factor=1.000
+	state_category=town
+}

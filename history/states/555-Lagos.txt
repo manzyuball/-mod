@@ -11,7 +11,7 @@ state={
 		#add_core_of = JAP
 		#add_claim_by = SOV # Removed because of too much aggression
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			1399 = {
 				naval_base = 3
 
@@ -24,6 +24,4 @@ state={
 	provinces={
 		1399 1515 13037 
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.0 
 }

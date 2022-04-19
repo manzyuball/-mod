@@ -4,31 +4,29 @@ state={
 	name="STATE_380"
 	resources={
 		tungsten=76.000
-		silver=38.000
-		bronze=89.000
 	}
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 1
 
 		}
 		add_core_of = USA
-		add_core_of = USB
-		add_core_of = CSA
 		victory_points = {
-			4865 1 
+			10582 3 
+		}
+		victory_points = {
+			12699 1 
 		}
 
 	}
 
 	provinces={
-		1663 1740 4865 10582 10651 10662 12573 12699 13153 
+		1663 1740 1756 4668 4742 4865 7764 10582 10651 10662 12573 12699 
 	}
-	manpower=507846
+	manpower=506793
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.000
 }

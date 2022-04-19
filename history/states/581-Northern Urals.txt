@@ -1,17 +1,15 @@
 
-state = {
-	id = 581
-	name = "STATE_581"
-	manpower = 48831
-	
-	state_category = pastoral
-	
-	resources = {
-		chromium = 40 # was: 44
-		aluminium = 27 # was: 30
+state={
+	id=581
+	name="STATE_581"
+	resources={
+		chromium=40.000
+		aluminium=27.000
 	}
 
-	history = {
+	impassable = yes
+
+	history={
 		owner = SOV
 		buildings = {
 			infrastructure = 1
@@ -19,11 +17,13 @@ state = {
 		}
 		add_core_of = SOV
 		add_core_of = KOM
+
 	}
 
-	provinces = {
-		10551 10677 11098 12393 12502 
+	provinces={
+		10551 10677 12502 13076 7824
 	}
-
-	local_supplies = 0.0 
+	manpower=48831
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

@@ -4,29 +4,33 @@ state={
 	name="STATE_11"
 
 	history={
-		owner = LAT
+		owner = LIT
 		victory_points = {
-			6296 5
+			6296 30
 		}
 		victory_points = {
-			9357 1 #Ukmerge
-		}
+			9438 5 
+		}	
 		buildings = {
-			infrastructure = 3
+			infrastructure = 8
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 1
+			air_base = 4
 
 		}
-		add_core_of = LAT
+		add_core_of = LIT
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
+
+		}
 
 	}
 
 	provinces={
-		327 6229 6296 6360 9357 9404 
+		 6296 9246 9357 9374 9438 
 	}
-
-	local_supplies=10.0 
-	manpower=971940
+	manpower=631390
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 }

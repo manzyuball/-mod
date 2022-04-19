@@ -12,25 +12,24 @@ state={
 		add_core_of = PRC
 		add_core_of = CHI
 		add_core_of = PRC
-		add_core_of = SHX
 		victory_points = {
-			8049 3 
+			12356 3 
 		}
 		buildings = {
-			infrastructure = 1
-			arms_factory = 3
+			infrastructure = 2
+			arms_factory = 2
 			industrial_complex = 3
-			10733 = {
+			517 = {
 				bunker = 2
 
 			}
-			12156 = {
+			1458 = {
 				bunker = 2
 
 			}
-			5007 = {
+			12356 = {
 				bunker = 2
-
+				
 			}
 
 		}
@@ -38,10 +37,9 @@ state={
 	}
 
 	provinces={
-		517 1458 1647 4939 5007 7208 7314 7659 8049 10733 10880 12156 12356 
+		517 1458 10880 12356 
 	}
-	manpower=7006200
+	manpower=5604960
 	buildings_max_level_factor=1.000
 	state_category=city
-	local_supplies=0.000
 }

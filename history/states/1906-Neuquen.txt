@@ -1,0 +1,30 @@
+
+state={
+	id=1906
+	name="STATE_1906"
+	manpower = 73831
+	
+	state_category = rural
+	
+	resources={
+		oil=1 
+	}
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			12306 10 
+		}	
+		victory_points = {
+			2199 1
+		}			
+		add_core_of = ARG
+	}
+
+	provinces={
+		2199 12306 8192
+	}
+}

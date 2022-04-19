@@ -2,28 +2,25 @@
 state={
 	id=510
 	name="STATE_510"
+	manpower = 1748585
 	resources={
-		oil=8.000
+		oil=4 # was: 12
 	}
+	
+	state_category = rural
 
 	history={
 		owner = ARG
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 4
-			air_base = 5
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
 			arms_factory = 1
-
 		}
 		add_core_of = ARG
-
 	}
 
 	provinces={
-		1449 2172 10515 10943 12453
+		 10515 10943 12453
 	}
-	manpower=6199200
-	buildings_max_level_factor=1.000
-	state_category=metropolis
-	local_supplies=0.000
 }

@@ -1,0 +1,22 @@
+state={
+	id=1904
+	name="STATE_1904"
+
+	history={
+		owner = BRA
+		victory_points = {
+			5839 1 
+		}		
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		5839 
+	}
+	manpower=27871
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

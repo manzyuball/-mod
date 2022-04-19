@@ -1,8 +1,9 @@
+
 state={
 	id=170
 	name="STATE_170"
 	resources={
-		tungsten=4.000
+		tungsten=3.000
 	}
 
 	history={
@@ -10,8 +11,11 @@ state={
 		victory_points = {
 			6902 1 
 		}
+		victory_points = {
+			13768 1 
+		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5
 			industrial_complex = 1
 
 		}
@@ -20,11 +24,9 @@ state={
 	}
 
 	provinces={
-		809 931 985 3930 6866 6902 6948 6954 9839 9877 9917 9925 11756 11780 11798 11851 13768 13230 
+		809 931 985 3930 6866 6902 6948 6954 9925 11780 11798 13768 
 	}
-	manpower=1417652
+	manpower=1047132
 	buildings_max_level_factor=1.000
 	state_category=town
-
-	local_supplies=0.0 
 }

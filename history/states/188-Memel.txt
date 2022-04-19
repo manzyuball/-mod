@@ -5,26 +5,29 @@ state=
 	manpower = 150000
 	
 	
-	state_category = rural
+	state_category = town
 	
 	history = {
 		victory_points = {
-			3288 3
+			3288 2
 		}
-		owner = LAT
+		owner = LIT
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 6
 			industrial_complex = 1
 			3288 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = LAT
+		add_core_of = LIT
 
+		1939.3.22 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+		}
 	}
 	provinces={
 		3288 	
 	}
-
-	local_supplies=0.0 
 }

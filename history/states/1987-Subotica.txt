@@ -1,0 +1,32 @@
+
+state={
+	id=1987
+	name="STATE_1987"
+
+	history={
+		victory_points = {
+			9621 3 
+		}
+		owner = YUG
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = YUG
+		add_core_of = SER
+		add_core_of = VOJ
+		1941.1.1 = {
+			owner = HUN
+			controller = HUN
+
+		}
+
+	}
+
+	provinces={
+		3623 9621
+	}
+	manpower=175621
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

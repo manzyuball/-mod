@@ -1,31 +1,25 @@
-state = {
-	id = 585
-	name = "STATE_585" #Navoiy
-	resources={
-		tungsten=2 # was: 2.000
-		GOLD=19
-	}
-	history = {
-		
-		owner = UZB
-		buildings = {
-			infrastructure = 2
+state={
+	id=585
+	name="STATE_585"
 
-		}
+	history={
 		add_core_of = UZB
-		
+		owner = SOV
 		victory_points = {
-			1554 1 
+			12465 2
 		}
-		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SOV
+
 	}
 
-	provinces = {
-		1532 1554 4499 7501 7507 10420
+	provinces={
+		1479 1532 1554 1576 1614 4488 4499 4618 10420 12465
 	}
-	manpower = 465174 # 9/10ths of before
-	buildings_max_level_factor = 1.000
-	state_category = rural
-
-	local_supplies = 0.0 
+	manpower=826977
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,0 +1,30 @@
+state={
+	id=879
+	name="STATE_879"
+
+	history={
+		victory_points = {
+			3272 5
+		}		
+		owner = LIT
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+
+		}
+		add_core_of = LIT
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
+
+		}
+
+	}
+
+	provinces={
+		3272 6281 6407 
+	}
+	manpower=323186
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

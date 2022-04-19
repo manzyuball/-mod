@@ -4,8 +4,8 @@ state={
 	name="STATE_582"
 	resources={
 		steel=40.000
-		oil=6.000
 	}
+	impassable = yes
 
 	history={
 		owner = SOV
@@ -14,17 +14,15 @@ state={
 
 		}
 		add_core_of = SOV
-		victory_points = {
-			10256 3 
-		}
+		add_core_of = IDL
+		
 
 	}
 
 	provinces={
-		1334 1406 4215 4261 4265 4311 4383 4411 7281 7328 7373 7401 10185 10256 12200 
+		1406 4261 4265 4311 4383 7300 7373 10185 12200 
 	}
-	manpower=1044991
+	manpower=324540
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	state_category=pastoral
 }

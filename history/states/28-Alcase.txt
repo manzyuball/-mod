@@ -3,28 +3,64 @@ state={
 	id=28
 	name="STATE_28"
 	resources={
-		steel=100.000
+		steel=70.000
 	}
 
 	history={
 		owner = FRA
 		victory_points = {
-			9559 10 
+			11640 5 
+		}
+		#victory_points = {
+		#	6712 5 
+		#}		
+		victory_points = {
+			9503 10
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 8
+			industrial_complex = 3
+			11640 = {
+				bunker = 10
+
+			}			
+			6542 = {
+				bunker = 10
+
+			}
+			6712 = {
+				bunker = 10
+
+			}
+			9503 = {
+				bunker = 10
+
+			}
+			anti_air_building = 5
+			air_base = 5
+
 		}
 		add_core_of = FRA
+		add_core_of = ALS
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
 
+			}
+
+		}
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
 
 	}
 
 	provinces={
-		549 3560 3629 6542 8335 9559 13886 13887 13888
+		 6542 6712 9503 11640 
 	}
-	manpower=1000000
+	manpower=1115600
 	buildings_max_level_factor=1.000
 	state_category=city
-	local_supplies=14.000
 }

@@ -4,8 +4,8 @@ state={
 	name="STATE_611"
 
 	history={
-		owner = MAN
-		add_core_of = MAN
+		owner = MEN
+		add_core_of = MEN
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
@@ -13,17 +13,13 @@ state={
 			industrial_complex = 1
 
 		}
-		victory_points = {
-			11752 4 
-		}
 
 	}
 
 	provinces={
-		828 952 1137 1489 1590 4495 4612 6904 7545 7674 9776 10397 11752 12348 
+		828 1590 6904 7545 10397 
 	}
 	manpower=1470000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-	local_supplies=0.000
 }

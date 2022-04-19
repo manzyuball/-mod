@@ -8,15 +8,18 @@ state={
 	history={
 		owner = SPR
 		victory_points = {
-			3938 30 
+			3938 50 
 		}
 		victory_points = {
-			858 1
+			13633 5 
 		}
+		victory_points = {
+			13593 5 
+		}		
 		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 2
+			infrastructure = 10
+			arms_factory = 1
+			industrial_complex = 1
 			air_base = 6
 
 		}
@@ -25,11 +28,9 @@ state={
 	}
 
 	provinces={
-		858 896 939 977 3794 3845 3938 3986 6914 9767 9800 11820 13224 13744 13593 13633
+		 977 3794 3938 13633 13593 13744
 	}
-	manpower=2064659
+	manpower=1101340
 	buildings_max_level_factor=1.000
 	state_category=large_city
-
-	local_supplies=0.0 
 }

@@ -1,15 +1,11 @@
+
 state={
 	id=751
 	name="STATE_751"
-	provinces={
-		1999 2067 7294 10726 10841 12141 12819 
-	}
-	manpower=300000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+
 	history={
-		owner = GXC
-		add_core_of = GXC
+		owner = SZH
+		add_core_of = SZH
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
@@ -17,15 +13,14 @@ state={
 
 		}
 		victory_points = {
-			12141 5
-		}
-		victory_points = {
-			7294 1
+			7294 1 
 		}
 		1939.1.1 = {
+			owner = CHI
+			controller = CHI
 			buildings = {
 				industrial_complex = 1
-				infrastructure = 1
+				infrastructure = 2
 
 			}
 
@@ -33,5 +28,10 @@ state={
 
 	}
 
-	local_supplies=1.0 
+	provinces={
+		2067 7294 12819 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

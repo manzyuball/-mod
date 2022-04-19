@@ -4,21 +4,19 @@ state={
 	name="STATE_513"
 
 	history={
-		owner = ALG
+		owner = FRA
 		add_core_of = ALG
-
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
 		}
 
 	}
 
 	provinces={
-		1126 1128 1967 3991 4018 4150 7008 7040 9960 10045 12018 12020 13074 
+		1126 1967 2049 9960 12018 12842 13074 13928 
 	}
 	manpower=811486
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	state_category=wasteland
 }

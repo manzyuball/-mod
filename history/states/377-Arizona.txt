@@ -3,35 +3,27 @@ state={
 	id=377
 	name="STATE_377"
 	resources={
-		steel=20.000
-		oil=5.000
-		aluminium=8.000
-		silver=21.000
-		bronze=8.000
+		steel=15.000
+		oil=2.000
+		aluminium=6.000
 	}
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 1
-			air_base = 2
+			air_base = 1
 
 		}
 		add_core_of = USA
-		add_core_of = USB
-		add_core_of = CSA
-		victory_points = {
-			853 3 
-		}
 
 	}
 
 	provinces={
-		850 853 1793 8115 10783 11814 12765 
+		850 1793 4796 6897 7747 11814 12765 
 	}
-	manpower=435572
+	manpower=83270
 	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=8.000
+	state_category=rural
 }

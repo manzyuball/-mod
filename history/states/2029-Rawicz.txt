@@ -1,0 +1,38 @@
+
+state={
+	id=2029
+	name="STATE_2029"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 7
+			13588 = {
+				bunker = 1
+
+			}
+			3460 = {
+				bunker = 1
+
+			}
+		}
+		add_core_of = POL
+		1938.3.12 = {
+			add_claim_by = GER
+
+		}
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+	 13588 3460
+	}
+	manpower=182657
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=1604
+	name="STATE_1604"
+
+	history={
+		owner = LIT
+		victory_points = {
+			11498 8
+		}
+		victory_points = {
+			9404 5 
+		}
+		victory_points = {
+			327 5 
+		}		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = LIT
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
+
+		}
+
+	}
+
+	provinces={
+		11498 11226 327 9404
+	}
+	manpower=320750
+	buildings_max_level_factor=1.000
+	state_category=town
+}

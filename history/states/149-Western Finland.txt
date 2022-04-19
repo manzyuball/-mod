@@ -4,26 +4,21 @@ state={
 	name="STATE_149" # Pohjanmaa
 	manpower = 811029
 	
-	state_category = city
+	state_category = town
 	
 	history={
 		owner = FIN
-		victory_points = {
-			3122 3 
-		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 4
-			3122 = {
-				naval_base = 1
-			}
+			infrastructure = 4
+			industrial_complex = 2
 		}
 		add_core_of = FIN
+		victory_points = {
+			9038 1
+		}
 	}
 
 	provinces={
-		63 66 82 120 132 158 195 3119 3122 3172 6013 6081 6138 6141 6198 6212 9038 9156 9166 9219 11033 11041 11065 11081 11121 11126 11132 11144 
+		3009 32 3025 6013 9038 11065 6138 63 9156 6198 13107 11144 9166 3119
 	}
-
-	local_supplies=0.0 
 }

@@ -7,21 +7,18 @@ state={
 	}
 
 	history={
-		owner = GXC
+		owner = TIB
 		add_core_of = CHI
 		add_core_of = TIB
 		add_core_of = PRC
-		add_core_of = GXC
+		add_core_of = HSI
 		buildings = {
 			infrastructure = 1
 
 		}
-		victory_points = {
-			10856 1 
-		}
 		1939.1.1 = {
 			buildings = {
-				infrastructure = 1
+				infrastructure = 2
 
 			}
 
@@ -30,10 +27,9 @@ state={
 	}
 
 	provinces={
-		4407 5102 10856 
+		5102 8041 8059 
 	}
-	manpower=368200
+	manpower=220920
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	local_supplies=1.000
 }

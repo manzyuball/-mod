@@ -1,0 +1,25 @@
+
+state={
+	id=1643
+	name="STATE_1643"
+	manpower = 11936
+	
+	state_category = pastoral
+
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13666 1 
+		}
+		add_core_of = ROM
+		add_core_of = HUN		
+		add_core_of = TRA
+	}
+
+	provinces={
+		13666
+	}
+}

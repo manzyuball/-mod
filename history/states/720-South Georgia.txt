@@ -1,31 +1,22 @@
-
 state={
 	id=720
 	name="STATE_720"
-
-	history={
+	manpower=30	
+	state_category = tiny_island
+	
+	history=
+	{
 		owner = ENG
 		buildings = {
 			infrastructure = 1
 			10995 = {
 				naval_base = 1
-
 			}
-			14361 = {
-				naval_base = 1
-
-			}
-
 		}
-		add_claim_by = ARG
-
+		add_core_of = ARG
 	}
-
+	
 	provinces={
-		10995 14026 14361 14362 
+		10995 
 	}
-	manpower=30
-	buildings_max_level_factor=1.000
-	state_category = tiny_island
-	local_supplies=0.000
 }

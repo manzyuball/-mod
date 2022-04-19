@@ -1,0 +1,32 @@
+
+state={
+	id=1876
+	name="STATE_1876"
+
+	history={
+		owner = FRA
+		victory_points = {
+			6529 1 
+		}		
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = FRA
+		add_core_of = BGN
+		add_claim_by = ALS
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+		6529
+	}
+	manpower=7900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

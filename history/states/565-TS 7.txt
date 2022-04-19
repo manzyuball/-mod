@@ -10,17 +10,17 @@ state={
 	}
 
 	history={
-		owner = VLA
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = SOV
-		add_core_of = VLA
+		add_core_of = SIB
+		add_core_of = FER
+		add_core_of = BRY
 	}
 
 	provinces={
-		1666 1761 4762 4795 4868 7759 7854 10583 10654 12538  
+		1761 4716 4835 7736 7759 10583 10654 12506 12575 
 	}
-
-	local_supplies=5.0 
 }

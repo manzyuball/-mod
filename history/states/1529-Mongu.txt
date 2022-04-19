@@ -1,0 +1,21 @@
+state={
+	id=1529
+	name="STATE_1529"
+	
+	state_category = pastoral
+
+	history={
+		owner = ENG
+		add_core_of = ZAM
+		buildings = {
+			infrastructure = 1
+
+		}
+	}
+
+	provinces={
+		10538
+	}
+	manpower=34092
+	buildings_max_level_factor=1.000
+}

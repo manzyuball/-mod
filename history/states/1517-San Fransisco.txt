@@ -1,0 +1,35 @@
+
+state={
+	id=1517
+	name="STATE_1517"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 8
+			arms_factory = 0
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+		add_core_of = CAL
+		victory_points = {
+			3678 25 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3678
+	}
+	manpower=985092
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

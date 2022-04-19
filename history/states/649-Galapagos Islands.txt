@@ -6,10 +6,9 @@ state=
 	manpower=11532
 	history=
 	{
-		owner = PRU
-		add_core_of = PRU
+		owner = ECU
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			5023 = {
 				naval_base = 1
 			}
@@ -17,6 +16,4 @@ state=
 		add_core_of = ECU
 	}
 	provinces= { 5023 }
-
-	local_supplies=0.0 
 }

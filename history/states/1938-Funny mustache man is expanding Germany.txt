@@ -1,0 +1,25 @@
+state={
+    id=1938
+    name="STATE_1938"
+
+    history = {
+        owner = FRA
+		add_core_of = VIN
+		add_core_of = TON
+        buildings = {
+            infrastructure = 0
+        }
+		1941.1.1 = {
+			owner = JAP
+			controller = JAP
+
+		}
+    }
+
+    provinces = {
+        4529 10075 10103 12319 13322
+    }
+    manpower=91110
+	buildings_max_level_factor=1.000
+    state_category=rural
+}

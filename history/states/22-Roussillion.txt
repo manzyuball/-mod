@@ -2,14 +2,14 @@
 state={
 	id=22
 	name="STATE_22" # Languedoc
-	manpower = 1691200
+	manpower = 1299273
 	
 	
 	state_category = large_town
 	
 	resources={
-		steel=70 # was: 136
-		aluminium=50 # was: 96
+		steel=40 # was: 136
+		aluminium=40 # was: 96
 	}
 
 	history={
@@ -18,18 +18,16 @@ state={
 			9898 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 4
+			infrastructure = 7
+			industrial_complex = 1
 			air_base = 2
 		}
-		add_core_of = OCC
 		add_core_of = FRA
+		add_core_of = OCC
 	}
 
 	provinces={
-		752 760 3751 6770 6960 6962 8437 9723 9898 11709 11711 11877 
+		8437 760 6960 9898 
 	}
-
-	local_supplies=12.0 
+	
 }

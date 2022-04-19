@@ -1,0 +1,23 @@
+
+state = {
+    id=1991
+    name="STATE_1991"
+    manpower = 470023
+
+    state_category = pastoral
+
+    history={
+        owner = BEL
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 1
+		}
+		
+		add_core_of = BEL
+		add_core_of = FLA
+    }
+
+    provinces={
+        13990
+    }
+}

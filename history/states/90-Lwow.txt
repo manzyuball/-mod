@@ -1,34 +1,36 @@
+
 state={
 	id=90
-	name="STATE_90" # Kielce
-	manpower = 1835700
-	
-	state_category = town
-	
+	name="STATE_90"
 	resources={
-		steel=8 # was: 12
+		steel=8.000
 	}
 
 	history={
 		victory_points = {
-			11430 5
+			11430 5 
 		}
 		victory_points = {
-			3458 5
+			3458 5 
 		}
-		#victory_points = {
-		#	562 3
-		#}
 		owner = POL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+
 		}
 		add_core_of = POL
+		1941.1.1 = {
+			owner = GGO
+			controller = GGO
+
+		}
+
 	}
 
 	provinces={
-		562 3458 3497 3586 6416 11430 11532 
+		562 3458 3497 6416 11430 467 6511
 	}
-
-	local_supplies=0.0 
+	manpower=1935697 
+	buildings_max_level_factor=1.000
+	state_category=town
 }

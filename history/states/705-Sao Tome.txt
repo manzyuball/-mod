@@ -6,8 +6,12 @@ state={
 
 	history={
 		owner = POR
+		add_core_of = SAO
+		victory_points = {
+			13015 1 
+		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			13015 ={
 				naval_base = 1
 			}
@@ -17,6 +21,4 @@ state={
 	provinces={
 		13015 
 	}
-
-	local_supplies=0.0 
 }

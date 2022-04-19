@@ -2,24 +2,21 @@
 state={
 	id=487
 	name="STATE_487"
+	manpower = 267600
+	
+	state_category = pastoral
 
 	history={
-		owner = BRA
-		add_core_of = BRA
+		owner = BOL
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
-
 		}
 		add_core_of = BOL
-
 	}
 
 	provinces={
-		5188 8211 8240 10924 10996 12917 
+		5188 8211 8240 10924 10982 10996 12902 12973 
 	}
-	manpower=334500
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	
 }

@@ -9,26 +9,30 @@ state={
 	history={
 		owner = PAN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 7
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 1
 			7630 = {
 				naval_base = 4
 
 			}
+
 		}
 		add_core_of = PAN
 		victory_points = {
-			7630 15 
+			7630 15
 		}
+		victory_points = {
+			10482 1
+		}		
+
 	}
 
 	provinces={
 		7630 10482 
 	}
-	manpower=467459
+	manpower=207229
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
 }

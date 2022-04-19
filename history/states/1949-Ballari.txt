@@ -1,0 +1,27 @@
+
+state={
+	id=1949
+	name="STATE_1949" # Mysore
+	manpower = 1678231
+	
+	state_category = pastoral
+	
+	resources={
+		chromium=3 # was: 20
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			5032 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+	 5032 4278 10799 10259
+	}
+}

@@ -4,18 +4,19 @@ state={
 	name="STATE_460"
 
 	history={
-		owner = ALG
+		owner = FRA
 		add_core_of = ALG
 		victory_points = {
 			7081 1 
 		}
 		victory_points = {
-			12051 15 
+			12051 3 
 		}
+		victory_points = {
+			12034 1 
+		}		
 		buildings = {
-			infrastructure = 3
-			arms_factory = 4
-			industrial_complex = 2
+			infrastructure = 4
 			7081 = {
 				naval_base = 1
 
@@ -26,10 +27,9 @@ state={
 	}
 
 	provinces={
-		1160 4046 7081 7166 10078 12051 
+		1058 1141 1160 4046 7065 7081 7166 9976 10059 10078 11953 12034 12051 13077 
 	}
 	manpower=2343837
 	buildings_max_level_factor=1.000
-	state_category=large_city
-	local_supplies=0.000
+	state_category=town
 }

@@ -4,33 +4,29 @@ state={
 	name="STATE_157"
 
 	history={
-		owner = MLT
 		victory_points = {
-			925 1 
+			925 2
 		}
+		victory_points = {
+			967 1
+		}
+		owner = ITA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			industrial_complex = 1
 			925 = {
 				naval_base = 4
-
-			}
-			6831 = {
-				naval_base = 1
-
 			}
 
 		}
 		add_core_of = ITA
-		add_core_of = MLT
 
 	}
 
 	provinces={
-		925 963 967 3910 3923 3966 6831 6926 9838 11790 11882 13425
+		925 967 
 	}
-	manpower=2979335
+	manpower=1349491
 	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	state_category=town
 }

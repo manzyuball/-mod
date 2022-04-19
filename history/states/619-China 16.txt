@@ -1,34 +1,39 @@
 
 state={
 	id=619
-	name="STATE_619" # Yarkand
-	manpower = 1430700
-	
-	state_category = pastoral
-	
+	name="STATE_619"
 	resources={
-		aluminium=2 # was: 2
-		chromium=2 # was: 3
+		aluminium=2.000
+		chromium=2.000
 	}
 
 	history={
-		owner = MON
+		victory_points = {
+			2015 5 
+		}
+		owner = SIK
 		add_core_of = SIK
+		add_core_of = TUG
 		add_core_of = CHI
 		add_core_of = PRC
+		set_demilitarized_zone = yes #For the islamic revolt
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
-		}
-		victory_points = {
-			2015 2
-		}
-	}
 
+		}
+		1939.1.1 = {
+			remove_core_of = TUG
+			set_demilitarized_zone = no
+
+		}
+
+	}
 
 	provinces={
-		1766 1970 2015 4828 5016 5087 7790 7949 8112 12119 
+		1766 2015 5087 12119 
 	}
-
-	local_supplies=0.0 
+	manpower=1430700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

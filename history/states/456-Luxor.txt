@@ -4,29 +4,19 @@ state={
 	name="STATE_456"
 
 	history={
-		victory_points = {
-			11999 1 
-		}
 		owner = EGY
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 
-		}
-		victory_points = {
-			12071 3 
-		}
-		victory_points = {
-			11974 1 
 		}
 		add_core_of = EGY
 
 	}
 
 	provinces={
-		1028 1064 1151 1206 7030 7073 7144 10028 10097 10844 11974 11999 12044 12071 12771 13363 13458 13459 13460 13461 13462 13463 13464 13465 13466 13467 13468 13469 13470 13492 
+		1028 1206 7073 10097 12771 13458 13460 13462 13464 
 	}
-	manpower=4224516
+	manpower=1224516
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.000
 }

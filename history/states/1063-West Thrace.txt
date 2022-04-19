@@ -1,0 +1,31 @@
+
+state={
+	id=1063
+	name="STATE_1063"
+
+	history={
+		owner = GRE
+		victory_points = {
+			9930 1 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = GRE
+		add_claim_by = BUL
+		1941.1.1 = {
+			owner = BUL
+			controller = BUL
+
+		}
+
+	}
+
+	provinces={
+		6990 9930 13316 
+	}
+	manpower=181080
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

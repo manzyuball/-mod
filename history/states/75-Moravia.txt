@@ -1,7 +1,7 @@
 state={
 	id=75
 	name="STATE_75"
-	manpower = 2598400
+	manpower = 2670424
 	resources={
 		steel=4 # was: 6
 		oil = 2 # was: 4
@@ -10,26 +10,33 @@ state={
 	state_category = city
 
 	history={
-		owner = AUS
-		add_core_of = AUS
+		owner = CZE
 		victory_points = {
 			3569 20
 		}
 		victory_points = {
 			6562 5
 		}
+		victory_points = {
+			6576 5
+		}		
 		buildings = {
-			infrastructure = 4
+			infrastructure = 7
 			industrial_complex = 4
 			air_base = 5
 
 		}
 		add_core_of = CZE
+		add_core_of = MRV
+
+		1939.3.14 = {
+			owner = PBM
+			controller = PBM
+			add_core_of = PBM
+		}
 	}
 
 	provinces={
-		569 3553 3569 6562 6576 6590 11511 
+		569 3553 3569 6562 6576 6590 11511
 	}
-
-	local_supplies=3.0 
 }

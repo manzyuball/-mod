@@ -1,0 +1,27 @@
+state={
+	id=1966
+	name="STATE_1966"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = POL
+		
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+		8141
+	}
+	manpower=23527
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

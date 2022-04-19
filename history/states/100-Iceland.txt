@@ -1,26 +1,26 @@
-state={
+state = {
 	id=100
 	name="STATE_100"
-	manpower = 115870
+	manpower = 80121
 	
-	state_category = rural
+	state_category = town
 	
-	
-	history={
-		owner = DEN
-		victory_points = { 12674 1 }
+	history = {
+		owner = ICE
+		victory_points = { 12674 8 }
+		victory_points = { 13700 1 }
+		victory_points = { 13686 1 }
+		victory_points = { 13596 3 }
+		victory_points = { 13624 1 }		
 		buildings = {
-			infrastructure = 1
-			12674 ={
+			infrastructure = 4
+			12674 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = DEN
 		add_core_of = ICE
 	}
-	provinces={
-	4861 12674 12689  13703 13752 8718 13700 13686 13624 13596	13517 
+	provinces = {
+    13700 13686 12674 13624 13596 8718 
 	}
-
-	local_supplies=0.0 
 }

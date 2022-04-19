@@ -1,20 +1,19 @@
 
-state = {
-	id = 192
-	name = "STATE_192"
-	manpower = 1286238 #1 8th removed due to Balta-Tiraspol
+state={
+	id=192
+	name="STATE_192"
+	manpower = 1005922
 	
-	state_category = metropolis
+	state_category = city
 
-	history = {
+	history={
 		owner = SOV
 		victory_points = {
 			11670 10 
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			arms_factory = 6
-			industrial_complex = 7
+			infrastructure = 5
+			industrial_complex = 1
 			air_base = 6
 			11670 ={
 				naval_base = 3
@@ -30,9 +29,7 @@ state = {
 		}
 	}
 
-	provinces = {
-		  3575 3738 9698 9714 11670 11703 
+	provinces={
+		741 754 3575 3738 3757 9698 9714 11670 11703 
 	}
-
-	local_supplies = 6.0 
 }

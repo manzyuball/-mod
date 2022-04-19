@@ -5,10 +5,11 @@ state={
 
 	history={
 		owner = MAN
+		add_core_of = CHI
 		add_core_of = MAN
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 
@@ -17,10 +18,9 @@ state={
 	}
 
 	provinces={
-		916 930 1499 1508 1558 1627 1638 3877 3978 4561 4633 4642 6893 7812 9831 10363 10429 11836 11903 12337 12469 12478 
+		1499 1502 1558 1627 4876 7812 12337 12469 12485
 	}
 	manpower=3643373
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
 }

@@ -2,25 +2,26 @@
 state={
 	id=442
 	name="STATE_442"
-	manpower = 4684400
-	
-	state_category = rural
 
 	history={
 		victory_points = {
-			12763 3
+			12763 3 
 		}
 		owner = RAJ
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 3
+
 		}
 		add_core_of = PAK
+		add_core_of = AFG
+
 	}
 
 	provinces={
-		1978 4558 4998 12717 12763 
+		1107 1978 4558 4998 7975 8044 12717 12763 
 	}
-
-	local_supplies=5.0 
+	manpower=4684400
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,0 +1,32 @@
+
+state={
+	id=1845
+	name="STATE_1845"
+	manpower = 217253
+	
+	state_category = town
+
+	resources={
+		oil=1
+	}
+	
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = MEX
+		victory_points = {
+			2008 10
+		}		
+		victory_points = {
+			2011 5
+		}		
+
+	}
+
+	provinces={
+	2008 2011
+	}
+	
+}

@@ -4,12 +4,15 @@ state={
 	name="STATE_679"
 
 	history={
-		owner = UAE
+		owner = SAU
+		victory_points = {
+			5037 5 
+		}
 		victory_points = {
 			12883 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			12883 = {
 				naval_base = 5
 
@@ -17,15 +20,14 @@ state={
 
 		}
 		add_core_of = SAU
-		add_core_of = UAE
+		add_core_of = HEJ
 
 	}
 
 	provinces={
-		1033 1923 2027 2033 2095 2872 5037 8073 8092 12101 12883 
+		2033 5037 12883 13337 13341
 	}
-	manpower=1511000
+	manpower=220000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-	local_supplies=0.000
 }

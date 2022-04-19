@@ -2,14 +2,11 @@
 state={
 	id=681
 	name="STATE_681"
-	resources={
-		gold=42.000
-	}
 
 	history={
 		owner = SAF
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			industrial_complex = 2
 			air_base = 1
 			12589 = {
@@ -26,10 +23,9 @@ state={
 	}
 
 	provinces={
-		4528 4822 10415 10442 10697 12419 12547 12589 12692 13382 13383 13384 13385 13386 13387 13388 13392 13393 
+		10415 12589 13383 
 	}
 	manpower=1637178
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
 }

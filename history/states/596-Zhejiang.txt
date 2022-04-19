@@ -3,7 +3,7 @@ state=
 	id=596
 	name="STATE_596"
 	manpower = 21230700
-	state_category = large_city
+	state_category = city
 	history=
 	{
 		owner = CHI
@@ -11,16 +11,16 @@ state=
 		add_core_of = PRC
 		
 		victory_points = { 
-			9974 1 
+			7191 5 
 		}
 		victory_points = { 
-			7191 1 
-		}
-		
+			1055 10 
+		}	
+		victory_points = { 
+			1168 15 
+		}			
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 6
-			arms_factory = 3
 
 			7191 = {
 				naval_base = 1
@@ -29,8 +29,6 @@ state=
 			}
 			9974 = {
 				naval_base = 3
-				coastal_bunker = 1
-				bunker = 1
 			}
 			1055 = {
 				naval_base = 3
@@ -43,7 +41,6 @@ state=
 			JAP = {
 				set_province_controller = 1055
 				set_province_controller = 1096
-				set_province_controller = 4042
 				set_province_controller = 7058
 				set_province_controller = 7191
 				set_province_controller = 9974
@@ -54,8 +51,6 @@ state=
 		}
 	}
 	provinces={
-		1055 1096 1168 1195 4013 4042 4099 7058 7086 7146 7174 7191 9944 9972 9974 10014 10058 10086 10101 11920 11947 11991 12059 13771 
+		1055 1096 1168 1195 4013 4099 7058 7086 7146 7174 7191 9944 9972 9974 10014 10058 10086 10101 11920 11947 11991 12059 
 	}
-
-	local_supplies=0.0 
 }

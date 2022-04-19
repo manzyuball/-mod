@@ -4,7 +4,8 @@ state={
 	name="STATE_759"
 
 	history={
-		owner = MON
+		owner = TUG
+		add_core_of = TUG
 		add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
@@ -12,14 +13,21 @@ state={
 			infrastructure = 1
 
 		}
+		victory_points = {
+			4973 2
+		}
+		1939.1.1 = {
+			owner = SIK
+			controller = SIK
+			remove_core_of = TUG
+		}
 
 	}
 
 	provinces={
-		1943 2074
+		1943 1970 4973 8112 10911 13290 
 	}
-	manpower=70000
+	manpower=408000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	local_supplies=0.000
 }

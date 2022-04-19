@@ -2,15 +2,13 @@
 state={
 	id=526
 	name="STATE_526"
-	manpower = 578000
-	
-	state_category = small_island
 
 	history={
 		owner = JAP
 		add_core_of = JAP
+		add_core_of = RYU
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 3
 			11932 = {
 				naval_base = 3
@@ -25,8 +23,9 @@ state={
 	}
 
 	provinces={
-		1123 7115 10124 11932 
+		10124 11932 
 	}
-
-	local_supplies=0.0 
+	manpower=577000
+	buildings_max_level_factor=1.000
+	state_category=small_island
 }

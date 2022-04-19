@@ -4,12 +4,16 @@ state={
 	name="STATE_760"
 
 	history={
-		owner = MON
-		add_core_of = MON
+		victory_points = {
+			4704 5
+		}
+		owner = SIK
+		add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
+		set_demilitarized_zone = yes #to show hami clique control w/o hami clique itself
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			arms_factory = 1
 
 		}
@@ -17,10 +21,9 @@ state={
 	}
 
 	provinces={
-		1698 1838 4704 4843 4947 7732 10839 12524 12598 12671 13897 
+		1838 4704 4843 12598 
 	}
 	manpower=700000
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.000
 }

@@ -1,0 +1,22 @@
+state = {
+    id=1968
+    name="STATE_1968"
+
+    history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = KBR
+        add_core_of = CIR
+		buildings = {
+			infrastructure = 3
+
+		}
+    }
+
+	provinces={
+		11614
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

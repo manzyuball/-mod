@@ -4,10 +4,9 @@ state={
 	name="STATE_454"
 
 	history={
-		owner = EGY
-		add_core_of = EGY
+		owner = ENG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			industrial_complex = 1
 			air_base = 2
 			4206 = {
@@ -17,10 +16,7 @@ state={
 
 		}
 		victory_points = {
-			1086 1 
-		}
-		victory_points = {
-			1065 1 
+			4206 9
 		}
 		add_core_of = PAL
 		add_core_of = ISR
@@ -28,10 +24,9 @@ state={
 	}
 
 	provinces={
-		1 1065 1086 7107 10731 13411
+		 1201 4206 13412
 	}
-	manpower=333142
+	manpower=393122
 	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	state_category=rural
 }

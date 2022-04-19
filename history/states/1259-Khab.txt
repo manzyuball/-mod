@@ -1,0 +1,31 @@
+state={
+	id=1259
+	name="STATE_1259"
+	
+ 	resources={
+		steel=3.000
+	}   
+	
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 2
+			13538 = {
+				naval_base = 1
+
+			}
+		}
+		victory_points = {
+			13538 1 
+		}			
+		add_core_of = NOR
+
+	}
+	
+	provinces={
+		13538 8988 8257 9012 8468 8645 8667 8283
+	}
+	manpower=1900
+	buildings_max_level_factor=2.000
+	state_category=pastoral
+}

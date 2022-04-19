@@ -2,9 +2,9 @@
 state={
 	id=150
 	name="STATE_150" # Savo
-	manpower = 611100
+	manpower = 580545
 	
-	state_category = city
+	state_category = town
 	
 	resources={
 		steel=3 # was: 4
@@ -12,15 +12,16 @@ state={
 	history={
 		owner = FIN
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 3
+			infrastructure = 4
+			industrial_complex = 1
 		}
 		add_core_of = FIN
+		victory_points = {
+			165 3 
+		}
 	}
 
 	provinces={
-		7 37 136 139 141 165 193 3013 3030 3068 3073 3115 3125 3131 3149 3185 6033 6047 6078 6134 6146 6156 6210 9056 9061 9104 9106 9163 9169 9181 9233 11024 11043 11076 11079 11141 11199 11210 
+		165 11043 3013 3131 6033 11076 11141 141 9104 3125 6078 11199 13112 13111 136 6047
 	}
-
-	local_supplies=0.0 
 }

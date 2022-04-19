@@ -1,0 +1,31 @@
+
+state={
+	id=1183
+	name="STATE_1183"
+
+	history={
+		owner = FRA
+		#victory_points = {
+		#	1346 1 
+		#}				
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = FRA
+		add_core_of = BGN
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+		1346 5506 
+	}
+	manpower=19100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

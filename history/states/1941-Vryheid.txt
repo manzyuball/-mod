@@ -1,0 +1,20 @@
+state={
+	id=1941
+	name="STATE_1941"
+	
+	history={
+		owner = SAF
+		add_core_of = SAF
+		add_core_of = TRV
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		8128 
+	}
+	manpower=718643
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -4,15 +4,18 @@ state={
 	name="STATE_621"
 
 	history={
-		owner = MON
-		add_core_of = MON
+		owner = SHX
 		add_core_of = SHX
 		add_core_of = CHI
 		add_core_of = PRC
+		add_claim_by = MEN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			industrial_complex = 1
 
+		}
+		victory_points = {
+			7631 2
 		}
 		1939.1.1 = {
 			remove_building = {
@@ -28,10 +31,9 @@ state={
 	}
 
 	provinces={
-		2087 10629 12331 12609 12880 13898 13899 
+		2087 4525 7631 10424 10629 12403 12609 12880 
 	}
-	manpower=1583700
+	manpower=1344799
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-	local_supplies=4.000
 }

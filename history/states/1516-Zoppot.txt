@@ -1,0 +1,39 @@
+
+state={
+	id=1516
+	name="STATE_1516"
+
+	history={
+		owner = DAN
+		victory_points = {
+			13912 5
+		}		
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+			13912 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = DAN
+		add_core_of = POL
+		1938.3.12 = {
+			add_claim_by = GER
+		}
+		1941.1.1 = {
+			add_core_of = GER
+			owner = GER
+			controller = GER
+		}
+
+	}
+
+	provinces={
+		 13912
+	}
+	manpower=74660
+	buildings_max_level_factor=1.000
+	state_category=city
+}

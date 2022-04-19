@@ -3,7 +3,7 @@ state={
 	id=687
 	name="STATE_687"
 	resources={
-		aluminium=64.000
+		aluminium=60.000
 	}
 
 	history={
@@ -13,7 +13,7 @@ state={
 			4982 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			4982 = {
 				naval_base = 1
 
@@ -24,10 +24,9 @@ state={
 	}
 
 	provinces={
-		3993 4982 10954 12716 
+		4982 3993
 	}
-	manpower=309000
+	manpower=202279
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-	local_supplies=5.000
 }

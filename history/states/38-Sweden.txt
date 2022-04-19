@@ -8,14 +8,22 @@ state={
 
 	history={
 		owner = SWE
+		victory_points = {
+			6132 3 
+		}
+		victory_points = {
+			3138 1 
+		}
+		victory_points = {
+			11120 1
+		}
+		victory_points = {
+			3100 1
+		}		
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 5
+			infrastructure = 4
+			industrial_complex = 1
 			air_base = 3
-			130 = {
-				naval_base = 1
-
-			}
 
 		}
 		add_core_of = SWE
@@ -23,10 +31,9 @@ state={
 	}
 
 	provinces={
-		46 113 125 130 168 184 202 205 3005 3039 3108 3111 3162 3191 6010 6023 6063 6067 6123 6126 6129 6147 6185 6207 9035 9051 9066 9068 9088 9141 9148 9151 9154 9171 9173 9229 11040 11049 11052 11053 11116 11120 11123 11129 11148 11185 11187 11209 
+		11 109 118 145 182 184 3003 3044 3062 3100 3113 3138 3173 6024 6063 6067 6083 6132 6152 6161 6200 9088 9093 9095 9134 9143 9175 9211 9220 11026 11058 11067 11069 11112 11120 11152 11185 11190 11201 
 	}
-	manpower=631955
+	manpower=311455
 	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	state_category=town
 }

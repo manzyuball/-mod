@@ -1,0 +1,23 @@
+
+state={
+	id=1635
+	name="STATE_1635"
+	manpower = 412
+	
+	state_category = rural
+	
+	history={
+		owner = USA
+		#victory_points = {
+		#	13951 1
+		#}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		13951
+	}
+}

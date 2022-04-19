@@ -9,10 +9,10 @@ state=
 	{
 		owner = JAP
 		add_core_of = CHI
-		add_core_of = JAP
 		add_core_of = PRC
+		add_core_of = FOR
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5
 			arms_factory = 1
 			air_base = 6
 			12068 = {
@@ -30,6 +30,4 @@ state=
 	provinces={
 		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068
 		}
-
-	local_supplies=0.0 
 }

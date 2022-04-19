@@ -1,0 +1,31 @@
+state={
+	id=1913
+	name="STATE_1913"
+	
+	history={
+		owner = INS
+		add_core_of = INS
+		add_core_of = SSI
+		victory_points = {
+			4652 1 
+		}
+		buildings = {
+			infrastructure = 3
+			4652 = {
+				naval_base = 3
+
+			}
+			1648 = {
+				naval_base = 1
+
+			}
+		}
+	}
+	
+	provinces={
+		1277 1648 4652 7327 7463 7673 10209 10225 12168 12181 12184 12302 12343 
+	}
+	manpower=1318832
+	buildings_max_level_factor=1.000
+	state_category=town
+}

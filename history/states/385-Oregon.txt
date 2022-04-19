@@ -2,31 +2,27 @@
 state={
 	id=385
 	name="STATE_385"
-	resources={
-		gold=21.000
-	}
+	manpower = 197531
+	
+	state_category = rural
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-
+			infrastructure = 4
+			air_base = 6
+			12281 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = USA
-		add_core_of = USB
-		add_core_of = CSA
 		victory_points = {
-			3513 1 
+			12281 1 
 		}
 
 	}
 
 	provinces={
-		1414 3471 3513 4274 4328 4347 4826 7398 7721 7865 10151 10305 10625 12183 12553 13658 
+	 528 4274 7398 11495 12281 10151 4347 1414 
 	}
-	manpower=353785
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
 }

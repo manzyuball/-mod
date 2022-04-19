@@ -1,0 +1,30 @@
+
+state={
+	id=1336
+	name="STATE_1336"
+
+	history={
+		owner = TNG
+		add_core_of = MOR
+		add_core_of = TNG
+		buildings = {
+			infrastructure = 4
+
+		}
+		set_demilitarized_zone = yes
+		1941.1.1 = {
+			set_demilitarized_zone = no
+			owner = SPR
+			controller = SPR
+
+		}
+
+	}
+
+	provinces={
+		10113 
+	}
+	manpower=11986
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

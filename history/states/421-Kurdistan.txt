@@ -6,13 +6,10 @@ state={
 	history={
 		owner = PER
 		victory_points = {
-			4943 5 
-		}
-		victory_points = {
-			5098 3 
+			12773 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 
 		}
 		add_core_of = PER
@@ -21,10 +18,9 @@ state={
 	}
 
 	provinces={
-		829 4943 5050 5098 9816 12773 13512 13513 
+		4943 5098 9816 12773 
 	}
-	manpower=780278
+	manpower=456278
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.000
 }

@@ -9,17 +9,13 @@ state={
 			6558 10 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			industrial_complex = 1
-			11232 = {
+			6558 = {
 				bunker = 1
 
 			}
 			9532 = {
-				bunker = 1
-
-			}
-			3381 = {
 				bunker = 1
 
 			}
@@ -31,14 +27,18 @@ state={
 			add_claim_by = GER
 
 		}
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
 
 	}
 
 	provinces={
-		17 243 6558 8312 9532 11232 11558 13588 
+	 17 6558 9532 11558
 	}
-	manpower=2106500
+	manpower=412563
 	buildings_max_level_factor=1.000
 	state_category=city
-	local_supplies=0.000
 }

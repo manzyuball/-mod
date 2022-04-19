@@ -1,25 +1,25 @@
-state = {
-	id = 644
-	name = "STATE_644"
 
-	history = {
-		owner = VLA
+state={
+	id=644
+	name="STATE_644"
+
+	history={
+		owner = SOV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
+
 		}
 		add_core_of = SOV
-		add_core_of = VLA
 		add_core_of = YAK
+		add_core_of = SIB
 
 	}
 
-	provinces = {
-		1722 1745 1819 2853 2877 3184 4006 4229 4455 4878 6085 6211 12549 12592 12634 13060 13061
+	provinces={
+		1819 4006 4229 4455 4744 5264 12592 12634 13061 13062 13063 13204 13542 13544 
 	}
-	manpower = 34182
-	buildings_max_level_factor = 1
-	state_category = wasteland
+	manpower=41148
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 	impassable = yes
-
-	local_supplies = 0.0 
 }

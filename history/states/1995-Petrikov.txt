@@ -1,0 +1,22 @@
+
+state={
+	id=1995
+	name="STATE_1995"
+	manpower = 78526
+	
+	state_category = rural
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		add_core_of = SOV
+		add_core_of = BLR
+	}
+
+	provinces={
+	 9554 215 3293
+	}
+}

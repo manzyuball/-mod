@@ -1,0 +1,31 @@
+
+state={
+	id=1441
+	name="STATE_1441"
+
+	history={
+		#victory_points = {
+		#	6359 1 
+		#}
+		owner = POL
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = POL
+		add_core_of = BLR
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
+
+		}
+
+	}
+
+	provinces={
+		6359 
+	}
+	manpower=21125 
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

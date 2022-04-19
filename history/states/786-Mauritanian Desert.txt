@@ -4,8 +4,8 @@ state={
 	name="STATE_786"
 
 	history={
-		owner = GNA
-		add_core_of = GNA
+		owner = FRA
+		add_core_of = MRT
 		buildings = {
 			infrastructure = 0
 
@@ -14,11 +14,9 @@ state={
 	}
 
 	provinces={
-		1962 7943 8035 10771 10779 10838 13359 13360 13361 
+		8035 10779 10838 
 	}
-	manpower=124200
+	manpower=104200
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	impassable = yes
-	local_supplies=0.000
 }

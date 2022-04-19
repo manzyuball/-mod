@@ -1,0 +1,25 @@
+state={
+	id=1930
+	name="STATE_1930"
+	
+	history={
+		owner = INS
+		add_core_of = INS
+		add_core_of = SML
+		add_core_of = GEA
+		buildings = {
+			infrastructure = 3
+			1574 = {
+				naval_base = 1
+
+			}
+		}
+	}
+	
+	provinces={
+		1574 7557 10409 
+	}
+	manpower=353251
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,18 +1,16 @@
-# Adjacency rules determine if an army, navy or trade can pass through the adjacency (e.g. a canal or strait).
-#
-# If two countries at war control provinces in the adjacency it is considered contested.
-# The optional triggers is_enemy, is_friend and is_neutral are evaluated in order and if one evaluates to true the corresponding rule is used.
-# If is_enemy and is_friend evaluates to false the neutral rule is used. In this case the is_neutral trigger will not be evaluated at all.
-# If is_friend and is_neutral evaluates to false the enemy rule is used.
-# If is_enemy and is_neutral evaluates to false the friend rule is used.
-# If any adjacency province controller is at war with the country the enemy rule is used, unless is_enemy evaluates to false, then the neutral rule is used.
-# If any adjacency province controller is an ally of is giving military access to the country the friend rule is used, unless is_friend evaluates to false, then the neutral rule is used.
-# Otherwise the neutral rule is used, unless is_neutral evaluates to false, then the enemy rule is used.
-#
-# The 'name' property is how you refer to the rule in adjacencies.csv
+#Adjacency rules are special rules for adjacencies
+#If smbd who is at war fights over canal/strait it is considered closed
+#Enemy status is considered if any of sides controlling the chanel is at war with country
+#Friend status is considered non of sides controlling the chanel is at war with country and one of controllers is ally of giving military access
+#Every one else is considered as neutral according to canal/strait
+#Military access considered as being friend
+#Rules needs linking from the straits that are affected by the rule ( adjacency_rule_id )
+
+#Name is how you refer to the rule in adjecencies.csv
 
 #Suez Canal
-adjacency_rule = {
+adjacency_rule
+{
 	name = "SUEZ_CANAL"
 
 	contested =
@@ -59,7 +57,8 @@ adjacency_rule = {
 }
 
 #Gibraltar Strait
-adjacency_rule = {
+adjacency_rule
+{
 	name = "GIBRALTAR_STRAIT"
 
 	contested =
@@ -98,7 +97,8 @@ adjacency_rule = {
 }
 
 #Øresund - (Østersøen <-> Kattegat/Skagerak/Nordsøen)
-adjacency_rule = {
+adjacency_rule
+{
 	name = "DANISH_BELTS_STRAIT"
 
 	contested =
@@ -137,7 +137,8 @@ adjacency_rule = {
 }
 
 #Panama Canal
-adjacency_rule = {
+adjacency_rule
+{
 	name = "PANAMA_CANAL"
 
 	contested =
@@ -184,7 +185,8 @@ adjacency_rule = {
 }
 
 #Turkish Straits
-adjacency_rule = {
+adjacency_rule
+{
 	name = "BOSPHORUS_STRAIT"
 
 	contested =
@@ -221,8 +223,9 @@ adjacency_rule = {
 	icon = 9833
 	offset = { -2 0 -9 }
 }
-#DARDANELLES_STRAIT
-adjacency_rule = {
+
+adjacency_rule
+{
 	name = "DARDANELLES_STRAIT"
 
 	contested =
@@ -262,7 +265,8 @@ adjacency_rule = {
 	
 	
 #Kiel Canal
-adjacency_rule = {
+adjacency_rule
+{
 	name = "KIEL_CANAL"
 
 	contested =
@@ -301,7 +305,8 @@ adjacency_rule = {
 }
 
 #Golden Gate Bridge
-adjacency_rule = {
+adjacency_rule
+{
 	name = "GOLDEN_GATE_BRIDGE"
 
 	contested =
@@ -347,7 +352,8 @@ adjacency_rule = {
 }
 
 #Saint Lawrence
-adjacency_rule = {
+adjacency_rule
+{
 	name = "LAWRENCE_STRAIT"
 
 	contested =
@@ -385,7 +391,8 @@ adjacency_rule = {
 	offset = { -3 0 1 }
 }
 #Welland Canal
-adjacency_rule = {
+adjacency_rule
+{
 	name = "WELLAND_CANAL"
 
 	contested =
@@ -423,7 +430,8 @@ adjacency_rule = {
 	offset = { -3 0 1 }
 }
 #Detroit River
-adjacency_rule = {
+adjacency_rule
+{
 	name = "DETROIT_RIVER"
 
 	contested =
@@ -461,7 +469,8 @@ adjacency_rule = {
 	offset = { -3 0 1 }
 }
 #St Clair River
-adjacency_rule = {
+adjacency_rule
+{
 	name = "STCLAIR_RIVER"
 
 	contested =
@@ -499,7 +508,8 @@ adjacency_rule = {
 	offset = { -3 0 1 }
 }
 #St Mary's River
-adjacency_rule = {
+adjacency_rule
+{
 	name = "STMARY_RIVER"
 
 	contested =
@@ -537,7 +547,8 @@ adjacency_rule = {
 	offset = { -3 0 1 }
 }
 #Bab-Al-Mandeb
-adjacency_rule = {
+adjacency_rule
+{
 	name = "YEMEN_DJIBOUTI_STRAIT"
 
 	contested =
@@ -575,7 +586,8 @@ adjacency_rule = {
 	offset = { -9 -55 -2 }
 }
 #Straits of Messina
-adjacency_rule = {
+adjacency_rule
+{
 	name = "MESSINA_STRAIT"
 
 	contested =
@@ -613,7 +625,8 @@ adjacency_rule = {
 	offset = { -3 0 1 }
 }
 #Strait of Hormuz
-adjacency_rule = {
+adjacency_rule
+{
 	name = "HORMUZ_STRAIT"
 
 	contested =
@@ -650,4 +663,3 @@ adjacency_rule = {
 	icon = 8030
 	offset = { 2 0 12 }
 }
-

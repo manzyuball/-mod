@@ -1,0 +1,29 @@
+
+state={
+	id=1842
+	name="STATE_1842"
+	resources={
+		aluminium=20.000
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			958 10
+		}		
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+		}
+		add_core_of = FRA
+		add_core_of = OCC
+
+	}
+
+	provinces={
+		958 11875
+	}
+	manpower=671403
+	buildings_max_level_factor=1.000
+	state_category=town
+}

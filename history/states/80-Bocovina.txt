@@ -12,15 +12,19 @@ state={
 		}
 		owner = ROM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			arms_factory = 1
 		}
 		add_core_of = ROM
-		add_claim_by = UKR
+		add_core_of = UKR
+		add_core_of = BUK
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
+
+		}
 	}
 	provinces={
 		577 9548
 	}
-
-	local_supplies=0.0 
 }

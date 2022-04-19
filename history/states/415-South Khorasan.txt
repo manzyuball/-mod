@@ -6,21 +6,20 @@ state={
 	history={
 		owner = AFG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
 		}
 		victory_points = {
-			4893 1 
+			12871 10 
 		}
 		add_core_of = AFG
 
 	}
 
 	provinces={
-		1948 1995 2017 2062 2078 4893 8053 12788 12871 
+		1948 1995 2017 2062 2078 8053 12788 12871 
 	}
-	manpower=1632860
+	manpower=1222660
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.000
 }

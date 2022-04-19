@@ -9,18 +9,17 @@ state=
 		owner = ENG
 		victory_points = { 4135 10 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 8
 			air_base = 2
 			4135 = {
 				naval_base = 5
 				coastal_bunker = 2
 			}
 		}
-		add_claim_by = SPR
+		add_core_of = SPR
+		add_core_of = ADU
 	}
 	provinces={
 		4135
 	}
-
-	local_supplies=0.0 
 }

@@ -1,0 +1,33 @@
+state={
+	id=1555
+	name="STATE_1555"
+
+	history={
+		#victory_points = {
+		#	513 2
+		#}
+		victory_points = {
+			572 5
+		}		
+		owner = POL
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = POL
+		add_core_of = UKR
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
+
+		}
+
+	}
+
+	provinces={
+		474 513 572 3412
+	}
+	manpower=790521 
+	buildings_max_level_factor=1.000
+	state_category=town
+}

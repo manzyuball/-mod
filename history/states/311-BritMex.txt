@@ -1,31 +1,24 @@
-
-state={
+state=
+{
 	id=311
 	name="STATE_311"
-
-	history={
-		add_core_of = HON
-		add_core_of = GUA
-		owner = HON
+	manpower = 28845
+	
+	state_category = pastoral
+	history=
+	{
+		add_core_of = BLZ
+		add_claim_by = GUA
+		owner = ENG
 		victory_points = {
 			2077 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			2077 = {
 				naval_base = 1
-
 			}
-
 		}
-
 	}
-
-	provinces={
-		2077 8744 
-	}
-	manpower=51000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	provinces= { 2077 }
 }

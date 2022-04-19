@@ -6,12 +6,11 @@ state={
 	state_category = enclave
 	
 	history={
-		owner = JAP
+		owner = FRA
 		add_core_of = CHI
 		add_core_of = PRC
-		add_core_of = JAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			11981 = {
 				naval_base = 1
 			}
@@ -21,6 +20,4 @@ state={
 	provinces={
 		11981 
 	}
-
-	local_supplies=0.0 
 }

@@ -8,13 +8,12 @@ state={
 	
 	resources={
 		oil=9
-		COCA=41
 	}
 
 	history={
 		owner = MEX
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			dockyard = 1
 			12810 = {
 				naval_base = 3
@@ -33,6 +32,4 @@ state={
 		8079 8089 10732 12810 
 	}
 	
-
-	local_supplies=0.0 
 }

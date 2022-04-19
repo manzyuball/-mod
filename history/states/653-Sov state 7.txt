@@ -2,23 +2,27 @@
 state={
 	id=653
 	name="STATE_653" # Sverdlovsk
-	manpower = 2161650
+	manpower = 2030400
 	
-	state_category = metropolis
+	state_category = city
 
 	history={
 		owner = SOV
 		victory_points = {
 			1821 5
 		}
+		victory_points = {
+			9292 5
+		}		
 		buildings = {
-			infrastructure = 3 #was: 6
-			arms_factory = 4
-			industrial_complex = 9
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 1
 			air_base = 1
 
 		}
 		add_core_of = SOV
+		add_core_of = SIB
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 3
@@ -27,8 +31,6 @@ state={
 	}
 
 	provinces={
-		307 1543 1704 1750 1771 1808 1821 1841 4813 7228 7778 9553 10133 10189 10648 10716 10720 12102 12567 12696 
+		 12287 1233 12157 10213 9292 7285 12584 1821 10133 
 	}
-
-	local_supplies=0.0 
-}
+} 

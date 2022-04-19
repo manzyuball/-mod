@@ -1,0 +1,29 @@
+
+state={
+	id=1595
+	name="STATE_1595"
+
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = GRE
+		add_core_of = THR
+		add_claim_by = BUL
+		1941.1.1 = {
+			owner = BUL
+			controller = BUL
+
+		}
+
+	}
+
+	provinces={
+		9791
+	}
+	manpower=9010
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1571
+	name="STATE_1571"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+		add_core_of = CRI
+
+	}
+
+	provinces={
+		705 3722 6724 9718 11649 
+	}
+	manpower=230932
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

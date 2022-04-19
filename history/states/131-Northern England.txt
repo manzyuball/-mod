@@ -13,15 +13,14 @@ state={
 			351 10 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
+			infrastructure = 6
+			industrial_complex = 1
 			dockyard = 4
-			air_base = 2
+			air_base = 6
 			351 = {
 				naval_base = 6
 
 			}
-
 
 		}
 		add_core_of = ENG
@@ -37,10 +36,9 @@ state={
 	}
 
 	provinces={
-		351 11270 11299 13625
+		351 11270 11299 13625 
 	}
-	manpower=1128860
+	manpower=2128860
 	buildings_max_level_factor=1.000
 	state_category=city
-	local_supplies=14.000
 }

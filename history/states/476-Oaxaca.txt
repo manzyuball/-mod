@@ -2,18 +2,18 @@
 state={
 	id=476
 	name="STATE_476"
-	manpower = 1663331
+	manpower = 931319
 	
-	state_category = rural
+	state_category = large_town
 
 	resources={
-		oil=8
+		oil=6
 	}
 	
 	history={
 		owner = MEX
 		buildings = {
-			infrastructure = 2
+			infrastructure = 7
 			air_base = 2
 			10889 = {
 				naval_base = 2
@@ -29,9 +29,7 @@ state={
 	}
 
 	provinces={
-		2021 8236 10773 10889 12712 
+		2021 10889
 	}
 	
-
-	local_supplies=8.0 
 }

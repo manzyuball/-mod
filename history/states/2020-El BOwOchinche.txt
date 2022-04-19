@@ -1,0 +1,21 @@
+
+state={
+	id=2020
+	name="STATE_2020"
+	manpower = 2329
+	
+	state_category = pastoral
+
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = VEN	
+	}
+
+	provinces={
+		8491 
+	}
+}

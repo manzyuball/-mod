@@ -2,7 +2,7 @@
 state={
 	id=62
 	name="STATE_62"
-	manpower = 1006221
+	manpower = 534080
 	
 	
 	state_category = town
@@ -13,10 +13,11 @@ state={
 		}
 		owner = GER
 		buildings = {
-			infrastructure = 3
+			infrastructure = 8
 			fuel_silo = 1
 		}
 		add_core_of = GER
+		add_core_of = PRE
 
 		1939.1.1 = {
 			buildings = {
@@ -26,8 +27,6 @@ state={
 	}
 
 	provinces={
-		349 3207 3258 3312 3340 9388 13907
+		 3340 9388
 	}
-
-	local_supplies=3.0 
 }

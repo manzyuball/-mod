@@ -1,0 +1,32 @@
+state = {
+    id=1523
+    name="STATE_1523"
+
+    history={
+        owner = MEN
+        add_core_of = MEN
+        add_claim_by = SHX
+        add_core_of = CHI
+        add_core_of = PRC
+        victory_points = {
+            7048 1
+        }
+        buildings = {
+            infrastructure = 2
+
+        }
+        1939.1.1 = {
+            owner = PRC
+            controller = MEN
+
+        }
+
+    }
+
+    provinces={
+        7048 12331
+    }
+    manpower=237555
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

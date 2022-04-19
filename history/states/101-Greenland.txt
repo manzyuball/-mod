@@ -5,19 +5,25 @@ state={
 
 	history={
 		owner = DEN
+		victory_points = {
+			10245 1 
+		}
 		buildings = {
 			infrastructure = 1
+			12512 = {
+				naval_base = 1
+
+			}
 
 		}
-		add_core_of = DEN
+		add_core_of = GRL
 
 	}
 
 	provinces={
-		13058 13326 
+		13574 10245 10636 12512 13066 13326
 	}
 	manpower=18000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	local_supplies=0.000
 }

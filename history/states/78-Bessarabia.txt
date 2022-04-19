@@ -1,26 +1,32 @@
-state=
-{
+
+state={
 	id=78
 	name="STATE_78"
-	manpower = 2296800
-	
-	state_category = town
-	
-	history= {
+
+	history={
 		add_core_of = MOL
 		owner = ROM
 		victory_points = {
-			3707 1
+			6600 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			air_base = 2
+
 		}
 		add_core_of = ROM
-	}
-	provinces=
-	{
-414 565 3407 3577 3707 3724 6600 9683 11686 11705 	}
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
 
-	local_supplies=4.0 
+		}
+
+	}
+
+	provinces={
+		414 565 3577 6600 9683 11686 11705 
+	}
+	manpower=1750956
+	buildings_max_level_factor=1.000
+	state_category=town
 }

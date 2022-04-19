@@ -7,13 +7,14 @@ state={
 	
 	history={
 		owner = POR
+		add_core_of = MCU
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
 			4189 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			4189 = {
 				naval_base = 1
 			}
@@ -23,6 +24,4 @@ state={
 	provinces={
 		4189 
 	}
-
-	local_supplies=0.0 
 }

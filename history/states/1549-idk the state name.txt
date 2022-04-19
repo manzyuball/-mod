@@ -1,0 +1,29 @@
+
+state={
+    id=1549
+    name="STATE_1549"
+
+    history = {
+		owner = GRE
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = GRE
+		add_core_of = THR		
+		add_claim_by = BUL
+		1941.1.1 = {
+			owner = BUL
+			controller = BUL
+
+		}
+
+    }
+
+    provinces={
+        13317
+    }
+    manpower=4920
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

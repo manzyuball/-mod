@@ -7,14 +7,18 @@ state={
 	state_category = large_town
 
 	history={
-		owner = VLA
-		add_core_of = SOV
-		add_core_of = VLA
+		owner = SOV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = ALT #Could be a claim too
+		add_core_of = SOV
+		add_core_of = SIB
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
 		victory_points = {
 			1794 1
 		}
@@ -23,6 +27,4 @@ state={
 	provinces={
 		1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 
 	}
-
-	local_supplies=5.0 
 }

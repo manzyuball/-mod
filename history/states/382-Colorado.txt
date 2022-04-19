@@ -4,30 +4,24 @@ state={
 	name="STATE_382"
 	resources={
 		oil=14.000
-		bronze=31.000
 	}
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-
+			infrastructure = 3
+		}
+		victory_points = {
+			6887 1 
 		}
 		add_core_of = USA
-		add_core_of = USB
-		add_core_of = CSA
-		victory_points = {
-			1827 5 
-		}
 
 	}
 
 	provinces={
-		868 1658 1738 1809 1827 3869 6887 7684 7780 7999 9792 10535 10588 11772 12570 12627 12642 13238 13946 13947 13948 13949 13950 
+		6887 7684 7999 9792 10535 
 	}
-	manpower=1035790
+	manpower=413050
 	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=8.000
+	state_category=rural
 }

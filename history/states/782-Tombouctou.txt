@@ -8,8 +8,8 @@ state={
 	impassable = yes
 
 	history={
-		owner = GNA
-		add_core_of = GNA
+		owner = FRA
+		add_core_of = MLI
 		buildings = {
 			infrastructure = 0
 		}
@@ -19,6 +19,4 @@ state={
 	provinces={
 		1115 2068 10725 10868
 	}
-
-	local_supplies=0.0 
 }

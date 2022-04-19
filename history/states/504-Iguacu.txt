@@ -8,7 +8,7 @@ state={
 	history={
 		owner = BRA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
 		}
 		add_core_of = BRA
@@ -16,10 +16,8 @@ state={
 	}
 
 	provinces={
-		2111 2142 2181 5200 8189 8224 10959 12951 
+	 2181 8189 10959 12951 
 	}
 	manpower=229900
 	buildings_max_level_factor=1.000
-
-	local_supplies=0.0 
 }

@@ -1,32 +1,30 @@
-
 state={
 	id=762
 	name="STATE_762"
-	resources={
-		steel=19.000
-		aluminium=7.000
+	provinces={
+		506 6464
 	}
-
+	manpower=1295027 
+	resources={
+		steel=29 # was: 60
+		aluminium=14 # was: 20
+	}
+	state_category = city
 	history={
 		victory_points = {
-			6464 5 
+			6464 5
 		}
 		owner = POL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			industrial_complex = 1
-
 		}
 		add_core_of = POL
 		add_core_of = SIL
+		1941.1.1 = {
+			owner = GER
+			controller = GER
 
+		}
 	}
-
-	provinces={
-		506 6464 9551 13314 13879 
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
 }

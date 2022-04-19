@@ -1,0 +1,31 @@
+state={
+	id=1590
+	name="STATE_1590"
+
+	history={
+	#victory_points = {
+	#	422 1 
+	#}	
+		owner = POL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = POL
+		add_core_of = UKR
+		add_core_of = GAL			
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
+
+		}
+
+	}
+
+	provinces={
+		422 
+	}
+	manpower=12924 
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

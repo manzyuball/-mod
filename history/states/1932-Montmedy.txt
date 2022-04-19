@@ -1,0 +1,31 @@
+
+state={
+	id=1932
+	name="STATE_1932"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 5
+			8362 = {
+				bunker = 5
+			}
+
+		}
+		add_core_of = FRA
+		add_core_of = BGN
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+		8362 
+	}
+	manpower=27679
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

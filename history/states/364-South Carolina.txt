@@ -4,12 +4,12 @@ state={
 	name="STATE_364"
 	manpower = 1738764
 	
-	state_category = large_city
+	state_category = city
 
 	history={
-		owner = CSA
+		owner = USA
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5
 			industrial_complex = 2
 			7202 = {
 				naval_base = 2
@@ -17,10 +17,11 @@ state={
 			}
 		}
 		add_core_of = USA
-		add_core_of = CSA
-		add_core_of = USB
 		victory_points = {
 			7202 1 
+		}
+		victory_points = {
+			7012 3 
 		}
 
 	}
@@ -28,6 +29,4 @@ state={
 	provinces={
 		1485 1547 3994 4491 4653 7012 7134 7202 7527 10029 10047 11927 
 	}
-
-	local_supplies=0.0 
 }

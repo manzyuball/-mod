@@ -1,0 +1,29 @@
+state={
+	id=2018
+	name="STATE_2018"
+
+	history={
+		owner = FRA
+		victory_points = {
+			6688 3 
+		}
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = FRA
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+		6688 667 9625
+	}
+	manpower=215932
+	buildings_max_level_factor=1.000
+	state_category=town
+}

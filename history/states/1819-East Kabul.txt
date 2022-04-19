@@ -1,0 +1,30 @@
+
+state={
+	id=1819
+	name="STATE_1819"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			13976 5 
+		}
+		add_core_of = AFG
+
+	}
+
+	provinces={
+		13976 13978 13979
+	}
+	manpower=2865120
+	buildings_max_level_factor=1.000
+	state_category=town
+}

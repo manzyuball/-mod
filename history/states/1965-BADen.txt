@@ -1,0 +1,33 @@
+state={
+	id=1965
+	name="STATE_1965"
+
+	history={
+		owner = GER
+		#victory_points = {
+		#	3530 5 
+		#}
+		victory_points = {
+			3692 10 
+		}
+		buildings = {
+			infrastructure = 8
+
+		}
+		add_core_of = GER
+		add_core_of = BDN
+		set_demilitarized_zone = yes
+		1936.3.7 = {
+			set_demilitarized_zone = no
+
+		}
+
+	}
+
+	provinces={
+		3530 3692
+	}
+	manpower=613801
+	buildings_max_level_factor=1.000
+	state_category=town
+}

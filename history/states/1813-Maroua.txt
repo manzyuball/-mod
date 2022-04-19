@@ -1,0 +1,25 @@
+
+state={
+	id=1813
+	name="STATE_1813"
+	manpower = 127920
+	
+	state_category = pastoral
+
+	history={
+		victory_points = {
+			7963 1
+		}		
+		owner = FRA
+		add_core_of = CMR
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+
+	}
+
+	provinces={
+		7963 
+	}
+}

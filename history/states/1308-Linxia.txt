@@ -1,0 +1,30 @@
+
+state={
+	id=1308
+	name="STATE_1308"
+
+	history={
+		owner = NEA
+		add_core_of = NEA
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		1939.1.1 = {
+			owner = CHI
+			controller = CHI
+
+		}
+
+	}
+
+	provinces={
+		531 5193 7397 7911 12797 12882 
+	}
+	manpower=420000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

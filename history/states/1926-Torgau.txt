@@ -1,0 +1,25 @@
+state={
+	id=1926
+	name="STATE_1926"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11545 2 
+		}
+		add_core_of = GER
+		add_core_of = PRE
+	}
+
+	provinces={
+		11545 
+	}
+	manpower=297653
+	buildings_max_level_factor=1.000
+	state_category=town
+}

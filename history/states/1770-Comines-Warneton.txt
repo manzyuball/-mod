@@ -1,0 +1,30 @@
+
+state={
+    id=1770
+    name="STATE_1770"
+
+    history = {
+        owner = BEL
+		victory_points = {
+			13964 1 
+		}
+        buildings = {
+            infrastructure = 4
+        }
+		add_core_of = BEL
+		add_core_of = WLL
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+    }
+
+    provinces={
+        13964
+    }
+    manpower=5792
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

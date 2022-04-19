@@ -1,0 +1,25 @@
+
+state={
+	id=1840
+	name="STATE_1840"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = SOV
+		add_core_of = YAK
+		add_core_of = SIB
+
+	}
+
+	provinces={
+		12549 6211 4878 1745 2877 3184 1722 2853 
+	}
+	manpower=27216
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}
