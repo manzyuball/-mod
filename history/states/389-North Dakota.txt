@@ -10,11 +10,12 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = USB
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
+		add_core_of = USN
 		add_core_of = USA
 		add_core_of = USB
 		add_core_of = CSA

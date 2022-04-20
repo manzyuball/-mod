@@ -13,6 +13,7 @@ state= {
 			9347 20
 		}
 		owner = GER
+		add_core_of = LAT
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2

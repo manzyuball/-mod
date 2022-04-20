@@ -77,6 +77,9 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			hidden_effect = {
+				set_global_flag = us_naisenn
+			}
 		}
 	}
 	focus = {

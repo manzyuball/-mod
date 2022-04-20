@@ -101,7 +101,7 @@ if = {
 
 recruit_character = ARG_agustín_pedro_justo
 recruit_character = ARG_nimo_de_anquín
-recruit_character = ARG_marcelo_t_de_alvear
+recruit_character = ARG_aasasa
 recruit_character = ARG_fanny_edelman
 recruit_character = ARG_arturo_rawson
 recruit_character = ARG_juan_pistarini

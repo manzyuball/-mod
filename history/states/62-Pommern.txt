@@ -12,6 +12,7 @@ state={
 			9388 1
 		}
 		owner = GER
+		add_core_of = LAT
 		buildings = {
 			infrastructure = 3
 			fuel_silo = 1

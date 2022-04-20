@@ -10,6 +10,7 @@ state={
 
 	owner = GER
 	add_core_of = GER
+	add_core_of = LAT
 		victory_points = {
 			6521 45
 		}

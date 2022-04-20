@@ -172,7 +172,7 @@ music = {
 	}	
 }
 music = {
-	song = "Le Chant du depart"
+	song = "Le chant du départ"
 	
 	chance = {
 		modifier = {

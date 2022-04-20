@@ -11,7 +11,8 @@ state={
 	state_category = town
 
 	history={
-		owner = USA
+		owner = USN
+		add_core_of = USN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

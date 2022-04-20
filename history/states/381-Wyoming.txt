@@ -6,7 +6,8 @@ state={
 	state_category = rural
 	
 	history={
-		owner = USA
+		owner = USN
+		add_core_of = USN
 		buildings = {
 			infrastructure = 2
 		}

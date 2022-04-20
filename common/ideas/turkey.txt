@@ -15,10 +15,9 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-			stability_factor = -1
-			stability_weekly = -0.8
-			political_power_factor = -0.5
-			research_time_factor = 0.35
+			stability_factor = -0.85
+			political_power_factor = -0.25
+			research_time_factor = 0.2
 			production_speed_buildings_factor = -0.25
 			industrial_capacity_factory = -0.25
 		}
@@ -45,6 +44,191 @@ ideas = {
 			economy_cost_factor = 0.5
 		}
 	}
+	hurui1 = { #借金
+		
+	allowed = {
+		always = no
+	}
+
+	picture = EST_exploit_the_banks
+
+	removal_cost = -1
+	
+	modifier = {
+		JAP = {
+			targeted_modifier = { tag = TUR trade_cost_for_target_factor = -0.85 }
+		}
+		ENG = {
+			targeted_modifier = { tag = TUR trade_cost_for_target_factor = -0.85 }
+		}
+		consumer_goods_factor = 0.6
+		trade_laws_cost_factor = 0.5
+		economy_cost_factor = 0.5
+	}
+}
+hurui2 = { #借金
+		
+allowed = {
+	always = no
+}
+
+picture = EST_exploit_the_banks
+
+removal_cost = -1
+
+modifier = {
+	JAP = {
+		targeted_modifier = { tag = TUR trade_cost_for_target_factor = -0.85 }
+	}
+	ENG = {
+		targeted_modifier = { tag = TUR trade_cost_for_target_factor = -0.85 }
+	}
+	consumer_goods_factor = 0.5
+	trade_laws_cost_factor = 0.5
+	economy_cost_factor = 0.5
+}
+}
+hurui3 = { #借金
+		
+allowed = {
+	always = no
+}
+
+picture = EST_exploit_the_banks
+
+removal_cost = -1
+
+modifier = {
+	JAP = {
+		targeted_modifier = { tag = TUR trade_cost_for_target_factor = -0.85 }
+	}
+	ENG = {
+		targeted_modifier = { tag = TUR trade_cost_for_target_factor = -0.85 }
+	}
+	consumer_goods_factor = 0.4
+	trade_laws_cost_factor = 0.5
+	economy_cost_factor = 0.5
+}
+}
+	rengou1 = { #借金
+		
+	allowed = {
+		always = no
+	}
+
+	picture = EST_exploit_the_banks
+
+	removal_cost = -1
+	
+	modifier = {
+		JAP = {
+			targeted_modifier = { tag = TUR trade_cost_for_target_factor = -0.85 }
+		}
+		ENG = {
+			targeted_modifier = { tag = TUR trade_cost_for_target_factor = -0.85 }
+		}
+		consumer_goods_factor = 0.8
+		trade_laws_cost_factor = 0.5
+		economy_cost_factor = 0.5
+	}
+}
+rengou2 = { #借金
+		
+allowed = {
+	always = no
+}
+
+picture = EST_exploit_the_banks
+
+removal_cost = -1
+
+modifier = {
+	add_stability = -0.2
+	consumer_goods_factor = 0.95
+	trade_laws_cost_factor = 0.5
+	economy_cost_factor = 0.5
+}
+}
+rengou3 = { #借金
+		
+allowed = {
+	always = no
+}
+
+picture = EST_exploit_the_banks
+
+removal_cost = -1
+
+modifier = {
+	add_stability = -0.2
+	consumer_goods_factor = 0.8
+	trade_laws_cost_factor = 0.25
+	economy_cost_factor = 0.25
+}
+}
+rengou4 = { #借金
+		
+allowed = {
+	always = no
+}
+
+picture = EST_exploit_the_banks
+
+removal_cost = -1
+
+modifier = {
+	add_stability = -0.2
+	consumer_goods_factor = 0.7
+	trade_laws_cost_factor = 0.25
+	economy_cost_factor = 0.25
+}
+}
+rengou5 = { #借金
+		
+allowed = {
+	always = no
+}
+
+picture = EST_exploit_the_banks
+
+removal_cost = -1
+
+modifier = {
+	add_stability = -0.25
+	consumer_goods_factor = 0.65
+}
+}
+kane = { #石油からの利益
+		
+allowed = {
+	always = no
+}
+
+picture = generic_refining_concern_1
+
+removal_cost = -1
+
+modifier = {
+	consumer_goods_factor = -0.1
+}
+}
+TUR_keiza = { #黄金時代
+		
+allowed = {
+	always = no
+}
+
+picture = tur_varlik_vergisi
+
+removal_cost = -1
+
+modifier = {
+	stability_factor = 0.2
+	political_power_factor = 0.15
+	drift_defence_factor = 0.25
+	research_time_factor = -0.05
+}
+}
 	arabu = { #アラブの反抗
 		
 		allowed = {
@@ -70,7 +254,7 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-			conscription_factor = 0.85
+			conscription_factor = -0.85
 			planning_speed = -0.30
 			max_planning = -0.40
 			army_org_Factor = -0.25
@@ -82,6 +266,205 @@ ideas = {
 		}
 
 	}
+	gun1 = { #前時代的な軍隊
+		
+	allowed = {
+		always = no
+	}
+
+	picture = tur_coordinated_balkan_armed_forces
+
+	removal_cost = -1
+	
+	modifier = {
+		conscription_factor = -0.85
+		planning_speed = -0.2
+		max_planning = -0.3
+		army_org_Factor = -0.25
+		offence = -0.35
+		defence = -0.35
+		experience_gain_army = -0.25
+		experience_gain_air = -0.25
+		experience_gain_navy = -0.25
+	}
+
+}
+guna1 = { #前時代的な軍隊
+		
+allowed = {
+	always = no
+}
+
+picture = tur_coordinated_balkan_armed_forces
+
+removal_cost = -1
+
+modifier = {
+	conscription_factor = -0.5
+	planning_speed = -0.2
+	max_planning = -0.3
+	army_org_Factor = -0.25
+	offence = -0.25
+	defence = -0.25
+	experience_gain_army = -0.25
+	experience_gain_air = -0.25
+	experience_gain_navy = -0.25
+}
+
+}
+guna2 = { #前時代的な軍隊
+		
+allowed = {
+	always = no
+}
+
+picture = tur_coordinated_balkan_armed_forces
+
+removal_cost = -1
+
+modifier = {
+	army_infantry_attack_factor = 0.2
+	conscription_factor = -0.5
+	planning_speed = -0.2
+	max_planning = -0.3
+	army_org_Factor = -0.2
+	offence = -0.25
+	defence = -0.25
+	experience_gain_army = -0.25
+	experience_gain_air = -0.25
+	experience_gain_navy = -0.25
+}
+
+}
+
+guna3 = { #前時代的な軍隊
+		
+allowed = {
+	always = no
+}
+
+picture = tur_coordinated_balkan_armed_forces
+
+removal_cost = -1
+
+modifier = {
+	army_infantry_attack_factor = 0.2
+	conscription_factor = -0.25
+	planning_speed = -0.2
+	max_planning = -0.3
+	offence = -0.25
+	defence = -0.25
+	experience_gain_army = -0.3
+	experience_gain_air = -0.3
+	experience_gain_navy = -0.3
+}
+
+}
+guna4 = { #前時代的な軍隊
+		
+allowed = {
+	always = no
+}
+
+picture = tur_coordinated_balkan_armed_forces
+
+removal_cost = -1
+
+modifier = {
+	army_infantry_attack_factor = 0.2
+	planning_speed = -0.2
+	max_planning = -0.3
+	offence = -0.2
+	defence = -0.2
+	experience_gain_army = -0.3
+	experience_gain_air = -0.3
+	experience_gain_navy = -0.3
+}
+
+}
+TUIR_GUN = { #改革終了
+		
+allowed = {
+	always = no
+}
+
+picture = volunteer_only
+
+removal_cost = -1
+
+modifier = {
+	planning_speed = 0.05
+	max_planning = 0.05
+	experience_gain_army = 0.05
+	experience_gain_navy = 0.05
+	experience_gain_air = 0.1
+}
+
+}
+gun2 = { #改革中の軍隊
+		
+allowed = {
+	always = no
+}
+
+picture = tur_coordinated_balkan_armed_forces
+
+removal_cost = -1
+
+modifier = {
+	conscription_factor = -0.7
+	planning_speed = -0.2
+	max_planning = -0.3
+	army_org_Factor = -0.25
+	offence = -0.35
+	defence = -0.35
+	experience_gain_army = -0.15
+	experience_gain_air = -0.15
+	experience_gain_navy = -0.15
+}
+
+}
+gun3 = { #改革中の軍隊
+		
+allowed = {
+	always = no
+}
+
+picture = tur_coordinated_balkan_armed_forces
+
+removal_cost = -1
+
+modifier = {
+	conscription_factor = -0.4
+	army_org_Factor = -0.20
+	offence = -0.35
+	defence = -0.35
+	experience_gain_army = -0.1
+	experience_gain_air = -0.1
+	experience_gain_navy = -0.1
+}
+
+}
+gun4 = { #改革中の軍隊
+		
+allowed = {
+	always = no
+}
+
+picture = tur_coordinated_balkan_armed_forces
+
+removal_cost = -1
+
+modifier = {
+	army_org_Factor = -0.1
+	offence = -0.3
+	defence = -0.3
+	experience_gain_army = -0.1
+	experience_gain_air = -0.1
+	experience_gain_navy = -0.1
+}
+
+}
 	kenpou = { #新憲法論争
 		
 		allowed = {

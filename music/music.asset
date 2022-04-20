@@ -36,8 +36,8 @@ music = {
 }
 
 music = {
-	name = "Le Chant du depart"
-	file = "Le Chant du depart.ogg"
+	name = "Le chant du départ"
+	file = "Le chant du départ.ogg"
 	volume = 1.25
 }
 

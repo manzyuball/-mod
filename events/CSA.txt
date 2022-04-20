@@ -1,34 +1,21 @@
 ﻿add_namespace = CSA
 
 country_event = {
-	id = CSA_events.1
-	title = CSA_events.1.t
-	desc = CSA_events.1.d
-	picture = GFX_report_event_generic_panzer_attack
+	id = CSA.1
+	title = CSA.1.t
+	desc = CSA.1.d
+	picture = GFX_report_event_ast_army
 	trigger = {
-			
-    has_completed_focus = CSA_2
+		has_global_flag = us_naisenn
 	}
+	fire_only_once = yes
 	option = {
-		name = CSA_events.1.a
+		name = CSA.1.a
+	USB = {	
 		declare_war_on = {
-			target = USA
-			type = annex_everything
-			}
-			declare_war_on = {
-				target = USB
-				type = annex_everything
-				}
-				USA = {
-					declare_war_on = {
-					target = USB
-					type = annex_everything
-					}
-				}
-	}
-	
-	option = {
-		name = CSA_events.1.b
+		target = CSA
+		type = annex_everything
+		}
 		declare_war_on = {
 			target = USA
 			type = annex_everything
@@ -37,20 +24,41 @@ country_event = {
 				target = USN
 				type = annex_everything
 				}
+	}
+	USA = {	
+		declare_war_on = {
+		target = CSA
+		type = annex_everything
+		}
+		declare_war_on = {
+			target = USB
+			type = annex_everything
+			}
 			declare_war_on = {
-				target = USB
+				target = USN
 				type = annex_everything
 				}
-				USA = {
-					declare_war_on = {
-					target = USB
-					type = annex_everything
-					}
-				declare_war_on = {
-					target = USN
-					type = annex_everything
-					}
+	}
+	CSA = {	
+		declare_war_on = {
+		target = USB
+		type = annex_everything
+		}
+		declare_war_on = {
+			target = USA
+			type = annex_everything
+			}
+			declare_war_on = {
+				target = USN
+				type = annex_everything
 				}
+	}
+	news_event = {
+		id = news.10
+		days = 1
+		random = 0
+		}
+
 	}
 }
 

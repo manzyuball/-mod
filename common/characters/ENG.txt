@@ -46,11 +46,11 @@ characters={
 		}
 	}
 
-	ENG_stanley_baldwin={
-		name=ENG_stanley_baldwin
+	ENG_a ={
+		name= ENG_a
 		portraits={
 			civilian={
-				large="gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin.dds"
+				large="gfx/leaders/ENG/ENG_reda.dds"
 			}
 		}
 		country_leader={

@@ -2317,10 +2317,10 @@ focus = {
 		
 		available_if_capitulated = yes
 		completion_reward = {
-			set_political_party = {
-				ideology = democratic
-				popularity = 0.95
-				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.5
+					}
 		}
 	}
 	focus = {

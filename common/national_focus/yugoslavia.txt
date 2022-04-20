@@ -430,36 +430,36 @@ focus = {
 				limit = {
 					has_global_flag = kroacia_sanka
 				}   
-				set_state_controller = 104
-				set_state_controller = 109
-				set_state_controller = 103
-				set_state_controller = 163
-				set_state_controller = 879
-				set_state_controller = 804
+				transfer_state = 104
+				transfer_state = 109
+				transfer_state = 103
+				transfer_state = 163
+				transfer_state = 879
+				transfer_state = 804
 			}
 			if = {
 				limit = {
 					has_global_flag = srovenia_sanka
 				}   
-				set_state_controller = 102
-				set_state_controller = 736
+				transfer_state = 102
+				transfer_state = 736
 			}
 			if = {
 				limit = {
 					has_global_flag = cyeko_sanka
 				}  
 				CZE = {
+					transfer_state = 9
+					transfer_state = 75
+					transfer_state = 69
+					transfer_state = 74
+					transfer_state = 72
+					load_oob = "CZE_1936"
 					declare_war_on = {
-					target = AUS
-					type = annex_everything
-					}
-					YUG = { add_to_faction = CZE }
-					set_state_controller = 9
-					set_state_controller = 75
-					set_state_controller = 69
-					set_state_controller = 74
-					set_state_controller = 72
-					load_oob = "CZE_san"
+						target = AUS
+						type = annex_everything
+						}
+						YUG = { add_to_faction = CZE }
 				}
 			}
 			if = {
@@ -473,28 +473,28 @@ focus = {
 					has_global_flag = hun_sanka
 				}
 				HUN = {
+					transfer_state = 155
+					transfer_state = 43
+					transfer_state = 154
+					transfer_state = 83
+					transfer_state = 76
+					transfer_state = 84
+					transfer_state = 82
+					transfer_state = 764
+					transfer_state = 45
+					transfer_state = 876
+					transfer_state = 877
+					transfer_state = 878
+					transfer_state = 70
+					transfer_state = 71
+					transfer_state = 664
+					transfer_state = 73
+					load_oob = "HUN_1939"
 					declare_war_on = {
-					target = AUS
-					type = annex_everything
-					}
-					YUG = { add_to_faction = HUN }
-					set_state_controller = 155
-					set_state_controller = 43
-					set_state_controller = 154
-					set_state_controller = 83
-					set_state_controller = 76
-					set_state_controller = 84
-					set_state_controller = 82
-					set_state_controller = 764
-					set_state_controller = 45
-					set_state_controller = 876
-					set_state_controller = 877
-					set_state_controller = 878
-					set_state_controller = 70
-					set_state_controller = 71
-					set_state_controller = 664
-					set_state_controller = 73
-					load_oob = "HUN_sanka"
+						target = AUS
+						type = annex_everything
+						}
+						YUG = { add_to_faction = HUN }
 				}
 			}
 		}

@@ -4,7 +4,8 @@ state={
 	name="STATE_386"
 
 	history={
-		owner = USA
+		owner = USN
+		add_core_of = USN
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

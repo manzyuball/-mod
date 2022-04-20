@@ -25,11 +25,11 @@ characters={
 			id=-1
 		}
 	}
-	ARG_marcelo_t_de_alvear={
-		name="Marcelo T. de Alvear"
+	ARG_aasasa = {
+		name="ARG_aasasa"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+				large="gfx/leaders/ARG/Portrait_AMN.dds"
 			}
 		}
 		country_leader={

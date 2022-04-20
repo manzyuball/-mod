@@ -12,6 +12,7 @@ state={
 
 	history={
 		owner = GER
+		add_core_of = LAT
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2

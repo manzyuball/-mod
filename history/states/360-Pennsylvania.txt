@@ -7,13 +7,13 @@ state={
 	}
 
 	history={
-		owner = USB
+		owner = USA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
 			air_base = 2
 
-		}
+		}add_core_of = USN
 		add_core_of = USB
 		add_core_of = USA
 		add_core_of = CSA

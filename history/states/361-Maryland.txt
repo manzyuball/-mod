@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = USB
+		owner = USN
 		victory_points = {
 			3957 40 
 		}
@@ -28,6 +28,7 @@ state={
 
 			}
 		}
+		add_core_of = USN
 		add_core_of = USA
 		add_core_of = USB
 		add_core_of = CSA

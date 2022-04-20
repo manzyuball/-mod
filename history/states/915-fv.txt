@@ -5,7 +5,8 @@ state={
 		505 528 4380 10183 11495 11733 12211 12281 
 	}
 	history={
-		owner = USA
+		owner = USN
+		add_core_of = USN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
