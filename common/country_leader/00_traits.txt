@@ -25,6 +25,21 @@ leader_traits = {
 		}
 	}
 
+	kouniti = {
+		random = no
+		ai_focus_aggressive_factor = 0.5
+		army_core_attack_factor = 0.15
+		ai_strategy = {
+			type = antagonize
+			id = "JAP"			
+			value = 200
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	tuarri = {
 		random = no
 		stability_factor = 0.25

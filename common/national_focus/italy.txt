@@ -871,13 +871,16 @@
 		}
 
 		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
+			declare_war_on = {
 				target = MLT
+				type = annex_everything
 				}
 			add_timed_idea = {
 				idea = ITA_asasa
 				days = 90
+			}
+			hidden_effect = {
+				set_global_flag = ITA_naisen
 			}
 		}
 	}

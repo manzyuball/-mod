@@ -12,6 +12,59 @@ ideas = {
 				min_export = 0.4
 			}
 		}
+		CHI_min = {
+			removal_cost = -1
+
+			picture = jap_supremacy_of_will
+
+			modifier = {
+				drift_defence_factor = 0.25
+			}
+		}
+		CHI_min1 = {
+			removal_cost = -1
+
+			picture = jap_supremacy_of_will
+
+			modifier = {
+				drift_defence_factor = 0.25
+				political_power_factor = 0.25
+				stability_weekly = 0.02
+			}
+		}
+		CHI_syougunn = {
+			removal_cost = -1
+
+			picture = generic_secret_police
+
+			modifier = {
+				military_leader_cost_factor = -1
+			}
+		}
+		CHI_syougunn1 = {
+			removal_cost = -1
+
+			picture = generic_secret_police
+
+			modifier = {
+				military_leader_cost_factor = -1
+				political_power_factor = 0.1
+				surrender_limit = 0.1
+			}
+		}
+		CHI_syougunn2 = {
+			removal_cost = -1
+
+			picture = generic_secret_police
+
+			modifier = {
+				military_leader_cost_factor = -1
+				political_power_factor = 0.1
+				surrender_limit = 0.1
+				subversive_activites_upkeep = -0.25
+				Resistance_decay_on_our_occupied_states = -0.25
+			}
+		}
 		CHI_gtunzi = {
 			removal_cost = -1
 
@@ -263,8 +316,6 @@ ideas = {
 			}
 			
 			traits = { fuel_efficient_aircraft_manufacturer }
-			
-			# assembled hawk II and hawk III fighter bombers as well as the Vultee V-11 ground attackers
 						
 			ai_will_do = {
 				factor = 1

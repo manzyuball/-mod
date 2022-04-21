@@ -1,12 +1,8 @@
+
 state={
 	id=752
 	name="STATE_752"
-	provinces={
-		1918 7988 8104 12724 12837 4999
-	}
-	manpower=300000
-	buildings_max_level_factor=1.000
-	state_category = pastoral
+
 	history={
 		owner = GXC
 		add_core_of = GXC
@@ -15,9 +11,11 @@ state={
 		victory_points = {
 			4999 1
 		}
+		victory_points = {
+		    10856 1 
+		}
 		buildings = {
 			infrastructure = 2
-
 		}
 		1939.1.1 = {
 			buildings = {
@@ -30,5 +28,11 @@ state={
 
 	}
 
-	local_supplies=1.0 
+	provinces={
+		1918 4407 4999 5102 7988 8104 10817 10856 12724 12837 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=1.000
 }

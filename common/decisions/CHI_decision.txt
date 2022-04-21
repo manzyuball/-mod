@@ -357,11 +357,11 @@ CHI_habatukousou = {
 				original_tag = CHI
 		}
         icon = hol_attract_foreign_investors
-		cost = 125
+		cost = 50
 		fire_only_once = no
 
 		ai_will_do = {
-			factor = 35
+			factor = 50
 		}
 
 		complete_effect = {

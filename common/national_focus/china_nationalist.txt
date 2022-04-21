@@ -12,7 +12,7 @@
 
 	default = no
 
-	continuous_focus_position = { x = 120 y = 1200 }
+	continuous_focus_position = { x = 250 y = 1350 }
 
 #	focus = {
 #		id = CHI_
@@ -52,8 +52,8 @@
 	focus = {
 		id = CHI_H1
 		icon = "GFX_focus_generic_military_academy"
-		x = 3
-		y = 0
+		x = 15
+		y = 8
 
 		cost = 5
 
@@ -436,8 +436,8 @@
 	focus = {
 		id = CHI_d1
 		icon = "GFX_goal_generic_construction2"
-		x = 27
-		y = 0
+		x = 24
+		y = 8
 
 		cost = 5
 
@@ -978,9 +978,9 @@
 	focus = {
 		id = CHI_S1
 		icon = "GFX_focus_spr_masters_of_our_own_fate"
-		x = 15
+		x = 25
 		y = 0
-
+		mutually_exclusive = { focus = PRC_na2 }
 		cost = 5
 
 		ai_will_do = {
@@ -1286,6 +1286,7 @@
 		completion_reward = {
 			custom_effect_tooltip = CHI_taa
 			remove_ideas = CHI_gtunzi
+			add_research_slot = 1
 			if = {
 				limit = {
 					has_war_support < 0.8
@@ -1320,6 +1321,7 @@
 		}
 
 		completion_reward = {
+			add_ideas = CHI_syougunn
 		}
 	}
 	focus = {
@@ -1339,6 +1341,7 @@
 		}
 
 		completion_reward = {
+			add_ideas = CHI_min
 		}
 	}
 	focus = {
@@ -1358,6 +1361,10 @@
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = CHI_min
+				add_idea = CHI_min1
+			}
 		}
 	}
 	focus = {
@@ -1377,6 +1384,8 @@
 		}
 
 		completion_reward = {
+			add_war_support = 0.15
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -1396,6 +1405,7 @@
 		}
 
 		completion_reward = {
+			add_country_leader_trait = kouniti
 		}
 	}
 	focus = {
@@ -1415,6 +1425,10 @@
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = CHI_syougunn
+				add_idea = CHI_syougunn1
+			}
 		}
 	}
 	focus = {
@@ -1434,6 +1448,11 @@
 		}
 
 		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.5
+				}
+				add_country_leader_trait = dictator
 		}
 	}
 	focus = {
@@ -1453,6 +1472,10 @@
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = CHI_syougunn1
+				add_idea = CHI_syougunn2
+			}
 		}
 	}
 	focus = {
@@ -1467,11 +1490,14 @@
 		ai_will_do = {
 			factor = 10
 		}
-
 		available = {
+			controls_state = 851
 		}
 
 		completion_reward = {
+			set_major = yes
+			add_research_slot = 1
+			army_experience = 150
 		}
 	}
 	focus = {
@@ -1491,6 +1517,48 @@
 		}
 
 		completion_reward = {
+			if = {
+				limit = {
+				MON = {
+					is_puppet_of = CHI
+				}
+			}
+			annex_country = {
+				target = MON
+				transfer_troops = yes
+				}
+				add_state_core = 817
+				add_state_core = 330
+				add_state_core = 819
+				add_state_core = 886
+				add_state_core = 820
+				add_state_core = 818
+				add_state_core = 329
+				add_state_core = 885
+			}
+			if = {
+				limit = {
+				MAN = {
+					is_puppet_of = CHI
+				}
+			}
+			annex_country = {
+				target = MAN
+				transfer_troops = yes
+				}
+			}
+			add_state_core = 758
+			add_state_core = 322
+			add_state_core = 757
+			add_state_core = 604
+			add_state_core = 601
+			add_state_core = 408
+			add_state_core = 857
+			add_state_core = 409
+			add_state_core = 657
+			add_state_core = 560
+			add_state_core = 655
+			add_state_core = 537
 		}
 	}
 
@@ -1736,6 +1804,10 @@
 					type = annex_everything
 					target = MON
 					}
+					create_wargoal = {
+						type = annex_everything
+						target = SHX
+						}
 		}
 	}
 	focus = {
@@ -1753,6 +1825,7 @@
 
 		available = {
 			controls_state = 613
+			controls_state = 615
 			controls_state = 599
 			controls_state = 325
 			controls_state = 605
@@ -1761,6 +1834,7 @@
 		completion_reward = {
 			is_major = yes
 			remove_ideas = CHI_BUNRETU
+			add_research_slot = 1
 			add_political_power = 250
 			add_stability = 0.15
 			add_war_support = 0.15
@@ -1914,4 +1988,1178 @@
 			add_ideas = CHI_koutei
 		}
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#"#"#"#"#"#"#"#""""""""""""""""""""""""######
+
+focus = {
+	id = PRC_na_2
+	icon = "GFX_focus_prc_agrarian_socialism"
+	mutually_exclusive = { focus = CHI_S1 }
+	x = 9
+	y = 0
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_3
+	icon = "GFX_focus_prc_maoism"
+	prerequisite = { focus = PRC_na_2 }
+	x = 15
+	y = 1
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_4
+	icon = "GFX_focus_SOV_breadbasket_of_the_union"
+	prerequisite = { focus = PRC_na_3 }
+	x = 15
+	y = 2
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_5
+	icon = "GFX_focus_SOV_bukharan_republic"
+	prerequisite = { focus = PRC_na_4 }
+	x = 15
+	y = 3
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_6
+	icon = "GFX_focus_generic_industry_3"
+	prerequisite = { focus = PRC_na_5 }
+	x = 15
+	y = 4
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_7
+	icon = "GFX_focus_focus_fra_liberte_egalite_solidarite"
+	prerequisite = { focus = PRC_na_6 }
+	x = 15
+	y = 5
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_8
+	icon = "GFX_focus_spr_masters_of_our_own_fate"
+	prerequisite = { focus = PRC_na_2 }
+	x = 9
+	y = 1
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_9
+	icon = "GFX_focus_hol_the_fourth_ally"
+	prerequisite = { focus = PRC_na_8 }
+	x = 11
+	y = 2
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_10
+	icon = "GFX_focus_attack_china"
+	prerequisite = { focus = PRC_na_8 }
+	x = 13
+	y = 2
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_11
+	icon = "GFX_focus_LIT_restore_the_grand_duchy"
+	prerequisite = { focus = PRC_na_8 }
+	x = 5
+	y = 2
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_12
+	icon = "GFX_goal_generic_military_sphere"
+	prerequisite = { focus = PRC_na_8 }
+	x = 7
+	y = 2
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_13
+	icon = "GFX_focus_eng_move_to_secure_the_dominions"
+	prerequisite = { focus = PRC_na_12 }
+	x = 7
+	y = 3
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_14
+	icon = "GFX_focus_focus_fra_revolution_utmost"
+	prerequisite = { focus = PRC_na_13 }
+	x = 7
+	y = 4
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_15
+	icon = "GFX_focus_ger_great_red_menace"
+	prerequisite = { focus = PRC_na_14 }
+	x = 7
+	y = 5
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+focus = {
+	id = PRC_na_16
+	icon = "GFX_focus_focus_fra_maquis"
+	prerequisite = { focus = PRC_na_11 }
+	x = 5
+	y = 3
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+focus = {
+	id = PRC_na_17
+	icon = "GFX_focus_mex_soldaderas"
+	prerequisite = { focus = PRC_na_16 }
+	x = 5
+	y = 5
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+focus = {
+	id = PRC_na_18
+	icon = "GFX_focus_chi_whampoa_military_academy"
+	prerequisite = { focus = PRC_na_17 }
+	x = 5
+	y = 4
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_19
+	icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
+	prerequisite = { focus = PRC_na_10 }
+	x = 13
+	y = 3 
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_20
+	icon = "GFX_focus_generic_provoke_border_clashes"
+	prerequisite = { focus = PRC_na_19 }
+	x = 13
+	y = 5
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_21
+	icon = "GFX_goal_generic_propaganda"
+	prerequisite = { focus = PRC_na_20 }
+	x = 13
+	y = 4
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_22
+	icon = "GFX_focus_jap_pacific_guardian"
+	prerequisite = { focus = PRC_na_9 }
+	x = 11
+	y = 3
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_23
+	icon = "GFX_focus_jap_zaibatsu"
+	prerequisite = { focus = PRC_na_22 }
+	x = 11
+	y = 5
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_24
+	icon = "GFX_focus_usa_reestablish_the_gold_standard"
+	prerequisite = { focus = PRC_na_23 }
+	x = 11
+	y = 4
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_25
+	icon = "GFX_focus_prc_infiltration"
+	prerequisite = { focus = PRC_na_2 }
+	x = 3
+	y = 1
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_26
+	icon = "GFX_focus_generic_manpower"
+	prerequisite = { focus = PRC_na_25 }
+	x = 3
+	y = 2
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_27
+	icon = "GFX_focus_generic_socialist_science"
+	prerequisite = { focus = PRC_na_26 }
+	x = 3
+	y = 3
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_28
+	icon = "GFX_focus_eng_expose_the_belly_of_the_bear"
+	prerequisite = { focus = PRC_na_27 }
+	x = 3
+	y = 4
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_29
+	icon = "GFX_focus_SOV_builder_of_the_red_army"
+	prerequisite = { focus = PRC_na_28 }
+	x = 3
+	y = 5
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_30
+	icon = "GFX_focus_chi_one_china_policy"
+	prerequisite = { focus = PRC_na_8 }
+	prerequisite = { focus = PRC_na_7 }
+	prerequisite = { focus = PRC_na_29 }
+	x = 9
+	y = 6
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_31
+	icon = "GFX_focus_prc_proclaim_the_peoples_republic"
+	prerequisite = { focus = PRC_na_30 }
+	x = 9
+	y = 7
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_32
+	icon = "GFX_focus_por_workers_of_iberia"
+	prerequisite = { focus = PRC_na_31 }
+	x = 9
+	y = 8
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_33
+	icon = "GFX_focus_generic_the_giant_wakes"
+	prerequisite = { focus = PRC_na_32 }
+	x = 7
+	y = 9
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_34
+	icon = "GFX_focus_hol_the_foundations_of_defense"
+	prerequisite = { focus = PRC_na_32 }
+	x = 11
+	y = 9
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = PRC_na_35
+	icon = "GFX_goal_generic_soviet_construction"
+	prerequisite = { focus = PRC_na_30 }
+	x = 12
+	y = 8
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+focus = {
+	id = PRC_na_36
+	icon = "GFX_goal_support_communism"
+	prerequisite = { focus = PRC_na_30 }
+	x = 6
+	y = 8
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+
 }

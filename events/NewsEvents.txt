@@ -271,3 +271,57 @@ news_event = {
 	}
 	}
 }
+
+#南部イタリアは連合国から見放される
+news_event = { 
+	id = news.11
+	title = news.11.t
+	desc = news.11.d
+	picture = GFX_news_event_008
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = news.11.a
+		trigger = {
+			OR = {
+				NOT = {
+				TAG = ITA
+				TAG = MLT
+				TAG = ENG
+				TAG = JAP
+				TAG = POL
+				}
+			}
+		}
+	}
+	option = {
+		name = news.11.b
+		trigger = { 
+				TAG = ITA
+		}
+	}
+	option = {
+		name = news.11.c
+		trigger = { 
+				TAG = MLT
+		}
+	}
+	option = {
+		name = news.11.d
+		trigger = { 
+				TAG = ENG
+		}
+	}
+	option = {
+		name = news.11.e
+		trigger = { 
+				TAG = JAP
+		}
+	}
+	option = {
+		name = news.11.f
+		trigger = { 
+				TAG = POL
+		}
+	}
+}

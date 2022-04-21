@@ -9,8 +9,6 @@ state={
 				9945 10
 			}
 			owner = SPR
-			add_core_of = MOR
-			add_core_of = SPR
 			buildings = {
 				infrastructure = 2
 				9945 = {
