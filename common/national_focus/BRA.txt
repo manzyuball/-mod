@@ -1,0 +1,886 @@
+focus_tree = {
+	id = BRA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BRA
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 1760 y = 30 }
+
+	focus = {
+		id = BRA_na_1
+		icon = "GFX_focus_por_recover_latin_america"
+		x = 10
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = BRA_na_2
+		icon = "GFX_focus_usa_reestablish_the_gold_standard"
+		x = 10
+		y = 1
+		prerequisite = { focus = BRA_na_1 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BRA_kyoukou
+				add_idea = BRA_kyoukou1
+				}
+		}
+	}
+
+	focus = {
+		id = BRA_na_3
+		icon = "GFX_focus_fra_devalue_the_franc"
+		x = 8
+		y = 2
+		mutually_exclusive = { focus = BRA_na_4 }
+		prerequisite = { focus = BRA_na_2 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			remove_ideas = BRA_kyoukou1
+		}
+	}
+
+	focus = {
+		id = BRA_na_4
+		icon = "GFX_focus_generic_treaty"
+		x = 12
+		y = 2
+		mutually_exclusive = { focus = BRA_na_3 }
+		prerequisite = { focus = BRA_na_2 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = ARG
+				modifier = kyuusekkinn
+				}
+				remove_ideas = BRA_kyoukou1
+		}
+	}
+
+	focus = {
+		id = BRA_na_5
+		icon = "GFX_focus_generic_support_the_left_right"
+		x = 10
+		y = 3
+		prerequisite = { focus = BRA_na_3 focus = BRA_na_4 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = BRA_4kanenn
+				days = 1440
+				}
+		}
+	}
+
+	focus = {
+		id = BRA_na_6
+		icon = "GFX_focus_focus_fra_revolution_utmost"
+		x = 10
+		y = 4
+		prerequisite = { focus = BRA_na_5 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BRA_mayaku
+				add_idea = BRA_mayaku1
+				}
+		}
+	}
+
+	focus = {
+		id = BRA_na_7
+		icon = "GFX_focus_POL_riot_of_37"
+		x = 10
+		y = 5
+		prerequisite = { focus = BRA_na_6 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_ideas = BRA_mayaku1
+		}
+	}
+
+	focus = {
+		id = BRA_na_8
+		icon = "GFX_focus_SOV_purge_trotskyists"
+		x = 10
+		y = 6
+		prerequisite = { focus = BRA_na_7 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = BRA_1w
+			hidden_effect = {
+				start_civil_war = {
+					ruling_party = fascism
+					ideology = communism
+					size = 0.1
+					capital = 498
+					states = {
+					498 497 
+					}
+					}
+			}
+
+		}
+	}
+
+	focus = {
+		id = BRA_na_9
+		icon = "GFX_focus_generic_military_academy"
+		x = 8
+		y = 7
+		mutually_exclusive = { focus = BRA_na_10 }
+		prerequisite = { focus = BRA_na_8 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = -0.1
+		}
+	}
+
+	focus = {
+		id = BRA_na_10
+		icon = "GFX_focus_spr_the_anti_fascist_workers_revolution"
+		x = 12
+		y = 7
+		mutually_exclusive = { focus = BRA_na_9 }
+		prerequisite = { focus = BRA_na_8 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = -100
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = BRA_na_11
+		icon = "GFX_focus_research2"
+		x = 10
+		y = 8
+		prerequisite = { focus = BRA_na_9 }
+		prerequisite = { focus = BRA_na_10 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = BRA_na_12
+		icon = "GFX_focus_SOV_penal_battalions"
+		x = 10
+		y = 9
+		prerequisite = { focus = BRA_na_9 }
+		prerequisite = { focus = BRA_na_10 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.15
+				}
+				add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = BRA_na_20
+		icon = GFX_goal_generic_production
+		x = 6
+		y = 4
+		prerequisite = { focus = BRA_na_5 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas =	BRA_keizai
+		}
+	}
+
+	focus = {
+		id = BRA_na_21
+		icon = "GFX_goal_reichsautobahn"
+		x = 6
+		y = 5
+		prerequisite = { focus = BRA_na_20 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BRA_keizai
+				add_idea = BRA_keizai1
+				}
+		}
+	}
+
+	focus = {
+		id = BRA_na_22
+		icon = "GFX_focus_spa_the_spanish_miracle"
+		x = 6
+		y = 6
+		prerequisite = { focus = BRA_na_21 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BRA_keizai1
+				add_idea = BRA_keizai2
+				}
+		}
+	}
+
+	focus = {
+		id = BRA_na_23
+		icon = "GFX_focus_spa_save_the_alcazar"
+		x = 6
+		y = 7
+		prerequisite = { focus = BRA_na_22 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = BRA_na_24
+		icon = "GFX_goal_generic_consumer_goods"
+		x = 6
+		y = 8
+		prerequisite = { focus = BRA_na_23 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.15
+		}
+	}
+
+	focus = {
+		id = BRA_na_30
+		icon = "GFX_focus_por_recover_brazil"
+		x = 1.5
+		y = 4
+		prerequisite = { focus = BRA_na_5 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas =	BRA_gaiko
+		}
+	}
+
+	focus = {
+		id = BRA_na_31
+		icon = "GFX_focus_usa_focus_on_asia"
+		x = 3
+		y = 5.5
+		prerequisite = { focus = BRA_na_30 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BRA_gaiko
+				add_idea = BRA_gaiko1
+				}
+		}
+	}
+	focus = {
+		id = BRA_na_32
+		icon = "GFX_focus_jap_pacific_guardian"
+		x = 3
+		y = 6.5
+		prerequisite = { focus = BRA_na_31 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = JAP
+				modifier = kyuusekkinn
+				}
+		}
+	}
+	focus = {
+		id = BRA_na_33
+		icon = "GFX_focus_mex_soldaderas"
+		x = 3
+		y = 7.5
+		prerequisite = { focus = BRA_na_32 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_manpower = -2140
+			army_experience = 100
+			RAJ = {
+			add_manpower = 2140
+			army_experience = 100
+			}
+		}
+	}
+
+	focus = {
+		id = BRA_na_34
+		icon = "GFX_focus_ger_bulwark_against_bolshevism"
+		x = -3
+		y = 1
+		cost = 2
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BRA_na_35
+		icon = "GFX_focus_por_concordat"
+		x = -3
+		y = 2
+		prerequisite = { focus = BRA_na_34 }
+		cost = 2
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BRA_na_36
+		icon = "GFX_goal_generic_position_armies"
+		x = -2
+		y = 4
+		prerequisite = { focus = BRA_na_35 }
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BRA_na_37
+		icon = "GFX_focus_usa_focus_on_europe"
+		x = -1
+		y = 5.5
+		prerequisite = { focus = BRA_na_36 }
+		prerequisite = { focus = BRA_na_30 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = BRA_123
+			create_corps_commander = {
+				name = "Jean de Lattre de Tassigny"
+				picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+				traits = { trickster brilliant_strategist }
+				skill = 3
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 4
+				logistics_skill = 3
+				}
+				create_corps_commander = {
+					name = "Friedrich von Schiller"
+					picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
+					traits = { jungle_rat commando }
+					skill = 4
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 3
+					logistics_skill = 5
+					}
+					create_corps_commander = {
+						name = "Principe di Montenevoso"
+						picture = "portrait_italy_emilio_de_bono.dds"
+						traits = { 	trait_engineer old_guard war_hero }
+						skill = 7
+						attack_skill = 1
+						defense_skill = 5
+						planning_skill = 1
+						logistics_skill = 1
+						}
+		}
+	}
+
+	focus = {
+		id = BRA_na_38
+		icon = "GFX_focus_proclaim_the_restauration_of_Austria_Hungary"
+		x = -1
+		y = 6.5
+		prerequisite = { focus = BRA_na_37 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = AUS
+				modifier = kyuusekkinn
+				}
+				AUS = { add_to_faction = BRA }
+		}
+	}
+
+	focus = {
+		id = BRA_na_39
+		icon = "GFX_focus_por_the_fifth_empire"
+		x = -1
+		y = 7.5
+		prerequisite = { focus = BRA_na_38 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = POR
+				modifier = kyuusekkinn
+				}
+		}
+	}
+
+	focus = {
+		id = BRA_na_339
+		icon = "GFX_focus_eng_the_sun_never_sets"
+		x = -1
+		y = 8.5
+		prerequisite = { focus = BRA_na_39 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+			reverse_add_opinion_modifier = {
+				target = ENG
+				modifier = kyuusekkinn
+				}
+		}
+	}
+
+	focus = {
+		id = BRA_na_40
+		icon = "GFX_focus_generic_tank_production"
+		x = 16
+		y = 4
+		prerequisite = { focus = BRA_na_5 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = BRA_na_41
+		icon = "GFX_focus_generic_aircraft_production"
+		x = 16
+		y = 5
+		prerequisite = { focus = BRA_na_40 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
+			}	
+			random_owned_controlled_state = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
+			}
+		}
+	}
+
+	focus = {
+		id = BRA_na_42
+		icon = "GFX_goal_generic_scientific_exchange"
+		x = 16
+		y = 6
+		prerequisite = { focus = BRA_na_41 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = category_army
+				}
+		}
+	}
+	focus = {
+		id = BRA_na_43
+		icon = "GFX_focus_ger_return_of_the_kaiser"
+		x = 16
+		y = 7
+		prerequisite = { focus = BRA_na_42 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+        add_ideas = BRA_pro_gun
+		}
+	}
+
+	focus = {
+		id = BRA_na_44
+		icon = "GFX_goal_generic_military_sphere"
+		x = 16
+		y = 8
+		prerequisite = { focus = BRA_na_43 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = BRA_gun
+			hidden_effect = {
+				load_oob = "BRA_gun"
+			}
+			
+		}
+	}
+
+	focus = {
+		id = BRA_na_45
+		icon = "GFX_focus_BUL_condemn_macedonian_organizations"
+		x = 19
+		y = 4
+		prerequisite = { focus = BRA_na_5 }
+		cost = 10
+
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 0
+		}	
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BRA_na_46
+		icon = "GFX_focus_generic_military_dictatorship"
+		x = 19
+		y = 5
+		prerequisite = { focus = BRA_na_45 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BRA_na_47
+		icon = "GFX_goal_generic_navy_battleship"
+		x = 19
+		y = 6
+		prerequisite = { focus = BRA_na_46 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BRA_na_48
+		icon = "GFX_focus_eng_imperial_federation"
+		x = 19
+		y = 7
+		prerequisite = { focus = BRA_na_47 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BRA_na_50
+		icon = "GFX_focus_hol_the_foundations_of_defense"
+		x = 3
+		y = 0.5
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+        add_ideas = BRA_bra
+		}
+	}
+	focus = {
+		id = BRA_na_51
+		icon = "GFX_focus_SOV_merge_plants"
+		x = 3
+		y = 1.5
+		cost = 5
+		prerequisite = { focus = BRA_na_50 }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = BRA_bq
+			random_state = {
+				limit = {
+					num_of_civilian_factories > 2
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 2
+					}
+			}
+			random_state = {
+				limit = {
+					num_of_civilian_factories > 2
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 2
+					}
+			}
+			hidden_effect = {
+				set_global_flag = BRA_ba5
+			}
+		}
+	}
+	focus = {
+		id = BRA_na_52
+		icon = "GFX_goal_molotov_ribbentrop_pact"
+		x = 3
+		y = 2.5
+		cost = 5
+		prerequisite = { focus = BRA_na_51 }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = BRA_bq1
+			set_capital = 905
+			add_stability = 0.1
+			remove_ideas = BRA_bra
+			remove_ideas = BRA_tasimonndai
+			if = {
+				limit = {
+					has_global_flag = BRA_ba1
+				}   
+				905 = {
+					set_building_level = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+						}
+				}
+			}
+			if = {
+				limit = {
+					has_global_flag = BRA_ba2
+				}   
+				905 = {
+					set_state_category = megalopolis
+				}
+			}
+			if = {
+				limit = {
+					has_global_flag = BRA_ba3
+				}   
+				905 = {
+					add_building_construction = {
+						type = synthetic_refinery
+						level = 2
+						instant_build = yes
+						}
+						add_building_construction = {
+							type = fuel_silo
+							level = 1
+							instant_build = yes
+							}
+				}
+			}
+			if = {
+				limit = {
+					has_global_flag = BRA_ba4
+				}   
+				905 = {
+					add_manpower = 953200
+				}
+			}
+			if = {
+				limit = {
+					has_global_flag = BRA_ba5
+				}   
+				905 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 4
+						instant_build = yes
+						}
+				}
+			}
+		}
+	}
+	focus = {
+		id = BRA_na_53
+		icon = "GFX_focus_mex_privatisation"
+		x = 0
+		y = 1.5
+		cost = 5
+		prerequisite = { focus = BRA_na_50 }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = BRA_bq
+			add_political_power = -150
+			hidden_effect = {
+				set_global_flag = BRA_ba3
+			}
+		}
+	}
+	focus = {
+		id = BRA_na_54
+		icon = "GFX_focus_spr_torchbearers_of_tomorrow"
+		x = 0
+		y = 2.5
+		cost = 5
+		prerequisite = { focus = BRA_na_53 }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = BRA_bq
+			every_owned_state = { 
+				limit = {
+				state_population > 100000
+				}
+				add_manpower = -7900
+			}
+			hidden_effect = {
+				set_global_flag = BRA_ba4
+			}
+		}
+	}
+	focus = {
+		id = BRA_na_55
+		icon = "GFX_focus_SOV_the_road_of_life"
+		x = 6
+		y = 1.5
+		cost = 5
+		prerequisite = { focus = BRA_na_50 }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = BRA_bq
+			hidden_effect = {
+				set_global_flag = BRA_ba1
+			}
+		}
+	}
+	focus = {
+		id = BRA_na_56
+		icon = "GFX_focus_POL_warsaw_main_station"
+		x = 6
+		y = 2.5
+		cost = 5
+		prerequisite = { focus = BRA_na_55 }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = BRA_bq
+			add_political_power = -100
+			hidden_effect = {
+				set_global_flag = BRA_ba2
+			}
+		}
+	}
+}

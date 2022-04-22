@@ -4,7 +4,7 @@ state={
 	name="STATE_453"
 	manpower = 15359
 	
-	state_category = town
+	state_category = city
 	
 	
 	history = {
@@ -12,7 +12,8 @@ state={
 		add_core_of = EGY
 		add_core_of = TUR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			arms_factory = 3
 		}
 
 		victory_points = {

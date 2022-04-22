@@ -4,17 +4,18 @@ state={
 	name="STATE_452"
 	manpower = 52556
 	
-	state_category = wasteland
+	state_category = town
 
 	history={
 		owner = EGY
 		add_core_of = EGY
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			arms_factory = 2
 		}
 
 		victory_points = {
-			9989 1
+			9989 3
 		}
 
 	add_core_of = EGY

@@ -8,7 +8,7 @@ state={
 		owner = JAP
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 4
 
 		}
 		victory_points = {
@@ -18,7 +18,7 @@ state={
 
 	}
 	manpower=743532
-	state_category=city
+	state_category=large_city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

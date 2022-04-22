@@ -4,6 +4,7 @@ state={
 	provinces={
 		507 6489 9458 
 	}
+	state_category = city
 	history={
 		owner = ENG
 		victory_points = {
@@ -22,15 +23,6 @@ state={
 
 		}
 		add_core_of = ENG
-		1939.1.1 = {
-			buildings = {
-				dockyard = 3
-				industrial_complex = 2
-
-			}
-
-		}
-
 	}
 	manpower=1432563
 	buildings_max_level_factor=1.000

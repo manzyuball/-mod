@@ -9,7 +9,8 @@ state={
 		owner = EGY
 		add_core_of = EGY
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 2
 		}
 		add_core_of = LBA
 	}

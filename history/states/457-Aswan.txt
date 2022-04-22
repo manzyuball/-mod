@@ -4,12 +4,13 @@ state=
 	name="STATE_457" # Arabian Desert
 	manpower = 2194
 	
-	state_category = wasteland
+	state_category = rural
 	
 	history = {
 		owner = EGY
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
 		}
 
 		victory_points = {
