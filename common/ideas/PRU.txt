@@ -11,6 +11,123 @@ ideas = {
 				out_of_supply_factor = -0.5		
 			}
 		}
+		PRU_saikenn = {
+			picture = generic_reserve_divisions
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.01	
+			}
+		}
+		PRU_sangyou = {
+			picture = generic_agrarian_society
+			removal_cost = -1
+			
+			modifier = {	
+			}
+		}
+		PRU_sangyou1 = {
+			picture = generic_agrarian_society
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1	
+			}
+		}
+		PRU_sangyou2 = {
+			picture = generic_agrarian_society
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.25
+				local_resources_factor = 0.15
+			}
+		}
+		PRU_sangyou3 = {
+			picture = generic_agrarian_society
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.25
+				local_resources_factor = 0.15
+				global_building_slots_factor = 0.25
+			}
+		}
+		PRU_sangyou4 = {
+			picture = generic_agrarian_society
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.25
+				local_resources_factor = 0.15
+				global_building_slots_factor = 0.25	
+				weekly_manpower = 3500
+			}
+		}
+		PRU_RED = {
+			picture = fourth_international
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.25
+			}
+		}
+		PRU_RED1 = {
+			picture = fourth_international
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.25
+				ai_focus_aggressive_factor = 0.85
+				offensive_war_stability_factor = 0.5
+			}
+		}
+		PRU_RED2 = {
+			picture = fourth_international
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.85
+				ai_focus_aggressive_factor = 0.85
+				offensive_war_stability_factor = 0.5
+			}
+		}
+		PRU_RED3 = {
+			picture = fourth_international
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.85
+				ai_focus_aggressive_factor = 0.85
+				offensive_war_stability_factor = 0.5
+				occupation_cost = -0.85
+			}
+		}
+		PRU_kami = {
+			picture = ROM_the_sentinel_of_the_motherland
+			removal_cost = -1
+			
+			modifier = {
+				global_building_slots_factor = 0.22
+				local_resources_factor = 0.22
+				production_speed_buildings_factor = 0.22
+				industrial_capacity_factory = 0.22
+			}
+		}
+		PRU_YAKU = {
+			picture = prc_permit_opium_trade
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.15
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = 0.1
+				stability_factor = 0.10
+			}
+		}
 	}
 	
 		aircraft_manufacturer = { 

@@ -30,7 +30,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 	    completion_reward = {
-          
+            add_stability = 0.1
 	    }
 }
 #© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
@@ -52,7 +52,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_timed_idea = {
+        idea = PRU_saikenn
+        days = 30
+        }
 }
 }
 focus = {
@@ -72,7 +75,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_stability = 0.15
 }
 }
 focus = {
@@ -112,7 +115,8 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_manpower = 100000
+    army_experience = 150
 }
 }
 
@@ -133,7 +137,9 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_stability = 0.1
+    add_state_core = 487
+    add_state_core = 895
 }
 }
 focus = {
@@ -153,7 +159,9 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_stability = 0.1
+    add_state_core = 896
+    add_state_core = 305
 }
 }
 focus = {
@@ -173,7 +181,8 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_stability = 0.1
+    add_political_power = 250
 }
 }
 focus = {
@@ -193,7 +202,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_political_power = 150
 }
 }
 
@@ -214,7 +223,9 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    set_rule = {
+        can_join_opposite_factions = yes
+        }
 }
 }
 focus = {
@@ -234,7 +245,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_popularity = {
+        ideology = communism
+        popularity = 0.2
+        }
 }
 }
 
@@ -255,7 +269,15 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    reverse_add_opinion_modifier = {
+        target = GER
+        modifier = kyuusekkinn
+    }
+    add_equipment_to_stockpile = {
+        type = infantry_equipment
+        amount = 3500
+        producer = GER
+        }
 }
 }
 
@@ -276,7 +298,11 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    reverse_add_opinion_modifier = {
+        target = FRA
+        modifier = kyuusekkinn
+    }
+    FRA = { add_to_faction = PRU }
 }
 }
 
@@ -297,8 +323,27 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
-}
+    create_corps_commander = {
+        name = "Michel Eugène Chevreul"
+        picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+        traits = { commando trickster jungle_rat trait_mountaineer substance_abuser }
+        skill = 6
+        attack_skill = 6
+        defense_skill = 2
+        planning_skill = 4
+        logistics_skill = 5
+        }
+        create_field_marshal = {
+            name = "Jean Bodin"
+            picture = "Portrait_France_Maurice_Gamelin.dds"
+            traits = { organizer logistics_wizard substance_abuser adaptable }
+            skill = 2
+            attack_skill = 8
+            defense_skill = 3
+            planning_skill = 5
+            logistics_skill = 6
+            }
+        }
 }
 
 focus = {
@@ -318,7 +363,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    reverse_add_opinion_modifier = {
+        target = USN
+        modifier = dankou
+        }
 }
 }
 
@@ -339,7 +387,11 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    create_wargoal = {
+        type = annex_everything
+
+        target = CUB
+        }
 }
 }
 focus = {
@@ -359,7 +411,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_war_support = 0.1
 }
 }
 focus = {
@@ -370,7 +422,9 @@ focus = {
     y = 6
 
     cost = 5
-
+    available = {
+        has_completed_focus = PRU_se61
+    }
     ai_will_do = {
     factor = 1
     }	
@@ -379,7 +433,12 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    create_wargoal = {
+        type = annex_everything
+
+        target = HON
+        }
+    add_war_support = 0.15
 }
 }
 #© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
@@ -401,7 +460,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    reverse_add_opinion_modifier = {
+        target = PAN
+        modifier = dankou
+        }
 }
 }
 
@@ -422,7 +484,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_ideas = PRU_sangyou
 }
 }
 
@@ -443,7 +505,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = PRU_sangyou
+        add_idea = PRU_sangyou1
+        }
 }
 }
 focus = {
@@ -462,7 +527,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = PRU_sangyou1
+        add_idea = PRU_sangyou2
+        }
 }
 }
 
@@ -482,7 +550,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = PRU_sangyou2
+        add_idea = PRU_sangyou3
+        }
 }
 }
 
@@ -502,7 +573,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = PRU_sangyou3
+        add_idea = PRU_sangyou4
+        }
 }
 }
 
@@ -522,7 +596,22 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    random_owned_controlled_state = {
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
 }
 }
 
@@ -542,7 +631,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_research_slot = 1
 }
 }
 focus = {
@@ -561,7 +650,22 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    random_owned_controlled_state = {
+        add_extra_state_shared_building_slots = 3
+        add_building_construction = {
+            type = industrial_complex
+            level = 3
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        add_extra_state_shared_building_slots = 3
+        add_building_construction = {
+            type = industrial_complex
+            level = 3
+            instant_build = yes
+        }
+    }
 }
 }
 
@@ -581,7 +685,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_research_slot = 1
 }
 }
 
@@ -601,7 +705,42 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_tech_bonus = {
+        name = fighter_bonus
+        bonus = 3.0
+        uses = 2
+        technology = early_fighter
+        technology = fighter1
+        technology = fighter2
+        technology = fighter3
+        technology = heavy_fighter1
+        technology = heavy_fighter2
+        technology = heavy_fighter3
+    }
+    random_owned_controlled_state = {
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = arms_factory
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = arms_factory
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = arms_factory
+            level = 2
+            instant_build = yes
+        }
+    }
 }
 }
 
@@ -622,7 +761,8 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    set_major = yes
+    add_ideas = PRU_RED
 }
 }
 focus = {
@@ -633,7 +773,9 @@ focus = {
     y = 3
 
     cost = 5
-
+    available = {
+        has_completed_focus = PRU_se73
+    }
     ai_will_do = {
     factor = 1
     }	
@@ -642,7 +784,11 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    create_wargoal = {
+        type = annex_everything
+
+        target = PAN
+        }
 }
 }
 focus = {
@@ -665,7 +811,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = PRU_RED1
+        add_idea = PRU_RED2
+       }
 }
 }
 
@@ -689,7 +838,11 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    create_wargoal = {
+        type = annex_everything
+
+        target = MEX
+        }
 }
 }
 focus = {
@@ -709,7 +862,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = PRU_RED2
+        add_idea = PRU_RED3
+       }
 }
 }
 focus = {
@@ -729,7 +885,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+   add_ideas = PRU_kami
 }
 }
 
@@ -750,7 +906,49 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    custom_effect_tooltip = qasddax
+    declare_war_on = {
+        target = USA
+        type = annex_everything
+        }
+        declare_war_on = {
+            target = USN
+            type = annex_everything
+            }
+            declare_war_on = {
+                target = CSA
+                type = annex_everything
+                }
+                declare_war_on = {
+                    target = USB
+                    type = annex_everything
+                    }
+                    hidden_effect = {
+                        if = {
+                            limit = {  has_completed_focus = PRU_se65 }
+                            add_nuclear_bombs = 3
+                            launch_nuke = {
+                                province = 3878
+                                state = 849
+                                controller = USA
+                                use_nuke = yes
+                                }
+                                launch_nuke = {
+                                    province = 3878
+                                    state = 849
+                                    controller = USN
+                                    use_nuke = yes
+                                    }
+                                    launch_nuke = {
+                                        province = 3878
+                                        state = 849
+                                        controller = USB
+                                        use_nuke = yes
+                                        }
+                                goto_state = 849
+                        }
+                    }
+
 }
 }
 #© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
@@ -772,7 +970,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+   swap_ideas = {
+    remove_idea = PRU_RED
+    add_idea = PRU_RED1
+   }
 }
 }
 focus = {
@@ -792,7 +993,9 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_state_claim = 892
+    add_state_claim = 506
+    add_state_claim = 508
 }
 }
 focus = {
@@ -812,7 +1015,16 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    create_wargoal = {
+        type = annex_everything
+
+        target = ARG
+        }
+        create_wargoal = {
+            type = annex_everything
+
+            target = CHL
+            }
 }
 }
 focus = {
@@ -832,7 +1044,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    create_wargoal = {
+        type = annex_everything
+        target = BRA
+        }
 }
 }
 focus = {
@@ -852,7 +1067,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    create_wargoal = {
+        type = annex_everything
+        target = COL
+        }
 }
 }
 focus = {
@@ -872,7 +1090,11 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    create_wargoal = {
+        type = annex_everything
+
+        target = ENG
+        }
 }
 }
 focus = {
@@ -883,16 +1105,22 @@ focus = {
     y = 6
 
     cost = 5
-
+		available = {
+            has_completed_focus = PRU_se48
+		}
     ai_will_do = {
-    factor = 1
+    factor = 100
     }	
     cancel_if_invalid = yes
     continue_if_invalid = no
     available_if_capitulated = no
 
 completion_reward = {
-   
+    custom_effect_tooltip = PRU_i
+      every_state = {
+        limit = {  is_on_continent = south_america }
+        add_state_core = THIS
+      }
 }
 }
 focus = {
@@ -903,7 +1131,9 @@ focus = {
     y = 3
 
     cost = 5
-
+    available = {
+        has_completed_focus = PRU_se67
+    }
     ai_will_do = {
     factor = 1
     }	
@@ -912,7 +1142,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_stability = 0.1
 }
 }
 focus = {
@@ -923,7 +1153,9 @@ focus = {
     y = 4
 
     cost = 5
-
+    available = {
+        has_completed_focus = PRU_se57
+    }
     ai_will_do = {
     factor = 1
     }	
@@ -932,7 +1164,29 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    custom_effect_tooltip = SOV_penal_battalions_spawn_tt
+    hidden_effect = {
+        set_technology = { penal_infantry = 1 popup = no }
+
+        division_template = {
+            name = "戦列歩兵自由解放部隊"
+            regiments = {
+                penal_battalion = { x = 0 y = 0 }
+                penal_battalion = { x = 0 y = 1 }
+                penal_battalion = { x = 0 y = 2 }
+                penal_battalion = { x = 1 y = 0 }
+                penal_battalion = { x = 1 y = 1 }
+                penal_battalion = { x = 1 y = 2 }
+                penal_battalion = { x = 2 y = 0 }
+                penal_battalion = { x = 2 y = 1 }
+                penal_battalion = { x = 2 y = 2 }
+            }
+            support = {
+                artillery = { x = 0 y = 0 }
+            }
+        }
+        SOV_spawn_penal_divisions_effect = yes
+    }
 }
 }
 focus = {
@@ -952,7 +1206,21 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    create_wargoal = {
+        type = annex_everything
+
+        target = TUR
+        }
+        create_wargoal = {
+            type = annex_everything
+    
+            target = JAP
+            }
+            create_wargoal = {
+                type = annex_everything
+        
+                target = AUS
+                }
 }
 }
 focus = {
@@ -972,7 +1240,9 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    set_rule = {
+        can_declare_war_without_wargoal_when_in_war = yes
+        }
 }
 }
 focus = {
@@ -983,7 +1253,9 @@ focus = {
     y = 5
 
     cost = 5
-
+    available = {
+        has_completed_focus = PRU_se31
+    }
     ai_will_do = {
     factor = 1
     }	
@@ -992,7 +1264,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_country_leader_trait = zikoku
 }
 }
 focus = {
@@ -1012,7 +1284,11 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    custom_effect_tooltip = PRU_iq
+    every_state = {
+      limit = {  is_on_continent = north_america }
+      add_state_core = THIS
+    }
 }
 }
 }

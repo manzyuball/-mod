@@ -6,7 +6,7 @@ country_event = {
 	desc = mtg_britain.1.d
 	picture = GFX_report_event_eng_mosley_mussolini
 	trigger = {
-		has_global_flag = ITA_naisenn
+		has_global_flag = ITA_naisen
 	}
 	fire_only_once = yes
 	option = {

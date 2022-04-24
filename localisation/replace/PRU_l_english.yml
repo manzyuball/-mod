@@ -51,7 +51,20 @@
  PRU_se79:0 "殲滅"
  #IDEAS
  PRU_sasngakui:0 "アンデスの兵士"
-
+ PRU_saikenn:0 "再建"
+ PRU_sangyou:0 "産業の見直し"
+ PRU_sangyou1:0 "農業政策"
+ PRU_sangyou2:0 "農業政策"
+ PRU_sangyou3:0 "農業政策"
+ PRU_sangyou4:0 "帝国農業共同体"
+ PRU_YAKU:0 "薬物国家"
+ PRU_RED:0 "赤き帝国"
+ PRU_RED1:0 "赤き帝国"
+ PRU_RED2:0 "赤き帝国"
+ PRU_RED3:0 "赤き帝国"
+ PRU_kami:0 "ロスト・テクノロジー"
+ PRU_iq:0 "北インカ大陸の全州を中核化します"
+ PRU_i:0 "インカ大陸の全州を中核化します"
 
  teikoku:0 "帝国軽飛行機設計社"
  teikokuu:0 "帝国造船局"
@@ -62,5 +75,6 @@
  #友好度
  
  #隠し効果
-
+ zikoku:0 "地獄の創出者"
  #NF説明
+ qasddax:0 "もしロスト・テクノロジーを持っていれば開戦と同時に強い魔術により北の国は魔王の雲が破壊してゆくだろう"
