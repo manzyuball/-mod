@@ -609,7 +609,7 @@ focus = {
     id = PRU_se6
     icon = "GFX_focus_por_latin_american_communism"
     prerequisite = { focus = PRU_se2 }
-    x = 4
+    x = 8
     y = 2
 
     cost = 5
@@ -627,7 +627,7 @@ completion_reward = {
 }
 focus = {
     id = PRU_se61
-    icon = "GFX_goal_support_communism"
+    icon = "GFX_focus_hol_prepare_the_inundation_lines"
     prerequisite = { focus = PRU_se6 }
     x = 4
     y = 3
@@ -694,9 +694,9 @@ completion_reward = {
 }
 focus = {
     id = PRU_se64
-    icon = "GFX_focus_jap_pacific_guardian"
-    prerequisite = { focus = PRU_se62 focus = PRU_se63 }
-    x = 4
+    icon = "GFX_focus_SOV_builder_of_the_red_army"
+    prerequisite = { focus = PRU_se62 }
+    x = 3
     y = 5
 
     cost = 5
@@ -714,10 +714,10 @@ completion_reward = {
 }
 focus = {
     id = PRU_se65
-    icon = "GFX_focus_generic_provoke_border_clashes"
-    prerequisite = { focus = PRU_se64 }
-    x = 4
-    y = 6
+    icon = "GFX_focus_TUR_the_sun_language_theory"
+    prerequisite = { focus = PRU_se63 }
+    x = 5
+    y = 5
 
     cost = 5
 
@@ -736,9 +736,9 @@ completion_reward = {
 focus = {
     id = PRU_se66
     icon = "GFX_focus_SOV_the_last_purge"
-    prerequisite = { focus = PRU_se65 }
+    prerequisite = { focus = PRU_se65 focus = PRU_se64 }
     x = 4
-    y = 7
+    y = 6
 
     cost = 5
 
@@ -757,10 +757,250 @@ completion_reward = {
 #このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 focus = {
     id = PRU_se67
-    icon = "GFX_focus_spr_masters_of_our_own_fate"
-    prerequisite = { focus = PRU_se66 }
-    x = 4
-    y = 8
+    icon = "GFX_focus_GRE_reviving_the_spartan_warrior_spirit"
+    prerequisite = { focus = PRU_se6 }
+    x = 8
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se68
+    icon = "GFX_focus_generic_provoke_border_clashes"
+    prerequisite = { focus = PRU_se67 }
+    x = 8
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se69
+    icon = "GFX_goal_generic_major_war"
+    prerequisite = { focus = PRU_se68 }
+    x = 7
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se70
+    icon = "GFX_goal_generic_major_war"
+    prerequisite = { focus = PRU_se68 }
+    x = 9
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se71
+    icon = "GFX_focus_mex_caudillo_private_armies"
+    prerequisite = { focus = PRU_se70 }
+    x = 10
+    y = 6
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se72
+    icon = "GFX_focus_focus_fra_revolution_utmost"
+    prerequisite = { focus = PRU_se69 }
+    x = 6
+    y = 6
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se73
+    icon = "GFX_focus_por_reclaim_crown_jewel"
+    prerequisite = { focus = PRU_se69 focus = PRU_se70 }
+    x = 8
+    y = 6
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se74
+    icon = "GFX_focus_POL_beck_ribbentrop"
+    prerequisite = { focus = PRU_se6 }
+    x = 12
+    y = 3
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se75
+    icon = "GFX_focus_CZE_german_puppet"
+    prerequisite = { focus = PRU_se74 }
+    x = 11
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se76
+    icon = "GFX_focus_rom_handle_king"
+    prerequisite = { focus = PRU_se74 }
+    x = 13
+    y = 4
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se77
+    icon = "GFX_focus_eng_crush_the_dream"
+    prerequisite = { focus = PRU_se76 }
+    x = 13
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se78
+    icon = "GFX_focus_spr_the_anti_fascist_workers_revolution"
+    prerequisite = { focus = PRU_se75 }
+    x = 11
+    y = 5
+
+    cost = 5
+
+    ai_will_do = {
+    factor = 1
+    }	
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+completion_reward = {
+   
+}
+}
+focus = {
+    id = PRU_se79
+    icon = "GFX_focus_spr_crush_the_revolution"
+    prerequisite = { focus = PRU_se78 focus = PRU_se77 }
+    x = 12
+    y = 6
 
     cost = 5
 
