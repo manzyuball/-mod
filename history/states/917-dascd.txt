@@ -11,6 +11,7 @@ state={
 
 		}
 		add_core_of = SOV
+		add_core_of = VLA
 	}
 	state_category = town
 	manpower=321911

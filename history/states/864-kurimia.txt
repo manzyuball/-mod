@@ -23,6 +23,7 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = CRI
+		add_core_of = VLA
 	}
 	manpower=4024553
 	state_category = metropolis

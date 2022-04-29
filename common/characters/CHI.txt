@@ -14,16 +14,16 @@ characters={
 		}
 	}
 	
-	CHI_zhang_guotao={
-		name=CHI_zhang_guotao
+	CHI_chin={
+		name= CHI_chin
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+				large="gfx/leaders/_EOB/tin.dds"
 			}
 		}
 		country_leader={
-			ideology=leninism
-			traits={ cornered_fox }
+			ideology = marxism
+			traits={ chi_q }
 			expire="1965.1.1.1"
 			id=-1
 		}

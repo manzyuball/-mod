@@ -15,6 +15,7 @@ state={
 			721 1
 		}
 		owner = SOV
+		add_core_of = VLA
 		buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 3

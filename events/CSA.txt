@@ -11,7 +11,8 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = CSA.1.a
-	USB = {	
+	USB = {
+		add_ideas = naisenn
 		declare_war_on = {
 		target = CSA
 		type = annex_everything
@@ -25,7 +26,11 @@ country_event = {
 				type = annex_everything
 				}
 	}
+	USN = {
+		add_ideas = naisenn
+	}
 	USA = {	
+		add_ideas = naisenn
 		declare_war_on = {
 		target = CSA
 		type = annex_everything
@@ -40,6 +45,7 @@ country_event = {
 				}
 	}
 	CSA = {	
+		add_ideas = naisenn
 		declare_war_on = {
 		target = USB
 		type = annex_everything

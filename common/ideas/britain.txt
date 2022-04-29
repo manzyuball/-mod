@@ -1,14 +1,6 @@
 ideas = {
 
 	country = {
-
-		ENG_kuni = {
-			name = ENG_KUNI
-			picture = eng_the_kings_party
-			modifier = {
-				stability_factor = 0.05
-			}
-		}
 		ENG_loiyalnavy = {
 			name = ENG_loiyalnavy
 			picture = generic_navy_bonus
@@ -256,8 +248,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			modifier = {
-				stability_weekly = -0.001				
+			modifier = {			
 			}
 			
 
@@ -312,26 +303,6 @@ ideas = {
 			traits = { popular_figurehead }
 			
 		}
-
-		ENG_the_war_to_end_all_wars = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-			
-			removal_cost = -1
-						
-			modifier = {
-				conscription_factor = -0.30
-			}
-		}
-		
 	
 	naval_manufacturer = {
 		

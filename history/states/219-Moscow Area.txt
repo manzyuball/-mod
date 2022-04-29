@@ -11,8 +11,9 @@ state={
 
 	history={
 		owner = SOV
+		add_core_of = VLA
 		victory_points = {
-			6380 40
+			6380 45
 		}
 		buildings = {
 			infrastructure = 4 #was: 8

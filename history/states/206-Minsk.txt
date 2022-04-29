@@ -22,6 +22,7 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = BLR
+		add_core_of = VLA
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3

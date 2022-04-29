@@ -12,6 +12,7 @@ state={
 
 	history={
 		owner = CSA
+		add_core_of = USN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 9

@@ -1,6 +1,16 @@
 ideas = {
 
 	country = {
+		naisenn = {
+			picture = the_war_to_end_all_w
+			removal_cost = -1
+			
+			modifier = {
+				ai_focus_aggressive_factor = 0.85
+				join_faction_tension = 0.95
+				conscription = 0.05
+			}
+		}
 		great_depression = {
 			picture = usa_great_depression_3
 			

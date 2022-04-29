@@ -156,7 +156,7 @@ add_ideas = {
 	general_staff
 }
 
-recruit_character = GER_wilhelm_pieck
+recruit_character = GER_wal
 recruit_character = GER_konrad_adenauer
 recruit_character = GER_adolf_hitler
 recruit_character = GER_albert_kesselring
