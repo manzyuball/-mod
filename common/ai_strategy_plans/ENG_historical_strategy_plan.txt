@@ -31,6 +31,10 @@ ENG_historical_plan = {
 	}
 
 	ai_national_focuses = {
+		uk_b1 #February 20 1938	
+		uk_b2 #April 30 1938
+		uk_b5 #July 10 1938
+		uk_b56#September 20 1938
 		uk_fu #March 10 1936	
 		uk_fu2 #May 20 1936	
 		uk_fu21 #July 30 1936
@@ -42,10 +46,6 @@ ENG_historical_plan = {
 		uk_fu1  #July 20 1937
 		uk_fu13 #September 30 1937	
 		uk_fu14 #December 10 1937
-		uk_b1 #February 20 1938	
-		uk_b2 #April 30 1938
-		uk_b5 #July 10 1938
-		uk_b56#September 20 1938
 		uk_b57 #November 30 1938
 		uk_b58 #February 10 1939
 		uk_b59 #April 20 1939

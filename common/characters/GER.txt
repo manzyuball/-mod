@@ -31,7 +31,7 @@ characters={
 	GER_wal = {
 		name = GER_wal
 			civilian={
-				large="gfx/leaders/_EOB/WalterUlbricht.dds"
+				large="gfx/leaders/_EOB/walter.dds"
 			}
 		country_leader={
 			ideology=marxism

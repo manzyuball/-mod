@@ -2314,7 +2314,9 @@ focus = {
 		x = 38
 		y = 0
 		cost = 3
-		
+		ai_will_do = {
+			factor = 1000
+		}
 		available_if_capitulated = yes
 		completion_reward = {
 				add_popularity = {
@@ -2330,7 +2332,9 @@ focus = {
 		y = 1
 		cost = 3
 		prerequisite = { focus = uk_b1 }
-
+		ai_will_do = {
+			factor = 1000
+		}
 		available_if_capitulated = yes
 		completion_reward = {
 			add_political_power = 250
@@ -2704,7 +2708,9 @@ focus = {
 		y = 2
 		cost = 3
 		prerequisite = { focus = uk_b2 }
-
+		ai_will_do = {
+			factor = 1000
+		}
 		available_if_capitulated = yes
 		completion_reward = {
 			add_political_power = 75
@@ -2841,7 +2847,9 @@ focus = {
 		y = 3
 		cost = 3
 		prerequisite = { focus = uk_b5 }
-
+		ai_will_do = {
+			factor = 1000
+		}
 		available_if_capitulated = yes
 		completion_reward = {
 			JAP = {
