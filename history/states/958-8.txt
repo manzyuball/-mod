@@ -1,0 +1,28 @@
+
+state={
+	id=958
+	name="STATE_958"
+
+	history={
+		owner = LAT
+		victory_points = {
+			6375 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = LAT
+		add_core_of = GER
+
+	}
+
+	provinces={
+		266 9327 9372 9398 11386 
+	}
+	manpower=2140234
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,9 +1,22 @@
 characters={
+	TUR_abdulmejid_ii = {
+		name= TUR_abdulmejid_ii
+		portraits={
+			civilian={
+				large="gfx/leaders/TUR/kemaru.dds" #Can become country leader later (Non-Aligned -> Despotism)
+			}
+		}
+		
+		country_leader={
+			ideology=despotism
+			traits={ karihu }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
 	TUR_mustafa_kemal_ataturk={
 		instance = {
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-			}
 			name=TUR_mustafa_kemal_ataturk
 			portraits={
 				civilian={
@@ -13,17 +26,8 @@ characters={
 					large = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk_Military.dds"
 				}
 			}
-			country_leader={
-				ideology=despotism
-				traits={ father_of_the_turks }
-				expire="1965.1.1.1"
-				id=-1
-			}
 		}
 		instance = {
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
 			name=TUR_mustafa_kemal_ataturk
 			portraits={
 				civilian={
@@ -33,19 +37,11 @@ characters={
 					large = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk_Military.dds"
 				}
 			}
-			country_leader={
-				ideology=despotism
-				expire="1965.1.1.1"
-				id=-1
-			}
 		}
 	}
 
 	TUR_sefik_husnu={
 		instance = {
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-			}
 			name=TUR_sefik_husnu
 			portraits={
 				civilian={
@@ -57,42 +53,13 @@ characters={
 			}
 			advisor={
 				slot = political_advisor
-				idea_token = TUR_sefik_husnu
 				allowed = {
 					original_tag = TUR
-					has_dlc = "Battle for the Bosporus"
 				}
 				available = {
 					custom_trigger_tooltip = {
 						tooltip = TUR_can_only_have_one_prime_minister_tt
-						NOT = {
-							OR = {
-								has_idea = TUR_ismet_inonu 
-								has_idea = TUR_fevzi_cakmak_prime_minister 
-								has_idea = TUR_sukru_saracoglu_prime_minister 
-								has_idea = TUR_celal_bayar 
-								has_idea = TUR_fethi_okyar 
-								has_idea = TUR_sevket_sureyya_aydemir 
-								has_idea = TUR_recep_peker 
-								has_idea = TUR_adnan_menderes 
-								has_idea = TUR_nuri_demirag_prime_minister 
-								has_idea = TUR_said_i_nursi 
-								has_idea = TUR_nihal_atsiz 
-							}
-						}
-					}
-				}
-				visible = {
-					has_completed_focus = TUR_lift_the_turkiye_komunist_partisis_exile 
-					NOT = {
-						has_country_leader = {
-							character = TUR_sefik_husnu
-							ruling_only = yes 
-						}
-					}
-				}
 				traits = {
-					prime_minister_husnu 
 				}
 			}
 
@@ -105,7 +72,6 @@ characters={
 		}
 		instance = {
 			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
 			}
 			name=TUR_sefik_husnu
 			portraits={
@@ -135,57 +101,27 @@ characters={
 			}
 			country_leader={
 				ideology=conservatism
-				traits={ liberal_democratic_paragon }
+				traits={  }
 				expire="1965.1.1.1"
 				id=-1
 			}
 
 			advisor={
 				slot = political_advisor
-				idea_token = TUR_celal_bayar
 				allowed = {
 					original_tag = TUR
-					has_dlc = "Battle for the Bosporus"
 				}
 				available = {
 					custom_trigger_tooltip = {
-						tooltip = TUR_can_only_have_one_prime_minister_tt
-						NOT = {
-							OR = {
-								has_idea = TUR_ismet_inonu 
-								has_idea = TUR_fevzi_cakmak_prime_minister 
-								has_idea = TUR_sukru_saracoglu_prime_minister 
-								has_idea = TUR_fethi_okyar 
-								has_idea = TUR_sevket_sureyya_aydemir 
-								has_idea = TUR_recep_peker 
-								has_idea = TUR_adnan_menderes 
-								has_idea = TUR_nuri_demirag_prime_minister 
-								has_idea = TUR_sefik_husnu 
-								has_idea = TUR_said_i_nursi 
-								has_idea = TUR_nihal_atsiz 
-							}
-						}
-					}
-					has_completed_focus = TUR_fully_integrate_the_is_bank 
 				}
 				visible = {
-					NOT = {
-						has_completed_focus = TUR_continue_the_policy_of_etatism 
-						has_country_flag = TUR_menderes_rebellion 
-						has_country_leader = {
-							character = TUR_celal_bayar
-							ruling_only = yes 
-						}
-					}
 				}
 				traits = {
-					prime_minister_bayar 
 				}
 			}
 		}
 		instance = {
 			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
 			}
 			name=TUR_celal_bayar
 			portraits={
@@ -205,7 +141,6 @@ characters={
 	TUR_ismet_inonu = {
 		instance = {
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 			}
 			name=TUR_ismet_inonu
 			portraits={
@@ -218,58 +153,19 @@ characters={
 			}
 			advisor={
 				slot = political_advisor
-				idea_token = TUR_ismet_inonu
 				allowed = {
 					original_tag = TUR
-					has_dlc = "Battle for the Bosporus"
 				}
-				available = {
-					custom_trigger_tooltip = {
-						tooltip = TUR_can_only_have_one_prime_minister_tt
-						NOT = {
-							OR = {
-								has_idea = TUR_fevzi_cakmak_prime_minister 
-								has_idea = TUR_sukru_saracoglu_prime_minister 
-								has_idea = TUR_celal_bayar 
-								has_idea = TUR_fethi_okyar 
-								has_idea = TUR_sevket_sureyya_aydemir 
-								has_idea = TUR_recep_peker 
-								has_idea = TUR_adnan_menderes 
-								has_idea = TUR_nuri_demirag_prime_minister 
-								has_idea = TUR_sefik_husnu 
-								has_idea = TUR_said_i_nursi 
-								has_idea = TUR_nihal_atsiz 
-							}
-						}
-					}
-					has_completed_focus = TUR_continue_the_policy_of_etatism 
+				available = { 
 				}
 				visible = {
-					NOT = {
-						OR = {
-							has_completed_focus = TUR_fully_integrate_the_is_bank 
-							has_country_leader = {
-								character = TUR_ismet_inonu
-								ruling_only = yes 
-							}
-						}
-					}
 				}
 				traits = {
-					prime_minister_inonu 
 				}
-			}
-			
-			country_leader={
-				ideology=despotism
-				traits={ milli_sef }
-				expire="1965.1.1.1"
-				id=-1
 			}
 		}
 		instance = {
 			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
 			}
 			name=TUR_ismet_inonu
 			portraits={
@@ -277,12 +173,7 @@ characters={
 					large="gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu.dds"
 				}
 			}
-			country_leader={
-				ideology=despotism
-				traits={ }
-				expire="1965.1.1.1"
-				id=-1
-			}
+
 		}
 	}
 
@@ -296,15 +187,6 @@ characters={
 		gender = female
 	}
 
-	TUR_abdulmejid_ii = {
-		name=TUR_abdulmejid_ii
-		portraits={
-			civilian={
-				large="GFX_portrait_tur_abdulmejid_ii" #Can become country leader later (Non-Aligned -> Despotism)
-			}
-		}
-	}
-
 	TUR_izzettin_chalishlar={
 		name=TUR_izzettin_chalishlar
 		portraits={
@@ -314,7 +196,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ infantry_officer war_hero trait_TUR_kemalist_champion trait_mountaineer }
+			traits={ }
 			skill=3
 			attack_skill=4
 			defense_skill=3
@@ -339,24 +221,16 @@ characters={
 			ledger = army
 			allowed = {
 				original_tag = TUR
-				has_dlc = "Battle for the Bosporus"
 			}
 			available = {
-				NOT = {
-					has_country_leader = {
-						character = TUR_mustafa_kemal_ataturk
-						ruling_only = yes
-					}
-				}
 			}
 			
 			traits = {
-				grand_battle_plan_expert
 			}
 		}
 
 		corps_commander={
-			traits={ trait_cautious politically_connected desert_fox }
+			traits={  }
 			skill=2
 			attack_skill=1
 			defense_skill=1
@@ -375,7 +249,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ harsh_leader }
+			traits={  }
 			skill=2
 			attack_skill=3
 			defense_skill=2
@@ -388,7 +262,6 @@ characters={
 	TUR_mehmet_salih_omurtak={
 		instance = {
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 			}
 			name=TUR_mehmet_salih_omurtak
 			portraits={
@@ -402,17 +275,10 @@ characters={
 				idea_token = TUR_mehmet_salih_omurtak
 				allowed = {
 					original_tag = TUR
-					has_dlc = "Battle for the Bosporus"
 				}
 				available = {
-					NOT = {
-						has_country_flag = TUR_ottoman_officers_invited_back
-					}
 				}
 				visible = {
-					NOT = {
-						has_country_flag = TUR_ottoman_officers_invited_back
-					}
 				}
 				traits = {
 					army_chief_drill_2
@@ -424,7 +290,7 @@ characters={
 			}
 			
 			corps_commander={
-				traits={ harsh_leader infantry_officer politically_connected trait_TUR_kemalist_champion }
+				traits={ harsh_leader infantry_officer politically_connected  }
 				skill=2
 				attack_skill=2
 				defense_skill=1
@@ -2648,4 +2514,7 @@ characters={
 			visible = { has_completed_focus = TUR_the_italo_turkish_naval_academy }
 		}
 	}
+}
+}
+}
 }

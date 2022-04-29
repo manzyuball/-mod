@@ -192,7 +192,7 @@ if = {
 	}
 	set_autonomy = {
 		target = EGY
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_collaboration_government
 		freedom_level = 0.1
 	}
 	else = {

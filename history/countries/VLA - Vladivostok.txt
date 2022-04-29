@@ -79,7 +79,19 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+if = {
+	limit = {
+			has_dlc = "La Resistance"
+	}
+	set_autonomy = {
+		target = UZB
+		autonomous_state = autonomy_collaboration_government
+		freedom_level = 0.1
+	}
+	else = {
+		puppet = UZB
+	}
+}
 set_popularities = {
 	democratic = 80
 	fascism = 10

@@ -28,11 +28,11 @@ characters={
 		}
 	}
 
-	JAP_tetsu_katayama={
-		name=JAP_tetsu_katayama
+	JAP_kizt={
+		name=JAP_kizt
 		portraits={
 			civilian={
-				large="GFX_Portrait_tetsu_katayama"
+				large="gfx/leaders/JAP/kizyuro.dds"
 			}
 		}
 		country_leader={

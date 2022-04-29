@@ -341,7 +341,7 @@
 		}
 
 		available = {
-
+			has_country_flag = jap_a2
 		}
 
 		bypass = {
@@ -1014,12 +1014,166 @@
 
 		}
 	}
+	focus = {
+		id = JAP_c1
+		icon = "GFX_goal_generic_major_alliance"
+		prerequisite = { focus = JAP_a5 }
+		x = 25
+		y = 5
 
+		cost = 10
 
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
 
+		}
+	}
+	focus = {
+		id = JAP_c2
+		icon = "GFX_focus_usa_focus_on_europe"
+		prerequisite = { focus = JAP_c1 }
+		x = 25
+		y = 6
 
+		cost = 10
 
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
 
+		}
+	}
+	focus = {
+		id = JAP_c4
+		icon = "GFX_focus_por_reclaim_crown_jewel"
+		prerequisite = { focus = JAP_c1 }
+		x = 27
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_c3
+		icon = "GFX_focus_por_recover_brazil"
+		prerequisite = { focus = JAP_c4 }
+		x = 27
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_c5
+		icon = "GFX_focus_proclaim_the_restauration_of_Austria_Hungary"
+		prerequisite = { focus = JAP_c2 }
+		x = 25
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_c6
+		icon = "GFX_focus_generic_polish_deal"
+		prerequisite = { focus = JAP_c5 }
+		x = 25
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_c7
+		icon = "GFX_focus_generic_befriend_turkey"
+		prerequisite = { focus = JAP_c5 }
+		x = 27
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JAP_c8
+		icon = "GFX_focus_ger_revive_kaiserreich"
+		prerequisite = { focus = JAP_c5 }
+		x = 23
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
 
 
 

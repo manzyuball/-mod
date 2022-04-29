@@ -2844,7 +2844,13 @@ focus = {
 
 		available_if_capitulated = yes
 		completion_reward = {
-			ENG = { add_to_faction = JAP }
+			JAP = {
+			country_event = {
+				id = japan.19
+				days = 1
+				random = 0
+				}
+			}
 			reverse_add_opinion_modifier = {
 				target = JAP
 				modifier = kyuusekkinn

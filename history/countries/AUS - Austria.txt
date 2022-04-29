@@ -19,7 +19,7 @@ create_faction = "中央同盟国"
 add_to_faction = AUS
 add_to_faction = BUL
 add_to_faction = TUR
-recruit_character = AUS_kurt_schuschnigg
+recruit_character = AUS_Wilhelm
 recruit_character = AUS_karl_renner
 recruit_character = AUS_Adolf_Hitler
 recruit_character = AUS_alfred_klahr
@@ -43,16 +43,16 @@ recruit_character = AUS_leopold_figl
 
 
 set_politics = {
-	ruling_party = netrality
+	ruling_party = democratic
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 70
+	neutrality = 5
 	fascism = 20
-	democratic = 5
+	democratic = 70
 	communism = 5
 }
 

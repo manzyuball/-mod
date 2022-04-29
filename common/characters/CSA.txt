@@ -1,4 +1,17 @@
 characters={
+	CSA_mak={
+		name = CSA_mak
+		portraits={
+			civilian={
+				large="gfx/leaders/CSA/makassa.dds"
+			}
+		}
+		country_leader={
+			ideology = fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	CSA_georges_vereecken={
 		advisor={
 			slot = navy_chief

@@ -471,6 +471,10 @@ ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
 }
+UZB = {
+	color = rgb { 250 250 250  }
+	color_ui = rgb { 250 250 250 }
+}
 CSA = {
 	color = rgb { 145 163 176  }
 	color_ui = rgb { 186 205 219 }
@@ -748,8 +752,8 @@ YAK = {
 	color_ui = rgb { 0 179 179 }
 }
 VLA = {
-	color = rgb { 255 204 0 }
-	color_ui = rgb { 204 163 0 }
+	color = rgb { 250 250 250  }
+	color_ui = rgb { 250 250 250 }
 }
 KKP = {
 	color = rgb { 255 128 0 }

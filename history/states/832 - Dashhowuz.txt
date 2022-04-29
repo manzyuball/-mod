@@ -4,7 +4,7 @@ state = {
 
 	history = {
 	
-		owner = SOV
+		owner = TMS
 		
 		victory_points = {
 			1493 1
@@ -18,7 +18,6 @@ state = {
 		
 		add_core_of = SOV
 		add_core_of = TMS
-		add_core_of = KHI
 
 	}
 

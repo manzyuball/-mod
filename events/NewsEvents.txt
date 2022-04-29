@@ -170,9 +170,10 @@ news_event = {
 	picture = GFX_news_event_020
 	major = yes
 	trigger = {
+		tag = JAP
 		JAP = {
 			is_in_faction_with = ENG
-		}	
+		}
 	}
 	is_triggered_only = yes
 	option = {

@@ -1,15 +1,18 @@
 characters={
-	AUS_kurt_schuschnigg={
-		name=AUS_kurt_schuschnigg
+	AUS_Wilhelm={
+		name= AUS_Wilhelm
 		portraits={
 			civilian={
-				large="gfx/leaders/AUS/Portrait_Austria_Kurt_Schuschnigg.dds"
+				large="gfx/leaders/AUS/Wilhelm.dds"
 			}
 		}
 		country_leader={
-			ideology=centrism
+			ideology=socialism
 			expire="1965.1.1.1"
 			id=-1
+			traits  = {
+				kat
+				}
 		}
 	}
 	AUS_karl_renner={
@@ -20,7 +23,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=centrism
 			expire="1965.1.1.1"
 			id=-1
 		}
