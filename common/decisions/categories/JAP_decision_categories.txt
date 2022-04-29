@@ -4,3 +4,9 @@ JAP_interservice_rivalry = {
 		has_dlc = "Waking the Tiger"
 	}
 }
+JAP_bouhatei = {
+	icon = jap_pacific_guardian
+	allowed = {
+		original_tag = JAP
+	}
+}

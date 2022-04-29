@@ -1,5 +1,22 @@
 ideas = {
 	country = {
+		ENblo = {
+			picture = gre_schachtplan
+			modifier = {
+				consumer_goods_factor = -0.05
+				min_export = -0.05
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		goudou = {
+			picture = chi_army_corruption3
+			modifier = {
+				experience_gain_army = 0.5
+				experience_gain_air = 0.5
+				training_time_factor = -0.25
+			}
+		}
 		JES = {
 			name = J_JES
 			picture = JAP_industrial_standard
