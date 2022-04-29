@@ -48,10 +48,31 @@ characters={
 			slot = political_advisor
 			idea_token = AUS_Adolf_Hitler
 			allowed  = {
-					original_tag  = AUS
+				has_country_flag = AUS_nazi
+				original_tag  = AUS
+				
 				}
 				traits  = {
-				constitutional_monarch_minor
+					nationalist_symbol
+			}
+
+		}
+	}
+	AUS_doruhusu = {
+		name= AUS_doruhusu
+		portraits={
+			civilian={
+				small="GFX_idea_gre_xenophon_giosmas"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			allowed  = {
+				has_country_flag = AUS_nazi
+				original_tag  = AUS
+				}
+			traits  = {
+				imperial_connections
 			}
 
 		}

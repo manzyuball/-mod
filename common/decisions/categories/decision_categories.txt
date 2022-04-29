@@ -5,6 +5,12 @@ AUS_decisions = {
 	has_government = fascism
  }
 }
+AUS_enze_decisions = {
+	icon = SOV_propaganda
+	visible = {
+		has_country_flag = AUS_hit
+	}
+   }
 #SWE
 SWE_decisions = {
 	icon = generic

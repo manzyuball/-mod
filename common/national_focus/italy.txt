@@ -881,6 +881,12 @@
 			}
 			hidden_effect = {
 				set_global_flag = ITA_naisen
+				MLT = {
+					set_rule = {
+					can_be_called_to_war = no
+					}
+				}
+				leave_faction = yes
 			}
 		}
 	}

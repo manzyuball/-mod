@@ -10,3 +10,10 @@ JAP_bouhatei = {
 		original_tag = JAP
 	}
 }
+ENG_decision = {
+	icon = generic_propaganda
+	allowed = {
+		has_war = yes
+		original_tag = ENG
+	}
+}
