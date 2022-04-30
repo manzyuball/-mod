@@ -62,6 +62,18 @@
  AUS_na2:0 "パンの配布"
  AUS_roudousya:0 "労働者の鼓舞"
  AUS_isi:0 "国民の声の勝利"
+ AUS_hous:0 "国家に奉仕せよ"
+ AUS_huhai:0 "カトリックを信仰せよ"
+ AUS_huhai2:0 "プロテスタントを信じよ"
+ AUS_doruhu:0 "アドルフ=ドルフース連合"
+ AUS_gyokuza:0 "玉座への介入"
+ AUS_gyokuza1:0 "封じられた王の権限"
+ AUS_gyokuza2:0 "象徴の皇帝"
+ AUS_yon:0 "四カ年計画"
+ AUS_genron:0 "緊急時言論法"
+ AUS_genron1:0 "緊急時言論法"
+ AUS_aka:0 "アカへの抵抗"
+ AUS_koutu:0 "高水準の交通網"
  #友好度
  
  #隠し効果 
@@ -72,6 +84,6 @@
  AUS_hit:0 "ヒトラーが演説の用意をした"
  AUS_en1:0 "反共産主義の演説"
  AUS_ro1:0 "労働者へ語り掛ける"
- US_bou1:0 "国民の不安を煽る"
+ AUS_bou1:0 "国民の不安を煽る"
  AUS_nou1:0 "農民の権利の保障を宣言"
  AUS_rou1:0 "大規模な集会を開く"

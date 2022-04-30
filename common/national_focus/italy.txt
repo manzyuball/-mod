@@ -868,6 +868,7 @@
 		}
 
 		available = {
+			GER = { has_war_with = SWE }
 		}
 
 		completion_reward = {
@@ -883,8 +884,9 @@
 				set_global_flag = ITA_naisen
 				MLT = {
 					set_rule = {
-					can_be_called_to_war = no
+					can_be_called_to_war = not
 					}
+					add_ideas =  naisenn1
 				}
 				leave_faction = yes
 			}

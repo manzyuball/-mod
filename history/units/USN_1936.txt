@@ -11,9 +11,6 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
@@ -33,10 +30,6 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-		artillery_brigade = { x = 1 y = 3 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }  
@@ -122,313 +115,9 @@ division_template = {
 
 ###### OOB ######
 units = {
-	
-
 	division = {			
-		name = "オレゴン州兵"
-		location = 12211
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-	}
-	division = {			
-		name = "オレゴン州兵"
-		location = 4274
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-	}
-	division = {			
-		name = "ワシントン州兵"
-		location = 10327
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ワシントン州兵"
-		location = 7414
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ワシントン州兵"
-		location = 7442
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カルフォルニア州兵"
-		location = 3588
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カルフォルニア州兵"
-		location = 1440
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カルフォルニア州兵"
-		location = 9713
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カルフォルニア州兵"
-		location = 4518
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カルフォルニア州兵"
-		location = 10387
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カルフォルニア州兵"
-		location = 7986
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カルフォルニア州兵"
-		location = 986
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カルフォルニア州兵"
-		location = 3637
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カルフォルニア州兵"
-		location = 1432
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ネバダ州兵"
-		location = 10591
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "アリゾナ州兵"
-		location = 10573
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "アリゾナ州兵"
-		location = 11814
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "アリゾナ州兵"
-		location = 3834
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ニューメキシコ州兵"
-		location = 4975
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ニューメキシコ州兵"
-		location = 2102
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ニューメキシコ州兵"
-		location = 10867
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ニューメキシコ州兵"
-		location = 12720
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ニューメキシコ州兵"
-		location = 3867
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ニューメキシコ州兵"
-		location = 12791
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ユタ州兵"
-		location = 3867
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ユタ州兵"
-		location = 4865
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-		division = {			
-		name = "ユタ州兵"
-		location = 13153
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "アイダホ州兵"
-		location = 12535
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ユタ州兵"
-		location = 9616
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ユタ州兵"
-		location = 1832
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "モンタナ州兵"
-		location = 10624
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "モンタナ州兵"
-		location = 4860
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ノースダコタ州兵"
-		location = 4759
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ノースダコタ州兵"
-		location = 3719
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ノースダコタ州兵"
-		location = 1870
-		division_template = "州兵"
-		start_equipment_factor= 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ノースダコタ州兵"
-		location = 10685
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "サウスダコタ州兵"
-		location = 4880
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "サウスダコタ州兵"
-		location = 12667
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "サウスダコタ州兵"
-		location = 10595
+		name = "ネブラスカ州兵"
+		location = 12586
 		division_template = "州兵"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
@@ -436,7 +125,63 @@ units = {
 	}
 	division = {			
 		name = "ネブラスカ州兵"
-		location = 1832
+		location = 10676
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カンザス州兵"
+		location = 4740
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カンザス州兵"
+		location = 4586
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "カンザス州兵"
+		location = 9802
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ミズーリ州兵"
+		location = 4569
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ミズーリ州兵"
+		location = 4569
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ミズーリ州兵"
+		location = 10717
+		division_template = "州兵"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+	division = {			
+		name = "ミズーリ州兵"
+		location = 1534
 		division_template = "州兵"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
@@ -600,7 +345,6 @@ units = {
 		division_template = "州兵"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	
 air_wings = {

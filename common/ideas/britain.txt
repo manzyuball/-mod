@@ -130,7 +130,7 @@ ideas = {
 		}
 		ENG_Kyoukou3 = {
 			name = ENG_Kyoukou3
-			picture = generic_closed_economy
+			picture = closed_economy
 
 			modifier = {
 				min_export = 0.05
@@ -140,7 +140,7 @@ ideas = {
 
 		ENG_Kyoukou4 = {
 			name = ENG_Kyoukou4
-			picture = generic_export_focus
+			picture = free_trade
 
 			modifier = {
 				min_export = 0.15

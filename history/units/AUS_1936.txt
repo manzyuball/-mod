@@ -1,7 +1,5 @@
 ﻿division_template = {
-	name = "Infanterie Division"
-	division_names_group = AUS_INF_01
-
+	name = "二重帝国戦列塹壕隊"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -46,7 +44,7 @@ support = {
 }
 
 division_template = {
-	name = "Alpenjäger Division"
+	name = "アルプス隊"
 	division_names_group = AUS_MNT_01
 
 	regiments = {
@@ -63,7 +61,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Schnelle Division"  		# Schnelle-Division (cavalry)
+	name = "駐屯兵"  		# Schnelle-Division (cavalry)
 	division_names_group = AUS_CAV_01
 
 	regiments = {
@@ -77,6 +75,287 @@ division_template = {
 units = {
 	##### Österreichisches Bundesheer #####
 	# I Korps
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 11666  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9660  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9427  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 3924  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 3585 # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 688  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 6626  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9648  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9548  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 11539  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 11666  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9660  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9427  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 3924  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 3585 # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 688  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 6626  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9648  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9548  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 11539  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 11666  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9660  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9427  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 3924  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 3585 # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 688  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 6626  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9648  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9548  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 11539  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 11666  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9660  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9427  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 3924  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 3585 # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 688  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 6626  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9648  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 9548  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "二重帝国戦列塹壕隊"
+		location = 11539  # Vienna
+		division_template = "二重帝国戦列塹壕隊"
+		start_experience_factor = 0.3
+
+	}
+########################################################
 	division= {	
 		name = "二重帝国歩兵部隊"
 		location = 9598  # Vienna

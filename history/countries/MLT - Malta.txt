@@ -119,8 +119,6 @@ recruit_character = MLT_nccr
 set_rule = {
 	can_be_called_to_war = no
 	}
-ENG = { add_to_faction = MLT }
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

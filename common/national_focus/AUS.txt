@@ -124,7 +124,7 @@ focus_tree = {
 		y = 4
 		cost = 5
 		available = {
-			fascism > 0.75
+			fascism > 0.45
       	}
         prerequisite = { focus = AUS_naz2 }
 		relative_position_id = AUS_na_1
@@ -158,6 +158,7 @@ focus_tree = {
         prerequisite = { focus = AUS_naz7 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_political_power = 150
 		}
 	}
     focus = {
@@ -166,10 +167,14 @@ focus_tree = {
 		x = 5
 		y = 6
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
         prerequisite = { focus = AUS_naz9 }
         mutually_exclusive = { focus = AUS_naz11 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_ideas = AUS_doruhu
 		}
 	}
     focus = {
@@ -178,6 +183,9 @@ focus_tree = {
 		x = 9
 		y = 6
 		cost = 5
+		ai_will_do = {
+			factor = 0
+		}
         prerequisite = { focus = AUS_naz9 }
         mutually_exclusive = { focus = AUS_naz10 }
 		relative_position_id = AUS_na_1
@@ -316,6 +324,7 @@ focus_tree = {
         prerequisite = { focus = AUS_naz10 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_ideas = AUS_gyokuza
 		}
 	}
     focus = {
@@ -327,6 +336,7 @@ focus_tree = {
         prerequisite = { focus = AUS_naz23 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_ideas = AUS_genron
 		}
 	}
     focus = {
@@ -338,6 +348,10 @@ focus_tree = {
         prerequisite = { focus = AUS_naz23 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = LAT
+				modifier = kyuusekkinn
+				}
 		}
 	}
     focus = {
@@ -349,6 +363,10 @@ focus_tree = {
         prerequisite = { focus = AUS_naz23 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = AUS_gyokuza
+				add_idea = AUS_gyokuza1
+				}
 		}
 	}
     focus = {
@@ -360,6 +378,10 @@ focus_tree = {
         prerequisite = { focus = AUS_naz10 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_political_power = 150
+			HUN_miklos_horthy = {
+				remove_unit_leader = yes
+			}
 		}
 	}
     focus = {
@@ -371,6 +393,7 @@ focus_tree = {
         prerequisite = { focus = AUS_naz25 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			AUS = { add_to_faction = LAT }
 		}
 	}
     focus = {
@@ -382,6 +405,10 @@ focus_tree = {
         prerequisite = { focus = AUS_naz26 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = AUS_gyokuza1
+				add_idea = AUS_gyokuza2
+				}
 		}
 	}
     focus = {
@@ -393,6 +420,10 @@ focus_tree = {
         prerequisite = { focus = AUS_naz24 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = AUS_genron
+				add_idea = AUS_genron1
+				}
 		}
 	}
     focus = {
@@ -405,6 +436,7 @@ focus_tree = {
         prerequisite = { focus = AUS_naz28 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_ideas = AUS_aka
 		}
 	}
     focus = {
@@ -416,6 +448,13 @@ focus_tree = {
         prerequisite = { focus = AUS_naz31 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ITA
+				}
+				add_state_core = 160
+				add_state_core = 159
+				add_state_core = 870
 		}
 	}
     focus = {
@@ -427,6 +466,18 @@ focus_tree = {
         prerequisite = { focus = AUS_naz31 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_state_core = 53
+			add_state_core = 52
+			add_state_core = 151
+			add_state_core = 873
+			add_state_core = 50
+			add_state_core = 54
+			add_state_core = 55
+			add_state_core = 42
+			add_state_core = 51
+			add_state_core = 65
+			add_state_core = 60
+			add_state_core = 57
 		}
 	}
     focus = {
@@ -438,6 +489,33 @@ focus_tree = {
         prerequisite = { focus = AUS_naz31 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_state_core = 66
+			add_state_core = 67
+			add_state_core = 762
+			add_state_core = 56
+			add_state_core = 59
+			add_state_core = 64
+			add_state_core = 842
+			add_state_core = 68
+			add_state_core = 63
+			add_state_core = 62
+			add_state_core = 61
+			add_state_core = 58
+			add_state_core = 807
+			add_state_core = 85
+			add_state_core = 5
+			add_state_core = 958
+			add_state_core = 763
+			add_state_core = 188
+			add_state_core = 841
+			if = {
+				limit = { LAT = { has_opinion = { target = AUS value > 95 } } }
+				annex_country = {
+					target = LAT
+					transfer_troops = yes
+					}
+				}
+		
 		}
 	}
     focus = {
@@ -449,6 +527,8 @@ focus_tree = {
         prerequisite = { focus = AUS_naz9 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			
+			add_political_power = -150
 		}
 	}
     focus = {
@@ -460,6 +540,7 @@ focus_tree = {
         prerequisite = { focus = AUS_naz35 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_political_power = -150
 		}
 	}
     focus = {
@@ -471,6 +552,7 @@ focus_tree = {
         prerequisite = { focus = AUS_naz36 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_ideas = AUS_koutu
 		}
 	}
     focus = {
@@ -482,6 +564,10 @@ focus_tree = {
         prerequisite = { focus = AUS_naz7 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_timed_idea = {
+				idea = AUS_yon
+				days = 1460
+			}
 		}
 	}
     focus = {
@@ -493,6 +579,90 @@ focus_tree = {
         prerequisite = { focus = AUS_naz38 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+		736 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			102 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			4 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			856 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			70 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			75 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			9 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			878 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			155 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			43 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			72 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			88 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
 		}
 	}
     focus = {
@@ -504,6 +674,11 @@ focus_tree = {
         prerequisite = { focus = AUS_naz38 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 46
+				state = 9
+				}
 		}
 	}
     focus = {
@@ -515,6 +690,7 @@ focus_tree = {
         prerequisite = { focus = AUS_naz38 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_research_slot = 1
 		}
 	}
     focus = {
@@ -526,6 +702,10 @@ focus_tree = {
         prerequisite = { focus = AUS_naz38 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_timed_idea = {
+				idea = AUS_hous
+				days = 365
+			}
 		}
 	}
     focus = {
@@ -537,6 +717,38 @@ focus_tree = {
         prerequisite = { focus = AUS_naz38 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
     focus = {
@@ -549,6 +761,7 @@ focus_tree = {
         prerequisite = { focus = AUS_naz7 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_ideas = AUS_huhai
 		}
 	}
     focus = {
@@ -561,6 +774,7 @@ focus_tree = {
         prerequisite = { focus = AUS_naz7 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			add_ideas = AUS_huhai2
 		}
 	}
     focus = {
@@ -573,6 +787,16 @@ focus_tree = {
         prerequisite = { focus = AUS_naz7 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			army_experience = 50
+			reverse_add_opinion_modifier = {
+				target = CSA
+				modifier = kyuusekkinn
+				}
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 1200
+					target = CSA
+					}
 		}
 	}
     focus = {
@@ -585,6 +809,16 @@ focus_tree = {
         prerequisite = { focus = AUS_naz7 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
+			army_experience = 50
+			reverse_add_opinion_modifier = {
+				target = USN
+				modifier = kyuusekkinn
+				}
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 1200
+					target = USN
+					}
 		}
 	}
 }

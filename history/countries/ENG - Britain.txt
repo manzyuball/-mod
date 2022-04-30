@@ -229,7 +229,6 @@ add_to_faction = SAF
 give_military_access = RAJ
 add_to_faction = RAJ
 add_to_faction = MAL
-give_guarantee = MLT
 give_guarantee = OMA
 give_guarantee = JAP
 give_guarantee = TZN

@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Divisão de Infantaria"		# Infantry Division
+	name = "歩兵隊"		# Infantry Division
 	division_names_group = BRA_INF_01
 
 	regiments = {
@@ -33,84 +33,151 @@ division_template = {
 }
 
 units = {
-	##### Exército Brasileiro #####
-	division= {	# "1a Divisão de Infantaria"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 10980 # Rio de Janiero
-		division_template = "Divisão de Infantaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
+	division= {
+		name = "南米歩兵隊"
+		location = 10980
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
 	}
-	division= {	# "2a Divisão de Infantaria"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 10513 # Sao Paulo
-		division_template = "Divisão de Infantaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
+	division= {
+		name = "南米歩兵隊"
+		location = 7476
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
 	}
-	division= {	# "3a Divisão de Infantaria"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 3
-		}
-		location = 10447 # Porto Alegre
-		division_template = "Divisão de Infantaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
+	division= {
+		name = "南米歩兵隊"
+		location = 5112
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
 	}
-	division= {	# "4a Divisão de Infantaria"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 4
-		}
-		location = 5168 # Recife
-		division_template = "Divisão de Infantaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
+	division= {
+		name = "南米歩兵隊"
+		location = 12977
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
 	}
-	division= {	# "5a Divisão de Infantaria"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 5
-		}
-		location = 8242 # Belo Horizonte
-		division_template = "Divisão de Infantaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
+	division= {
+		name = "南米歩兵隊"
+		location = 2227
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
 	}
-	division= {	# "1a Divisão de Cavalaria"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 12853 # Belem
-		division_template = "Divisão de Cavalaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
+	division= {
+		name = "南米歩兵隊"
+		location = 10980
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
 	}
-	division= {	# "2a Divisão de Cavalaria"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 5156 # Curitiba
-		division_template = "Divisão de Cavalaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
+	division= {
+		name = "南米歩兵隊"
+		location = 7476
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
 	}
+	division= {
+		name = "南米歩兵隊"
+		location = 5112
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 12977
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 2227
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 10980
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 7476
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 5112
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 12977
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 2227
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 10980
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 7476
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 5112
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 12977
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 2227
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 10980
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 7476
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 5112
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "南米歩兵隊"
+		location = 12977
+		division_template = "歩兵隊"
+		start_experience_factor = 0.2
+	}
+
 }
 
 

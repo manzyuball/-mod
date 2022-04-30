@@ -1,0 +1,21 @@
+state={
+	id=959
+	name="STATE_959"
+	provinces={
+		279 388 3295 6347 11232 
+	}
+	manpower=271231
+	state_category=rural
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = GER
+		add_core_of = LAT
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

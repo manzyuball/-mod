@@ -204,7 +204,7 @@ units = {
 	}
 	division= {
 	    name = "オクシタニー革命軍"
-		location = 6760
+		location = 549
 		division_template = "フランス革命軍"
 		start_experience_factor = 0.3
 	}
@@ -216,7 +216,7 @@ units = {
 	}
 	division= {
 	    name = "オクシタニー革命軍"
-		location = 6760
+		location = 549
 		division_template = "フランス革命軍"
 		start_experience_factor = 0.3
 	}

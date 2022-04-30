@@ -791,11 +791,18 @@
 		}
 
 		available = {
-			check_variable = {
-				var = CHI.CHI_tetu_h
-				value = 16
-				compare = less_than
-				}
+			if = { 
+				limit = {  is_ai = yes }
+				has_political_power > 1
+			}
+			else = {
+				check_variable = {
+					var = CHI.CHI_tetu_h
+					value = 16
+					compare = less_than
+					}
+			}
+		
 		}
 
 		completion_reward = {
@@ -1271,16 +1278,23 @@
 		}
 
 		available = {
-			check_variable = {
-				var = CHI.CHI_koukuu_h
-				value = 16
-				compare = less_than
-				}
+			if = { 
+				limit = {  is_ai = yes }
+				has_political_power > 1
+			}
+			else = {
 				check_variable = {
-					var = CHI.CHI_riku_h
+					var = CHI.CHI_koukuu_h
 					value = 16
 					compare = less_than
 					}
+					check_variable = {
+						var = CHI.CHI_riku_h
+						value = 16
+						compare = less_than
+						}
+			}
+			
 		}
 
 		completion_reward = {
