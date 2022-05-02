@@ -49,6 +49,7 @@
  ARG_g14:0 "新型爆弾の開発"
  ARG_g15:0 "大陸を飛び越えどこまでも"
  #IDEAS
+ CSA1:0 "旧合衆国陸軍の遺産"
  ARG_kyoukou:0 "暗黒の10年間"
  ARG_kyoukou1:0 "暗黒の10年間"
  ARG_kyoukou2:0 "暗黒の10年間"
@@ -86,6 +87,7 @@
  #友好度
  tyuuou:0 "中央駅"
  JAP_nougyoukaikaku:0 "農地改革"
+ 
  #隠し効果
 
  #NF説明

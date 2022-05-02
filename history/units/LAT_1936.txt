@@ -1,7 +1,5 @@
 ﻿division_template = {
-	name = "Kajnieku Divizija"		# Infantry Division
-	division_names_group = LAT_INF_01
-	# Note: Divisions were nowhere near full strength until mobilized
+	name = "旧ドイツ帝国正規兵"	
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -16,9 +14,7 @@
 }
 
 division_template = {
-	name = "Artilerijas Pulks"			# Artillery Division
-	division_names_group = LAT_INF_01
-	# Note: Divisions were nowhere near full strength until mobilized
+	name = "砲兵付属歩兵隊"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -32,144 +28,158 @@ division_template = {
 	}
 }
 
-division_template = {
-	name = "Aizsargi"			# Border guard
-	division_names_group = LAT_INF_01
-	# Note: Divisions were nowhere near full strength until mobilized
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-	}
-	support = {
-	}
-	priority = 0
-}
-
 units = {
-	######## LAND OOB ########
-	##### Latvijas Augstas Komandu #####
-	division = { # "1. Kurzemes Divizija"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 3288
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 6314
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 6360
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "砲兵付属歩兵隊"
 		location = 9340
-		division_template = "Kajnieku Divizija"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
-
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
 	}
-	division = { # "2. Vidzemes Divizija"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 9340
-		division_template = "Kajnieku Divizija"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
-
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 6322
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
 	}
-	division = { # "3. Zemgales Divizija"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 3
-		}
-		location = 310
-		division_template = "Kajnieku Divizija"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
-
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 341
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
 	}
-	division = { # "4. Latgales Divizija"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 4
-		}
-		location = 265
-		division_template = "Kajnieku Divizija"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
-
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 9404
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
 	}
-	
-	division = { # "District Kurzeme"
-		name = "Kurzemes Pulks"
-		location = 3194
-		division_template = "Aizsargi"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
-
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 3152
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
 	}
-	
-	division = { # "District Vidzemes"
-		name = "Vidzemes Pulks"
-		location = 10493
-		division_template = "Aizsargi"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
-
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 11127
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
 	}
-	
-	division = { # "District Latgales"
-		name = "Latgales Pulks"
-		location = 9275
-		division_template = "Aizsargi"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
-
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 9317
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
 	}
-	
-	division = { # "District Zemgales"
-		name = "Zemgales Pulks"
-		location = 3255
-		division_template = "Aizsargi"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
-
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 6332
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
 	}
-	
-	division = { # "District Riga"
-		name = "Rīgas Pulks"
-		location = 9340
-		division_template = "Aizsargi"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
-
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 6332
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
 	}
-	
-	division = { # "Artillery Division"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 9340
-		division_template = "Artilerijas Pulks"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
-
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 395
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 395
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 9398
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 9398
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 9372
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 9372
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 348
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 11265
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 266
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 11386
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 6332
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
 	}
 }
 
 air_wings = {
-	### Latvijas Gaisa Speki
 	12 = {
-		# Aviacijas Pulka -- Bristol Bulldogs
 		fighter_equipment_0 =  {
 			owner = "LAT" 
-			amount = 12
+			amount = 200
+		}
+	}
+	763 = {
+		fighter_equipment_0 =  {
+			owner = "LAT" 
+			amount = 800
 		}
 	}
 }
@@ -181,7 +191,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "LAT"
 		}
-		requested_factories = 1
+		requested_factories = 6
 		progress = 0.25
 		efficiency = 100
 	}

@@ -78,6 +78,78 @@ units = {
 		start_experience_factor = 0.5
 	}
 	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 2212
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 2162
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 5166
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 10942
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 8149
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 10942
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 2212
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 2162
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 5166
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 10942
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 8149
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 10942
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
 		name = "帝国陸軍歩兵"
 		location = 12997
 		division_template = "帝国陸軍歩兵編成"
@@ -158,6 +230,42 @@ units = {
 	division= {
 		name = "帝国陸軍歩兵"
 		location = 12979
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 10952
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 5179
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 10938
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 8191
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 2226
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 8213
 		division_template = "帝国陸軍歩兵編成"
 		start_experience_factor = 0.3
 	}

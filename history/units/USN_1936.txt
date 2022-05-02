@@ -26,14 +26,13 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		artillery_brigade = { x = 0 y = 3 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }  
-		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+		engineer = { x = 0 y = 1 }
 	}
 }
 division_template = {
@@ -97,15 +96,14 @@ division_template = {
 }
 
 division_template = {
-	name = "Marine Brigade" 		# 1st, 2nd Marine Brigades, precursors to 1st, 2nd USMC Divisions
-
-	division_names_group = USA_MAR_01
-
+	name = "海軍通常編成"
 	regiments = {
 		marine = { x = 0 y = 0 }
 		marine = { x = 0 y = 1 }
 		marine = { x = 1 y = 0 }
 		marine = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }   
@@ -116,185 +114,89 @@ division_template = {
 ###### OOB ######
 units = {
 	division = {			
-		name = "ネブラスカ州兵"
-		location = 12586
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ネブラスカ州兵"
-		location = 10676
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カンザス州兵"
-		location = 4740
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カンザス州兵"
+		name = "カンザス海軍通常編成"
 		location = 4586
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
 	}
 	division = {			
-		name = "カンザス州兵"
+		name = "カンザス海軍通常編成"
 		location = 9802
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
 	}
 	division = {			
-		name = "ミズーリ州兵"
+		name = "ミズーリ海軍通常編成"
 		location = 4569
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
 	}
 	division = {			
-		name = "ミズーリ州兵"
+		name = "ミズーリ海軍通常編成"
 		location = 4569
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
 	}
 	division = {			
-		name = "ミズーリ州兵"
+		name = "ミズーリ海軍通常編成"
 		location = 10717
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
 	}
 	division = {			
-		name = "ミズーリ州兵"
+		name = "ミズーリ海軍通常編成"
 		location = 1534
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
 	}
 	division = {			
-		name = "ネブラスカ州兵"
-		location = 12586
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ネブラスカ州兵"
-		location = 10676
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カンザス州兵"
-		location = 4740
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カンザス州兵"
-		location = 4586
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "カンザス州兵"
-		location = 9802
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ミズーリ州兵"
-		location = 4569
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ミズーリ州兵"
-		location = 4569
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ミズーリ州兵"
-		location = 10717
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ミズーリ州兵"
-		location = 1534
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ケンタッキー州兵"
+		name = "ケンタッキー海軍通常編成"
 		location = 9727
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
 	}
 	division = {			
-		name = "バージニア州兵"
+		name = "バージニア海軍通常編成"
 		location = 788
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
 	}
 	division = {			
-		name = "ニューヨーク州兵"
+		name = "ニューヨーク海軍通常編成"
 		location = 3878
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
 	}
 	division = {			
-		name = "ニューヨーク州兵"
+		name = "ニューヨーク海軍通常編成"
 		location =6882
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
 	}
 	division = {			
-		name = "ニューヨーク州兵"
+		name = "ニューヨーク海軍通常編成"
 		location = 6845
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
@@ -302,31 +204,7 @@ units = {
 	division = {			
 		name = "首都防衛兵"
 		location = 3957
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "首都防衛兵"
-		location = 3957
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "首都防衛兵"
-		location = 3957
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "首都防衛兵"
-		location = 788
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
@@ -334,7 +212,7 @@ units = {
 	division = {			
 		name = "首都防衛兵"
 		location = 9727
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 
@@ -342,83 +220,32 @@ units = {
 	division = {			
 		name = "首都防衛兵"
 		location = 7646
-		division_template = "州兵"
+		division_template = "海軍通常編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 	}
 	
 air_wings = {
-	### 1 USAAF Wing -- Los Angeles
 	378 = {
-		# 7th Bombardment Group 
-		# 19th Bombardment Group 
 		tac_bomber_equipment_0 = {
 			owner = "USA" 
 			amount = 60
 		}
-		# 17th Attack Group 
 		CAS_equipment_1 = {
 			owner = "USA" 
-			amount = 48
+			amount = 50
 		}
 	}
-
-	### 2 USAAF Wing -- Norfolk
-	386 = { 
-		# 1st Pursuit Group 
-		# 8th Pursuit Group 
-		fighter_equipment_0 =  {
-			owner = "USA" 
-			amount = 144
-		}
-		# 2nd Bombardment Group 
-		# 9th Bombardment Group 
-		tac_bomber_equipment_0 = {
-			owner = "USA" 
-			amount = 96
-		}
-	}
-
-	### 3 USAAF Wing -- Louisiana
 	362 = { 
-		# 20th Pursuit Group 
-		fighter_equipment_0 =  {
-			owner = "USA" 
-			amount = 96
-		}
-		# 3rd Attack Group 
-		CAS_equipment_1 = {
-			owner = "USA" 
-			amount = 48
-		}
-	}
-
-	### 19th Composite Wing -- Panama Canal
-
-	### Philippines Composite Group -- Manilla
-#	327 = { 
-#		# 4th Composite Group 
-#		fighter_equipment_0 =  {
-#			owner = "USA" 
-#			amount = 36
-#		}
-#	}
-
-	### USN Atlantic Naval Patrol Division -- Norfolk
-	362 = { 
-		# Naval Patrol Wing 3 
 		nav_bomber_equipment_1 =  {
 			owner = "USA" 
-			amount = 36
+			amount = 50
 		}
 	}
-	### USN Pacific Naval Patrol Division -- San Diego
 	378 = { 
-		# Naval Patrol Wing 1 
-		# Naval Patrol Wing 2 
 		nav_bomber_equipment_1 =  {
 			owner = "USA" 
-			amount = 72
+			amount = 100
 		}
 	}
 }

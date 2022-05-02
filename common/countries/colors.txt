@@ -723,6 +723,10 @@ CRI = {
 	color = rgb { 255 80 80 }
 	color_ui = rgb { 204 0 0 }
 }
+KAZ = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
 TAT = {
 	color = rgb { 255 51 0 }
 	color_ui = rgb { 179 36 0 }

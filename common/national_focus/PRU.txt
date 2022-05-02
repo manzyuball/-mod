@@ -926,6 +926,11 @@ completion_reward = {
                     hidden_effect = {
                         if = {
                             limit = {  has_completed_focus = PRU_se65 }
+                            hidden_effect = {
+                            set_technology = {
+                                nukes = 1
+                                }
+                            }
                             add_nuclear_bombs = 3
                             launch_nuke = {
                                 province = 3878
@@ -996,6 +1001,7 @@ completion_reward = {
     add_state_claim = 892
     add_state_claim = 506
     add_state_claim = 508
+    add_ideas = PRU_kuruu
 }
 }
 focus = {
@@ -1117,14 +1123,68 @@ focus = {
 
 completion_reward = {
     custom_effect_tooltip = PRU_i
-      every_state = {
-        limit = {  is_on_continent = south_america }
-        add_state_core = THIS
-      }
-      every_state = {
-      limit = { is_on_continent = south_america }
-      add_core_of = PRU
-  }
+    add_state_core = 493
+    add_state_core = 306
+    add_state_core = 489
+    add_state_core = 307
+    add_state_core = 488
+    add_state_core = 899
+    add_state_core = 486
+    add_state_core = 306
+    add_state_core = 898
+    add_state_core = 310
+    add_state_core = 309
+    add_state_core = 687
+    add_state_core = 900
+    add_state_core = 903
+    add_state_core = 902
+    add_state_core = 487
+    add_state_core = 895
+    add_state_core = 901
+    add_state_core = 495
+    add_state_core = 497
+    add_state_core = 498
+    add_state_core = 505
+    add_state_core = 280
+    add_state_core = 504
+    add_state_core = 501
+    add_state_core = 905
+    add_state_core = 904
+    add_state_core = 499
+    add_state_core = 496
+    add_state_core = 500
+    add_state_core = 906
+    add_state_core = 503
+    add_state_core = 502
+    add_state_core = 908
+    add_state_core = 891
+    add_state_core = 300
+    add_state_core = 892
+    add_state_core = 688
+    add_state_core = 301
+    add_state_core = 893
+    add_state_core = 506
+    add_state_core = 508
+    add_state_core = 509
+    add_state_core = 301
+    add_state_core = 894
+    add_state_core = 510
+    add_state_core = 919
+    add_state_core = 511
+    add_state_core = 890
+    add_state_core = 279
+    add_state_core = 907
+    add_state_core = 278
+    add_state_core = 918
+    add_state_core = 889
+    add_state_core = 512
+    add_state_core = 507
+    add_state_core = 887
+    add_state_core = 888
+    add_state_core = 299
+    add_state_core = 691
+    add_state_core = 304
+    add_state_core = 695
 }
 }
 focus = {
@@ -1289,10 +1349,38 @@ focus = {
 
 completion_reward = {
     custom_effect_tooltip = PRU_iq
-    every_state = {
-      limit = {  is_on_continent = north_america }
-      add_core_of = PRU
-    }
+    add_state_core = 685
+    add_state_core = 880
+    add_state_core = 692
+    add_state_core = 308
+    add_state_core = 694
+    add_state_core = 686
+    add_state_core = 319
+    add_state_core = 318
+    add_state_core = 315
+    add_state_core = 689
+    add_state_core = 690
+    add_state_core = 693
+    add_state_core = 316
+    add_state_core = 317
+    add_state_core = 312
+    add_state_core = 314
+    add_state_core = 313
+    add_state_core = 311
+    add_state_core = 474
+    add_state_core = 475
+    add_state_core = 476
+    add_state_core = 485
+    add_state_core = 277
+    add_state_core = 477
+    add_state_core = 478
+    add_state_core = 479
+    add_state_core = 481
+    add_state_core = 480
+    add_state_core = 482
+    add_state_core = 483
+    add_state_core = 484
+    add_state_core = 910
 }
 }
 }

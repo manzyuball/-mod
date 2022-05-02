@@ -1280,7 +1280,10 @@
 
 
 		completion_reward = {
-			add_ideas = Zaibatu1
+			swap_ideas = {
+				remove_idea = JAP_zaibatsus
+				add_idea = Zaibatu1
+				}
 		}
 	}
 	focus = {
@@ -1308,10 +1311,11 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
-
 		completion_reward = {
-			add_ideas = Zaibatu2
+			swap_ideas = {
+				remove_idea = JAP_zaibatsus
+				add_idea = Zaibatu2
+				}
 		}
 	}
 	focus = {

@@ -22,15 +22,800 @@ focus_tree = {
 	}
 	default = no
 	continuous_focus_position = { x = 70 y = 1100 }
+	##########################################################
+	##########################################################
+	######### ロマノフ・ロシアの政治 NFツリー ##################
+	##########################################################
+	##########################################################
+
+	focus = {
+		id = VLA_se1
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 6
+		y = 0
+		#mutually_exclusive = { focus =  }
+		#prerequisite = { focus =  }
+		#relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA1
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_se1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA2
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -1
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA3
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -1
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA2 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA4
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -1
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA3 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA5
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 1
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA6
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 1
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA5 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA7
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 1
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA6 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	######################################
+	focus = {
+		id = VLA_seB1
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 3
+		y = 1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_se1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seB2
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 3
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seB1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seB3
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 3
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seB2 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seB4
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 3
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seB3 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seB5
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 5
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seB1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seB6
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 5
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seB5 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seB7
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 5
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seB6 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	###############################
+	focus = {
+		id = VLA_seC1
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -3
+		y = 1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_se1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seC2
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -5
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seC1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seC3
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -5
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seC2 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seC4
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -5
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seC3 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seC5
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -3
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seC1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seC6
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -3
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seC5 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seC7
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -3
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seC6 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	##################################
+	focus = {
+		id = VLA_se2
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA4 focus = VLA_seB4 focus = VLA_seC4 }
+		prerequisite = { focus = VLA_seA7 focus = VLA_seB7 focus = VLA_seC7 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+	##########################################################
+	##########################################################
+	######### ロマノフ・ロシアの産業 NFツリー ##################
+	##########################################################
+	##########################################################
 
 	focus = {
 		id = VLA_sanA1
 		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 5
+		x = -4
 		y = 0
 		#mutually_exclusive = { focus =  }
 		#prerequisite = { focus =  }
-		#relative_position_id = 
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA2
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -4
+		y = 1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA1 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA3
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -4
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA2 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA4
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -2
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA3 focus = VLA_sanB2 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA5
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -6
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA3 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA6
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -7
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA5 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA7
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -5
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA5 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA9
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -7
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA6 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA10
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -9
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA3 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA11
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -9
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA10 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA12
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -2
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA4 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA13
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -2
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA12 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA14
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -4
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA12 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA15
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -4
+		y = 6
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA14 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA16
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -4
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA3 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA17
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -2
+		y = 6
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA13 }
+	    relative_position_id = VLA_sanB1
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -46,11 +831,171 @@ focus_tree = {
 	focus = {
 		id = VLA_sanB1
 		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 4
+		x = 25
 		y = 0
 		#mutually_exclusive = { focus =  }
 		#prerequisite = { focus =  }
-		relative_position_id = VLA_sanA1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanB2
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanB1 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanB3
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 1
+		y = 1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanB1 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanB4
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 2
+		y = 2
+		#mutually_exclusive = { focus =  }
+		relative_position_id = VLA_sanB1
+		prerequisite = { focus = VLA_sanB3 }
+		prerequisite = { focus = VLA_sanB5 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanB5
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 3
+		y = 1
+		#mutually_exclusive = { focus =  }
+		relative_position_id = VLA_sanB1
+		prerequisite = { focus = VLA_sanB1 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanB6
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -2
+		y = 1
+		#mutually_exclusive = { focus =  }
+		relative_position_id = VLA_sanB1
+		prerequisite = { focus = VLA_sanB1 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanB7
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -2
+		y = 2
+		#mutually_exclusive = { focus =  }
+		relative_position_id = VLA_sanB1
+		prerequisite = { focus = VLA_sanB1 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanB8
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 4
+		relative_position_id = VLA_sanB1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanB2 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanB9
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 6
+		relative_position_id = VLA_sanB1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanB8 }
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -66,11 +1011,331 @@ focus_tree = {
 	focus = {
 		id = VLA_sanC1
 		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 8
+		x = 5
 		y = 0
 		#mutually_exclusive = { focus =  }
 		#prerequisite = { focus =  }
-		relative_position_id = VLA_sanA1
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC2
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 5
+		y = 1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC1 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC3
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 5
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC2 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC4
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 2
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC3 focus = VLA_sanB2 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC5
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 2
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC4 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC6
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 2
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC5 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC7
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 2
+		y = 6
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC6 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC8
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 4
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC5 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC9
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 4
+		y = 6
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC5 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC10
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 6
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC3 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC11
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 4
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC3 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC12
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 4
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC11 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC13
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 6
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC10 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC14
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 8
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC10 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC15
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 8
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC14 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC16
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 9
+		y = 6
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC15 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanC17
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 7
+		y = 6
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC15 }
+		relative_position_id = VLA_sanB1
 		cost = 5
 		ai_will_do = {
 			factor = 100

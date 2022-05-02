@@ -59,6 +59,10 @@ country_event = {
 				type = annex_everything
 				}
 	}
+	add_named_threat = {
+		threat = -10
+		name = ENG_yuu
+		}
 	news_event = {
 		id = news.10
 		days = 1

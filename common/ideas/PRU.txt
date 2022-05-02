@@ -128,6 +128,17 @@ ideas = {
 				stability_factor = 0.10
 			}
 		}
+		PRU_kuruu = {
+			picture = chi_army_corruption3
+			removal_cost = -1
+			
+			modifier = {
+				terrain_penalty_reduction = 0.35
+				supply_consumption_factor = -0.35
+				army_org = 35
+				army_attack_factor = 0.25
+			}
+		}
 	}
 	
 		aircraft_manufacturer = { 
