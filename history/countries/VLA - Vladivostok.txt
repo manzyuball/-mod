@@ -79,6 +79,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+add_manpower = 864210
 if = {
 	limit = {
 			has_dlc = "La Resistance"

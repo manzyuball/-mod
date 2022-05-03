@@ -92,7 +92,7 @@ if = {
 	}
 }
 
-
+add_manpower = 664210
 create_faction = "中央同盟国"
 add_to_faction = AUS
 add_to_faction = BUL

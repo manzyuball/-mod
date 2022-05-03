@@ -1084,11 +1084,11 @@ focus_tree = {
 		icon = "GFX_focus_SOV_stalins_cult_of_personality"
 		x = 3
 		y = 7
-		cost = 7.5
+		cost = 5
 		#mutually_exclusive = { focus = SWE_3 }
 
 		ai_will_do = {
-			factor = 10
+			factor = 10000
 		}
 		completion_reward = {
 			add_political_power = 300
@@ -1099,7 +1099,7 @@ focus_tree = {
 		icon = "GFX_focus_ger_great_red_menace"
 		x = 9
 		y = 8
-		cost = 7.5
+		cost = 5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s }
 		ai_will_do = {
@@ -1251,7 +1251,7 @@ focus_tree = {
 		icon = "GFX_focus_SOV_my_brothers_keeper"
 		x = 7
 		y = 9
-		cost = 7.5
+		cost = 5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s1 }
 		ai_will_do = {
@@ -1266,7 +1266,7 @@ focus_tree = {
 		icon = "GFX_focus_spr_masters_of_our_own_fate"
 		x = 7
 		y = 10
-		cost = 7.5
+		cost = 5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s15 }
 		ai_will_do = {
@@ -1344,7 +1344,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_attack_finland"
 		x = 5
 		y = 10
-		cost = 7.5
+		cost = 5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s15 }
 		ai_will_do = {
@@ -1369,7 +1369,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_scandinavian_alliance"
 		x = 5
 		y = 11
-		cost = 7.5
+		cost = 5
 		#mutually_exclusive = { focus = SWE_3 }
 		prerequisite = { focus = SOV_s21 }
 		ai_will_do = {

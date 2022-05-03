@@ -82,6 +82,7 @@ add_ideas = {
 	#laws
 	Total_Mobilization
 	Service by_Requirement
+	CSA1
 }
 set_convoys = 100
 

@@ -98,7 +98,7 @@ if = {
 		improved_airplane_launcher = 1
 	}
 }
-
+add_manpower = 664210
 recruit_character = ARG_agustín_pedro_justo
 recruit_character = ARG_nimo_de_anquín
 recruit_character = ARG_aasasa

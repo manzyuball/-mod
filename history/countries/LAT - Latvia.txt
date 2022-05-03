@@ -8,7 +8,7 @@ if = {
 		set_naval_oob = "LAT_1936_naval_legacy"
 	}
 }
-
+add_manpower = 864210
 recruit_character = LAT_gustavs_celminsh
 recruit_character = LAT_augusts_kirhensteins
 recruit_character = LAT_martinsh_penikis
