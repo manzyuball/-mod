@@ -30,7 +30,7 @@ focus_tree = {
 
 	focus = {
 		id = VLA_se1
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_SOV_rebuild_the_savior_cathedral"
 		x = 6
 		y = 0
 		#mutually_exclusive = { focus =  }
@@ -50,7 +50,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seA1
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_support_democracy"
 		x = 0
 		y = 1
 		#mutually_exclusive = { focus =  }
@@ -70,7 +70,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seA2
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_attack_allies"
 		x = -1
 		y = 2
 		#mutually_exclusive = { focus =  }
@@ -110,7 +110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seA4
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_mex_arrest_general_cedillo"
 		x = -1
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -130,7 +130,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seA5
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_propaganda"
 		x = 1
 		y = 2
 		#mutually_exclusive = { focus =  }
@@ -150,7 +150,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seA6
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_eng_move_to_secure_the_dominions"
 		x = 1
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -170,7 +170,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seA7
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_SOV_penal_battalions"
 		x = 1
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -191,7 +191,7 @@ focus_tree = {
 	######################################
 	focus = {
 		id = VLA_seB1
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_generic_military_dictatorship"
 		x = 3
 		y = 1
 		#mutually_exclusive = { focus =  }
@@ -211,7 +211,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seB2
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_focus_fra_maquis"
 		x = 3
 		y = 2
 		#mutually_exclusive = { focus =  }
@@ -231,7 +231,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seB3
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_spr_the_anti_fascist_workers_revolution"
 		x = 3
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -251,7 +251,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seB4
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_mex_arrest_general_cedillo"
 		x = 3
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -271,7 +271,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seB5
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
 		x = 5
 		y = 2
 		#mutually_exclusive = { focus =  }
@@ -291,7 +291,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seB6
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_generic_strike_at_democracy2"
 		x = 5
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -311,7 +311,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seB7
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_political_pressure"
 		x = 5
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -332,7 +332,7 @@ focus_tree = {
 	###############################
 	focus = {
 		id = VLA_seC1
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_renounce_the_treaty_of_trianon"
 		x = -3
 		y = 1
 		#mutually_exclusive = { focus =  }
@@ -352,7 +352,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seC2
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_ger_strike_at_the_source"
 		x = -5
 		y = 2
 		#mutually_exclusive = { focus =  }
@@ -372,7 +372,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seC3
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_SOV_patriarch_of_all_russia"
 		x = -5
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -392,7 +392,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seC4
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_generic_military_dictatorship"
 		x = -5
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -412,7 +412,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seC5
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_rom_parties_end"
 		x = -3
 		y = 2
 		#mutually_exclusive = { focus =  }
@@ -432,7 +432,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seC6
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_eng_concessions_to_the_trade_unions"
 		x = -3
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -452,7 +452,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_seC7
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_SOV_penal_battalions"
 		x = -3
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -473,7 +473,7 @@ focus_tree = {
 	##################################
 	focus = {
 		id = VLA_se2
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_forceful_treaty"
 		x = 0
 		y = 5
 		#mutually_exclusive = { focus =  }
@@ -510,7 +510,7 @@ focus_tree = {
 
 	focus = {
 		id = VLA_sanA1
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_demand_territory"
 		x = -4
 		y = 0
 		#mutually_exclusive = { focus =  }
@@ -530,7 +530,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA2
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_generic_industry_1"
 		x = -4
 		y = 1
 		#mutually_exclusive = { focus =  }
@@ -550,7 +550,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA3
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_generic_manpower"
 		x = -4
 		y = 2
 		#mutually_exclusive = { focus =  }
@@ -570,7 +570,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA4
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_military_sphere"
 		x = -2
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -590,7 +590,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA5
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_CZE_german_puppet"
 		x = -6
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -630,7 +630,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA7
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_usa_reestablish_the_gold_standard"
 		x = -5
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -650,7 +650,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA9
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_construct_civ_factory"
 		x = -7
 		y = 5
 		#mutually_exclusive = { focus =  }
@@ -670,7 +670,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA10
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_small_arms"
 		x = -9
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -690,7 +690,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA11
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_generic_license_production"
 		x = -9
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -710,7 +710,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA12
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_generic_steel"
 		x = -2
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -730,7 +730,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA13
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_generic_combined_arms"
 		x = -2
 		y = 5
 		#mutually_exclusive = { focus =  }
@@ -750,7 +750,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA14
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_SOV_merge_plants"
 		x = -4
 		y = 5
 		#mutually_exclusive = { focus =  }
@@ -770,7 +770,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA15
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_construct_mil_factory"
 		x = -4
 		y = 6
 		#mutually_exclusive = { focus =  }
@@ -790,7 +790,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA16
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_political_pressure"
 		x = -4
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -810,7 +810,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanA17
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_generic_aircraft_production"
 		x = -2
 		y = 6
 		#mutually_exclusive = { focus =  }
@@ -830,8 +830,8 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanB1
-		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 25
+		icon = "GFX_goal_generic_demand_territory"
+		x = 22
 		y = 0
 		#mutually_exclusive = { focus =  }
 		#prerequisite = { focus =  }
@@ -849,7 +849,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanB2
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_neutrality_focus"
 		x = 0
 		y = 2
 		#mutually_exclusive = { focus =  }
@@ -869,7 +869,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanB3
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_usa_recruit_the_free_corps"
 		x = 1
 		y = 1
 		#mutually_exclusive = { focus =  }
@@ -889,7 +889,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanB4
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_chi_mission_to_the_us"
 		x = 2
 		y = 2
 		#mutually_exclusive = { focus =  }
@@ -910,7 +910,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanB5
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_usa_guarantee_the_american_dream"
 		x = 3
 		y = 1
 		#mutually_exclusive = { focus =  }
@@ -930,7 +930,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanB6
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_chi_collaboration_with_the_japanese"
 		x = -2
 		y = 1
 		#mutually_exclusive = { focus =  }
@@ -950,7 +950,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanB7
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_jap_zaibatsu"
 		x = -2
 		y = 2
 		#mutually_exclusive = { focus =  }
@@ -970,7 +970,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanB8
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_hol_abandon_the_gold_standard"
 		x = 0
 		y = 4
 		relative_position_id = VLA_sanB1
@@ -990,7 +990,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanB9
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_positive_trade_relations"
 		x = 0
 		y = 6
 		relative_position_id = VLA_sanB1
@@ -1010,7 +1010,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC1
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_demand_territory"
 		x = 5
 		y = 0
 		#mutually_exclusive = { focus =  }
@@ -1030,7 +1030,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC2
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_construction2"
 		x = 5
 		y = 1
 		#mutually_exclusive = { focus =  }
@@ -1050,7 +1050,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC3
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_construct_infrastructure"
 		x = 5
 		y = 2
 		#mutually_exclusive = { focus =  }
@@ -1070,7 +1070,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC4
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_NZL_bob_semple_tank"
 		x = 2
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -1090,7 +1090,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC5
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_consumer_goods"
 		x = 2
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -1110,7 +1110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC6
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_generic_industry_3"
 		x = 2
 		y = 5
 		#mutually_exclusive = { focus =  }
@@ -1130,7 +1130,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC7
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_construct_civ_factory"
 		x = 2
 		y = 6
 		#mutually_exclusive = { focus =  }
@@ -1150,7 +1150,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC8
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_production2"
 		x = 4
 		y = 5
 		#mutually_exclusive = { focus =  }
@@ -1170,7 +1170,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC9
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_occupy_states_coastal"
 		x = 4
 		y = 6
 		#mutually_exclusive = { focus =  }
@@ -1190,7 +1190,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC10
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_chi_british_cooperation"
 		x = 6
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -1210,7 +1210,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC11
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_construction"
 		x = 4
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -1230,7 +1230,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC12
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_generic_aluminum"
 		x = 4
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -1250,7 +1250,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC13
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_eng_bring_the_dominions_back_into_the_fold"
 		x = 6
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -1270,7 +1270,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC14
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_demand_sudetenland"
 		x = 8
 		y = 4
 		#mutually_exclusive = { focus =  }
@@ -1290,7 +1290,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC15
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_POL_warsaw_main_station"
 		x = 8
 		y = 5
 		#mutually_exclusive = { focus =  }
@@ -1310,7 +1310,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC16
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_goal_generic_scientific_exchange"
 		x = 9
 		y = 6
 		#mutually_exclusive = { focus =  }
@@ -1330,7 +1330,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC17
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = "GFX_focus_generic_tank_production"
 		x = 7
 		y = 6
 		#mutually_exclusive = { focus =  }
