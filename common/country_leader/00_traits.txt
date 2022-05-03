@@ -80,7 +80,7 @@ leader_traits = {
 	zikoku = {
 		random = no
 		political_power_factor = 0.3
-		subjects_autonomy_gain = 25
+		subjects_autonomy_gain = -95
 		subversive_activites_upkeep = -0.65
 		
 		ai_will_do = {

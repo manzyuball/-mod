@@ -1337,7 +1337,9 @@ focus = {
     prerequisite = { focus = PRU_se78 focus = PRU_se77 }
     x = 12
     y = 6
-
+    available = {
+        has_completed_focus = PRU_se73
+    }
     cost = 5
 
     ai_will_do = {
