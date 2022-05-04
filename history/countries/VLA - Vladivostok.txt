@@ -79,6 +79,20 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+set_variable = {
+	var = VLA.VLA_teise_h
+	value = 5
+}
+set_variable = {
+	var = VLA.VLA_gunk_h
+	value = 5
+}
+set_variable = {
+	var = VLA.VLA_roz_h
+	value = 5
+}
+
+
 add_manpower = 864210
 if = {
 	limit = {

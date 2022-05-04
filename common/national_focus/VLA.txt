@@ -36,7 +36,7 @@ focus_tree = {
 		#mutually_exclusive = { focus =  }
 		#prerequisite = { focus =  }
 		#relative_position_id = VLA_sanB1
-		cost = 5
+		cost = 15
 		ai_will_do = {
 			factor = 100
 		}
@@ -45,8 +45,48 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			custom_effect_tooltip = VLA_sovo
+			add_political_power = 150
+			hidden_effect = {
+		if = {
+				limit = {
+				AND = {
+					check_variable = {
+						var = VLA.VLA_teise_h
+						value = VLA.VLA_gunk_h
+						compare = greater_than
+						}
+						check_variable = {
+							var = VLA.VLA_teise_h
+							value = VLA.VLA_roz_h
+							compare = greater_than
+							}
+				}
+			}
+			set_country_flag = VLA_T_WIN
 		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = {
+						var = VLA.VLA_gunk_h
+						value = VLA.VLA_teise_h
+						compare = greater_than
+						}
+						check_variable = {
+							var = VLA.VLA_gunk_h
+							value = VLA.VLA_roz_h
+							compare = greater_than
+							}
+				}
+			}
+			set_country_flag = VLA_G_WIN
+		}
+		else = {
+			set_country_flag = VLA_R_WIN
+		}
+		}
+	}
 	}
 	focus = {
 		id = VLA_seA1

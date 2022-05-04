@@ -14,6 +14,53 @@ ideas = {
 			}
 	
 		}
+		VLA_syuukyou1 = {
+			removal_cost = -1
+			picture = GFX_idea_SOV_new_old_church
+			modifier = {
+				political_power_factor = 0.15
+			}
+		}
+		VLA_syuukyou2 = {
+			removal_cost = -1
+			picture = GFX_idea_SOV_new_old_church
+			modifier = {
+				stability_factor = 0.10
+				political_power_factor = -0.15
+			}
+		}
+		VLA_syuukyou3 = {
+			removal_cost = -1
+			picture = GFX_idea_SOV_new_old_church
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		VLA_touti1 = {
+			removal_cost = -1
+			picture = GFX_idea_hol_aloof_neutrality
+			modifier = {
+				stability_factor = 0.05
+				Resistance_decay_on_our_occupied_states = 0.1
+			}
+		}
+		VLA_touti2 = {
+			removal_cost = -1
+			picture = GFX_idea_hol_aloof_neutrality
+			modifier = {
+				required_garrison_factor = 0.15
+				Resistance_decay_on_our_occupied_states = 0.25
+			}
+		}
+		VLA_touti3 = {
+			removal_cost = -1
+			picture = GFX_idea_hol_aloof_neutrality
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = -0.10
+				required_garrison_factor = -0.25
+			}
+		}
 	}
 	# TECHNOLOGY
 	tank_manufacturer = { 
