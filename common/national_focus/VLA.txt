@@ -93,6 +93,9 @@ focus_tree = {
 		icon = "GFX_goal_support_democracy"
 		x = 0
 		y = 1
+		available = {
+			has_country_flag = VLA_T_WIN2
+		}
 		#mutually_exclusive = { focus =  }
 		prerequisite = { focus = VLA_se1 }
 		relative_position_id = VLA_se1
@@ -238,6 +241,9 @@ focus_tree = {
 		prerequisite = { focus = VLA_se1 }
 		relative_position_id = VLA_se1
 		cost = 5
+		available = {
+			has_country_flag = VLA_G_WIN2
+		}
 		ai_will_do = {
 			factor = 100
 		}
@@ -379,6 +385,9 @@ focus_tree = {
 		prerequisite = { focus = VLA_se1 }
 		relative_position_id = VLA_se1
 		cost = 5
+		available = {
+			has_country_flag = VLA_R_WIN2
+		}
 		ai_will_do = {
 			factor = 100
 		}
@@ -555,6 +564,9 @@ focus_tree = {
 		y = 0
 		#mutually_exclusive = { focus =  }
 		#prerequisite = { focus =  }
+		available = {
+			has_country_flag = VLA_R_WIN2
+		}
 		relative_position_id = VLA_sanB1
 		cost = 5
 		ai_will_do = {
@@ -565,7 +577,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -585,7 +597,25 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 	}
 	focus = {
@@ -605,7 +635,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = VLA_GUNKOKU
 		}
 	}
 	focus = {
@@ -625,7 +655,30 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -645,7 +698,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = VLA_Roudouhou
 		}
 	}
 	focus = {
@@ -653,6 +706,9 @@ focus_tree = {
 		icon = GFX_focus_hol_the_foundations_of_defense
 		x = -7
 		y = 4
+		available = {
+			has_completed_focus = VLA_sanA16
+		}
 		#mutually_exclusive = { focus =  }
 		prerequisite = { focus = VLA_sanA5 }
 	    relative_position_id = VLA_sanB1
@@ -685,7 +741,16 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			random_owned_controlled_state = {
+				add_resource = {
+					type = steel
+					amount = 30
+					}
+					add_resource = {
+						type = tungsten
+						amount = 23
+						}
+				}
 		}
 	}
 	focus = {
@@ -725,7 +790,13 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 3.0
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
 		}
 	}
 	focus = {
@@ -745,7 +816,12 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 2
+				uses = 2
+				category = motorized_equipment
+			}
 		}
 	}
 	focus = {
@@ -765,7 +841,12 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			random_owned_controlled_state = {
+			add_resource = {
+				type = steel
+				amount = 23
+				}
+			}
 		}
 	}
 	focus = {
@@ -785,7 +866,22 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -805,7 +901,11 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = industry
+			}
 		}
 	}
 	focus = {
@@ -825,7 +925,8 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			custom_effect_tooltip = VLA_sibeliaq
+			set_country_flag = VLA_sibelia
 		}
 	}
 	focus = {
@@ -845,7 +946,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = VLA_GUNKOKU
+				add_idea = VLA_GUNKOKU1
+				}
 		}
 	}
 	focus = {
@@ -865,7 +969,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_research_slot = 1
 		}
 	}
 	focus = {
@@ -873,6 +977,9 @@ focus_tree = {
 		icon = "GFX_goal_generic_demand_territory"
 		x = 22
 		y = 0
+		available = {
+			has_country_flag = VLA_T_WIN2
+		}
 		#mutually_exclusive = { focus =  }
 		#prerequisite = { focus =  }
 		cost = 5
@@ -884,7 +991,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -904,7 +1011,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = VLA_T_SAN
 		}
 	}
 	focus = {
@@ -924,7 +1031,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			reverse_add_opinion_modifier = {
+				target = USA
+				modifier = kyuusekkinn
+				}
 		}
 	}
 	focus = {
@@ -945,7 +1055,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = VLA_USA_S
+				add_idea = VLA_USA_S2
+				}
 		}
 	}
 	focus = {
@@ -965,7 +1078,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = VLA_USA_S
 		}
 	}
 	focus = {
@@ -985,7 +1098,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			reverse_add_opinion_modifier = {
+				target = JAP
+				modifier = kyuusekkinn
+				}
 		}
 	}
 	focus = {
@@ -1005,7 +1121,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = VLA_zaibatu
 		}
 	}
 	focus = {
@@ -1025,7 +1141,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = VLA_T_SAN
+				add_idea = VLA_T_SAN1
+				}
 		}
 	}
 	focus = {
@@ -1045,7 +1164,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = VLA_T_SAN1
+				add_idea = VLA_T_SAN2
+				}
 		}
 	}
 	focus = {
@@ -1057,6 +1179,9 @@ focus_tree = {
 		#prerequisite = { focus =  }
 		relative_position_id = VLA_sanB1
 		cost = 5
+		available = {
+			has_country_flag = VLA_G_WIN2
+		}
 		ai_will_do = {
 			factor = 100
 		}
@@ -1065,7 +1190,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -1085,7 +1210,21 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			564 = {
+			set_state_category = town
+			}
+			566 = {
+				set_state_category = town
+				}
+				567 = {
+					set_state_category = town
+					}
+					576 = {
+						set_state_category = town
+						}
+						578 = {
+							set_state_category = town
+							}
 		}
 	}
 	focus = {
@@ -1105,7 +1244,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_timed_idea = {
+				idea = VLA_T_T_T
+				days = 120
+				}
 		}
 	}
 	focus = {
@@ -1125,7 +1267,30 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -1145,7 +1310,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = VLA_seizpu
 		}
 	}
 	focus = {
@@ -1165,7 +1330,22 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -1185,7 +1365,30 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -1205,7 +1408,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = VLA_seizpu
+				add_idea = VLA_seizpu2
+				}
 		}
 	}
 	focus = {
@@ -1225,7 +1431,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = VLA_seizpu2
+				add_idea = VLA_seizpu3
+				}
 		}
 	}
 	focus = {
@@ -1245,7 +1454,17 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			reverse_add_opinion_modifier = {
+				target = ENG
+				modifier = kyuusekkinn
+				}
+				ENG = {
+					send_equipment = {
+						equipment = infantry_equipment
+						amount = 1500
+						target = VLA
+						}
+				}
 		}
 	}
 	focus = {
@@ -1265,7 +1484,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_political_power = 300
 		}
 	}
 	focus = {
@@ -1285,7 +1504,12 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			random_owned_controlled_state = {
+				add_resource = {
+					type = aluminium
+					amount = 31
+					}
+				}
 		}
 	}
 	focus = {
@@ -1305,7 +1529,30 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			reverse_add_opinion_modifier = {
+				target = CAN
+				modifier = kyuusekkinn
+				}
+				reverse_add_opinion_modifier = {
+					target = AST
+					modifier = kyuusekkinn
+					}
+					reverse_add_opinion_modifier = {
+						target = NZL
+						modifier = kyuusekkinn
+						}
+						reverse_add_opinion_modifier = {
+							target = SAF
+							modifier = kyuusekkinn
+							}
+							reverse_add_opinion_modifier = {
+								target = EGY
+								modifier = kyuusekkinn
+								}
+								reverse_add_opinion_modifier = {
+									target = RAJ
+									modifier = kyuusekkinn
+									}
 		}
 	}
 	focus = {
@@ -1325,7 +1572,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = VLA_KOKUEIKA
 		}
 	}
 	focus = {
@@ -1345,7 +1592,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = VLA_KOKUEIKA
+				add_idea = VLA_KOKUEIKA1
+				}
 		}
 	}
 	focus = {
@@ -1365,7 +1615,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+		add_research_slot = 1
 		}
 	}
 	focus = {
@@ -1385,7 +1635,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = VLA_KOKUEIKA1
+				add_idea = VLA_KOKUEIKA2
+				}
 		}
 	}
 }

@@ -1,29 +1,16 @@
 ideas = {
 
 	country = {
-		VLA_kakumei = {
-			removal_cost = -1
-			allowed = {
-				always = no
-			}
-
-			picture = "GFX_idea_por_iberian_workers_united"
-	
-			modifier = {
-				political_power_factor = 0.25
-			}
-	
-		}
 		VLA_syuukyou1 = {
 			removal_cost = -1
-			picture = GFX_idea_SOV_new_old_church
+			picture = SOV_new_old_church
 			modifier = {
 				political_power_factor = 0.15
 			}
 		}
 		VLA_syuukyou2 = {
 			removal_cost = -1
-			picture = GFX_idea_SOV_new_old_church
+			picture = SOV_new_old_church
 			modifier = {
 				stability_factor = 0.10
 				political_power_factor = -0.15
@@ -31,14 +18,14 @@ ideas = {
 		}
 		VLA_syuukyou3 = {
 			removal_cost = -1
-			picture = GFX_idea_SOV_new_old_church
+			picture = SOV_new_old_church
 			modifier = {
 				stability_factor = 0.05
 			}
 		}
 		VLA_touti1 = {
 			removal_cost = -1
-			picture = GFX_idea_hol_aloof_neutrality
+			picture = hol_aloof_neutrality
 			modifier = {
 				stability_factor = 0.05
 				Resistance_decay_on_our_occupied_states = 0.1
@@ -46,7 +33,7 @@ ideas = {
 		}
 		VLA_touti2 = {
 			removal_cost = -1
-			picture = GFX_idea_hol_aloof_neutrality
+			picture = hol_aloof_neutrality
 			modifier = {
 				required_garrison_factor = 0.15
 				Resistance_decay_on_our_occupied_states = 0.25
@@ -54,11 +41,183 @@ ideas = {
 		}
 		VLA_touti3 = {
 			removal_cost = -1
-			picture = GFX_idea_hol_aloof_neutrality
+			picture = hol_aloof_neutrality
 			modifier = {
 				political_power_factor = 0.05
 				stability_factor = -0.10
 				required_garrison_factor = -0.25
+			}
+		}
+		VLA_zaibatu = {
+			removal_cost = -1
+			picture = jap_zaibatsu_ally
+			modifier = {
+			production_factory_max_efficiency_factor = 0.15
+			production_speed_buildings_factor = 0.15
+			industrial_capacity_factory = 0.15
+			targeted_modifier = { tag = JAP cic_to_target_factor = 0.10 }
+			}
+		}
+		VLA_T_SAN = {
+			removal_cost = -1
+			picture = new_deal
+			modifier = {
+			production_factory_max_efficiency_factor = 0.15
+			production_speed_buildings_factor = 0.15
+			industrial_capacity_factory = 0.15
+			targeted_modifier = { tag = JAP cic_to_target_factor = 0.10 }
+			}
+		}
+		VLA_T_SAN1 = {
+			removal_cost = -1
+			picture = new_deal
+			modifier = {
+			production_factory_max_efficiency_factor = 0.15
+			production_speed_buildings_factor = 0.15
+			industrial_capacity_factory = 0.15
+			targeted_modifier = { tag = JAP cic_to_target_factor = 0.10 }
+			}
+		}
+		VLA_T_SAN2 = {
+			removal_cost = -1
+			picture = new_deal
+			modifier = {
+			production_factory_max_efficiency_factor = 0.15
+			production_speed_buildings_factor = 0.15
+			industrial_capacity_factory = 0.15
+			targeted_modifier = { tag = JAP cic_to_target_factor = 0.10 }
+			}
+		}
+		VLA_USA_S = {
+			removal_cost = -1
+			picture = jap_supremacy_of_technology
+			modifier = {
+				research_time_factor = -0.05
+			}
+		}
+		VLA_USA_S2 = {
+			removal_cost = -1
+			picture = jap_supremacy_of_technology
+			modifier = {
+				research_time_factor = -0.05
+				local_resources_factor = 0.15
+				production_speed_infrastructure_factor = 0.15
+				production_speed_rail_way_factor = 0.15
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		VLA_seizpu = {
+			removal_cost = -1
+			picture = generic_exploit_mines
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_start_efficiency_factor = 0.15
+			}
+		}
+		VLA_seizpu2 = {
+			removal_cost = -1
+			picture = generic_exploit_mines
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_start_efficiency_factor = 0.15
+			}
+		}
+		VLA_seizpu3 = {
+			removal_cost = -1
+			picture = generic_exploit_mines
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_start_efficiency_factor = 0.15
+				industrial_capacity_dockyard = 0.2
+			}
+		}
+		VLA_T_T_T = {
+			removal_cost = -1
+			picture = generic_build_infrastructure
+			modifier = {
+				production_speed_supply_node_factor = 0.50
+				production_speed_rail_way_factor = 0.45
+			}
+		}
+		VLA_KOKUEIKA = {
+			removal_cost = -1
+			picture = generic_central_management
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		VLA_KOKUEIKA1 = {
+			removal_cost = -1
+			picture = generic_central_management
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		VLA_KOKUEIKA2 = {
+			removal_cost = -1
+			picture = generic_central_management
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.15
+			}
+		}
+		VLA_GUNKOKU = {
+			removal_cost = -1
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				production_speed_arms_factory_factor = 0.25
+				economy_cost_factor = -0.25
+				mobilization_laws_cost_factor = -0.25
+				production_speed_industrial_complex_factor = -0.1
+			}
+		}
+		VLA_GUNKOKU1 = {
+			removal_cost = -1
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				political_power_factor = 0.05
+				conscription = 0.02
+				production_speed_arms_factory_factor = 0.50
+				industrial_capacity_factory = 0.15
+				economy_cost_factor = -0.25
+				mobilization_laws_cost_factor = -0.25
+				production_speed_industrial_complex_factor = -0.1
+				research_time_factor = 0.05
+			}
+		}
+		VLA_Roudouhou = {
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				stability_factor = -0.10
+				local_resources_factor = 0.10
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		VLA_Roudouhou1 = {
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				stability_factor = -0.10
+				local_resources_factor = 0.15
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.15
+			}
+		}
+		VLA_Roudouhou2 = {
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				stability_factor = -0.10
+				local_resources_factor = 0.15
+				production_speed_buildings_factor = 0.15
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.15
 			}
 		}
 	}
@@ -274,24 +433,6 @@ ideas = {
 	
 	industrial_concern = {
 		
-		ig_faben = {
-			
-			allowed = {
-				original_tag = GER
-			}
-			
-			research_bonus = {
-				industry = 0.05
-				synth_resources = 0.15
-			}
-			
-			traits = { refinery_concern }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
 		krupp = {
 			
 			allowed = {
@@ -362,7 +503,36 @@ ideas = {
 			}
 		}
 		
-		
+		sibelia = {
+			
+			allowed = {
+				original_tag = VLA
+				has_country_flag = VLA_sibelia
+			}
+
+			picture = SOV_the_true_tsars
+
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+
+			equipment_bonus = {
+				infantry_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+			}
+
+			traits = { infantry_equipment_manufacturer }
+
+			ai_will_do = {
+				factor = 5
+			}
+		}
 
 		
 		opel = {

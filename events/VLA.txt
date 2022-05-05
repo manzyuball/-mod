@@ -5,12 +5,13 @@ country_event = {
 	id = VLA.1
 	title = VLA.1.t
 	desc = VLA.1.d
-	picture = event_tur_ataturk_inonu_parliament
+	picture = GFX_report_event_journalists_speech
+		fire_only_once = yes
 	
 	trigger = {
 		focus_progress = {
 			focus = VLA_se1
-			progress > 0.2
+			progress > 0.1
 			}
 		tag = VLA
 	}
@@ -51,12 +52,13 @@ country_event = {
 	id = VLA.2
 	title = VLA.2.t
 	desc = VLA.2.d
-	picture = event_tur_the_montreux_convention
+	picture = GFX_report_event_journalists_speech
+		fire_only_once = yes
 
 	trigger = {
 		focus_progress = {
 			focus = VLA_se1
-			progress > 0.4
+			progress > 0.3
 			}
 		tag = VLA
 	}
@@ -97,12 +99,13 @@ country_event = {
 	id = VLA.3
 	title = VLA.3.t
 	desc = VLA.3.d
-	picture = event_tur_the_montreux_convention
+	picture = GFX_report_event_journalists_speech
+		fire_only_once = yes
 
 	trigger = {
 		focus_progress = {
 			focus = VLA_se1
-			progress > 0.6
+			progress > 0.5
 			}
 		tag = VLA
 	}
@@ -142,12 +145,13 @@ country_event = {
 	id = VLA.4
 	title = VLA.4.t
 	desc = VLA.4.d
-	picture = event_tur_the_montreux_convention
+	picture = GFX_report_event_journalists_speech
+		fire_only_once = yes
 
 	trigger = {
 		focus_progress = {
 			focus = VLA_se1
-			progress > 0.8
+			progress > 0.6
 			}
 		tag = VLA
 	}
@@ -190,12 +194,13 @@ country_event = {
 	id = VLA.5
 	title = VLA.5.t
 	desc = VLA.5.d
-	picture = event_tur_the_montreux_convention
+	picture = GFX_report_event_journalists_speech
+		fire_only_once = yes
 
 	trigger = {
 		focus_progress = {
 			focus = VLA_se1
-			progress > 0.9
+			progress > 0.8
 			}
 		tag = VLA
 	}
@@ -238,7 +243,8 @@ country_event = {
 	id = VLA.6
 	title = VLA.6.t
 	desc = VLA.6.d
-	picture = event_tur_the_montreux_convention
+	picture = GFX_report_event_journalists_speech
+		fire_only_once = yes
 
 	trigger = {
 		has_country_flag = VLA_G_WIN
@@ -254,7 +260,8 @@ country_event = {
 	id = VLA.7
 	title = VLA.7.t
 	desc = VLA.7.d
-	picture = event_tur_the_montreux_convention
+	picture = GFX_report_event_journalists_speech
+		fire_only_once = yes
 
 	trigger = {
 		has_country_flag = VLA_T_WIN
@@ -270,7 +277,8 @@ country_event = {
 	id = VLA.8
 	title = VLA.8.t
 	desc = VLA.8.d
-	picture = event_tur_the_montreux_convention
+	picture = GFX_report_event_journalists_speech
+		fire_only_once = yes
 
 	trigger = {
 		has_country_flag = VLA_R_WIN

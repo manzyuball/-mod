@@ -1,29 +1,6 @@
-#formable_nations = {
-#
-#	icon = generic_formable_nations
-#
-#	allowed = {
-#		has_dlc = "Waking the Tiger"
-#	}
-#}
-
-habatu_VLA = {
-
+VLA_habatu = {
 	icon = power_struggle
-
-	picture = decision_cat_picture_government_in_exile
-
 	allowed = {
-	}
-}
-
-form_nordic_league_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_nordic_league
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
+		original_tag = VLA
 	}
 }
