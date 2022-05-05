@@ -4,7 +4,9 @@ ideas = {
 		naisenn = {
 			picture = ast_volunteer_defence_corps
 			removal_cost = -1
-			
+			rule = {
+			can_join_factions_not_allowed_diplomacy = yes
+			}
 			modifier = {
 				ai_focus_aggressive_factor = 0.85
 				join_faction_tension = 0.95

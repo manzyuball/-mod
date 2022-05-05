@@ -1111,7 +1111,7 @@ focus_tree = {
 		y = 2
 		#mutually_exclusive = { focus =  }
 		relative_position_id = VLA_sanB1
-		prerequisite = { focus = VLA_sanB1 }
+		prerequisite = { focus = VLA_sanB6 }
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -1420,7 +1420,7 @@ focus_tree = {
 		x = 4
 		y = 6
 		#mutually_exclusive = { focus =  }
-		prerequisite = { focus = VLA_sanC5 }
+		prerequisite = { focus = VLA_sanC8 }
 		relative_position_id = VLA_sanB1
 		cost = 5
 		ai_will_do = {
