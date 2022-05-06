@@ -4,8 +4,11 @@ state={
 	provinces={
 		4959 7982 10797 12832 
 	}
+	resources={
+		oil=23.000
+	}
 	history={
-		owner = ENG
+		owner = PER
 		victory_points = {
 			7982 3 
 		}
@@ -13,7 +16,7 @@ state={
 			12832 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			7982 = {
 				naval_base = 4
 

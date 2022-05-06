@@ -463,6 +463,10 @@ DDR = {
     color = rgb { 120 150 80 }
     color_ui = rgb { 150 180 120 }
 }
+IVO = {
+    color = rgb { 237 71 25 }
+    color_ui = rgb { 237 71 25 }
+}
 KOR = {
 	color = rgb { 255  240  195 }
 	color_ui = rgb { 255 248 229 }	

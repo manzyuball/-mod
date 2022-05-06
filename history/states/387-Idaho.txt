@@ -10,9 +10,6 @@ state={
 		steel=18 # was: 32
 		chromium=1 # was: 2
 		tungsten=18 # was: 34
-		GOLD=31
-		SILVER=54
-		BRONZE=86
 	}
 
 	history={

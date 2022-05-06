@@ -5,7 +5,7 @@ state={
 		859 3878 
 	}
 	history={
-		owner = USN
+		owner = USA
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2

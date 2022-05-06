@@ -72,7 +72,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 818
+		location = 3663
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -84,7 +84,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 818
+		location = 9617
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -96,7 +96,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 818
+		location = 657
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -108,7 +108,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 818
+		location = 3707
 		division_template = "Brigada de Cavalerie"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -122,7 +122,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 52
 		}
-		location = 9617
+		location = 3741
 		division_template = "Divizia de Infanterie"			# Guards division: elite, latest equipment
 		start_experience_factor = 0.3
 	}
@@ -132,7 +132,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 9617
+		location = 3407
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -144,7 +144,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 9617
+		location = 6695
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -156,7 +156,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 9617
+		location = 818
 		division_template = "Brigada de Cavalerie"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -164,7 +164,7 @@ units = {
 	}
 	division = {
 		name = "Regimentul 1 de Blindate"
-		location = 9617
+		location = 11603
 		division_template = "Regimentul de Blindate"
 		start_experience_factor = 0.3
 		force_equipment_variants = { gw_tank_equipment = { owner = "ROM" creator = "FRA" amount = 72 } }

@@ -4,10 +4,7 @@ state={
 	name="STATE_303" # Lima
 	manpower = 3563249
 	resources={
-		oil=14 # was: 18
-		GOLD=68
-		SILVER=63
-		COCA=671
+		oil=36
 		
 	}
 	

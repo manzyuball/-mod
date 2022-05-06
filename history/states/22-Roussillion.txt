@@ -10,6 +10,7 @@ state={
 	resources={
 		steel=70 # was: 136
 		aluminium=50 # was: 96
+		rubber=20.000
 	}
 
 	history={

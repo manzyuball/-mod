@@ -4,7 +4,8 @@ state={
 
 	history={
 		add_core_of = BAN
-		owner = RAJ
+		owner = IVO
+		add_core_of = IVO
 		victory_points = {
 			11929 1 
 		}
@@ -27,7 +28,7 @@ state={
 	}
 	manpower=31973300
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 
 	local_supplies=0.0 
 }

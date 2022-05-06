@@ -9,130 +9,11 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "La Resistance"
-		}
-	}
-	recruit_character = SPR_niceto_alcala_zamora
-	recruit_character = SPR_jose_diaz
-	recruit_character = SPR_alejandro_lerroux
-	recruit_character = SPA_francisco_franco
-	recruit_character = SPR_jose_asensio_torrado
-	recruit_character = SPA_ricardo_rada
-	recruit_character = SPR_diego_hidalgo_duran
-	recruit_character = SPA_luis_carrero_blanco
-	recruit_character = SPA_joaquin_garcia_morato
-	recruit_character = SPR_andres_saborit_colomer
-	recruit_character = SPA_miguel_cabanellas
-	recruit_character = SPR_jose_miaja
-	recruit_character = SPA_juan_yague
-	recruit_character = SPA_emilio_esteban_infantes
-	recruit_character = SPA_salvador_moreno_fernandez
-	recruit_character = SPR_vicente_rojo_lluch
-	recruit_character = SPR_miguel_buiza_fernandez_palacios
-	recruit_character = SPA_jose_enrique_varela
-	recruit_character = SPA_fransisco_moreno_fernandez
-	recruit_character = SPR_luis_gonzalez_de_ubieta
-	recruit_character = SPA_emilio_herrera
-	recruit_character = SPR_carlos_masquelet_lacaci
-	recruit_character = SPR_indalecio_prieto_tuero
-	recruit_character = SPA_angel_salas_larrazabal
-	recruit_character = SPA_agustin_munoz_grandes
-	recruit_character = SPR_ignacio_hidalgo_de_cisneros
-	recruit_character = SPR_andres_garcia_la_calle
-	recruit_character = SPA_emilio_mola
-	recruit_character = SPA_alfredo_kindelan_duany
-	recruit_character = SPR_antonio_azarola_y_gresillon
-	recruit_character = SPR_nicolas_molero
-	recruit_character = SPR_dolores_ibarruri
-	recruit_character = SPR_diego_martinez_barrio
-	recruit_character = SPR_augusto_barcia_trelles
-	recruit_character = SPR_francisco_largo_caballero
-
 	set_popularities = {
-		democratic = 47
-		fascism = 46
-		communism = 7
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { camelry = 1 }
-}
-
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	every_owned_state = {
-		limit = {
-			NOT = {
-				state = 177
-				state = 178
-				state = 290
-				state = 699
-				state = 783
-				state = 297
-			}
-		}
-		set_variable = { var = SPA_garrison_control value = 1 }
-		SPA_garrison_control_cost_calculation = yes
-	}
-	set_popularities = {
-		democratic = 41
-		fascism = 37
-		communism = 7
+		democratic = 65
+		fascism = 10
+		communism = 10
 		neutrality = 15
-	}
-	create_dynamic_country = {
-	    original_tag = SPR
-	    set_country_flag = SPR_nationalist_spain_flag
-		set_politics = {
-			ruling_party = neutrality
-		}
-		set_cosmetic_tag = SPR_nationalist_spain
-		set_research_slots = 3
-	    reserve_dynamic_country = yes
-	}
-	create_dynamic_country = {
-	    original_tag = SPR
-	    set_country_flag = SPR_carlist_spain_flag
-	    set_politics = {
-			ruling_party = neutrality
-		}
-		set_cosmetic_tag = SPR_carlist_spain
-		set_research_slots = 3
-	    reserve_dynamic_country = yes
-	}
-	create_dynamic_country = {
-	    original_tag = SPR
-	    set_country_flag = SPR_anarchist_spain_flag
-	    set_politics = {
-			ruling_party = neutrality
-		}
-		set_cosmetic_tag = SPR_anarchist_spain
-		set_research_slots = 3
-	    reserve_dynamic_country = yes
-	}
-	SPR = {
-		set_variable = { var = spa_civil_war_divisions_counter_var value = 17 }
-		set_variable = { var = spr_civil_war_divisions_counter_var value = 66 }
-	}
-	for_each_scope_loop = {
-	    array = core_states
-	    
-	    set_state_flag = SPR_original_core
-	}
-	add_ideas = {
-		SPA_carlism_1
-		SPR_military_disloyalty
-		SPR_political_violence
-		SPR_national_strikes_3
 	}
 	recruit_character = SPR_niceto_alcala_zamora
 	recruit_character = SPR_jose_diaz
@@ -224,23 +105,6 @@ if = {
 	recruit_character = SPA_luis_hernando_de_larramendi
 	recruit_character = SPA_martin_de_riquer
 	recruit_character = SPA_mauricio_de_sivatte
-	165 = {
-		add_dynamic_modifier = { modifier = autonomous_state }
-	}
-	171 = {
-		add_dynamic_modifier = { modifier = autonomous_state }
-	}
-	792 = {
-		add_dynamic_modifier = { modifier = autonomous_state }
-	}
-
-	SPR_enrique_lister = {
-		set_character_flag = SPR_do_not_align_me_flag
-	}
-	SPR_valentin_gonzalez = {
-		set_character_flag = SPR_do_not_align_me_flag
-	}
-}
 
 set_research_slots = 3
 

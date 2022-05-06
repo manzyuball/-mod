@@ -6,7 +6,6 @@ state={
 
 	state_category = rural
 	resources={
-		GOLD=8.000
 	}
 
 

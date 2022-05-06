@@ -26,5 +26,5 @@ state={
 	}
 
 
-	local_supplies=9.0 
+	local_supplies=15.0 
 }

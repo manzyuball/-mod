@@ -12,7 +12,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = IVO
+		add_core_of = IVO
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

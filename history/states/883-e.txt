@@ -5,7 +5,7 @@ state={
 		1889 2039 4891 13082 
 	}
 	history={
-		owner = ENG
+		owner = PER
 		buildings = {
 			infrastructure = 2
 
