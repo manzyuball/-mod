@@ -165,6 +165,8 @@ declare_war_on = {
 	type = annex_everything
 }
 add_to_faction = GER
+add_to_faction = IVO
+add_to_faction = CHI
 add_to_faction = ITA
 add_to_faction = HOL
 give_guarantee = SOV

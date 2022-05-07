@@ -11,7 +11,9 @@ country = {
 		removal_cost = -1
 
 		picture = SPR_masters_of_our_own_fate
-
+		rule = {
+			can_join_factions_not_allowed_diplomacy = no
+		}
 		modifier = {
 			political_power_factor = 0.25
 			war_support_factor = 0.10

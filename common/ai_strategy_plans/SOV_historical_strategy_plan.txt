@@ -28,6 +28,7 @@ SOV_historical_plan = {
 	ai_national_focuses = {
 		SOV_p
 		SOV_p1
+		SOV_p10
 		SOV_p14
 		SOV_p17
 		SOV_p11
@@ -40,6 +41,11 @@ SOV_historical_plan = {
 		SOV_s15
 		SOV_g11
 		SOV_g12
+		SOV_p15
+		SOV_p16
+		SOV_p20
+		SOV_p20
+		SOV_p21
 		SOV_s16
 	}
 

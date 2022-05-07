@@ -97,6 +97,7 @@ create_faction = "中央同盟国"
 add_to_faction = AUS
 add_to_faction = BUL
 add_to_faction = TUR
+add_to_faction = LAT
 recruit_character = AUS_Wilhelm
 recruit_character = AUS_karl_renner
 recruit_character = AUS_Adolf_Hitler

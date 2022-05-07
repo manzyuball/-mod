@@ -16,7 +16,11 @@ set_technology = {
 }
 
 set_convoys = 45
-
+set_autonomy = {
+	target = BRM
+	autonomous_state = autonomy_collaboration_government
+	freedom_level = 0.1
+}
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"

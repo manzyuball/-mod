@@ -217,6 +217,11 @@
 
 		available = {
 			has_war_with = CHI
+			CHI = {
+				controls_state = 593
+				controls_state = 592
+				controls_state = 326
+			}
 		}
 
 		bypass = {
@@ -227,7 +232,9 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			custom_effect_tooltip = JAP_zyou
 			hidden_effect = {
+				load_obb = "JAP_Jyouriku"
 			}
 		}
 	}

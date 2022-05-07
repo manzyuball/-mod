@@ -16,6 +16,7 @@ set_technology = {
 	early_bomber = 1
 	naval_bomber1 = 1
 }
+add_manpower = 1000000
 declare_war_on = {
 	target = SPR
 	type = annex_everything
@@ -37,7 +38,15 @@ set_popularities = {
 	fascism = 10
 	communism = 85
 }
-
+ SPR = {
+	 add_ideas = SPR_NAISEM
+ }
+ CAT = {
+	add_ideas = SPR_NAISEM
+}
+SPR = {
+	add_ideas = SPR_NAISEM
+}
 create_country_leader = {
 	name = "Andreu Nin i Pérez"
 	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
@@ -58,10 +67,13 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 }
-
 create_country_leader = {
-	name = "Francesc Cambó i Batlle"
-	picture = "gfx//leaders//Europe//portrait_europe_generic_6.dds"
-	expire = "1965.1.1"
-	ideology = centrism
+	name = "無政府"
+	desc = ""
+	picture = "gfx/leaders/SPR/portrait_spr_anarchist_commune.dds"
+	ideology = anarchism
+	traits = {
+		anarchist_zeal
+	}
 }
+
