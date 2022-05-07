@@ -8,7 +8,14 @@ if = {
 		set_naval_oob = "SPR_1936_naval_legacy"
 	}
 }
-
+declare_war_on = {
+	target = CAT
+	type = annex_everything
+}
+declare_war_on = {
+	target = MOR
+	type = annex_everything
+}
 	set_popularities = {
 		democratic = 65
 		fascism = 10

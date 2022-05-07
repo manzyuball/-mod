@@ -61,7 +61,14 @@ set_convoys = 20
 		dispersed_industry2 = 1
 	}
 }
-
+declare_war_on = {
+	target = CAT
+	type = annex_everything
+}
+declare_war_on = {
+	target = SPR
+	type = annex_everything
+}
 
 set_politics = {
 	ruling_party = neutrality
@@ -70,9 +77,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 5
+	democratic = 0
+	fascism = 0
+	communism = 50
 	neutrality = 50
 }
 

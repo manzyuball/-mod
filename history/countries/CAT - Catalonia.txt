@@ -16,7 +16,14 @@ set_technology = {
 	early_bomber = 1
 	naval_bomber1 = 1
 }
-
+declare_war_on = {
+	target = SPR
+	type = annex_everything
+}
+declare_war_on = {
+	target = MOR
+	type = annex_everything
+}
 set_convoys = 20
 
 set_politics = {

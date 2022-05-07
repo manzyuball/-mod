@@ -1,6 +1,6 @@
 ideologies = {
 	
-	democratic = {
+	 = {
 	
 		types = {
 			
@@ -37,15 +37,10 @@ ideologies = {
 		
 		can_host_government_in_exile = yes
 		
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
-		
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.15
-			lend_lease_tension = 0.05
-			send_volunteers_tension = 0.05
-			guarantee_tension = 0.1
+			join_faction_tension = 0.95
+			ai_get_ally_desire_factor = -100
+			guarantee_tension = 0.85
 		}
 		
 		faction_modifiers = {
@@ -99,12 +94,9 @@ ideologies = {
 		can_collaborate = yes
 		
 		modifiers = {
-			puppet_cost_factor = -0.3
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
-			hidden_modifier = { join_faction_tension = -0.1 }
+			join_faction_tension = 0.95
+			ai_get_ally_desire_factor = -100
+			guarantee_tension = 0.85
 		}
 		
 		faction_modifiers = {
@@ -155,12 +147,9 @@ ideologies = {
 		can_collaborate = yes
 		
 		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
-			hidden_modifier = { join_faction_tension = -0.1 }
+			join_faction_tension = 0.95
+			ai_get_ally_desire_factor = -100
+			guarantee_tension = 0.85
 		}
 
 		ai_fascist = yes # uses the fascist AI behaviour
@@ -208,6 +197,9 @@ ideologies = {
 		}
 		
 		modifiers = {
+			join_faction_tension = 0.95
+			ai_get_ally_desire_factor = -100
+			guarantee_tension = 0.85
 		}
 		
 		faction_modifiers = {
