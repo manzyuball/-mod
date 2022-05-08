@@ -208,6 +208,30 @@ ideas = {
 				industrial_capacity_dockyard = 0.2
 			}
 		}
+		FRA_EUq1 = {
+			picture = generic_volunteer_expedition_bonus
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.5
+			}
+		}
+		FRA_EUq2 = {
+			picture = MEX_revolutionary_army
+			removal_cost = -1
+			modifier = {
+				max_planning = -0.25
+				defence = -0.25
+				offence = -0.25
+			}
+		}
+		FRA_EUq3 = {
+			picture = SPR_relocate_the_gold_reserves
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.3
+				consumer_goods_factor = 0.3
+			}
+		}
 	}
 
 	

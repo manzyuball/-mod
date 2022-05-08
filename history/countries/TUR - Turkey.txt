@@ -104,6 +104,10 @@ add_ideas = {
 	kenpou
 	gun
 }
+set_to_variable = {
+	var = TUR.TUR_KAIKAKUDO
+	value = 150
+ }
 if = {
 	limit = {
 			has_dlc = "La Resistance"

@@ -1557,5 +1557,240 @@ focus = {
 	}
 }
 	##### END ###########
+	focus = {
+		id = FRA_EU1
+		icon = "GFX_focus_ger_great_red_menace"
+		x = 18
+		y = 5
 
+		cost = 10
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		available = {
+		}
+		bypass = {
+	
+		}
+	
+		completion_reward = {
+			add_political_power = 250
+		}
+	}
+	focus = {
+		id = FRA_EU2
+		icon = "GFX_focus_secret_rearmament"
+		x = -2
+		y = 1
+		prerequisite = { Focus = FRA_EU1 }
+		relative_position_id = FRA_EU1
+		cost = 10
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		available = {
+		}
+		bypass = {
+	
+		}
+	
+		completion_reward = {
+			add_timed_idea = {
+				idea = FRA_EUq2
+				days = 100
+			}
+		}
+	}
+	focus = {
+		id = FRA_EU3
+		icon = "GFX_focus_hol_the_foundations_of_defense"
+		x = 2
+		y = 1
+		prerequisite = { Focus = FRA_EU1 }
+		relative_position_id = FRA_EU1
+		cost = 10
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		available = {
+		}
+		bypass = {
+	
+		}
+	
+		completion_reward = {
+			add_timed_idea = {
+				idea = FRA_EUq1
+				days = 100
+			}
+		}
+	}
+	focus = {
+		id = FRA_EU4
+		icon = "GFX_focus_usa_reestablish_the_gold_standard"
+		x = 0
+		y = 1
+		prerequisite = { Focus = FRA_EU1 }
+		relative_position_id = FRA_EU1
+		cost = 10
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		available = {
+		}
+		bypass = {
+	
+		}
+	
+		completion_reward = {
+			add_timed_idea = {
+				idea = FRA_EUq3
+				days = 100
+			}
+		}
+	}
+	focus = {
+		id = FRA_EU5
+		icon = "GFX_goal_support_fourth_int"
+		x = 0
+		y = 2
+		prerequisite = { Focus = FRA_EU4 }
+		prerequisite = { Focus = FRA_EU2 }
+		prerequisite = { Focus = FRA_EU3 }
+		relative_position_id = FRA_EU1
+		cost = 10
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		available = {
+			AND = {
+				GER = {
+					has_opinion = {
+						target = FRA
+						value > 50
+						}
+				}
+				HOL = {
+					has_opinion = {
+						target = FRA
+						value > 50
+						}
+				}
+			    ITA = {
+					has_opinion = {
+						target = FRA
+						value > 50
+						}
+				}
+				OR = {
+					GER = { surrender_progress > 0.3 }
+					ITA = { surrender_progress > 0.3 }
+					HOL = { surrender_progress > 0.3 }
+					}
+				}
+
+		}
+		bypass = {
+	
+		}
+	
+		completion_reward = {
+		set_cosmetic_tag = FRA_EUAw
+		annex_country = {
+			target = GER
+			transfer_troops = yes
+			}
+			annex_country = {
+				target = HOL
+				transfer_troops = yes
+				}
+				annex_country = {
+					target = ITA
+					transfer_troops = yes
+					}
+			add_core_of = GER		
+            add_core_of = ITA
+			add_core_of = HOL
+		}
+	}
+	focus = {
+		id = FRA_EU6
+		icon = "GFX_focus_usa_focus_on_europe"
+		x = -2
+		y = 2
+		prerequisite = { Focus = FRA_EU4 }
+		prerequisite = { Focus = FRA_EU2 }
+		prerequisite = { Focus = FRA_EU3 }
+		relative_position_id = FRA_EU1
+		cost = 10
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		available = {
+		}
+		bypass = {
+	
+		}
+	
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_EU7
+		icon = "GFX_focus_usa_focus_on_asia"
+		x = 2
+		y = 2
+		prerequisite = { Focus = FRA_EU4 }
+		prerequisite = { Focus = FRA_EU2 }
+		prerequisite = { Focus = FRA_EU3 }
+		relative_position_id = FRA_EU1
+		cost = 10
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		available = {
+		}
+		bypass = {
+	
+		}
+	
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_EU8
+		icon = "GFX_focus_SOV_the_supreme_soviet"
+		x = 0
+		y = 3
+		prerequisite = { Focus = FRA_EU5 }
+		relative_position_id = FRA_EU1
+		cost = 10
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		available = {
+		}
+		bypass = {
+	
+		}
+	
+		completion_reward = {
+		}
+	}
 }

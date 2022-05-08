@@ -1,0 +1,146 @@
+TUR_kaikaku = {
+
+	TUR_YON = {
+
+		allowed = {
+		original_tag = TUR
+		}
+
+		cost = 25
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 50
+		}
+		days_remove = 20
+
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		complete_effect = {
+			custom_effect_tooltip = TUR_1agaru
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			 }
+			hidden_effect = {
+            add_to_variable = {
+               var = TUR.TUR_KAIKAKUDO
+               value = 10
+            }
+          }
+		}
+	}
+
+	TUR_HANTAI = {
+
+		allowed = {
+		original_tag = TUR
+		}
+
+		cost = 25
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 50
+		}
+		days_remove = 20
+
+		modifier = {
+			political_power_factor = -0.25
+		}
+		complete_effect = {
+			custom_effect_tooltip = TUR_1sagaru
+			hidden_effect = {
+            add_to_variable = {
+               var = TUR.TUR_KAIKAKUDO
+               value = -10
+            }
+          }
+		}
+	}
+	TUR_ZAISEI = {
+
+		allowed = {
+		original_tag = TUR
+		}
+
+		cost = 25
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 50
+		}
+		days_remove = 20
+
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+		complete_effect = {
+			custom_effect_tooltip = TUR_1agaru
+			hidden_effect = {
+            add_to_variable = {
+               var = TUR.TUR_KAIKAKUDO
+               value = 10
+            }
+          }
+		}
+	}
+	TUR_BAISYU = {
+
+		allowed = {
+		original_tag = TUR
+		}
+
+		cost = 50
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 50
+		}
+		days_remove = 20
+
+		modifier = {
+		}
+		complete_effect = {
+			custom_effect_tooltip = TUR_1sagaru
+			hidden_effect = {
+            add_to_variable = {
+               var = TUR.TUR_KAIKAKUDO
+               value = -10
+            }
+          }
+		}
+	}
+	TUR_Seiyouika = {
+
+		allowed = {
+		original_tag = TUR
+		}
+
+		cost = 50
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 50
+		}
+		days_remove = 45
+
+		modifier = {
+			training_time_army_factor = -0.25
+		}
+		complete_effect = {
+			custom_effect_tooltip = TUR_1agaru
+			hidden_effect = {
+            add_to_variable = {
+               var = TUR.TUR_KAIKAKUDO
+               value = 10
+            }
+          }
+		}
+	}
+}

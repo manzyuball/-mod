@@ -111,6 +111,13 @@ completion_reward = {
     remove_idea = rengou1
     add_idea = rengou2
    }
+   custom_effect_tooltip = TUR_1agaru
+   hidden_effect = {
+   add_to_variable = {
+      var = TUR.TUR_KAIKAKUDO
+      value = 10
+   }
+ }
 }
 }
 focus = {
@@ -136,6 +143,13 @@ completion_reward = {
     remove_idea = rengou1
     add_idea = hurui1
    }
+   custom_effect_tooltip = TUR_1sagaru
+   hidden_effect = {
+   add_to_variable = {
+      var = TUR.TUR_KAIKAKUDO
+      value = -10
+   }
+ }
 }
 }
 focus = {
@@ -429,6 +443,13 @@ completion_reward = {
         idea = rengou5
         days = 360
         }
+        custom_effect_tooltip = TUR_1agaru
+        hidden_effect = {
+        add_to_variable = {
+           var = TUR.TUR_KAIKAKUDO
+           value = 10
+        }
+      }
 }
 }
 focus = {
@@ -520,6 +541,13 @@ focus = {
 completion_reward = {
     remove_ideas = hurui3
     add_stability = -0.15
+    custom_effect_tooltip = TUR_1sagaru
+    hidden_effect = {
+    add_to_variable = {
+       var = TUR.TUR_KAIKAKUDO
+       value = -10
+    }
+  }
 }
 }
 focus = {
@@ -667,6 +695,13 @@ completion_reward = {
         category = infantry_weapons
         category = artillery
     }
+    custom_effect_tooltip = TUR_1sagaru
+    hidden_effect = {
+    add_to_variable = {
+       var = TUR.TUR_KAIKAKUDO
+       value = -10
+    }
+  }
 }
 }
 #© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
@@ -693,6 +728,13 @@ completion_reward = {
         remove_idea = gun1
         add_idea = gun2
        }
+       custom_effect_tooltip = TUR_1agaru
+       hidden_effect = {
+       add_to_variable = {
+          var = TUR.TUR_KAIKAKUDO
+          value = 10
+       }
+     }
 }
 }
 focus = {
@@ -797,6 +839,13 @@ completion_reward = {
         remove_idea = gun2
         add_idea = gun3
        }
+       custom_effect_tooltip = TUR_1agaru
+       hidden_effect = {
+       add_to_variable = {
+          var = TUR.TUR_KAIKAKUDO
+          value = 10
+       }
+     }
 }
 }
 focus = {
@@ -846,6 +895,13 @@ completion_reward = {
         remove_idea = guna1
         add_idea = guna2
        }
+       custom_effect_tooltip = TUR_1sagaru
+       hidden_effect = {
+       add_to_variable = {
+          var = TUR.TUR_KAIKAKUDO
+          value = -10
+       }
+     }
 }
 }
 focus = {
