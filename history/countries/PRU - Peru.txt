@@ -54,7 +54,7 @@ if = {
 
 recruit_character = PRU_Óscar_benavides
 recruit_character = PRU_sebastián_lynch
-recruit_character = PRU_hilarión_lynch
+recruit_character = PRU_migel
 recruit_character = PRU_santiago_ruíztagle
 recruit_character = PRU_rafael_escardo
 recruit_character = PRU_alberto_lopez_flores

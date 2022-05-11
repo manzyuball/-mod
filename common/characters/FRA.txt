@@ -44,14 +44,14 @@ characters={
 		}
 	}
 
-	FRA_maurice_thorez={ #Communist Leader
-		name=FRA_maurice_thorez
+	FRA_torotky={ #Communist Leader
+		name = FRA_torotky
 		portraits={
 			army={
 				small="GFX_idea_maurice_thorez"
 			}
 			civilian={
-				large="GFX_portrait_fra_maurice_thorez"
+				large="gfx/leaders/_EOB/torotuki.dds"
 			}
 		}
 		advisor={
@@ -61,35 +61,9 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				or  = {
-					has_completed_focus  = FRA_leftist_rhetoric 
-					has_completed_focus  = FRA_invite_communist_ministers 
-				}
-				not  = {
-					has_country_leader  = {
-						character  = FRA_philippe_petain
-						ruling_only  = yes 
-					}
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					not  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
 			}
 			traits  = {
 				communist_revolutionary 
-			}
-			do_effect  = {
-				not  = {
-					has_government  = communism 
-				}
-			}
-			on_add  = {
-				FRA_right_wing_riot_effect = yes 
 			}
 			ai_will_do  = {
 				factor  = 0.000
@@ -97,23 +71,9 @@ characters={
 		}
 		
 		country_leader={
-			ideology=stalinism
+			ideology= marxist
 			expire="1965.1.1.1"
 			id=-1
-		}
-	}
-
-	FRA_rene_nicod={
-		name=FRA_rene_nicod
-		portraits={
-			civilian={
-				large="GFX_portrait_fra_rene_nicod"
-				small = "gfx/interface/ideas/idea_FRA_rene_nicod.dds"
-			}
-		}
-		country_leader={
-			ideology=marxism
-			expire="1965.1.1.1"
 		}
 	}
 
@@ -141,9 +101,9 @@ characters={
 		}
 		corps_commander={
 			traits={ brilliant_strategist cavalry_officer war_hero trickster }
-			skill=4
-			attack_skill=4
-			defense_skill=2
+			skill=6
+			attack_skill=5
+			defense_skill=3
 			planning_skill=4
 			logistics_skill=3
 			legacy_id=0
@@ -186,7 +146,6 @@ characters={
 				original_tag = FRA
 			}
 			available = {
-				has_completed_focus = FRA_aggressive_focus
 			}
 			cost = 100.000
 			traits = {
@@ -199,12 +158,12 @@ characters={
 		}
 
 		field_marshal={
-			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
-			skill=2
-			attack_skill=1
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=1
+			traits={ skilled_staffer expert_delegator defensive_doctrine unyielding_defender inflexible_strategist }
+			skill=3
+			attack_skill=3
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=0
 		}
 	}
@@ -239,12 +198,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
+			traits={ commando trickster skirmisher expert_improviser }
 			skill=3
 			attack_skill=3
 			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=0
 		}
 	}
@@ -275,12 +234,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ old_guard trait_cautious defensive_doctrine }
+			traits={ brilliant_strategist panzer_leader panzer_expert offensive_doctrine aggressive_assaulter }
 			skill=3
-			attack_skill=2
+			attack_skill=4
 			defense_skill=2
 			planning_skill=4
-			logistics_skill=2
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -380,12 +339,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ career_officer trait_reckless armor_officer }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=3
+			traits={ brilliant_strategist infantry_officer infantry_leader organizer }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -424,12 +383,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ career_officer trait_cautious infantry_officer trickster }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=2
+			traits={ inflexible_strategist trait_cautious defensive_doctrine unyielding_defender }
+			skill=4
+			attack_skill=3
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -462,11 +421,11 @@ characters={
 		
 		corps_commander={
 			traits={ old_guard infantry_officer }
-			skill=3
-			attack_skill=3
+			skill=1
+			attack_skill=1
 			defense_skill=1
-			planning_skill=3
-			logistics_skill=3
+			planning_skill=1
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -553,11 +512,11 @@ characters={
 
 		navy_leader={
 			traits={ bold naval_lineage superior_tactician }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			maneuvering_skill=3
-			coordination_skill=3
+			skill=5
+			attack_skill=4
+			defense_skill=4
+			maneuvering_skill=5
+			coordination_skill=4
 			legacy_id=102
 		}
 	}

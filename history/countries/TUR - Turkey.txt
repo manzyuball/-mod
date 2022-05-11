@@ -22,18 +22,9 @@ if = {
 	}
 }
 
-###################
-#### 3D MODELS ####
-###################
-
-#Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#TUR_communism
-#TUR_democratic
-#TUR_fascism
-#TUR_neutrality
 set_cosmetic_tag = TUR_neutrality
 
-set_research_slots = 4
+set_research_slots = 3
 
 set_technology = {
 	infantry_weapons = 1
@@ -104,10 +95,11 @@ add_ideas = {
 	kenpou
 	gun
 }
-set_to_variable = {
+set_variable = {
 	var = TUR.TUR_KAIKAKUDO
 	value = 150
- }
+}
+add_manpower = 864210
 if = {
 	limit = {
 			has_dlc = "La Resistance"

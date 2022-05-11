@@ -66,12 +66,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ trait_cautious harsh_leader armor_officer defensive_doctrine }
-			skill=4
-			attack_skill=4
+			traits={ brilliant_strategist organizer logistics_wizard offensive_doctrine aggressive_assaulter  }
+			skill=5
+			attack_skill=5
 			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+			planning_skill=4
+			logistics_skill=5
 			legacy_id=-1
 		}
 	}
@@ -180,12 +180,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer }
-			skill=3
-			attack_skill=3
+			traits={ infantry_officer infantry_leader trickster }
+			skill=5
+			attack_skill=5
 			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=-1
 		}
 	}

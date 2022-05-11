@@ -91,11 +91,11 @@ characters={
 			legacy_id=-1
 		}
 	}
-	MAN_zhao_shangzhi={
-		name=MAN_zhao_shangzhi
+	MANTyousaku  ={
+		name= MANTyousaku
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+				large="gfx/leaders/_EOB/MANTyousaku.dds"
 			}
 		}
 		country_leader={

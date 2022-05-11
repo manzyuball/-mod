@@ -1,14 +1,14 @@
 characters={
-	USA_franklin_delano_roosevelt={
-		name=USA_franklin_delano_roosevelt
+	USA_als={
+		name = USA_als
 		portraits={
 			civilian={
-				large="gfx/leaders/USA/Portrait_USA_Franklin_Roosevelt.dds"
+				large="gfx/leaders/_EOB/USAarusumis.dds"
 			}
 		}
 		country_leader={
 			ideology=liberalism
-			traits={ dislikes_germany }
+			traits={ }
 			expire="1947.1.1.1"
 			id=-1
 		}

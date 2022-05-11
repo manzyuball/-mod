@@ -1,18 +1,4 @@
 characters={
-	GER_adolf_hitler={
-		name=GER_adolf_hitler
-		portraits={
-			civilian={
-				large="gfx/leaders/GER/Portrait_Germany_Adolf_Hitler.dds"
-			}
-		}
-		country_leader={
-			ideology=nazism
-			traits={ dictator }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
 
 	GER_konrad_adenauer={
 		name=GER_konrad_adenauer
@@ -30,9 +16,11 @@ characters={
 
 	GER_wal = {
 		name = GER_wal
+		portraits={
 			civilian={
-				large="gfx/leaders/_EOB/walter.dds"
+				large = "gfx/leaders/_EOB/walter.dds"
 			}
+		}
 		country_leader={
 			ideology=marxism
 			traits={ anti_democrat }

@@ -53,7 +53,7 @@ characters={
 		name=AUS_Adolf_Hitler
 		portraits={
 			civilian={
-				large="gfx/leaders/GER/Portrait_Germany_Adolf_Hitler.dds"
+				large="gfx/leaders/_EOB/AUShitler.dds"
 				small="gfx/interface/ideas/idea_GER_adolf_hitler.dds"
 			}
 		}

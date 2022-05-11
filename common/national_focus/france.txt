@@ -714,6 +714,9 @@ focus = {
 
 	completion_reward = {
 		add_country_leader_trait = torotcy
+		hidden_effect = {
+			set_global_flag = CHI_syowww
+		}
 	}
 }
 focus = {
@@ -1706,21 +1709,49 @@ focus = {
 	
 		completion_reward = {
 		set_cosmetic_tag = FRA_EUAw
-		annex_country = {
-			target = GER
-			transfer_troops = yes
+		if = {
+			limit = { GER = { is_ai = yes } }
+			GER = {
+				every_owned_state = {
+				add_core_of = FRA
+				}		
+			}
+			annex_country = {
+				target = GER
+				transfer_troops = yes
+				}
+		}
+		else = {
+		}
+		if = {
+			limit = { HOL = { is_ai = yes } }
+			HOL = {
+				every_owned_state = {
+				add_core_of = FRA
+				}		
 			}
 			annex_country = {
 				target = HOL
 				transfer_troops = yes
 				}
-				annex_country = {
-					target = ITA
-					transfer_troops = yes
-					}
-			add_core_of = GER		
-            add_core_of = ITA
-			add_core_of = HOL
+		}
+		else = {
+		}
+		if = {
+			limit = { ITA = { is_ai = yes } }
+			ITA = {
+				every_owned_state = {
+				add_core_of = FRA
+				}		
+			}
+			annex_country = {
+				target = ITA
+				transfer_troops = yes
+				}
+		}
+		else = {
+		}
+
 		}
 	}
 	focus = {
@@ -1739,12 +1770,48 @@ focus = {
 		}
 	
 		available = {
+			ENG = {
+				is_neighbor_of = FRA
+			}
+			SWE = {
+				is_neighbor_of = FRA
+			}
+			AUS = {
+				is_neighbor_of = FRA
+			}
 		}
 		bypass = {
 	
 		}
 	
 		completion_reward = {
+			ENG = {
+				every_owned_state = {
+				add_core_of = FRA
+				}		
+			}
+			annex_country = {
+				target = ENG
+				transfer_troops = yes
+				}
+				SWE = {
+					every_owned_state = {
+					add_core_of = FRA
+					}		
+				}
+				annex_country = {
+					target = SWE
+					transfer_troops = yes
+					}
+					AUS = {
+						every_owned_state = {
+						add_core_of = FRA
+						}		
+					}
+					annex_country = {
+						target = AUS
+						transfer_troops = yes
+						}
 		}
 	}
 	focus = {
@@ -1763,12 +1830,48 @@ focus = {
 		}
 	
 		available = {
+			JAP = {
+				is_neighbor_of = FRA
+			}
+			CHI = {
+				is_neighbor_of = FRA
+			}
+			TUR = {
+				is_neighbor_of = FRA
+			}
 		}
 		bypass = {
 	
 		}
 	
 		completion_reward = {
+			JAP = {
+				every_owned_state = {
+				add_core_of = FRA
+				}		
+			}
+			annex_country = {
+				target = JAP
+				transfer_troops = yes
+				}
+				CHI = {
+					every_owned_state = {
+					add_core_of = FRA
+					}		
+				}
+				annex_country = {
+					target = CHI
+					transfer_troops = yes
+					}
+					TUR = {
+						every_owned_state = {
+						add_core_of = FRA
+						}		
+					}
+					annex_country = {
+						target = TUR
+						transfer_troops = yes
+						}
 		}
 	}
 	focus = {
@@ -1785,12 +1888,27 @@ focus = {
 		}
 	
 		available = {
+			num_subjects > 30
 		}
 		bypass = {
 	
 		}
 	
 		completion_reward = {
+			set_cosmetic_tag = FRA_SEKAISY
+			every_state = {
+				add_core_of = FRA
+				}
+				every_country = {
+					limit = { is_puppet_of = FRA }
+					FRA = {
+						annex_country = {
+						target = PREV
+						transfer_troops = yes
+						}
+					}
+				}
+				
 		}
 	}
 }

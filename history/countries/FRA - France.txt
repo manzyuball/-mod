@@ -172,7 +172,7 @@ add_to_faction = HOL
 give_guarantee = SOV
 
 recruit_character = FRA_philippe_petain
-recruit_character = FRA_maurice_thorez
+recruit_character = FRA_torotky
 recruit_character = FRA_pierre_laval
 recruit_character = FRA_edouard_daladier
 recruit_character = FRA_jean_de_lattre_de_tassigny
@@ -229,7 +229,7 @@ recruit_character = FRA_maurice_gauche
 recruit_character = FRA_jacques_duclos
 recruit_character = FRA_marcel_bucard
 
-
+add_manpower = 864210
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
