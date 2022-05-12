@@ -47,31 +47,12 @@ characters={
 	FRA_torotky={ #Communist Leader
 		name = FRA_torotky
 		portraits={
-			army={
-				small="GFX_idea_maurice_thorez"
-			}
 			civilian={
 				large="gfx/leaders/_EOB/torotuki.dds"
 			}
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = maurice_thorez
-			allowed  = {
-				original_tag  = FRA
-			}
-			available  = {
-			}
-			traits  = {
-				communist_revolutionary 
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
-		
 		country_leader={
-			ideology= marxist
+			ideology=marxist
 			expire="1965.1.1.1"
 			id=-1
 		}
