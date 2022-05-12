@@ -33,3 +33,8 @@ set_popularities = {
 	communism = 75
 	neutrality = 10
 }
+RAJ = {
+	every_owned_state = {
+	add_core_of = IVO
+	}		
+}

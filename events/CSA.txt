@@ -17,10 +17,6 @@ country_event = {
 		target = CSA
 		type = annex_everything
 		}
-		declare_war_on = {
-			target = USA
-			type = annex_everything
-			}
 			declare_war_on = {
 				target = USN
 				type = annex_everything
@@ -29,38 +25,19 @@ country_event = {
 	USN = {
 		add_ideas = naisenn
 	}
-	USA = {	
-		add_ideas = naisenn
-		declare_war_on = {
-		target = CSA
-		type = annex_everything
-		}
-		declare_war_on = {
-			target = USB
-			type = annex_everything
-			}
-			declare_war_on = {
-				target = USN
-				type = annex_everything
-				}
-	}
 	CSA = {	
 		add_ideas = naisenn
 		declare_war_on = {
 		target = USB
 		type = annex_everything
 		}
-		declare_war_on = {
-			target = USA
-			type = annex_everything
-			}
 			declare_war_on = {
 				target = USN
 				type = annex_everything
 				}
 	}
 	add_named_threat = {
-		threat = -10
+		threat = -30
 		name = ENG_yuu
 		}
 	news_event = {

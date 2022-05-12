@@ -37,6 +37,7 @@ characters={
 		}
 		country_leader={
 			ideology=liberalism
+			traits={  }
 			expire="1989.1.1.1"
 			id=-1
 		}

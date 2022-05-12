@@ -19,7 +19,11 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 }
-
+IVO = {
+	every_owned_state = {
+	add_core_of = RAJ
+	}		
+}
 recruit_character = RAJ_lord_linlithgow
 recruit_character = RAJ_v_d_savarkar
 recruit_character = RAJ_p_krishna_pillai

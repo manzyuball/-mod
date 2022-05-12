@@ -13,6 +13,16 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	heiwasyugisysa = {
+		random = no
+		political_power_factor = 0.25
+		political_advisor_cost_factor = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	chi_q = {
 		random = no
