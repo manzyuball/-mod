@@ -1,0 +1,30 @@
+state={
+	id=914
+	name="STATE_914"
+	provinces={
+		610 677 768 781 3644 6482 6681 6745 6757 6772 9730 11658 
+	}
+	history={
+		owner = USN
+		add_core_of = USN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 2
+			610 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = USA
+		add_core_of = USB
+		add_core_of = CSA
+
+	}
+	state_category=large_city
+	manpower=2131456
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,37 @@
+state={
+	id=910
+	name="STATE_910"
+	provinces={
+		1927 1954 1998 2019 2042 4884 4955 5038 5061 6785 6798 6987 8064 10740 10894 12369 12728 12782 
+	}
+	resources={
+		oil=90.000
+		aluminium=20.000
+	}
+
+	history={
+		owner = CSA
+		add_core_of = USN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 9
+			air_base = 3
+			6785 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = USA
+		add_core_of = USB
+		add_core_of = CSA
+		victory_points = {
+			12782 5
+		}
+
+	}
+	manpower=2153921
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

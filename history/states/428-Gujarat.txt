@@ -11,18 +11,13 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = IVO
+		add_core_of = IVO
 		victory_points = {
-			9975 10 
+			9975 1 
 		}
-		victory_points = {
-			4187 10 
-		}	
-		victory_points = {
-			10118 15 
-		}		
 		buildings = {
-			infrastructure = 5
+			infrastructure = 2
 			arms_factory = 1
 			9975 = {
 				naval_base = 2
@@ -34,4 +29,6 @@ state={
 	provinces={
 		1061 1103 1144 1190 4064 4090 4132 4187 7020 7150 7165 7207 9975 10118 11952 12037 12092 
 	}
+
+	local_supplies=0.0 
 }

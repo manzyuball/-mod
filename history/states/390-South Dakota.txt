@@ -2,21 +2,28 @@
 state={
 	id=390
 	name="STATE_390"
+	manpower = 692849
+	state_category = rural
 
 	history={
-		owner = USA
+		owner = USB
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
-
 		}
+		add_core_of = USN
 		add_core_of = USA
+		add_core_of = USB
+		add_core_of = CSA
+		victory_points = {
+			1747 1 
+		}
+
 	}
 
 	provinces={
-		4880 7862 10569 10595 12620 12667 
+		1747 1875 3750 4839 4880 7745 7771 7862 10569 10595 12620 12667 
 	}
-	manpower=352993
-	buildings_max_level_factor=1.000
-	state_category=rural
+
+	local_supplies=0.0 
 }

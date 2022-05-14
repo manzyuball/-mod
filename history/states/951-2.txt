@@ -1,0 +1,22 @@
+state={
+	id=951
+	name="STATE_951"
+	provinces={
+		432 508 576 1254 1290 1318 3502 3563 4322 4351 7438 9462 9526 9528 11480 11510 11552 
+	}
+		history={
+		owner = KAZ
+		add_core_of = KAZ
+		add_core_of = UZB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = SOV
+	}
+	manpower=151231
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

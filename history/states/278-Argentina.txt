@@ -1,33 +1,38 @@
 
 state={
 	id=278
-	name="STATE_278" # Pampas
-	manpower = 2785931
-	
-	state_category = large_city
+	name="STATE_278"
 
 	history={
 		owner = ARG
 		buildings = {
-			infrastructure = 9
-			arms_factory = 2
-			industrial_complex = 2
+			infrastructure = 6
+			arms_factory = 4
+			industrial_complex = 9
 			dockyard = 1
 			air_base = 4
-			12364 = {
-				naval_base = 7
-				bunker = 1
-				coastal_bunker = 1
+			7621 = {
+				naval_base = 2
+
 			}
+			1639 = {
+				naval_base = 1
+
+			}
+
 		}
 		add_core_of = ARG
 		victory_points = {
-			12364 10 
+			12351 15
 		}
 
 	}
 
 	provinces={
-		12364 12351
+		1555 10375 10390 10402 12351 12379 
 	}
+	manpower=9824296
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
 }

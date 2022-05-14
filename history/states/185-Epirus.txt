@@ -9,30 +9,34 @@ state={
 
 	history={
 		victory_points = {
-			12001 10
+			10203 1 
 		}
 		victory_points = {
-			6930 5
-		}		
+			3914 3 
+		}
+		victory_points = {
+			1205 1 
+		}
 		owner = GRE
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			industrial_complex = 1
 			air_base = 3
+			9805 = {
+				naval_base = 1
+
+			}
 
 		}
 		add_core_of = GRE
-		1941.1.1 = {
-			owner = ITA
-			controller = ITA
-
-		}
 
 	}
 
 	provinces={
-		 6930 9916 11786 11895 12001 
+		1106 1205 3914 3980 9805 9837 9916 11786 11895 12001 
 	}
-	manpower=3350000
+	manpower=760900
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
+	local_supplies=9.000
 }

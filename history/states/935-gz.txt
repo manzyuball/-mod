@@ -1,0 +1,29 @@
+
+state={
+	id=935
+	name="STATE_935"
+
+	history={
+		owner = ENG
+		victory_points = {
+			11332 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 4
+			air_base = 6
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		219 6399 9285 9397 11218 11332 
+	}
+	manpower=1128860
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

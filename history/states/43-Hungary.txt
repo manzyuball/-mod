@@ -8,23 +8,26 @@ state={
 		aluminium=100 # was: 194
 	}
 	
-	state_category = large_city
+	state_category = metropolis
 
 	history={
-		owner = HUN
+		owner = AUS
 		buildings = {
-			infrastructure = 8
+			infrastructure = 3
 			arms_factory = 4
-			industrial_complex = 4
+			industrial_complex = 8
 			air_base = 4
 		}
 		victory_points = {
-			9660 30 
+			9660 20 
 		}
 		add_core_of = HUN
+		add_core_of = AUS
 	}
 
 	provinces={
-		684 716 6716 9660 
+		684 716 3713 3731 6716 6751 9660 9690 11520 
 	}
+
+	local_supplies=0.0 
 }

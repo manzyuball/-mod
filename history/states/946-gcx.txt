@@ -1,0 +1,25 @@
+state={
+	id=946
+	name="STATE_946"
+	provinces={
+		1282 1338 1619 4287 10247 12221 
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+
+		}
+		add_core_of = USN
+		add_core_of = USA
+		add_core_of = USB
+		add_core_of = CSA
+
+	}
+	manpower=3121458
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

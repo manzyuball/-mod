@@ -7,19 +7,23 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = SAF
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = BOT
+		add_core_of = SAF
+		victory_points = {
+			8214 1 
+		}
 
 	}
 
 	provinces={
-		10525 12963 
+		1580 7770 8214 10525 12519 12940 12963 13217 13919 13920 
 	}
 	manpower=234000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
+	local_supplies=2.000
 }

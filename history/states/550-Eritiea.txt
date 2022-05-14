@@ -1,29 +1,32 @@
-state=
-{
+
+state={
 	id=550
 	name="STATE_550"
-	manpower = 590600
-	
-	state_category = rural
-	
-	history= {
-		owner = ITA
+
+	history={
+		owner = ETH
 		add_core_of = ERI
+		add_core_of = ETH
 		victory_points = {
-			12766 1
+			12766 1 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			air_base = 3
 			12766 = {
 				naval_base = 3
+
 			}
+
 		}
-		1941.1.1 = {
-			controller = ENG
-		}		
+
 	}
+
 	provinces={
-		5017 5047 5091 8043 12723 12766
+		5017 5047 5091 8043 12723 12766 13325 13486 13487 13488 
 	}
+	manpower=600600
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

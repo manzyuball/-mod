@@ -1,0 +1,20 @@
+state={
+	id=955
+	name="STATE_955"
+	provinces={
+		4578 4636 7777 10353 10366 
+	}
+	history={
+		owner = UZB
+		add_core_of = KAZ
+		add_core_of = UZB
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+	}
+	manpower=81212
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

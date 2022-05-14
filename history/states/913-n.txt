@@ -1,0 +1,26 @@
+state={
+	id=913
+	name="STATE_913"
+	provinces={
+		986 3784 3840 6861 6881 9637 11859 11876 
+	}
+	
+	history={
+		owner = USN
+		add_core_of = USN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 2
+		}
+		add_core_of = USA
+		add_core_of = USB
+		add_core_of = CSA
+
+		}
+	manpower=2524131
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=875
+	name="STATE_875"
+
+	history={
+		owner = FRA
+		add_core_of = LAT
+		victory_points = {
+			678 5 
+		}
+		victory_points = {
+			9503 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1346 6542 6712 9503 11640 
+	}
+	manpower=915600
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

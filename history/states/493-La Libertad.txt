@@ -5,6 +5,7 @@ state={
 	manpower = 2826781
 	resources={
 		oil=15 # was: 20
+		COCA=32
 	}
 	
 	state_category = town
@@ -12,7 +13,7 @@ state={
 	history={
 		owner = COL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 2
 			air_base = 4
 			12790 = {
@@ -27,10 +28,7 @@ state={
 			2023 1 
 		}
 		victory_points = {
-			12845 5 
-		}		
-		victory_points = {
-			12790 10
+			12790 5 
 		}
 
 	}
@@ -38,4 +36,6 @@ state={
 	provinces={
 		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 12872 
 	}
+
+	local_supplies=0.0 
 }

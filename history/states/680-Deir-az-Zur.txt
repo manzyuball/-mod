@@ -4,22 +4,31 @@ state={
 	name="STATE_680"
 
 	history={
-		owner = FRA
+		owner = TUR
 		victory_points = {
 			3942 1 
 		}
+		victory_points = {
+			1549 1 
+		}
+		victory_points = {
+			6883 1 
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 
 		}
-		add_core_of = SYR
+		add_core_of = TUR
+		add_core_of = KUR
+		add_core_of = IRQ
 
 	}
 
 	provinces={
-		2013 3942 7513 10383 12316 12442 
+		901 1578 1606 1634 2013 3942 6883 7513 10383 10882 12316 12442 13344 13443 
 	}
-	manpower=214100
+	manpower=324110
 	buildings_max_level_factor=1.000
 	state_category=wasteland
+	local_supplies=4.000
 }

@@ -2,18 +2,19 @@
 state={
 	id=497
 	name="STATE_497"
-	manpower = 1447326
+	manpower = 2950100
 	
 	state_category = rural
 	
 	resources={
-		rubber=12 # was: 30
+		rubber=23 # was: 30
+		GOLD=13
 	}
 
 	history={
 		owner = BRA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
 			air_base = 1
 			12853 = {
@@ -28,6 +29,8 @@ state={
 	}
 
 	provinces={
-		12853 12999 2214 10874 
+		2150 2214 2228 5153 5204 5220 10874 10984 12853 12913 12933 12947 12999 
 	}
+
+	local_supplies=0.0 
 }

@@ -1,0 +1,32 @@
+state={
+	id=889
+	name="STATE_889"
+	provinces={
+		2149 10935 12494 
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 6
+			10953 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ARG
+
+	}	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = ARG
+
+	}
+	manpower=975313
+	state_category =city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

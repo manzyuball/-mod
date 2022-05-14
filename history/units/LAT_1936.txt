@@ -1,0 +1,198 @@
+﻿division_template = {
+	name = "旧ドイツ帝国正規兵"	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "砲兵付属歩兵隊"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 3288
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 6314
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 6360
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 9340
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 6322
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 341
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 9404
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 3152
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 11127
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "砲兵付属歩兵隊"
+		location = 9317
+		division_template = "砲兵付属歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 6332
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 6332
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 395
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 395
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 9398
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 9398
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 9372
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 9372
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 348
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 11265
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 266
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 11386
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 6332
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+}
+
+air_wings = {
+	12 = {
+		fighter_equipment_0 =  {
+			owner = "LAT" 
+			amount = 200
+		}
+	}
+	763 = {
+		fighter_equipment_0 =  {
+			owner = "LAT" 
+			amount = 800
+		}
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "LAT"
+		}
+		requested_factories = 6
+		progress = 0.25
+		efficiency = 100
+	}
+}

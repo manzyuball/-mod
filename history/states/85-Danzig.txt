@@ -4,45 +4,33 @@ state={
 	name="STATE_85"
 
 	history={
-		owner = DAN
-		#victory_points = {
-		#	362 2
-		#}
+		owner = GER
 		victory_points = {
-			13866 10 
-		}		
+			362 10 
+		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 1
-			dockyard = 1
-			air_base = 3
+			dockyard = 3
 			362 = {
 				naval_base = 5
 
 			}
 
 		}
-		add_core_of = DAN
-		add_core_of = POL
 		add_core_of = GER
-		add_core_of = PRE
-		1938.3.12 = {
-			add_claim_by = GER
-
-		}
-		1941.1.1 = {
-			owner = GER
-			controller = GER
-
-		}
+		add_core_of = POL
+		add_core_of = KSH
+		add_core_of = LAT
 
 	}
 
 	provinces={
-		362 13866
+		362 13866 
 	}
-	manpower=290000
+	manpower=366730
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=city
+	local_supplies=0.000
 }

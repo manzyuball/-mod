@@ -4,15 +4,13 @@ state={
 
 	history={
 		add_core_of = BAN
-		owner = RAJ
+		owner = IVO
+		add_core_of = IVO
 		victory_points = {
-			11929 15
+			11929 1 
 		}
-		victory_points = {
-			9991 15 
-		}		
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3 #was: 5
 			industrial_complex = 2
 			11968 = {
 				naval_base = 3
@@ -26,9 +24,11 @@ state={
 	}
 
 	provinces={
-		7179 9991 9993 10416 11929 11968 12010 12423 13208
+		2843 4162 4616 7078 7124 7179 7662 9935 9991 9993 10035 10389 10416 10443 11911 11929 11968 12010 12423 13208
 	}
-	manpower=19183980
+	manpower=31973300
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
+
+	local_supplies=0.0 
 }

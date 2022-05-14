@@ -13,8 +13,9 @@ state={
 			9737 20 
 		}
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
 			dockyard = 1
 			air_base = 3
 			9737 = {
@@ -24,20 +25,16 @@ state={
 			}
 
 		}
-		add_core_of = FRA
 		add_core_of = OCC
-		1941.1.1 = {
-			owner = GER
-			controller = GER
-
-		}
+		add_core_of = FRA
 
 	}
 
 	provinces={
-		6621 6762 6777 9710 9737 11565
+		6621 6762 6777 9710 9737 11565 
 	}
-	manpower=1340400
+	manpower=1140400
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_city
+	local_supplies=0.000
 }

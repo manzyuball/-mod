@@ -6,33 +6,32 @@ state={
 	history={
 		owner = FRA
 		victory_points = {
+			3671 10 
+		}
+		victory_points = {
 			512 15 
 		}
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 1
+			infrastructure = 4
+			industrial_complex = 2
 
 		}
 		add_core_of = FRA
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 2
+				industrial_complex = 4
 
 			}
-
-		}
-		1941.1.1 = {
-			owner = GER
-			controller = GER
 
 		}
 
 	}
 
 	provinces={
-		512 6518 6533 6547 9507 
+		512 3493 3671 6518 6533 6688 9492 11631 
 	}
-	manpower=1023200
+	manpower=1546300
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
+	local_supplies=15.000
 }

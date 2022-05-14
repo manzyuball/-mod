@@ -4,18 +4,23 @@ state={
 	name="STATE_752"
 
 	history={
-		owner = HSI
-		add_core_of = HSI
+		owner = GXC
+		add_core_of = GXC
 		add_core_of = CHI
 		add_core_of = PRC
+		victory_points = {
+			4999 1
+		}
+		victory_points = {
+		    10856 1 
+		}
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 2
 		}
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 1
-				infrastructure = 2
+				infrastructure = 1
 
 			}
 
@@ -24,9 +29,10 @@ state={
 	}
 
 	provinces={
-		12724 13965 13966 13969 
+		1918 4407 4999 5102 7988 8104 10817 10856 12724 12837 
 	}
-	manpower=368000
+	manpower=300000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=1.000
 }

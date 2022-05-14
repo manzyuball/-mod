@@ -2,23 +2,14 @@
 state={
 	id=763
 	name="STATE_763"
-	manpower = 1810234
-	state_category = large_city
 
 	history={
-		owner = GER
-		controller = GER
-		
-		victory_points = {
-			281 5 
-		}
-		
+		owner = LAT
 		victory_points = {
 			6332 10 
-		}		
-
+		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 3
 			industrial_complex = 2
 			6332 = {
 				bunker = 1
@@ -30,17 +21,25 @@ state={
 
 			}
 			air_base = 6
+
 		}
+		add_core_of = LAT
 		add_core_of = GER
-		add_core_of = PRE
 		1939.1.1 = {
 			buildings = {
 				anti_air_building = 5
+
 			}
+
 		}
+
 	}
 
 	provinces={
-	  6332 281
+		281 348 395 3384 6332 11265 13568 13591 
 	}
+	manpower=2140234
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

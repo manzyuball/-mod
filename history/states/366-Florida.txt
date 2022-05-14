@@ -4,12 +4,12 @@ state={
 	name="STATE_366"
 	manpower = 1468210
 	
-	state_category = city
+	state_category = large_city
 
 	history={
-		owner = USA
+		owner = CSA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 3
 			air_base = 8
 			1572 = {
@@ -26,43 +26,12 @@ state={
 			}
 		}
 		add_core_of = USA
+		add_core_of = CSA
+		add_core_of = USN
+		add_core_of = USB
 		victory_points = {
 			1843 5 
 		}
-		victory_points = {
-			7388 1 
-		}
-		victory_points = {
-			866 1 
-		}
-		victory_points = {
-			12381 5 
-		}
-		victory_points = {
-			10407 10 
-		}
-		victory_points = {
-			10352 1 
-		}
-		victory_points = {
-			1556 1 
-		}
-		victory_points = {
-			1584 1 
-		}
-		victory_points = {
-			12439 1 
-		}
-		victory_points = {
-			10489 1 
-		}
-		victory_points = {
-			12752 1 
-		}
-		victory_points = {
-			9834 1 
-		}
-		
 
 	}
 
@@ -70,4 +39,6 @@ state={
 		866 1556 1572 1584 1843 1913 7388 9834 10352 10380 10407 10489 12353 12381 12439 12752 
 	}
 	
+
+	local_supplies=10.0 
 }

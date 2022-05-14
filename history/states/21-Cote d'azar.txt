@@ -3,21 +3,28 @@ state={
 	id=21
 	name="STATE_21"
 	resources={
-		aluminium=40.000
+		aluminium=60.000
 	}
 
 	history={
 		owner = FRA
 		victory_points = {
-			11834 30
-		}	
+			911 1 
+		}
+		victory_points = {
+			11834 10 
+		}
 		buildings = {
-			infrastructure = 6
-			air_base = 10
+			infrastructure = 3
+			industrial_complex = 4
+			dockyard = 3
 			arms_factory = 2
-			11849 = {
-				naval_base = 3
+			fuel_silo = 1
+			air_base = 10
+			911 = {
+				naval_base = 10
 				coastal_bunker = 1
+
 			}
 			11834 = {
 				naval_base = 3
@@ -26,15 +33,23 @@ state={
 			}
 
 		}
-		add_core_of = FRA
 		add_core_of = OCC
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				dockyard = 3
+
+			}
+
+		}
 
 	}
 
 	provinces={
-		11849 11834
+		911 956 3928 11834 11849 
 	}
-	manpower=1276797
+	manpower=2060400
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=large_city
+	local_supplies=0.000
 }

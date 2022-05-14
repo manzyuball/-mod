@@ -4,30 +4,33 @@ state=
 	name="STATE_524"
 	manpower = 4592537
 	
-	state_category = large_town
+	state_category = large_city
 	history=
 	{
 		owner = JAP
 		add_core_of = CHI
+		add_core_of = JAP
 		add_core_of = PRC
-		add_core_of = FOR
 		buildings = {
-			infrastructure = 5
-			arms_factory = 1
+			infrastructure = 3 #was: 5
+			arms_factory = 2
 			air_base = 6
+			industrial_complex = 4
 			12068 = {
 				naval_base = 10
 			}
 		}
 		victory_points = {
-			7186 5 
+			7186 13
 		}
 		victory_points = {
-			12068 1 
+			12068 2
 		}
 
 	}
 	provinces={
 		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068
 		}
+
+	local_supplies=0.0 
 }

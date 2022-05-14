@@ -10,19 +10,21 @@ state={
 	}
 
 	history={
+		add_core_of = VLA
 		victory_points = {
 			10329 1
 		}
 		owner = SOV
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 
 		}
 		add_core_of = SOV
-		add_core_of = IDL
 	}
 
 	provinces={
-		361 3280 7320 10136 10142 10329 11223 12117 
+		237 278 361 3280 4758 7320 10136 10329 11223 11307 
 	}
+
+	local_supplies=7.0 
 }

@@ -1,4 +1,4 @@
-﻿capital = 2
+﻿capital = 843
 
 if = {
 	limit = {
@@ -21,24 +21,10 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
-	vittoria_mutilata
+	ITA_syoki_ideas
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-}
-
-550 = {
-	start_resistance = yes
-	set_compliance = 10
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-559 = {
-	start_resistance = yes
-	set_compliance = 10
-	set_resistance = 0
-	set_garrison_strength = 1.0
 }
 
 # Starting tech
@@ -55,7 +41,6 @@ set_technology = {
 	early_bomber = 1
 	naval_bomber1 = 1
 	CAS1 = 1
-	trench_warfare = 1
 	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
@@ -317,7 +302,7 @@ set_popularities = {
 	communism = 65
 }
 
-GER = { add_to_faction = ITA }
+FRA = { add_to_faction = ITA }
 
 recruit_character = ITA_palmiro_togliatti
 recruit_character = ITA_victor_emmanuel_iii

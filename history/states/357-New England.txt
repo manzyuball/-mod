@@ -9,34 +9,39 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 5
 			dockyard = 4
 			air_base = 10
 			6732 = {
 				naval_base = 8
 
 			}
+			9832 = {
+				naval_base = 3
+
+			}
+
 		}
+		add_core_of = USN
 		add_core_of = USA
-		add_core_of = NEE
+		add_core_of = USB
+		add_core_of = CSA
 		victory_points = {
 			6732 20 
 		}
 		victory_points = {
-			905 5
-		}
-		victory_points = {
-			3710 3 
+			9832 1 
 		}
 
 	}
 
 	provinces={
-		715 718 905 908 3710 3906 6732 
+		715 718 905 908 3710 3906 6732 6909 9832 9847 9850 11830
 	}
-	manpower=860100
+	manpower=8404713
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=megalopolis
+	local_supplies=0.000
 }

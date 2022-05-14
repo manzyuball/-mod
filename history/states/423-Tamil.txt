@@ -4,38 +4,31 @@ state={
 	name="STATE_423" # Madurai
 	manpower = 29147500
 	
-	state_category = rural
+	state_category = large_city
 	
 	resources={
-		rubber=19 # was: 28
+		rubber=28 # was: 28
 	}
 
 	history={
 		owner = RAJ
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			air_base = 1
+			infrastructure = 5 #was: 5
+			industrial_complex = 3
+			air_base = 5
 			10278 = {
-				naval_base = 4
+				naval_base = 10
 			}
 		}
 		victory_points = {
-			10278 15 
+			10278 15
 		}
-		victory_points = {
-			7447 10
-		}
-		victory_points = {
-			1321 5
-		}		
-		victory_points = {
-			12247 10
-		}		
 
 	}
 
 	provinces={
 		1238 1268 1321 1381 1409 4327 4416 4420 7265 7288 7363 7402 7436 7447 8067 10130 10246 10274 10278 10808 12164 12247 12275 
 	}
+
+	local_supplies=0.0 
 }

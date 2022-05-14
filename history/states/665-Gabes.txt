@@ -4,17 +4,23 @@ state={
 	name="STATE_665"
 
 	history={
-		owner = FRA
-		add_core_of = TUN
-		buildings = {
-			infrastructure = 1
+		owner = ALG
+		add_core_of = ALG
+		victory_points = {
+			7005 1 
 		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
 	}
 
 	provinces={
-		1105 3987 4992 9983 10082 12000 
+		1105 3987 4992 7005 8061 8077 9983 10026 10082 11935 11957 12000 13145 13179 
 	}
 	manpower=427824
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
+	local_supplies=0.000
 }

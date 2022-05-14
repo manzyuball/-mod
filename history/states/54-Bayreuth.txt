@@ -2,42 +2,32 @@
 state={
 	id=54
 	name="STATE_54"
+	manpower = 2508159
+
+	state_category = city
 
 	history={
 		owner = GER
+		add_core_of = LAT
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 			industrial_complex = 2
-
 		}
-		#victory_points = {
-		#	9572 3 
-		#}
-		#victory_points = {
-		#	6540 3
-		#}
-	    victory_points = {
-			11529 5 
-		}		
 		victory_points = {
 			11544 10 
-		}		
+		}
 		add_core_of = GER
-		add_core_of = BAY
+
 		1939.1.1 = {
 			buildings = {
 				air_base = 3
-
 			}
-
 		}
-
 	}
 
 	provinces={
-		561 3474 6540 9416 9572 11404 11529 11544
+		561 3474 6421 6594 9416 9557 9572 11404 11417 11529 11544 13116 
 	}
-	manpower=1786597
-	buildings_max_level_factor=1.000
-	state_category=city
+
+	local_supplies=0.0 
 }

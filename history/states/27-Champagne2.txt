@@ -3,7 +3,7 @@ state={
 	id=27
 	name="STATE_27"
 	resources={
-		aluminium=6.000
+		aluminium=11.000
 	}
 
 	history={
@@ -12,32 +12,27 @@ state={
 			3652 5 
 		}
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 1
+			infrastructure = 4
+			industrial_complex = 5
 			air_base = 2
 
 		}
 		add_core_of = FRA
-		add_core_of = BGN
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 1
+				industrial_complex = 3
 
 			}
-
-		}
-		1941.1.1 = {
-			owner = GER
-			controller = GER
 
 		}
 
 	}
 
 	provinces={
-		 680 3652 
+		648 667 680 817 3506 3650 3652 3669 3681 9625 9644 11628 11702 
 	}
-	manpower=722145
+	manpower=1370800
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

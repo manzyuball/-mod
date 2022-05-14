@@ -2,27 +2,25 @@
 state={
 	id=505
 	name="STATE_505"
-	
-	state_category = city
+	resources={
+		bronze=12.000
+	}
 
 	history={
 		owner = BRA
 		buildings = {
-			infrastructure = 8
+			infrastructure = 1
 
 		}
 		add_core_of = BRA
-		victory_points = {
-			12987 5 
-		}
-		victory_points = {
-			5208 10 
-		}		
+
 	}
 
 	provinces={
-	 5115 5208 8140 12959 12987 
+		2168 5115 5148 5151 5208 8140 12959 12987 
 	}
-	manpower=1572200
+	manpower=1662200
 	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

@@ -1,41 +1,31 @@
-
 state={
 	id=748
 	name="STATE_748"
-
-	history={	
-		owner = CHI
+	provinces={
+		1010 4141 4325 4431 9939 10763 11972 
+	}
+	history={
+		owner = GXC
+		add_core_of = GXC
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-			arms_factory = 2
+			infrastructure = 1
 
 		}
 		victory_points = {
-			10763 5
+			1010 3
 		}
-		victory_points = {
-			4504 10
-		}		
 		1939.1.1 = {
 			buildings = {
-				infrastructure = 4
-				air_base = 2
-				industrial_complex = 4
-				arms_factory = 4
-
+				infrastructure = 2
+				air_base = 1
 			}
-
 		}
-
-	}
-
-	provinces={
-		1884 4504 10763 10819 
 	}
 	manpower=1500000
+	state_category=pastoral
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+
+	local_supplies=0.0 
 }

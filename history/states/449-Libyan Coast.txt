@@ -1,22 +1,25 @@
 
 state={
 	id=449
-	name="STATE_449"
+	name="STATE_449" # El Agheila
+	manpower = 40431
+	
+	state_category = town
 
 	history={
-		owner = ITA
+		owner = EGY
+		add_core_of = EGY
+	
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 2
+			industrial_complex = 2
 		}
 		add_core_of = LBA
-
 	}
 
 	provinces={
-		1041 4047 10046 10117 12088 
+		1041 1198 4047 4057 10046 10117 12088 
 	}
-	manpower=44431
-	buildings_max_level_factor=1.000
-	state_category=enclave
+
+	local_supplies=0.0 
 }

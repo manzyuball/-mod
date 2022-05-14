@@ -1,34 +1,25 @@
-
 state={
 	id=612
 	name="STATE_612"
 
 	history={
-		owner = JAP
-		add_core_of = MEN
+		owner = MON
+		add_core_of = MON
 		add_core_of = CHI
 		add_core_of = PRC
-		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 1
-
-		}
-		victory_points = {
-			11752 3 
-		}
-		1939.1.1 = {
-			owner = MEN
-			controller = MEN
-			set_demilitarized_zone = no
 
 		}
 
 	}
 
 	provinces={
-		1489 1551 1608 1811 1871 4222 4555 4612 7578 7648 7674 10372 11752 12448 12554 
+		1551 1608 1796 1811 1871 4222 4555 7578 7648 10363 10372 12348 12448 12554 
 	}
-	manpower=565434
+	manpower=566000
 	buildings_max_level_factor=1.000
 	state_category=rural
+
+	local_supplies=0.0 
 }

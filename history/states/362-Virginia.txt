@@ -4,12 +4,13 @@ state={
 	name="STATE_362"
 
 	history={
-		owner = USA
+			owner = USN
+		add_core_of = USN
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
+			infrastructure = 3 #was: 6
+			industrial_complex = 2
 			dockyard = 4
-			air_base = 10
+			air_base = 6
 			fuel_silo = 1
 			788 = {
 				naval_base = 10
@@ -18,15 +19,17 @@ state={
 
 		}
 		add_core_of = USA
+		add_core_of = USB
+		add_core_of = CSA
 		victory_points = {
 			788 10 
 		}
 		victory_points = {
-			3823 15 
+			10412 15 
 		}
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 4
+				industrial_complex = 2
 				dockyard = 5
 
 			}
@@ -36,9 +39,11 @@ state={
 	}
 
 	provinces={
-				788 865 873 951 1506 3823 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873 
+		788 865 873 951 1506 3823 3917 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873 
 	}
-	manpower=2451054
+
+	local_supplies=11.0
+	manpower=2249080
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=metropolis
 }

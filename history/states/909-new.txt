@@ -1,0 +1,32 @@
+state={
+	id=909
+	name="STATE_909"
+	provinces={
+		2102 3867 3883 4975 8070 10642 10867 12684 12720 12791 
+	}
+	resources={
+		oil=8.000
+		aluminium=20.000
+	}
+
+	history={
+		owner = CSA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = USN
+		add_core_of = USA
+		add_core_of = USB
+		add_core_of = CSA
+		victory_points = {
+			4975 1 
+		}
+
+	}
+	manpower=223316
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

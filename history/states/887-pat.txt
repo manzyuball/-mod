@@ -1,0 +1,23 @@
+state={
+	id=887
+	name="STATE_887"
+	provinces={
+		2169 5173 8176 10953 12946 12952 
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = ARG
+
+	}
+
+	manpower=43215
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

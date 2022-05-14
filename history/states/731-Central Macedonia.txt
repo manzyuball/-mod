@@ -4,32 +4,30 @@ state={
 	name="STATE_731"
 
 	history={
-		owner = GRE
+		owner = BUL
 		victory_points = {
-			9837 3 
+			11818 5 
 		}
-		
 		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 2
+			industrial_complex = 3
 			air_base = 2
+			11818 = {
+				naval_base = 3
 
 			}
-		add_core_of = GRE
-		add_claim_by = BUL
-		1941.1.1 = {
-			owner = GER
-			controller = GER
 
 		}
-		
-    }
+		add_core_of = BUL
+		add_claim_by = GRE
+
+	}
 
 	provinces={
-		936 9837 10163
-	    }
-	manpower=702460
+		895 936 3526 3936 10163 11818 13345 
+	}
+	manpower=1155700
 	buildings_max_level_factor=1.000
 	state_category=town
-    }    
+	local_supplies=0.000
+}

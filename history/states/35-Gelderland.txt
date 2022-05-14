@@ -1,15 +1,13 @@
-
 state={
 	id=35
 	name="STATE_35"
 
 	history={
 		owner = HOL
-		add_core_of = BRB
 		add_core_of = HOL
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 5
+			infrastructure = 4
+			industrial_complex = 7
 
 		}
 		victory_points = {
@@ -18,18 +16,18 @@ state={
 		victory_points = {
 			6496 3 
 		}
-		1941.1.1 = {
-			owner = GER
-			controller = GER
-
+		victory_points = {
+			11562 1 
 		}
 
 	}
 
 	provinces={
-		3262 6496 
+		480 3262 6496 6500 9431 11456 11562 
 	}
-	manpower=1039080
+	manpower=1449000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category = metropolis
+
+	local_supplies=0.0 
 }

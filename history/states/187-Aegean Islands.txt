@@ -7,28 +7,36 @@ state={
 	}
 
 	history={
-		owner = GRE
+		owner = TUR
 		buildings = {
-			infrastructure = 4
-			3401 = {
+			infrastructure = 1
+			dockyard = 1
+			8435 = {
+				naval_base = 1
+
+			}
+			6550 = {
 				naval_base = 1
 
 			}
 
 		}
-		add_core_of = GRE
-		1941.1.1 = {
-			owner = ITA
-			controller = ITA
-
+		victory_points = {
+			6550 1 
 		}
+		victory_points = {
+			8435 1 
+		}
+		add_core_of = GRE
+		add_core_of = TUR
 
 	}
 
 	provinces={
-		3401 
+		3401 6550 
 	}
-	manpower=122400
+	manpower=322600
 	buildings_max_level_factor=1.000
 	state_category=small_island
+	local_supplies=9.000
 }

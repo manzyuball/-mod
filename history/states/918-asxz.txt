@@ -1,0 +1,29 @@
+state={
+	id=918
+	name="STATE_918"
+	provinces={
+		1568 1596 1624 1639 4573 4602 4643 7621 10418 12394 12409 12998 
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 6
+			arms_factory = 4
+			industrial_complex = 11
+			1639 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ARG
+		victory_points = {
+			7621 10
+		}
+
+	}
+	manpower=1432765
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

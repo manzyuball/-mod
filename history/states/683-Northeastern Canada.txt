@@ -2,21 +2,15 @@
 state={
 	id=683
 	name="STATE_683"
-
-    impassable = yes
-	
 	resources={
 		aluminium=7.000
+		BRONZE=19
 	}
 
 	history={
 		owner = CAN
 		buildings = {
 			infrastructure = 1
-			#3691 = {
-			#	naval_base = 1
-            #
-			#}
 
 		}
 		add_core_of = CAN
@@ -24,9 +18,11 @@ state={
 	}
 
 	provinces={
-		1712 2947 3691 7813 10721 13532 13543 13548 13550 13552 13553 13555 13557 5315 5556 3792 4894 5789 5815 8868 
+		761 763 2947 3736 4753 5239 6728 7185 7782 8962 9615 10585 10605 10721 13182 13188 13190 13191 
 	}
 	manpower=46135
 	buildings_max_level_factor=1.000
 	state_category=wasteland
+
+	local_supplies=0.0 
 }

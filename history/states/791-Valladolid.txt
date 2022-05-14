@@ -1,30 +1,32 @@
-state={	#Baden
+
+state={
 	id=791
 	name="STATE_791"
+	resources={
+		tungsten=10.000
+	}
 
 	history={
-		owner = GER
+		owner = MOR
 		victory_points = {
-			6568 15
-		}		
+			11825 3 
+		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 3
+			industrial_complex = 1
 
 		}
-		add_core_of = GER
-		add_core_of = BDN
-		set_demilitarized_zone = yes
-		1936.3.7 = {
-			set_demilitarized_zone = no
-
-		}
+		add_core_of = SPR
+		add_core_of = CAT
+		add_core_of = MOR
 
 	}
 
 	provinces={
-	6568 3574
+		903 977 3820 4024 6936 9700 9800 9827 9846 9872 11684 11806 11809 11825 13227 
 	}
-	manpower=409201
+	manpower=713628
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
+	local_supplies=0.000
 }

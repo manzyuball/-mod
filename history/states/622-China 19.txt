@@ -8,38 +8,28 @@ state={
 	}
 
 	history={
-		owner = PRC
+		owner = SHX
 		add_core_of = PRC
 		add_core_of = CHI
 		add_core_of = PRC
+		add_core_of = SHX
 		victory_points = {
-			12356 3 
+			8049 5 
 		}
 		buildings = {
-			infrastructure = 2
-			arms_factory = 2
-			industrial_complex = 3
-			517 = {
-				bunker = 2
-
-			}
-			1458 = {
-				bunker = 2
-
-			}
-			12356 = {
-				bunker = 2
-				
-			}
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 5
 
 		}
 
 	}
 
 	provinces={
-		517 1458 10880 12356 
+		517 1458 4939 5007 7208 7314 7659 8049 10733 10880 12156 12356 
 	}
-	manpower=5604960
+	manpower=7006200
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_city
+	local_supplies=0.000
 }

@@ -2,31 +2,21 @@
 state={
 	id=507
 	name="STATE_507" # Magallanes
-	manpower = 197693
+	manpower = 68693
 	
-	state_category = rural
+	state_category = large_town
 
 	history={
 		owner = CHL
-		victory_points = {
-			8218 3 
-		}	
-		victory_points = {
-			5118 1 
-		}	
-		victory_points = {
-			2161 1
-		}	
-		victory_points = {
-			8198 1 
-		}			
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 		}
 		add_core_of = CHL
 	}
 
 	provinces={
-		2161 5118 5159 8198 8218 10961 5234
+		2161 5118 5159 5201 5209 5215 8198 8218 8913 10961 
 	}
+
+	local_supplies=0.0 
 }

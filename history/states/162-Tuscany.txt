@@ -6,35 +6,47 @@ state={
 	history={
 		owner = ITA
 		victory_points = {
-			9907 20 
+			9907 3 
 		}
 		victory_points = {
-			6946 3 
+			6973 1 
+		}
+		victory_points = {
+			11833 1 
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 1
 			dockyard = 3
 			air_base = 2
-			6946 = {
-				naval_base = 4
+			6973 = {
+				naval_base = 10
+
 			}
+			11833 = {
+				naval_base = 4
+
+			}
+
 		}
 		add_core_of = ITA
-		add_core_of = TUS
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
 				industrial_complex = 2
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		910 1616 6875 6946 9879 9907 11833 11889 
+		910 967 1616 3885 6875 6926 6946 9750 9879 9907 9924 11833 11861 11889 13310 
 	}
-	manpower=2994933
+	manpower=3084933
 	buildings_max_level_factor=1.000
 	state_category=large_city
+	local_supplies=0.000
 }

@@ -5,25 +5,30 @@ state={
 
 	history={
 		owner = FRA
-		buildings = {
-			infrastructure = 7
-			industrial_complex = 1
-			air_base = 10
+		victory_points = {
+			9490 5 
 		}
-		add_core_of = FRA
-		add_core_of = BGN
-		1941.1.1 = {
-			owner = GER
-			controller = GER
+		victory_points = {
+			13011 5 
+		}
+		victory_points = {
+			3560 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			air_base = 10
 
 		}
+		add_core_of = FRA
 
 	}
 
 	provinces={
-	 3533 6531 11732 13329 
+		551 3533 6531 6545 9490 9505 9658 11732 13011 13329 
 	}
-	manpower=561300
+	manpower=1370800
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

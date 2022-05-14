@@ -1,0 +1,238 @@
+﻿division_template = {
+	name = "町内監視兵"	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "北洋歩兵隊"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "騎兵"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+
+##### OOB #####
+units = {
+	division = {
+		name = "北洋歩兵隊"
+		location = 9843
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "北洋歩兵隊"
+		location = 1052
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "北洋歩兵隊"
+		location = 7092
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "北洋歩兵隊"
+		location = 4633
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "北洋歩兵隊"
+		location = 6893
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "北洋歩兵隊"
+		location = 3791
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "北洋歩兵隊"
+		location = 6860
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "北洋歩兵隊"
+		location = 4093
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "町内監視兵"
+		location = 846
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 846
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 1508
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 7526
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 6905
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 964
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 1052
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 2093
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 7092
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 4137
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 846
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 846
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 1508
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 7526
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 6905
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 964
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 1052
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 2093
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 7092
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 4137
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 846
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 846
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 1508
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 7526
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+}
+
+
+########## STARTING PRODUCTION ##########
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MAN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+}

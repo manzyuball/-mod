@@ -4,39 +4,27 @@ state={
 	name="STATE_754"
 
 	history={
-		owner = XSM
-		add_core_of = XSM
+		owner = MON
+		add_core_of = MON
 		add_core_of = CHI
 		add_core_of = PRC
+		victory_points = {
+			12732 3 
+		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 			arms_factory = 1
 
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger"
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
-		}
 
 	}
 
 	provinces={
-		1882 4536 10817 12815 13972 
+		1882 4536 10490 12815 
 	}
-	manpower=900000
+	manpower=400000
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

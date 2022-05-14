@@ -1,0 +1,20 @@
+state={
+	id=917
+	name="STATE_917"
+	provinces={
+		3 18 26 89 127 138 140 3031 3086 3092 6034 6051 6109 11038 11071 11137 11178 
+	}
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SOV
+		add_core_of = VLA
+	}
+	state_category = town
+	manpower=321911
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

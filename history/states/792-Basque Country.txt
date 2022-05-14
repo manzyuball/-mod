@@ -1,32 +1,38 @@
-state={	#Trier
+
+state={
 	id=792
 	name="STATE_792"
+	resources={
+		steel=8.000
+	}
 
 	history={
-		owner = GER
-		buildings = {
-			infrastructure = 7
-			industrial_complex = 1
-
-		}
+		owner = CAT
 		victory_points = {
-			11560 10
+			740 10 
 		}
-		add_core_of = GER
-		add_core_of = PRE
-		add_core_of = RHI
-		set_demilitarized_zone = yes
-		1936.3.7 = {
-			set_demilitarized_zone = no
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			740 = {
+				naval_base = 1
+
+			}
+			air_base = 1
 
 		}
+		add_core_of = SPR
+		add_core_of = CAT
+		add_core_of = MOR
 
 	}
 
 	provinces={
-		3423 13236 11560 
+		740 3735 6756 13220 13233 
 	}
-	manpower=22003
+	manpower=928094
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
+	local_supplies=0.000
 }

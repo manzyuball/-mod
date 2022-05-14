@@ -15,22 +15,18 @@ state={
 		}
 		owner = POL
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 
 		}
 		add_core_of = POL
-		1941.1.1 = {
-			owner = GGO
-			controller = GGO
-
-		}
 
 	}
 
 	provinces={
-		562 3458 3497 6416 11430 467 6511
+		562 3458 3497 3586 6416 9427 11430 11532 
 	}
-	manpower=1935697 
+	manpower=1835700
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

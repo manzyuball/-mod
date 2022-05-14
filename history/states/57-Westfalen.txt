@@ -2,27 +2,26 @@
 state={
 	id=57
 	name="STATE_57"
-	manpower = 4987587
+	manpower = 5109333
 	state_category = large_city
 
 	history={
 		owner = GER
+		add_core_of = LAT
 		victory_points = {
-			495 20 
+			495 5 
 		}
 		#victory_points = {
 		#	9509 1
 		#}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 4
 			arms_factory = 3
 			industrial_complex = 1
 			air_base = 3
 
 		}
 		add_core_of = GER
-		add_core_of = PRE
-		add_core_of = HAN
 
 		1939.1.1 ={
 			buildings = {
@@ -34,6 +33,8 @@ state={
 	}
 
 	provinces={
-		405 495 3355 3398 9443 9509 11431
+		405 495 3355 3398 6535 6622 9443 9509 11346 11431 
 	}
+
+	local_supplies=0.0 
 }

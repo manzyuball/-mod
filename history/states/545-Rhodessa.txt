@@ -4,7 +4,7 @@ state={
 	name="STATE_545"
 
 	history={
-		owner = ENG
+		owner = POR
 		buildings = {
 			infrastructure = 2
 
@@ -17,9 +17,10 @@ state={
 	}
 
 	provinces={
-		2216 7842 10929 
+		1874 2151 2216 4851 7842 10929 13918 
 	}
 	manpower=1171336
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=3.000
 }

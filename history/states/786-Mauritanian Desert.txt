@@ -4,8 +4,8 @@ state={
 	name="STATE_786"
 
 	history={
-		owner = FRA
-		add_core_of = MRT
+		owner = GNA
+		add_core_of = GNA
 		buildings = {
 			infrastructure = 0
 
@@ -14,9 +14,10 @@ state={
 	}
 
 	provinces={
-		8035 10779 10838 
+		1897 1962 7943 10771 13359 13360 13361 
 	}
-	manpower=104200
+	manpower=124200
 	buildings_max_level_factor=1.000
 	state_category=wasteland
+	local_supplies=0.000
 }

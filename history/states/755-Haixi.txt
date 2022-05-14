@@ -4,13 +4,10 @@ state={
 	name="STATE_755"
 
 	history={
-		owner = XSM
-		add_core_of = XSM
+		owner = MON
+		add_core_of = MON
 		add_core_of = CHI
 		add_core_of = PRC
-		#victory_points = {
-		#	7940 10 
-		#}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -20,7 +17,7 @@ state={
 			if = {
 				limit = {
 					NOT = {
-						has_dlc = "Waking the Tiger"
+						has_dlc = Waking the Tiger
 
 					}
 
@@ -37,9 +34,10 @@ state={
 	}
 
 	provinces={
-		7940 7997 10750 10796 10834 12846 13974 
+		2053 2099 7940 7997 8018 10750 10796 10834 10865 12846 12890 13146 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

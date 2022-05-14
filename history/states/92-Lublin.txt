@@ -5,14 +5,11 @@ state={
 
 	history={
 		victory_points = {
-			402 1 
-		}	
-		victory_points = {
-			3559 3 
-		}			
+			11399 1 
+		}
 		owner = POL
 		buildings = {
-			infrastructure = 8
+			infrastructure = 3
 			industrial_complex = 2
 			air_base = 1
 
@@ -25,18 +22,14 @@ state={
 			}
 
 		}
-		1941.1.1 = {
-			owner = GGO
-			controller = GGO
-
-		}
 
 	}
 
 	provinces={
-		 402 524 3521 3559 9521 12562
+		422 3392 3559 6484 6546 6580 9452 9521 9544 11399 11441 11466 11528 13675 13682 13716 
 	}
-	manpower=975431
+	manpower=2464600
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=9.000
 }

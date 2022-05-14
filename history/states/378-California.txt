@@ -3,47 +3,34 @@ state={
 	id=378
 	name="STATE_378"
 	resources={
-		oil=90.000
-		aluminium=2.000
+		oil=180.000
+		aluminium=8.000
+		gold=15.000
 	}
 
 	history={
-		owner = USA
+		owner = USN
+		add_core_of = USN
 		buildings = {
-			infrastructure = 6
-			air_base = 10
-			dockyard = 1			
-			6881 = {
-				naval_base = 4
-
-			}
-
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 3
 		}
 		add_core_of = USA
-		add_core_of = CAL
+		add_core_of = USB
+		add_core_of = CSA
 		victory_points = {
-			6881 5 
+			9713 1 
 		}
-		victory_points = {
-			11859 3
-		}
-		victory_points = {
-			986 1
-		}		
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 1
-
-			}
-
-		}
-
 	}
 
 	provinces={
-		986 3784 6881 11859 11876 
+		710 766 1432 1601 3588 4331 6665 6694 6699 6876 9697 9713 10159 11698
 	}
-	manpower=402028
+	manpower=1677248
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
+	local_supplies=0.000
 }

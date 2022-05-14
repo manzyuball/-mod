@@ -6,13 +6,19 @@ state={
 	history={
 		owner = TUR
 		victory_points = {
-			11746 1 
+			9893 15 
 		}
 		victory_points = {
-			10056 1 
+			7620 10 
+		}
+		victory_points = {
+			6813 3 
+		}
+		victory_points = {
+			11746 5 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
 			11746 = {
 				naval_base = 3
@@ -21,13 +27,15 @@ state={
 
 		}
 		add_core_of = TUR
+		add_claim_by = KUR
 
 	}
 
 	provinces={
-		886 961 6956 10056 11746 11810
+		806 3889 6813 7620 9823 9893 9912 11746 13958 
 	}
-	manpower=225154
+	manpower=1081781
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

@@ -1,28 +1,31 @@
+
 state={
 	id=539
 	name="STATE_539"
 
 	history={
-		owner = FRA
+		owner = TZN
 		add_core_of = GAB
 		victory_points = {
 			5139 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			5139 = {
 				naval_base = 1
 
 			}
 
 		}
+		add_core_of = TZN
 
 	}
 
 	provinces={
-		5139 8207 10948 13210 
+		5139 8207 10948 13210 13271 13272 13273 
 	}
-	manpower=364741
+	manpower=409752
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=1.000
 }

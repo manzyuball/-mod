@@ -2,28 +2,36 @@
 state={
 	id=377
 	name="STATE_377"
+	manpower = 435572
+	
+	state_category = city
+	
 	resources={
-		steel=15.000
-		oil=2.000
-		aluminium=6.000
+		steel=20 # was: 40
+		oil=5 # was: 10
+		aluminium=8 
 	}
 
 	history={
-		owner = USA
+		owner = USN
+		add_core_of = USN
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
-			air_base = 1
-
+			air_base = 2
 		}
 		add_core_of = USA
+		add_core_of = USB
+		add_core_of = CSA
+		victory_points = {
+			853 3 
+		}
 
 	}
 
 	provinces={
-		850 1793 4796 6897 7747 11814 12765 
+		850 853 1793 3834 4796 6897 7747 7821 7920 8115 10573 10783 11814 12765 
 	}
-	manpower=83270
-	buildings_max_level_factor=1.000
-	state_category=rural
+
+	local_supplies=8.0 
 }

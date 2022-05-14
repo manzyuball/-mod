@@ -2,33 +2,29 @@
 state={
 	id=408
 	name="STATE_408"
+	resources={
+		chromium=20.000
+	}
 
 	history={
-		owner = SOV
-		victory_points = {
-			957 20
-		}
+		owner = VLA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			dockyard = 1
-			957 = {
-				naval_base = 8
-				coastal_bunker = 3
-
-			}
+			industrial_complex = 3
+			arms_factory = 2
 
 		}
 		add_core_of = SOV
-		add_core_of = RUS
-		add_core_of = FER
-		add_core_of = SIB
+		add_core_of = VLA
 
 	}
 
 	provinces={
-		957
+		664 681 837 3695 3723 3739 3753 3787 3811 3977 6684 6686 6715 6833 6838 6961 6989 9639 9641 9762 9895 9926 11624 11626 11629 11643 11745 11750 11765 11777 11879 11904 
 	}
-	manpower=145039
+	manpower=541465
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
+	local_supplies=0.000
 }

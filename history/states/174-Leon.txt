@@ -6,16 +6,18 @@ state={
 		tungsten=10.000
 	}
 	history={
-		owner = SPR
+		owner = MOR
 		victory_points = {
 			726 1
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3 #was: 6
 			industrial_complex = 1
 
 		}
 		add_core_of = SPR
+		add_core_of = CAT
+		add_core_of = MOR
 
 	}
 
@@ -25,4 +27,6 @@ state={
 	manpower=749041
 	buildings_max_level_factor=1.000
 	state_category=rural
+
+	local_supplies=12.0 
 }

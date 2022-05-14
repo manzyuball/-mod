@@ -1,0 +1,29 @@
+state={
+	id=915
+	name="STATE_915"
+	provinces={
+		505 528 4380 10183 11495 11733 12211 12281 
+	}
+	history={
+		owner = USN
+		add_core_of = USN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 6
+			12211 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = USA
+		add_core_of = USB
+		add_core_of = CSA
+	}
+
+	manpower=621455
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

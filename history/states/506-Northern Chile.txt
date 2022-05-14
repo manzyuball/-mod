@@ -2,13 +2,22 @@
 state={
 	id=506
 	name="STATE_506"
+	resources={
+		tungsten=2.000
+		gold=24.000
+		silver=12.000
+	}
 
 	history={
 		owner = CHL
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
+			industrial_complex = 2
 			air_base = 1
+			12994 = {
+				naval_base = 1
+
+			}
 			5228 = {
 				naval_base = 2
 
@@ -16,13 +25,17 @@ state={
 
 		}
 		add_core_of = CHL
+		victory_points = {
+			12994 5 
+		}
 
 	}
 
 	provinces={
-	 5228 12914 
+		5146 5171 5192 5228 11000 12914 12994 
 	}
-	manpower=119600
+	manpower=283605
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
+	local_supplies=0.000
 }

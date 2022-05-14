@@ -2,36 +2,27 @@ state=
 {
 	id=422
 	name="STATE_422"
-	manpower = 4400000
+	manpower = 5500000
 	
 	state_category = rural
 
 	resources={
-		rubber=50 # was: 116
+		rubber=60 # was: 116
 	}
 
 	history={
 		add_core_of = SRL
 		owner = ENG
 		victory_points = {
-			7344 2
+			10201 3 
 		}
-		victory_points = {
-			1213 5
-		}
-		victory_points = {
-			4219 5
-		}
-		victory_points = {
-			7260 10
-		}
-		victory_points = {
-			10287 5
-		}		
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
 			air_base = 3
+			10201 = {
+				naval_base = 5
+			}
 			7260 = {
 				naval_base = 3
 				coastal_bunker = 3
@@ -41,6 +32,8 @@ state=
 	}
 	
 	provinces={
-		1213 4219 7260 7344 10287 
+		1213 4219 7260 7344 10201 10229 10287 12258 
 	}
+
+	local_supplies=0.0 
 }

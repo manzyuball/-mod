@@ -1,3 +1,4 @@
+
 state={
 	id=41
 	name="STATE_41"
@@ -8,29 +9,29 @@ state={
 	history={
 		owner = SPR
 		victory_points = {
-			3938 50 
+			3938 30 
 		}
 		victory_points = {
-			13633 5 
+			858 1 
 		}
-		victory_points = {
-			13593 5 
-		}		
 		buildings = {
-			infrastructure = 10
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
 			air_base = 6
 
 		}
 		add_core_of = SPR
+		add_core_of = CAT
+		add_core_of = MOR
 
 	}
 
 	provinces={
-		 977 3794 3938 13633 13593 13744
+		858 896 939 3794 3845 3938 3986 6914 9767 11820 13224 13593 13633 13744 
 	}
-	manpower=1101340
+	manpower=2064659
 	buildings_max_level_factor=1.000
 	state_category=large_city
+	local_supplies=0.000
 }

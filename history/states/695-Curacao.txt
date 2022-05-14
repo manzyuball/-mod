@@ -6,18 +6,19 @@ state={
 	state_category = rural
 
 	resources={
-		oil=35 # was: 126
+		oil=46 # was: 126
 	}
 
 	history={
-		add_core_of = CRC
-		owner = HOL
+		add_core_of = COL
+		owner = COL
+		add_core_of = VEN
 		victory_points = {
 			153 1
 		}
 		buildings = {
 			fuel_silo = 1
-			infrastructure = 3
+			infrastructure = 2
 			153 = {
 				naval_base = 1
 				coastal_bunker = 2
@@ -28,4 +29,6 @@ state={
 	provinces={
 		153 
 	}
+
+	local_supplies=0.0 
 }
