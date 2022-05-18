@@ -15,6 +15,34 @@ characters={
 				}
 		}
 	}
+	AUS_doruhusu = {
+		name=AUS_doruhusu
+		portraits={
+			civilian={
+				large="gfx/leaders/_EOB/AUS_husu.dds"
+				small="GFX_idea_gre_xenophon_giosmas"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			expire="1965.1.1.1"
+			id=-1
+			traits  = {
+				socialite_connections
+				}
+		}
+		advisor={
+			slot = political_advisor
+			allowed  = {
+				has_country_flag = AUS_nazi
+				original_tag  = AUS
+				}
+			traits  = {
+				imperial_connections
+			}
+
+		}
+	}
 	HUN_miklos_horthy={
 			name=HUN_miklos_horthy
 			portraits={
@@ -75,25 +103,6 @@ characters={
 				}
 				traits  = {
 					nationalist_symbol
-			}
-
-		}
-	}
-	AUS_doruhusu = {
-		name= AUS_doruhusu
-		portraits={
-			civilian={
-				small="GFX_idea_gre_xenophon_giosmas"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			allowed  = {
-				has_country_flag = AUS_nazi
-				original_tag  = AUS
-				}
-			traits  = {
-				imperial_connections
 			}
 
 		}

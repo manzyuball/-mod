@@ -185,5 +185,130 @@ ideas = {
 				army_speed_factor = 0.15
 			}
 		}
+		AUS_hitler = {
+			picture = GER_adolf_hitler
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				stability_factor = 0.10
+			}
+		}
+		AUS_hitler2 = {
+			picture = generic_secret_police
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_weekly = 0.02
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				stability_factor = 0.10
+			}
+		}
+		AUS_hitler3 = {
+			picture = generic_secret_police
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_weekly = 0.05
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				stability_factor = 0.10
+			}
+		}
+		AUS_hitler4 = {
+			picture = generic_secret_police
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+				Resistance_decay_on_our_occupied_states = 0.5
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				stability_factor = 0.10
+			}
+		}
+		AUS_SOKOKUSENSOU = {
+			picture = hol_liberation
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+				army_core_defence_factor = 0.45
+				training_time_army_factor = -0.5
+			}
+		}
+		AUS_SOKOKUSENSOU2 = {
+			picture = hol_liberation
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+				defence = 0.15
+				army_core_defence_factor = 0.45
+				training_time_army_factor = -0.5
+			}
+		}
+		AUS_SOKOKUSENSOU3 = {
+			picture = hol_liberation
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+				defence = 0.15
+				army_core_attack_factor = 0.85
+				army_core_defence_factor = 0.45
+				training_time_army_factor = -0.5
+			}
+		}
+		AUS_gunkaku = {
+			picture = MEX_callistas
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				defensive_war_stability_factor = 0.85
+				war_support_factor = 0.15
+				production_speed_arms_factory_factor = 0.35
+			}
+		}
+		AUS_Kunsyua = {
+			picture = HUN_hungarian_monarchy_habsburg
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.20
+				political_power_factor = -0.15
+			}
+		}
+		AUS_YUragu = {
+			picture = prc_the_long_march
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_weekly = -0.05
+				war_support_weekly = -0.05
+			}
+		}
     }
 }
