@@ -95,7 +95,9 @@ set_variable = {
 	var = VLA.VLA_roz_h
 	value = 5
 }
-
+add_ideas = {
+	VLA_GokkannnoGUN
+}
 add_manpower = 864210
 if = {
 	limit = {

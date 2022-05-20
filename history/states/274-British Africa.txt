@@ -5,7 +5,6 @@ state={
 	history={
 		owner = TZN
 		add_core_of = TZN
-		add_core_of = GHA
 		add_core_of = GNA
 		victory_points = {
 			10862 1 

@@ -11,7 +11,6 @@ state={
 			arms_factory = 1
 			industrial_complex = 4
 		}
-		add_core_of = ECU
 		victory_points = {
 			12798 5 
 		}

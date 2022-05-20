@@ -10,6 +10,7 @@ state={
 	owner = DEN
 	add_core_of = GER
 	add_core_of = DEN
+	add_core_of = LAT
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

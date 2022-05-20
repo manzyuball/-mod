@@ -6,7 +6,7 @@ state={
 	state_category = town
 
 	history={
-		add_core_of = JAM
+		add_core_of = CUB
 		owner = ENG
 		victory_points = {
 			12304 1 

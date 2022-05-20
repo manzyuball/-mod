@@ -22,7 +22,6 @@ state={
 		add_core_of = POL
 		add_core_of = SIL
 		add_claim_by = GER
-		add_core_of = LAT
 	}
 
 	local_supplies=0.0 

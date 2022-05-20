@@ -126,7 +126,9 @@ ideas = {
 			name = JAP_min1_idea
 			picture = FRA_fortification_focus
 			modifier = {
-				Democracy_drift = 0.05
+				drift_defence_factor = 0.75
+				democracy_drift = 0.05
+				political_power_gain = 0.5
 			}
 
 		}

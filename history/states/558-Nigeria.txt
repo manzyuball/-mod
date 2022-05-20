@@ -12,7 +12,6 @@ state={
 		owner = TZN
 		add_core_of = GNA
 		add_core_of = TZN
-		add_core_of = NGA
 		buildings = {
 			infrastructure = 2
 			arms_factory = 0

@@ -1,6 +1,15 @@
 ideas = {
 
 	country = {
+		VLA_GokkannnoGUN = {
+			removal_cost = -1
+			picture = SOV_the_road_of_life
+			modifier = {
+				acclimatization_cold_climate_gain_factor = 0.75
+				winter_attrition_factor = -0.75
+				attrition = -0.1
+			}
+		}
 		VLA_syuukyou1 = {
 			removal_cost = -1
 			picture = SOV_new_old_church

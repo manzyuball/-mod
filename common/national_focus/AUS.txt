@@ -144,6 +144,9 @@ focus_tree = {
 		x = -7
 		y = 5
 		cost = 5
+		available = {
+        NOT = { has_completed_focus = AUS_naz9 }
+		}
         prerequisite = { focus = AUS_naz7 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -156,6 +159,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		cost = 5
+		NOT = { has_completed_focus = AUS_nazB }
         prerequisite = { focus = AUS_naz8 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -300,6 +304,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		cost = 5
+		NOT = { has_completed_focus = AUS_nazA }
         prerequisite = { focus = AUS_naz8 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -801,6 +806,7 @@ focus_tree = {
 		y = 5
 		cost = 5
         prerequisite = { focus = AUS_naz7 }
+		NOT = { has_completed_focus = AUS_naz8 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
 			add_political_power = 150

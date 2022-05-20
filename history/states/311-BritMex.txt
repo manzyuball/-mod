@@ -8,7 +8,6 @@ state=
 	history=
 	{
 		add_core_of = HON
-		add_core_of = GUA
 		owner = HON
 		victory_points = {
 			2077 1 

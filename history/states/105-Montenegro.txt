@@ -12,7 +12,6 @@ state={
 			9809 3 
 		}
 		owner = YUG
-		add_core_of = MNT
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

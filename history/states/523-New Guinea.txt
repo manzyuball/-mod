@@ -6,7 +6,6 @@ state={
 		GOLD=13
 	}
 	history={
-		add_core_of = PNG
 		owner = AST
 		buildings = {
 			infrastructure = 1
