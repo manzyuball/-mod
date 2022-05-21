@@ -1,0 +1,22 @@
+
+state={
+    id=1923
+    name="STATE_1923"
+
+    history={
+        owner = ENG
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 2
+
+		}
+
+    }
+
+    provinces={
+        1960 5060 8052 10739
+    }
+    manpower=674633
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

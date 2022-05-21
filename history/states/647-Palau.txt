@@ -2,17 +2,15 @@ state=
 {
 	id=647
 	name="STATE_647"
-	state_category = town
+	state_category = small_island
 	manpower = 12100
 	history=
 	{
 		owner = JAP
-		add_core_of = FSM
-		add_core_of = JAP
+		add_core_of = PLU
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 1
-			industrial_complex = 2
 			4357 = {
 				naval_base = 1
 
@@ -20,12 +18,10 @@ state=
 		}
 		
 		victory_points = {
-			4357 1 
+			12103 1 
 		}
 	}
 	provinces={
 		4357 12103
 	}
-
-	local_supplies=0.0 
 }

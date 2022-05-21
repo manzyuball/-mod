@@ -1,0 +1,29 @@
+
+state={
+	id=1801
+	name="STATE_1801" 
+	manpower = 679210
+	
+	state_category = town
+	
+	resources={
+		steel=20
+		aluminium=20
+	}
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			762 5
+		}
+		add_core_of = FRA
+		add_core_of = OCC
+	}
+
+	provinces={
+		762 3762
+	}
+}

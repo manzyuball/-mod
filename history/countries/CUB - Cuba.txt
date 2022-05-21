@@ -29,7 +29,6 @@ recruit_character = CUB_carlos_prio
 recruit_character = CUB_gerardo_machado
 recruit_character = CUB_eugenio_molinet_castro
 
-
 set_country_flag = monroe_doctrine
 set_war_support = 0.1
 set_convoys = 20
@@ -96,4 +95,87 @@ set_popularities = {
 	recruit_character = CUB_federico_laredo_bru
 	promote_character = CUB_federico_laredo_bru
 	retire_character = CUB_josé_agripino_barnet
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	create_equipment_variant = {
+		name = "Wright Class"
+		type = super_light_carrier
+		name_group = CUB_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = super_light_deck_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = Hotchkiss_3pdr_guns_6
+			front_1_custom_slot = SK_C32_B
+			fixed_ship_anti_air_slot = SK_C32_B
+			mid_1_custom_slot = EN_1pdr_pompom_4
+		}
+	}
+	create_equipment_variant = {
+		name = "Kolberg Class"
+		type = ship_hull_medium_cruiser_1
+		name_group = CUB_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = SK_C32_BS
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_sonar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			front_1_custom_slot = SK_C32_BS
+			mid_1_custom_slot = SK_L55_2
+			mid_2_custom_slot = SK_L55_2
+			rear_1_custom_slot = SK_C32_BS
+			rear_2_custom_slot = SK_C32_BS
+			torp_1_custom_slot = GE_UW_torpedo
+			torp_2_custom_slot = GE_UW_torpedo
+			anti_1_custom_slot = empty
+			anti_2_custom_slot = empty
+			anti_3_custom_slot = empty
+			anti_4_custom_slot = empty
+			sec_1_custom_slot = SK_C32_C_4
+			sec_2_custom_slot = SK_C32_C_4
+			launcher_1_custom_slot = ship_airplane_launcher_1
+			fixed_layer_1_slot = empty
+			fixed_layer_2_slot = empty
+			fixed_layer_3_slot = empty
+			fixed_depth_1_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Cuba Class"
+		type = ship_hull_medium_cruiser_1
+		name_group = CUB_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = SK_C32_BS
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_sonar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			front_1_custom_slot = SK_C32_BS
+			mid_1_custom_slot = SK_L55_2
+			mid_2_custom_slot = SK_L55_2
+			rear_1_custom_slot = SK_C32_BS
+			rear_2_custom_slot = SK_C32_BS
+			torp_1_custom_slot = GE_UW_torpedo
+			torp_2_custom_slot = GE_UW_torpedo
+			anti_1_custom_slot = empty
+			anti_2_custom_slot = empty
+			anti_3_custom_slot = empty
+			anti_4_custom_slot = empty
+			sec_1_custom_slot = SK_C32_C_4
+			sec_2_custom_slot = SK_C32_C_4
+			launcher_1_custom_slot = ship_airplane_launcher_1
+			fixed_layer_1_slot = empty
+			fixed_layer_2_slot = empty
+			fixed_layer_3_slot = empty
+			fixed_depth_1_slot = empty
+		}
+	}
+
 }

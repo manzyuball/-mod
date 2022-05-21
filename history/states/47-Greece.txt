@@ -12,22 +12,13 @@ state={
 	history={
 		owner = GRE
 		victory_points = {
-			4109 20 
-		}
-		victory_points = {
-			3973 3 
-		}
-		victory_points = {
-			7127 3 
-		}
-		victory_points = {
-			3988 1 
+			4109 35
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 3
-			dockyard = 1
-			air_base = 4
+			infrastructure = 10
+			arms_factory = 2
+			air_base = 3			
+			industrial_complex = 4
 			4109 = {
 				naval_base = 9
 
@@ -35,14 +26,18 @@ state={
 
 		}
 		add_core_of = GRE
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
 
 	}
 
 	provinces={
-		863 976 1109 3864 3973 3988 4109 6930 7127 13885 
+		4109
 	}
-	manpower=2312500
+	manpower=600000
 	buildings_max_level_factor=1.000
 	state_category=city
-	local_supplies=0.000
 }

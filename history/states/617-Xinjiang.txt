@@ -1,29 +1,28 @@
+
 state={
 	id=617
 	name="STATE_617"
 
 	history={
-		owner = MON
-		add_core_of = MON
+		owner = SIK
+		add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 2
 
 		}
 		victory_points = {
-			4709 5
+			4709 3 
 		}
 
 	}
 
 	provinces={
-		1703 4682 4709 4770 7702 7792 7850 10545 10614 12526 12601 12656 
+		1703 1783 4682 4709 4770 4788 4828 4947 5736 7702 7732 7792 7850 7949 10545 10614 10674 10691 10839 12524 12526 12656 12671 
 	}
 	manpower=1080500
 	buildings_max_level_factor=1.000
 	state_category=rural
-
-	local_supplies=6.0 
 }

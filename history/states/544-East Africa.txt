@@ -6,13 +6,9 @@ state={
 	history={
 		owner = POR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 			8245 = {
-				naval_base = 1
-
-			}
-			2123 = {
 				naval_base = 1
 
 			}
@@ -26,10 +22,9 @@ state={
 	}
 
 	provinces={
-		1095 2120 2123 2159 2180 2193 2202 2217 5155 5164 5177 5212 8245 10972 12711 12935 12950 12971 
+		8245
 	}
-	manpower=4125000
+	manpower=548921
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.000
 }

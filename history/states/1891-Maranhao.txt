@@ -1,0 +1,33 @@
+
+state={
+	id=1891
+	name="STATE_1891"
+	manpower = 1012406
+	
+	state_category = town
+	
+	resources={
+		rubber=7 # was: 30
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
+			12933 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BRA
+		victory_points = {
+			12933 1 
+		}
+
+	}
+
+	provinces={
+		12933 12947 2150 12913 5220
+	}
+}

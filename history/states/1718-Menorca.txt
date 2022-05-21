@@ -1,0 +1,23 @@
+state={
+	id=1718
+	name="STATE_1718"
+	manpower = 42305
+	
+	state_category = pastoral
+	
+	history={
+		victory_points = {
+			9845 1
+		}
+		owner = SPR
+		buildings = {
+			infrastructure = 4
+			9845 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SPR
+	}
+	provinces={
+ 9845 	}
+}

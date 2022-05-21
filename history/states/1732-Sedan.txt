@@ -1,0 +1,30 @@
+state={
+	id=1732
+	name="STATE_1732"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = FRA
+		add_core_of = BGN
+
+		victory_points = {
+			13368 1 
+		}
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+	}
+
+	provinces={
+		5291 13368
+	}
+	manpower=74752
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

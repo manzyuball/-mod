@@ -1,0 +1,32 @@
+
+state={
+	id=1800
+	name="STATE_1800"
+	resources={
+		steel=8.000
+		aluminium=2.000
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			6613 20 
+		}
+		victory_points = {
+			11593 5 
+		}				
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = FRA
+		#add_core_of = OCC
+
+	}
+
+	provinces={
+		6613 11593
+	}
+	manpower=535746	
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

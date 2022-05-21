@@ -2,32 +2,29 @@
 state={
 	id=31
 	name="STATE_31"
-	resources={
-		rubber=14.000
-	}
 
 	history={
 		owner = FRA
 		victory_points = {
-			6766 5 
+			6766 10
 		}
+		victory_points = {
+			3740 5 
+		}		
 		buildings = {
-			infrastructure = 3
-			arms_factory = 3
-			industrial_complex = 1
+			infrastructure = 7
 			air_base = 2
 
 		}
-		add_core_of = OCC
 		add_core_of = FRA
+		add_core_of = OCC
 
 	}
 
 	provinces={
-		929 943 3740 3749 3751 3915 3946 3948 5532 6759 6766 6915 6917 6931 6960 9723 9853 9882 9884 11699 12169 
+		929 943 3740 3915 6759 6766 6917 6931 9717 11699 12169 
 	}
-	manpower=1825000
+	manpower=974046
 	buildings_max_level_factor=1.000
 	state_category=city
-	local_supplies=0.000
 }

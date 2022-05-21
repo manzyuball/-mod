@@ -6,7 +6,7 @@ state={
 	history={
 		owner = POL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			industrial_complex = 2
 
 		}
@@ -21,14 +21,18 @@ state={
 			}
 
 		}
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
 
 	}
 
 	provinces={
-		493 584 8141 8989 9439 9508 9546 11428 11515 13239 
+		9508 8989
 	}
-	manpower=2632000
+	manpower=1846408
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
 }

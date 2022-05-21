@@ -1,0 +1,24 @@
+state={
+	id=919
+	name="STATE_919"
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = AST
+		add_core_of = WSR
+		victory_points = {
+			12990 1 
+		}	
+	}
+
+	provinces={
+		1526 2191 8200 10949 10969 10997 11011 12948 12962 12976 12990 
+	}
+	manpower=10400
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

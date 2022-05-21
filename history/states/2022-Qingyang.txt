@@ -1,0 +1,24 @@
+
+state = {
+    id=2022
+    name="STATE_2022"
+
+    history = {
+        owner = PRC
+		add_core_of = PRC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+            arms_factory = 1
+
+		}
+    }
+
+    provinces={
+        1647 3745 4939 8081
+    }
+    manpower=1401240
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

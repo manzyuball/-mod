@@ -1,27 +1,30 @@
-state=
-{
+
+state={
 	id=530
-	name="STATE_530" # Shikoku
-	manpower = 3310000
-	state_category = large_city
-	history=
-	{
+	name="STATE_530"
+
+	history={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
 			air_base = 3
-			
-			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 1
 
 		}
-		
+		victory_points = {
+			4179 5
+		}
+		victory_points = {
+			9965 1
+		}
 
 	}
+
 	provinces={
-		4094 4179 7046 9965
+		4094 4179 7046 9965 
 	}
-
-	local_supplies=0.0 
+	manpower=1210000
+	buildings_max_level_factor=1.000
+	state_category=town
 }

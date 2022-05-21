@@ -1,0 +1,34 @@
+state={
+	id=1790
+	name="STATE_1790"
+	
+	history={
+		owner = HSI
+		add_core_of = HSI
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			4999 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 2
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		4999 12837 13968 
+	}
+	manpower=528000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

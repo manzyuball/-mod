@@ -4,23 +4,29 @@ state={
 	name="STATE_2"
 
 	history={
-		owner = MLT
+		owner = ITA
+		victory_points = {
+			9904 40 
+		}
+		victory_points = {
+			11846 5 
+		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 10
+			air_base = 8
 			arms_factory = 1
-			industrial_complex = 4
-			11751 = {
-				naval_base = 5
+			industrial_complex = 3
+			11846 = {
+				naval_base = 2
 
 			}
 
 		}
 		add_core_of = ITA
-		add_core_of = MLT
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
-				industrial_complex = 5
+				industrial_complex = 4
 
 			}
 
@@ -29,10 +35,9 @@ state={
 	}
 
 	provinces={
-		6862 9794 11751 
+		9904 11846  
 	}
-	manpower=2781971
+	manpower=2061631
 	buildings_max_level_factor=1.000
-	state_category=large_city
-	local_supplies=0.000
+	state_category=city
 }

@@ -1,0 +1,26 @@
+state={
+	id=1888
+	name="STATE_1888"
+	manpower = 572962
+	resources={
+		chromium=1 # was: 1
+	}
+	
+	state_category = rural
+	
+	history={
+		owner = ELS
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1 
+		}
+		add_core_of = ELS
+		victory_points = {
+			13093 5
+		}
+
+	}
+	provinces={
+		13093 
+	}
+}

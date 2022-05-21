@@ -1,0 +1,31 @@
+state={
+	id=975
+	name="STATE_975"
+
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			6550 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GRE
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+		6550 13346
+	}
+	manpower=117200
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

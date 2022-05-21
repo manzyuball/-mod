@@ -8,7 +8,6 @@ state={
 
 	history={
 		owner = GER
-		add_core_of = LAT
 		victory_points = {
 			692 20 
 		}
@@ -16,13 +15,14 @@ state={
 			708 3 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 7
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 6
 
 		}
 		add_core_of = GER
+		add_core_of = BAY
 		1939.1.1 = {
 			buildings = {
 				air_base = 10
@@ -34,10 +34,9 @@ state={
 	}
 
 	provinces={
-		692 707 708 3688 3705 6540 6693 9652 9666 11620 11638 11653 
+		692 708 3705 6693 9652 9666 11620 11638 11653 
 	}
-	manpower=2679413
+	manpower=2656411
 	buildings_max_level_factor=1.000
 	state_category=city
-	local_supplies=8.000
 }

@@ -1,0 +1,26 @@
+
+state={
+	id=1736
+	name="STATE_1736"
+
+    #impassable = yes #we do a substantial amount of trolling
+    
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13746 1 
+		}
+		add_core_of = ROM
+
+	}
+
+	provinces={
+		13746 5938 13724 5962 8414
+	}
+	manpower=32730
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

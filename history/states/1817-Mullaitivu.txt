@@ -1,0 +1,42 @@
+state={
+	id=1817
+	name="STATE_1817"
+	manpower = 120000
+
+	state_category = rural
+
+	resources={
+		rubber=10
+	}
+
+	history={
+		owner = ENG
+		add_core_of = SRL
+		add_core_of = TTE
+		victory_points = {
+			10201 5
+		}
+		victory_points = {
+			12258 5
+		}		
+		victory_points = {
+			10229 15
+		}		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 3
+			10201 = {
+				naval_base = 5
+			}
+			10229 = {
+				naval_base = 3
+				coastal_bunker = 3
+			}
+		}		
+	}
+
+	provinces={
+		10201 10229 12258 
+	}
+}

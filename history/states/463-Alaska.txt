@@ -3,9 +3,10 @@ state={
 	name="STATE_463"
 
 	history={
-		owner = CAN
+		owner = USA
+		add_core_of = ALA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			air_base = 1
 			13091 = {
 				naval_base = 1
@@ -24,11 +25,9 @@ state={
 	}
 
 	provinces={
-		1135 1830 4833 4848 7855 7884 10679 10694 10707 12661 13069 13090 13091 13202 13203 
+		1135 4833 4848 7884 10679 10694 12661 13090 13091 
 	}
-	manpower=67500
+	manpower=47100
 	buildings_max_level_factor=1
 	state_category="rural"
-
-	local_supplies=0.0 
 }

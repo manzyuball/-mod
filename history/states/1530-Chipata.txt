@@ -1,0 +1,26 @@
+state={
+	id=1530
+	name="STATE_1530" # Zambia
+	
+	state_category = rural
+
+	resources={
+		chromium=30 # was: 64.000
+		tungsten=8 # was: 16.000
+	}
+
+	history={
+		owner = ENG
+		add_core_of = ZAM
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+
+	provinces={
+		5221
+	}
+	manpower=13348
+	buildings_max_level_factor=1.000
+}

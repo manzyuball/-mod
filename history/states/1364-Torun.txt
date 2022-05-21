@@ -1,0 +1,33 @@
+state={
+	id=1364
+	name="STATE_1364"
+
+	history={
+		owner = POL
+		victory_points = {
+			3295 5 
+		}
+		buildings = {
+			infrastructure = 8
+			air_base = 1
+		}
+		add_core_of = POL
+		1938.3.12 = {
+			add_claim_by = GER
+
+		}
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+		3295 
+	}
+	manpower=397804
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

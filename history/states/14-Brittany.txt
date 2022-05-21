@@ -6,24 +6,18 @@ state={
 	history={
 		owner = FRA
 		victory_points = {
-			3552 20 
-		}
-		victory_points = {
 			6536 5 
 		}
 		victory_points = {
 			9495 1 
 		}
+		victory_points = {
+			13903 1 
+		}		
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			dockyard = 5
 			air_base = 5
-			industrial_complex = 5
-			3552 = {
-				naval_base = 10
-				coastal_bunker = 1
-
-			}
 			6536 = {
 				naval_base = 4
 				coastal_bunker = 1
@@ -36,6 +30,7 @@ state={
 
 		}
 		add_core_of = FRA
+		add_core_of = BRI
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5
@@ -43,14 +38,18 @@ state={
 			}
 
 		}
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
 
 	}
 
 	provinces={
-		542 3552 3758 6536 6548 6572 9495 9510 9525 11508 13903 
+		542 3758 6536 6548 6572 9495 9510 9525 11508 13903
 	}
-	manpower=2396600
+	manpower=2376600
 	buildings_max_level_factor=1.000
 	state_category=city
-	local_supplies=0.000
 }

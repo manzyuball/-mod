@@ -50,19 +50,19 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 90
+	democratic = 50
 	fascism = 1
-	communism = 0
+	communism = 40
 	neutrality = 9
 }
 
-create_country_leader = {
-	
-	name = "セミョーノフ"
-	picture = "gfx/leaders/_EOB/KAZsemyo.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	
+#	name = "Jonas Lote"
+#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+#	expire = "1965.1.1"
+#	ideology = centrism
+#	traits = {
+#		#
+#	}
+#}

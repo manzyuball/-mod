@@ -9,18 +9,19 @@ state={
 	history={
 		owner = BRA
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 
 		}
 		add_core_of = BRA
-
+		victory_points = {
+			10934 1 
+		}
 	}
 
 	provinces={
-		1979 2035 8172 10956 
+	  5095 5232 8185 8254 10934 12919 12965 
 	}
-	manpower=979900
+	manpower=801100
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-	local_supplies=0.000
 }

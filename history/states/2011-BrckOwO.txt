@@ -1,0 +1,31 @@
+
+state={
+	id=2011
+	name="STATE_2011"
+
+	history={
+		owner = YUG
+		victory_points = {
+			11574 1 
+		}
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = YUG
+		add_core_of = BOS
+		1941.1.1 = {
+			owner = CRO
+			controller = CRO
+
+		}
+
+	}
+
+	provinces={
+	11574 
+	}
+	manpower=93571
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

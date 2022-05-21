@@ -6,22 +6,20 @@ state=
 	state_category = tiny_island
 
 	history={
-		owner = HAW
+		owner = USA
 		add_core_of = HAW
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			13052 = {
 				naval_base = 1
 			}
 		}
 		victory_points = {
-			13052 5
+			13052 1
 		 }
 	}
 	
 	provinces={
 		13052 	
 	}
-
-	local_supplies=0.0 
 }

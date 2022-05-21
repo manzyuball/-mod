@@ -1,0 +1,21 @@
+state={
+	id=1875
+	name="STATE_1875"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = USA
+		add_core_of = NVJ
+	}
+	
+	provinces={
+		7818 
+	}
+	manpower=1053
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

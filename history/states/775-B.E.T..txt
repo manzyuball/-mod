@@ -6,18 +6,16 @@ state={
 	impassable = yes
 
 	history={
-		owner = GNA
-		add_core_of = GNA
+		owner = FRA
+		add_core_of = CHA
 		buildings = {
 			infrastructure = 0
 		}
 	}
 
 	provinces={
-		4902 5136 10893
+		4902 5136
 	}
 	manpower=18744
 	buildings_max_level_factor=1.000
-
-	local_supplies=1.0 
 }

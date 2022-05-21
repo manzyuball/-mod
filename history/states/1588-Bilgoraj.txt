@@ -1,0 +1,31 @@
+
+state={
+	id=1588
+	name="STATE_1588"
+
+	history={
+		#victory_points = {
+		#	9494 1 
+		#}	
+		owner = POL
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = POL
+		add_core_of = GAL		
+		1941.1.1 = {
+			owner = GGO
+			controller = GGO
+
+		}
+
+	}
+
+	provinces={
+		9494 
+	}
+	manpower=34936 
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

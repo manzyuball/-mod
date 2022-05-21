@@ -8,14 +8,17 @@ state={
 
 	history={
 		owner = TIB
+		add_core_of = CHI
 		add_core_of = TIB
+		add_core_of = PRC
+		add_core_of = HSI
 		buildings = {
 			infrastructure = 1
 
 		}
 		1939.1.1 = {
 			buildings = {
-				infrastructure = 1
+				infrastructure = 2
 
 			}
 
@@ -24,10 +27,9 @@ state={
 	}
 
 	provinces={
-		5018 5080 8041 8059 10741 
+		5102 8041 8059 
 	}
-	manpower=368200
+	manpower=220920
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	local_supplies=1.000
 }

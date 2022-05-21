@@ -243,7 +243,7 @@ set_popularities = {
 set_convoys = 150
 set_stability = 0.75
 
-FRA = { add_to_faction = HOL }
+GER = { add_to_faction = HOL }
 
 
 ### VARIANTS ###

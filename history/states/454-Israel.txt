@@ -4,28 +4,19 @@ state={
 	name="STATE_454"
 
 	history={
-		owner = EGY
-		add_core_of = EGY
-		add_core_of = TUR
+		owner = ENG
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
-			arms_factory = 2
+			infrastructure = 5
+			industrial_complex = 1
 			air_base = 2
 			4206 = {
-				naval_base = 5
+				naval_base = 3
 
 			}
 
 		}
 		victory_points = {
-			1086 5 
-		}
-		victory_points = {
-			4206 5 
-		}
-		victory_points = {
-			1065 5 
+			4206 9
 		}
 		add_core_of = PAL
 		add_core_of = ISR
@@ -33,10 +24,9 @@ state={
 	}
 
 	provinces={
-		1 1015 1065 1201 4088 4206 5081 7107 7176 10731 11970 13408 13409 13410 13411 13412 13413 
+		 1201 4206 13412
 	}
-	manpower=933142
+	manpower=393122
 	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	state_category=rural
 }

@@ -7,17 +7,20 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = EGY
-		add_core_of = EGY
+		owner = ITA
 		
 		victory_points = {
 			1130 5 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			air_base = 4
 			1130 = {
 				naval_base = 6
+			}
+
+			10120 = {
+				bunker = 3
 			}
 		}
 		add_core_of = LBA
@@ -26,6 +29,4 @@ state={
 	provinces={
 		1130 1204 4136 4151 7082 9992 10120 12094 
 	}
-
-	local_supplies=4.0 
 }

@@ -7,10 +7,10 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = ENG
+		owner = FRA
 		add_core_of = CAY
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			12885 = {
 				naval_base = 1
 			}
@@ -23,6 +23,4 @@ state={
 	provinces={
 		4934 12885 
 	}
-
-	local_supplies=0.0 
 }

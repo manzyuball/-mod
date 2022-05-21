@@ -1,0 +1,26 @@
+
+state={
+	id=1853
+	name="STATE_1853"
+	resources={
+		aluminium=4.000
+	}
+	
+	history={
+		add_core_of = GYA
+		add_claim_by = HOL
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		8107
+	}
+	manpower=4721
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

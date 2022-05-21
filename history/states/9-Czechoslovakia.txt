@@ -7,8 +7,7 @@ state={
 	}
 
 	history={
-		owner = AUS
-		add_core_of = AUS
+		owner = CZE
 		victory_points = {
 			11542 30 
 		}
@@ -16,10 +15,16 @@ state={
 			6418 5 
 		}
 		victory_points = {
+			11556 5 
+		}		
+		victory_points = {
+			9429 5 
+		}		
+		victory_points = {
 			9569 5 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 8
 			arms_factory = 6
 			industrial_complex = 1
 			anti_air_building = 5
@@ -28,18 +33,18 @@ state={
 		}
 		add_core_of = CZE
 		1939.3.14 = {
-			owner = GER
-			controller = GER
+			owner = PBM
+			controller = PBM
+			add_core_of = PBM
 
 		}
 
 	}
 
 	provinces={
-		494 543 583 3462 5283 6418 6440 6592 9414 9421 9429 9541 9569 11542 11556 13301 
+		494 583 3462 6418 6440 6592 9414 9421 9429 9541 9569 11542 11556 13301 
 	}
-	manpower=4492600
+	manpower=2492600
 	buildings_max_level_factor=1.000
-	state_category=metropolis
-	local_supplies=15.000
+	state_category=large_city
 }

@@ -1,0 +1,29 @@
+state={
+	id=1300
+	name="STATE_1300"
+	resources = {
+		oil=3
+	}
+	
+	history={
+		add_core_of = ARG
+		owner = ARG
+		buildings = {
+			infrastructure = 6
+
+		}
+		victory_points = {
+			1449 10
+		}
+		victory_points = {
+			2172 10
+		}		
+	}
+	
+	provinces={
+		2172 1449 8746
+	}
+	manpower=873731
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

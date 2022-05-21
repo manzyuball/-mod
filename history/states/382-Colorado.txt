@@ -2,32 +2,26 @@
 state={
 	id=382
 	name="STATE_382"
-	manpower = 1035790
 	resources={
-		oil=14 # was: 20
+		oil=14.000
 	}
-	
-	state_category = town
 
 	history={
-		owner = USN
-		add_core_of = USN
+		owner = USA
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			6887 1 
 		}
 		add_core_of = USA
-		add_core_of = USB
-		add_core_of = CSA
-		victory_points = {
-			1827 5 
-		}
 
 	}
 
 	provinces={
-		868 1658 1738 1809 1827 3869 6887 7684 7780 7999 9792 10535 10588 11772 12570 12627 12642 
+		6887 7684 7999 9792 10535 
 	}
-
-	local_supplies=8.0 
+	manpower=413050
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

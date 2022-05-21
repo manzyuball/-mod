@@ -12,12 +12,12 @@ state={
 
 	history={
 		add_core_of = SUR
-		owner = ENG
+		owner = HOL
 		victory_points = {
 			10906 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 			12828 = {
 				naval_base = 1
@@ -28,6 +28,4 @@ state={
 	provinces={
 		1928 10906 12828 
 	}
-
-	local_supplies=0.0 
 }

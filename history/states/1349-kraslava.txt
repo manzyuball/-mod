@@ -1,0 +1,24 @@
+state={
+	id=1349
+	name="STATE_1349"
+
+	history={
+		owner = LAT
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = LAT
+		add_core_of = LIV
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
+
+		}
+	}
+	provinces={
+		13775
+	}
+	manpower=90400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

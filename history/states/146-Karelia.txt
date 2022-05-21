@@ -8,33 +8,21 @@ state={
 		add_core_of = FIN
 		add_core_of = KAR
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			9100 = {
-				bunker = 2
-
-			}
-			9105 = {
-				bunker = 2
-
-			}
-			9206 = {
-				coastal_bunker = 1
-
-			}
+			infrastructure = 5
+			industrial_complex = 1
 
 		}
-		victory_points = {
-			9206 3 
-		}
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
 
+		}
 	}
 
 	provinces={
-		2332 2998 3050 3060 3133 3187 6052 6150 6153 9100 9105 9150 9176 9206 11046 11156 11162 
+		3050 3133 3187 6052 6150 6153 9176 11046 11156 
 	}
-	manpower=418635
+	manpower=248635
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
 }

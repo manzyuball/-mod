@@ -9,16 +9,18 @@ state={
 	history={
 		owner = PRU
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 			air_base = 1
 		}
+		victory_points = {
+			8149 1 
+		}				
 		add_core_of = PRU
+		add_claim_by = ECU
 	}
 
 	provinces={
 		8149 10942 
 	}
-
-	local_supplies=15.0 
 }

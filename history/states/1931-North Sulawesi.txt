@@ -1,0 +1,25 @@
+state={
+	id=1931
+	name="STATE_1931"
+	
+	history={
+		owner = INS
+		add_core_of = INS
+		add_core_of = SUL
+		add_core_of = GEA
+		buildings = {
+			infrastructure = 3
+			10153 = {
+				naval_base = 3
+
+			}
+		}
+	}
+	
+	provinces={
+		1098 1289 1484 1505 1518 1561 4262 4307 4493 4537 7311 10153 10169 10197 12358 
+	}
+	manpower=1946720
+	buildings_max_level_factor=1.000
+	state_category=town
+}

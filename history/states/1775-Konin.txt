@@ -1,0 +1,30 @@
+
+state={
+	id=1775
+	name="STATE_1775"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 5
+
+		}
+		victory_points = {
+			548 5 
+		}
+		add_core_of = POL
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+		493 548 
+	}
+	manpower=702351 
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

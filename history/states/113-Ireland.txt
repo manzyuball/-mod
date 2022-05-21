@@ -11,18 +11,15 @@ state={
 	state_category = city
 	
 	history={
-		owner = ENG
+		owner = IRE
 		victory_points = {
-			285 1 #Wexford
+			11293 5 
 		}
 		victory_points = {
-			303 1 #Tullamore
-		}
-		victory_points = {
-			11293 15 #Dublin
-		}
+			3342 1
+		}					
 		buildings = {
-			infrastructure = 4
+			infrastructure = 7
 			arms_factory = 1
 			industrial_complex = 5
 			air_base = 3
@@ -31,12 +28,9 @@ state={
 			}
 		}
 		add_core_of = IRE
-		add_core_of = ENG
 	}
 
 	provinces={
-		285 303 369 3342 3359 7377 11293 11303 
+		285 303 369 3342 3359 7377 11293 
 	}
-
-	local_supplies=0.0 
 }

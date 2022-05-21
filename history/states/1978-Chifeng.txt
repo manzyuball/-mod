@@ -1,0 +1,23 @@
+state={
+    id=1978
+    name="STATE_1978"
+
+    history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 4
+
+		}
+
+    }
+
+    provinces={
+        972 1508 1638 3828 3877 3881 3978 4514 4495 6852 6988 7575 7633 9873 10363 10426 10429 10499 11903 12348 12478 
+    }
+    manpower=987688
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

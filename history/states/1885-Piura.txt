@@ -1,0 +1,31 @@
+
+state={
+	id=1885
+	name="STATE_1885"
+	manpower = 379852
+	resources={
+		oil=1
+	}
+	
+	state_category = town
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			2156 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = PRU
+		victory_points = {
+			2156 5 
+		}
+
+	}
+
+	provinces={
+		2156
+	}
+}

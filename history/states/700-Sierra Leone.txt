@@ -7,15 +7,13 @@ state={
 	
 	history=
 	{
-		owner = TZN
-		add_core_of = TZN
+		owner = ENG
 		add_core_of = SIE
-		add_core_of = GNA
 		victory_points = {
 			2038 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			2038 = {
 				naval_base = 3
 			}
@@ -26,6 +24,4 @@ state={
 	provinces={
 		2038 2094 
 	}
-
-	local_supplies=0.0 
 }

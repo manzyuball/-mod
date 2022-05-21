@@ -1,0 +1,31 @@
+
+state={
+	id=1186
+	name="STATE_1186"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 6
+
+		}
+		victory_points = {
+			9597 10 
+		}
+		add_core_of = FRA
+		#add_core_of = OCC
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+		595 9597 11582
+	}
+	manpower=603100
+	buildings_max_level_factor=1.000
+	state_category=town
+}

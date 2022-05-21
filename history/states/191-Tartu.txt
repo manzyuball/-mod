@@ -1,29 +1,39 @@
-
 state={
 	id=191
 	name="STATE_191"
+	
+	state_category = rural
 
 	history={
-		owner = LAT
+		owner = EST
 		victory_points = {
 			9221 1 
 		}
 		victory_points = {
-			592 1 #Voru
-		}
+			308 1 
+		}		
+		victory_points = {
+			3174 5
+		}			
+		victory_points = {
+			9485 5
+		}	
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5
 
 		}
-		add_core_of = LAT
+		add_core_of = EST
+		add_core_of = LIV
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
 
+		}
 	}
 
 	provinces={
-		592 6178 6408 9221 9485 
+		308 592 3174 6099 6178 6381 6408 9221 9485 11291 
 	}
-	manpower=225840
+	manpower=343400
 	buildings_max_level_factor=1.000
-	local_supplies=0.0 
-	state_category=rural
 }

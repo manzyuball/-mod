@@ -1,0 +1,32 @@
+
+state={
+	id=1331
+	name="STATE_1331"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		victory_points = {
+			12055 3
+		}				
+		1938.10.25 = {
+			owner = RGR
+
+		}
+
+	}
+
+	provinces={
+		1029 1076 1121 1161 4031 4082 7085 7200 9937 9995 10040 10079 11973 12055 
+	}
+	manpower=2000100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

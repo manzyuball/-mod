@@ -1,0 +1,22 @@
+
+state={
+    id=1621
+    name="STATE_1621"
+
+    impassable = yes
+
+    history={
+        owner = USA
+        add_core_of = ALA
+        buildings = {
+            infrastructure = 1
+        }
+    }
+
+    provinces={
+        1830 7855 13069
+    }
+	manpower=400
+	buildings_max_level_factor=1
+	state_category="wasteland"
+}

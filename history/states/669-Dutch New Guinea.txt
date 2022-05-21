@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = INS
-		add_core_of = INS
+		add_core_of = WPP
 		buildings = {
 			infrastructure = 1
 
@@ -14,10 +14,9 @@ state={
 	}
 
 	provinces={
-		1602 1617 1629 4468 4524 4593 7269 7487 7512 7585 7627 10505 12315 12386 12457 
+		1617 1629 4593 7269 7627 10505 12457 
 	}
-	manpower=314300
+	manpower=298585
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-	local_supplies=1.000
 }

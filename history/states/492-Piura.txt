@@ -5,28 +5,32 @@ state={
 		tungsten=2 # was: 2.000
 	}
 	
-	state_category = large_town
+	state_category = rural
 
 	history={
 		owner = PRU
 		buildings = {
-			infrastructure = 2
+			infrastructure = 6
 			industrial_complex = 1
 			air_base = 1
 
 		}
 		add_core_of = PRU
 		victory_points = {
-			2210 5
+			2210 3
 		}
+		victory_points = {
+			12953 1 
+		}		
+		victory_points = {
+			2225 1 
+		}		
 
 	}
 
 	provinces={
-		2182 2210 2225 5202 12953 13086 13175 
+		2182 2210 2225 5202 12953 13086 
 	}
 	manpower=1601278
 	buildings_max_level_factor=1.000
-
-	local_supplies=60.0 
 }

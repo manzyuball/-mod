@@ -4,22 +4,19 @@ state={
 	name="STATE_273"
 
 	history={
-		owner = EGY
-		add_core_of = EGY
+		owner = ITA
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 
 		}
 		add_core_of = LBA
-		add_core_of = GNA
 
 	}
 
 	provinces={
-		1057 1060 1140 1994 4191 4962 5004 7985 10104 10754 10785 10884 11951 12022 12082 12866 13291 13323 13324 13365 13366 
+		4962 10884 12866
 	}
-	manpower=42633
+	manpower=2113
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	local_supplies=0.000
 }

@@ -11,9 +11,8 @@ state={
 			9449 1
 		}
 		owner = SOV
-		add_core_of = VLA
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5
 		}
 		add_core_of = SOV
 		1939.1.1 = {
@@ -24,8 +23,6 @@ state={
 	}
 
 	provinces={
-		473 534 3492 6432 6481 6517 6577 9424 9449 9489 9518 11439 11500 
+		473 534 3492 6432 6481 6517 6577 9449 9489 9518 11439 11500 
 	}
-
-	local_supplies=0.0 
 }

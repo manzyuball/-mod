@@ -1,0 +1,22 @@
+state = {
+	id=1943
+	name="STATE_1943"
+	manpower = 38191
+	
+	state_category = pastoral
+	
+	history = {
+		owner = ICE
+		victory_points = { 4861 1 }
+		victory_points = { 13752 2 }		
+		victory_points = { 13703 1 }
+		victory_points = { 12689 1 }		
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ICE
+	}
+	provinces = {
+    12689 13703 13752 4861
+	}
+}

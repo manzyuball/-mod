@@ -4,32 +4,23 @@ state={
 	name="STATE_547"
 
 	history={
-		owner = TZN
+		owner = ENG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
-			5210 = {
-				naval_base = 2
-
-			}
 
 		}
 		victory_points = {
 			1939 2 
 		}
-		victory_points = {
-			5210 1 
-		}
 		add_core_of = KEN
-		add_core_of = TZN
 
 	}
 
 	provinces={
-		1939 5079 5160 5196 5210 6020 10761 10860 10962 11145 13135 13328 13914 
+		1939 5079 5160 5196 5210 6020 10860 10962 11145 13328
 	}
-	manpower=3392000
+	manpower=2592000
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=6.000
 }

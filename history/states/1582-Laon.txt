@@ -1,0 +1,33 @@
+
+state={
+	id=1582
+	name="STATE_1582"
+	resources={
+		steel=1.000
+		aluminium=1.000
+	}
+
+	history={
+		victory_points = {
+			3402 2 
+		}
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 7
+		}
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+		3402 8839 3447
+	}
+	manpower=34710
+	buildings_max_level_factor=1.000
+	state_category=town
+}

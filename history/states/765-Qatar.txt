@@ -2,30 +2,23 @@
 state={
 	id=765
 	name="STATE_765"
+	manpower = 34300	state_category = pastoral
 
 	history={
 		add_core_of = QAT
 		owner = ENG
-		add_core_of = TUR
 		victory_points = {
-			8051 1 
+			8051 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			8051 = {
 				naval_base = 2
-
 			}
-
 		}
-
 	}
 
 	provinces={
-		8030 8051 10870 
+		8051
 	}
-	manpower=51600
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
 }

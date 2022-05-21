@@ -2,12 +2,12 @@
 state={
 	id=338
 	name="STATE_338"
-	manpower = 1800615
+	manpower = 1042088
 	resources={
-		steel=9 # was: 16
+		steel=5 
 	}
 
-	state_category = metropolis
+	state_category = large_town
 
 	history={
 		owner = ENG
@@ -15,9 +15,7 @@ state={
 			3369 5 
 		}
 		buildings = {
-			infrastructure = 4 #was: 7
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 6
 			air_base = 2
 			3369 = {
 				naval_base = 2
@@ -27,8 +25,6 @@ state={
 	}
 
 	provinces={
-		3369 6221 6351 6378 9484 11471 
+		3369 6221 6351 11471
 	}
-
-	local_supplies=0.0 
 }

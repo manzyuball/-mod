@@ -1,0 +1,21 @@
+state={
+	id=1850
+	name="STATE_1850"
+	manpower = 27031
+	
+	state_category = pastoral
+	history={
+		add_core_of = BLZ
+		add_claim_by = GUA
+		owner = ENG
+		victory_points = {
+			8744 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces= { 
+	8744 
+	}
+}

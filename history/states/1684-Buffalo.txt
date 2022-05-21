@@ -1,0 +1,27 @@
+state={
+    id=1684
+    name="STATE_1684"
+
+    state_category = city
+
+    history = {
+        owner = USA
+        buildings = {
+            infrastructure = 6
+            industrial_complex = 2
+			11654 = {
+				naval_base = 4
+			}
+        }
+        add_core_of = USA
+		victory_points = {
+			11654 3 
+		}
+    }
+
+    provinces={
+        598 734 3602 3702 3733 3747 6707 6778 6795 6916 9664 9754 11654 11662
+    }
+    manpower=575901
+	buildings_max_level_factor=1.000
+}

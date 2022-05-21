@@ -1,0 +1,39 @@
+state={
+	id=1785
+	name="STATE_1785"
+	
+	history={
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger"
+
+					}
+
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1778 5076 7971 12596 12820 
+	}
+	manpower=215000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

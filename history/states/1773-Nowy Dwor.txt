@@ -1,0 +1,30 @@
+
+state={
+	id=1773
+	name="STATE_1773"
+
+	history={
+		owner = POL
+		victory_points = {
+			13426 5 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+		}
+		add_core_of = POL
+		1941.1.1 = {
+			owner = GGO
+			controller = GGO
+
+		}
+
+	}
+
+	provinces={
+		13426 13427 11492 13428
+	}
+	manpower=373521
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -2,26 +2,25 @@ state={
 	id=332
 	name="STATE_332"
 	
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
-		owner = CAN
+		owner = ENG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 
 			12503 = {
 				naval_base = 1
 			}
 		}
 		add_core_of = CAN
+		add_core_of = NFL
 
 	}
 
 	provinces={
-		1426 1785 4720 4787 12503 13165 13180 
+		 1785 4720 4787 12503 
 	}
-	manpower=22179
+	manpower=15158
 	buildings_max_level_factor=1.000
-
-	local_supplies=0.0 
 }

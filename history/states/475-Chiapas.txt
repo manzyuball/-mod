@@ -2,16 +2,17 @@
 state={
 	id=475
 	name="STATE_475"
-	manpower = 805874
+	manpower = 751265
 	
 	state_category = rural
 
 	history={
 		owner = MEX
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
 		add_core_of = MEX
+		add_core_of = CHP
 
 		victory_points = {
 			1900 3
@@ -19,9 +20,7 @@ state={
 	}
 
 	provinces={
-		1900 12753 12867 
+		1900 12753
 	}
 	
-
-	local_supplies=0.0 
 }

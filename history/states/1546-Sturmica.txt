@@ -1,0 +1,32 @@
+state={
+    id=1546
+    name="STATE_1546"
+
+    history={
+        owner = YUG
+        
+        buildings = {
+            infrastructure = 3
+        }
+        add_core_of = YUG
+        add_core_of = MAC
+		add_core_of = BUL
+		1941.1.1 = {
+			owner = BUL
+			controller = BUL
+
+		}
+    }
+
+    provinces={
+        13923 
+    }
+    manpower= 98930
+    buildings_max_level_factor=1
+    state_category="pastoral"
+    
+    resources={
+        aluminium=2
+        chromium=4
+    }
+}

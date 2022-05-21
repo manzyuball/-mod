@@ -1,6 +1,6 @@
-﻿capital = 167
+﻿capital = 165
 
-oob = "CAT_1936"
+#oob = ""
 
 # Starting tech
 set_technology = {
@@ -16,37 +16,55 @@ set_technology = {
 	early_bomber = 1
 	naval_bomber1 = 1
 }
-add_manpower = 1000000
-declare_war_on = {
-	target = SPR
-	type = annex_everything
-}
-declare_war_on = {
-	target = MOR
-	type = annex_everything
-}
+
 set_convoys = 20
 
+1939.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 5
-	fascism = 10
-	communism = 85
+	democratic = 50
+	fascism = 3
+	communism = 47
 }
- SPR = {
-	 add_ideas = SPR_NAISEM
- }
- CAT = {
-	add_ideas = SPR_NAISEM
-}
-SPR = {
-	add_ideas = SPR_NAISEM
-}
+
 create_country_leader = {
 	name = "Andreu Nin i Pérez"
 	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
@@ -67,13 +85,10 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 }
-create_country_leader = {
-	name = "無政府"
-	desc = ""
-	picture = "gfx/leaders/SPR/portrait_spr_anarchist_commune.dds"
-	ideology = anarchism
-	traits = {
-		anarchist_zeal
-	}
-}
 
+create_country_leader = {
+	name = "Francesc Cambó i Batlle"
+	picture = "gfx//leaders//Europe//portrait_europe_generic_6.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+}

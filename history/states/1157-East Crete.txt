@@ -1,0 +1,25 @@
+state=
+{
+	id=1157
+	name="STATE_1157"
+	manpower = 37900
+	
+	state_category = town
+	history=
+	{
+		owner = GRE
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = GRE
+		add_core_of = CRT
+		1941.1.1 = {
+			owner = ITA
+			controller = ITA
+
+		}
+	}
+	provinces=
+	{
+4170 	}
+}

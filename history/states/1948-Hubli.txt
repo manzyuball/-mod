@@ -1,0 +1,23 @@
+
+state={
+	id=1948
+	name="STATE_1948" # Mysore
+	manpower = 1056241
+	
+	state_category = pastoral
+
+	history={
+		owner = RAJ
+		victory_points = {
+			12105 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+	 12105 12208 
+	}
+}

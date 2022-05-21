@@ -5,20 +5,33 @@ state={
 
 	history={
 		owner = GER
+		controller = GER
+		victory_points = {
+			9346 5
+		}
+		#victory_points = {
+		#	6375 3
+		#}
+		victory_points = {
+			9372 2
+		}
+		#victory_points = {
+		#	11386 1
+		#}		
 		buildings = {
-			infrastructure = 3
+			infrastructure = 7
 
 		}
 		add_core_of = GER
-		add_core_of = LAT
+		add_core_of = PRE
+		add_core_of = POL		
 
 	}
 
 	provinces={
-		3351 3380 6375 6402 8940 9346 11245 13760 13876 13878 
+		266 6375 9327 9346 9372 11386 
 	}
-	manpower=1238108
+	manpower=1065968
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=12.000
 }

@@ -1,0 +1,22 @@
+state={
+	id=1671
+	name="STATE_1671"
+	
+	state_category = wasteland
+
+ 	impassable = yes   
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CAN
+	}
+
+	provinces={
+		4753
+	}
+	manpower=5520
+	buildings_max_level_factor=1.000
+}

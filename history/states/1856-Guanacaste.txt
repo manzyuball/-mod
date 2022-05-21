@@ -1,0 +1,25 @@
+
+state={
+	id=1856
+	name="STATE_1856"
+	manpower = 17394
+	
+	state_category = pastoral
+	
+
+	history={
+		owner = COS
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = COS
+		victory_points = {
+			5964 1
+		}
+
+	}
+
+	provinces={
+		5964
+	}
+}

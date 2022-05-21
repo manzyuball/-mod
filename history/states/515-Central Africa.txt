@@ -4,8 +4,8 @@ state={
 	name="STATE_515"
 
 	history={
-		owner = GNA
-		add_core_of = GNA
+		owner = FRA
+		add_core_of = NGR
 		buildings = {
 			infrastructure = 1
 
@@ -14,10 +14,10 @@ state={
 	}
 
 	provinces={
-		1956 4913 7939 8028 10758 10780 10805 10917 
+		1956 4913 7939 10917 
 	}
 	manpower=1456356
 	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	state_category=wasteland
+	impassable = yes
 }

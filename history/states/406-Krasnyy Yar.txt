@@ -5,7 +5,6 @@ state={
 
 	history={
 		owner = SOV
-		add_core_of = VLA
 		buildings = {
 			infrastructure = 1
 
@@ -19,10 +18,9 @@ state={
 	}
 
 	provinces={
-		464 477 615 3459 3622 6498 6514 6523 9469 11578 
+		554 3618 6615 7322 9453 11442 11455 11469 11591 
 	}
-	manpower=146494
+	manpower=106400
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	local_supplies=0.000
 }

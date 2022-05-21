@@ -1,0 +1,26 @@
+state={
+	id=1935
+	name="STATE_1935"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = TUN
+		victory_points = {
+			11969 10 
+		}
+	}
+
+	provinces={
+		7180 10091 11969 
+	}
+	manpower=219578 
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

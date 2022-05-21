@@ -12,17 +12,14 @@ state={
 
 
 	history={
-		owner = USB
+		owner = USA
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5
 			industrial_complex = 5
 		}
-		add_core_of = USN
 		add_core_of = USA
-		add_core_of = USB
-		add_core_of = CSA
 		victory_points = {
-			4569 25 
+			4569 10 
 		}
 		victory_points = {
 			10717 10 
@@ -36,6 +33,4 @@ state={
 	provinces={
 		1441 1523 1534 1564 1621 4449 4540 4569 7449 7607 10333 10370 10391 10516 10717 12346 12361 12463 
 	}
-
-	local_supplies=7.0 
 }

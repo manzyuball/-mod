@@ -1,0 +1,28 @@
+
+state={
+	id=1551
+	name="STATE_1551"
+
+	history={
+		owner = YUG
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = YUG
+		1941.1.1 = {
+			owner = ALB
+			controller = ALB
+
+		}
+
+	}
+
+	provinces={
+		13926 
+	}
+	manpower=76000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

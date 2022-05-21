@@ -1,0 +1,30 @@
+
+state={
+	id=1895
+	name="STATE_1895"
+	manpower = 1555200
+
+	state_category = city
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			air_base = 2
+			2227 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = BRA
+		victory_points = {
+			2227 3 
+		}
+
+	}
+
+	provinces={
+		2227 1446 10989 7561
+	}
+	
+}

@@ -4,24 +4,27 @@ state={
 	name="STATE_77"
 	manpower = 378000
 	
-	state_category = rural
+	state_category = large_town
 
 	history={
 		victory_points = {
 			11597 1
 		}
-		owner = BUL
+		owner = ROM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			industrial_complex = 2
 		}
-		add_core_of = BUL
-		add_claim_by = ROM
+		add_core_of = ROM
+		add_claim_by = BUL
+		1941.1.1 = {
+			owner = BUL
+			controller = BUL
+
+		}
 	}
 
 	provinces={
 		9614 11597 
 	}
-
-	local_supplies=1.0 
 }

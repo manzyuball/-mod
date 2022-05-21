@@ -1,0 +1,30 @@
+
+state={
+	id=1703
+	name="STATE_1703"
+	resources={
+		steel=3.000
+		aluminium=2.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			13299 4
+		}	
+		buildings = {
+			infrastructure = 7
+			air_base = 3
+		}
+		add_core_of = GER
+		add_core_of = PRE
+
+	}
+
+	provinces={
+		13299
+	}
+	manpower=112710
+	buildings_max_level_factor=1.000
+	state_category=town
+}

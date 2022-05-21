@@ -1,0 +1,25 @@
+state={
+	id=1113
+	name="STATE_1113"
+
+	history={
+		owner = ETH
+		controller = ITA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ETH
+		1941.1.1 = {
+			controller = ENG
+		}
+
+	}
+
+	provinces={
+		2072
+	}
+	manpower=825000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

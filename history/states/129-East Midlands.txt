@@ -12,14 +12,8 @@ state={
 
 	history={
 		owner = ENG
-		victory_points = {
-			6237 10 #Nottingham
-		}
-		victory_points = {
-			11279 3 #Leicester
-		}
 		buildings = {
-			infrastructure = 4 #was: 8
+			infrastructure = 8
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 5
@@ -34,8 +28,6 @@ state={
 	}
 
 	provinces={
-		364 3353 6237 9250 9268 9322 11279 
+		364 9268 9322 11279 
 	}
-
-	local_supplies=0.0 
 }

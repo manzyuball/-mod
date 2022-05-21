@@ -10,15 +10,14 @@ state={
 
 		}
 		add_core_of = EGY
-		add_core_of = GNA
 
 	}
 
 	provinces={
-		2064 7216 10869 10907 12099 12733 12764 12816 13489 
+		 2064 7148 7216 10127 10869 10907 12099 12733 12764 13364 13489 13491 
 	}
 	manpower=18539
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	local_supplies=0.000
+	impassable = yes
 }

@@ -1,0 +1,23 @@
+
+state={
+	id=1774
+	name="STATE_241" # Gomel
+	manpower = 47236
+	
+	state_category = pastoral
+
+	history={
+		owner = SOV
+		victory_points = {
+			9342 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		 9342 
+	}
+}

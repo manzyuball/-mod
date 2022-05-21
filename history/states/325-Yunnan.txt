@@ -1,3 +1,4 @@
+
 state={
 	id=325
 	name="STATE_325"
@@ -16,14 +17,15 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 2
 
 		}
 		1938.10.25 = {
 			if = {
 				limit = {
 					NOT = {
-						has_dlc = "Waking the Tiger" 
+						has_dlc = "Waking the Tiger"
+
 					}
 
 				}
@@ -39,11 +41,9 @@ state={
 	}
 
 	provinces={
-		1114 1172 1196 1319 1383 1522 1653 4501 7446 7606 8023 10346 10776 12262 12282 
+		5072 12841 1319 4192
 	}
-	manpower=10994500
+	manpower=7761759
 	buildings_max_level_factor=1.000
-	state_category=city
-
-	local_supplies=3.0 
+	state_category=town
 }

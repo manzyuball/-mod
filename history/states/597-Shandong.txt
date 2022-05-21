@@ -4,30 +4,39 @@ state={
 	name="STATE_597"
 
 	history={
-		owner = MAN
+		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
-		add_core_of = MAN
 		victory_points = {
-			1069 3 
+			1069 10
 		}
+		victory_points = {
+			12069 5 
+		}		
+		victory_points = {
+			12074 5 
+		}	
+		victory_points = {
+			4181 5 
+		}			
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 1
+			air_base = 3
 
 		}
 		1938.10.25 = {
-			controller = JAP
+			owner = PGR
+			controller = PGR
 
 		}
 
 	}
 
 	provinces={
-		1069 1084 1104 1124 1154 1184 1200 4037 4071 4089 4114 4144 4157 4181 4186 7055 7074 7089 7105 7160 7189 9971 9987 10018 10043 10072 10102 11933 11962 12015 12045 12069 12074 12093 
+		1069 1124 1154 1184 4010 4037 4071 4089 4114 4157 4181 7025 7055 7089 7129 9956 9971 10043 10072 10102 12015 12045 12069 12074 
 	}
-	manpower=38373200
+	manpower=34801000
 	buildings_max_level_factor=1.000
-	state_category=metropolis
-	local_supplies=4.000
+	state_category=town
 }

@@ -7,28 +7,26 @@ state={
 	}
 
 	history={
-		owner = TZN
+		owner = FRA
 		add_core_of = RCG
 		victory_points = {
 			8193 2 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			12975 = {
 				naval_base = 1
 
 			}
 
 		}
-		add_core_of = TZN
 
 	}
 
 	provinces={
-		2192 3109 6008 8193 12975 13270 
+		2192 3109 8193 12975 
 	}
-	manpower=746415
+	manpower=606314
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-	local_supplies=0.000
 }

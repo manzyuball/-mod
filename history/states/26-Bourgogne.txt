@@ -9,20 +9,19 @@ state={
 			3594 3 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
+			infrastructure = 5
+			industrial_complex = 1
 
 		}
-		add_core_of = OCC
 		add_core_of = FRA
+		add_core_of = OCC
 
 	}
 
 	provinces={
-		590 769 3594 3754 6644 6789 6962 9593 9607 9609 9748 11576 11709 
+		590 769 3594 3754 6773 6789 9593 9607 9748 11576
 	}
-	manpower=877800
+	manpower=750676
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=6.000
 }

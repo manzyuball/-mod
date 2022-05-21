@@ -9,20 +9,23 @@ state={
 		}
 		owner = POL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 
 		}
 		add_core_of = POL
 		add_core_of = BLR
-		add_core_of = SOV
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
+
+		}
 
 	}
 
 	provinces={
-		233 277 358 406 6340 9236 9341 11285 11391 13380 13381 13880 13881 
+		277 358 406 9341 11285 13884 233
 	}
-	manpower=726000
+	manpower=560402
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.000
 }

@@ -2,30 +2,27 @@
 state={
 	id=401
 	name="STATE_401"
+	manpower = 927795
+	
+	state_category = rural
+	
 	resources={
-		steel=10.000
-		tungsten=10.000
+		steel=24 # was: 40
+		tungsten=16 # was: 34
 	}
 
 	history={
 		owner = SOV
-		add_core_of = VLA
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 4
 		}
 		add_core_of = SOV
 		victory_points = {
-			6502 1 
+			6502 1
 		}
-
 	}
 
 	provinces={
-		410 452 3406 3490 3551 6339 6430 6473 6574 9337 9447 9473 9487 11321 11458 11538 
+		410 452 499 3490 3551 6339 6430 6473 6502 6574 6601 9337 9432 9447 9473 9577 11321 11421 11458 6366 3316 326 3477 3343 
 	}
-	manpower=309530
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=7.000
 }

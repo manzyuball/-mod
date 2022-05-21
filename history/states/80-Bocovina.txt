@@ -10,19 +10,21 @@ state={
 		victory_points = {
 			577 1 
 		}
-		owner = AUS
+		owner = ROM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			arms_factory = 1
 		}
-		add_core_of = AUS
-		add_core_of = UKR
-		add_core_of = CZE
 		add_core_of = ROM
+		add_core_of = UKR
+		add_core_of = BUK
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
+
+		}
 	}
 	provinces={
 		577 9548
 	}
-
-	local_supplies=0.0 
 }

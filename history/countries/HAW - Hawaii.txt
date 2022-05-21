@@ -8,7 +8,7 @@ set_technology = {
 }
 
 set_convoys = 20
-recruit_character = HAW_asd
+
 1939.1.1 = {
 	#generic focuses
 	complete_national_focus = army_effort
@@ -44,7 +44,7 @@ recruit_character = HAW_asd
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	elections_allowed = no
 }
@@ -60,6 +60,16 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
 	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joseph Poindexter"
+	desc = ""
+	picture = "gfx/leaders/USA/Portrait_USA_Generic_land_1.dds"
+	ideology = liberalism
 	traits = {
 		#
 	}

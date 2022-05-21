@@ -1,31 +1,34 @@
-
 state={
 	id=91
-	name="STATE_91"
-
+	name="STATE_91" # Lwow
+	manpower = 1127409  
+	
+	state_category = city
+	
 	history={
-		owner = AUS
+		owner = POL
 		victory_points = {
-			11479 3 
+			11479 3
 		}
+		victory_points = {
+			6483 1
+		}		
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
+			infrastructure = 6
+			industrial_complex = 2
 			air_base = 5
+		}
+		add_core_of = POL
+		add_core_of = UKR
+		add_core_of = GAL
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
 
 		}
-		add_core_of = UKR
-		add_core_of = AUS
-		add_core_of = POL
-		add_core_of = CZE
-
 	}
 
 	provinces={
-		438 491 536 3483 3562 6460 9454 9468 11427 11479 13743 
+		536 9468 11479 6431 6483
 	}
-	manpower=3227800
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
 }

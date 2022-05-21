@@ -1,0 +1,26 @@
+
+state={
+	id=1603
+	name="STATE_1603"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = POL
+		1941.1.1 = {
+			owner = GGO
+			controller = GGO
+
+		}
+
+	}
+
+	provinces={
+		13716
+	}
+	manpower=19800 
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

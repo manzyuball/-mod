@@ -1,0 +1,30 @@
+
+state={
+	id=1455
+	name="STATE_1455"
+
+	history={
+		victory_points = {
+			476 5
+		}	
+		victory_points = {
+			3430 10
+		}						
+		owner = SOV
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		3430 476 6429
+	}
+	manpower=253781
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

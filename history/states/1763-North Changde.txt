@@ -1,0 +1,42 @@
+
+state={
+	id=1763
+	name="STATE_1763"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger"
+
+					}
+
+				}
+				remove_core_of = GXC
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4041 5030 7948 10757 11865 12086 12414 
+	}
+	manpower=6550000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -9,20 +9,19 @@ state={
 			3335 10 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			air_base = 2
 
 		}
 		add_core_of = SOV
-		add_core_of = VLA
+		add_core_of = MUS
 
 	}
 
 	provinces={
-		288 315 343 371 3306 3335 3364 6330 6386 6411 11229 11298 11325 
+		288 3226 3306 3335 3364 3390 6305 6330 6386 6411 
 	}
-	manpower=1707567
+	manpower=1106367
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
 }

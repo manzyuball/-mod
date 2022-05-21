@@ -1,0 +1,19 @@
+state=
+{
+	id=1504
+	name="STATE_1504"
+	manpower = 9521
+	
+	state_category = pastoral
+	
+	history= {
+		owner = ROM
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ROM
+	}
+	provinces=
+	{
+13906	}
+}

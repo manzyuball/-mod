@@ -1,0 +1,32 @@
+
+state={
+	id=1843
+	name="STATE_1843"
+	manpower = 279421
+	
+	state_category = town
+	
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = MEX
+		add_core_of = RIO	
+		victory_points = {
+			5015 10
+		}
+		victory_points = {
+			12721 5
+		}
+		victory_points = {
+			5021 5
+		}
+	}
+
+	provinces={
+		12721 5015 13088 2083 5021
+	}
+	
+}

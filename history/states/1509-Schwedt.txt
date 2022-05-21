@@ -1,0 +1,33 @@
+state={	
+	id=1509
+	name="STATE_1509"
+
+	history={
+		owner = GER
+		victory_points = {
+			3207 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+		}
+		add_core_of = GER
+		add_core_of = PRE
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3207 3312
+	}
+	manpower=109483
+	buildings_max_level_factor=1.000
+	state_category=city
+}

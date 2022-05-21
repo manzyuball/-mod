@@ -1,0 +1,27 @@
+
+state={
+	id=1902
+	name="STATE_1902"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BRA
+		victory_points = {
+			5008 1 
+		}
+	}
+
+	provinces={
+		5008 2035 1979 8172 
+	}
+	manpower=473513
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

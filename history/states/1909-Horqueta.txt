@@ -1,0 +1,21 @@
+
+state={
+    id=1909
+    name="STATE_1909"
+    manpower = 8901
+
+    state_category = pastoral
+	
+	history={
+		owner = PAR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PAR
+	}
+
+    provinces={
+        11023
+    }
+
+}

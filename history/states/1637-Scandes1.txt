@@ -1,0 +1,27 @@
+
+state={
+    id=1637
+    name="STATE_1637"
+
+    impassable = yes
+
+    history = {
+        owner = NOR
+        buildings = {
+            infrastructure = 0
+        }
+        add_core_of = NOR
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+    }
+
+    provinces={
+        102 3093 3129 3188 6184 6216 9047 11037 11101 11198
+    }
+    manpower=100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

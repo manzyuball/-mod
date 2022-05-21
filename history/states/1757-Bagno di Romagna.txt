@@ -1,0 +1,25 @@
+
+state={
+	id=1757
+	name="STATE_1757"
+
+	history={
+		victory_points = {
+			11861 1
+		}
+		owner = ITA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = ITA
+		add_core_of = TUS
+
+	}
+
+	provinces={
+		 11861 
+	}
+	manpower=173852
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

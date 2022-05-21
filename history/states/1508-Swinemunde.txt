@@ -1,0 +1,38 @@
+
+state={
+	id=1508
+	name="STATE_1508"
+	resources={
+		steel=5.000
+		aluminium=2.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			6334 3 
+		}
+		#victory_points = {
+		#	6390 1
+		#}		
+		buildings = {
+			infrastructure = 6
+			6334 = {
+				naval_base = 1
+
+			}
+			air_base = 2
+
+		}
+		add_core_of = GER
+		add_core_of = PRE
+
+	}
+
+	provinces={
+		6334 6390
+	}
+	manpower=93563
+	buildings_max_level_factor=1.000
+	state_category=city
+}

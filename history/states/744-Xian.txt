@@ -4,24 +4,26 @@ state={
 	name="STATE_744"
 
 	history={
-		owner = SHX
-		add_core_of = SHX
+		owner = NEA
+		add_core_of = NEA
 		add_core_of = PRC
 		add_core_of = CHI
-		victory_points = {
-			7418 1 
-		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+
+		}
+		1939.1.1 = {
+			owner = CHI
+			controller = CHI
+
 		}
 
 	}
 
 	provinces={
-		1976 2006 4256 4295 5092 7301 7406 10257 12713 
+		1976 2006 4256 5092 7301 7406 10257 12713 
 	}
-	manpower=9000000
+	manpower=7800000
 	buildings_max_level_factor=1.000
-	state_category=large_town
-	local_supplies=0.000
+	state_category=town
 }

@@ -1,0 +1,24 @@
+
+state = {
+    id=1515
+    name="STATE_1515"
+    manpower = 176496
+
+    history={
+        owner = SWI
+        buildings = {
+			6683 = {
+				bunker = 7
+			}	
+            infrastructure = 5
+        }
+
+        add_core_of = SWI
+    }
+
+    provinces={
+        6683
+    }
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=1648
+	name="STATE_1648"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = USA
+		add_core_of = NEE
+		victory_points = {
+			10247 1
+		}
+	}
+
+	provinces={
+		10247 13956
+	}
+	manpower=62281
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

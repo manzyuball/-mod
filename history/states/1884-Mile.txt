@@ -1,0 +1,57 @@
+
+state={
+	id=1884
+	name="STATE_1884"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = YUN
+		add_core_of = YUN
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			12282 5 
+		}
+		victory_points = {
+			4501 5 
+		}	
+		victory_points = {
+			1653 5 
+		}
+		victory_points = {
+			7606 5 
+		}		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger"
+
+					}
+
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1114 1172 1196 1383 1522 1653 4501 7446 7606 8023 10346 12282 
+	}
+	manpower=3732741
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

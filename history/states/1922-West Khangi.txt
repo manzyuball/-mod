@@ -1,0 +1,36 @@
+
+state={
+	id=1922
+	name="STATE_1922"
+
+	history={
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = MON
+		add_core_of = CHI
+		add_core_of = PRC
+		add_claim_by = MEN
+		buildings = {
+			infrastructure = 0
+
+		}
+		1939.1.1 = {
+			remove_building = {
+				type = industrial_complex
+				level = 1
+
+			}
+			owner = PRC
+			controller = MEN
+
+		}
+
+	}
+
+	provinces={
+		13898 
+	}
+	manpower=1346
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

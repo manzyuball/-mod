@@ -1,0 +1,26 @@
+state={
+	id=855
+	name="STATE_855"
+	history={
+		owner = USA
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			9911 3
+		}		
+		add_core_of = USA
+		add_core_of = CAL
+
+	}
+
+	provinces={
+	 941 4518 7667 9911 13604
+	}
+	manpower=353501
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}
