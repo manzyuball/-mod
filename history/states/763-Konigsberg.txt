@@ -2,8 +2,8 @@
 state={
 	id=763
 	name="STATE_763"
-	manpower = 1810234
-	state_category = large_city
+	manpower = 2810234
+	state_category = metropolis
 
 	history={
 		owner = GER
@@ -16,6 +16,10 @@ state={
 		victory_points = {
 			6332 10 
 		}		
+
+		victory_points = {
+			13568 1 
+		}
 
 		buildings = {
 			infrastructure = 7
@@ -41,6 +45,6 @@ state={
 	}
 
 	provinces={
-	  6332 281
+	  6332 281 13568 395 11265 3384
 	}
 }

@@ -2,9 +2,9 @@
 state={
 	id=1435
 	name="STATE_1435" 
-	manpower = 218623
+	manpower = 1731623
 	resources={
-		steel=5
+		steel=9
 	}
 	
 	state_category = megalopolis 
@@ -12,10 +12,17 @@ state={
 	history={
 		owner = BEL
 		victory_points = { 516 30 }
+		victory_points = { 9574 1 }
+		victory_points = {
+			11419 30 
+		}
+		victory_points = {
+			13068 1 
+		}
 		buildings = {
 			infrastructure = 10
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 8
 			air_base = 10
 		}
 		
@@ -24,14 +31,9 @@ state={
 		add_core_of = BEL
 		add_core_of = BRB
 		add_core_of = FLA
-		1941.1.1 = {
-			owner = GER
-			controller = GER
-
-		}
 	}
 
 	provinces={
-		516
+		516 9574 11419 13068 13990
 	}
 }

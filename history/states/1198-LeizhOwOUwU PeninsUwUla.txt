@@ -1,0 +1,23 @@
+state={
+	id=1198
+	name="STATE_2027"
+
+	history={
+		owner = CHI
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+            arms_factory = 1
+
+		}
+	}
+
+	provinces={
+		4160 7135 
+	}
+	manpower=255000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

@@ -8,9 +8,18 @@ state={
 		victory_points = {
 			9263 5 
 		}
+		victory_points = {
+			13761 1
+		}		
 		#victory_points = {
 		#	8545 3 
 		#}		
+		victory_points = {
+			389 5 
+		}	
+		victory_points = {
+			13912 5
+		}		
 		buildings = {
 			infrastructure = 7
 			air_base = 3
@@ -35,9 +44,9 @@ state={
 	}
 
 	provinces={
-		9263 6802 8545
+		334 389 9048 9263 6802 8545 8874 13761 13912 
 	}
-	manpower=580138
+	manpower=780138
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_city
 }

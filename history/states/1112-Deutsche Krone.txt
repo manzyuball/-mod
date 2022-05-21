@@ -5,10 +5,11 @@ state={
 	history={
 		victory_points = {
 			11260 3 
+			
 		}
-		#victory_points = {
-		#	11288 1
-		#}			
+		victory_points = {
+			8646 3
+	    }			
 		owner = GER
 		buildings = {
 			infrastructure = 8
@@ -21,7 +22,7 @@ state={
 	}
 
 	provinces={
-		11260 11288
+		11260 11288 8646
 	}
 	manpower=230620
 	buildings_max_level_factor=1.000

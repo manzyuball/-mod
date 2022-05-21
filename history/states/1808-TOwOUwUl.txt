@@ -1,0 +1,31 @@
+state={
+	id=2024
+	name="STATE_2041"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = FRA
+		add_core_of = BGN
+
+		victory_points = {
+			11642 2
+		}
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+	}
+
+	provinces={
+		11642
+	}
+	manpower=37951
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
+

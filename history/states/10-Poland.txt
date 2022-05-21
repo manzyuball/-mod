@@ -11,6 +11,9 @@ state={
 		victory_points = {
 			11532 2 
 		}		
+		victory_points = {
+			13426 5 
+		}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 5
@@ -29,9 +32,9 @@ state={
 	}
 
 	provinces={
-		11532 3586 11428 3482 3544 9400 
+		11532 3586 11428 3482 3544 9400 13426 13427 11492 13428
 	}
-	manpower=3377605
+	manpower=3677605
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

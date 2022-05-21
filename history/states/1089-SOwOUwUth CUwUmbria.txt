@@ -1,0 +1,23 @@
+state={
+	id=1089
+	name="STATE_2026"
+
+	history={
+		owner = ENG
+		victory_points = {
+			6399 5 
+		}
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 6
+
+		}
+	}
+
+	provinces={
+		6399 9285 
+	}
+	manpower=104000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

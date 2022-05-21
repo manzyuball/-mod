@@ -7,22 +7,30 @@ state={
 		victory_points = {
 			13878 10
 		}	
+		victory_points = {
+			3380 3
+		}
+		victory_points = {
+			6402 1
+		}
+		victory_points = {
+			13876 1
+		}		
 		owner = GER
-		controller = GER
 		buildings = {
 			infrastructure = 8
 
 		}
 		add_core_of = GER
-		add_core_of = PRE
+		add_core_of = LAT
 		add_core_of = POL		
 
 	}
 
 	provinces={
-		13878 
+		6402 8940 3351 3380 13760 13876 13878  
 	}
-	manpower=71108
+	manpower=371108
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_city
 }
