@@ -3,7 +3,7 @@ state={
 	name="STATE_824"
 
 	history={
-		owner = FRA
+		owner = ADR
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1			
@@ -14,7 +14,7 @@ state={
 		victory_points = {
 			13308 5
 		}		
-		add_core_of = FRA
+		add_core_of = ADR
 	}
 
 	provinces={

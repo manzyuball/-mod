@@ -1,0 +1,35 @@
+
+state={
+	id=865
+	name="STATE_865"
+
+	history={
+		owner = POL
+		victory_points = {
+			389 5 
+		}		
+		buildings = {
+			infrastructure = 6
+			air_base = 3
+
+		}
+		add_core_of = POL
+		1938.3.12 = {
+			add_claim_by = GER
+
+		}
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+	 389 8874
+	}
+	manpower=87793
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

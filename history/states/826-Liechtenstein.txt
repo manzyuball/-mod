@@ -3,14 +3,14 @@ state={
 	name="STATE_826"
 
 	history={
-		owner = SWI
+		owner = LIE
 		victory_points = {
 			13313 1 
 		}
 		buildings = {
 			infrastructure = 8
 		}
-		add_core_of = SWI
+		add_core_of = LIE
 	}
 
 	provinces={

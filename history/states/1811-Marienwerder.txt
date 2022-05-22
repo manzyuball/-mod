@@ -1,0 +1,31 @@
+
+state={
+	id=1811
+	name="STATE_1811"
+
+	history={
+		owner = GER
+		controller = GER
+		victory_points = {
+			3380 3
+		}
+		#victory_points = {
+		#	3351 2
+		#}		
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = GER
+		add_core_of = PRE
+		add_core_of = POL		
+
+	}
+
+	provinces={
+		8940 3351 3380
+	}
+	manpower=172140
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

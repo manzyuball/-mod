@@ -11,11 +11,14 @@ state={
 		add_core_of = GER
 		add_core_of = BAY
 
-
+		victory_points = {
+			707 1 
+		}
 
 	}
 
 	provinces={
+		707 
 	}
 	manpower=9701
 	buildings_max_level_factor=1.000

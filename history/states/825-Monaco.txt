@@ -3,11 +3,11 @@ state={
 	name="STATE_825"
 
 	history={
-		owner = FRA
+		owner = MCO
 		victory_points = {
 			13309 1 
 		}
-		add_core_of = FRA
+		add_core_of = MCO
 		buildings = {
 			infrastructure = 3
 
