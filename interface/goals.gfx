@@ -5,6 +5,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_ita_agricultural_war"
 		texturefile = "gfx/interface/goals/focus_ita_agricultural_war.dds"			
+	}
+	SpriteType = {
+		name = "focus_ARG_sun"
+		texturefile = "gfx/interface/goals/focus_ARG_sun.dds"			
 	}	
 	SpriteType = {
 	name = "focus_ita_correcting_the_north_south_divide"

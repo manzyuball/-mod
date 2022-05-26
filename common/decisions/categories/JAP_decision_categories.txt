@@ -1,7 +1,10 @@
-JAP_interservice_rivalry = {
+JAP_RIMLAND = {
+	icon = border_conflicts
+
+	picture = GFX_decision_cat_JAP_VS_CHI
 	allowed = {
 		original_tag = JAP
-		has_dlc = "Waking the Tiger"
+		has_government = democratic    
 	}
 }
 JAP_bouhatei = {

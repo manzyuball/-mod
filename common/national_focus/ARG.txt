@@ -13,9 +13,418 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 
-	continuous_focus_position = { x = 1760 y = 30 }
+	continuous_focus_position = { x = 1760 y = 1000 }
 #© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
 #このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
+focus = {
+	id = ARG_se_1
+	icon = "GFX_focus_generic_military_academy"
+	x = 15
+	y = 0
+	cost = 3
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_2
+	icon = "GFX_focus_ger_great_red_menace"
+	x = -6
+	y = 1
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_1 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_3
+	icon = "GFX_goal_support_democracy"
+	x = 0
+	y = 1
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_1 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_4
+	icon = "GFX_focus_generic_treaty"
+	x = 6
+	y = 1
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_1 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_5
+	icon = "GFX_focus_eng_concessions_to_the_trade_unions"
+	x = 4
+	y = 2
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_4 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_6
+	icon = "GFX_goal_generic_territory_or_war"
+	x = 4
+	y = 3
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_5 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_7
+	icon = "GFX_focus_generic_self_management"
+	x = 8
+	y = 2
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_4 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_8
+	icon = "GFX_focus_generic_diplomatic_treaty"
+	x = 9
+	y = 4
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_7 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_9
+	icon = "GFX_goal_demand_sudetenland"
+	x = 7
+	y = 3
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_7 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_10
+	icon = "GFX_focus_CZE_military_aeronautical_institute"
+	x = 7
+	y = 4
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_9 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_11
+	icon = "GFX_focus_chi_british_cooperation"
+	x = 4
+	y = 4
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_6 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_12
+	icon = "GFX_focus_por_recover_latin_america"
+	x = 6
+	y = 5
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_11 focus = ARG_se_10 focus = ARG_se_8 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_12A
+	icon = "focus_ARG_sun"
+	x = 6
+	y = 6
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_12 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_13
+	icon = "GFX_focus_mex_soldaderas"
+	x = 2
+	y = 2
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_3 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_14
+	icon = "GFX_focus_eng_move_to_secure_the_dominions"
+	x = 2
+	y = 3
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_13 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_15
+	icon = "GFX_focus_por_concordat"
+	x = 2
+	y = 4
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_14 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_16
+	icon = "GFX_focus_eng_liberate_the_home_of_marx"
+	x = 0
+	y = 4
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_14 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_17
+	icon = "GFX_focus_eng_concessions_to_the_trade_unions"
+	x = -2
+	y = 2
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_3 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_18
+	icon = "GFX_focus_hol_the_foundations_of_defense"
+	x = -2
+	y = 3
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_17 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_19
+	icon = "GFX_goal_continuous_increase_nu"
+	x = -2
+	y = 4
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_18 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_20
+	icon = "GFX_goal_generic_major_alliance"
+	x = 0
+	y = 5
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_16 }
+	prerequisite = { focus = ARG_se_15 }
+	prerequisite = { focus = ARG_se_19 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_21
+	icon = "GFX_goal_generic_political_pressure"
+	x = -8
+	y = 2
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_2 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_22
+	icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
+	x = -8
+	y = 3
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_21 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_23
+	icon = "GFX_focus_generic_military_dictatorship"
+	x = -8
+	y = 4
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_22 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_24
+	icon = "GFX_focus_SOV_purge_trotskyists"
+	x = -4
+	y = 2
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_2 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_25
+	icon = "GFX_focus_generic_manpower"
+	x = -4
+	y = 3
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_24 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_26
+	icon = "GFX_goal_generic_production2"
+	x = -6
+	y = 3
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_24 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_27
+	icon = "GFX_goal_generic_more_territorial_claims"
+	x = -5
+	y = 4
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_26 }
+	prerequisite = { focus = ARG_se_25 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = ARG_se_28
+	icon = "GFX_focus_generic_military_mission"
+	x = -6
+	y = 5
+	cost = 3
+	relative_position_id = ARG_se_1
+	prerequisite = { focus = ARG_se_27 }
+	prerequisite = { focus = ARG_se_23 }
+	available_if_capitulated = yes
+
+	completion_reward = {
+		
+	}
+}
 	focus = {
 		id = ARG_na_1
 		icon = "GFX_focus_por_recover_latin_america"

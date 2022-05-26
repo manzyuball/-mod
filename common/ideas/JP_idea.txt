@@ -1,5 +1,20 @@
 ideas = {
 	country = {
+		JAP_HAnkou = {
+			picture = YUG_federal_defense_council
+			modifier = {
+				war_support_weekly = 0.01
+				army_org = 150
+				army_attack_factor = 0.35
+			}
+		}
+		JAP_boroboro = {
+			picture = prc_the_long_march2
+			modifier = {
+				war_support_weekly = -0.05
+				stability_weekly = -0.05
+			}
+		}
 		ENblo = {
 			picture = gre_schachtplan
 			modifier = {

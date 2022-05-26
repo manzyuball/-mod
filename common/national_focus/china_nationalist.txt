@@ -1533,6 +1533,17 @@
 		completion_reward = {
 			if = {
 				limit = {
+				MAN = {
+					is_puppet_of = CHI
+				}
+			}
+			annex_country = {
+				target = MAN
+				transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
 				MON = {
 					is_puppet_of = CHI
 				}
@@ -1549,17 +1560,6 @@
 				add_state_core = 818
 				add_state_core = 329
 				add_state_core = 885
-			}
-			if = {
-				limit = {
-				MAN = {
-					is_puppet_of = CHI
-				}
-			}
-			annex_country = {
-				target = MAN
-				transfer_troops = yes
-				}
 			}
 			add_state_core = 758
 			add_state_core = 322
@@ -1898,6 +1898,17 @@
 		}
 
 		completion_reward = {
+			if = {
+				limit = {
+				MAN = {
+					is_puppet_of = CHI
+				}
+			}
+			annex_country = {
+				target = MAN
+				transfer_troops = yes
+				}
+			}
 			add_state_core = 851
 			add_state_core = 610
 			add_state_core = 609

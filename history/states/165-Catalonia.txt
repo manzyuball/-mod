@@ -8,7 +8,9 @@ state={
 
 	history={
 		owner = CAT
+		add_core_of = SPR
 		add_core_of = CAT
+		add_core_of = MOR
 		victory_points = {
 			9764 30
 		}
