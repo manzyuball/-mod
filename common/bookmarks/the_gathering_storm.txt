@@ -1,0 +1,235 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				FRA_RIKU3
+				FRA_SAN2
+				FRA_sada
+			}
+			focuses = {
+				FRA_s1
+				FRA_s13
+				FRA_EU8
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				ENG_mamoru
+				ENG_Kyoukou
+				ENG_Saigunnbi4
+			}
+			focuses = {
+				uk_gu
+				uk_b56
+				uk_fu15
+			}
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				Kyoukou
+				Samurai
+				KAIHATUSYUURYOU
+			}	
+			focuses = {
+				JAP_min3
+				JAP_com1
+				JAP_sen1
+			}			
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				Not_kakumei
+				gunnomonndai
+				soviet_2
+			}
+			focuses = {
+				SOV_g12
+				SOV_p
+				SOV_s
+			}	
+		}
+		"CHI"={
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				CHI_kokubou3
+				CHI_BUNRETU
+				CHI_koutei
+			}
+			focuses = {
+				CHI_S35
+				CHI_S22
+				PRC_na_2
+			}	
+		}
+		"ARG"={
+			history = "ARG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				ARG_kyoukou
+				ARG_tomosibi
+				ARG_gun
+			}
+			focuses = {
+				ARG_se_1
+				ARG_na_1
+				ARG_na_21
+			}	
+		}
+		"AUS"={
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				AUS_doruhu
+				AUS_hitler
+				AUS_SOKOKUSENSOU3
+			}
+			focuses = {
+				AUS_na_1
+				AUS_naz9
+				AUS_nazB6
+			}	
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+
+		"POL"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				uncontrolled_exports
+				POL_april_constitution_1
+				POL_looming_peasants_strike
+			}
+			focuses = {
+				POL_complete_april_constitution
+				POL_organize_the_peasants_strike
+				POL_fulfil_fifth_of_november
+			}
+		}
+		"TUR"={
+			minor = yes
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				TUR_hinsi
+				hurui1
+				rengou
+			}
+			focuses = {
+				TUR_g15
+				TUR_s19
+				TUR_s1
+			}
+		}
+		"PRU"={
+			minor = yes
+			history = "PRU_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				PRU_sangyou4
+				PRU_kami
+				PRU_kuruu
+			}
+			focuses = {
+				PRU_se1
+				PRU_se73
+				PRU_se65
+			}
+		}
+		"MON"={
+			minor = yes
+			history = "MON_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"VLA"={
+			minor = yes
+			history = "VLA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				VLA_GokkannnoGUN
+				VLA_GUNKOKU1
+				VLA_seizpu3
+			}
+			focuses = {
+				VLA_se1
+				VLA_sanB2
+				VLA_sanA16
+			}
+		}
+		"USA"={
+			minor = yes
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				naisenn
+				USA_neutrality_act
+				USA_department_of_defense
+			}
+			focuses = {
+				USA_war_plans_division
+				USA_war_department
+				USA_the_giant_wakes
+			}
+		}
+		"GER"={
+			minor = yes
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				general_staff
+				GER_RENPOUKA2
+				GER_kenryoku2
+			}
+			focuses = {
+				GER_s20
+				GER_s23
+				GER_s6
+			}
+		}
+		"YUG"={
+			minor = yes
+			history = "YUG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				YUG_gua2
+				king_peter_1
+				Yonennkann
+			}
+			focuses = {
+				YUG_d1
+				YUG_d13
+				YUG_k2
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

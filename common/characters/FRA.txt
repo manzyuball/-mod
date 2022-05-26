@@ -14,21 +14,6 @@ characters={
 		}
 	}
 
-	FRA_edouard_daladier={
-		name=FRA_edouard_daladier
-		portraits={
-			civilian={
-				large="gfx/leaders/FRA/Portrait_France_Edouard_Daladier.dds"
-			}
-		}
-		country_leader={
-			ideology=socialism
-			traits={ stout_defender }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
 	FRA_denis_guillaumat={ #Non-Aligned Leader
 		name=FRA_denis_guillaumat
 		portraits={
@@ -43,16 +28,15 @@ characters={
 			id=-1
 		}
 	}
-
 	FRA_torotky={ #Communist Leader
-		name = FRA_torotky
+		name=FRA_torotky
 		portraits={
 			civilian={
 				large="gfx/leaders/_EOB/torotuki.dds"
 			}
 		}
 		country_leader={
-			ideology=marxist
+			ideology=marxism
 			expire="1965.1.1.1"
 			id=-1
 		}

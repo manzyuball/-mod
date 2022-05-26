@@ -69,7 +69,7 @@ ideas = {
 		}
 		VLA_T_SAN = {
 			removal_cost = -1
-			picture = new_deal
+			picture = GFX_idea_usa_desegregation_2
 			modifier = {
 			production_factory_max_efficiency_factor = 0.15
 			production_speed_buildings_factor = 0.15
@@ -79,7 +79,7 @@ ideas = {
 		}
 		VLA_T_SAN1 = {
 			removal_cost = -1
-			picture = new_deal
+			picture = GFX_idea_usa_desegregation_2
 			modifier = {
 			production_factory_max_efficiency_factor = 0.2
 			production_speed_buildings_factor = 0.2
@@ -89,7 +89,7 @@ ideas = {
 		}
 		VLA_T_SAN2 = {
 			removal_cost = -1
-			picture = new_deal
+			picture = GFX_idea_usa_desegregation_2
 			modifier = {
 			production_factory_max_efficiency_factor = 0.25
 			production_speed_buildings_factor = 0.25

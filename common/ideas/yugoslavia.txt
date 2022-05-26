@@ -16,7 +16,7 @@ ideas = {
 
 		YUG_gua = {
 			
-			picture = yug_all_yugoslavian_regiments
+			picture = GFX_idea_vittoria_mutilata
 
 			removal_cost = -1
 			
@@ -29,7 +29,7 @@ ideas = {
 		}
 		YUG_gua1 = {
 			
-			picture = yug_all_yugoslavian_regiments
+			picture = GFX_idea_vittoria_mutilata
 
 			removal_cost = -1
 			
@@ -45,7 +45,7 @@ ideas = {
 		}
 		YUG_gua2 = {
 			
-			picture = yug_all_yugoslavian_regiments
+			picture = GFX_idea_vittoria_mutilata
 
 			removal_cost = -1
 			
@@ -549,7 +549,7 @@ ideas = {
 		
 		YUG_idea_all_yugoslavian_regiments = {
 			
-			picture = YUG_all_yugoslavian_regiments
+			picture = GFX_idea_vittoria_mutilata
 
 			allowed = {
 				original_tag = YUG

@@ -7,7 +7,7 @@ ARG_sangyou = {
 		}
 		visible = {
 		}
-		days_remove = 10
+		days_remove = 40
 		cost = 20
 		fire_only_once = no
 		ai_will_do = {
@@ -24,7 +24,7 @@ ARG_sangyou = {
 		}
 		visible = {
 		}
-		days_remove = 10
+		days_remove = 40
 		cost = 0
 		fire_only_once = no
 		ai_will_do = {
@@ -47,7 +47,7 @@ ARG_sangyou = {
 		visible = {
 		}
 		cost = 0
-		days_remove = 10
+		days_remove = 40
 		fire_only_once = no
 		ai_will_do = {
 			factor = 10
@@ -68,7 +68,7 @@ ARG_sangyou = {
 		visible = {
 		}
 		cost = 0
-		days_remove = 10
+		days_remove = 40
 		fire_only_once = no
 		ai_will_do = {
 			factor = 10
@@ -92,7 +92,7 @@ ARG_sangyou = {
 		visible = {
 		}
 		cost = 0
-		days_remove = 10
+		days_remove = 40
 		fire_only_once = no
 		ai_will_do = {
 			factor = 10
@@ -118,7 +118,7 @@ ARG_sangyou = {
 		visible = {
 		}
 		cost = 0
-		days_remove = 10
+		days_remove = 40
 		fire_only_once = no
 		ai_will_do = {
 			factor = 10
@@ -151,7 +151,7 @@ ARG_sangyou = {
 		}
 		cost = 0
 		fire_only_once = no
-		days_remove = 30
+		days_remove = 50
 		ai_will_do = {
 			factor = 10
 		}
@@ -175,7 +175,7 @@ ARG_sangyou = {
 		}
 		cost = 0
 		fire_only_once = no
-		days_remove = 30
+		days_remove = 50
 		ai_will_do = {
 			factor = 10
 		}
@@ -193,7 +193,7 @@ ARG_sangyou = {
 		}
 		cost = 0
 		fire_only_once = no
-		days_remove = 30
+		days_remove = 50
 		ai_will_do = {
 			factor = 10
 		}
@@ -226,10 +226,10 @@ ARG_sangyou = {
 
 		}
 		modifier = {
-			consumer_goods_factor = -0.15
-			production_speed_buildings_factor = 0.25
-			production_factory_start_efficiency_factor = 0.35
-			production_factory_efficiency_gain_factor = 0.45
+			consumer_goods_factor = -0.05
+			production_speed_buildings_factor = 0.15
+			production_factory_start_efficiency_factor = 0.15
+			production_factory_efficiency_gain_factor = 0.25
 	   }
 	}
 }
