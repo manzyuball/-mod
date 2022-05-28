@@ -54,6 +54,13 @@ prerequisite = { focus = PAN_seizi_1 }
 
 completion_reward = {
     set_political_power = 250
+    hidden_effect = {
+        news_event = {
+            id = news.2
+            days = 1
+            random = 0
+            }
+    }
 }
 }
 

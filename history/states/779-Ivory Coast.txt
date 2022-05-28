@@ -4,7 +4,7 @@ state={
 	name="STATE_779" # Ivory Coast
 	manpower = 3850734
 	
-	state_category = pastoral
+	state_category = town
 	history={
 		owner = TZN
 		add_core_of = TZN

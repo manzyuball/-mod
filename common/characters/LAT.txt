@@ -3,7 +3,7 @@ characters={
 		name = LAT_ruden
 		portraits={
 			civilian={
-				large="gfx/leaders/LAT/rudendoruhu.dds"
+				large="gfx/leaders/_EOB/rudendoruhu.dds"
 			}
 		}
 		country_leader={

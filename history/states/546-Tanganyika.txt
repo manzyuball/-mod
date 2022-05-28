@@ -2,17 +2,18 @@ state={
 	id=546
 	name="STATE_546"
 	
-	state_category = rural
+	state_category = city
 	resources={
-		rubber=2 # was: 2
+		rubber=32 # was: 2
 	}
 	history={
 		owner = TZN
 		victory_points = {
-			2196 1
+			2196 15
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			industrial_complex = 8
 			2196 = {
 				naval_base = 2
 

@@ -159,7 +159,9 @@ focus_tree = {
 		x = -2
 		y = 1
 		cost = 5
+		available = {
 		NOT = { has_completed_focus = AUS_nazB }
+		}
         prerequisite = { focus = AUS_naz8 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -304,7 +306,9 @@ focus_tree = {
 		x = 2
 		y = 1
 		cost = 5
-		NOT = { has_completed_focus = AUS_nazA }
+		available = {
+			NOT = { has_completed_focus = AUS_nazA }
+			}
         prerequisite = { focus = AUS_naz8 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -812,6 +816,11 @@ focus_tree = {
 			add_political_power = 150
 			hidden_effect = {
 				kill_country_leader = yes
+					news_event = {
+						id = news.8
+						days = 1
+						random = 0
+						}
 			}
 		}
 	}

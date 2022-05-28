@@ -4,7 +4,7 @@ state=
 	name="STATE_298"
 	manpower = 745000
 	
-	state_category = rural
+	state_category = town
 	resources={
 		rubber=6 # was: 7
 	}	
@@ -14,7 +14,7 @@ state=
 		owner = TZN
 		buildings = {
 			infrastructure = 1
-			arms_factory = 1
+			arms_factory = 3
 			industrial_complex = 1
 			7959 = {
 				naval_base = 2

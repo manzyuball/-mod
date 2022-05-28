@@ -4,10 +4,10 @@ state={
 	name="STATE_295" # Leopoldville
 	manpower = 3540948
 	
-	state_category = rural
+	state_category = large_town
 	
 	resources={
-		tungsten=2 # was: 2
+		tungsten=12 # was: 2
 	}
 
 	history={
@@ -20,7 +20,7 @@ state={
 			}
 		}
 		victory_points = {
-			191 1 
+			191 3 
 		}
 		victory_points = {
 			5117 3 

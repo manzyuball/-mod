@@ -4,22 +4,23 @@ state={
 	name="STATE_547" #Kenya
 	manpower = 3392000
 	
-	state_category = rural
+	state_category = city
 
 	history={
 		owner = TZN
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 4
+			industrial_complex = 12
+			air_base = 4
 			5210 = {
-				naval_base = 2
+				naval_base = 4
 			}
 		}
 		victory_points = {
-			1939 2
+			1939 30
 		}
 		victory_points = {
-			5210 1
+			5210 15
 		}
 		add_core_of = TZN
 	}
