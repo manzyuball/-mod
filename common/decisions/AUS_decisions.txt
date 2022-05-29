@@ -129,3 +129,268 @@ AUS_enze_decisions = {
 	}
 
 }
+AUS_SS_decisions = {
+	AUS_AUS_SS_MIN = {
+
+		allowed = {
+			AND = { 
+				has_country_flag = AUS_SSq
+				NOT = { has_war = yes }
+			 }
+		}
+		icon = "GFX_decision_generic_military"
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = AUS_SSse
+			hidden_efect = {
+			load_oob = "AUS_SS_AUS"
+			}
+		}
+	}
+	AUS_HUN_SS_MIN = {
+
+		allowed = {
+			AND = { 
+				has_country_flag = AUS_SSq
+				NOT = { has_war = yes }
+			 }
+		}
+		icon = "GFX_decision_generic_military"
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = HUN_SSse
+			hidden_efect = {
+			load_oob = "AUS_SS_HUN"
+			}
+		}
+	}
+	AUS_CZE_SS_MIN = {
+
+		allowed = {
+			AND = { 
+				has_country_flag = AUS_SSq
+				NOT = { has_war = yes }
+			 }
+		}
+		icon = "GFX_decision_generic_military"
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CZE_SSse
+			hidden_efect = {
+			load_oob = "AUS_SS_CZE"
+			}
+		}
+	}
+	AUS_TRA_SS_MIN = {
+
+		allowed = {
+			AND = { 
+				has_country_flag = AUS_SSq
+				NOT = { has_war = yes }
+			 }
+		}
+		icon = "GFX_decision_generic_military"
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = TRA_SSse
+			hidden_efect = {
+			load_oob = "AUS_SS_TRA"
+			}
+		}
+	}
+	AUS_POL_SS_MIN = {
+
+		allowed = {
+			AND = { 
+				has_country_flag = AUS_SSq
+				NOT = { has_war = yes }
+			 }
+		}
+		icon = "GFX_decision_generic_military"
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = POL_SSse
+			hidden_efect = {
+			load_oob = "AUS_SS_POL"
+			}
+		}
+	} 
+	AUS_CRO_SS_MIN = {
+
+		allowed = {
+			AND = { 
+				has_country_flag = AUS_SSq
+				NOT = { has_war = yes }
+			 }
+		}
+		icon = "GFX_decision_generic_military"
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CRO_SSse
+			hidden_efect = {
+			load_oob = "AUS_SS_CRO"
+			}
+		}
+	}
+	AUS_BOS_SS_MIN = {
+
+		allowed = {
+			AND = { 
+				has_country_flag = AUS_SSq
+				NOT = { has_war = yes }
+			 }
+		}
+		icon = "GFX_decision_generic_military"
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = BOS_SSse
+			hidden_efect = {
+			load_oob = "AUS_SS_BOS"
+			}
+		}
+	}
+	AUS_AUS_SS_KIK = {
+
+		allowed = {
+			AND = { 
+				has_country_flag = AUS_SSq
+				NOT = { has_war = yes }
+				has_equipment = {
+					motorized_equipment_1  > 10
+					}
+				OR = {
+				has_equipment = {
+					medium_tank_equipment_1  > 10
+					}
+					has_equipment = {
+						modern_tank_chassis_1  > 10
+						}
+					}
+			 }
+		}
+		icon = "GFX_decision_generic_military"
+		cost = 50
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = AUS_SS_AUS_KIKse
+			hidden_efect = {
+			load_oob = "AUS_SS_AUS_KIK"
+			}
+		}
+	}
+	AUS_HUN_SS_KIK = {
+
+		allowed = {
+			AND = { 
+				has_country_flag = AUS_SSq
+				NOT = { has_war = yes }
+				has_equipment = {
+					motorized_equipment_1  > 10
+					}
+				OR = {
+				has_equipment = {
+					medium_tank_equipment_1  > 10
+					}
+					has_equipment = {
+						modern_tank_chassis_1  > 10
+						}
+					}
+			 }
+		}
+		icon = "GFX_decision_generic_military"
+		cost = 50
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = AUS_SS_HUN_KIKse
+			hidden_efect = {
+			load_oob = "AUS_SS_HUN_KIK"
+			}
+		}
+	}
+	AUS_CZE_SS_KIK = {
+
+		allowed = {
+			AND = { 
+				has_country_flag = AUS_SSq
+				NOT = { has_war = yes }
+				has_equipment = {
+					motorized_equipment_1  > 10
+					}
+				OR = {
+				has_equipment = {
+					medium_tank_equipment_1  > 10
+					}
+					has_equipment = {
+						modern_tank_chassis_1  > 10
+						}
+					}
+			 }
+		}
+		icon = "GFX_decision_generic_military"
+		cost = 50
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = AUS_SS_CZE_KIKse
+			hidden_efect = {
+			load_oob = "AUS_SS_HUN_KIK"
+			}
+		}
+	}
+}	

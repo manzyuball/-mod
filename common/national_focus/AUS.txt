@@ -65,6 +65,7 @@ focus_tree = {
 		relative_position_id = AUS_na_1
 		completion_reward = {
 			custom_effect_tooltip = AUS_bq1
+			set_country_flag = AUS_SSq
 			hidden_effect = {
 				load_oob = "AUS_SS"
 			}
@@ -151,6 +152,9 @@ focus_tree = {
 		relative_position_id = AUS_na_1
 		completion_reward = {
 			add_political_power = 150
+			hidden_effect = {
+				kill_country_leader = yes
+			}
 		}
 	}
 	focus = {
@@ -810,12 +814,14 @@ focus_tree = {
 		y = 5
 		cost = 5
         prerequisite = { focus = AUS_naz7 }
+		available = {
 		NOT = { has_completed_focus = AUS_naz8 }
+		}
 		relative_position_id = AUS_na_1
 		completion_reward = {
 			add_political_power = 150
 			hidden_effect = {
-				kill_country_leader = yes
+
 					news_event = {
 						id = news.8
 						days = 1
