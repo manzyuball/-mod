@@ -51,7 +51,7 @@
 		id = MAN_s1
 		icon = "GFX_goal_molotov_ribbentrop_pact"
 		mutually_exclusive = {
-			focus = 郭松齢のクーデター
+			focus = Romanov1
 		}
 		x = 6
 		y = 0
@@ -866,7 +866,7 @@
 		}
 	}
 	focus = {
-		id = 郭松齢のクーデター
+		id = Romanov1
 		icon = "GFX_focus_SOV_panslavic_nationalism"
 		mutually_exclusive = {
 			focus = MAN_s1
@@ -885,12 +885,13 @@
 		complete_tooltip = {
 		}
 		completion_reward = {
+			add_stability = -0.1
 		}
 	}
 	focus = {
-		id = ロマノフ家の影響
+		id = Romanov2
 		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = 郭松齢のクーデター }
+		prerequisite = { focus = Romanov1 }
 		x = 7
 		y = 1
 		relative_position_id = MAN_s1
@@ -905,12 +906,13 @@
 		complete_tooltip = {
 		}
 		completion_reward = {
+			add_stability = -0.1
 		}
 	}
 	focus = {
-		id = ロシアとの友好
+		id = Romanov3
 		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = ロマノフ家の影響 }
+		prerequisite = { focus = Romanov2 }
 		x = 7
 		y = 2
 		relative_position_id = MAN_s1
@@ -928,9 +930,9 @@
 		}
 	}
 	focus = {
-		id = 技術交流
+		id = Romanov4
 		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = ロシアとの友好 }
+		prerequisite = { focus = Romanov3 }
 		x = 7
 		y = 3
 		relative_position_id = MAN_s1
@@ -945,12 +947,13 @@
 		complete_tooltip = {
 		}
 		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 	focus = {
-		id = 中華皇帝ロマノフ家
+		id = Romanov5
 		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = 技術交流 }
+		prerequisite = { focus = Romanov4 }
 		x = 7
 		y = 4
 		relative_position_id = MAN_s1
@@ -965,12 +968,13 @@
 		complete_tooltip = {
 		}
 		completion_reward = {
+			add_stability = -0.3
 		}
 	}
 	focus = {
-		id = ロマノフ家の正当性を捏造
+		id = Romanov6
 		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = 中華皇帝ロマノフ家 }
+		prerequisite = { focus = Romanov5 }
 		x = 7
 		y = 5
 		relative_position_id = MAN_s1
@@ -985,12 +989,13 @@
 		complete_tooltip = {
 		}
 		completion_reward = {
+			add_stability = 0.1
 		}
 	}
 	focus = {
-		id = 蒙古での請求権
+		id = Romanov7
 		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = 中華皇帝ロマノフ家 }
+		prerequisite = { focus = Romanov5 }
 		x = 5
 		y = 5
 		relative_position_id = MAN_s1
@@ -1005,12 +1010,16 @@
 		complete_tooltip = {
 		}
 		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = MON
+				}
 		}
 	}
 	focus = {
-		id = 反日政策
+		id = Romanov8
 		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = ロシアとの友好 }
+		prerequisite = { focus = Romanov3 }
 		x = 9
 		y = 3
 		relative_position_id = MAN_s1
@@ -1025,12 +1034,13 @@
 		complete_tooltip = {
 		}
 		completion_reward = {
+		add_war_support = 0.1
 		}
 	}
 	focus = {
-		id = 日本人の排除
+		id = Romanov9
 		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = 反日政策 }
+		prerequisite = { focus = Romanov8 }
 		x = 9
 		y = 4
 		relative_position_id = MAN_s1
@@ -1045,12 +1055,13 @@
 		complete_tooltip = {
 		}
 		completion_reward = {
+			add_manpower = -5000
 		}
 	}
 	focus = {
-		id = 社会主義者との妥協
+		id = Romanov10
 		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = 日本人の排除 }
+		prerequisite = { focus = Romanov9 }
 		x = 9
 		y = 5
 		relative_position_id = MAN_s1
@@ -1068,9 +1079,9 @@
 		}
 	}
 	focus = {
-		id = 抗日戦争
+		id = Romanov11
 		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = 社会主義者との妥協 }
+		prerequisite = { focus = Romanov10 }
 		x = 9
 		y = 6
 		relative_position_id = MAN_s1
@@ -1085,6 +1096,10 @@
 		complete_tooltip = {
 		}
 		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = JAP
+				}
 		}
 	}
 }
