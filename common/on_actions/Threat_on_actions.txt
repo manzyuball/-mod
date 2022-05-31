@@ -1,0 +1,21 @@
+on_actions = {
+	on_weekly = { 
+		effect = { 
+			add_named_threat = {
+				threat = -2
+				name = weekly_threat_change
+				}
+	 }
+	}
+	on_nuke_drop = { effect = { add_named_threat = { threat = 20 name = nuke_drop_threat } } }
+	on_startup = {
+		effect = {
+			random_country = {
+				limit = {
+					is_ai = no
+				}
+				set_global_flag = has_mod_add_technologies_j
+			}
+		}
+	}
+}

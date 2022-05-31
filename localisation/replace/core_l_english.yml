@@ -1,4 +1,6 @@
 ﻿l_english:
+ weekly_threat_change:0 "週毎の国際緊張の低下"
+ nuke_drop_threat:0 "核爆弾の投下"
  SEPARATION_LINE:0 "--------------\n"
  MENU_MESSAGES_DISABLE_ALL:0 "全て無効"
  FILTER:0 "フィルター"
@@ -42,7 +44,7 @@
  diff_hard_player:1 "難易度: 熟練兵"
  diff_very_hard_player:0 "難易度: 精鋭兵"
  NOT_READY_TO_PLAY_MP:0 "$PLAYER|H$ は準備中"
- READY_TO_PLAY_MP:0 "$PLAYER|H$ は準備完了"
+ READY_TO_PLAY_MP:0 "$PLAYER|H$ は準備完了" #史実
  LOADING_GUI:0 "防波堤の建設中"
  LOADING_HISTORY:0 "アメリカで内戦中"
  NOT_SELECT:0 "国が選択されていません"
@@ -184,8 +186,8 @@
  COUNTRY_LOCKED_BY_SERVER:0 "$COUNTRY$はサーバーによってロックされています。"
  FE_IRONMAN:0 "鉄人モード"
  FE_IRONMAN_TOOLTIP:0 "鉄人モードではコンソールによるチートは使用不能です。そしてゲームは定期的に一つのファイルにオートセーブされます。この設定によりプレイされたゲームではセーブデータを戻すことはできません。"
- FE_HISTORICAL:0 "史実AI方針"
- FE_HISTORICAL_TOOLTIP:0 "史実AI方針が適応される国家は可能な限り史実に基づく§H国家方針§!を選択します。他国がより史実に近い歴史をたどってほしい場合にこれを選択してください。"
+ FE_HISTORICAL:0 "カオスモードを無効化"
+ FE_HISTORICAL_TOOLTIP:0 "§H推奨§!:カオスモードを無効化するとAIにある程度の秩序を与えます"
  IRONMAN_START:0 "鉄人モードを開始"
  SUB_UNIT_RANGED_VALUE:0 "$MIN$～$MAX$ $SUBUNIT$"
  SUB_UNIT_ACCURAT_VALUE:0 "$VALUE$ $SUBUNIT$"
