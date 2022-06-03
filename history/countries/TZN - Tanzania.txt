@@ -5,7 +5,7 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 20
+set_convoys = 90
 
 set_research_slots = 3
 
@@ -29,6 +29,15 @@ recruit_character = TZN_pot
 recruit_character = TZN_mt
 recruit_character = TZN_ncm
 recruit_character = TZN_nt
+add_ideas = {
+	ANKOKU
+	TZN_ENG
+	TZN_POR
+}
+give_resource_rights = { receiver = ENG state = 546 }
+give_resource_rights = { receiver = ENG state = 548 }
+give_resource_rights = { receiver = POR state = 772 }
+give_resource_rights = { receiver = POR state = 295 }
 
 1939.1.1 = {
 	

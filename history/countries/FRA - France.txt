@@ -228,7 +228,9 @@ recruit_character = FRA_paul_baudouin
 recruit_character = FRA_maurice_gauche
 recruit_character = FRA_jacques_duclos
 recruit_character = FRA_marcel_bucard
-
+add_ideas = {
+	FRA_la_KAKUMEI
+}
 add_manpower = 864210
 if = {
 	limit = { has_dlc = "La Resistance" }

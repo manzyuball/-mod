@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+kougyoutitai = {
+    picture = tot_economic_mobilisation
+    modifier = {
+        production_factory_start_efficiency_factor = 0.35
+        industrial_capacity_factory = 0.25
+        production_speed_buildings_factor = 0.25
+    }
+}
+    }
+}

@@ -1,6 +1,15 @@
 ideas = {
 
 	country = {
+		FRA_la_KAKUMEI = {
+			picture = generic_victors_of_ww1
+			removal_cost = -1
+			modifier = {
+				army_org_Factor = 0.25
+				ai_badass_factor = 0.15
+				offence = 0.25
+			}
+		}
 		FRA_inta2 = {
 			picture = generic_communist_army
 			removal_cost = -1

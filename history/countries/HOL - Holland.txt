@@ -69,29 +69,10 @@ if = {
 }
 
 # DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	else = {
-		puppet = INS
-	}
-}
 
-set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
 	add_ideas = {
-		HOL_aloof_neutrality
-		HOL_shell_shocked_spectator_5
-		HOL_weak_government
+		kougyoutitai
 	}
-}
 
 recruit_character = HOL_hendrikus_colijn
 recruit_character = HOL_anton_mussert

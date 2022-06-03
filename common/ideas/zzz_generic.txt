@@ -116,6 +116,23 @@ ideas = {
 				conversion_cost_civ_to_mil_factor = -0.75
 			}
 		}
+		 kiheinoseisinn = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_motorized_equipment_manufacturer_2
+
+			
+			modifier = {
+				army_speed_factor = 0.5
+				terrain_penalty_reduction = 0.5
+				attrition = -0.5
+			}
+		}
 		Hattenn = {
 			
 			allowed = {
