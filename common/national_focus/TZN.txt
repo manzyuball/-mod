@@ -754,7 +754,7 @@
 		relative_position_id = TZN_S1
 		cost = 10
 		completion_reward = {
-			remove_idea = { TZN_POR }
+			remove_ideas = { TZN_POR }
 		}
 	}
 	focus = {
@@ -767,7 +767,7 @@
 		relative_position_id = TZN_S1
 		cost = 10
 		completion_reward = {
-			remove_idea = { ANKOKU }
+			remove_ideas = { ANKOKU }
 		}
 	}
 	focus = {
@@ -912,7 +912,7 @@
 		relative_position_id = TZN_S1
 		cost = 10
 		completion_reward = {
-			remove_idea = { TZN_ENG }
+			remove_ideas = { TZN_ENG }
 		}
 	}
 }

@@ -84,6 +84,10 @@ set_popularities = {
 	neutrality = 80
 }
 
+add_ideas = {
+	Proisen
+}
+
 # probably needs some adjustment before nazi occupation in 1940
 1939.1.1 = {
 	#

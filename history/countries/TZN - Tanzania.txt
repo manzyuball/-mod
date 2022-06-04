@@ -34,10 +34,13 @@ add_ideas = {
 	TZN_ENG
 	TZN_POR
 }
-give_resource_rights = { receiver = ENG state = 546 }
-give_resource_rights = { receiver = ENG state = 548 }
-give_resource_rights = { receiver = POR state = 772 }
-give_resource_rights = { receiver = POR state = 295 }
+
+TZN = {
+	give_resource_rights = { receiver = ENG state = 546 }
+	give_resource_rights = { receiver = ENG state = 548 }
+	give_resource_rights = { receiver = POR state = 772 }
+	give_resource_rights = { receiver = POR state = 295 }
+}
 
 1939.1.1 = {
 	
