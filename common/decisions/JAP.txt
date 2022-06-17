@@ -1,34 +1,4 @@
 #Category allowed for JAP
-JAP_RIMLAND = {
-	battleofpusan = {
-	allowed = { tag = JAP }
-	icon = generic_form_nation             # This mission is only allowed for Poland. Other countries will not be able to see it or activate it. Checks ONLY at the game's start and when loading a save, meant for optimisation.
-	available = {                           # Available here means as much as goal because:
-	JAP = {	controls_state = 865 }                # we can only finish this mission if we control state 64 (Berlin)
-	}
-	activation = {                          # The mission appears and starts counting down under these circumstances:
-	has_defensive_war = yes
-	has_war_with = CHI
-	has_government = democratic                     # War with Germany
-	}
-	fire_only_once = no
-	is_good = yes                   # This mission is color coded to be a positive thing (not a crisis)
-	selectable_mission = yes                # This mission will complete when the player selects the mission rather than completing automatically
-	days_mission_timeout = 180              # How many days before the mission fails?
-	timeout_effect = {                      # What happens when we fail the mission?
-	add_timed_idea = {
-		idea = JAP_boroboro
-		days = 65
-		}          
-	}
-	complete_effect = {                    # What happens when we activate the mission i.e. mission success?
-	add_timed_idea = {
-		idea = JAP_HAnkou
-		days = 65
-		}
-	}
-}
-}
 JAP_bouhatei = {
 	JAP_bou1 = {
 		icon = hol_exchange_intelligence_data

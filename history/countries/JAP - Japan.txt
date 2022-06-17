@@ -8,23 +8,20 @@ set_war_support = 0.8
 set_research_slots = 5
 set_fuel_ratio = 1.0
 add_ideas = {
-	state_shintoism
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+
+
 	The_Fourth_Fleet_Incident
 	disaster_prone_countries
-	A_double_research_system
 	Shared_shells
 	to_kikan
 	Oxygen_torpedoes
-	Type_91_armour_piercing_ammunition
 	Preservation_of_old_ships
-	Magic_transformation
-	JAP_zaibatsus
-	JAP_duplicate_research_efforts
-	JAP_militarism
-	Kyoukou
+
+	SyouwaKyoukou
+	KaihatuKeikaku
 }
 
 609 = {

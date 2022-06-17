@@ -78,7 +78,7 @@ recruit_character = PRU_jose_bustamante_y_rivero
 recruit_character = PRU_armando_reveredo_iglesias
 recruit_character = PRU_reynaldo_vinatea
 
-add_manpower = 2864210
+add_manpower = 300000
 set_country_flag = monroe_doctrine
 
 set_convoys = 175

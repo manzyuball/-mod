@@ -7,6 +7,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_ita_agricultural_war.dds"			
 	}
 	SpriteType = {
+		name = "focus_jap_newdeal1"
+		texturefile = "gfx/interface/goals/Japanese_newdeal1.dds"			
+	}
+	SpriteType = {
+		name = "focus_jap_newdeal2"
+		texturefile = "gfx/interface/goals/Japanese_newdeal2.dds"			
+	}
+	SpriteType = {
+		name = "focus_jap_newdeal3"
+		texturefile = "gfx/interface/goals/Japanese_newdeal3.dds"			
+	}
+	SpriteType = {
 		name = "focus_ARG_sun"
 		texturefile = "gfx/interface/goals/focus_ARG_sun.dds"			
 	}	

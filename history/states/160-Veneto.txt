@@ -25,6 +25,7 @@ state={
 
 		}
 		add_core_of = AUS
+		add_core_of = ITA
 		1939.1.1 = {
 			buildings = {
 				dockyard = 2

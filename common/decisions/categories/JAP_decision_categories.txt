@@ -1,12 +1,3 @@
-JAP_RIMLAND = {
-	icon = border_conflicts
-
-	picture = GFX_decision_cat_JAP_VS_CHI
-	allowed = {
-		original_tag = JAP
-		has_government = democratic    
-	}
-}
 JAP_bouhatei = {
 	icon = jap_pacific_guardian
 	allowed = {

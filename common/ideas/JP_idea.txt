@@ -1,18 +1,37 @@
 ideas = {
 	country = {
-		JAP_HAnkou = {
-			picture = YUG_federal_defense_council
+		Shared_shells = {
+			name = JP_SS
+			picture = JAP_share_shell
+		}
+		to_kikan = {
+			name = TOKIKAN
+			picture = JAP_to_kikan
 			modifier = {
-				war_support_weekly = 0.01
-				army_org = 150
-				army_attack_factor = 0.35
+				operative_slot = 2
 			}
 		}
-		JAP_boroboro = {
-			picture = prc_the_long_march2
+		Oxygen_torpedoes = {
+			name = OT
+			picture = JAP_type_93_torpedo
+		}
+		Preservation_of_old_ships = {
+			name = POOS
+			picture = JAP_naval_escort_battle
+		}
+		SyouwaKyoukou = { #昭和恐慌
+			picture = great_depression
 			modifier = {
-				war_support_weekly = -0.05
-				stability_weekly = -0.05
+				consumer_goods_factor = 0.35
+				stability_factor = -0.15
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		KaihatuKeikaku = { #第二次匡救政策
+			picture = JAP_industrial_standard
+			modifier = {
+				production_speed_infrastructure_factor = 0.25
+				production_speed_rail_way_factor = 0.25
 			}
 		}
 		ENblo = {
@@ -31,169 +50,6 @@ ideas = {
 				experience_gain_air = 0.5
 				training_time_factor = -0.25
 			}
-		}
-		JES = {
-			name = J_JES
-			picture = JAP_industrial_standard
-			modifier = {
-				political_power_factor = -0.01
-			}
-		}
-		Kyoukou = {
-			name = Kyoukou
-			picture = usa_great_depression_3
-			modifier = {
-				consumer_goods_factor = 0.4
-				local_resources_factor = -0.35
-				production_speed_buildings_factor = -0.25
-				industrial_capacity_factory = -0.2
-			}
-		}
-		Kyoukou2 = {
-			name = Kyoukou2
-			picture = usa_great_depression_2
-			modifier = {
-				consumer_goods_factor = 0.15
-				local_resources_factor = -0.2
-				production_speed_buildings_factor = -0.15
-				industrial_capacity_factory = -0.15
-			}
-		}
-		Kyoukou3 = {
-			name = Kyoukou3
-			picture = great_depression
-			modifier = {
-				consumer_goods_factor = 0.1
-				local_resources_factor = -0.1
-				production_speed_buildings_factor = -0.05
-				industrial_capacity_factory = -0.05
-			}
-		}
-		Zaibatu1 = {
-			name = Zaibatu1
-			picture = jap_zaibatsu_ally
-			modifier = {
-				trade_laws_cost_factor = 0.25
-				economy_cost_factor = 0.25
-				production_speed_industrial_complex_factor = 0.2
-				production_speed_arms_factory_factor = -0.2
-				consumer_goods_factor = 0.02
-			}
-		}
-		Zaibatu2 = {
-			name = Zaibatu2
-			picture = jap_zaibatsu_control
-			modifier = {
-				consumer_goods_factor = -0.05
-				industrial_capacity_factory = 0.05
-				production_speed_buildings_factor = 0.05
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
-			}
-		}
-		Kigyouseisinn = {
-			name = Kigyouseisinn
-			picture = jap_supremacy_of_will
-			modifier = {
-				production_factory_max_efficiency_factor = 0.25
-				production_factory_efficiency_gain_factor = 0.1
-			}
-		}
-		Senzihou = {
-			name = Senzihou
-			picture = hol_the_foundations_of_defense
-			modifier = {
-				political_advisor_cost_factor = -0.5
-				trade_laws_cost_factor = -0.5
-				mobilization_laws_cost_factor = -0.5
-				economy_cost_factor = -0.5
-				send_volunteer_size = 24
-			}
-		}
-		Samurai = {
-			name = Samurai
-			picture = jap_militarism_showa
-			modifier = {
-				amphibious_invasion = 0.45
-				invasion_preparation = -0.6
-				air_ace_generation_chance_factor = 0.3
-			}
-		}
-		SEKKYOKUZAISEI = {
-			name = SEKKYOKUZAISEI
-			picture = generic_economic_increase
-			modifier = {
-				consumer_goods_factor = 0.05
-			}
-		}
-		KAIHATUSYUURYOU = {
-			name = KAIHATUSYUURYOU
-			picture = SOV_third_five_year_plan
-			modifier = {
-				local_resources_factor = 0.10
-				MONTHLY_POPULATION = 0.15
-				stability_factor = 0.10
-				industry_air_damage_factor = -0.3
-				global_building_slots_factor = 0.2
-			}
-		}
-		JAP_min1_idea = {
-			name = JAP_min1_idea
-			picture = FRA_fortification_focus
-			modifier = {
-				drift_defence_factor = 0.75
-				democracy_drift = 0.05
-				political_power_gain = 0.5
-			}
-
-		}
-		High_night_vision = {
-			name = HNV
-			picture = JAP_night_vision
-		}
-		The_Fourth_Fleet_Incident = {
-			name = TFFI
-			picture = JAP_4th_fleet_incident
-		}
-		disaster_prone_countries = {
-			name = DPC
-			picture = JAP_disaster-stricken_country
-		}
-		A_double_research_system = {
-			name = ADRS
-			picture = JAP_double_research
-		}
-		Shared_shells = {
-			name = JP_SS
-			picture = JAP_share_shell
-		}
-		to_kikan = {
-			name = TOKIKAN
-			picture = JAP_to_kikan
-			modifier = {
-				operative_slot = 2
-			}
-		}
-		Oxygen_torpedoes = {
-			name = OT
-			picture = JAP_type_93_torpedo
-
-		}
-		Sea_Power_State = {
-			name = SPS
-			picture = JAP_sea_power
-		}
-		Type_91_armour_piercing_ammunition = {
-			name = T91APA
-			picture = JAP_type_91_AP
-		}
-		Preservation_of_old_ships = {
-			name = POOS
-			picture = JAP_naval_escort_battle
-		}
-		Magic_transformation = {
-			name = MT
-			picture = NVF
 		}
 	}
 }

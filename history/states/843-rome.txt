@@ -13,6 +13,7 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = MLT
+		add_core_of = ITA
 
 	}
 	manpower=1002142

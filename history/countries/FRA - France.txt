@@ -1,5 +1,4 @@
-﻿capital = 16
-
+﻿capital = 965
 if = {
 	limit = {
 		NOT = {
