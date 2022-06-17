@@ -5,7 +5,7 @@ state={
 		10074 
 	}
 	history={
-		owner = ENG
+		owner = TUN
 		victory_points = {
 			10074 20 
 		}
@@ -16,8 +16,7 @@ state={
 				naval_base = 8
 		}
 		}
-		add_core_of = ITA
-		add_core_of = MLT
+		add_core_of = TUN
 
 	}
 	manpower=982635

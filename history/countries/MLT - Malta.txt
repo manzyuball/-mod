@@ -90,7 +90,6 @@ set_research_slots = 4
 set_stability = 0.4
 set_war_support = 0.3
 add_ideas = {
-	MLT_bundan
 }
 
 set_convoys = 145
@@ -120,10 +119,10 @@ set_rule = {
 	can_be_called_to_war = no
 	}
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 55

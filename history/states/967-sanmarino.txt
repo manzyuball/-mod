@@ -1,0 +1,23 @@
+state={
+	id=967
+	name="STATE_967"
+	provinces={
+		611 776 3782 6635 6780 9738 11570 
+	}
+	history={
+		owner = ITA
+		victory_points = {
+			6780 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 3
+		}
+		add_core_of = ITA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=765476
+	state_category=metropolis
+}

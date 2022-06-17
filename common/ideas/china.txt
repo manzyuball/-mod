@@ -77,6 +77,15 @@ ideas = {
 				supply_consumption_factor = 0.05
 				air_accidents_factor = 0.15
 			}
+			rule = {
+				can_be_called_to_war = not
+			}
+			rule = {
+				can_be_called_to_war = no
+			}
+			set_rule = {
+				can_be_called_to_war = not
+			}
 		}
 		CHI_BUNRETU = {
 			removal_cost = -1

@@ -334,6 +334,54 @@ units = {
 		start_experience_factor = 0.5
 	}
 	division= {
+		name = "グレナディア連隊"
+		location = 6103
+		division_template = "イギリス陸軍常備兵歩兵編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "グレナディア連隊"
+		location = 6103
+		division_template = "イギリス陸軍常備兵歩兵編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "グレナディア連隊"
+		location = 6103
+		division_template = "イギリス陸軍常備兵歩兵編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "グレナディア連隊"
+		location = 271
+		division_template = "イギリス陸軍常備兵歩兵編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "グレナディア連隊"
+		location = 3501
+		division_template = "イギリス陸軍常備兵歩兵編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "グレナディア連隊"
+		location = 9458
+		division_template = "イギリス陸軍常備兵歩兵編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "グレナディア連隊"
+		location = 540
+		division_template = "イギリス陸軍常備兵歩兵編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "グレナディア連隊"
+		location = 3369
+		division_template = "イギリス陸軍常備兵歩兵編成"
+		start_experience_factor = 0.5
+	}
+	division= {
 		name = "ウェルシュガーズ"
 		location = 377
 		division_template = "イギリス陸軍常備兵歩兵編成"

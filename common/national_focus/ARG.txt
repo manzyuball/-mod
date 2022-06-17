@@ -21,7 +21,7 @@ focus = {
 	icon = "GFX_focus_generic_military_academy"
 	x = 15
 	y = 0
-	cost = 3
+	cost = 7
 
 	available_if_capitulated = yes
 
@@ -34,7 +34,7 @@ focus = {
 	icon = "GFX_focus_ger_great_red_menace"
 	x = -6
 	y = 1
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_1 }
 	available_if_capitulated = yes
@@ -48,7 +48,7 @@ focus = {
 	icon = "GFX_goal_support_democracy"
 	x = 0
 	y = 1
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_1 }
 	available_if_capitulated = yes
@@ -62,7 +62,7 @@ focus = {
 	icon = "GFX_focus_generic_treaty"
 	x = 6
 	y = 1
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_1 }
 	available_if_capitulated = yes
@@ -76,7 +76,7 @@ focus = {
 	icon = "GFX_focus_eng_concessions_to_the_trade_unions"
 	x = 4
 	y = 2
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_4 }
 	available_if_capitulated = yes
@@ -90,7 +90,7 @@ focus = {
 	icon = "GFX_goal_generic_territory_or_war"
 	x = 4
 	y = 3
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_5 }
 	available_if_capitulated = yes
@@ -104,7 +104,7 @@ focus = {
 	icon = "GFX_focus_generic_self_management"
 	x = 8
 	y = 2
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_4 }
 	available_if_capitulated = yes
@@ -118,7 +118,7 @@ focus = {
 	icon = "GFX_focus_generic_diplomatic_treaty"
 	x = 9
 	y = 4
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_7 }
 	available_if_capitulated = yes
@@ -132,7 +132,7 @@ focus = {
 	icon = "GFX_goal_demand_sudetenland"
 	x = 7
 	y = 3
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_7 }
 	available_if_capitulated = yes
@@ -146,7 +146,7 @@ focus = {
 	icon = "GFX_focus_CZE_military_aeronautical_institute"
 	x = 7
 	y = 4
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_9 }
 	available_if_capitulated = yes
@@ -160,7 +160,7 @@ focus = {
 	icon = "GFX_focus_chi_british_cooperation"
 	x = 4
 	y = 4
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_6 }
 	available_if_capitulated = yes
@@ -174,7 +174,7 @@ focus = {
 	icon = "GFX_focus_por_recover_latin_america"
 	x = 6
 	y = 5
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_11 focus = ARG_se_10 focus = ARG_se_8 }
 	available_if_capitulated = yes
@@ -188,7 +188,7 @@ focus = {
 	icon = "focus_ARG_sun"
 	x = 6
 	y = 6
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_12 }
 	available_if_capitulated = yes
@@ -202,7 +202,7 @@ focus = {
 	icon = "GFX_focus_mex_soldaderas"
 	x = 2
 	y = 2
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_3 }
 	available_if_capitulated = yes
@@ -216,7 +216,7 @@ focus = {
 	icon = "GFX_focus_eng_move_to_secure_the_dominions"
 	x = 2
 	y = 3
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_13 }
 	available_if_capitulated = yes
@@ -230,7 +230,7 @@ focus = {
 	icon = "GFX_focus_por_concordat"
 	x = 2
 	y = 4
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_14 }
 	available_if_capitulated = yes
@@ -244,7 +244,7 @@ focus = {
 	icon = "GFX_focus_eng_liberate_the_home_of_marx"
 	x = 0
 	y = 4
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_14 }
 	available_if_capitulated = yes
@@ -258,7 +258,7 @@ focus = {
 	icon = "GFX_focus_eng_concessions_to_the_trade_unions"
 	x = -2
 	y = 2
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_3 }
 	available_if_capitulated = yes
@@ -272,7 +272,7 @@ focus = {
 	icon = "GFX_focus_hol_the_foundations_of_defense"
 	x = -2
 	y = 3
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_17 }
 	available_if_capitulated = yes
@@ -286,7 +286,7 @@ focus = {
 	icon = "GFX_goal_continuous_increase_nu"
 	x = -2
 	y = 4
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_18 }
 	available_if_capitulated = yes
@@ -300,7 +300,7 @@ focus = {
 	icon = "GFX_goal_generic_major_alliance"
 	x = 0
 	y = 5
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_16 }
 	prerequisite = { focus = ARG_se_15 }
@@ -316,7 +316,7 @@ focus = {
 	icon = "GFX_goal_generic_political_pressure"
 	x = -8
 	y = 2
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_2 }
 	available_if_capitulated = yes
@@ -330,7 +330,7 @@ focus = {
 	icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
 	x = -8
 	y = 3
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_21 }
 	available_if_capitulated = yes
@@ -344,7 +344,7 @@ focus = {
 	icon = "GFX_focus_generic_military_dictatorship"
 	x = -8
 	y = 4
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_22 }
 	available_if_capitulated = yes
@@ -358,7 +358,7 @@ focus = {
 	icon = "GFX_focus_SOV_purge_trotskyists"
 	x = -4
 	y = 2
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_2 }
 	available_if_capitulated = yes
@@ -372,7 +372,7 @@ focus = {
 	icon = "GFX_focus_generic_manpower"
 	x = -4
 	y = 3
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_24 }
 	available_if_capitulated = yes
@@ -386,7 +386,7 @@ focus = {
 	icon = "GFX_goal_generic_production2"
 	x = -6
 	y = 3
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_24 }
 	available_if_capitulated = yes
@@ -400,7 +400,7 @@ focus = {
 	icon = "GFX_goal_generic_more_territorial_claims"
 	x = -5
 	y = 4
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_26 }
 	prerequisite = { focus = ARG_se_25 }
@@ -415,7 +415,7 @@ focus = {
 	icon = "GFX_focus_generic_military_mission"
 	x = -6
 	y = 5
-	cost = 3
+	cost = 7
 	relative_position_id = ARG_se_1
 	prerequisite = { focus = ARG_se_27 }
 	prerequisite = { focus = ARG_se_23 }
@@ -430,7 +430,7 @@ focus = {
 		icon = "GFX_focus_por_recover_latin_america"
 		x = 3
 		y = 0
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -450,7 +450,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_1 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -470,7 +470,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_2 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -486,7 +486,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_3 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -506,7 +506,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_4 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -525,7 +525,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_5 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -554,7 +554,7 @@ focus = {
 		x = 2
 		y = 1
 		prerequisite = { focus = ARG_na_1 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -572,7 +572,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_7 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -592,7 +592,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_8 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -610,7 +610,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_9 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -628,7 +628,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_10 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -646,7 +646,7 @@ focus = {
 		x = -2
 		y = 1
 		prerequisite = { focus = ARG_na_1 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -664,7 +664,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_12 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -682,7 +682,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_13 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -700,7 +700,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_14 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -718,7 +718,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_15 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -733,7 +733,7 @@ focus = {
 		x = -2
 		y = 1
 		prerequisite = { focus = ARG_na_12 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -792,7 +792,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_17 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -823,7 +823,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_18 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -846,7 +846,7 @@ focus = {
 		x = 0
 		y = 1
 		prerequisite = { focus = ARG_na_19 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -881,7 +881,7 @@ focus = {
 		y = 1
 		prerequisite = { focus = ARG_na_6 }
 		prerequisite = { focus = ARG_na_16 focus = ARG_na_20 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -898,7 +898,7 @@ focus = {
 		x = -2
 		y = 1
 		prerequisite = { focus = ARG_na_21 }
-		cost = 3
+		cost = 7
         mutually_exclusive = { focus = ARG_na_23 }
 		available_if_capitulated = yes
 
@@ -920,7 +920,7 @@ focus = {
 		x = 2
 		y = 1
 		prerequisite = { focus = ARG_na_21 }
-		cost = 3
+		cost = 7
         mutually_exclusive = { focus = ARG_na_22 }
 		available_if_capitulated = yes
 
@@ -941,7 +941,7 @@ focus = {
 		x = 2
 		y = 2
 		prerequisite = { focus = ARG_na_23 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -965,7 +965,7 @@ focus = {
 		x = 3
 		y = 3
 		prerequisite = { focus = ARG_na_24 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -982,7 +982,7 @@ focus = {
 		x = 3
 		y = 4
 		prerequisite = { focus = ARG_na_25 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -1003,7 +1003,7 @@ focus = {
 		x = 1
 		y = 3
 		prerequisite = { focus = ARG_na_23 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -1024,7 +1024,7 @@ focus = {
 		x = 1
 		y = 4
 		prerequisite = { focus = ARG_na_27 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -1040,7 +1040,7 @@ focus = {
 		x = -2
 		y = 2
 		prerequisite = { focus = ARG_na_22 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -1062,7 +1062,7 @@ focus = {
 		x = -3
 		y = 3
 		prerequisite = { focus = ARG_na_29 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -1084,7 +1084,7 @@ focus = {
 		x = -3
 		y = 4
 		prerequisite = { focus = ARG_na_30 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -1106,7 +1106,7 @@ focus = {
 		x = -1
 		y = 3
 		prerequisite = { focus = ARG_na_22 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -1127,7 +1127,7 @@ focus = {
 		x = -1
 		y = 4
 		prerequisite = { focus = ARG_na_32 }
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -1158,7 +1158,7 @@ focus = {
 		icon = "GFX_goal_generic_military_sphere"
 		x = 9
 		y = 6
-		cost = 3
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -1177,7 +1177,7 @@ focus = {
 		icon = "GFX_focus_generic_military_academy"
 		x = 0
 		y = 1
-		cost = 3
+		cost = 7
 		relative_position_id = ARG_g1
 		prerequisite = { focus = ARG_g1 }
 		available_if_capitulated = yes
@@ -1194,7 +1194,7 @@ focus = {
 		icon = "GFX_focus_POL_sanation_right"
 		x = 0
 		y = 2
-		cost = 3
+		cost = 7
 		mutually_exclusive = { focus = ARG_g10 }
 		relative_position_id = ARG_g1
 		prerequisite = { focus = ARG_g2 }
@@ -1212,7 +1212,7 @@ focus = {
 		icon = "GFX_focus_generic_tank_production"
 		x = 0
 		y = 3
-		cost = 3
+		cost = 7
 		relative_position_id = ARG_g1
 		prerequisite = { focus = ARG_g3 }
 		available_if_capitulated = yes
@@ -1229,7 +1229,7 @@ focus = {
 		icon = "GFX_goal_rhineland"
 		x = 0
 		y = 4
-		cost = 3
+		cost = 7
 		relative_position_id = ARG_g1
 		prerequisite = { focus = ARG_g4 }
 		available_if_capitulated = yes
@@ -1246,7 +1246,7 @@ focus = {
 		icon = "GFX_goal_generic_air_fighter2"
 		x = 2
 		y = 0
-		cost = 3
+		cost = 7
 		relative_position_id = ARG_g1
 		available_if_capitulated = yes
 			complete_tooltip = {
@@ -1326,7 +1326,7 @@ focus = {
 		icon = "GFX_goal_generic_CAS"
 		x = 2
 		y = 1
-		cost = 3
+		cost = 7
 		mutually_exclusive = { focus = ARG_g13 }
 		relative_position_id = ARG_g1
 		available_if_capitulated = yes
@@ -1340,7 +1340,7 @@ focus = {
 		icon = "GFX_goal_generic_defence"
 		x = 2
 		y = 2
-		cost = 3
+		cost = 7
 		relative_position_id = ARG_g1
 		available_if_capitulated = yes
 		prerequisite = { focus = ARG_g7 }
@@ -1356,7 +1356,7 @@ focus = {
 		icon = "GFX_focus_POL_beck_ribbentrop"
 		x = 2
 		y = 3
-		cost = 3
+		cost = 7
 		relative_position_id = ARG_g1
 		available_if_capitulated = yes
 		prerequisite = { focus = ARG_g8 }
@@ -1372,7 +1372,7 @@ focus = {
 		icon = "GFX_focus_por_luso_tropicalism"
 		x = -2
 		y = 2
-		cost = 3
+		cost = 7
 		mutually_exclusive = { focus = ARG_g3 }
 		relative_position_id = ARG_g1
 		available_if_capitulated = yes
@@ -1389,7 +1389,7 @@ focus = {
 		icon = "GFX_focus_generic_combined_arms"
 		x = -2
 		y = 3
-		cost = 3
+		cost = 7
 		relative_position_id = ARG_g1
 		available_if_capitulated = yes
 		prerequisite = { focus = ARG_g10 }
@@ -1405,7 +1405,7 @@ focus = {
 		icon = "GFX_focus_prc_infiltration"
 		x = -2
 		y = 4
-		cost = 3
+		cost = 7
 		relative_position_id = ARG_g1
 		available_if_capitulated = yes
 		prerequisite = { focus = ARG_g11 }
@@ -1421,7 +1421,7 @@ focus = {
 		icon = "GFX_focus_CZE_military_aeronautical_institute"
 		x = 4
 		y = 1
-		cost = 3
+		cost = 7
 		mutually_exclusive = { focus = ARG_g7 }
 		relative_position_id = ARG_g1
 		available_if_capitulated = yes
@@ -1435,7 +1435,7 @@ focus = {
 		icon = "GFX_goal_generic_occupy_start_war"
 		x = 4
 		y = 2
-		cost = 3
+		cost = 7
 		relative_position_id = ARG_g1
 		available_if_capitulated = yes
 		prerequisite = { focus = ARG_g13 }
@@ -1451,7 +1451,7 @@ focus = {
 		icon = "GFX_focus_usa_escort_fighters"
 		x = 4
 		y = 3
-		cost = 3
+		cost = 7
 		relative_position_id = ARG_g1
 		available_if_capitulated = yes
 		prerequisite = { focus = ARG_g14 }

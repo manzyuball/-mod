@@ -92,12 +92,31 @@ if = {
 	}
 }
 
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = UKR
+		autonomous_state = autonomy_collaboration_government
+		freedom_level = 0.1
+	}
+	else = {
+		puppet = UKR
+	}
+}
+
 add_manpower = 664210
 create_faction = "中央同盟国"
 add_to_faction = AUS
 add_to_faction = BUL
 add_to_faction = TUR
 add_to_faction = LAT
+add_to_faction = POL
+add_to_faction = UKR
 recruit_character = AUS_Wilhelm
 recruit_character = AUS_karl_renner
 recruit_character = AUS_Adolf_Hitler

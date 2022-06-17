@@ -425,10 +425,34 @@
 		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
-			custom_effect_tooltip = SWE_syut
-			hidden_effect = {
-			set_country_flag = syut
-			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+					}
+				}	
+				NOR = {
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+							}
+						}	
+				}
+				DEN = {
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+							}
+						}	
+				}
 		}
 	}
 #© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
@@ -476,6 +500,16 @@
 					annex_country = {
 						target = NOR
 						transfer_troops = yes
+						}
+						DEN = {
+							every_owned_state ={
+								add_core_of = SWE
+							}
+						}
+						NOR = {
+							every_owned_state ={
+								add_core_of = SWE
+							}
 						}
 
 			}
@@ -595,6 +629,11 @@
 			annex_country = {
 				target = FIN
 				transfer_troops = yes
+				}
+				FIN = {
+					every_owned_state ={
+						add_core_of = SWE
+					}
 				}
 		}
 		}

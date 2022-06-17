@@ -1,0 +1,22 @@
+state={
+	id=962
+	name="STATE_962"
+	provinces={
+		3331 6220 6371 9241 
+	}
+	manpower = 426000
+	
+	state_category = rural
+	
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = POL
+		add_core_of = BLR
+		add_core_of = SOV
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

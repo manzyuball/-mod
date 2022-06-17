@@ -988,7 +988,7 @@
 		x = 25
 		y = 0
 		mutually_exclusive = { focus = PRC_na2 }
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -1009,7 +1009,7 @@
 		y = 1
 		prerequisite = { focus = CHI_S1 }
 		relative_position_id = CHI_S1
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -1050,7 +1050,7 @@
 		y = 1
 		prerequisite = { focus = CHI_S1 }
 		relative_position_id = CHI_S1
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -1271,7 +1271,7 @@
 		y = 4
 		prerequisite = { focus = CHI_S5 }
 		relative_position_id = CHI_S1
-		cost = 5
+		cost = 15
 
 		ai_will_do = {
 			factor = 10
@@ -1388,7 +1388,7 @@
 		y = 6
 		prerequisite = { focus = CHI_S14 }
 		relative_position_id = CHI_S1
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -1409,7 +1409,7 @@
 		y = 7
 		prerequisite = { focus = CHI_S16 }
 		relative_position_id = CHI_S1
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -1429,7 +1429,7 @@
 		y = 6
 		prerequisite = { focus = CHI_S13 }
 		relative_position_id = CHI_S1
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -1476,7 +1476,7 @@
 		y = 7
 		prerequisite = { focus = CHI_S18 }
 		relative_position_id = CHI_S1
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -1521,7 +1521,7 @@
 		y = 7
 		prerequisite = { focus = CHI_S14 focus = CHI_S13 }
 		relative_position_id = CHI_S1
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -1771,7 +1771,7 @@
 		y = 1
 		prerequisite = { focus = CHI_S4 }
 		relative_position_id = CHI_S4
-		cost = 5
+		cost = 15
 
 		ai_will_do = {
 			factor = 10
@@ -1804,7 +1804,7 @@
 		y = 1
 		prerequisite = { focus = CHI_S4 }
 		relative_position_id = CHI_S4
-		cost = 5
+		cost = 15
 
 		ai_will_do = {
 			factor = 10
@@ -1831,7 +1831,7 @@
 		y = 1
 		prerequisite = { focus = CHI_S4 }
 		relative_position_id = CHI_S4
-		cost = 5
+		cost = 15
 
 		ai_will_do = {
 			factor = 50
@@ -1861,7 +1861,7 @@
 		y = 2
 		prerequisite = { focus = CHI_S34 }
 		relative_position_id = CHI_S4
-		cost = 5
+		cost = 25
 
 		ai_will_do = {
 			factor = 10
@@ -1973,7 +1973,7 @@
 		y = 5
 		prerequisite = { focus = CHI_S38 }
 		relative_position_id = CHI_S4
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -1996,7 +1996,7 @@
 		y = 5
 		prerequisite = { focus = CHI_S38 }
 		relative_position_id = CHI_S4
-		cost = 5
+		cost = 15
 
 		ai_will_do = {
 			factor = 10

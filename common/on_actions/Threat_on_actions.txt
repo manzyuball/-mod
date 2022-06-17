@@ -1,9 +1,9 @@
 on_actions = {
 	on_weekly = { 
-		effect = { 
-			random_country = {
+		effect = {
+			PAN = {
 				add_named_threat = {
-					threat = -0.85
+					threat = -0.5
 					name = weekly_threat_change
 					}
 			 }

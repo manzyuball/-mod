@@ -123,17 +123,9 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-	POL = {
-    diplomatic_relation = {
-			country = YUG
-			relation = guarantee
-			active = yes
-			}
-		}
-		diplomatic_relation = {
-			country = POL
-			relation = guarantee
-			active = yes
+		reverse_add_opinion_modifier = {
+			target = POL
+			modifier = kyuusekkinn
 			}
 	}
 }
@@ -155,10 +147,6 @@ focus = {
 	}
 	completion_reward = {
 		add_war_support = 0.05
-	BUL = {
-		remove_state_core = 803
-		remove_state_core = 106
-	}	
 	}
 }
 focus = {
@@ -192,7 +180,7 @@ focus = {
 	y = 1
 	cost = 10
 	ai_will_do = {
-		factor = 100
+		factor = 0 
 	}
 
 	available = {

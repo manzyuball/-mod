@@ -1,0 +1,25 @@
+state={
+	id=963
+	name="STATE_963"
+	provinces={
+		1640 7097 9999 
+	}
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 12
+			arms_factory = 7
+		}
+		victory_points = {
+			7097 25
+		}
+
+	}
+	state_category=metropolis
+	manpower=729422
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

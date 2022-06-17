@@ -7,7 +7,7 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = SOV
+		owner = POL
 		victory_points = {
 			11370 20
 		}
@@ -20,9 +20,9 @@ state={
 			arms_factory = 1
 			air_base = 8
 		}
+		add_core_of = POL
 		add_core_of = SOV
 		add_core_of = BLR
-		add_core_of = VLA
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3

@@ -78,10 +78,10 @@ recruit_character = PRU_jose_bustamante_y_rivero
 recruit_character = PRU_armando_reveredo_iglesias
 recruit_character = PRU_reynaldo_vinatea
 
-add_manpower = 864210
+add_manpower = 2864210
 set_country_flag = monroe_doctrine
 
-set_convoys = 75
+set_convoys = 175
 
 add_ideas = {
 	PRU_sasngakui
@@ -93,8 +93,8 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	communism = 65
-	fascism = 35
+	communism = 90
+	fascism = 10
 }
 ### VARIANTS ###
 # 1936 Start #

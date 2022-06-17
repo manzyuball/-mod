@@ -2,13 +2,13 @@ ideas = {
 	country = {
 
 		PRU_sasngakui = {
-			picture = generic_army_problems
+			picture = SPR_international_brigades
 			removal_cost = -1
 			
 			modifier = {
-				terrain_penalty_reduction = 0.5
-				special_forces_cap = 0.15
-				out_of_supply_factor = -0.5		
+				army_attack_factor = 0.25
+				attrition = -0.25
+				supply_consumption_factor = -0.25
 			}
 		}
 		PRU_saikenn = {

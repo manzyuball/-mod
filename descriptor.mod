@@ -9,5 +9,5 @@ name="EoB ~testplay.ver~"
 dependencies={
 	"Japanese Language mod"
 }
-supported_version="1.11.10"
+supported_version="1.11.12"
 remote_file_id="2718964168"

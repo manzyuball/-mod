@@ -6,7 +6,7 @@ state={
 	
 	state_category = city
 	history={
-		owner = MLT
+		owner = TUN
 		victory_points = {
 			11837 15 
 		}
@@ -22,8 +22,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = ITA
-		add_core_of = MLT
+		add_core_of = TUN
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5
