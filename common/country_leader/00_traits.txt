@@ -68,6 +68,17 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	jap_Manzyu = {
+		random = no
+		targeted_modifier = { tag = JAP cic_to_target_factor = 0.4 }
+		democratic_drift = 0.10
+		consumer_goods_factor = -0.15
+		local_resources_factor = 0.20
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	dictator = {
 		random = no

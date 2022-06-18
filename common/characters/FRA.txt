@@ -150,7 +150,6 @@ characters={
 				original_tag = FRA
 			}
 			available = {
-				has_completed_focus = FRA_defensive_focus
 			}
 			cost = 100.000
 			traits = {
@@ -247,7 +246,6 @@ characters={
 				original_tag = FRA
 			}
 			available = {
-				has_completed_focus = FRA_battle_of_maneuver
 			}
 			cost = 75.000
 			
@@ -1044,20 +1042,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				NOT  = {
-					has_country_leader  = {
-						character  = FRA_philippe_petain
-						ruling_only  = yes 
-					}
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
 			}
 			traits  = {
 				democratic_reformer 
@@ -1087,19 +1071,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				or  = {
-					has_completed_focus  = FRA_right_wing_rhetoric 
-					has_completed_focus  = FRA_utilize_the_leagues 
-					has_focus_tree  = vichy_french_focus
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					not  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
 			}
 			traits  = {
 				fascist_demagogue 
@@ -1139,8 +1110,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_confirm_eastern_commitments 
-				has_government  = democratic 
 			}
 			cost  = 75.000
 			traits  = {
@@ -1168,8 +1137,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_buy_time 
-				has_government  = democratic 
 			}
 			cost  = 75.000
 			traits  = {
@@ -1197,11 +1164,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_integralism 
-				or  = {
-					has_government  = fascism 
-					has_government  = neutrality 
-				}
 			}
 			visible  = {
 				has_dlc = "La Resistance"
@@ -1235,8 +1197,6 @@ characters={
 				has_dlc = "La Resistance"
 			}
 			available  = {
-				has_completed_focus  = FRA_national_regeneration 
-				has_government  = fascism 
 			}
 			cost  = 75.000
 			traits  = {
@@ -1264,9 +1224,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				not  = {
-					has_government  = communism 
-				}
 			}
 			cost  = 150.000
 			traits  = {
@@ -1369,7 +1326,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_form_the_popular_front 
 			}
 			traits  = {
 				financial_expert 
@@ -1398,7 +1354,7 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_form_the_popular_front 
+				
 			}
 			traits  = {
 				compassionate_gentleman 
@@ -1531,7 +1487,7 @@ characters={
 			slot = political_advisor
 			idea_token = FRA_maurice_gauche
 			available  = {
-				has_intelligence_agency  = yes 
+			
 			}
 			allowed  = {
 				original_tag  = FRA

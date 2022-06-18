@@ -151,31 +151,42 @@ news_event = {
 	}
 }
 #日本が日英同盟を尊重
-news_event = { 
+news_event = {
 	id = news.7
 	title = news.7.t
 	desc = news.7.d
 	picture = GFX_news_event_020
 	major = yes
 	trigger = {
-		tag = JAP
-		JAP = {
-			is_in_faction_with = ENG
-		}
+		has_global_flag = NitieiPact
 	}
-	is_triggered_only = yes
 	option = {
 		name = news.7.a
 		trigger = {
 			NOT = {
+				OR = {
 				TAG = JAP
+				TAG = ENG
+				}
 			}
+		}
+		hidden_effect = {
+			clr_global_flag = NitieiPact
 		}
 	}
 	option = {
 		name = news.7.b
-		trigger = { TAG = JAP }
-	}
+		trigger = { 
+			OR = {
+				TAG = JAP 
+				TAG = ENG
+			}
+
+			}
+			hidden_effect = {
+				clr_global_flag = NitieiPact
+			}
+		}
 }
 #ヒトラー氏当選
 news_event = { 

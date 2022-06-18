@@ -8,6 +8,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_Syougun"
+		texturefile = "gfx/leaders/_EOB/Rituan.dds"
+	}
+
+	spriteType = {
 		name = "GFX_portrait_operative_unknown"
 		texturefile = "gfx/leaders/operative_unknown.dds"
 	}

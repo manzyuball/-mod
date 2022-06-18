@@ -1,1 +1,25 @@
 ﻿add_namespace = mtg_britain 
+
+country_event = {
+	id = mtg_britain.1
+	title = mtg_britain.1.t
+	desc = mtg_britain.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+        tag = ENG
+		has_country_flag = ENG_Japanesepact
+	}
+	fire_only_once = yes
+	option = {
+		name = mtg_britain.1.a
+        ai_chance = { factor = 95 }
+    ENG = { add_to_faction = JAP }
+    hidden_effect = {
+        set_global_flag = NitieiPact
+    }
+	}
+    option = {
+		name = mtg_britain.1.b
+        ai_chance = { factor = 5 }
+	}
+}

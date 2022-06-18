@@ -23,7 +23,9 @@
 		ai_will_do = {
 			factor = 50
 		}
-		completion_reward = { }
+		completion_reward = {
+			add_ideas = Touyounominsyusyugi
+		 }
 	}
 	focus = {
 		id = JAP_NITIEI2
@@ -36,7 +38,12 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI1 }
-		completion_reward = { }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SyouwaKyoukou
+				add_idea = SyouwaKyoukou1
+				}
+        }
 	}
 	focus = {
 		id = JAP_NITIEI3
@@ -49,7 +56,12 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI2 }
-		completion_reward = { }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KaihatuKeikaku
+				add_idea = KaihatuKeikaku2
+				}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI4
@@ -62,7 +74,12 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI3 }
-		completion_reward = { }
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = SyouwaKyoukou1
+				add_idea = SyouwaKyoukou2
+				}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI5
@@ -75,7 +92,18 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI4 }
-		completion_reward = { }
+		completion_reward = { 
+			add_resource = {
+				type = steel 
+				amount = 34
+				state = 533
+				}
+				add_resource = {
+					type = aluminium
+					amount = 31
+					state = 535
+					}
+        }
 	}
 	focus = {
 		id = JAP_NITIEI6
@@ -86,9 +114,17 @@
 		ai_will_do = {
 			factor = 50
 		}
+		available = {
+			has_completed_focus = JAP_NITIEI5
+		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI2 }
-		completion_reward = { }
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = KaihatuKeikaku2
+				add_idea = KaihatuKeikaku3
+				}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI7
@@ -101,7 +137,12 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI6 }
-		completion_reward = { }
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = SyouwaKyoukou2
+				add_idea = SyouwaKyoukou3
+				}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI8
@@ -114,7 +155,7 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI7 }
-		completion_reward = { }
+		completion_reward = { remove_ideas = SyouwaKyoukou3 }
 	}
 	focus = {
 		id = JAP_NITIEI9
@@ -127,7 +168,12 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI1 }
-		completion_reward = { }
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = Touyounominsyusyugi
+				add_idea = Touyounominsyusyugi1
+				}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI10
@@ -140,7 +186,14 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI9 }
-		completion_reward = { }
+		completion_reward = {
+			custom_effect_tooltip = JAP_NITIEIDOUMEI
+			hidden_effect = {
+			ENG = {
+			set_country_flag = ENG_Japanesepact
+		    }
+		}
+	}
 	}
 	focus = {
 		id = JAP_NITIEI11
@@ -153,7 +206,11 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI10 }
-		completion_reward = { }
+		completion_reward = { 
+			MAN = {
+				add_country_leader_trait = jap_Manzyu
+			}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI12
@@ -166,7 +223,16 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI11 }
-		completion_reward = { }
+		completion_reward = { 
+			reverse_add_opinion_modifier = {
+				target = VLA
+				modifier = kyuusekkinn
+				}
+				add_relation_modifier = {
+					target = VLA
+					modifier = kyuusekkinn
+					}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI13
@@ -179,7 +245,17 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI12 }
-		completion_reward = { }
+		completion_reward = {
+			KOR = { 
+				transfer_state = 527
+				transfer_state = 867
+				transfer_state = 525
+				transfer_state = 866
+				transfer_state = 865
+				add_ideas = Tyousen_syokuminti
+			}
+			JAP = { puppet = KOR }
+		 }
 	}
 	focus = {
 		id = JAP_NITIEI14
@@ -192,7 +268,9 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI12 }
-		completion_reward = { }
+		completion_reward = {
+			add_political_power = 250
+		 }
 	}
 	focus = {
 		id = JAP_NITIEI15
@@ -205,7 +283,7 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI10 }
-		completion_reward = { }
+		completion_reward = { add_ideas = Yamatodamasii }
 	}
 	focus = {
 		id = JAP_NITIEI16
@@ -216,9 +294,16 @@
 		ai_will_do = {
 			factor = 50
 		}
+		available = {
+			has_war = yes
+		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI15 }
-		completion_reward = { }
+		completion_reward = { 
+			add_ideas = {
+				JAPAN_WORLDWAR2_idea
+			}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI17
@@ -229,9 +314,16 @@
 		ai_will_do = {
 			factor = 50
 		}
+		available = {
+			has_war_with = CHI
+		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI16 }
-		completion_reward = { }
+		completion_reward = { 
+			add_ideas = {
+				JAPAN_Nittyuu_idea
+			}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI18
@@ -242,9 +334,12 @@
 		ai_will_do = {
 			factor = 50
 		}
+		available = {
+			has_war = no
+		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI17 }
-		completion_reward = { }
+		completion_reward = { add_stability = 0.15 }
 	}
 	focus = {
 		id = JAP_NITIEI19
@@ -257,7 +352,33 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI18 }
-		completion_reward = { }
+		completion_reward = { 
+			add_manpower = -75000
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+					}
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+							}
+							}
+							random_owned_controlled_state = {
+								add_extra_state_shared_building_slots = 2
+								add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+									}
+									}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI20
@@ -270,7 +391,15 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI18 }
-		completion_reward = { }
+		completion_reward = { 
+			add_ideas = Keizaikaihatukikou
+			every_country = { 
+				limit = {
+					is_puppet_of = JAP
+				}
+				add_ideas = Keizaikaihatukikou
+			}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI21
@@ -283,7 +412,9 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI18 }
-		completion_reward = { }
+		completion_reward = {
+			add_country_leader_trait = autocratic_imperialist
+		}
 	}
 	focus = {
 		id = JAP_NITIEI22
@@ -296,7 +427,12 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI15 }
-		completion_reward = { }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Yamatodamasii
+				add_idea = Yamatodamasii1
+				}
+		 }
 	}
 	focus = {
 		id = JAP_NITIEI23
@@ -309,7 +445,12 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI15 }
-		completion_reward = { }
+		completion_reward = {
+			add_timed_idea = {
+				idea = Tenkan
+				days = 100
+				}
+		 }
 	}
 	focus = {
 		id = JAP_NITIEI24
@@ -322,7 +463,7 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI16 }
-		completion_reward = { }
+		completion_reward = { air_experience = 250 }
 	}
 	focus = {
 		id = JAP_NITIEI25
@@ -335,7 +476,30 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI16 }
-		completion_reward = { }
+		completion_reward = { 
+			727 = {
+				add_building_construction = {
+				type = bunker
+				level = 4
+				instant_build = yes
+				province = 9790
+				}
+			}
+			867 = {
+                add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = 11770
+					}
+					add_building_construction = {
+						type = bunker
+						level = 4
+						instant_build = yes
+						province = 6928
+						}
+					}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI26
@@ -348,7 +512,7 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI16 }
-		completion_reward = { }
+		completion_reward = { custom_effect_tooltip = JAP_AITI }
 	}
 	focus = {
 		id = JAP_NITIEI27
@@ -361,7 +525,7 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI25 }
-		completion_reward = { }
+		completion_reward = { add_war_support = 0.25 }
 	}
 	focus = {
 		id = JAP_NITIEI28
@@ -374,7 +538,19 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI24 }
-		completion_reward = { }
+		completion_reward = {
+			army_experience = 250
+			create_corps_commander = {
+				name = "大陸陸軍作戦立案部"
+				picture = "Rituan.dds"
+				traits = { 	naval_invader commando invader_ii naval_liason paratrooper }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 4
+				logistics_skill = 3
+				}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI29
@@ -387,7 +563,13 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI24 }
-		completion_reward = { }
+		completion_reward = { 
+			add_tech_bonus = {
+				bonus = 2.5
+				uses = 1
+				category = nuclear
+				}
+		}
 	}
 	focus = {
 		id = JAP_NITIEI30
@@ -400,7 +582,7 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI1 }
-		completion_reward = { }
+		completion_reward = { add_research_slot = 1 }
 	}
 	focus = {
 		id = JAP_NITIEI31
@@ -411,9 +593,17 @@
 		ai_will_do = {
 			factor = 50
 		}
+		available = {
+			has_completed_focus = JAP_NITIEI8
+		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI2 }
-		completion_reward = { }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KaihatuKeikaku3
+				add_idea = KaihatuKeikaku4
+				}
+		 }
 	}
 	focus = {
 		id = JAP_NITIEI32
@@ -426,7 +616,24 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI31 }
-		completion_reward = { }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+							}
+							}
+		 }
 	}
 	focus = {
 		id = JAP_NITIEI33
@@ -439,7 +646,12 @@
 		}
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI32 }
-		completion_reward = { }
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = KaihatuKeikaku4
+				add_idea = KaihatuKeikaku4
+				}
+		}
 	}
 
 
