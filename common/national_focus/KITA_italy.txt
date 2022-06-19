@@ -1,0 +1,675 @@
+﻿focus_tree = {
+	id = italian_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+				tag = ITA
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+
+	shared_focus = Italy_Naisei
+	shared_focus = Italy_GUN
+
+	focus = { 
+		id = ITA_Rome
+		icon = "GFX_focus_ITALY_2"
+		x = 26
+		y = 0
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = { 
+		id = ITA_Rome1
+		icon = "GFX_focus_generic_soviet_politics"
+		x = 1
+		y = 1
+		relative_position_id = ITA_Rome
+		prerequisite = { focus = ITA_Rome }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = { 
+		id = ITA_Rome2
+		icon = "GFX_goal_generic_occupy_states_ongoing_war"
+		x = -1
+		y = 1
+		relative_position_id = ITA_Rome
+		prerequisite = { focus = ITA_Rome }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = { 
+		id = ITA_Rome3
+		icon = "GFX_goal_demand_sudetenland"
+		x = -1
+		y = 2
+		relative_position_id = ITA_Rome
+		prerequisite = { focus = ITA_Rome2 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = { 
+		id = ITA_Rome4
+		icon = "GFX_focus_ITALYsm"
+		x = 1
+		y = 2
+		relative_position_id = ITA_Rome
+		prerequisite = { focus = ITA_Rome1 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = { 
+		id = ITA_Rome5
+		icon = "GFX_focus_chi_reach_out_to_france"
+		x = 0
+		y = 3
+		relative_position_id = ITA_Rome
+		prerequisite = { focus = ITA_Rome }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = { 
+		id = ITA_Rome6
+		icon = "GFX_goal_generic_occupy_states_ongoing_war"
+		x = -1
+		y = 4
+		relative_position_id = ITA_Rome
+		prerequisite = { focus = ITA_Rome3 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = { 
+		id = ITA_Rome7
+		icon = "GFX_focus_ITALY_Musso"
+		x = 1
+		y = 4
+		relative_position_id = ITA_Rome
+		prerequisite = { focus = ITA_Rome4 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = { 
+		id = ITA_Rome8
+		icon = "GFX_focus_generic_italy_first"
+		x = 0
+		y = 5
+		relative_position_id = ITA_Rome
+		prerequisite = { focus = ITA_Rome5 }
+		prerequisite = { focus = ITA_Rome6 }
+		prerequisite = { focus = ITA_Rome7 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome10
+		icon = "GFX_focus_Rome_Empire2"
+		x = 34
+		y = 0
+		prerequisite = { }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome11
+		icon = "GFX_goal_generic_position_armies"
+		x = 3
+		y = 1
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome10 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome12
+		icon = "GFX_focus_generic_balkans_focus"
+		x = 1
+		y = 2
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome11 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome13
+		icon = "GFX_focus_attack_AUS"
+		x = 5
+		y = 2
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome11 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome14
+		icon = "GFX_focus_YUG_dissolve_serbia"
+		x = 4
+		y = 3
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome11 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome15
+		icon = "GFX_focus_TUR_treaty_of_saadabad"
+		x = 2
+		y = 3
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome11 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome16
+		icon = "GFX_focus_Arabia"
+		x = 1
+		y = 4
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome12 }
+		prerequisite = {focus = ITA_Rome15 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome17
+		icon = "GFX_focus_BUL_free_balkan_states"
+		x = 5
+		y = 4
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome13 }
+		prerequisite = {focus = ITA_Rome14 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome18
+		icon = "GFX_focus_GRE_byzantine_themata"
+		x = 3
+		y = 4
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome15 }
+		prerequisite = {focus = ITA_Rome14 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome19
+		icon = "GFX_focus_TUR_pivot_to_the_past"
+		x = 4
+		y = 5
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome18 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome20
+		icon = "GFX_goal_generic_oil_refinery"
+		x = 2
+		y = 5
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome18 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome21
+		icon = "GFX_goal_generic_position_armies"
+		x = -3
+		y = 1
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome10 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome22
+		icon = "GFX_focus_focus_fra_intervention_spain"
+		x = -1
+		y = 2
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome21 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome23
+		icon = "GFX_focus_attack_switzerland"
+		x = -5
+		y = 2
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome21 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome24
+		icon = "GFX_focus_attack_britain"
+		x = -4
+		y = 3
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome21 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome25
+		icon = "GFX_focus_generic_attack_portugal"
+		x = -2
+		y = 3
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome21 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome26
+		icon = "GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny"
+		x = -1
+		y = 4
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome22 }
+		prerequisite = {focus = ITA_Rome25 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome27
+		icon = "GFX_focus_fra_le_deluge"
+		x = -5
+		y = 4
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome23 }
+		prerequisite = {focus = ITA_Rome24 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome28
+		icon = "GFX_focus_international_END_ITA"
+		x = -3
+		y = 4
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome25 }
+		prerequisite = {focus = ITA_Rome24 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome29
+		icon = "GFX_focus_POL_warsaw_main_station"
+		x = -4
+		y = 5
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome28 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome30
+		icon = "GFX_focus_Rome_Caesal"
+		x = -2
+		y = 5
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome28 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome31
+		icon = "GFX_focus_Rome_Empire"
+		x = 0
+		y = 6
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome30 }
+		prerequisite = {focus = ITA_Rome29 }
+		prerequisite = {focus = ITA_Rome19 }
+		prerequisite = {focus = ITA_Rome20 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome32
+		icon = "GFX_goal_generic_political_pressure"
+		x = 0
+		y = 7
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome31 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome33
+		icon = "GFX_focus_por_workers_of_iberia"
+		x = 3
+		y = 7
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome31 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_Rome34
+		icon = "GFX_focus_prc_agrarian_socialism"
+		x = -3
+		y = 7
+		relative_position_id = ITA_Rome10
+		prerequisite = {focus = ITA_Rome31 }
+		mutually_exclusive = { }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+}

@@ -1,1562 +1,992 @@
-﻿focus_tree = {
-	id = italian_focus
-
-	country = {
-		factor = 0
-		
-		modifier = {
-			add = 10
-			tag = ITA
-		}
-	}
-	
-	default = no
-
-	continuous_focus_position = { x = 50 y = 1100 }
-	focus = {
-		id = ITA_army_primacy
-		icon = GFX_goal_generic_axis_build_infantry
-		x = 1
+﻿	shared_focus = { 
+		id = Italy_Naisei
+		icon = "GFX_goal_generic_production"
+		x = 5
 		y = 0
-		cost = 5
-		ai_will_do = {
-			factor = 27
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			army_experience = 5
-			random_owned_controlled_state = {
-				limit = {
-					arms_factory > 0
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					arms_factory > 0
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			if = {
-				limit = {
-					NOT = {
-						any_owned_state = {
-							arms_factory > 0
-							free_building_slots = {
-								building = arms_factory
-								size > 0
-								include_locked = yes
-							}
-						}
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = arms_factory
-							size > 0
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = arms_factory
-						level = 1
-						instant_build = yes
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = arms_factory
-							size > 0
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = arms_factory
-						level = 1
-						instant_build = yes
-					}
-				}				
-			}
-
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 2
-				category = land_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_modernized_artillery
-		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = ITA_army_primacy }
-		x = -1
-		y = 1
-		relative_position_id = ITA_army_primacy
+		prerequisite = {}
+		mutually_exclusive = { }
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = arty_bonus
-				bonus = 1.0
-				uses = 2
-				category = artillery
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_modernized_army
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = ITA_modernized_artillery }
-		x = 0
-		y = 1
-		relative_position_id = ITA_modernized_artillery
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = special_bonus
-				bonus = 1.0
-				uses = 1
-				category = recon_tech
-				#technology = tech_recon
-				#technology = tech_recon2
-				#technology = tech_recon3
-			}
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 2
-				category = land_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_special_forces
-		icon = GFX_goal_generic_special_forces
-		text = special_forces
-		prerequisite = { focus = ITA_modernized_army }
-		x = 0
-		y = 2
-		relative_position_id = ITA_modernized_army
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = special_bonus
-				bonus = 1.0
-				uses = 1
-				category = para_tech
-				#technology = paratroopers
-				#technology = paratroopers2
-			}
-			add_tech_bonus = {
-				name = special_bonus
-				ahead_reduction = 2
-				uses = 1
-				category = mountaineers_tech
-				#technology = tech_mountaineers2
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_armored_effort
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = ITA_special_forces }
-		x = 0
-		y = 1
-		relative_position_id = ITA_special_forces
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = armor_bonus
-				bonus = 1.0
-				uses = 2
-				category = armor
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_mare_nostrum
-		icon = GFX_goal_generic_build_navy
-		x = 3
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			navy_experience = 50
-			random_owned_controlled_state = {
-				limit = {
-					dockyard > 0
-					free_building_slots = {
-						building = dockyard
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					dockyard > 0
-					free_building_slots = {
-						building = dockyard
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-
-			if = {
-				limit = {
-					NOT = {
-						any_owned_state = {
-							dockyard > 0
-							free_building_slots = {
-								building = dockyard
-								size > 0
-								include_locked = yes
-							}
-						}
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = dockyard
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = dockyard
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes
-					}
-				}				
-			}
-
-			add_doctrine_cost_reduction = {
-				name = naval_doc_bonus
-				cost_reduction = 0.5
-				uses = 2
-				category = naval_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_air_innovation
-		icon = GFX_goal_generic_build_airforce
-		text = air_innovation
-		prerequisite = { focus = ITA_army_primacy focus = ITA_mare_nostrum }
-		x = 1
-		y = 1
-		relative_position_id = ITA_army_primacy
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			air_experience = 25
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 1
-				category = light_fighter
-			}
-			add_doctrine_cost_reduction = {
-				name = air_doc_bonus
-				cost_reduction = 0.5
-				uses = 2
-				category = air_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_carrier_effort
-		icon = GFX_goal_generic_navy_carrier
-		prerequisite = { focus = ITA_mare_nostrum }
-		x = 1
-		y = 1
-		relative_position_id = ITA_mare_nostrum
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = cv_bonus
-				bonus = 1.0
-				uses = 2
-				category = cv_tech
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_capital_ships
-		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = ITA_mare_nostrum }
-		x = 3
-		y = 1
-		relative_position_id = ITA_mare_nostrum
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			navy_experience = 25
-			add_tech_bonus = {
-				name = bb_bonus
-				bonus = 1.0
-				uses = 2
-				category = bb_tech
-				category = bc_tech
-			}
-			add_tech_bonus = {
-				name = cr_bonus
-				bonus = 1.0
-				uses = 2
-				category = cl_tech
-				category = ca_tech
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_bomber_effort
-		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = ITA_army_primacy }
-		prerequisite = { focus = ITA_air_innovation }
-		x = 0
-		y = 3
-		relative_position_id = ITA_army_primacy
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-
-			add_tech_bonus = {
-				name = ITA_bomber_effort
-				bonus = 1.0
-				uses = 1
-				category = tactical_bomber
-				#technology = tactical_bomber2
-				#technology = tactical_bomber3
-			}
-			add_tech_bonus = {
-				name = ITA_bomber_effort
-				bonus = 1.0
-				uses = 1
-				category = cas_bomber
-				#technology = CAS2
-				#technology = CAS3
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_naval_air_effort
-		icon = GFX_goal_generic_air_naval_bomber
-		text = naval_air_effort
-		prerequisite = { focus = ITA_air_innovation }
-		prerequisite = { focus = ITA_carrier_effort }
-		x = 1
-		y = 2
-		relative_position_id = ITA_air_innovation
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			air_experience = 25
-
-			add_tech_bonus = {
-				name = naval_air_effort
-				bonus = 1.0
-				uses = 1
-				category = naval_bomber
-				#technology = naval_bomber1
-				#technology = naval_bomber2
-				#technology = naval_bomber3
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_atlantic_fleet
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = ITA_carrier_effort }
-		prerequisite = { focus = ITA_capital_ships }
-		x = 1
-		y = 2
-		relative_position_id = ITA_carrier_effort
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			navy_experience = 25
-			add_tech_bonus = {
-				name = ITA_atlantic_fleet
-				bonus = 1.0
-				uses = 1
-				category = cv_tech
-			}
-			add_tech_bonus = {
-				name = ITA_atlantic_fleet
-				bonus = 1.0
-				uses = 1
-				category = bb_tech
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_marines_and_landing_craft
-		icon = GFX_goal_generic_amphibious_assault
-		prerequisite = { focus = ITA_capital_ships }
-		x = 2
-		y = 0
-		relative_position_id = ITA_atlantic_fleet
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = ITA_marines_and_landing_craft
-				bonus = 1.0
-				uses = 1
-				category = marine_tech
-				#technology = marines
-				#technology = marines2
-			}
-			add_tech_bonus = {
-				name = ITA_marines_and_landing_craft
-				bonus = 1.0
-				uses = 1
-				category = tp_tech
-				#technology = transport
-				#technology = landing_craft
-				#technology = tank_landing_craft
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_air_innovation_2
-		icon = GFX_goal_generic_build_airforce
-		text = air_innovation_2
-		prerequisite = { focus = ITA_bomber_effort focus = ITA_naval_air_effort }
-		x = 1
-		y = 1
-		relative_position_id = ITA_bomber_effort
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 1
-				category = light_fighter
-			}
-			add_doctrine_cost_reduction = {
-				name = air_doc_bonus
-				cost_reduction = 0.5
-				uses = 2
-				category = air_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_jet_engine_effort
-		icon = GFX_focus_rocketry
-		prerequisite = { focus = ITA_air_innovation_2 }
-		x = 0
-		y = 1
-		relative_position_id = ITA_air_innovation_2
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-		# Caproni Campini N.1
-			add_tech_bonus = {
-				name = ITA_jet_engine_effort
-				bonus = 1.0
-				uses = 1
-				category = jet_technology
-				#technology = jet_engines
-				#technology = jet_fighter1
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_light_ship_effort
-		icon = GFX_goal_generic_navy_cruiser
-		x = 8
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = dd_bonus
-				bonus = 1.0
-				uses = 1
-				category = dd_tech
-			}
-			add_doctrine_cost_reduction = {
-				name = con_def_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = convoy_defense_tree
-				#technology = convoy_sailing
-				#technology = convoy_sailing_ti
-				#technology = convoy_sailing_bs
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_escort_effort
-		icon = GFX_goal_generic_navy_anti_submarine
-		prerequisite = { focus = ITA_light_ship_effort }
-		x = 0
-		y = 1
-		relative_position_id = ITA_light_ship_effort
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = ITA_escort_effort
-				bonus = 1.0
-				uses = 1
-				category = dd_tech
-			}
-			add_doctrine_cost_reduction = {
-				name = ITA_escort_effort
-				cost_reduction = 0.5
-				uses = 2
-				category = convoy_defense_tree
-
-				#technology = convoy_escorts
-				#technology = convoy_escorts_bs
-				#technology = escort_carriers
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_submarine_effort
-		icon = GFX_goal_generic_navy_submarine
-		text = submarine_effort
-		prerequisite = { focus = ITA_light_ship_effort }
-		x = 2
-		y = 1
-		relative_position_id = ITA_light_ship_effort
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = ss_bonus
-				bonus = 1.0
-				uses = 1
-				category = ss_tech
-			}
-			add_doctrine_cost_reduction = {
-				name = sub_op_bonus
-				cost_reduction = 0.5
-				uses = 2
-				category = submarine_doctrine
-				#technology = submarine_operations
-				#technology = undersea_blockade
-				#technology = convoy_interdiction
-				#technology = submarine_offensive
-			}
-		}
-	}
-
-	###########################################
-
-
-
-
-	###########################################
-	focus = {
-		id = ITA_H1
-		icon = "GFX_focus_ita_villaggio_mussolini"
-		x = 15
-		y = 0
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 50
-		}
-
 		available = {
 		}
-
+		bypass = {
+		}
 		completion_reward = {
-			add_stability = 0.05
 		}
 	}
-	focus = {
-		id = ITA_H2
-		icon = "GFX_focus_generic_soviet_politics"
-		x = 0
+
+	shared_focus = { 
+		id = Italy_Naisei1
+		icon = "GFX_goal_generic_construction"
+		x = -3
 		y = 1
-		prerequisite = { focus = ITA_H1 }
-		relative_position_id = ITA_H1
-		cost = 5
-
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei }
+		mutually_exclusive = { }
+		cost = 10
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
-
 		available = {
 		}
-
+		bypass = {
+		}
 		completion_reward = {
-			add_political_power = 250
 		}
 	}
-	focus = {
-		id = ITA_H3
-		icon = "GFX_focus_POL_develop_polish_shipbuilding"
-		x = 2
-		y = 1
-		prerequisite = { focus = ITA_H1 }
-		relative_position_id = ITA_H1
-		cost = 5
-
-		ai_will_do = {
-			factor = 50
-		}
-
-		available = {
-		}
-
-		completion_reward = {
-			160 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = ITA_H4
-		icon = "GFX_focus_ita_on_northern_italy"
+	shared_focus = { 
+		id = Italy_Naisei2
+		icon = "GFX_goal_generic_construct_civ_factory"
 		x = -2
+		y = 2
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei1 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei3
+		icon = "GFX_goal_generic_construct_mil_factory"
+		x = -4
+		y = 2
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei1 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei4
+		icon = "GFX_goal_generic_construction2"
+		x = -3
+		y = 3
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei1 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei5
+		icon = "GFX_goal_generic_military_sphere"
+		x = -5
+		y = 3
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei3 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei6
+		icon = "GFX_goal_generic_construct_infrastructure"
+		x = -1
+		y = 3
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei2 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei7
+		icon = "GFX_focus_generic_industry_3"
+		x = -3
+		y = 4
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei4 }
+		prerequisite = { focus = Italy_Naisei5 focus = Italy_Naisei6 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei8
+		icon = "GFX_focus_DAM"
+		x = -3
+		y = 5
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei7 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei9
+		icon = "GFX_focus_usa_reestablish_the_gold_standard"
+		x = -1
+		y = 5
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei7 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei10
+		icon = "GFX_focus_hol_abandon_the_gold_standard"
+		x = -5
+		y = 5
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei7 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei11
+		icon = "GFX_goal_reichsautobahn"
+		x = -4
+		y = 6
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei10 }
+		prerequisite = { focus = Italy_Naisei8 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei12
+		icon = "GFX_focus_KUROZI"
+		x = -2
+		y = 6
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei9 }
+		prerequisite = { focus = Italy_Naisei8 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei13
+		icon = "GFX_goal_generic_consumer_goods"
+		x = -1
+		y = 4
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei6 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei14
+		icon = "GFX_focus_research"
+		x = -5
+		y = 4
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei5 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei15
+		icon = "GFX_focus_generic_diplomatic_treaty"
+		x = 3
 		y = 1
-		prerequisite = { focus = ITA_H1 }
-		relative_position_id = ITA_H1
-		cost = 5
-
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei }
+		mutually_exclusive = { }
+		cost = 10
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
-
 		available = {
 		}
-
+		bypass = {
+		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
 		}
 	}
-	focus = {
-		id = ITA_H5
-		icon = "GFX_focus_spr_torchbearers_of_tomorrow"
-		x = 1
+
+
+	shared_focus = { 
+		id = Italy_Naisei16
+		icon = "GFX_goal_generic_intelligence_exchange"
+		x = 2
 		y = 2
-		prerequisite = { focus = ITA_H2 }
-		relative_position_id = ITA_H1
-		cost = 5
-
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei15 }
+		mutually_exclusive = { }
+		cost = 10
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
-
 		available = {
-			GER = { has_war_with = SWE }
 		}
-
+		bypass = {
+		}
 		completion_reward = {
-			declare_war_on = {
-				target = MLT
-				type = annex_everything
-				}
-			add_timed_idea = {
-				idea = ITA_asasa
-				days = 90
-			}
-			hidden_effect = {
-				set_global_flag = ITA_naisen
-				MLT = {
-					set_rule = {
-					can_be_called_to_war = not
-					}
-					add_ideas =  naisenn1
-				}
-				leave_faction = yes
-			}
 		}
 	}
-	focus = {
-		id = ITA_H6
-		icon = "GFX_focus_SOV_builder_of_the_red_army"
+	shared_focus = { 
+		id = Italy_Naisei17
+		icon = "GFX_goal_generic_political_pressure"
+		x = 4
+		y = 2
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei15 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei18
+		icon = "GFX_goal_generic_neutrality_focus"
+		x = 3
+		y = 3
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei15 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei19
+		icon = "GFX_focus_SOV_mobilization_plan"
+		x = 5
+		y = 3
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei17 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei20
+		icon = "GFX_goal_generic_construct_civilian"
 		x = 1
 		y = 3
-		prerequisite = { focus = ITA_H5 }
-		relative_position_id = ITA_H1
-		cost = 5
-
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei16 }
+		mutually_exclusive = { }
+		cost = 10
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
-
 		available = {
 		}
-
+		bypass = {
+		}
 		completion_reward = {
-			add_stability = 0.05
 		}
 	}
-	focus = {
-		id = ITA_H7
+	shared_focus = { 
+		id = Italy_Naisei21
+		icon = "GFX_goal_generic_national_unity"
+		x = 3
+		y = 4
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei18 }
+		prerequisite = { focus = Italy_Naisei20 focus = Italy_Naisei19 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei22
 		icon = "GFX_goal_generic_propaganda"
-		x = -1
-		y = 2
-		prerequisite = { focus = ITA_H2 }
-		relative_position_id = ITA_H1
-		cost = 5
-
+		x = 3
+		y = 5
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei21 }
+		mutually_exclusive = { }
+		cost = 10
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
-
 		available = {
 		}
-
+		bypass = {
+		}
 		completion_reward = {
-			add_ideas = {
-				ITA_touitu
-			}
 		}
 	}
-	focus = {
-		id = ITA_H8
-		icon = "GFX_focus_SOV_restore_cossack_units"
+	shared_focus = { 
+		id = Italy_Naisei23
+		icon = "GFX_focus_POL_sanation_right"
+		x = 1
+		y = 5
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei21 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei24
+		icon = "GFX_focus_POL_complete_april_constitution"
+		x = 5
+		y = 5
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei21 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei25
+		icon = "GFX_goal_generic_scientific_exchange"
+		x = 4
+		y = 6
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei22 }
+		prerequisite = { focus = Italy_Naisei24 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei26
+		icon = "GFX_focus_generic_military_academy"
+		x = 2
+		y = 6
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei23 }
+		prerequisite = { focus = Italy_Naisei22 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei27
+		icon = "GFX_focus_mex_soldaderas"
+		x = 1
+		y = 4
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei20 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei28
+		icon = "GFX_focus_renounce_the_treaty_of_trianon"
+		x = 5
+		y = 4
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei19 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei29
+		icon = "GFX_focus_generic_treaty"
+		x = 0
+		y = 1
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_Naisei30
+		icon = "GFX_focus_generic_support_the_left_right"
+		x = 0
+		y = 2
+		relative_position_id = Italy_Naisei
+		prerequisite = { focus = Italy_Naisei29 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN
+		icon = "GFX_goal_demand_sudetenland"
+		x = 17
+		y = 0
+		prerequisite = { }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN1
+		icon =  "GFX_goal_generic_allies_build_infantry"
+		x = 1
+		y = 1
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN10
+		icon = "GFX_goal_generic_army_doctrines"
+		x = 3
+		y = 2
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN1 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN11
+		icon = "GFX_focus_generic_manpower"
+		x = 3
+		y = 3
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN10 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN12
+		icon = "GFX_goal_generic_army_motorized"
+		x = 1
+		y = 3
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN10 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN13
+		icon = "GFX_focus_generic_paratrooper"
+		x = 5
+		y = 3
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN10 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN14
+		icon = "GFX_goal_generic_army_tanks"
+		x = 4
+		y = 4
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN10 }
+		mutually_exclusive = { focus = Italy_GUN15 }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN15
+		icon = "GFX_goal_generic_army_artillery2"
+		x = 2
+		y = 4
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN10 }
+		mutually_exclusive = { focus = Italy_GUN14 }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN16
+		icon = "GFX_focus_chi_army_reform"
+		x = 3
+		y = 5
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN11 }
+		prerequisite = { focus = Italy_GUN14 focus = Italy_GUN15 }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN2
+		icon = "GFX_goal_generic_build_navy"
+		x = -1
+		y = 1
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN20
+		icon = "GFX_goal_generic_navy_doctrines_tactics"
+		x = -3
+		y = 2
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN2 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+
+	shared_focus = { 
+		id = Italy_GUN21
+		icon = "GFX_goal_generic_navy_submarine"
+		x = -3
+		y = 3
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN20 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN22
+		icon = "GFX_goal_generic_amphibious_assault"
 		x = -1
 		y = 3
-		prerequisite = { focus = ITA_H7 }
-		relative_position_id = ITA_H1
-		cost = 5
-
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN20 }
+		mutually_exclusive = { }
+		cost = 10
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
-
 		available = {
 		}
-
+		bypass = {
+		}
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = ITA_touitu
-				add_idea = ITA_touitu1
-			}
 		}
 	}
-	focus = {
-		id = ITA_H9
-		icon = "GFX_focus_SOV_the_last_purge"
+	shared_focus = { 
+		id = Italy_GUN23
+		icon = "GFX_focus_generic_cryptologic_bomb"
+		x = -5
+		y = 3
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN20 }
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN24
+		icon = "GFX_goal_generic_navy_carrier"
+		x = -4
+		y = 4
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN20 }
+		mutually_exclusive = { focus = Italy_GUN25 }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN25
+		icon ="GFX_goal_generic_navy_battleship"
+		x = -2
+		y = 4
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN20 }
+		mutually_exclusive = { focus = Italy_GUN24 }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN26
+		icon = "GFX_goal_generic_navy_cruiser"
+		x = -3
+		y = 5
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN21 }
+		prerequisite = { focus = Italy_GUN24 focus = Italy_GUN25 }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN30
+		icon = "GFX_goal_generic_build_airforce"
+		x = 0
+		y = 2
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = { 
+		id = Italy_GUN31
+		icon ="GFX_goal_generic_air_doctrine"
 		x = 0
 		y = 4
-		prerequisite = { focus = ITA_H8 }
-		prerequisite = { focus = ITA_H6 }
-		relative_position_id = ITA_H1
-		cost = 5
-
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN30 }
+		cost = 10
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
-
 		available = {
 		}
-
+		bypass = {
+		}
 		completion_reward = {
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = SWI
-				}
-				add_state_core = 872
-				add_state_core = 870
-				FRA = {
-					add_state_core = 871
-				}
-				GER = {
-					add_state_core = 873
-				}
 		}
 	}
-	focus = {
-		id = ITA_H10
-		icon = "GFX_goal_generic_demand_territory"
-		x = 0
+	shared_focus = { 
+		id = Italy_GUN32
+		icon = "GFX_focus_SOV_flying_clubs"
+		x = 1
 		y = 5
-		prerequisite = { focus = ITA_H9 }
-		relative_position_id = ITA_H1
-		cost = 5
-
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN31 }
+		cost = 10
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
-
 		available = {
 		}
-
+		bypass = {
+		}
 		completion_reward = {
-			remove_ideas = {
-				ITA_syoki_ideas
-				ITA_touitu1
-			}
 		}
 	}
-	focus = {
-		id = ITA_H12
-		icon = "GFX_focus_SOV_womens_fascist_movement"
-		x = -3
-		y = 3
-		prerequisite = { focus = ITA_H13 }
-		relative_position_id = ITA_H1
-		cost = 5
-
+	shared_focus = { 
+		id = Italy_GUN33
+		icon = "GFX_goal_generic_air_fighter"
+		x = -1
+		y = 5
+		relative_position_id = Italy_GUN
+		prerequisite = { focus = Italy_GUN31 }
+		cost = 10
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
-
 		available = {
 		}
-
+		bypass = {
+		}
 		completion_reward = {
-			add_stability = 0.15
 		}
 	}
-	focus = {
-		id = ITA_H13
-		icon = "GFX_focus_POL_warsaw_main_station"
-		x = -3
-		y = 2
-		prerequisite = { focus = ITA_H4 }
-		relative_position_id = ITA_H1
-		cost = 5
-
-		ai_will_do = {
-			factor = 50
-		}
-
-		available = {
-		}
-
-		completion_reward = {
-			every_owned_state = {
-				set_building_level = {
-					type = infrastructure
-					level = 10
-					instant_build = yes
-					}
-			}
-
-		}
-	}
-	focus = {
-		id = ITA_H14
-		icon = "GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny"
-		x = 3
-		y = 2
-		prerequisite = { focus = ITA_H3 }
-		relative_position_id = ITA_H1
-		cost = 5
-
-		ai_will_do = {
-			factor = 50
-		}
-
-		available = {
-		}
-
-		completion_reward = {
-		add_ideas = {
-			ITA_umi
-		}
-		}
-	}
-	focus = {
-		id = ITA_H15
-		icon = "GFX_focus_spa_save_the_alcazar"
-		x = 3
-		y = 3
-		prerequisite = { focus = ITA_H14 }
-		relative_position_id = ITA_H1
-		cost = 5
-
-		ai_will_do = {
-			factor = 50
-		}
-
-		available = {
-		}
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = ITA_umi
-				add_idea = ITA_umi2
-			}
-		}
-	}
-
-
-
-
-
-
-	
-focus = {
-    id = ITA_g1
-    icon = "GFX_focus_generic_italy_first"
-    x = 10
-    y = 2
-
-    cost = 5
-	available = {
-		has_completed_focus = ITA_H10
-	}
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	add_ideas = ITA_rome
-	hidden_effect = {
-		add_ai_strategy = {
-			type = 	declare_war
-			id = GER
-			value = 500
-			}
-			add_ai_strategy = {
-				type = 	declare_war
-				id = FRA
-				value = 500
-				}
-				add_ai_strategy = {
-					type = 	declare_war
-					id = AUS
-					value = 500
-					}
-					add_ai_strategy = {
-						type = 	declare_war
-						id = TUR
-						value = 500
-						}
-	}
-
-}
-}
-focus = {
-    id = ITA_g2
-    icon = "GFX_goal_generic_war_with_comintern"
-    x = 0
-    y = 1
-	prerequisite = {  focus = ITA_g1 }
-	relative_position_id = ITA_g1
-    cost = 5
-
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-   add_war_support = 0.35
-}
-}
-focus = {
-    id = ITA_g3
-    icon = "GFX_focus_generic_adriatic_sea_focus"
-    x = -3
-    y = 2
-	prerequisite = {  focus = ITA_g2 }
-	relative_position_id = ITA_g1
-    cost = 5
-
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	add_state_core = 736
-	add_state_core = 153
-	add_state_core = 102
-	add_state_core = 103
-	add_state_core = 109
-	add_state_core = 163
-	add_state_core = 879
-	add_state_core = 804
-	add_state_core = 104
-	add_state_core = 105
-	add_state_core = 44
-	add_state_core = 802
-	add_state_core = 108
-	add_state_core = 107
-}
-}
-#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
-#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
-focus = {
-    id = ITA_g4
-    icon = "GFX_focus_usa_focus_on_europe"
-    x = 3
-    y = 2
-	prerequisite = {  focus = ITA_g2 }
-	relative_position_id = ITA_g1
-    cost = 5
-	available = {
-		has_completed_focus = ITA_g9
-	}
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	add_state_core = 735
-	add_state_core = 32
-	add_state_core = 871
-	add_state_core = 20
-	add_state_core = 21
-	add_state_core = 22
-	add_state_core = 31
-	add_state_core = 25
-	add_state_core = 33
-	add_state_core = 23
-	add_state_core = 19
-	add_state_core = 806
-	add_state_core = 14
-	add_state_core = 30
-	add_state_core = 15
-	add_state_core = 29
-	add_state_core = 24
-	add_state_core = 27
-	add_state_core = 17
-	add_state_core = 875
-	add_state_core = 28
-		add_state_core = 18
-		add_state_core = 16
-		add_state_core = 785
-		add_state_core = 8
-		add_state_core = 34
-		add_state_core = 6
-		add_state_core = 874
-		add_state_core = 35
-		add_state_core = 51
-		add_state_core = 42
-}
-}
-focus = {
-    id = ITA_g5
-    icon = "GFX_focus_fra_le_deluge"
-    x = 3
-    y = 3
-	prerequisite = {  focus = ITA_g4 }
-	relative_position_id = ITA_g1
-    cost = 5
-
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	add_timed_idea = {
-		idea = ITA_FRA
-		days = 90
-	}
-}
-}
-focus = {
-    id = ITA_g6
-    icon = "GFX_focus_ger_break_anglo_french_colonial_hegemony"
-    x = 3
-    y = 4
-	prerequisite = {  focus = ITA_g5 }
-	relative_position_id = ITA_g1
-    cost = 5
-
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	create_wargoal = {
-		type = annex_everything
-		target = ENG
-		}
-		create_wargoal = {
-			type = annex_everything
-			target = FRA
-			}
-}
-}
-focus = {
-    id = ITA_g7
-    icon = "GFX_focus_ger_great_red_menace"
-    x = 2
-    y = 5
-	prerequisite = {  focus = ITA_g6 }
-	prerequisite = {  focus = ITA_g9 }
-	relative_position_id = ITA_g1
-    cost = 5
-
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	set_stability = 1
-	add_threat = 10
-	hidden_effect = {
-		news_event = {
-			id = news.3
-			days = 1
-			random = 0
-			}
-	}
-}
-}
-focus = {
-    id = ITA_g8
-    icon = "GFX_focus_generic_balkans_focus"
-    x = 1
-    y = 2
-	prerequisite = {  focus = ITA_g2 }
-	relative_position_id = ITA_g1
-    cost = 5
-	available = {
-		has_completed_focus = ITA_g11
-	}
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	create_wargoal = {
-		type = annex_everything
-		target = TUR
-		}
-}
-}
-focus = {
-    id = ITA_g9
-    icon = "GFX_focus_BUL_the_peoples_republic_of_bulgaria"
-    x = 1
-    y = 3
-	prerequisite = {  focus = ITA_g8 }
-	relative_position_id = ITA_g1
-    cost = 5
-
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	add_state_core = 184
-	add_state_core = 212
-	add_state_core = 211
-	add_state_core = 341
-	add_state_core = 797
-		add_state_core = 347
-			add_state_core = 187
-			add_state_core = 164
-			add_state_core = 340
-			add_state_core = 339
-			add_state_core = 342
-			add_state_core = 343
-			add_state_core = 49
-			add_state_core = 346
-			add_state_core = 345
-			add_state_core = 356
-			add_state_core = 798
-			add_state_core = 348
-			add_state_core = 344
-			add_state_core = 355
-			add_state_core = 349
-			add_state_core = 799
-			add_state_core = 677
-			add_state_core = 553
-			add_state_core = 554
-			add_state_core = 455
-			add_state_core = 183
-			add_state_core = 116
-}
-}
-focus = {
-    id = ITA_g10
-    icon = "GFX_focus_generic_aegean_sea_focus"
-    x = -1
-    y = 2
-	prerequisite = {  focus = ITA_g2 }
-	relative_position_id = ITA_g1
-    cost = 5
-	available = {
-		has_completed_focus = ITA_g13
-	}
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	add_state_core = 185
-	add_state_core = 855
-	add_state_core = 186
-	add_state_core = 47
-	add_state_core = 731
-	add_state_core = 106
-	add_state_core = 803
-	add_state_core = 182
-
-}
-}
-focus = {
-    id = ITA_g11
-    icon = "GFX_focus_GRE_byzantine_themata"
-    x = -1
-    y = 3
-	prerequisite = {  focus = ITA_g10 }
-	relative_position_id = ITA_g1
-    cost = 5
-
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	create_wargoal = {
-		type = annex_everything
-		target = GRE
-		}
-}
-}
-focus = {
-    id = ITA_g12
-    icon = "GFX_focus_proclaim_the_restauration_of_Austria_Hungary"
-    x = -3
-    y = 3
-	prerequisite = {  focus = ITA_g3 }
-	relative_position_id = ITA_g1
-    cost = 5
-
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	create_wargoal = {
-		type = annex_everything
-		target = AUS
-		}
-}
-}
-focus = {
-    id = ITA_g13
-    icon = "GFX_focus_YUG_dissolve_serbia"
-    x = -3
-    y = 4
-	prerequisite = {  focus = ITA_g12 }
-	relative_position_id = ITA_g1
-    cost = 5
-
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	create_wargoal = {
-		type = annex_everything
-		target = YUG
-		}
-}
-}
-focus = {
-    id = ITA_g14
-    icon = "GFX_focus_invasion_of_albania"
-    x = -2
-    y = 5
-	prerequisite = {  focus = ITA_g13 }
-	prerequisite = {  focus = ITA_g11 }
-	relative_position_id = ITA_g1
-    cost = 5
-
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	add_state_core = 44
-	add_state_core = 805
-	create_wargoal = {
-		type = annex_everything
-		target = ALB
-		}
-}
-}
-focus = {
-    id = ITA_g15
-    icon ="GFX_focus_SOV_proclaim_soviet_hegemony"
-    x = 0
-    y = 6
-	prerequisite = {  focus = ITA_g14  }
-	prerequisite = {  focus = ITA_g7 }
-	relative_position_id = ITA_g1
-    cost = 5
-
-    ai_will_do = {
-    factor = 50
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-	add_threat = -500
-}
-}
-}
