@@ -4,22 +4,24 @@ state={
 	name="STATE_272"
 	manpower = 1638000
 	resources={
-		steel=3 # was: 4
+		steel=31 # was: 4
 	}
 	
-	state_category = pastoral
+	state_category = large_city
 
 	history={
 		owner = GNA
 		add_core_of = GNA
 		victory_points = {
-			4948 5 
+			4948 30 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			air_base = 4
+			industrial_complex = 10
+			arms_factory = 3
 			4948 = {
-				naval_base = 3
+				naval_base = 4
 			}
 		}
 	}

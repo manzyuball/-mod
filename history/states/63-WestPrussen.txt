@@ -17,7 +17,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			industrial_complex = 5
 			11372 = {
 				naval_base = 1
 
@@ -30,13 +30,13 @@ state={
 
 		}
 		add_core_of = GER
-		add_core_of = KSH
 		add_core_of = POL
+		add_core_of = LAT
 
 	}
 
 	provinces={
-		6282 6309 6334 6390 7922 8646 9252 9277 9306 9334 9361 9387 11260 11288 11316 11343 11372 13299 
+		6282 6309 6334 6390 9252 9277 9306 9334 9361 11260 11288 11316 11343 11372 
 	}
 	manpower=1124417
 	buildings_max_level_factor=1.000

@@ -7,8 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = SPR
-		add_core_of = GLC
+		owner = MOR
 		victory_points = {
 			758 5
 		}
@@ -25,6 +24,8 @@ state={
 			}
 		}
 		add_core_of = SPR
+		add_core_of = CAT
+		add_core_of = MOR
 	}
 
 	provinces={

@@ -1,0 +1,13 @@
+JAP_bouhatei = {
+	icon = jap_pacific_guardian
+	allowed = {
+		original_tag = JAP
+	}
+}
+ENG_decision = {
+	icon = generic_propaganda
+	allowed = {
+		has_war = yes
+		original_tag = ENG
+	}
+}

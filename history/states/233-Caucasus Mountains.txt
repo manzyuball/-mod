@@ -7,6 +7,7 @@ state = {
 
 	history = {
 		owner = SOV
+		add_core_of = VLA
 		buildings = {
 			infrastructure = 2
 
@@ -18,7 +19,7 @@ state = {
 	}
 
 	provinces = {
-		  3698 6692 6721 9649 9663 9674 13863 
+		  3698 6692 6721 9649 9663 9674 11664 
 	}
 	manpower = 387990
 	buildings_max_level_factor = 1.000

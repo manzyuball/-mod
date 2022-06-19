@@ -7,7 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = RAJ
+		owner = IVO
+		add_core_of = IVO
 		buildings = {
 			infrastructure = 1
 		}
@@ -16,7 +17,7 @@ state={
 	}
 
 	provinces={
-		5042 7273 7316 8005 10905 12754 12884 10893 
+		5042 7273 7316 8005 10905 12754 12884 
 	}
 
 	local_supplies=0.0 

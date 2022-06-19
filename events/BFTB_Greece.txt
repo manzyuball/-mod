@@ -1,0 +1,5 @@
+###########################
+# Greek Events
+###########################
+
+add_namespace = bftb_greece

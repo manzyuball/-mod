@@ -1,18 +1,4 @@
 characters={
-	GER_adolf_hitler={
-		name=GER_adolf_hitler
-		portraits={
-			civilian={
-				large="gfx/leaders/GER/Portrait_Germany_Adolf_Hitler.dds"
-			}
-		}
-		country_leader={
-			ideology=nazism
-			traits={ dictator }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
 
 	GER_konrad_adenauer={
 		name=GER_konrad_adenauer
@@ -28,16 +14,16 @@ characters={
 		}
 	}
 
-	GER_wilhelm_pieck={
-		name=GER_wilhelm_pieck
+	GER_wal = {
+		name = GER_wal
 		portraits={
 			civilian={
-				large="gfx/leaders/GER/Portrait_Germany_Wilhelm_Pieck.dds"
+				large = "gfx/leaders/_EOB/walter.dds"
 			}
 		}
 		country_leader={
-			ideology=stalinism
-			traits={ exiled }
+			ideology=marxism
+			traits={ anti_democrat }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -169,7 +155,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_army_innovation
+				
 			}
 			traits = {
 				army_armored_3
@@ -1084,10 +1070,9 @@ characters={
 			slot = army_chief
 			idea_token = wilhelm_keitel
 			allowed = {
-				original_tag = GER
+				original_tag = LAT
 			}
 			available = {
-				has_government = fascism
 			}
 			traits = {
 				army_chief_drill_2
@@ -1110,7 +1095,7 @@ characters={
 			slot = army_chief
 			idea_token = franz_halder
 			allowed = {
-				original_tag = GER
+				original_tag = LAT
 			}
 			traits = {
 				army_chief_offensive_2
@@ -1136,7 +1121,6 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_army_innovation
 			}
 			traits = {
 				army_chief_maneuver_2
@@ -1174,13 +1158,9 @@ characters={
 			slot = air_chief
 			idea_token = goering
 			allowed = {
-				original_tag = GER
+				original_tag = LAT
 			}
 			available = {
-				or = {
-					has_government = fascism
-					has_country_flag = GER_reinstated_nazi_leadership
-				}
 			}
 			traits = {
 				air_chief_ground_support_2
@@ -1206,7 +1186,6 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_air_innovation
 			}
 			traits = {
 				air_chief_all_weather_2
@@ -1241,7 +1220,7 @@ characters={
 			idea_token = ferdinand_schorner
 			ledger = army
 			allowed = {
-				original_tag = GER
+				original_tag = LAT
 			}
 			traits = {
 				army_infantry_2
@@ -1289,10 +1268,9 @@ characters={
 			idea_token = hugo_sperrle
 			ledger = air
 			allowed = {
-				original_tag = GER
+				original_tag = LAT
 			}
 			available = {
-				has_completed_focus = GER_air_innovation
 			}
 			traits = {
 				air_close_air_support_2
@@ -1394,7 +1372,6 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_west_wall 
 			}
 			traits = {
 				fortification_engineer 
@@ -1439,10 +1416,6 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_four_year_plan 
-				not = {
-					has_completed_focus = GER_demand_sudetenland 
-				}
 			}
 			traits = {
 				captain_of_industry 
@@ -1489,14 +1462,6 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					not = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
 			}
 			traits = {
 				communist_revolutionary 
@@ -1526,20 +1491,6 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-				if = {
-					limit = {
-						has_dlc = "Waking the Tiger"
-					}
-					has_completed_focus = GER_reestablish_free_elections 
-				}
 			}
 			traits = {
 				democratic_reformer 
@@ -1569,15 +1520,6 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_government = fascism 
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
 			}
 			traits = {
 				fascist_demagogue propaganda_expert 
@@ -1607,13 +1549,6 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				NOT = {
-					has_country_flag = flight_of_hess 
-				}
-				OR = {
-					has_government = fascism 
-					has_country_flag = GER_reinstated_nazi_leadership 
-				}
 			}
 			traits = {
 				amateur_aviator_hess
@@ -1642,10 +1577,6 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				OR = {
-					has_government = fascism 
-					has_country_flag = GER_reinstated_nazi_leadership 
-				}
 			}
 			on_add = {
 				custom_effect_tooltip = GER_SS_himmler_recruit
@@ -1670,10 +1601,6 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				OR = {
-					has_government = fascism 
-					has_country_flag = GER_reinstated_nazi_leadership 
-				}
 			}
 			ai_will_do = {
 				factor = 30.000
@@ -1698,10 +1625,6 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				OR = {
-					has_government = fascism 
-					has_country_flag = GER_reinstated_nazi_leadership 
-				}
 			}
 			traits = {
 				backroom_backstabber 
@@ -1742,11 +1665,10 @@ characters={
 			slot = political_advisor
 			idea_token = GER_hans_oster
 			allowed = {
-				original_tag = GER
+				original_tag = LAT
 				has_dlc = "Waking the Tiger"
 			}
 			available = {
-				has_completed_focus = GER_oppose_hitler 
 			}
 			traits = {
 				anti_fascist_agent 
@@ -1768,11 +1690,10 @@ characters={
 			slot = political_advisor
 			idea_token = GER_alfred_hugenberg
 			allowed = {
-				original_tag = GER
+				original_tag = LAT
 				has_dlc = "Waking the Tiger"
 			}
 			available = {
-				has_completed_focus = GER_revive_the_kaiserreich 
 			}
 			traits = {
 				monarchist_media_mogul 
@@ -1794,11 +1715,10 @@ characters={
 			slot = political_advisor
 			idea_token = GER_carl_friedrich_goerdeler
 			allowed = {
-				original_tag = GER
+				original_tag = LAT
 				has_dlc = "Waking the Tiger"
 			}
 			available = {
-				has_completed_focus = GER_revive_the_kaiserreich 
 			}
 			traits = {
 				economist 
@@ -1820,11 +1740,10 @@ characters={
 			slot = political_advisor
 			idea_token = GER_julius_leber
 			allowed = {
-				original_tag = GER
+				original_tag = LAT
 				has_dlc = "Waking the Tiger"
 			}
 			available = {
-				has_completed_focus = GER_reestablish_free_elections 
 			}
 			traits = {
 				connected_citizen 
@@ -1846,11 +1765,10 @@ characters={
 			slot = political_advisor
 			idea_token = GER_theodor_heuss
 			allowed = {
-				original_tag = GER
+				original_tag = LAT
 				has_dlc = "Waking the Tiger"
 			}
 			available = {
-				has_completed_focus = GER_reestablish_free_elections 
 			}
 			traits = {
 				liberal_journalist 

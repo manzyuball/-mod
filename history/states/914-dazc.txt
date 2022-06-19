@@ -5,7 +5,8 @@ state={
 		610 677 768 781 3644 6482 6681 6745 6757 6772 9730 11658 
 	}
 	history={
-		owner = USA
+		owner = USN
+		add_core_of = USN
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2

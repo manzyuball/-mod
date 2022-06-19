@@ -2,37 +2,38 @@
 state={
 	id=371
 	name="STATE_371"
+	manpower = 2101592
+	
+	state_category = metropolis
+	
 	resources={
-		oil=44.000
-		coca=12.000
+		oil=44 # w
 	}
 
 	history={
 		owner = CSA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 3 #was: 5
 			industrial_complex = 2
 			air_base = 5
 			7552 = {
 				naval_base = 5
 
 			}
-
 		}
 		add_core_of = USA
 		add_core_of = CSA
 		add_core_of = USB
+		add_core_of = USN
 		victory_points = {
-			7552 35 
+			7552 25 
 		}
 
 	}
 
 	provinces={
-		1453 1528 1559 1643 4507 4522 4535 7524 7552 7555 7599 12313 12398 12401 13937 13938 13939 
+		1453 1528 1559 1643 4507 4522 4535 7524 7552 7555 7599 12313 12398 12401 
 	}
-	manpower=2101592
-	buildings_max_level_factor=1.000
-	state_category=metropolis
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

@@ -21,11 +21,13 @@ state={
 
 		}
 		add_core_of = SPR
+		add_core_of = CAT
+		add_core_of = MOR
 
 	}
 
 	provinces={
-		858 896 939 977 3794 3845 3938 3986 6914 9767 9800 11820 13224 13744 13593 13633
+		858 896 939 977 3794 3845 3938 3986 6914 9767 9800 11820 13224 
 	}
 	manpower=2064659
 	buildings_max_level_factor=1.000

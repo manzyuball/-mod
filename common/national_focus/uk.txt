@@ -925,10 +925,6 @@ focus = {
 		cost = 5
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				has_completed_focus = ENG_concessions_to_the_trade_unions
-			}
 		}	
 
 		available_if_capitulated = yes
@@ -956,7 +952,6 @@ focus = {
 			army_experience = 5
 			navy_experience = 25
 			air_experience = 25
-			add_ideas = ENG_service_overseas_idea
 		}
 	}
 	focus = {
@@ -978,22 +973,6 @@ focus = {
 		relative_position_id = uk_service_focus
 		cost = 3
 		completion_reward = {
-			if = {
-				limit = {
-					has_idea = ENG_fortify_the_empire_1
-				}
-				swap_ideas = {
-					remove_idea = ENG_fortify_the_empire_1
-					add_idea = ENG_fortify_the_empire_2
-				}
-			}
-			if = {
-				limit = {
-					NOT = { has_idea = ENG_fortify_the_empire_1 }
-					NOT = { has_idea = ENG_fortify_the_empire_2 }
-				}
-				add_ideas = ENG_fortify_the_empire_1
-			}
 			447 = {
 				add_building_construction = {
 					type = coastal_bunker
@@ -1144,9 +1123,6 @@ focus = {
 					}
 				}
 			}
-			hidden_effect = {
-				news_event = { hours = 5 id = news.224 }
-			}
 		}
 	}
 
@@ -1282,20 +1258,6 @@ focus = {
 			ROM = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_good } }
 			BUL = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_bad } }
 			HUN = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_bad } }
-			hidden_effect = {
-				news_event = {
-					hours = 6 id = news.228
-				}
-			}
-			if = {
-				limit = {
-					has_dlc = "Death or Dishonor"
-				}
-				country_event = {
-					id = DOD_yugoslavia.40
-					days = 5
-				}
-			}
 		}
 	}
 
@@ -2352,13 +2314,15 @@ focus = {
 		x = 38
 		y = 0
 		cost = 3
-		
+		ai_will_do = {
+			factor = 1000
+		}
 		available_if_capitulated = yes
 		completion_reward = {
-			set_political_party = {
-				ideology = democracy
-				popularity = 5
-				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.5
+					}
 		}
 	}
 	focus = {
@@ -2368,10 +2332,12 @@ focus = {
 		y = 1
 		cost = 3
 		prerequisite = { focus = uk_b1 }
-
+		ai_will_do = {
+			factor = 1000
+		}
 		available_if_capitulated = yes
 		completion_reward = {
-			create_faction = "連合国"
+			add_political_power = 250
 		}
 	}
 
@@ -2742,7 +2708,9 @@ focus = {
 		y = 2
 		cost = 3
 		prerequisite = { focus = uk_b2 }
-
+		ai_will_do = {
+			factor = 1000
+		}
 		available_if_capitulated = yes
 		completion_reward = {
 			add_political_power = 75
@@ -2879,10 +2847,18 @@ focus = {
 		y = 3
 		cost = 3
 		prerequisite = { focus = uk_b5 }
-
+		ai_will_do = {
+			factor = 1000
+		}
 		available_if_capitulated = yes
 		completion_reward = {
-			ENG = { add_to_faction = JAP }
+			JAP = {
+			country_event = {
+				id = japan.19
+				days = 1
+				random = 0
+				}
+			}
 			reverse_add_opinion_modifier = {
 				target = JAP
 				modifier = kyuusekkinn

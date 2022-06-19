@@ -6,11 +6,11 @@ state={
 	
 	state_category = pastoral
 	resources={
-		rubber=1 # was: 1
+		rubber=13
+		steel=23.000
 	}
 	history={
 		owner = TZN
-		add_core_of = RCG
 		victory_points = {
 			8193 2
 		}
@@ -25,7 +25,7 @@ state={
 	}
 
 	provinces={
-		2192 3109 6008 8193 12975 13270 
+		2192 3109 6008 8193 12975 
 	}
 
 	local_supplies=0.0 

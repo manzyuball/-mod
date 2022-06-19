@@ -31,7 +31,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 	    completion_reward = {
-          
+          add_ideas = TAN_kigyou
 	    }
 }
 
@@ -50,7 +50,7 @@ focus = {
     }	
 
 completion_reward = {
-   
+    add_political_power = 150
 }
 }
 focus = {
@@ -68,7 +68,21 @@ focus = {
     }	
 
 completion_reward = {
-   
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
 }
 }
 focus = {
@@ -86,7 +100,10 @@ focus = {
     }	
 
 completion_reward = {
-   
+   swap_ideas = {
+    remove_idea = TAN_kigyou
+    add_idea = TAN_kigyou1
+   }
 }
 }
 focus = {
@@ -104,7 +121,10 @@ focus = {
     }	
 
 completion_reward = {
-   
+   swap_ideas = {
+    remove_idea = TAN_kigyou1
+    add_idea = TAN_kigyou2
+   }
 }
 }
 focus = {
@@ -122,7 +142,10 @@ focus = {
     }	
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = TAN_kigyou2
+        add_idea = TAN_kigyou3
+       }
 }
 }
 focus = {
@@ -140,7 +163,51 @@ focus = {
     }	
 
 completion_reward = {
-   
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+    }
 }
 }
 focus = {
@@ -158,7 +225,36 @@ focus = {
     }	
 
 completion_reward = {
-   
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
 }
 }
 focus = {
@@ -177,7 +273,39 @@ focus = {
     }	
 
 completion_reward = {
-   
+    if = {
+        limit = {
+            NOT = {
+                any_owned_state = {
+                    dockyard > 0
+                    free_building_slots = {
+                        building = dockyard
+                        size > 2
+                        include_locked = yes
+                    }
+                }
+            }
+            any_owned_state = {
+                is_coastal = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                is_coastal = yes
+                free_building_slots = {
+                    building = dockyard
+                    size > 2
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = dockyard
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
 }
 }
 focus = {
@@ -195,7 +323,7 @@ focus = {
     }	
 
 completion_reward = {
-   
+   add_ideas = TAN_ahen
 }
 }
 focus = {
@@ -213,7 +341,10 @@ focus = {
     }	
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = TAN_ahen
+        add_idea = TAN_ahen1
+       }
 }
 }
 focus = {
@@ -232,7 +363,10 @@ focus = {
     }	
 
 completion_reward = {
-   
+   swap_ideas = {
+    remove_idea = TAN_ahen1
+    add_idea = TAN_ahen3
+   }
 }
 }
 focus = {
@@ -250,7 +384,7 @@ focus = {
     }	
 
 completion_reward = {
-   
+    add_research_slot = 1
 }
 }
 focus = {
@@ -269,7 +403,10 @@ focus = {
     }	
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = TAN_ahen1
+        add_idea = TAN_ahen2
+       }
 }
 }
 focus = {
@@ -287,7 +424,7 @@ focus = {
     }	
 
 completion_reward = {
-   
+    add_manpower = 100000
 }
 }
 focus = {
@@ -305,7 +442,17 @@ focus = {
     }	
 
 completion_reward = {
-   
+    add_ideas = TAN_ahen4
+    hidden_effect = {
+    swap_ideas = {
+        remove_idea = TAN_ahen2
+        add_idea = TAN_ahen4
+       }
+       swap_ideas = {
+        remove_idea = TAN_ahen3
+        add_idea = TAN_ahen4
+       }
+    }
 }
 }
 focus = {
@@ -323,7 +470,7 @@ focus = {
     }	
 
 completion_reward = {
-   
+    add_manpower = 85000
 }
 }
 focus = {
@@ -341,7 +488,7 @@ focus = {
     }	
 
 completion_reward = {
-   
+    add_stability = 0.15
 }
 }
 focus = {
@@ -359,7 +506,7 @@ focus = {
     }	
 
 completion_reward = {
-   
+    add_political_power = 250
 }
 }
 focus = {
@@ -379,7 +526,16 @@ focus = {
     }	
 
 completion_reward = {
-   
+    random_owned_controlled_state = {
+    add_manpower = 21000
+    }
+    random_owned_controlled_state = {
+        add_manpower = 21000
+        }
+        random_owned_controlled_state = {
+            add_manpower = 21000
+            }
+            add_manpower = -63000
 }
 }
 focus = {
@@ -397,7 +553,10 @@ focus = {
     }	
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = TAN_kigyou3
+        add_idea = TAN_kigyou4
+       }
 }
 }
 focus = {
@@ -417,7 +576,10 @@ focus = {
     }	
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = TAN_kigyou3
+        add_idea = TAN_kigyou5
+       }
 }
 }
 focus = {
@@ -435,7 +597,10 @@ focus = {
     }	
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = TAN_kigyou5
+        add_idea = TAN_kigyou6
+       }
 }
 }
 focus = {
@@ -453,7 +618,7 @@ focus = {
     }	
 
 completion_reward = {
-   
+    add_stability = 0.15
 }
 }
 focus = {
@@ -471,7 +636,21 @@ focus = {
     }	
 
 completion_reward = {
-   
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
 }
 }
 focus = {
@@ -489,7 +668,10 @@ focus = {
     }	
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = TAN_ahen4
+        add_idea = TAN_ahen5
+       }
 }
 }
 focus = {
@@ -507,7 +689,7 @@ focus = {
     }	
 
 completion_reward = {
-   
+    add_research_slot = 1
 }
 }
 focus = {
@@ -525,7 +707,10 @@ focus = {
     }	
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = TAN_ahen5
+        add_idea = TAN_ahen6
+       }
 }
 }
 focus = {
@@ -543,7 +728,7 @@ focus = {
     }	
 
 completion_reward = {
-   
+    add_research_slot = 1
 }
 }
 focus = {
@@ -561,7 +746,7 @@ focus = {
     }	
 
 completion_reward = {
-   
+    army_experience = 150
 }
 }
 focus = {
@@ -597,7 +782,36 @@ focus = {
     }	
 
 completion_reward = {
-   
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
 }
 }
 focus = {
@@ -669,7 +883,36 @@ focus = {
     }	
 
 completion_reward = {
-   
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = arms_factory
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = arms_factory
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = arms_factory
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = arms_factory
+            level = 2
+            instant_build = yes
+        }
+    }
 }
 }
 focus = {
@@ -741,7 +984,39 @@ focus = {
     }	
 
 completion_reward = {
-   
+    if = {
+        limit = {
+            NOT = {
+                any_owned_state = {
+                    dockyard > 0
+                    free_building_slots = {
+                        building = dockyard
+                        size > 2
+                        include_locked = yes
+                    }
+                }
+            }
+            any_owned_state = {
+                is_coastal = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                is_coastal = yes
+                free_building_slots = {
+                    building = dockyard
+                    size > 2
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = dockyard
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
 }
 }
 focus = {
@@ -759,7 +1034,39 @@ focus = {
     }	
 
 completion_reward = {
-   
+    if = {
+        limit = {
+            NOT = {
+                any_owned_state = {
+                    dockyard > 0
+                    free_building_slots = {
+                        building = dockyard
+                        size > 2
+                        include_locked = yes
+                    }
+                }
+            }
+            any_owned_state = {
+                is_coastal = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                is_coastal = yes
+                free_building_slots = {
+                    building = dockyard
+                    size > 2
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = dockyard
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
 }
 }
 focus = {
@@ -777,7 +1084,12 @@ focus = {
     }	
 
 completion_reward = {
-   
+    add_doctrine_cost_reduction = {
+        name = fleet_in_being_bonus
+        cost_reduction = 0.75
+        uses = 2
+        category = fleet_in_being_tree
+    }
 }
 }
 focus = {
@@ -795,7 +1107,40 @@ focus = {
     }	
 
 completion_reward = {
-   
+    navy_experience = 250
+    if = {
+        limit = {
+            NOT = {
+                any_owned_state = {
+                    dockyard > 0
+                    free_building_slots = {
+                        building = dockyard
+                        size > 2
+                        include_locked = yes
+                    }
+                }
+            }
+            any_owned_state = {
+                is_coastal = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                is_coastal = yes
+                free_building_slots = {
+                    building = dockyard
+                    size > 2
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = dockyard
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
 }
 }
 focus = {

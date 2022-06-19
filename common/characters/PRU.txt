@@ -26,16 +26,16 @@ characters={
 			id=-1
 		}
 	}
-	PRU_hilarión_lynch={
-		name="Hilarión Lynch"
+	PRU_migel={
+		name="PRU_migel"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/portrait_south_america_generic_8.dds"
+				large="gfx/leaders/_EOB/PRUmigel.dds"
 			}
 		}
 		country_leader={
 			ideology=stalinism
-			traits={ ideological_crusader }
+			traits={ autocratic_imperialist }
 			expire="1943.1.1.12"
 			id=-1
 		}

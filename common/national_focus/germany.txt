@@ -941,41 +941,33 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
-		if = {
+		random_owned_controlled_state = {
 			limit = {
-				any_owned_state = { 
-					infrastructure < 3
+				free_building_slots = {
+					building = infrastructure
+					size > 1
+					include_locked = yes
 				}
-			}   
+			}
 			add_building_construction = {
 				type = infrastructure
-				level = 1
+				level = 2
 				instant_build = yes
-				}
+			}
 		}
-		if = {
+		random_owned_controlled_state = {
 			limit = {
-				any_owned_state = { 
-					infrastructure < 3
+				free_building_slots = {
+					building = infrastructure
+					size > 1
+					include_locked = yes
 				}
-			}   
+			}
 			add_building_construction = {
 				type = infrastructure
-				level = 1
+				level = 2
 				instant_build = yes
-				}
-		}
-		if = {
-			limit = {
-				any_owned_state = { 
-					infrastructure < 3
-				}
-			}   
-			add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-				}
+			}
 		}
 	}
 }
@@ -992,7 +984,14 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
-		any_owned_state = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
+			}
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = industrial_complex
@@ -1000,19 +999,18 @@ focus = {
 				instant_build = yes
 			}
 		}
-		any_owned_state = {
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = industrial_complex
-				level = 2
-				instant_build = yes
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
 			}
-		}
-		any_owned_state = {
-			add_extra_state_shared_building_slots = 2
+			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = industrial_complex
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
@@ -1031,27 +1029,48 @@ focus = {
 		factor = 100
 	}
 	completion_reward = {
-		any_owned_state = {
-			add_extra_state_shared_building_slots = 2
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
-		any_owned_state = {
-			add_extra_state_shared_building_slots = 2
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
-		any_owned_state = {
-			add_extra_state_shared_building_slots = 2
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
@@ -1084,7 +1103,14 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
-		any_owned_state = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
+			}
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = industrial_complex
@@ -1092,15 +1118,14 @@ focus = {
 				instant_build = yes
 			}
 		}
-		any_owned_state = {
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = industrial_complex
-				level = 2
-				instant_build = yes
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
 			}
-		}
-		any_owned_state = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = industrial_complex
@@ -1122,27 +1147,64 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
-		any_owned_state = {
-			add_extra_state_shared_building_slots = 2
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
-		any_owned_state = {
-			add_extra_state_shared_building_slots = 2
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
-		any_owned_state = {
-			add_extra_state_shared_building_slots = 2
+
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory
-				level = 2
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
 				instant_build = yes
 			}
 		}
@@ -1160,19 +1222,48 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
-		any_owned_state = {
-			add_extra_state_shared_building_slots = 2
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
-		any_owned_state = {
-			add_extra_state_shared_building_slots = 2
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory
-				level = 2
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
 				instant_build = yes
 			}
 		}
@@ -1322,7 +1413,7 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
-		any_owned_state = {
+		random_owned_state = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = radar_station
@@ -1346,24 +1437,18 @@ focus = {
 	y = 0
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 190
 	}
 	completion_reward = {
 		start_border_war = {
 			change_state_after_war = no
 			attacker = {
-			state = 5
+			state = 68
 			num_provinces = 3
-			on_win = japan_border_conflict.2
-			on_lose = japan_border_conflict.3
-			on_cancel = japan_border_conflict.4
 			}
 			defender = {
-			state = 1033
-			num_provinces = 2
-			on_win = japan_border_conflict.3
-			on_lose = japan_border_conflict.2
-			on_cancel = japan_border_conflict.4
+			state = 66
+			num_provinces = 3
 			}
 			}
 	}
@@ -1375,11 +1460,26 @@ focus = {
 	relative_position_id = GER_s1
 	x = 0
 	y = 1
-	cost = 10
+	cost = 15
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 	completion_reward = {
+		start_border_war = {
+			change_state_after_war = yes
+			attacker = {
+			state = 68
+			num_provinces = 2
+			}
+			defender = {
+			state = 66
+			num_provinces = 2
+			}
+			}
+			create_wargoal = {
+			type = puppet_wargoal_focus
+			target = POL
+			}
 	}
 }
 focus = {
@@ -1409,7 +1509,7 @@ focus = {
 	y = 1
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 1000
 	}
 	completion_reward = {
 		add_political_power = 250
@@ -1457,12 +1557,17 @@ focus = {
 					type = puppet_wargoal_focus
 					target = NOR
 					}
+					news_event = {
+						id = news.9
+						days = 1
+						random = 0
+						}
 	}
 }
 focus = {
 	id = GER_s7
 	icon = "GFX_focus_ger_return_of_the_kaiser"
-	prerequisite = { focus = GER_s2 }
+	prerequisite = { focus = GER_s6 }
 	relative_position_id = GER_s1
 	x = 0
 	y = 3
@@ -1480,7 +1585,7 @@ focus = {
 focus = {
 	id = GER_s8
 	icon = "GFX_focus_attack_britain"
-	prerequisite = { focus = GER_s6 }
+	prerequisite = { focus = GER_s7 }
 	relative_position_id = GER_s1
 	x = 0
 	y = 4
@@ -1507,6 +1612,11 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_manpower = -75000
+		army_experience = 10
+		POL = {
+			add_stability = -0.1
+		}
 	}
 }
 focus = {
@@ -1575,12 +1685,13 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_ideas = GER_RENPOUKA
 	}
 }
 focus = {
 	id = GER_s14
 	icon = "GFX_focus_generic_soviet_politics"
-	prerequisite = { focus = GER_s4 }
+	prerequisite = { focus = GER_s13 }
 	relative_position_id = GER_s1
 	x = 4
 	y = 3
@@ -1589,6 +1700,11 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_political_power = 250
+		swap_ideas = {
+			remove_idea = GER_RENPOUKA
+			add_idea = GER_RENPOUKA1
+			}
 	}
 }
 focus = {
@@ -1604,6 +1720,7 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_ideas = GER_kenryoku
 	}
 }
 focus = {
@@ -1618,6 +1735,8 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_political_power = 250
+		add_stability = 0.25
 	}
 }
 focus = {
@@ -1663,6 +1782,10 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		swap_ideas = {
+			remove_idea = GER_RENPOUKA1
+			add_idea = GER_RENPOUKA2
+			}
 	}
 }
 focus = {
@@ -1678,6 +1801,7 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_ideas = GER_aas
 	}
 }
 focus = {
@@ -1707,6 +1831,10 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		set_rule = {
+			can_declare_war_without_wargoal_when_in_war = yes
+			can_use_kamikaze_pilots = yes
+			}
 	}
 }
 focus = {
@@ -1721,6 +1849,10 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
+		swap_ideas = {
+			remove_idea = GER_kenryoku
+			add_idea = GER_kenryoku1
+			}
 	}
 }
 focus = {
@@ -1735,7 +1867,7 @@ focus = {
 		factor = 10
 	}
 	completion_reward = {
-		add_war_support = 0.25
+		add_ideas = GER_kenryoku2
 	}
 }
 

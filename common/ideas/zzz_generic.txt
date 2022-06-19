@@ -109,11 +109,28 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_organize_wreckers
+			picture = SOV_organize_wreckers
 
 			
 			modifier = {
 				conversion_cost_civ_to_mil_factor = -0.75
+			}
+		}
+		 kiheinoseisinn = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_motorized_equipment_manufacturer_2
+
+			
+			modifier = {
+				army_speed_factor = 0.5
+				terrain_penalty_reduction = 0.5
+				attrition = -0.5
 			}
 		}
 		Hattenn = {
@@ -124,7 +141,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_generic_economic_increase
+			picture = generic_economic_increase
 
 			
 			modifier = {
@@ -142,7 +159,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_generic_goods_red_bonus
+			picture = generic_goods_red_bonus
 
 			
 			modifier = {
@@ -159,7 +176,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_generic_goods_red_bonus
+			picture = generic_goods_red_bonus
 
 			
 			modifier = {
@@ -179,7 +196,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_export_focus
+			picture = export_focus
 
 			
 			modifier = {
@@ -197,7 +214,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_received_attache
+			picture = received_attache
 
 			
 			modifier = {
@@ -216,7 +233,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_new_economic_policy
+			picture = new_economic_policy
 
 			
 			modifier = {

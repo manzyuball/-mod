@@ -23,7 +23,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 7
+			industrial_complex = 8
 			air_base = 10
 			575 = {
 				naval_base = 6
@@ -38,7 +38,7 @@ state={
 	}
 
 	provinces={
-		73 575 3476 3536 6504 9472 9500 11483 11548 11606 
+		575 3476 3536 6504 9500 11483 11548 11606 
 	}
 
 	local_supplies=15.0 

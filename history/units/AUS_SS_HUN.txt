@@ -1,0 +1,58 @@
+﻿division_template = {
+	name = "ハンガリー武装国防志願兵"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+units = {
+	division= {	
+		name = "ハンガリー武装国防志願兵"
+		location = 9660
+		division_template = "ハンガリー武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "ハンガリー武装国防志願兵"
+		location = 9660
+		division_template = "ハンガリー武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "ハンガリー武装国防志願兵"
+		location = 3730
+		division_template = "ハンガリー武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "ハンガリー武装国防志願兵"
+		location = 9643
+		division_template = "ハンガリー武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "ハンガリー武装国防志願兵"
+		location = 6720
+		division_template = "ハンガリー武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "ハンガリー武装国防志願兵"
+		location = 619
+		division_template = "ハンガリー武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+}

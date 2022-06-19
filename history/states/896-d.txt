@@ -11,8 +11,6 @@ state={
 			arms_factory = 1
 			industrial_complex = 4
 		}
-		add_core_of = ECU
-		add_core_of = PRU
 		victory_points = {
 			12798 5 
 		}
@@ -21,5 +19,5 @@ state={
 	manpower=542156
 	state_category = city
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	local_supplies=25.000
 }

@@ -15,11 +15,12 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = BLR
+		add_core_of = VLA
 
 	}
 
 	provinces={
-		323 3219 3331 6220 6249 6326 6371 9241 9323 11220 11241 13629 
+		323 3219 6249 6326 9323 11220 11241 
 	}
 	manpower=1217854
 	buildings_max_level_factor=1.000

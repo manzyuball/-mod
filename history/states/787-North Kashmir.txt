@@ -9,7 +9,8 @@ state={
 		victory_points = {
 			1910 1
 		}
-		owner = RAJ
+		owner = IVO
+		add_core_of = IVO
 		buildings = {
 			infrastructure = 1
 		}
@@ -19,7 +20,7 @@ state={
 	}
 
 	provinces={
-		1910 2041 2084 10821 13289 13290 
+		1910 2041 2084 10821 
 	}
 
 	local_supplies=0.0 

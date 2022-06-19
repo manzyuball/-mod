@@ -1,0 +1,88 @@
+FRA_historical_plan = {
+	name = "France historical plan"
+	desc = "Historical behavior for France"
+
+	allowed = {
+		original_tag = FRA
+	}
+	enable = {
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = FRA_ai_behavior
+					option = DEFAULT
+				}	
+			}
+			has_game_rule = {
+				rule = FRA_ai_behavior
+				option = DEMOCRATIC_HISTORICAL
+			}
+			has_country_flag = FRA_AI_DEMOCRATIC_HISTORICAL
+		}
+	}
+	abort = {
+		OR = {
+			GER = { has_completed_focus = GER_oppose_hitler }
+			AND = {
+				ENG = { has_completed_focus = ENG_a_change_in_course }
+				NOT = { GER = { has_completed_focus = GER_oppose_hitler } }
+			}
+		}
+		has_game_rule = {
+			rule = FRA_ai_behavior
+			option = DEFAULT
+		}
+	}
+
+	ai_national_focuses = {
+		FRA_g1
+		FRA_n1 	
+		FRA_s1
+		FRA_s3
+		FRA_s4
+		#1937
+		FRA_n3
+		FRA_n6
+		FRA_n2
+		FRA_g2
+		FRA_s9
+		#1938
+		FRA_s10
+		FRA_s12
+		FRA_n11
+		FRA_g12
+		FRA_g13
+		#1939
+		FRA_s13
+		FRA_s18
+		FRA_n12
+		FRA_g3
+		FRA_s19
+		#1940
+		FRA_g5
+		FRA_n8
+		FRA_s16
+	}
+	focus_factors = {
+		FRA_right_wing_rhetoric = 0
+		FRA_leftist_rhetoric = 0
+	}
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

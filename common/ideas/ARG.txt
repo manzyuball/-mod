@@ -1,0 +1,405 @@
+ideas = {
+
+	country = {
+		ARG_kyoukou = {
+			removal_cost = -1
+			picture = generic_disjointed_gov
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_factor = -0.25
+				local_resources_factor = -0.15
+				industrial_capacity_factory = -0.15
+			}
+		}
+		ARG_kyoukou1 = {
+			removal_cost = -1
+			picture = generic_disjointed_gov
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_factor = -0.2
+				local_resources_factor = -0.15
+				industrial_capacity_factory = -0.15
+			}
+		}
+		ARG_kyoukou2 = {
+			removal_cost = -1
+			picture = generic_disjointed_gov
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = -0.1
+				local_resources_factor = -0.15
+				industrial_capacity_factory = -0.15
+			}
+		}
+		ARG_kyoukou3 = {
+			removal_cost = -1
+			picture = generic_disjointed_gov
+			modifier = {
+				consumer_goods_factor = 0.1
+				local_resources_factor = -0.15
+				industrial_capacity_factory = -0.1
+			}
+		}
+		ARG_kyoukou4 = {
+			removal_cost = -1
+			picture = generic_disjointed_gov
+			modifier = {
+				consumer_goods_factor = 0.1
+				local_resources_factor = -0.1
+			}
+		}
+		ARG_san1 = {
+			removal_cost = -1
+			picture = SOV_organize_wreckers
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		ARG_san2 = {
+			removal_cost = -1
+			picture = SOV_organize_wreckers
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		ARG_san3 = {
+			removal_cost = -1
+			picture = SOV_organize_wreckers
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.15
+			}
+		}
+		ARG_tomosibi = {
+			removal_cost = -1
+			picture = SPR_torchbearers_of_tomorrow
+			modifier = {
+				drift_defence_factor = 0.50
+				defensive_war_stability_factor = 0.4
+				surrender_limit = 0.1
+			}
+			rule = {
+				can_puppet =yes
+			}
+		}
+		ARG_nougyou = {
+			removal_cost = -1
+			picture = generic_agrarian_reform
+			modifier = {
+				conscription_factor = -0.5
+				min_export = 0.25
+				trade_laws_cost_factor = 0.25
+			}
+		}
+		ARG_nougyou2 = {
+			removal_cost = -1
+			picture = generic_agrarian_reform
+			modifier = {
+				consumer_goods_factor = -0.05
+				conscription_factor = -0.5
+				min_export = 0.25
+				trade_laws_cost_factor = 0.25
+			}
+		}
+		ARG_nougyou3 = {
+			removal_cost = -1
+			picture = generic_agrarian_reform
+			modifier = {
+				consumer_goods_factor = -0.05
+				global_building_slots_factor = 0.05
+				conscription_factor = -0.35
+				min_export = 0.2
+				trade_laws_cost_factor = 0.25
+			}
+		}
+		ARG_nougyou4 = {
+			removal_cost = -1
+			picture = generic_agrarian_reform
+			modifier = {
+				consumer_goods_factor = -0.075
+				global_building_slots_factor = 0.15
+				conscription_factor = -0.2
+				min_export = 0.2
+				trade_laws_cost_factor = 0.25
+			}
+		}
+		ARG_nougyou5 = {
+			removal_cost = -1
+			picture = generic_agrarian_reform
+			modifier = {
+				consumer_goods_factor = -0.1
+				global_building_slots_factor = 0.2
+				conscription_factor = -0.2
+			}
+		}
+		ARG_nougyou6 = {
+			removal_cost = -1
+			picture = generic_agrarian_reform
+			modifier = {
+				consumer_goods_factor = -0.1
+				global_building_slots_factor = 0.25
+			}
+		}
+		ARG_gun = {
+			removal_cost = -1
+			picture = MEX_politicised_army
+			modifier = {
+				offence = -0.3
+				defence = -0.3
+				planning_speed = -0.10
+				army_org_Factor = -0.25
+				training_time_factor = 0.35
+			}
+		}
+		ARG_gun1 = {
+			removal_cost = -1
+			picture = GFX_idea_MEX_politicised_army_2
+			modifier = {
+				offence = -0.3
+				defence = -0.3
+				army_org_Factor = -0.25
+				training_time_factor = 0.35
+			}
+		}
+		ARG_gun2 = {
+			removal_cost = -1
+			picture = GFX_idea_MEX_politicised_army_2
+			modifier = {
+				conscription = 0.02
+				offence = -0.15
+				defence = -0.15
+				army_org_Factor = -0.25
+				training_time_factor = 0.1
+			}
+		}
+		ARG_gun3 = {
+			removal_cost = -1
+			picture = GFX_idea_MEX_politicised_army_2
+			modifier = {
+				conscription = 0.02
+				offence = -0.1
+				defence = -0.1
+				army_org_Factor = -0.2
+			}
+			equipment_bonus = {
+				light_tank_chassis = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				medium_tank_chassis = {
+					build_cost_ic = -0.15 instant = yes
+				}
+			}
+		}
+		ARG_gun4 = {
+			removal_cost = -1
+			picture = GFX_idea_MEX_politicised_army_2
+			modifier = {
+				conscription = 0.02
+			}
+			equipment_bonus = {
+				light_tank_chassis = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				medium_tank_chassis = {
+					build_cost_ic = -0.15 instant = yes
+				}
+			}
+		}
+		ARG_gun5 = {
+			removal_cost = -1
+			picture = GFX_idea_MEX_politicised_army_2
+			modifier = {
+				offence = -0.2
+				defence = -0.2
+				supply_consumption_factor = -0.20
+				terrain_penalty_reduction = 0.75
+				army_org_Factor = -0.1
+				training_time_factor = 0.35
+			}
+		}
+		ARG_gun6 = {
+			removal_cost = -1
+			picture = GFX_idea_MEX_politicised_army_2
+			modifier = {
+				offence = -0.1
+				defence = -0.1
+				supply_consumption_factor = -0.20
+				terrain_penalty_reduction = 0.75
+				training_time_factor = 0.45
+			}
+		}
+		ARG_gun7 = {
+			removal_cost = -1
+			picture = GFX_idea_MEX_politicised_army_2
+			modifier = {
+				army_org_Factor = 0.15
+				heat_attrition_factor = -0.5
+				supply_consumption_factor = -0.20
+				terrain_penalty_reduction = 0.75
+				training_time_factor = 0.55
+			}
+		}
+
+		ARG_kuu = {
+			removal_cost = -1
+			picture = air_war_plans_division_focus
+			modifier = {
+				air_maximum_speed_factor = 0.05
+				air_agility_factor = 0.15
+			}
+		}
+		ARG_kuu1 = {
+			removal_cost = -1
+			picture = air_war_plans_division_focus
+			modifier = {
+				air_maximum_speed_factor = 0.05
+				air_agility_factor = 0.15
+				air_defence_factor = 0.2
+			}
+		}
+		ARG_kuu2 = {
+			removal_cost = -1
+			picture = air_war_plans_division_focus
+			modifier = {
+				air_maximum_speed_factor = 0.05
+				air_agility_factor = 0.15
+				air_defence_factor = 0.2
+				air_cas_present_factor = 0.1
+			}
+		}
+		ARG_kuuA1 = {
+			removal_cost = -1
+			picture = air_support_focus
+			modifier = {
+				air_range_factor = 0.25
+			}
+		}
+		ARG_kuuA2 = {
+			removal_cost = -1
+			picture = air_support_focus
+			modifier = {
+				air_range_factor = 0.25
+				air_strategic_bomber_bombing_factor = 0.2
+			}
+		}
+		ARG_kuuA3 = {
+			removal_cost = -1
+			picture = air_support_focus
+			modifier = {
+				air_range_factor = 0.3
+				air_strategic_bomber_bombing_factor = 0.2
+				strategic_bomb_visibility = 0.15
+				air_nav_efficiency = 0.15
+			}
+		}
+	}
+	# TECHNOLOGY
+	tank_manufacturer = { 
+		designer = yes
+		algentina = {	
+			allowed = {
+				original_tag = ARG
+			}
+			picture = received_attache
+			research_bonus = {
+				armor = 0.15
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+			
+			traits = { infantry_tank_manufacturer2 }
+
+			ai_will_do = {
+				factor = 10
+			}
+
+		}
+		
+		tank = {
+
+			
+			allowed = {
+				original_tag = ARG
+			}
+			picture = eng_preparing_the_second_front
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		arg = {
+
+			
+			allowed = {
+				original_tag = ARG
+			}
+			picture = generic_navy_bonus
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+		}
+	}
+	
+	industrial_concern = {
+		
+		asasasasasa = {
+			
+			allowed = {
+				original_tag = ARG
+			}
+			picture = GFX_idea_free_trade
+			research_bonus = {
+				industry = 0.2
+				
+			}
+			
+			traits = { industrial_concern }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		
+		kruas = {
+			
+			allowed = {
+				original_tag = ARG
+			}
+			picture = hol_shell_shocked_spectator
+			research_bonus = {
+				synth_resources = 0.2
+				
+			}
+			ai_will_do = {
+				factor = 2
+			}
+			
+			traits = { refinery_concern }
+		}	
+	}
+
+}

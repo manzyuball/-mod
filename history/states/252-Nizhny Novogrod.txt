@@ -8,12 +8,13 @@ state={
 
 	history={
 		owner = SOV
+		add_core_of = VLA
 		victory_points = {
 			11375 10
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
-			arms_factory = 2
+			arms_factory = 1
 			air_base = 1
 		}
 		add_core_of = SOV

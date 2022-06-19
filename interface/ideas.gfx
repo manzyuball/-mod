@@ -9,6 +9,19 @@ spriteTypes = {
 	}
 
 	### new tfv nat spirit icons
+    #EOB
+	spriteType = {
+		name = "GFX_idea_japanese_in_worldwar2"
+		texturefile = "gfx/interface/ideas/Jap_ww2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_japanese_china_war"
+		texturefile = "gfx/interface/ideas/NIttyuu.dds"
+	}	
+
+
+
+
 
 	spriteType = {
 		name = "GFX_idea_generic_degauss_ship_hulls"

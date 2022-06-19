@@ -3,11 +3,10 @@ state={
 	name="STATE_166"
 	resources={
 		steel=15.000
-		SILVER=31
 	}
 
 	history={
-		owner = SPR
+		owner = CAT
 		victory_points = {
 			3816 3 
 		}
@@ -24,6 +23,8 @@ state={
 
 		}
 		add_core_of = SPR
+		add_core_of = CAT
+		add_core_of = MOR
 
 	}
 

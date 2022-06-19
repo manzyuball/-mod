@@ -10,14 +10,15 @@ state={
 
 		}
 		add_core_of = SAU
+		add_core_of = TUR
 
 	}
 
 	provinces={
-		4932 8118 12740 12768 13434 
+		4932 5006 5081 8030 8118 10870 12740 12768 
 	}
-	manpower=42213
+	manpower=42
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=wasteland
 	local_supplies=0.000
 }

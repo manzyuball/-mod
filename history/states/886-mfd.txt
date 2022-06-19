@@ -5,14 +5,14 @@ state={
 		4677 4719 7725 7786 10559 10683 12622 
 	}
 	history={
-		owner = MON
+		owner = VLA
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
 
 		}
-		add_core_of = MON
+		add_core_of = VLA
 		add_core_of = SOV
 
 	}

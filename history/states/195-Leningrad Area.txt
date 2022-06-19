@@ -13,7 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 4 #was: 7
-			arms_factory = 6
+			arms_factory = 1
 			industrial_complex = 1
 			dockyard = 3
 			air_base = 10
@@ -23,6 +23,7 @@ state={
 			}
 		}
 		add_core_of = SOV
+		add_core_of = VLA
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 7

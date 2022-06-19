@@ -1,0 +1,19 @@
+VLA_habatu = {
+    VLA_1suw = {
+
+		allowed = {
+		original_tag = VLA
+		}
+
+		cost = 50
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+        add_stability = 0.05
+		}
+	}
+}

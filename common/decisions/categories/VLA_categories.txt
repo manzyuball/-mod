@@ -1,0 +1,6 @@
+VLA_habatu = {
+	icon = power_struggle
+	allowed = {
+		original_tag = VLA
+	}
+}

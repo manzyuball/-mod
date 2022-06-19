@@ -1,11 +1,6 @@
 CHI_habatukousou = {
 	icon = generic_crisis
-
 	allowed = {
 		original_tag = CHI
-	}
-
-	visible = {
-		has_completed_focus = CHI_S2
 	}
 }

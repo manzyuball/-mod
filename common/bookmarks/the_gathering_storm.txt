@@ -9,270 +9,113 @@ bookmarks = {
 		
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = commmunism
-			available = { NOT = { has_dlc = "La Resistance" } }
+			ideology = communism
 			ideas = {
-				FRA_full_employment
-				FRA_disjointed_government
-				FRA_firepower
+				FRA_RIKU3
+				FRA_SAN2
+				FRA_sada
 			}
 			focuses = {
-				FRA_ban_the_leagues
-				FRA_encourage_immigration_2
-				FRA_encourage_immigration_4
-			}
-		}
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = commmunism
-			available = { has_dlc = "La Resistance" } 
-			ideas = {
-				FRA_full_employment
-				FRA_disjointed_government
-				FRA_firepower
-			}
-			focuses = {
-				FRA_ban_the_leagues
-				FRA_encourage_immigration_2
-				FRA_encourage_immigration_4
-			}
-		}
-		"AUS"={
-			minor = yes
-			history = "LIT_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				AUS_seizi_1
-				AUS_NAZI_idea
-				AUS_NAZI_GUN5_idea
-			}
-			focuses = {
-				AUS_lerder1
-				AUS_lerder7
-				AUS_seizi_3
+				FRA_s1
+				FRA_s13
+				FRA_EU8
 			}
 		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
-			available = { has_dlc = "Man the Guns" }
 			ideas = {
-				ENG_loiyalnavy
+				ENG_mamoru
 				ENG_Kyoukou
-				george_v
+				ENG_Saigunnbi4
 			}
 			focuses = {
 				uk_gu
-				uk_fu
+				uk_b56
 				uk_fu15
 			}
-		}
-		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { NOT = { has_dlc = "Man the Guns" } }
-			ideas = {
-				ENG_loiyalnavy
-				ENG_Kyoukou
-				george_v
-			}
-			focuses = {
-				uk_gu
-				uk_fu
-				uk_fu15
-			}
-		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = commmunism
-			available = { has_dlc = "Waking the Tiger" }
-			ideas = {
-				general_staff
-				GER_barbarossa
-				GER_mefo_bills_1
-			}
-			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_revive_the_kaiserreich
-			}
-		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = commmunism
-			available = { NOT = { has_dlc = "Waking the Tiger" } }
-			ideas = {
-				general_staff
-				GER_barbarossa
-				GER_mefo_bills_1
-			}
-			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_ussr_war_goal
-			}
-		}
-		"ARG"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
-			}	
-			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
-			}		
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				Kyoukou
-				Preservation_of_old_ships
-				Sea_Power_State
+				Samurai
+				KAIHATUSYUURYOU
 			}	
 			focuses = {
-				JAP_the_zero
-				JAP_min1
-				JAP_min21
+				JAP_min3
+				JAP_com1
+				JAP_sen1
 			}			
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
-			available = { has_dlc = "No Step Back" }
 			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
+				Not_kakumei
+				gunnomonndai
+				soviet_2
 			}
 			focuses = {
-				SOV_behead_the_snake
-				SOV_the_supreme_soviet
-				SOV_reconvene_the_zemsky_sobor
+				SOV_g12
+				SOV_p
+				SOV_s
 			}	
 		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
+		"CHI"={
+			history = "CHI_GATHERING_STORM_DESC"
 			ideology = communism
-			available = { NOT = { has_dlc = "No Step Back" } }
 			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
+				CHI_kokubou3
+				CHI_BUNRETU
+				CHI_koutei
 			}
 			focuses = {
-				SOV_behead_the_snake
-				SOV_father_of_nations
-				SOV_the_supreme_soviet
+				CHI_S35
+				CHI_S22
+				PRC_na_2
 			}	
 		}
-
+		"ARG"={
+			history = "ARG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				ARG_kyoukou
+				ARG_tomosibi
+				ARG_gun
+			}
+			focuses = {
+				ARG_se_1
+				ARG_na_1
+				ARG_na_21
+			}	
+		}
+		"AUS"={
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				AUS_doruhu
+				AUS_hitler
+				AUS_SOKOKUSENSOU3
+			}
+			focuses = {
+				AUS_na_1
+				AUS_naz9
+				AUS_nazB6
+			}	
+		}
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
-		"VLA"={
-			minor = yes
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"SWE"={
-			minor = yes
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				The_tower
-				SWE_gun3
-				keizaitougou3
-			}
-			focuses = {
-				SWE_50
-				SWE_10
-				SWE_35
-			}
-		}
-		"CHI"={
-			minor = yes
-			history = "CHI_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				CHI_sensi
-				CHI_hyper_inflation_1
-				CHI_SANGAK
-			}
-			focuses = {
-				CHI_rural_schooling
-				CHI_pick_a_fight_with_japan
-				CHI_legislative_yuan
-			}
-		}
-		"PRC"={
-			minor = yes
-			history = "PRC_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				PRC_the_long_march_1
-				PRC_low_popular_support_3
-				PRC_power_struggles
-			}
-			focuses = {
-				PRC_na_31
-				PRC_na_8
-				PRC_na_7
-			}
-		}
-		
-		"HOL"={
-			minor = yes
-			history = "NETHERLANDS_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				HOL_wilhelmina
-				HOL_shell_shocked_spectator_5
-				HOL_de_crisisjaren_5
-			}
-			focuses = {
-				HOL_continue_the_war_in_batavia
-				HOL_liberation
-				HOL_prepare_the_inundation_lines
-			}
-		}
-		"TUR"={
-			minor = yes
-			history = "TUR_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				TUR_sectarian_woes
-				TUR_disorganised_armed_forces
-				TUR_debt_council
-			}
-			focuses = {
-				TUR_ratify_the_six_arrows
-				TUR_reaffirm_the_balkan_pact
-				TUR_pivot_to_the_past
-			}
-		}	
-		"USA"={
-			minor = yes
-			history = "LAT_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
+
+		# minors from DLC ####
 
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = fascism
 			ideas = {
 				uncontrolled_exports
 				POL_april_constitution_1
@@ -282,6 +125,106 @@ bookmarks = {
 				POL_complete_april_constitution
 				POL_organize_the_peasants_strike
 				POL_fulfil_fifth_of_november
+			}
+		}
+		"TUR"={
+			minor = yes
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				TUR_hinsi
+				hurui1
+				rengou
+			}
+			focuses = {
+				TUR_g15
+				TUR_s19
+				TUR_s1
+			}
+		}
+		"PRU"={
+			minor = yes
+			history = "PRU_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				PRU_sangyou4
+				PRU_kami
+				PRU_kuruu
+			}
+			focuses = {
+				PRU_se1
+				PRU_se73
+				PRU_se65
+			}
+		}
+		"MON"={
+			minor = yes
+			history = "MON_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"VLA"={
+			minor = yes
+			history = "VLA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				VLA_GokkannnoGUN
+				VLA_GUNKOKU1
+				VLA_seizpu3
+			}
+			focuses = {
+				VLA_se1
+				VLA_sanB2
+				VLA_sanA16
+			}
+		}
+		"USA"={
+			minor = yes
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				naisenn
+				USA_neutrality_act
+				USA_department_of_defense
+			}
+			focuses = {
+				USA_war_plans_division
+				USA_war_department
+				USA_the_giant_wakes
+			}
+		}
+		"GER"={
+			minor = yes
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				general_staff
+				GER_RENPOUKA2
+				GER_kenryoku2
+			}
+			focuses = {
+				GER_s20
+				GER_s23
+				GER_s6
+			}
+		}
+		"YUG"={
+			minor = yes
+			history = "YUG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				YUG_gua2
+				king_peter_1
+				Yonennkann
+			}
+			focuses = {
+				YUG_d1
+				YUG_d13
+				YUG_k2
 			}
 		}
 		effect = {

@@ -1,10 +1,11 @@
-
 state={
 	id=317
 	name="STATE_317"
 	resources={
-		chromium=1.000
+		chromium=1 # was: 1
 	}
+
+	state_category = town
 
 	history={
 		owner = HON
@@ -20,18 +21,17 @@ state={
 			}
 
 		}
-		add_core_of = NIC
 		victory_points = {
-			12738 10 
+			12738 3
 		}
 
 	}
 
 	provinces={
-		1988 2075 6227 10728 12738 13748 
+		1988 2075 10728 12738 13139 13178 
 	}
 	manpower=683000
 	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

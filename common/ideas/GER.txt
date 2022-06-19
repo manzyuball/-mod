@@ -108,7 +108,7 @@ ideas = {
 				always = no # Unlocked via focus
 			}
 
-			picture = "GFX_idea_SOV_fourth_five_year_plan"
+			picture = SOV_fourth_five_year_plan
 	
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -124,7 +124,7 @@ ideas = {
 				always = no # Unlocked via focus
 			}
 
-			picture = "GFX_idea_closed_economy"
+			picture = closed_economy
 	
 			modifier = {
 				consumer_goods_factor = -0.1
@@ -139,7 +139,7 @@ ideas = {
 				always = no # Unlocked via focus
 			}
 
-			picture = "GFX_idea_trotskyite_plot_purged"
+			picture = trotskyite_plot_purged
 	
 			modifier = {
 				consumer_goods_factor = 0.25
@@ -154,7 +154,7 @@ ideas = {
 				always = no # Unlocked via focus
 			}
 
-			picture = "GFX_idea_fourth_international"
+			picture = fourth_international
 	
 			modifier = {
 				consumer_goods_factor = 0.1
@@ -162,6 +162,119 @@ ideas = {
 				local_resources_factor = 0.10
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.2
+			}
+	
+		}
+		GER_RENPOUKA = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+
+			picture = generic_central_management
+	
+			modifier = {
+				stability_factor = 0.10
+				political_power_factor = -0.1
+				global_building_slots_factor = 0.10
+			}
+	
+		}
+		GER_RENPOUKA1 = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+
+			picture = generic_central_management
+	
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = -0.2
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = -0.05
+				global_building_slots_factor = 0.10
+			}
+	
+		}
+		GER_RENPOUKA2 = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+
+			picture = SPR_collectivized_society
+	
+			modifier = {
+				stability_factor = 0.3
+				political_power_factor = -0.35
+				industrial_capacity_factory = 0.15
+				consumer_goods_factor = -0.15
+				global_building_slots_factor = 0.15
+				local_resources_factor = 0.15
+				industry_free_repair_factor = 1
+				army_core_defence_factor = 0.15
+			}
+	
+		}
+		GER_aas = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+
+			picture = ger_the_great_red_menace
+	
+			modifier = {
+				justify_war_goal_time = -0.85
+				non_core_manpower = 0.15
+			}
+	
+		}
+		GER_kenryoku = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+
+			picture = por_iberian_workers_united
+	
+			modifier = {
+				political_power_factor = 0.25
+			}
+	
+		}
+		GER_kenryoku1 = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+
+			picture = hol_caved_to_the_germans
+	
+			modifier = {
+				political_power_factor = 0.25
+				conscription = 0.07
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				partisan_effect = 0.45
+				
+			}
+	
+		}
+		GER_kenryoku2 = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+			picture = chi_forced_conscription
+	
+			modifier = {
+				political_power_factor = 0.25
+				command_power_gain = 0.5
+				defensive_war_stability_factor = 0.75
+				offensive_war_stability_factor = 0.75
+				army_speed_factor = 0.15
 			}
 	
 		}

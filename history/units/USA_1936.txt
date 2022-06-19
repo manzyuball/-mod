@@ -1,52 +1,6 @@
 ﻿##### Division Templates #####
 division_template = {
-	name = "Infantry Division"  	# Standard formation for frontline divisions
-
-	division_names_group = USA_INF_01
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
-		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
-	}
-}
-division_template = {
-	name = "州兵"  	# Standard formation for frontline divisions
-
-	division_names_group = USA_INF_07
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		artillery_brigade = { x = 0 y = 3 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		artillery_brigade = { x = 1 y = 3 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }  
-		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
-	}
-}
-division_template = {
-	name = "National Guard Division"  	# Standard formation for NG divisions through late 1940
-
-	division_names_group = USA_INF_01
+	name = "自由の戦士師団編成"
 
 	regiments = {						
 		infantry = { x = 0 y = 0 }
@@ -63,15 +17,12 @@ division_template = {
 		infantry = { x = 3 y = 2 }
 	}
 	support = {
-		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
-		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
 	}
 }
 division_template = {
-	name = "Cavalry Division"  		# 1st Cavalry Division only
-
-	division_names_group = USA_CAV_01
-
+	name = "騎兵師団編成"
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -83,528 +34,338 @@ division_template = {
 		cavalry = { x = 1 y = 3 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
-		engineer = { x = 0 y = 1 }   # US Eng Bn
+		recon = { x = 0 y = 0 } 
+		engineer = { x = 0 y = 1 } 
 	}
 }
 division_template = {
-	name = "Garrison Brigade"  		# used for island defense (older equipment, lower experience)
-
-	division_names_group = USA_GAR_01		# Brigade level irregular unit, so no default names
-
+	name = "特化型工兵師団編成"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }   
 	}
 	priority = 0
 }
-
-division_template = {
-	name = "Marine Brigade" 		# 1st, 2nd Marine Brigades, precursors to 1st, 2nd USMC Divisions
-
-	division_names_group = USA_MAR_01
-
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }   
-	}
-	priority = 2
-}
-
 ###### OOB ######
 units = {
-	
-
 	division = {			
-		name = "オレゴン州兵"
-		location = 12211
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 6732
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 	}
 	division = {			
-		name = "オレゴン州兵"
-		location = 4274
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 6732
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 	}
 	division = {			
-		name = "ワシントン州兵"
-		location = 10327
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 6732
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ワシントン州兵"
-		location = 7414
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 6732
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ワシントン州兵"
-		location = 7442
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 6732
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "カルフォルニア州兵"
-		location = 3588
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 9832
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "カルフォルニア州兵"
-		location = 1440
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 9832
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "カルフォルニア州兵"
-		location = 9713
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 9832
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "カルフォルニア州兵"
-		location = 4518
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 9832
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "カルフォルニア州兵"
-		location = 10387
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 9832
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "カルフォルニア州兵"
-		location = 7986
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 9708
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "カルフォルニア州兵"
-		location = 986
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 9708
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "カルフォルニア州兵"
-		location = 3637
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 9708
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "カルフォルニア州兵"
-		location = 1432
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 9708
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ネバダ州兵"
-		location = 10591
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 9708
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "アリゾナ州兵"
-		location = 10573
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 702
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "アリゾナ州兵"
-		location = 11814
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 702
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "アリゾナ州兵"
-		location = 3834
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 702
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ニューメキシコ州兵"
-		location = 4975
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 702
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ニューメキシコ州兵"
-		location = 2102
-		division_template = "州兵"
+		name = "自由の戦士"
+		location = 702
+		division_template = "自由の戦士師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ニューメキシコ州兵"
-		location = 10867
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 9847
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ニューメキシコ州兵"
-		location = 12720
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 6911
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ニューメキシコ州兵"
-		location = 3867
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 3894
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ニューメキシコ州兵"
-		location = 12791
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 706
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ユタ州兵"
-		location = 3867
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 891
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ユタ州兵"
-		location = 4865
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 11799
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
-	}
-		division = {			
-		name = "ユタ州兵"
-		location = 13153
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "アイダホ州兵"
-		location = 12535
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 6869
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ユタ州兵"
-		location = 9616
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 3824
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ユタ州兵"
-		location = 1832
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 822
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "モンタナ州兵"
-		location = 10624
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 3847
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "モンタナ州兵"
-		location = 4860
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 11758
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ノースダコタ州兵"
-		location = 4759
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 11769
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ノースダコタ州兵"
-		location = 3719
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 9789
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ノースダコタ州兵"
-		location = 1870
-		division_template = "州兵"
-		start_equipment_factor= 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ノースダコタ州兵"
-		location = 10685
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 3802
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "サウスダコタ州兵"
-		location = 4880
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 11800
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "サウスダコタ州兵"
-		location = 12667
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 6705
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "サウスダコタ州兵"
-		location = 10595
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 3687
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ネブラスカ州兵"
-		location = 1832
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 11654
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ネブラスカ州兵"
-		location = 12586
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 1619
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "ネブラスカ州兵"
-		location = 10676
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 4287
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "カンザス州兵"
-		location = 4740
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 6719
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
 	division = {			
-		name = "カンザス州兵"
-		location = 4586
-		division_template = "州兵"
+		name = "国境警備工兵師団"
+		location = 3602
+		division_template = "特化型工兵師団編成"
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
-
 	}
-	division = {			
-		name = "カンザス州兵"
-		location = 9802
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ミズーリ州兵"
-		location = 4569
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ミズーリ州兵"
-		location = 4569
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ミズーリ州兵"
-		location = 10717
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ミズーリ州兵"
-		location = 1534
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "ケンタッキー州兵"
-		location = 9727
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-	division = {			
-		name = "バージニア州兵"
-		location = 788
-		division_template = "州兵"
-		start_equipment_factor = 1.0
-		start_experience_factor = 0.2
-
-	}
-
-	
-	
 air_wings = {
-	### 1 USAAF Wing -- Los Angeles
-	378 = {
-		# 7th Bombardment Group 
-		# 19th Bombardment Group 
-		tac_bomber_equipment_0 = {
-			owner = "USA" 
-			amount = 60
-		}
-		# 17th Attack Group 
-		CAS_equipment_1 = {
-			owner = "USA" 
-			amount = 48
-		}
-	}
-
-	### 2 USAAF Wing -- Norfolk
-	386 = { 
-		# 1st Pursuit Group 
-		# 8th Pursuit Group 
+	357 = { 
 		fighter_equipment_0 =  {
 			owner = "USA" 
-			amount = 144
+			amount = 300
 		}
-		# 2nd Bombardment Group 
-		# 9th Bombardment Group 
 		tac_bomber_equipment_0 = {
 			owner = "USA" 
-			amount = 96
+			amount = 150
 		}
 	}
-
-	### 3 USAAF Wing -- Louisiana
-	362 = { 
-		# 20th Pursuit Group 
+	360 = { 
 		fighter_equipment_0 =  {
 			owner = "USA" 
-			amount = 96
+			amount = 200
 		}
-		# 3rd Attack Group 
 		CAS_equipment_1 = {
 			owner = "USA" 
-			amount = 48
-		}
-	}
-
-	### 19th Composite Wing -- Panama Canal
-
-	### Philippines Composite Group -- Manilla
-#	327 = { 
-#		# 4th Composite Group 
-#		fighter_equipment_0 =  {
-#			owner = "USA" 
-#			amount = 36
-#		}
-#	}
-
-	### USN Atlantic Naval Patrol Division -- Norfolk
-	362 = { 
-		# Naval Patrol Wing 3 
-		nav_bomber_equipment_1 =  {
-			owner = "USA" 
-			amount = 36
-		}
-	}
-	### USN Pacific Naval Patrol Division -- San Diego
-	378 = { 
-		# Naval Patrol Wing 1 
-		# Naval Patrol Wing 2 
-		nav_bomber_equipment_1 =  {
-			owner = "USA" 
-			amount = 72
+			amount = 200
 		}
 	}
 }

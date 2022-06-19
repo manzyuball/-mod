@@ -2,7 +2,7 @@ state={
 	id=841
 	name="STATE_841"
 	provinces={
-		13356 13419
+		332 11251 
 	}
 	state_category = rural
 	history={
@@ -10,6 +10,7 @@ state={
 	owner = DEN
 	add_core_of = GER
 	add_core_of = DEN
+	add_core_of = LAT
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

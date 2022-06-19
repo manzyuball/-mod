@@ -2,7 +2,7 @@ state={
 	id=842
 	name="STATE_842"
 	provinces={
-		6521 13292
+		6521 
 	}
 
 	state_category =megalopolis
@@ -10,11 +10,9 @@ state={
 
 	owner = GER
 	add_core_of = GER
+	add_core_of = LAT
 		victory_points = {
-			6521 35
-		}
-		victory_points = {
-			13292 25
+			6521 45
 		}
 		buildings = {
 			infrastructure = 2

@@ -1,7 +1,5 @@
 ﻿division_template = {
-	name = "Bubing Shi"				# Regular Infantry Division (brigade sized)
-	division_names_group = MAN_INF_01
-									# Militia-level training and equipment
+	name = "町内監視兵"	
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -9,9 +7,7 @@
 	}
 }
 division_template = {
-	name = "Qu Jun"					# "District Army" (garrison)
-	division_names_group = MAN_GAR_01
-									# Militia-level training and equipment
+	name = "北洋歩兵隊"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -20,12 +16,9 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 	}
-	priority = 0
 }
 division_template = {
-	name = "Qibing Shi"			# Cavalry Division
-	division_names_group = MAN_CAV_01
-
+	name = "騎兵"
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -36,96 +29,197 @@ division_template = {
 
 ##### OOB #####
 units = {
-	division = { # "1 Qu Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 800
-		division_template = "Qu Jun"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
-	}
-	division = { # "2 Qu Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 11771
-		division_template = "Qu Jun"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
-	}
-	division = { # "3 Qu Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 3944
-		division_template = "Qu Jun"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+	division = {
+		name = "北洋歩兵隊"
+		location = 9843
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
 	}
 	division = {
-		name = "4 Qu Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 4809
-		division_template = "Qu Jun"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		name = "北洋歩兵隊"
+		location = 1052
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
 	}
-	division = { # "5 Qu Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 5
-		}
-		location = 3877
-		division_template = "Qu Jun"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+	division = {
+		name = "北洋歩兵隊"
+		location = 7092
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
 	}
-	division = { # "1 Qibing Shi"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 800
-		division_template = "Qibing Shi"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+	division = {
+		name = "北洋歩兵隊"
+		location = 4633
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
 	}
-	division = { # "2 Qibing Shi"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 11771
-		division_template = "Qibing Shi"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+	division = {
+		name = "北洋歩兵隊"
+		location = 6893
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
 	}
-	division = { # "3 Qibing Shi"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 3944
-		division_template = "Qibing Shi"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+	division = {
+		name = "北洋歩兵隊"
+		location = 3791
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
 	}
-	division = { # "4 Qibing Shi"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 4809
-		division_template = "Qibing Shi"
+	division = {
+		name = "北洋歩兵隊"
+		location = 6860
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "北洋歩兵隊"
+		location = 4093
+		division_template = "北洋歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "町内監視兵"
+		location = 846
+		division_template = "町内監視兵"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "町内監視兵"
+		location = 846
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 1508
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 7526
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 6905
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 964
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 1052
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 2093
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 7092
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 4137
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 846
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 846
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 1508
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 7526
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 6905
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 964
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 1052
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 2093
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 7092
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 4137
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 846
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 846
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 1508
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "町内監視兵"
+		location = 7526
+		division_template = "町内監視兵"
+		start_experience_factor = 0.1
 	}
 }
 

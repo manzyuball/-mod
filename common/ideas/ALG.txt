@@ -1,0 +1,106 @@
+ideas = {
+
+	country = {
+
+		ALG_a1 = {
+			picture = MEX_church_power_5
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {	
+                ai_focus_defense_factor = 0.5
+				army_core_defence_factor = 0.1
+				army_speed_factor = 0.05
+				war_support_factor = 0.20
+			}
+		}
+		ALG_a2 = {
+			picture = MEX_church_power_5
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				ai_focus_defense_factor = 0.5
+				army_core_defence_factor = 0.1
+				army_speed_factor = 0.05
+				war_support_factor = 0.20
+				conscription = 0.005
+			}
+		}
+		ALG_a3 = {
+			picture = MEX_church_power_5
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				ai_focus_defense_factor = 0.5
+				army_core_defence_factor = 0.1
+				army_speed_factor = 0.05
+				war_support_factor = 0.20
+				conscription = 0.01
+			}
+		}
+		ALG_a4 = {
+			picture = MEX_politicised_army_2
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				resistance_growth_on_our_occupied_states = 0.25
+			}
+		}
+		ALG_a5 = {
+			picture = hol_liberation
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.30
+				consumer_goods_factor = -0.35
+				industrial_capacity_factory = 0.1
+			}
+		}
+		ALG_a6 = {
+			picture = generic_fortify_the_borders
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_bunker_factor = 0.75
+			}
+		}
+		ALG_a7 = {
+			picture = generic_fortify_the_borders
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_bunker_factor = 0.75
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+				no_supply_grace = 48
+			}
+		}
+		ALG_a8 = {
+			picture = MEX_church_power_5
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				ai_focus_defense_factor = 0.5
+				army_core_defence_factor = 0.1
+				army_speed_factor = 0.05
+				war_support_factor = 0.20
+				conscription = 0.05
+			}
+		}
+	}
+}

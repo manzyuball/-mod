@@ -5,13 +5,16 @@ state={
 
 	history={
 		owner = SOV
-		add_core_of = SOV
+		add_core_of = KAZ
+		add_core_of = VLA
+		add_core_of = VLA
 		buildings = {
 			infrastructure = 2
 
 		}
+		add_core_of = SOV
 		victory_points = {
-			10312 3 
+			10312 1 
 		}
 
 	}
@@ -22,5 +25,5 @@ state={
 	manpower=315450
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.000
+	local_supplies=25.000
 }

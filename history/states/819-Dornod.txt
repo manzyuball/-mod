@@ -2,7 +2,6 @@ state={
 	id=819
 	name="STATE_819"
 	resources={
-		WAR_HORSES=13
 	}
 	provinces={
 		1743 1868 4792 4873 7823 7885 10578 10647 10708 12533 12557 12629 12665 

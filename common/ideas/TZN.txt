@@ -1,0 +1,110 @@
+ideas = {
+	country = { 
+    #初期アイデア
+	TZN_POR = { #ポルトガルとの不平等条約
+		allowed = { always = no }
+		picture = hol_the_foundations_of_defense
+		removal_cost = -1
+		modifier = {
+			targeted_modifier = { tag = POR cic_to_target_factor = 0.35 }
+			min_export = 0.25
+		}
+	}
+	TZN_ENG = { #イギリスとの不平等条約
+		allowed = { always = no	}
+		picture = hol_the_foundations_of_defense
+		removal_cost = -1
+		modifier = {
+			targeted_modifier = { tag = ENG cic_to_target_factor = 0.35 }
+			min_export = 0.25
+		}
+	}
+	ANKOKU = { #暗黒大陸
+	    allowed = {	always = no }
+	    picture = hol_de_vaarplicht
+	    removal_cost = -1
+	    modifier = {
+			political_power_factor = -0.25
+			stability_factor = -0.25
+			surrender_limit = -0.25
+			conscription_factor = -0.25
+	    }
+    }
+	Kindaihou_TZN = { #近代的な法
+	allowed = {	always = no }
+	picture = hun_treaty_of_trianon
+	removal_cost = -1
+	modifier = {
+		political_power_factor = 0.15
+		political_advisor_cost_factor = -0.25
+	}
+    }
+	Kindaihou_TZN1 = { #中央共和国憲法
+	allowed = {	always = no }
+	picture = hun_treaty_of_trianon
+	removal_cost = -1
+	modifier = {
+		political_power_factor = 0.25
+		political_advisor_cost_factor = -0.25
+		stability_factor = 0.20
+	}
+    }
+	TZN_SYOU = { #陸軍省
+	allowed = {	always = no }
+	picture = raj_indian_gentlemen_officers
+	removal_cost = -1
+	modifier = {
+		command_power_gain = 0.25
+		max_planning = 0.25
+	}
+    }
+	TZN_sensi = { #アフリカの戦士達
+	allowed = {	always = no }
+	picture = por_colonial_army
+	removal_cost = -1
+	modifier = {
+		heat_attrition_factor = -0.85
+		terrain_penalty_reduction = 0.6
+	}
+    }
+	TZN_sensi1 = { #アフリカの戦士達
+	allowed = {	always = no }
+	picture = por_colonial_army
+	removal_cost = -1
+	modifier = {
+		heat_attrition_factor = -0.85
+		terrain_penalty_reduction = 0.6
+		army_speed_factor = 0.15
+		army_attack_factor = 0.15
+	}
+    }
+	af_senkan = { #アフリカの造船
+	allowed = {	always = no }
+	picture = generic_coastal_navy
+	removal_cost = -1
+	research_bonus = {
+		naval_equipment = 0.15
+	}
+	modifier = {
+		industrial_capacity_dockyard = 0.25
+	}
+    }
+	af_senkan1 = { #商船
+	allowed = {	always = no }
+	picture = generic_coastal_navy
+	removal_cost = -1
+	research_bonus = {
+		naval_equipment = 0.15
+	}
+	equipment_bonus = {
+		convoy = {
+			instant = yes
+			build_cost_ic = -0.45
+		}
+	}
+	modifier = {
+		industrial_capacity_dockyard = 0.25
+	}
+    }
+    }
+}

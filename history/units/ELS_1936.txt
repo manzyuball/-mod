@@ -1,55 +1,267 @@
 ﻿division_template = {
-	name = "Brigada de Infanteria"		# Military dictatorships were supported by frontline army brigades during period
-	division_names_group = SPAN_INFB_02
-
+	name = "正規兵"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 }
 
 units = {
-	##### Ejército de El Salvador #####
-	division= {	# "1a Brigada de Ejercito"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 12823 # San Salvador
-		division_template = "Brigada de Infanteria"
+	division= {
+		name = "正規兵"
+		location = 11848
+		division_template = "正規兵"
 		start_experience_factor = 0.2
 	}
-	division= {	# "2a Brigada de Ejercito"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 12823 # San Salvador
-		division_template = "Brigada de Infanteria"
+	division= {
+		name = "正規兵"
+		location = 9921
+		division_template = "正規兵"
 		start_experience_factor = 0.2
 	}
-	division= {	# "3a Brigada de Ejercito"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 3
-		}
-		location = 12823 # San Salvador
-		division_template = "Brigada de Infanteria"
+	division= {
+		name = "正規兵"
+		location = 11898 
+		division_template = "正規兵"
 		start_experience_factor = 0.2
 	}
-
-	##### No Notable Naval Forces #####
+	division= {
+		name = "正規兵"
+		location = 981
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 856
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 11831
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 3951
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 6808
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 9896
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 6908
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 11747
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 804
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 3862
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 11826
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 919
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 6977
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 6888
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 3921
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 6813
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 9893
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 806
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 3889
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 9912
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 7620
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 11746
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 6807
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 9878
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 4112
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 9941
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 3927
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 1005
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 4124
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 6807
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 9901
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 909
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 921
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 4124
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 3870
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 11917
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "正規兵"
+		location = 3964
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}
 }
-
-##### No Notable Air Forces #####
 
 
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
-			creator = "ELS"
+			creator = "CYP"
 		}
 		requested_factories = 1
 		progress = 0.72

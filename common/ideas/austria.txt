@@ -1,188 +1,314 @@
 ideas = {
 	country = {
-	AUS_seizi_1 = {
-			picture = hun_hungarian_monarchy_habsburg
+		AUS_na1 = {
+			picture = generic_deal_with_the_devil
 			allowed = {
-				always = no
 			}
-			
-			allowed_civil_war = {
-				tag = BUL
-			}
+
 			removal_cost = -1
-			modifier = {
-				drift_defence_factor = 0.25
-				stability_weekly = 0.05
-				set_rule = {
-					can_create_factions = yes
-					}
+			modifier = {	
+				fascism_drift = 0.10
+				production_factory_efficiency_gain_factor = 0.1
 			}
 		}
-		Souryokusenn = {
+		AUS_na2 = {
+			picture = generic_goods_red_bonus
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {	
+				fascism_drift = 0.10
+				stability_weekly = 0.01
+				consumer_goods_factor = 0.05
+			}
+		}
+		AUS_roudousya = {
+			picture = generic_production_bonus
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {	
+				fascism_drift = 0.10
+				industrial_capacity_factory = 0.15
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		AUS_isi = {
+			picture = FRA_scw_intervention_republicans_focus
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {	
+				fascism_drift = 0.10
+				political_power_factor = 0.25
+				stability_weekly = 0.01
+			}
+		}
+		AUS_yon = {
+			picture = SOV_third_five_year_plan_civilian
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {	
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		AUS_hous = {
+			picture = ast_all_in
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {	
+				production_speed_buildings_factor = 0.25
+				production_factory_efficiency_gain_factor = 0.25
+			}
+		}
+		AUS_huhai = {
+			picture = MEX_church_power_5
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {	
+				stability_factor = 0.2
+				army_org_Factor = 0.05
+				research_time_factor = -0.05
+			}
+		}
+		AUS_huhai2 = {
+			picture = SOV_opiate_of_the_masses
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {	
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		AUS_doruhu = {
+			picture = generic_deal_with_the_devil2
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {	
+				drift_defence_factor = 0.25
+				political_power_factor = 0.25
+				defensive_war_stability_factor = 0.5
+				surrender_limit = 0.15
+			}
+		}
+		AUS_gyokuza = {
+			picture = ast_abandon_the_westminster_system
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {	
+				political_power_factor = -0.15
+			}
+		}
+		AUS_gyokuza1 = {
+			picture = generic_king_handled
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				fascism_drift = 0.10
+				political_power_factor = -0.15
+				stability_weekly = -0.01
+			}
+		}
+		AUS_gyokuza2 = {
+			picture = can_patriation
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				fascism_drift = 0.10
+				political_power_factor = 0.05
+				stability_weekly = 0.01
+				surrender_limit = 0.05
+			}
+		}
+		AUS_genron = {
+			picture = generic_secret_police
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				communism_drift = -0.10
+				stability_factor = 0.10
+			}
+		}
+		AUS_genron1 = {
+			picture = generic_secret_police
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				communism_drift = -0.10
+				stability_factor = 0.35
+			}
+		}
+		AUS_aka = {
 			picture = hol_liberation
 			allowed = {
-				has_war = yes
 			}
+
 			removal_cost = -1
 			modifier = {
-				conscription = 0.1
-				army_core_defence_factor = 0.75
-				army_core_attack_factor = 0.75
-				partisan_effect = 0.75
-				supply_consumption_factor = -0.40
-				training_time_factor = -0.5
+				resistance_growth_on_our_occupied_states = 0.5
+				army_core_defence_factor = 0.25
+				army_core_attack_factor = 0.25
 			}
-
-
-
 		}
-
-	AUS_gun = {
-			picture = generic_artillery_manufacturer_3
-			
+		AUS_koutu = {
+			picture = generic_build_infrastructure
 			allowed = {
-				always = no
 			}
-			
-			allowed_civil_war = {
-				tag = BUL
-			}
+
 			removal_cost = -1
 			modifier = {
-				army_leader_start_level = 3
-				military_leader_cost_factor = -0.50
-				experience_gain_army = 0.05
+				supply_node_range = 0.15
+				army_speed_factor = 0.15
 			}
 		}
-		AUS_NAZI_idea = {
-					
+		AUS_hitler = {
+			picture = GER_adolf_hitler
 			allowed = {
-				always = no
 			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-			
 			removal_cost = -1
-
-			picture = generic_manpower_bonus
-			
 			modifier = {
-				political_advisor_cost_factor = -0.75
-				mobilization_laws_cost_factor = -0.75
-				economy_cost_factor = -0.75
-				trade_laws_cost_factor = -0.25
-				fascism_drift = 0.01
-				ai_focus_aggressive_factor = 0.5
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				stability_factor = 0.10
 			}
 		}
-		AUS_NAZI_GUN_idea = {
-					
+		AUS_hitler2 = {
+			picture = generic_secret_police
 			allowed = {
-				always = no
 			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-			
 			removal_cost = -1
-
-			picture = generic_manpower_bonus
-			
 			modifier = {
-				army_leader_start_level = 3
-				army_leader_start_attack_level= 3
-				army_leader_start_planning_level= 3
-				army_leader_start_defense_level= 3
-				army_leader_start_logistics_level= 3
-				high_command_cost_factor = -0.25
-				army_chief_cost_factor = -0.50
-				planning_speed = 0.15
+				stability_weekly = 0.02
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				stability_factor = 0.10
 			}
 		}
-		AUS_NAZI_GUN2_idea = {
-					
+		AUS_hitler3 = {
+			picture = generic_secret_police
 			allowed = {
-				always = no
 			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-			
 			removal_cost = -1
-
-			picture = generic_manpower_bonus
-			
 			modifier = {
-				army_org_Factor = 0.2
-				army_morale_factor = 0.2
-				attrition = -0.15
-				max_dig_in = 4
+				stability_weekly = 0.05
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				stability_factor = 0.10
 			}
 		}
-		AUS_NAZI_GUN3_idea = {
-					
+		AUS_hitler4 = {
+			picture = generic_secret_police
 			allowed = {
-				always = no
 			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-			
 			removal_cost = -1
-
-			picture = generic_manpower_bonus
-			
 			modifier = {
-				conscription_factor = 0.1
-				training_time_army_factor = -0.3
+				stability_factor = 0.15
+				Resistance_decay_on_our_occupied_states = 0.5
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				stability_factor = 0.10
+			}
 		}
-	  }
-	  AUS_NAZI_GUN4_idea = {
-					
-		allowed = {
-			always = no
+		AUS_SOKOKUSENSOU = {
+			picture = hol_liberation
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+				army_core_defence_factor = 0.45
+				training_time_army_factor = -0.5
+			}
 		}
+		AUS_SOKOKUSENSOU2 = {
+			picture = hol_liberation
+			allowed = {
+			}
 
-		allowed_civil_war = {
-			always = yes
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+				defence = 0.15
+				army_core_defence_factor = 0.45
+				training_time_army_factor = -0.5
+			}
 		}
-		
-		removal_cost = -1
+		AUS_SOKOKUSENSOU3 = {
+			picture = hol_liberation
+			allowed = {
+			}
 
-		picture = generic_manpower_bonus
-		
-		modifier = {
-			army_armor_speed_factor = 0.2
-			army_armor_attack_factor = 0.3
-			army_armor_defence_factor = 0.3
-	}
-  }
-  AUS_NAZI_GUN5_idea = {
-					
-	allowed = {
-		always = no
-	}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+				defence = 0.15
+				army_core_attack_factor = 0.85
+				army_core_defence_factor = 0.45
+				training_time_army_factor = -0.5
+			}
+		}
+		AUS_gunkaku = {
+			picture = MEX_callistas
+			allowed = {
+			}
 
-	allowed_civil_war = {
-		always = yes
-	}
-	
-	removal_cost = -1
+			removal_cost = -1
+			modifier = {
+				defensive_war_stability_factor = 0.85
+				war_support_factor = 0.15
+				production_speed_arms_factory_factor = 0.35
+			}
+		}
+		AUS_Kunsyua = {
+			picture = HUN_hungarian_monarchy_habsburg
+			allowed = {
+			}
 
-	picture = generic_manpower_bonus
-	
-	modifier = {
-		industry_free_repair_factor = 1
-		production_speed_buildings_factor = 0.35
-		conversion_cost_civ_to_mil_factor = -0.5
-		industry_repair_factor = 0.75
-		consumer_goods_factor = 0.1
-}
-}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.20
+				political_power_factor = -0.15
+			}
+		}
+		AUS_YUragu = {
+			picture = prc_the_long_march
+			allowed = {
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_weekly = -0.05
+				war_support_weekly = -0.05
+			}
+		}
     }
 }

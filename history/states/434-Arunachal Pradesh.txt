@@ -4,13 +4,14 @@ state={
 	name="STATE_434"
 	manpower = 200000
 	
-	state_category = wasteland
+	state_category = town
 	resources={
-		# tungsten=49 # was: 54
+		tungsten=49 # was: 54
 	}
 
 	history={
-		owner = RAJ
+		owner = IVO
+		add_core_of = IVO
 		buildings = {
 			infrastructure = 1
 		}
@@ -18,7 +19,7 @@ state={
 	}
 
 	provinces={
-		1116 1996 10810 12322 12730 13302 
+		1116 1996 10810 12322 12730 
 	}
 
 	local_supplies=3.0 

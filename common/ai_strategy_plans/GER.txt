@@ -1,0 +1,223 @@
+German_historical = {
+	name = "German historical plan"
+	desc = "Essentially historical behaviour for Germany"
+
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		or = {
+			AND = {
+				is_historical_focus_on = yes
+				OR = {
+					not = { has_dlc = "Waking the Tiger" }
+					has_game_rule = {
+						rule = GER_ai_behavior
+						option = DEFAULT
+					}
+				}	
+			}
+			has_country_flag = GER_AI_RANDOM_FASCIST
+			has_game_rule = {
+				rule = GER_ai_behavior
+				option = FASCIST
+			}
+		}
+	}
+	abort = {
+		OR = {
+			SWE = {
+				has_government = communism #prio 1, crush Sweden
+			}
+			SOV = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			ENG = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+			any_country_with_original_tag = {
+				original_tag_to_check = HUN
+				has_completed_focus = HUN_invite_the_habsburg_prince
+			}
+			any_country_with_original_tag = {
+				original_tag_to_check = FRA
+				OR = {
+					has_completed_focus = FRA_utilize_the_leagues
+					has_completed_focus = FRA_invite_communist_ministers
+					has_completed_focus = FRA_leftist_rhetoric
+					has_completed_focus = FRA_right_wing_rhetoric
+				}
+			}
+			any_country_with_original_tag = {
+				original_tag_to_check = USA
+				OR = {
+					has_completed_focus = USA_war_plan_red
+					has_completed_focus = USA_war_plan_white
+				}
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		# grab as fast as you can if available
+		GER_s1
+
+		GER_s5
+		GER_s4
+		GER_s15
+		GER_n1
+		GER_n4
+		#1937
+		GER_n6
+		GER_n9
+		GER_s5
+		GER_s2
+		GER_s10
+		#1938
+		GER_s16
+		GER_s3
+		GER_n12
+		GER_n13
+		GER_s21
+		#1939
+		GER_n8
+		GER_n3
+		GER_s6
+		GER_s11
+		GER_s7
+		#1940
+		GER_s22
+		GER_s23
+		GER_s24
+		GER_s8
+		GER_n2	
+		#1941
+		GER_n16
+		GER_air_innovation
+		GER_naval_rearmament
+		GER_naval_effort
+		GER_naval_effort2
+		#1942
+		GER_strategic_air_effort
+		GER_air_innovation_2
+		GER_rocketry_focus
+		GER_long_range_escorts
+		GER_wunderwaffe
+		GER_u_boat_effort
+		GER_trade_interdiction
+	}
+
+	research = {
+		infantry_weapons = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		hjalmar_schacht = 10
+	}
+
+	traits = {
+		captain_of_industry = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = 111
+	}
+
+	focus_factors = {
+		GER_rhineland = 1.0
+	}
+
+}
+GER_minor_allies = { #used to make minor European nations like Axis more
+	name = "Minor German Allies"
+
+	allowed = {
+		OR = {
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = YUG
+			original_tag = ITA
+			original_tag = CZE
+			original_tag = DEN
+			original_tag = NOR
+			original_tag = SWE
+			original_tag = FIN
+			original_tag = SPR
+			original_tag = POR
+			original_tag = HOL
+			original_tag = BEL
+			original_tag = LUX
+			original_tag = POL
+			original_tag = LAT
+			original_tag = LIT
+			original_tag = EST
+			original_tag = CRO
+			original_tag = SLO
+		}
+	}
+	enable = {
+		OR = {
+			has_government = fascism
+			fascism > 0.5
+		}
+		is_in_faction = no
+		GER = {
+			has_government = fascism
+		}
+		OR = {
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = YUG
+			original_tag = ITA
+			original_tag = CZE
+			original_tag = DEN
+			original_tag = NOR
+			original_tag = SWE
+			original_tag = FIN
+			original_tag = SPR
+			original_tag = POR
+			original_tag = HOL
+			original_tag = BEL
+			original_tag = LUX
+			original_tag = POL
+			original_tag = LAT
+			original_tag = LIT
+			original_tag = EST
+			original_tag = CRO
+			original_tag = SLO
+		}
+	}
+	abort = {
+		GER = {
+			NOT = {
+				has_government = fascism
+			}
+		}
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "JAP"
+		value = -500
+	}
+}

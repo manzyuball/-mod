@@ -8,9 +8,9 @@ state={
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
 			industrial_complex = 10
-			air_base = 6
+			air_base = 10
 			dockyard = 3
 			7014 = {
 				naval_base = 6
@@ -21,19 +21,23 @@ state={
 
 		}
 		victory_points = {
-			11913 50 
+			11913 45 
 		}
 		victory_points = {
-			7014 10 
+			7014 5 
 		}
 		victory_points = {
-			10076 5 
+			10076 3 
+		}
+		1938.10.25 = {
+			controller = JAP
+
 		}
 
 	}
 
 	provinces={
-		996 1089 7014 7120 10034 10076 11913 11982 12052 12076 
+		996 1089 7014 7120 10034 10076 11913 11982 12052 12076 13142 
 	}
 	manpower=17305100
 	buildings_max_level_factor=1.000

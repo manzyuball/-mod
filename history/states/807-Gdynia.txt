@@ -4,15 +4,9 @@ state={
 	name="STATE_807"
 
 	history={
-		owner = GER
+		owner = LAT
 		victory_points = {
 			9263 5 
-		}
-		victory_points = {
-			3295 5 
-		}
-		victory_points = {
-			279 1 
 		}
 		buildings = {
 			infrastructure = 3
@@ -26,13 +20,12 @@ state={
 
 		}
 		add_core_of = GER
-		add_core_of = KSH
-		add_claim_by = POL
+		add_core_of = LAT
 
 	}
 
 	provinces={
-		279 334 389 3295 3324 3381 5739 6802 8545 8874 9048 9263 13761 13869 13912 
+		279 334 389 3324 9263 
 	}
 	manpower=713370
 	buildings_max_level_factor=1.000

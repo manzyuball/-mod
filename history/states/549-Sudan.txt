@@ -7,15 +7,16 @@ state={
 		owner = EGY
 		add_core_of = EGY
 		add_core_of = SUD
+		add_core_of = TZN
 		buildings = {
 			infrastructure = 2
-
+			industrial_complex = 2
 		}
 
 	}
 
 	provinces={
-		1914 1960 2016 4033 4918 5060 8052 8084 10739 10795 10827 10851 10857 12744 12800 12887 13482 13484 
+		1914 1960 2016 4033 4918 5060 8052 8084 10739 10795 10827 10851 10857 12744 12800 12887 
 	}
 	manpower=3694293
 	buildings_max_level_factor=1.000

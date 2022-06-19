@@ -19,12 +19,12 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = ITA
 		add_core_of = AUS
+		add_core_of = ITA
 	}
 
 	provinces={
-		656 6631 6675 9008 9598 9630 11598 11615 
+		656 6631 6675 9598 9630 11598 11615 
 	}
 
 	local_supplies=0.0 

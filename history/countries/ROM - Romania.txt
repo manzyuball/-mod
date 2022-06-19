@@ -21,7 +21,6 @@ if = {
 		set_naval_oob = "ROM_1936_naval_legacy"
 	}
 }
-
 set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.6
@@ -106,6 +105,7 @@ if = {
 	}
 }
 
+
 #Kick off kings crazy life
 if = {
 	limit = {
@@ -119,47 +119,20 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		#has_dlc = Battle for the Bosporus
-	}
-	add_opinion_modifier = { 
-		target = GRE
-		modifier = BFTB_balkan_pact_ally
-	}
-	add_opinion_modifier = { 
-		target = TUR
-		modifier = BFTB_balkan_pact_ally
-	}
-	add_opinion_modifier = { 
-		target = YUG
-		modifier = BFTB_balkan_pact_ally
-	}
-	add_opinion_modifier = { 
-		target = BUL
-		modifier = BFTB_balkan_pact_enemy
-	}
-	add_opinion_modifier = { 
-		target = HUN
-		modifier = BFTB_balkan_pact_enemy
-	}
-}
+set_convoys = 20
 
-set_convoys = 10
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 30
-	fascism = 18
-	communism = 2
-	neutrality = 50
+	democratic = 29
+	fascism = 10
+	communism = 1
+	neutrality = 60
 }
-
-YUG = { add_to_faction = YUG }
 
 ### VARIANTS ###
 # 1936 Start #
@@ -224,5 +197,16 @@ if = {
 			mid_1_custom_slot = ship_mine_layer_1
 			rear_1_custom_slot = ship_depth_charge_1
 		}
+	}
+}
+
+# 1939 Start #
+1939.1.1 = {
+	if = {
+		limit = { not = { has_dlc = "Man the Guns" } }
+		# Ship variants #
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
 	}
 }

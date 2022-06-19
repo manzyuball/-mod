@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = USB
+		owner = USA
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -24,6 +24,7 @@ state={
 			}
 
 		}
+		add_core_of = USN
 		add_core_of = USA
 		add_core_of = USB
 		add_core_of = CSA
@@ -37,7 +38,7 @@ state={
 	}
 
 	provinces={
-		715 718 905 908 3710 3906 6732 6909 9832 9847 9850 11830 13241 
+		715 718 905 908 3710 3906 6732 6909 9832 9847 9850 11830
 	}
 	manpower=8404713
 	buildings_max_level_factor=1.000

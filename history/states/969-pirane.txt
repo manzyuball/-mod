@@ -1,0 +1,24 @@
+state={
+	id=969
+	name="STATE_969"
+	provinces={
+		929 3740 3749 6759 9882 9884 11697 11699 12169 
+	}
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		add_core_of = FRA
+
+	}
+
+	manpower=512131
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

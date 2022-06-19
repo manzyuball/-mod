@@ -16,502 +16,1478 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 2200 }
 
 	focus = {
-		id = AUS_seizi_1
-		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
-#		prerequisite = { focus = }
-#   	mutually_exclusive = { focus =  }
-#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
-#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
-		x = -1
+		id = AUS_na_1
+		icon = "GFX_focus_proclaim_the_restauration_of_Austria_Hungary"
+		x = 10
 		y = 0
-#		relative_position_id = 
-
-		cost = 10
-
-		ai_will_do = {
-		factor = 1
-	}	
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-	completion_reward = {
-        add_political_power = 250
-        add_stability = 0.25
+		cost = 5
+        #prerequisite = { focus = GER_n1 }
+		#relative_position_id = GER_n1
+		completion_reward = {
+			add_political_power = 150
+		}
 	}
-}
+    focus = {
+		id = AUS_naz1
+		icon = "GFX_focus_ger_reichskommisariats"
+		x = 0
+		y = 1
+		cost = 5
+        prerequisite = { focus = AUS_na_1 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_political_power = 150
+			set_country_flag = AUS_nazi
+		}
+	}
+    focus = {
+		id = AUS_naz2
+		icon = "GFX_focus_hol_the_foundations_of_defense"
+		x = 0
+		y = 2
+		cost = 5
+        prerequisite = { focus = AUS_naz1 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+				}
+		}
+	}
+    focus = {
+		id = AUS_naz3
+		icon = "GFX_focus_generic_manpower"
+		x = 1
+		y = 3
+		cost = 5
+        prerequisite = { focus = AUS_naz2 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			custom_effect_tooltip = AUS_bq1
+			set_country_flag = AUS_SSq
+			hidden_effect = {
+				load_oob = "AUS_SS"
+			}
+		}
+	}
+    focus = {
+		id = AUS_naz4
+		icon = "GFX_goal_generic_propaganda"
+		x = -1
+		y = 3
+		cost = 5
+        prerequisite = { focus = AUS_naz2 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.25
+				}
+				set_country_flag = AUS_hit
+				activate_decision = AUS_enze_decisions
+		}
+	}
+   focus = {
+		id = AUS_naz5
+		icon = "GFX_focus_rom_royal_dictatorship"
+		x = -2
+		y = 2
+		cost = 5
+        prerequisite = { focus = AUS_naz1 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_timed_idea = {
+				idea = AUS_na1
+				days = 70
+				}
+		}
+	}    
+    focus = {
+		id = AUS_naz6
+		icon = "GFX_focus_hol_abandon_the_gold_standard"
+		x = 2
+		y = 2
+		cost = 5
+        prerequisite = { focus = AUS_naz1 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_timed_idea = {
+				idea = AUS_na2
+				days = 70
+				}
+		}
+	}
+    focus = {
+		id = AUS_naz7
+		icon = "GFX_focus_POL_complete_april_constitution"
+		x = 0
+		y = 4
+		cost = 5
+		available = {
+			fascism > 0.45
+      	}
+        prerequisite = { focus = AUS_naz2 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			set_politics = {
+				ruling_party = fascism
+				}
+				add_timed_idea = {
+					idea = AUS_isi
+					days = 45
+				}
+		}
+	}
+    focus = {
+		id = AUS_naz8
+		icon = "GFX_goal_tfv_strengthen_commonwealth_ties"
+		x = -7
+		y = 5
+		cost = 5
+		available = {
+        NOT = { has_completed_focus = AUS_naz9 }
+		}
+        prerequisite = { focus = AUS_naz7 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_political_power = 150
+			hidden_effect = {
+				kill_country_leader = yes
+			}
+		}
+	}
+	focus = {
+		id = AUS_nazA
+		icon = "GFX_focus_hun_elect_a_king"
+		x = -2
+		y = 1
+		cost = 5
+		available = {
+		NOT = { has_completed_focus = AUS_nazB }
+		}
+        prerequisite = { focus = AUS_naz8 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
 
-focus = {
-    id = AUS_lerder1
-    icon = GFX_focus_LIT_new_kind_of_iron_wolf
-#		prerequisite = { focus = }
-prerequisite = { focus = AUS_seizi_1 }
-#   	mutually_exclusive = { focus =  }
-    x = -1
-    y = 1
-#		relative_position_id = 
+		}
+	}
+	focus = {
+		id = AUS_nazA1
+		icon = "GFX_focus_focus_fra_national_resistance_council"
+		x = -4
+		y = 2
+		cost = 5
+        prerequisite = { focus = AUS_nazA }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AUS_nazA2
+		icon = "GFX_focus_generic_royal_wedding"
+		x = -2
+		y = 2
+		cost = 5
+        prerequisite = { focus = AUS_nazA }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AUS_nazA3
+		icon = "GFX_focus_SOV_zemsky_sobor"
+		x = -2
+		y = 3
+		cost = 5
+        prerequisite = { focus = AUS_nazA2 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AUS_nazA4
+		icon = "GFX_focus_proclaim_the_restauration_of_Austria_Hungary"
+		x = -4
+		y = 3
+		cost = 5
+        prerequisite = { focus = AUS_nazA2 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AUS_nazA5
+		icon = "GFX_focus_generic_polish_deal"
+		x = -6
+		y = 3
+		cost = 5
+        prerequisite = { focus = AUS_nazA2 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AUS_nazA6
+		icon = "GFX_focus_POL_polish_revanchism"
+		x = -6
+		y = 4
+		cost = 5
+        prerequisite = { focus = AUS_nazA5 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AUS_nazA7
+		icon = "GFX_focus_usa_focus_on_europe"
+		x = -4
+		y = 4
+		cost = 5
+        prerequisite = { focus = AUS_nazA4 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AUS_nazA8
+		icon = "GFX_focus_SOV_transcaucasian_republic"
+		x = -2
+		y = 4
+		cost = 5
+        prerequisite = { focus = AUS_nazA3 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AUS_nazA9
+		icon = "GFX_focus_SOV_panslavic_nationalism"
+		x = -2
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_nazA8 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AUS_nazA10
+		icon = "GFX_focus_generic_monarchy_2"
+		x = -4
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_nazA7 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AUS_nazA11
+		icon = "GFX_focus_POL_expand_polish_intelligence"
+		x = -6
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_nazA6 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AUS_nazA12
+		icon = "GFX_focus_rom_royal_dictatorship"
+		x = -4
+		y = 6
+		cost = 5
+        prerequisite = { focus = AUS_nazA11 focus = AUS_nazA10 focus = AUS_nazA9 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AUS_nazB
+		icon = "GFX_focus_generic_military_academy"
+		x = 2
+		y = 1
+		cost = 5
+		available = {
+			NOT = { has_completed_focus = AUS_nazA }
+			}
+        prerequisite = { focus = AUS_naz8 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			add_ideas = AUS_hitler
+		}
+	}
+	focus = {
+		id = AUS_nazB1
+		icon = "GFX_goal_tfv_saf_support_ossebrandwag"
+		x = 2
+		y = 2
+		cost = 5
+        prerequisite = { focus = AUS_nazB }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = AUS_nazB2
+		icon = "GFX_goal_generic_military_sphere"
+		x = 4
+		y = 2
+		cost = 5
+        prerequisite = { focus = AUS_nazB }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = AUS_nazB3
+		icon = "GFX_focus_generic_coastal_fort"
+		x = 4
+		y = 3
+		cost = 5
+        prerequisite = { focus = AUS_nazB2 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			add_ideas = AUS_gunkaku
+		}
+	}
+	focus = {
+		id = AUS_nazB4
+		icon = "GFX_focus_eng_liberate_the_home_of_marx"
+		x = 3
+		y = 4
+		cost = 5
+        prerequisite = { focus = AUS_nazB3 }
+		prerequisite = { focus = AUS_nazB5 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = AUS_hitler
+				add_idea = AUS_hitler2
+				}
+		}
+	}
+	focus = {
+		id = AUS_nazB5
+		icon = "GFX_focus_rom_handle_king"
+		x = 2
+		y = 3
+		cost = 5
+        prerequisite = { focus = AUS_nazB1 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			add_timed_idea = {
+				idea = AUS_Kunsyua
+				days = 85
+				}
+		}
+	}
+	focus = {
+		id = AUS_nazB6
+		icon = "GFX_focus_prc_infiltration"
+		x = 6
+		y = 4
+		cost = 5
+        prerequisite = { focus = AUS_nazB3 }
+		relative_position_id = AUS_naz8
+		available = {
+			has_defensive_war = yes
+			OR = {
+				 has_war_with = GER
+				 has_war_with = FRA
+				 has_war_with = SOV
+				 has_war_with = ENG
+				 has_war_with = JAP
+				 has_war_with = ARG
+				 has_war_with = CHI
+				 has_war_with = VLA
+				 has_war_with = USA
+				 has_war_with = USN
+				}
+		}
+		completion_reward = {
+			add_ideas = AUS_SOKOKUSENSOU
+		}
+	}
+	focus = {
+		id = AUS_nazB7
+		icon = "GFX_focus_generic_manpower"
+		x = 6
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_nazB6 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = AUS_SOKOKUSENSOU
+				add_idea = AUS_SOKOKUSENSOU2
+				}
+		}
+	}
+	focus = {
+		id = AUS_nazB8
+		icon = "GFX_focus_POL_sanation_right"
+		x = 8
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_nazB6 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			add_research_slot = 1
+			if = {
+				limit = {
+					has_war_support < 0.8
+				}
+				set_war_support = 0.81
+				add_ideas = tot_economic_mobilisation
+			}
+			else_if = {
+				limit = {
+					has_idea = tot_economic_mobilisation
+				}
+				add_political_power = 150
+			}
+			else = {
+				add_ideas = tot_economic_mobilisation
+			}
+		}
+	}
+	focus = {
+		id = AUS_nazB9
+		icon = "GFX_focus_SOV_the_glory_of_the_red_army_alternative"
+		x = 6
+		y = 6
+		cost = 5
+        prerequisite = { focus = AUS_nazB7 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = AUS_SOKOKUSENSOU2
+				add_idea = AUS_SOKOKUSENSOU3
+				}
+		}
+	}
+	focus = {
+		id = AUS_nazB10
+		icon = "GFX_focus_generic_air_defense"
+		x = 6
+		y = 3
+		cost = 5
+        prerequisite = { focus = AUS_nazB2 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = anti_air
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = anti_air
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = anti_air
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = anti_air
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = anti_air
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = anti_air
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = anti_air
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = AUS_nazB11
+		icon = "GFX_goal_support_democracy"
+		x = 4
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_nazB4 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = AUS_nazB12
+		icon = "GFX_goal_generic_demand_territory"
+		x = 4
+		y = 6
+		cost = 5
+        prerequisite = { focus = AUS_nazB11 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			add_country_leader_trait = 	staunch_constitutionalist
+		}
+	}
+	focus = {
+		id = AUS_nazB13
+		icon = "GFX_focus_mex_arrest_general_cedillo"
+		x = 2
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_nazB4 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = AUS_hitler2
+				add_idea = AUS_hitler3
+				}
+		}
+	}
+	focus = {
+		id = AUS_nazB14
+		icon = "GFX_focus_SOV_penal_battalions"
+		x = 2
+		y = 6
+		cost = 5
+        prerequisite = { focus = AUS_nazB13 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = AUS_hitler3
+				add_idea = AUS_hitler4
+				}
+		}
+	}
+	focus = {
+		id = AUS_nazB15
+		icon = "GFX_focus_BUL_free_balkan_states"
+		x = 0
+		y = 4
+		cost = 5
+        prerequisite = { focus = AUS_nazB5 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			YUG = {
+				add_timed_idea = {
+					idea = AUS_YUragu
+					days = 45
+					}
+			}
+			if = {
+				limit = {
+					YUG = { is_puppet_of = AUS }
+				}
+				AUS = {
+					annex_country = {
+					target = YUG
+					transfer_troops = yes
+					}
+				}
+				}
+				else = {
+					create_wargoal = {
+						type = annex_everything
+						target = YUG
+						}
+				}
+				if = {
+					limit = {
+						ALB = { is_puppet_of = AUS }
+					}
+					AUS = {
+						annex_country = {
+						target = ALB
+						transfer_troops = yes
+						}
+					}
+					}
+					else = {
+						create_wargoal = {
+							type = annex_everything
+							target = ALB
+							}
+					}
+			add_state_core = 107
+			add_state_core = 108
+			add_state_core = 802
+			add_state_core = 105
+			add_state_core = 44
+		}
+	}
+	focus = {
+		id = AUS_nazB16
+		icon = "GFX_focus_BUL_consolidate_the_third_bulgarian_state"
+		x = 0
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_nazB15 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			annex_country = {
+				target = BUL
+				transfer_troops = yes
+				}
+				add_state_core = 81
+				add_state_core = 48
+				add_state_core = 803
+				add_state_core = 106
+				add_state_core = 731
+				add_state_core = 184
+				add_state_core = 212
+				add_state_core = 801
+				add_state_core = 211
+				add_state_core = 77
+		}
+	}
+	focus = {
+		id = AUS_nazB17
+		icon = "GFX_focus_proclaim_the_restauration_of_Austria_Hungary"
+		x = 0
+		y = 6
+		cost = 5
+        prerequisite = { focus = AUS_nazB16 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			if = {
+			limit = {
+				ROM = { is_puppet_of = AUS }
+			}
+			AUS = {
+				annex_country = {
+				target = ROM
+				transfer_troops = yes
+				}
+			}
+			}
+			else = {
+				create_wargoal = {
+					type = annex_everything
+					target = ROM
+					}
+			}
+			if = {
+				limit = {
+					GRE = { is_puppet_of = AUS }
+				}
+				AUS = {
+					annex_country = {
+					target = GRE
+					transfer_troops = yes
+					}
+				}
+				}
+				else = {
+					create_wargoal = {
+						type = annex_everything
+						target = GRE
+						}
+				}
+				
+			add_state_core = 46
+			add_state_core = 940
+			add_state_core = 766
+			add_state_core = 78
+			add_state_core = 79
+			add_state_core = 805
+			add_state_core = 855
+			add_state_core = 185
+			add_state_core = 47
+			add_state_core = 186
+			add_state_core = 182
+			add_state_core = 160
+			add_state_core = 159
+			add_state_core = 870
+			add_state_core = 151
 
-    cost = 10
+		}
+	}
+	focus = {
+		id = AUS_nazB18
+		icon = "GFX_focus_usa_reestablish_the_gold_standard"
+		x = 0
+		y = 1
+		cost = 5
+        prerequisite = { focus = AUS_naz8 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = AUS_nazB19
+		icon = "GFX_focus_usa_guarantee_the_american_dream"
+		x = 0
+		y = 2
+		cost = 5
+        prerequisite = { focus = AUS_nazB18 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = AUS_nazB20
+		icon = "GFX_focus_generic_steel"
+		x = 0
+		y = 3
+		cost = 5
+        prerequisite = { focus = AUS_nazB19 }
+		relative_position_id = AUS_naz8
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = {
+					type = steel
+					amount = 62
+					}
+			}
+		}
+	}
+    focus = {
+		id = AUS_naz9
+		icon = "GFX_focus_LIT_new_kind_of_iron_wolf"
+		x = 7
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_naz7 }
+		available = {
+		NOT = { has_completed_focus = AUS_naz8 }
+		}
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_political_power = 150
+			hidden_effect = {
 
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_popularity = {
-        ideology = fascism
-        popularity = 0.2
-        }
-}
-}
-focus = {
-    id = AUS_lerder2
-    icon = GFX_focus_generic_steel
-#		prerequisite = { focus = }
-prerequisite = { focus = AUS_lerder1 }
-#   	mutually_exclusive = { focus =  }
-    x = -2.5
-    y = 2
-#		relative_position_id = 
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_popularity = {
-        ideology = fascism
-        popularity = 0.05
-        }
-        add_resource = {
-            type = steel
-            amount = 18
-            state = 9
-            }
-}
-}
-focus = {
-    id = AUS_lerder3
-    icon = GFX_focus_POL_warsaw_main_station
-#		prerequisite = { focus = }
-prerequisite = { focus = AUS_lerder1 }
-#   	mutually_exclusive = { focus =  }
-    x =  0.5
-    y = 2
-#		relative_position_id = 
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_popularity = {
-        ideology = fascism
-        popularity = 0.05
-        }
-        random_owned_controlled_state = {
-            limit = {
-                free_building_slots = {
-                    building = industrial_complex
-                    size > 2
-                    include_locked = yes
-                }
-            }
-            add_extra_state_shared_building_slots = 2
-            add_building_construction = {
-                type = industrial_complex
-                level = 2
-                instant_build = yes
-            }
-        }
-        random_owned_controlled_state = {
-            limit = {
-                free_building_slots = {
-                    building = industrial_complex
-                    size > 2
-                    include_locked = yes
-                }
-            }
-            add_extra_state_shared_building_slots = 2
-            add_building_construction = {
-                type = industrial_complex
-                level = 2
-                instant_build = yes
-            }
-        }
-}
-}
-
-focus = {
-    id = AUS_lerder4
-    icon = GFX_focus_generic_royal_wedding
-#		prerequisite = { focus = }
-prerequisite = { focus = AUS_lerder2 }
-prerequisite = { focus = AUS_lerder3 }
-#   	mutually_exclusive = { focus =  }
-    x = -1
-    y = 3
-#		relative_position_id = 
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_popularity = {
-        ideology = fascism
-        popularity = 0.1
-        }
-        set_politics = {
-            ruling_party = fascism
-                elections_allowed = no
-                last_election = "1935.12.17"
-                election_frequency = 48
-        }
-}
-}
-focus = {
-    id = AUS_lerder7
-    icon = GFX_focus_generic_military_dictatorship
-#		prerequisite = { focus = }
-prerequisite = { focus = AUS_lerder4 }
-#   	mutually_exclusive = { focus =  }
-    x = -1
-    y = 4.5
-#		relative_position_id = 
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_ideas = AUS_NAZI_idea
-}
-}
-
-focus = {
-    id = AUS_lerder8
-    icon = GFX_focus_POL_sanation_right
-#		prerequisite = { focus = }
-prerequisite = { focus = AUS_lerder7 }
-#   	mutually_exclusive = { focus =  }
-    x = -3
-    y = 5.5
-#		relative_position_id = 
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_ideas = AUS_NAZI_GUN_idea
-}
-}
-focus = {
-    id = AUS_lerder10
-    icon = GFX_focus_SOV_the_defense_of_moscow
-#		prerequisite = { focus = }
-prerequisite = { focus = AUS_lerder8 }
-#   	mutually_exclusive = { focus =  }
-    x = -3.5
-    y = 6.8
-#		relative_position_id = kore.ha EoBnoNF
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_ideas = AUS_NAZI_GUN2_idea
-}
-}
-focus = {
-    id = AUS_lerder11
-    icon = GFX_focus_SOV_restore_cossack_units
-#		prerequisite = { focus = }
-prerequisite = { focus = AUS_lerder10 }
-#   	mutually_exclusive = { focus =  }
-    x = -3.5
-    y = 7.8
-#		relative_position_id = 
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_ideas = AUS_NAZI_GUN3_idea
-}
-}
-focus = {
-    id = AUS_lerder9
-    icon = GFX_goal_generic_construction
-#		prerequisite = { focus = }
-prerequisite = { focus = AUS_lerder7 }
-#   	mutually_exclusive = { focus =  }
-    x = 1
-    y = 5.5
-#		relative_position_id = 
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-    completion_reward = {
-        add_tech_bonus = {
-            bonus = 1.0
-            uses = 2
-            technology = excavation1
-            technology = excavation2
-            technology = excavation3
-            technology = excavation4
-            technology = excavation5
-    }
-}
-}
-focus = {
-    id = AUS_lerder12
-    icon = GFX_focus_spa_the_spanish_miracle
-#		prerequisite = { focus = }
-prerequisite = { focus = AUS_lerder9 }
-#   	mutually_exclusive = { focus =  }
-    x = 1.5
-    y = 6.8
-#		relative_position_id = 
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-    completion_reward = {
-        add_ideas = AUS_NAZI_GUN5_idea
-}
-}
-focus = {
-    id = AUS_lerder5
-    icon = GFX_focus_generic_aircraft_production
-#		prerequisite = { focus = }
-prerequisite = { focus = AUS_lerder2 }
-#   	mutually_exclusive = { focus =  }
-    x = -3.5
-    y = 3.4
-#		relative_position_id = 
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_offsite_building = { type = arms_factory level = 6 }
-}
-}
-focus = {
-    id = AUS_lerder6
-    icon = GFX_goal_generic_army_motorized
-#		prerequisite = { focus = }
-prerequisite = { focus = AUS_lerder3 }
-#   	mutually_exclusive = { focus =  }
-    x = 1.5
-    y = 3.4
-#		relative_position_id = 
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-######このNFはEmpire of Breakwaters制作チームによって作られました 
-######万が一このNFが別modに備わっていたならばそれは不正コピーです
-completion_reward = {
-    add_resource = {
-        type = 	Rubber
-        amount = 9
-        state = 856
-        }
-        add_resource = {
-            type = 	Rubber
-            amount = 4
-            state = 9
-            }
-            add_resource = {
-                type = 	Rubber
-                amount = 12
-                state = 43
-                }
-}
-}
-focus = {
-    id = AUS_seizi_2
-    icon = GFX_focus_focus_fra_maquis
-	prerequisite = { focus = AUS_seizi_1 }
-    x = -10
-    y = 1
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-        add_equipment_to_stockpile = {
-            type = infantry_equipment
-            amount = 5000
-            producer = AUS
-            }
-}
-}
-
-focus = {
-    id = AUS_seizi_3
-    icon = GFX_focus_POL_sanation_left
-	prerequisite = { focus = AUS_seizi_2 }
-    x = -10
-    y = 2
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    army_experience = 50
-    create_corps_commander = {
-        name = "Amwolf Müller"
-        picture = "portrait_europe_generic_land_19.dds"
-        traits = { organizer trait_engineer infantry_leader }
-        skill = 4
-        attack_skill = 2
-        defense_skill = 3
-        planning_skill = 2
-        logistics_skill = 3
-        }
-        create_corps_commander = {
-            name = "Alger Fischer"
-            picture = "portrait_ger_wilhelm_ritter_von_thoma.dds"
-            traits = { cavalry_leader cavalry_expert organizer }
-            skill = 3
-            attack_skill = 4
-            defense_skill = 2
-            planning_skill = 4
-            logistics_skill = 4
-            }
-            create_corps_commander = {
-                name = "Jarvis Schulz"
-                picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
-                traits = { panzer_leader panzer_expert trickster expert_improviser}
-                skill = 6
-                attack_skill = 5
-                defense_skill = 3
-                planning_skill = 4
-                logistics_skill = 3
-                }
-}
-}
-#© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
-#このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
-focus = {
-    id = AUS_seizi_5
-    icon = GFX_focus_SOV_the_glory_of_the_red_army_alternative
-	prerequisite = { focus = AUS_seizi_2 }
-    x = -12
-    y = 2
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_ideas = AUS_NAZI_GUN4_idea
-}
-}
-focus = {
-    id = AUS_seizi_4
-    icon = GFX_focus_research2
-	prerequisite = { focus = AUS_seizi_3 }
-    x = -10
-    y = 3
-
-    cost = 10
-
-    ai_will_do = {
-    factor = 1
-}	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_research_slot = 1
-}
-}
-
-
-
+					news_event = {
+						id = news.8
+						days = 1
+						random = 0
+						}
+			}
+		}
+	}
+    focus = {
+		id = AUS_naz10
+		icon = "GFX_goal_generic_dangerous_deal"
+		x = 5
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+        prerequisite = { focus = AUS_naz9 }
+        mutually_exclusive = { focus = AUS_naz11 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_ideas = AUS_doruhu
+		}
+	}
+    focus = {
+		id = AUS_naz11
+		icon = "GFX_goal_generic_major_war"
+		x = 9
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 0
+		}
+        prerequisite = { focus = AUS_naz9 }
+        mutually_exclusive = { focus = AUS_naz10 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = AUS_naz12
+		icon = "GFX_focus_SOV_penal_battalions"
+		x = 11
+		y = 7
+		cost = 5
+        prerequisite = { focus = AUS_naz11 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = AUS_naz13
+		icon = "GFX_focus_por_estado_novo"
+		x = 11
+		y = 8
+		cost = 5
+        prerequisite = { focus = AUS_naz12 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = AUS_naz14
+		icon = "GFX_goal_tfv_saf_support_ossebrandwag"
+		x = 9
+		y = 7
+		cost = 5
+        prerequisite = { focus = AUS_naz11 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = AUS_naz15
+		icon = "GFX_focus_spr_crush_the_revolution"
+		x = 9
+		y = 8
+		cost = 5
+        prerequisite = { focus = AUS_naz14 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = AUS_naz16
+		icon = "GFX_focus_usa_voter_registration_act"
+		x = 9
+		y = 9
+		cost = 5
+        prerequisite = { focus = AUS_naz15 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = AUS_naz17
+		icon = "GFX_focus_eng_liberate_the_home_of_marx"
+		x = 11
+		y = 9
+		cost = 5
+        prerequisite = { focus = AUS_naz15 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = AUS_naz18
+		icon = "GFX_focus_BUL_free_balkan_states"
+		x = 13
+		y = 9
+		cost = 5
+        prerequisite = { focus = AUS_naz15 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = AUS_naz19
+		icon = "GFX_focus_CZE_german_puppet"
+		x = 14
+		y = 10
+		cost = 5
+        prerequisite = { focus = AUS_naz18 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = AUS_naz20
+		icon = "GFX_focus_spr_crush_the_revolution"
+		x = 12
+		y = 10
+		cost = 5
+        prerequisite = { focus = AUS_naz18 }
+        prerequisite = { focus = AUS_naz17 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = AUS_naz21
+		icon = "GFX_focus_generic_combined_arms"
+		x = 9
+		y = 10
+		cost = 5
+        prerequisite = { focus = AUS_naz16 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = AUS_naz22
+		icon = "GFX_focus_ger_reichskommisariats"
+		x = 10
+		y = 11
+		cost = 5
+        prerequisite = { focus = AUS_naz20 }
+        prerequisite = { focus = AUS_naz21 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		}
+	}
+    focus = {
+		id = AUS_naz23
+		icon = "GFX_focus_hun_elect_a_king"
+		x = 5
+		y = 7
+		cost = 5
+        prerequisite = { focus = AUS_naz10 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_ideas = AUS_gyokuza
+		}
+	}
+    focus = {
+		id = AUS_naz24
+		icon = "GFX_focus_eng_liberate_the_home_of_marx"
+		x = 5
+		y = 8
+		cost = 5
+        prerequisite = { focus = AUS_naz23 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_ideas = AUS_genron
+		}
+	}
+    focus = {
+		id = AUS_naz25
+		icon = "GFX_focus_ger_return_of_the_kaiser"
+		x = 3
+		y = 8
+		cost = 5
+        prerequisite = { focus = AUS_naz23 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = LAT
+				modifier = kyuusekkinn
+				}
+		}
+	}
+    focus = {
+		id = AUS_naz26
+		icon = "GFX_focus_rom_handle_king"
+		x = 1
+		y = 8
+		cost = 5
+        prerequisite = { focus = AUS_naz23 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = AUS_gyokuza
+				add_idea = AUS_gyokuza1
+				}
+		}
+	}
+    focus = {
+		id = AUS_naz27
+		icon = "GFX_focus_hun_assassinate_horthy"
+		x = 3
+		y = 7
+		cost = 5
+        prerequisite = { focus = AUS_naz10 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_political_power = 150
+			HUN_miklos_horthy = {
+				remove_unit_leader = yes
+			}
+		}
+	}
+    focus = {
+		id = AUS_naz28
+		icon = "GFX_focus_ger_revive_kaiserreich"
+		x = 3
+		y = 9
+		cost = 5
+        prerequisite = { focus = AUS_naz25 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			AUS = { add_to_faction = LAT }
+		}
+	}
+    focus = {
+		id = AUS_naz29
+		icon = "GFX_goal_tfv_sever_ties_with_uk"
+		x = 1
+		y = 9
+		cost = 5
+        prerequisite = { focus = AUS_naz26 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = AUS_gyokuza1
+				add_idea = AUS_gyokuza2
+				}
+		}
+	}
+    focus = {
+		id = AUS_naz30
+		icon = "GFX_focus_mex_arrest_general_cedillo"
+		x = 5
+		y = 9
+		cost = 5
+        prerequisite = { focus = AUS_naz24 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = AUS_genron
+				add_idea = AUS_genron1
+				}
+		}
+	}
+    focus = {
+		id = AUS_naz31
+		icon = "GFX_focus_ger_great_red_menace"
+		x = 4
+		y = 10
+		cost = 5
+        prerequisite = { focus = AUS_naz30 }
+        prerequisite = { focus = AUS_naz28 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_ideas = AUS_aka
+		}
+	}
+    focus = {
+		id = AUS_naz32
+		icon = "GFX_focus_attack_italy"
+		x = 5
+		y = 11
+		cost = 5
+        prerequisite = { focus = AUS_naz31 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ITA
+				}
+				add_state_core = 160
+				add_state_core = 159
+				add_state_core = 870
+		}
+	}
+    focus = {
+		id = AUS_naz33
+		icon = "GFX_focus_SOV_panslavic_nationalism"
+		x = 3
+		y = 11
+		cost = 5
+        prerequisite = { focus = AUS_naz31 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_state_core = 53
+			add_state_core = 52
+			add_state_core = 151
+			add_state_core = 873
+			add_state_core = 50
+			add_state_core = 54
+			add_state_core = 55
+			add_state_core = 42
+			add_state_core = 51
+			add_state_core = 65
+			add_state_core = 60
+			add_state_core = 57
+		}
+	}
+    focus = {
+		id = AUS_naz34
+		icon = "GFX_focus_POL_habsburg"
+		x = 1
+		y = 11
+		cost = 5
+        prerequisite = { focus = AUS_naz31 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_state_core = 66
+			add_state_core = 67
+			add_state_core = 762
+			add_state_core = 56
+			add_state_core = 59
+			add_state_core = 64
+			add_state_core = 842
+			add_state_core = 68
+			add_state_core = 63
+			add_state_core = 62
+			add_state_core = 61
+			add_state_core = 58
+			add_state_core = 807
+			add_state_core = 85
+			add_state_core = 5
+			add_state_core = 958
+			add_state_core = 763
+			add_state_core = 188
+			add_state_core = 841
+			if = {
+				limit = { LAT = { has_opinion = { target = AUS value > 95 } } }
+				annex_country = {
+					target = LAT
+					transfer_troops = yes
+					}
+				}
+		
+		}
+	}
+    focus = {
+		id = AUS_naz35
+		icon = "GFX_focus_POL_warsaw_main_station"
+		x = 7
+		y = 7
+		cost = 5
+        prerequisite = { focus = AUS_naz9 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			
+			add_political_power = -150
+		}
+	}
+    focus = {
+		id = AUS_naz36
+		icon = "GFX_focus_POL_develop_polish_shipbuilding"
+		x = 7
+		y = 8
+		cost = 5
+        prerequisite = { focus = AUS_naz35 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_political_power = -150
+		}
+	}
+    focus = {
+		id = AUS_naz37
+		icon = "GFX_goal_generic_construction"
+		x = 7
+		y = 10
+		cost = 5
+        prerequisite = { focus = AUS_naz36 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_ideas = AUS_koutu
+		}
+	}
+    focus = {
+		id = AUS_naz38
+		icon = "GFX_goal_generic_construction"
+		x = 0
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_naz7 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_timed_idea = {
+				idea = AUS_yon
+				days = 1460
+			}
+		}
+	}
+    focus = {
+		id = AUS_naz39
+		icon = "GFX_goal_generic_construct_infrastructure"
+		x = 0
+		y = 6
+		cost = 5
+        prerequisite = { focus = AUS_naz38 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+		736 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			102 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			4 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			856 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			70 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			75 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			9 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			878 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			155 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			43 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			72 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			88 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+		}
+	}
+    focus = {
+		id = AUS_naz40
+		icon = "GFX_focus_generic_steel"
+		x = 2
+		y = 6
+		cost = 5
+        prerequisite = { focus = AUS_naz38 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 46
+				state = 9
+				}
+		}
+	}
+    focus = {
+		id = AUS_naz41
+		icon = "GFX_focus_research2"
+		x = -2
+		y = 6
+		cost = 5
+        prerequisite = { focus = AUS_naz38 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+    focus = {
+		id = AUS_naz42
+		icon = "GFX_goal_generic_construction2"
+		x = -1
+		y = 7
+		cost = 5
+        prerequisite = { focus = AUS_naz38 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_timed_idea = {
+				idea = AUS_hous
+				days = 365
+			}
+		}
+	}
+    focus = {
+		id = AUS_naz43
+		icon = "GFX_focus_generic_industry_3"
+		x = 1
+		y = 7
+		cost = 5
+        prerequisite = { focus = AUS_naz38 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+    focus = {
+		id = AUS_naz44
+		icon = "GFX_focus_por_concordat"
+        mutually_exclusive = { focus =AUS_naz45 }
+		x = 3
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_naz7 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_ideas = AUS_huhai
+		}
+	}
+    focus = {
+		id = AUS_naz45
+		icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
+        mutually_exclusive = { focus = AUS_naz44 }
+		x = 5
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_naz7 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			add_ideas = AUS_huhai2
+		}
+	}
+    focus = {
+		id = AUS_naz46
+		icon = "GFX_focus_usa_honor_the_confederacy"
+        mutually_exclusive = { focus =AUS_naz47 }
+		x = -3
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_naz7 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			army_experience = 50
+			reverse_add_opinion_modifier = {
+				target = CSA
+				modifier = kyuusekkinn
+				}
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 1200
+					target = CSA
+					}
+		}
+	}
+    focus = {
+		id = AUS_naz47
+		icon = "GFX_focus_usa_recruit_the_free_corps"
+        mutually_exclusive = { focus = AUS_naz46 }
+		x = -5
+		y = 5
+		cost = 5
+        prerequisite = { focus = AUS_naz7 }
+		relative_position_id = AUS_na_1
+		completion_reward = {
+			army_experience = 50
+			reverse_add_opinion_modifier = {
+				target = USN
+				modifier = kyuusekkinn
+				}
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 1200
+					target = USN
+					}
+		}
+	}
 }

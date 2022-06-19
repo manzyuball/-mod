@@ -1,1 +1,5 @@
-﻿
+﻿###########################
+# Hungarian Events
+###########################
+
+add_namespace = DOD_hungary

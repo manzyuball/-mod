@@ -26,6 +26,20 @@ characters={
 			id=-1
 		}
 	}
+	HAW_asd = {
+		name="HAW_asd"
+		portraits={
+			civilian={
+				large="gfx/leaders/_EOB/imamura.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ jap_syokumin3 }
+			expire="1947.1.1.12"
+			id=-1
+		}
+	}
 	DOM_fernando_bayo={
 		name="Fernando Bayo"
 		portraits={

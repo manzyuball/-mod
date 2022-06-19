@@ -3,15 +3,11 @@ ENG_decision = {
    enzetu = {
    icon = generic_speech
    available = {
-   has_war = yes
+      has_war = yes
+      original_tag = ENG
    }
-
-
    cost = 35
    fire_only_once = yes
-   visible = {
-      has_war = yes
-   }
    complete_effect = {
         add_stability = 0.1
         add_war_support = 0.35
@@ -25,14 +21,12 @@ ENG_decision = {
    
         available = {
            has_war = yes
+           original_tag = ENG
         }
    
    
         cost = 45
         fire_only_once = yes
-        visible = {
-           has_war = yes
-        }
         complete_effect = {
            add_war_support = 0.45
            set_rule = {
@@ -47,13 +41,11 @@ ENG_decision = {
          icon = generic_speech
          available = {
             has_war = yes
+            original_tag = ENG
             surrender_progress > 0.2
          }
          cost = 50
          fire_only_once = yes
-         visible = {
-         has_war = yes
-         }
          complete_effect = {
             add_ideas = Souryokusenn
          }

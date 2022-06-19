@@ -1,0 +1,58 @@
+﻿division_template = {
+	name = "オーストリア武装国防志願兵"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+units = {
+	division= {	
+		name = "オーストリア武装国防志願兵"
+		location = 11666
+		division_template = "オーストリア武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "オーストリア武装国防志願兵"
+		location = 9648
+		division_template = "オーストリア武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "オーストリア武装国防志願兵"
+		location = 3673
+		division_template = "オーストリア武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "オーストリア武装国防志願兵"
+		location = 688
+		division_template = "オーストリア武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "オーストリア武装国防志願兵"
+		location = 673
+		division_template = "オーストリア武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "オーストリア武装国防志願兵"
+		location = 6626
+		division_template = "オーストリア武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+}

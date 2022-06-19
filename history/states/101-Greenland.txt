@@ -1,23 +1,25 @@
-
-state={
+state=
+{
 	id=101
 	name="STATE_101"
-
-	history={
+	manpower = 18000
+	
+	state_category = wasteland
+	
+	history=
+	{
 		owner = DEN
 		buildings = {
 			infrastructure = 1
-
+			12512 ={
+				naval_base = 1
+			}
 		}
 		add_core_of = DEN
-
 	}
+	provinces=
+	{
+10245 10636 12512 13058 13066 	}
 
-	provinces={
-		13058 13326 
-	}
-	manpower=18000
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	local_supplies=0.000
+	local_supplies=0.0 
 }

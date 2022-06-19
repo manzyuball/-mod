@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Alfurqat Almasha"			# Infantry Division
+	name = "イラク解放軍"			# Infantry Division
 
 	division_names_group = IRQ_INF_01
 
@@ -12,62 +12,234 @@
 		infantry = { x = 1 y = 2 }
 	}
 }
-division_template = {
-	name = "Alfurqat Aljabalia"				# Mountain Division
-
-	division_names_group = IRQ_MTN_01
-
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }	
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-	}
-}
-
 
 units = {
-	##### Royal Iraqi Army #####
 	division = {
-		#name = "1 Alfurqat"
-		division_name = {    # New syntax for compatibility with name lists
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 864
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12318
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10497
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11739
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11759
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9823
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6883
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1606
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3942
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7513
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12442
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10383
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1631
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10815
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4974
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 2097
-		division_template = "Alfurqat Almasha"	
+		division_template = "イラク解放軍"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
 	}
 	division = {
-		#name = "2 Alfurqat"
-		division_name = {    # New syntax for compatibility with name lists
+		division_name = {
 			is_name_ordered = yes
-			name_order = 2
+			name_order = 1
+		}
+		location = 8001
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2089
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
 		}
 		location = 10106
-		division_template = "Alfurqat Aljabalia"	
+		division_template = "イラク解放軍"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
 	}
-}
-
-
-air_wings = {
-	### Royal Iraqi Air Force (RIrAF)
-	291 = {
-		# 1st Squadron -- Hawker Audax
-		CAS_equipment_1 =  {
-			owner = "IRQ" 
-			amount = 25
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
 		}
+		location = 4951
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2013
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12372
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 78
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6826
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12316
+		division_template = "イラク解放軍"	
+		start_experience_factor = 0.2
 	}
 }
-
 
 instant_effect = {
 	add_equipment_production = {

@@ -4,7 +4,7 @@ state={
 	name="STATE_679"
 
 	history={
-		owner = UAE
+		owner = TUR
 		victory_points = {
 			12883 1 
 		}
@@ -17,12 +17,12 @@ state={
 
 		}
 		add_core_of = SAU
-		add_core_of = UAE
+		add_core_of = TUR
 
 	}
 
 	provinces={
-		1033 1923 2027 2033 2095 2872 5037 8073 8092 12101 12883 
+		1033 1923 2027 2033 2095 5037 8073 8092 12101 12455 12883 
 	}
 	manpower=1511000
 	buildings_max_level_factor=1.000

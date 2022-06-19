@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
-			traits={ warrior_code emperor_showa imperial_sanction }
+			traits={ }
 			expire="1989.1.1.1"
 			id=700
 		}
@@ -28,15 +28,16 @@ characters={
 		}
 	}
 
-	JAP_Shidehara={
-		name=JAP_Shidehara
+	JAP_kizt={
+		name=JAP_kizt
 		portraits={
 			civilian={
-				large="gfx/leaders/JAP/portrait_jap_Shidehara.dds"
+				large="gfx/leaders/JAP/kizyuro.dds"
 			}
 		}
 		country_leader={
 			ideology=liberalism
+			traits={  }
 			expire="1989.1.1.1"
 			id=-1
 		}
@@ -64,7 +65,7 @@ characters={
 		}
 
 		corps_commander={
-			traits={ brilliant_strategist politically_connected trickster trait_engineer }
+			traits={ brilliant_strategist trickster trait_engineer }
 			skill=5
 			attack_skill=4
 			defense_skill=5
@@ -1091,7 +1092,6 @@ characters={
 				original_tag = JAP
 			}
 			available = {
-				has_completed_focus = JAP_army_expansion
 			}
 			traits = {
 				army_chief_drill_3
@@ -1393,20 +1393,6 @@ characters={
 			slot = political_advisor
 			idea_token = sanzo_nosaka
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Waking the Tiger"
-					}
-					has_completed_focus = JAP_the_unthinkable_option 
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
 			}
 			allowed = {
 				original_tag = JAP
@@ -1436,20 +1422,6 @@ characters={
 			slot = political_advisor
 			idea_token = kijuro_shidehara
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Waking the Tiger"
-					}
-					has_completed_focus = JAP_strengthen_civilian_government 
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
 			}
 			allowed = {
 				original_tag = JAP
@@ -1482,14 +1454,6 @@ characters={
 				original_tag = JAP
 			}
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
 			}
 			traits = {
 				fascist_demagogue 

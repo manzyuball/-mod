@@ -1,0 +1,87 @@
+ENG_historical_plan = {
+	name = "United Kingdom historical plan"
+	desc = "Historical behavior for United Kingdom"
+
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				OR = {
+					not = { has_dlc = "Man the Guns" }
+					has_game_rule = {
+						rule = ENG_ai_behavior 
+						option = DEFAULT
+					}
+				}
+			}
+			has_country_flag = ENG_AI_DEMOCRATIC_HISTORICAL
+			has_game_rule = {
+				rule = ENG_ai_behavior 
+				option = DEMOCRATIC_HISTORICAL
+			}
+		}
+	}
+	abort = {
+		GER = {
+			has_completed_focus = GER_oppose_hitler
+		}
+	}
+
+	ai_national_focuses = {
+		uk_b1 #February 20 1938	
+		uk_b2 #April 30 1938
+		uk_b5 #July 10 1938
+		uk_b56#September 20 1938
+		uk_fu #March 10 1936	
+		uk_fu2 #May 20 1936	
+		uk_fu21 #July 30 1936
+		uk_fu23 #October 10 1936
+		uk_fu22 #October 10 1936	
+		uk_fu24 #December 20 1936
+		uk_fu25 #February 30 1937
+		uk_fu26  #May 10 1937	
+		uk_fu1  #July 20 1937
+		uk_fu13 #September 30 1937	
+		uk_fu14 #December 10 1937
+		uk_b57 #November 30 1938
+		uk_b58 #February 10 1939
+		uk_b59 #April 20 1939
+		uk_b60#June 30 1939
+		uk_b3#September 10 1939
+		uk_b31 #November 20 1939
+		uk_b32 #January 30 1940
+		uk_b38 #April 10 1940
+		uk_gu #June 20 1940	
+		uk_gu4 #August 30 1940
+		uk_gu42 #November 10 1940
+		uk_gu43 #January 20 1941	
+		uk_gu44#March 30 1941	
+		uk_gu45#June 10 1941
+		uk_gu46#August 20 1941
+		uk_gu22#October 30 1941	
+		uk_gu23#January 10
+		uk_gu24	#March 20 1942
+		uk_gu25#May 30 1942	
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+		home_defence_spirit = 1
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

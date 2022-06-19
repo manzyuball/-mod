@@ -7,11 +7,11 @@ state={
 	resources={
 		oil=90.000
 		aluminium=20.000
-		coca=18.000
 	}
 
 	history={
 		owner = CSA
+		add_core_of = USN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 9

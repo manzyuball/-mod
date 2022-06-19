@@ -80,14 +80,19 @@ if = {
 }
 
 set_popularities = {
-	democratic = 60
-	communism = 40
+	democratic = 10
+	communism = 90
 }
-
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 create_country_leader = {
-	name = "Nikolay Aleksandrovich Skvortsov"
+	name = "ブジョーンヌイ"
 	desc = ""
-	picture = "gfx/leaders/KAZ/portrait_kaz_nikolay_skvortsov.dds"
+	picture = "gfx/leaders/_EOB/KAZbuzyonnui.dds"
 	expire = "1953.3.1"
 	ideology = stalinism
 	traits = {
@@ -95,16 +100,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Ilyas Zhansugurov"
-	desc = ""
-	picture = "gfx/leaders/KAZ/portrait_kaz_ilyas_zhansugurov.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
 
 recruit_character = KAZ_awt
 recruit_character = KAZ_acd2

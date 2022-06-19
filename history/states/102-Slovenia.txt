@@ -14,12 +14,11 @@ state={
 		}
 		add_core_of = YUG
 		add_core_of = AUS
-		add_core_of = SLV
 
 	}
 
 	provinces={
-		3631 3654 6650 9596 9627 
+		596 3631 3654 6650 9596 9627 
 	}
 	manpower=1100000
 	buildings_max_level_factor=1.000

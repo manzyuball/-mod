@@ -50,34 +50,16 @@ recruit_character = YUG_ivan_ribar
 recruit_character = YUG_dimitrije_ljotic
 recruit_character = YUG_ivo_lola_ribar
 recruit_character = YUG_peter_ii
+
 add_ideas = {
+	Teikoua
 }
 
-if = {
-	limit = {
-		#has_dlc = Battle for the Bosporus
-	}
-	add_opinion_modifier = { 
-		target = GRE
-		modifier = BFTB_balkan_pact_ally
-	}
-	add_opinion_modifier = { 
-		target = ROM
-		modifier = BFTB_balkan_pact_ally
-	}
-	add_opinion_modifier = { 
-		target = TUR
-		modifier = BFTB_balkan_pact_ally
-	}
-	add_opinion_modifier = { 
-		target = BUL
-		modifier = BFTB_balkan_pact_enemy
-	}
-	add_opinion_modifier = { 
-		target = HUN
-		modifier = BFTB_balkan_pact_enemy
-	}
-}
+create_faction = "ベオグラード条約機構"
+add_to_faction = YUG
+add_to_faction = GRE
+add_to_faction = ALB
+add_to_faction = ROM
 
 set_technology = {
 	tech_support = 1		
@@ -134,7 +116,8 @@ if = {
 		coastal_defense_ships = 1
 	}
 }
-set_convoys = 25
+
+set_convoys = 35
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.5.3"
@@ -147,10 +130,7 @@ set_popularities = {
 	communism = 15
 	neutrality = 60
 }
-
-create_faction = "バルカン協商"
-add_to_faction = YUG
-set_stability = 0.3
+set_stability = 0.6
 
 ### VARIANTS ###
 # 1936 Start #
@@ -227,6 +207,34 @@ if = {
 			mid_1_custom_slot = empty
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
+		}
+	}
+}
+
+# 1939 Start #
+1939.1.1 = {
+	if = {
+		limit = { not = { has_dlc = "Man the Guns" } }
+		# Ship variants #
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		# Destroyers #
+		create_equipment_variant = {
+			name = "Beograd Class"	
+			type = ship_hull_light_2
+			name_group = YUG_DD_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_2
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = ship_depth_charge_1
+			}
 		}
 	}
 }

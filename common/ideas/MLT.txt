@@ -15,6 +15,9 @@ ideas = {
 			}
 			rule = {
 				can_not_declare_war = yes
+				can_not_be_called_to_war = yes
+				can_be_called_to_war = not
+				can_be_called_to_war = no
 			}
 		}
 		MLT_keizaikiki = {
@@ -133,7 +136,6 @@ ideas = {
 			modifier = {
 				offence = 0.3
 				army_speed_factor = 0.3
-				partisan_effect = 0.45
 			}
 		}
 

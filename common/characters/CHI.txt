@@ -14,16 +14,16 @@ characters={
 		}
 	}
 	
-	CHI_zhang_guotao={
-		name=CHI_zhang_guotao
+	CHI_chin={
+		name= CHI_chin
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+				large="gfx/leaders/_EOB/tin.dds"
 			}
 		}
 		country_leader={
-			ideology=leninism
-			traits={ cornered_fox }
+			ideology = marxism
+			traits={ chi_q }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -66,12 +66,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ trait_cautious harsh_leader armor_officer defensive_doctrine }
-			skill=4
-			attack_skill=4
+			traits={ brilliant_strategist organizer logistics_wizard offensive_doctrine aggressive_assaulter  }
+			skill=5
+			attack_skill=5
 			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+			planning_skill=4
+			logistics_skill=5
 			legacy_id=-1
 		}
 	}
@@ -161,7 +161,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ politically_connected }
+			traits={ }
 			skill=4
 			attack_skill=4
 			defense_skill=3
@@ -180,12 +180,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer }
-			skill=3
-			attack_skill=3
+			traits={ infantry_officer infantry_leader trickster }
+			skill=5
+			attack_skill=5
 			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=-1
 		}
 	}
@@ -710,16 +710,12 @@ characters={
 			slot = political_advisor
 			idea_token = CHI_random_prince_of_terror
 			available  = {
-				has_completed_focus  = CHI_bureau_of_investigation_and_statistics 
 			}
 			visible  = {
-				has_focus_tree  = china_nationalist_focus
 			}
 			allowed  = {
-				or  = {
 					original_tag  = CHI
-					is_chinese_warlord = yes 
-				}
+				
 				has_dlc = "La Resistance"
 				has_dlc = "Waking the Tiger"
 			}
@@ -781,10 +777,6 @@ characters={
 			slot = political_advisor
 			idea_token = CHI_soong_mei_ling
 			available  = {
-				has_country_leader  = {
-					ruling_only  = yes 
-					character  = CHI_chiang_kaishek
-				}
 			}
 			allowed  = {
 				original_tag  = CHI

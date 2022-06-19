@@ -1,0 +1,25 @@
+###########################
+# Bulgarian Events
+###########################
+
+add_namespace = bftb_bulgaria_factions
+add_namespace = bftb_bulgaria_imro
+add_namespace = bftb_bulgaria_tsar_boris
+add_namespace = bftb_bulgarian_claims
+add_namespace = bftb_bulgaria_fatherland_front
+add_namespace = bftb_bulgaria_rearmament
+add_namespace = bftb_bulgaria_german_influence
+add_namespace = bftb_bulgaria_italian_influence
+add_namespace = bftb_bulgaria_uranium_mining_concessions
+add_namespace = bftb_bulgaria_nationalization
+add_namespace = bftb_bulgaria_equipment_purchases
+add_namespace = bftb_bulgaria_scw_volunteers
+add_namespace = bftb_bulgaria_soviet_influence
+add_namespace = bftb_bulgaria_yugoslavian_influence
+add_namespace = bftb_bulgaria_balkan_federation
+add_namespace = bftb_bulgaria_fate_of_the_balkans
+add_namespace = bftb_bulgaria_political_leaders
+add_namespace = bftb_bulgaria_greek_influence
+add_namespace = bftb_bulgaria_british_influence
+add_namespace = bftb_bulgaria_democratic_international_policies
+

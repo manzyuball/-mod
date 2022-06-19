@@ -14,21 +14,6 @@ characters={
 		}
 	}
 
-	FRA_edouard_daladier={
-		name=FRA_edouard_daladier
-		portraits={
-			civilian={
-				large="gfx/leaders/FRA/Portrait_France_Edouard_Daladier.dds"
-			}
-		}
-		country_leader={
-			ideology=socialism
-			traits={ stout_defender }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
 	FRA_denis_guillaumat={ #Non-Aligned Leader
 		name=FRA_denis_guillaumat
 		portraits={
@@ -43,77 +28,17 @@ characters={
 			id=-1
 		}
 	}
-
-	FRA_maurice_thorez={ #Communist Leader
-		name=FRA_maurice_thorez
-		portraits={
-			army={
-				small="GFX_idea_maurice_thorez"
-			}
-			civilian={
-				large="GFX_portrait_fra_maurice_thorez"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = maurice_thorez
-			allowed  = {
-				original_tag  = FRA
-			}
-			available  = {
-				or  = {
-					has_completed_focus  = FRA_leftist_rhetoric 
-					has_completed_focus  = FRA_invite_communist_ministers 
-				}
-				not  = {
-					has_country_leader  = {
-						character  = FRA_philippe_petain
-						ruling_only  = yes 
-					}
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					not  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			traits  = {
-				communist_revolutionary 
-			}
-			do_effect  = {
-				not  = {
-					has_government  = communism 
-				}
-			}
-			on_add  = {
-				FRA_right_wing_riot_effect = yes 
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
-		
-		country_leader={
-			ideology=stalinism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-	FRA_rene_nicod={
-		name=FRA_rene_nicod
+	FRA_torotky={ #Communist Leader
+		name=FRA_torotky
 		portraits={
 			civilian={
-				large="GFX_portrait_fra_rene_nicod"
-				small = "gfx/interface/ideas/idea_FRA_rene_nicod.dds"
+				large="gfx/leaders/_EOB/torotuki.dds"
 			}
 		}
 		country_leader={
 			ideology=marxism
 			expire="1965.1.1.1"
+			id=-1
 		}
 	}
 
@@ -131,6 +56,40 @@ characters={
 		}
 	}
 
+	
+	SOV_lev_trotsky = {
+		name = SOV_lev_trotsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
+			}
+			army = {
+				small = "GFX_idea_SOV_lev_trotsky"
+			}
+		}
+		allowed_civil_war = { 
+					has_government = communism
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = SOV_lev_trotsky
+			allowed = {
+				original_tag = FRA
+			}
+			on_add = {	
+			}
+			
+			visible = {
+			}
+			available = {
+			}
+			traits = {
+				pc_military_naval_affairs
+			}
+		}
+	}
+
 	FRA_jean_de_lattre_de_tassigny={
 		name=FRA_jean_de_lattre_de_tassigny
 		portraits={
@@ -141,9 +100,9 @@ characters={
 		}
 		corps_commander={
 			traits={ brilliant_strategist cavalry_officer war_hero trickster }
-			skill=4
-			attack_skill=4
-			defense_skill=2
+			skill=6
+			attack_skill=5
+			defense_skill=3
 			planning_skill=4
 			logistics_skill=3
 			legacy_id=0
@@ -186,7 +145,6 @@ characters={
 				original_tag = FRA
 			}
 			available = {
-				has_completed_focus = FRA_aggressive_focus
 			}
 			cost = 100.000
 			traits = {
@@ -199,12 +157,12 @@ characters={
 		}
 
 		field_marshal={
-			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
-			skill=2
-			attack_skill=1
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=1
+			traits={ skilled_staffer expert_delegator defensive_doctrine unyielding_defender inflexible_strategist }
+			skill=3
+			attack_skill=3
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=0
 		}
 	}
@@ -226,7 +184,6 @@ characters={
 				original_tag = FRA
 			}
 			available = {
-				has_completed_focus = FRA_defensive_focus
 			}
 			cost = 100.000
 			traits = {
@@ -239,12 +196,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
+			traits={ commando trickster skirmisher expert_improviser }
 			skill=3
 			attack_skill=3
 			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=0
 		}
 	}
@@ -275,12 +232,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ old_guard trait_cautious defensive_doctrine }
+			traits={ brilliant_strategist panzer_leader panzer_expert offensive_doctrine aggressive_assaulter }
 			skill=3
-			attack_skill=2
+			attack_skill=4
 			defense_skill=2
 			planning_skill=4
-			logistics_skill=2
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -323,7 +280,6 @@ characters={
 				original_tag = FRA
 			}
 			available = {
-				has_completed_focus = FRA_battle_of_maneuver
 			}
 			cost = 75.000
 			
@@ -380,12 +336,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ career_officer trait_reckless armor_officer }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=3
+			traits={ brilliant_strategist infantry_officer infantry_leader organizer }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -424,12 +380,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ career_officer trait_cautious infantry_officer trickster }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=2
+			traits={ inflexible_strategist trait_cautious defensive_doctrine unyielding_defender }
+			skill=4
+			attack_skill=3
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -462,11 +418,11 @@ characters={
 		
 		corps_commander={
 			traits={ old_guard infantry_officer }
-			skill=3
-			attack_skill=3
+			skill=1
+			attack_skill=1
 			defense_skill=1
-			planning_skill=3
-			logistics_skill=3
+			planning_skill=1
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -553,11 +509,11 @@ characters={
 
 		navy_leader={
 			traits={ bold naval_lineage superior_tactician }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			maneuvering_skill=3
-			coordination_skill=3
+			skill=5
+			attack_skill=4
+			defense_skill=4
+			maneuvering_skill=5
+			coordination_skill=4
 			legacy_id=102
 		}
 	}
@@ -1120,20 +1076,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				NOT  = {
-					has_country_leader  = {
-						character  = FRA_philippe_petain
-						ruling_only  = yes 
-					}
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
 			}
 			traits  = {
 				democratic_reformer 
@@ -1163,19 +1105,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				or  = {
-					has_completed_focus  = FRA_right_wing_rhetoric 
-					has_completed_focus  = FRA_utilize_the_leagues 
-					has_focus_tree  = vichy_french_focus
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					not  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
 			}
 			traits  = {
 				fascist_demagogue 
@@ -1215,8 +1144,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_confirm_eastern_commitments 
-				has_government  = democratic 
 			}
 			cost  = 75.000
 			traits  = {
@@ -1244,8 +1171,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_buy_time 
-				has_government  = democratic 
 			}
 			cost  = 75.000
 			traits  = {
@@ -1273,11 +1198,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_integralism 
-				or  = {
-					has_government  = fascism 
-					has_government  = neutrality 
-				}
 			}
 			visible  = {
 				has_dlc = "La Resistance"
@@ -1311,8 +1231,6 @@ characters={
 				has_dlc = "La Resistance"
 			}
 			available  = {
-				has_completed_focus  = FRA_national_regeneration 
-				has_government  = fascism 
 			}
 			cost  = 75.000
 			traits  = {
@@ -1340,9 +1258,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				not  = {
-					has_government  = communism 
-				}
 			}
 			cost  = 150.000
 			traits  = {
@@ -1445,7 +1360,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_form_the_popular_front 
 			}
 			traits  = {
 				financial_expert 
@@ -1474,7 +1388,7 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_form_the_popular_front 
+				
 			}
 			traits  = {
 				compassionate_gentleman 
@@ -1607,7 +1521,7 @@ characters={
 			slot = political_advisor
 			idea_token = FRA_maurice_gauche
 			available  = {
-				has_intelligence_agency  = yes 
+			
 			}
 			allowed  = {
 				original_tag  = FRA

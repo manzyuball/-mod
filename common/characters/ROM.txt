@@ -252,11 +252,11 @@ characters={
 		
 		field_marshal={
 			traits={ offensive_doctrine }
-			skill=4
+			skill=5
 			attack_skill=4
 			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=-1
 		}
 	}
@@ -498,14 +498,6 @@ characters={
 				original_tag = ROM
 			}
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
 			}
 			traits = {
 				democratic_reformer 
@@ -620,20 +612,6 @@ characters={
 			slot = political_advisor
 			idea_token = ROM_mihail_sturdza
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					has_completed_focus = ROM_appoint_german_friendly_government 
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
 			}
 			allowed = {
 				original_tag = ROM

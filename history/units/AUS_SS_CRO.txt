@@ -1,0 +1,58 @@
+﻿division_template = {
+	name = "クロアチア武装国防志願兵"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+units = {
+	division= {	
+		name = "クロアチア武装国防志願兵"
+		location = 3601
+		division_template = "クロアチア武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "クロアチア武装国防志願兵"
+		location = 11581
+		division_template = "クロアチア武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "クロアチア武装国防志願兵"
+		location = 6647
+		division_template = "クロアチア武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "クロアチア武装国防志願兵"
+		location = 3943
+		division_template = "クロアチア武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "クロアチア武装国防志願兵"
+		location = 3924
+		division_template = "オーストリア武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "オーストリア武装国防志願兵"
+		location = 591
+		division_template = "オーストリア武装国防志願兵"
+		start_experience_factor = 0.8
+	}
+}

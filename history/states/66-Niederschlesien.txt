@@ -3,12 +3,15 @@ state={
 	id=66
 	name="STATE_66"
 	resources={
-		steel=30.000
-		aluminium=7.000
+		steel=50.000
+		aluminium=16.000
 	}
 
 	history={
 		owner = POL
+		victory_points = {
+			9570 10 
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -16,7 +19,7 @@ state={
 
 		}
 		add_core_of = POL
-		add_core_of = SIL
+		add_core_of = LAT
 		add_core_of = GER
 		1939.1.1 = {
 			buildings = {
@@ -31,7 +34,7 @@ state={
 	}
 
 	provinces={
-		3283 6462 
+		552 3283 3485 3510 3545 6462 6534 9470 9570 
 	}
 	manpower=3052726
 	buildings_max_level_factor=1.000

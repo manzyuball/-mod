@@ -5,11 +5,11 @@ state={
 	resources={
 		oil=14.000
 		aluminium=30.000
-		bronze=19.000
 	}
 
 	history={
-		owner = USA
+		owner = USN
+		add_core_of = USN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -18,11 +18,14 @@ state={
 		add_core_of = USA
 		add_core_of = USB
 		add_core_of = CSA
+		victory_points = {
+			4975 1 
+		}
 
 	}
 
 	provinces={
-		1972 5044 10645 10914 12552 13373 13945 
+		1972 5044 10645 10914 12552 
 	}
 	manpower=423316
 	buildings_max_level_factor=1.000

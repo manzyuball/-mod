@@ -8,9 +8,11 @@ state={
 	}
 	
 	state_category = city
+	
 
 	history={
 		owner = GER
+		add_core_of = LAT
 		victory_points = {
 			692 20
 		}
@@ -19,8 +21,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			arms_factory = 2
-			industrial_complex = 1
+			arms_factory = 5
+			industrial_complex = 4
 			air_base = 6
 		}
 		add_core_of = GER

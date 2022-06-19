@@ -1,7 +1,19 @@
 ideas = {
 
 	country = {
-	
+		Teikoua = {
+			
+			picture = FRA_scw_intervention_republicans_focus
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.10
+				offensive_war_stability_factor = 0.5
+				conscription = 0.05
+			}
+		}
+
 		Yonennkann = {
 			
 			picture = POL_succesful_four_year_plan
@@ -16,7 +28,7 @@ ideas = {
 
 		YUG_gua = {
 			
-			picture = yug_all_yugoslavian_regiments
+			picture = GFX_idea_vittoria_mutilata
 
 			removal_cost = -1
 			
@@ -29,7 +41,7 @@ ideas = {
 		}
 		YUG_gua1 = {
 			
-			picture = yug_all_yugoslavian_regiments
+			picture = GFX_idea_vittoria_mutilata
 
 			removal_cost = -1
 			
@@ -45,7 +57,7 @@ ideas = {
 		}
 		YUG_gua2 = {
 			
-			picture = yug_all_yugoslavian_regiments
+			picture = GFX_idea_vittoria_mutilata
 
 			removal_cost = -1
 			
@@ -549,7 +561,7 @@ ideas = {
 		
 		YUG_idea_all_yugoslavian_regiments = {
 			
-			picture = YUG_all_yugoslavian_regiments
+			picture = GFX_idea_vittoria_mutilata
 
 			allowed = {
 				original_tag = YUG

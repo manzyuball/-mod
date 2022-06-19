@@ -10,6 +10,7 @@ state={
 	}
 
 	history={
+		add_core_of = VLA
 		victory_points = {
 			10329 1
 		}

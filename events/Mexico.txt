@@ -1,1 +1,7 @@
-﻿
+﻿###########################
+# Mexico Events
+# By Tristan 'Enjoy' Edge, aged 30 and 2 months
+###########################
+
+add_namespace = mexico
+

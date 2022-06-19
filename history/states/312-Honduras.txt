@@ -1,40 +1,37 @@
-
-state={
+state=
+{
 	id=312
 	name="STATE_312"
+	manpower=859761
 	resources={
-		chromium=1.000
+		chromium=1 # was: 1
 	}
-
-	history={
+	
+	state_category = town
+	history=
+	{
 		owner = HON
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 2 
 			air_base = 1
 			12865 = {
 				naval_base = 1
-
 			}
 			8017 = {
 				naval_base = 1
-
 			}
-
 		}
 		add_core_of = HON
 		victory_points = {
-			12865 15 
+			12865 3 
 		}
 
 	}
-
 	provinces={
-		2031 5841 8017 8258 12865 13732 
+		2031 8017 12865
 	}
-	manpower=859761
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

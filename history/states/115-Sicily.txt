@@ -4,7 +4,7 @@ state={
 	name="STATE_115"
 
 	history={
-		owner = MLT
+		owner = TUN
 		victory_points = {
 			4159 10 
 		}
@@ -31,13 +31,12 @@ state={
 			}
 
 		}
-		add_core_of = ITA
-		add_core_of = MLT
+		add_core_of = TUN
 
 	}
 
 	provinces={
-		1009 1156 3857 4014 4159 7059 7147 12047 13759
+		1009 1156 3857 4014 4159 7059 7147 12047 
 	}
 	manpower=3836571
 	buildings_max_level_factor=1.000

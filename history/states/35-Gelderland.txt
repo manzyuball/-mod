@@ -1,3 +1,4 @@
+
 state={
 	id=35
 	name="STATE_35"
@@ -7,7 +8,7 @@ state={
 		add_core_of = HOL
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 5
+			industrial_complex = 7
 
 		}
 		victory_points = {
@@ -23,11 +24,10 @@ state={
 	}
 
 	provinces={
-		480 3262 6496 6500 9431 11456 11562 
+		480 3262 6496 6500 9431 9498 11456 11562 
 	}
 	manpower=1449000
 	buildings_max_level_factor=1.000
-	state_category=city
-
-	local_supplies=0.0 
+	state_category=metropolis
+	local_supplies=0.000
 }

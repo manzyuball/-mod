@@ -11,11 +11,11 @@ state = {
 			9259 1 
 		}
 		owner = SOV
+		add_core_of = VLA
 		buildings = {
 			infrastructure = 2
 		}
 		add_core_of = SOV
-		add_core_of = CHU
 	}
 
 	provinces = {

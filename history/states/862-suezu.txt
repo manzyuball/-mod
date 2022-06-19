@@ -1,11 +1,12 @@
-
 state={
 	id=862
 	name="STATE_862"
-
+	provinces={
+		4073 12049 
+	}
 	history={
 		victory_points = {
-			12049 10 
+			12049 10
 		}
 		victory_points = {
 			4073 3 
@@ -13,18 +14,15 @@ state={
 		owner = ENG
 		add_core_of = EGY
 		add_core_of = SUD
+		add_core_of = TUR
 		buildings = {
 			infrastructure = 4
 
 		}
 
 	}
-
-	provinces={
-		1155 4073 9947 12049 
-	}
 	manpower=153251
+	state_category = city
 	buildings_max_level_factor=1.000
-	state_category=city
 	local_supplies=0.000
 }

@@ -10,6 +10,7 @@ state = {
 
 	history = {
 		owner = SOV
+		add_core_of = VLA
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1

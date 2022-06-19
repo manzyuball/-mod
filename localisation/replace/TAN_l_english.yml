@@ -5,12 +5,12 @@
  TAN_s3:0 "急進的な工業化"
  TAN_s4:0 "福祉制度の中止"
  TAN_s5:0 "武器の輸出"
- TAN_s6:0 "東洋の武器庫"
+ TAN_s6:0 "東洋の武器工場"
  TAN_s7:0 "内需の拡大"
  TAN_s8:0 "軽工業製品の輸出"
  TAN_s9:0 "東洋の造船所"
  TAN_s10:0 "夢の粉"
- TAN_s11:0 "アヘン貿易の拡大"
+ TAN_s11:0 "アヘン貿易を拡大"
  TAN_s12:0 "自家栽培"
  TAN_s13:0 "技術は薬を育てるために"
  TAN_s14:0 "中継貿易"
@@ -46,7 +46,22 @@
  TAN_s44:0 "発展は続く"
 
  #IDEAS
-
+ TAN_kigyou:0 "企業の国家"
+ TAN_kigyou1:0 "企業の国家"
+ TAN_kigyou2:0 "企業の国家"
+ TAN_kigyou3:0 "企業の国家"
+ TAN_kigyou7:0 "企業の国家"
+ TAN_kigyou4:0 "企業の国家"
+ TAN_kigyou5:0 "企業の国家"
+ TAN_kigyou6:0 "企業の国家"
+ TAN_ahen:0 "麻薬の輸出"
+ TAN_ahen1:0 "麻薬の輸出"
+ TAN_ahen2:0 "麻薬の輸出"
+ TAN_ahen3:0 "麻薬の輸出"
+ TAN_ahen4:0 "麻薬の輸出"
+ TAN_ahen6:0 "麻薬の輸出"
+ TAN_ahen5:0 "麻薬の輸出"
+ TAN_sasasa:0 "死の商人"
  #友好度
  
  #隠し効果

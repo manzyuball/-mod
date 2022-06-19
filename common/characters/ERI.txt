@@ -1,4 +1,17 @@
 characters={
+	ERI_hikakin={
+		name=ERI_hikakin
+		portraits={
+			civilian={
+				large="gfx/leaders/_EOB/HIKAKIN.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	ERI_awt={
 		advisor={
 			slot = theorist

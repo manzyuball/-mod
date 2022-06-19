@@ -1,0 +1,15 @@
+characters={
+	USN_Lerder={
+		name="USN_Lerder"
+		portraits={
+			civilian={
+				large="gfx/leaders/_EOB/USN_lerger.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

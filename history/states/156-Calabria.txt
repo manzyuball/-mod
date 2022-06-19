@@ -4,15 +4,15 @@ state={
 	name="STATE_156"
 	manpower = 2966315
 	
-	state_category = large_city
+	state_category = city
 	history={
-		owner = MLT
+		owner = TUN
 		victory_points = {
 			11837 15 
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
-			dockyard = 3
+			dockyard = 4
 			fuel_silo = 1
 			air_base = 5
 			11837 = {
@@ -22,8 +22,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = ITA
-		add_core_of = MLT
+		add_core_of = TUN
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5

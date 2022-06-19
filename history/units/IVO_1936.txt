@@ -1,0 +1,193 @@
+﻿division_template = {
+	name = "自由インド歩兵隊"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	support = {
+ 	}
+}
+units = {
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 4062
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 7220
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 1444
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 10358
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 12307
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 7497
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 12375
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 7574
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 12420
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 4557
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 7619
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 12781
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 7430
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 10872
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 7205
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 11993
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 7150
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 4187
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 9975
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 4245
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 12366
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 2086
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 3456
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "自由インド歩兵部隊"
+		location = 10735
+		division_template = "自由インド歩兵隊"
+		start_experience_factor = 0.2
+	}
+
+}
+
+
+air_wings = {
+	### Aviação Militar -- Rio de Janiero
+	439 = {
+		# Fighter Air Group -- Boeing 256s
+		fighter_equipment_0 =  {
+			owner = "FRA" 
+			amount = 100
+		}
+	}
+}
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "FRA"
+		}
+		requested_factories = 1
+		progress = 0.59
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "FRA"
+		}
+		requested_factories = 1
+		progress = 0.22
+		efficiency = 100
+	}
+}

@@ -15,10 +15,10 @@ state={
 		add_core_of = ALG
 
 		victory_points = {
-			1145 5 
+			1145 20
 		}
 		victory_points = {
-			7132 5 
+			7132 10
 		}
 		buildings = {
 			infrastructure = 2
@@ -27,7 +27,7 @@ state={
 				naval_base = 2
 			}
 			7132 = {
-				naval_base = 8
+				naval_base = 6
 			}
 		}
 	}

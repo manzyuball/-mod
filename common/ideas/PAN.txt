@@ -311,7 +311,6 @@ ideas = {
 
 			modifier = {
 				war_support_factor = 0.85
-				partisan_effect = 0.9
 				terrain_penalty_reduction = 0.5
 			}
 		}
@@ -330,7 +329,6 @@ ideas = {
 
 			modifier = {
 				war_support_factor = 0.85
-				partisan_effect = 0.9
 				terrain_penalty_reduction = 0.5
 				defence = 0.85
 				attrition = -0.5
@@ -351,7 +349,6 @@ ideas = {
 
 			modifier = {
 				war_support_factor = 0.85
-				partisan_effect = 0.9
 				terrain_penalty_reduction = 0.5
 				defence = 0.85
 				offence = 0.85

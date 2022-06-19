@@ -1,0 +1,31 @@
+on_actions = {
+	on_weekly = { 
+		effect = {
+			PAN = {
+				add_named_threat = {
+					threat = -0.5
+					name = weekly_threat_change
+					}
+			 }
+			
+	 }
+	}
+	on_nuke_drop = { effect = { random_country = { add_named_threat = { threat = 20 name = nuke_drop_threat } } } }
+
+	on_startup = {
+		effect = {
+			#Mexican oil concessions
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				TZN = {
+					give_resource_rights = { receiver = ENG state = 546 }
+					give_resource_rights = { receiver = ENG state = 548 }
+					give_resource_rights = { receiver = POR state = 772 }
+					give_resource_rights = { receiver = POR state = 295 }
+				}
+			}
+		}
+	}
+}

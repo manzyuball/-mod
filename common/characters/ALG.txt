@@ -1,4 +1,19 @@
 characters={
+	ALG_EugeneDeloncle={
+		name=ALG_EugeneDeloncle
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/dareka.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+			traits={ anti_communist }
+		}
+	}
+	
 	ALG_ar={
 		advisor={
 			slot = high_command
@@ -216,10 +231,10 @@ characters={
 					original_tag  = ALG
 				}
 				traits  = {
-					army_chief_defensive_3
+					army_chief_defensive_2 
 				}
 				ai_will_do  = {
-					factor  = 5.000
+					factor  = 1.000
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
@@ -277,18 +292,6 @@ characters={
 			}
 		}
 	}
-	Mouloud_Feraoun = {
-	corps_commander = {
-		traits = { infantry_leader trickster ambusher guerilla_fighter }
-		skill = 7
-		attack_skill = 3
-		defense_skill = 5
-		planning_skill = 3
-		logistics_skill = 3
-		legacy_id = 190
-		visible = { tag = ARG }
-	}
-    }
 	ALG_ncs={
 		advisor={
 			slot = high_command

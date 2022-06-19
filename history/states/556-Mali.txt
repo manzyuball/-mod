@@ -4,16 +4,18 @@ state={
 	name="STATE_556" # Mali (previously French West Africa)
 	manpower = 3324782
 	
-	state_category = rural
+	state_category = large_town
 
 	history={
 		owner = GNA
 		add_core_of = GNA
 		victory_points = {
-			4927 1
+			4927 10
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 7
+			arms_factory = 2
 		}
 	}
 

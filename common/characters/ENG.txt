@@ -12,21 +12,8 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = ENG_winston_churchill
-			available  = {
-				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
 			allowed  = {
 				original_tag  = ENG
-				has_dlc = "Man the Guns"
 			}
 			traits  = {
 				royalist_bulldog 
@@ -46,11 +33,11 @@ characters={
 		}
 	}
 
-	ENG_stanley_baldwin={
-		name=ENG_stanley_baldwin
+	ENG_a ={
+		name= ENG_a
 		portraits={
 			civilian={
-				large="gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin.dds"
+				large="gfx/leaders/ENG/ENG_reda.dds"
 			}
 		}
 		country_leader={
@@ -74,13 +61,8 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = ENG_oswald_mosley
-			available  = {
-				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
-			}
 			allowed  = {
 				original_tag  = ENG
-				has_dlc = "Man the Guns"
 			}
 			traits  = {
 				economic_organizer 
@@ -115,20 +97,6 @@ characters={
 				original_tag  = ENG
 			}
 			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					has_government  = communism 
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
 			}
 			traits  = {
 				communist_revolutionary 
@@ -199,9 +167,6 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
 			}
 			traits = {
 				army_chief_maneuver_3
@@ -242,9 +207,6 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
 			}
 			
 			traits = {
@@ -430,9 +392,6 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
 			}
 			traits = {
 				military_theorist
@@ -568,9 +527,6 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
 			}
 			traits = {
 				army_chief_offensive_2
@@ -724,9 +680,6 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
 			}
 			traits = {
 				army_regrouping_2
@@ -1010,12 +963,6 @@ characters={
 			slot = theorist
 			idea_token = ENG_raymond_briggs
 			ledger = army
-			visible = {
-				has_completed_focus = ENG_eliminate_the_upper_class
-			}
-			available = {
-				has_completed_focus = ENG_eliminate_the_upper_class
-			}
 			allowed = {
 				original_tag = ENG
 			}
@@ -1041,9 +988,6 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
 			}
 			
 			traits = {
@@ -1809,7 +1753,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_mary_sophia_allen
 			available  = {
-				has_government  = fascism 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1835,15 +1778,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_george_orwell
 			available  = {
-				has_government  = communism 
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1870,7 +1804,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_sylvia_pankhurst
 			available  = {
-				has_government  = communism 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1896,8 +1829,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_david_lloyd_george
 			available  = {
-				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1924,7 +1855,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_1
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_1 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1944,7 +1874,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_2
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_2 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1964,7 +1893,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_3
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_3 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1984,7 +1912,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_4
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_4 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -2004,7 +1931,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_5
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_5 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -2024,7 +1950,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_6
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_6 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -2044,7 +1969,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_7
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_7 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -2065,7 +1989,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_8
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_8 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -2085,7 +2008,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_9
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_9 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -2106,7 +2028,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_10
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_10 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -2127,7 +2048,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_11
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_11 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -2148,7 +2068,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_12
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_12 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -2169,7 +2088,6 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_random_communist_minister_13
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_13 
 			}
 			allowed  = {
 				original_tag  = ENG

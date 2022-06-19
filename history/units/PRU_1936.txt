@@ -1,18 +1,23 @@
 ﻿division_template = {
-	name = "División de Infanteria"			# Divisions were at reserve levels during peacetime
-	division_names_group = SPAN_INF_01
-
+	name = "帝国陸軍歩兵編成"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }   
 	}
 }
 division_template = {
-	name = "División de Caballería"  
-	division_names_group = SPAN_CAV_01
-
+	name = "帝国陸軍騎兵編成"
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -20,60 +25,285 @@ division_template = {
 		cavalry = { x = 1 y = 1 }
 	}
 }
+division_template = {
+	name = "帝国アンデス山岳兵団歩兵隊編成"	
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+}
 
 units = {
-	##### Ejército del Perú #####
-	division= {	# "1era Div. de Infantería 'Bolognesi'"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 12997 # Lima
-		division_template = "División de Infanteria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 2212
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
 	}
-	division= {	# "2da División de Infantería"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 2210 # Arequipa
-		division_template = "División de Infanteria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 2162
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
 	}
-	division= {	# "3era División de Infantería"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 3
-		}
-		location = 2156 # Plura
-		division_template = "División de Infanteria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 5166
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
 	}
-	division= {	# "4ta División de Infantería"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 4
-		}
-		location = 8149 # Iquitos
-		division_template = "División de Infanteria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 10942
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
 	}
-	division= {	
-		name = "División de Caballería"
-		location = 12997 # Lima
-		division_template = "División de Caballería"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 8149
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 10942
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 2212
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 2162
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 5166
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 10942
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 8149
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 10942
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 2212
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 2162
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 5166
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 10942
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 8149
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国アンデス山岳兵団歩兵隊"
+		location = 10942
+		division_template = "帝国アンデス山岳兵団歩兵隊編成"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 12997
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 12997
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 2210
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 13086
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 5230
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 2182
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 12930
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 8252
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 8252
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 12798
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 12930
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 2174
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 5229
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 12979
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 10952
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 5179
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 10938
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 8191
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 2226
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 8213
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 10952
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 5179
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 10938
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 8191
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 2226
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "帝国陸軍歩兵"
+		location = 8213
+		division_template = "帝国陸軍歩兵編成"
+		start_experience_factor = 0.3
 	}
 }
 
@@ -83,12 +313,12 @@ air_wings = {
 		# Fighter Air Group -- Curtis F11s, NiD 123s, Ca.114s
 		fighter_equipment_0 =  {
 			owner = "PRU" 
-			amount = 27
+			amount = 150
 		}
 		# CAS Air Group -- Ca.111s, Fairey Foxes
 		CAS_equipment_1 =  {
 			owner = "PRU" 
-			amount = 18
+			amount = 50
 		}
 	}
 }

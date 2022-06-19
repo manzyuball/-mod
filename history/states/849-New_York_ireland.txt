@@ -5,7 +5,7 @@ state={
 		859 3878 
 	}
 	history={
-		owner = USB
+		owner = USA
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
@@ -18,11 +18,12 @@ state={
 			}
 
 		}
+		add_core_of = USN
 		add_core_of = USA
 		add_core_of = USB
 		add_core_of = CSA
 		victory_points = {
-			3878 30 
+			3878 30.0 
 		}
 	}
 	manpower=1232143

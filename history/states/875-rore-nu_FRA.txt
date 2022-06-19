@@ -2,10 +2,14 @@ state={
 	id=875
 	name="STATE_875"
 	provinces={
-		11640 6712 9503 
+		678 1346 6529 9503 
 	}
 	history={
 		owner = FRA
+		add_core_of = LAT
+		victory_points = {
+			678 5 
+		}
 		victory_points = {
 			9503 5
 		}
@@ -15,6 +19,13 @@ state={
 			air_base = 1
 		}
 		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+
+			}
+
+		}
 
 	}
 	manpower=915600

@@ -1,8 +1,9 @@
-
 state={
 	id=893
 	name="STATE_893"
-
+	provinces={
+		10944 12922 12943 
+	}
 	history={
 		owner = ARG
 		buildings = {
@@ -13,12 +14,8 @@ state={
 		add_core_of = ARG
 
 	}
-
-	provinces={
-		1897 10944 12922 12943 
-	}
 	manpower=753211
+	state_category =large_town
 	buildings_max_level_factor=1.000
-	state_category=large_town
 	local_supplies=0.000
 }

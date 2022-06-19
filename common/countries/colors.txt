@@ -1,11 +1,11 @@
-#reload countrycolors
+#reload countrycolorsPRU
 
 GER = {
-	color = rgb { 142 30 22 }
-	color_ui = rgb { 142 30 22 }
+	color = rgb { 139 0 0 }
+	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 217 0 69 }
+	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
@@ -17,7 +17,7 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 0 35 149 }
+	color = rgb { 25 25 112 }
 	color_ui = rgb { 74 147 255 }
 }
 LUX = {
@@ -50,8 +50,8 @@ EST = {
 	color_ui = rgb { 99 204 254 }
 }
 LAT = {
-	color = rgb { 80 73 82 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 105 105 105 }
+	color_ui = rgb { 105 105 105 }
 }
 SPR = {
 	color = rgb { 242 205 94 }
@@ -74,8 +74,8 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 157 0 6 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 178 34 34 }
+	color_ui = rgb { 178 34 34 }
 }
 GRE = {
 	color = rgb { 93 181 227 }
@@ -142,7 +142,7 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = rgb { 194 0 45 } #255 244 190
+	color = hsv { 0.18 0.6 0.9 } #255 244 190
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
 CHL = {
@@ -218,8 +218,8 @@ PHI = {
 	color_ui = rgb { 198 169 248 }
 }
 PRU = {
-	color = rgb { 196 189 204 }
-	color_ui = rgb { 255 246 255 }
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 SAF = {
 	color = rgb { 195 107 160 }
@@ -309,13 +309,13 @@ CRO = {
 }
 
 PRC = {
-	color = rgb { 245 100 100 }
+	color = rgb { 245 12 55 }
 	color_ui = rgb { 178 34 60 }
 }
 
 GXC = {
-	color = rgb { 24 36 163 }
-	color_ui = rgb { 24 36 163 }
+	color = rgb { 71 113 97 }
+	color_ui = rgb { 71 113 97 }
 }
 
 SHX = {
@@ -423,7 +423,7 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 179 70 30 }
+	color = rgb { 255 120 71 }
 	color_ui = rgb { 255 120 71 }
 }
 ANG = {
@@ -463,6 +463,10 @@ DDR = {
     color = rgb { 120 150 80 }
     color_ui = rgb { 150 180 120 }
 }
+IVO = {
+    color = rgb { 237 71 25 }
+    color_ui = rgb { 237 71 25 }
+}
 KOR = {
 	color = rgb { 255  240  195 }
 	color_ui = rgb { 255 248 229 }	
@@ -470,6 +474,10 @@ KOR = {
 ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
+}
+UZB = {
+	color = rgb { 250 250 250  }
+	color_ui = rgb { 250 250 250 }
 }
 CSA = {
 	color = rgb { 145 163 176  }
@@ -719,6 +727,10 @@ CRI = {
 	color = rgb { 255 80 80 }
 	color_ui = rgb { 204 0 0 }
 }
+KAZ = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
 TAT = {
 	color = rgb { 255 51 0 }
 	color_ui = rgb { 179 36 0 }
@@ -748,8 +760,8 @@ YAK = {
 	color_ui = rgb { 0 179 179 }
 }
 VLA = {
-	color = rgb { 247 247 247 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+	color = rgb { 250 250 250  }
+	color_ui = rgb { 250 250 250 }
 }
 KKP = {
 	color = rgb { 255 128 0 }

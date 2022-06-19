@@ -2,9 +2,12 @@
 state={
 	id=494
 	name="STATE_494"
-	manpower = 735826
-	
-	state_category = rural
+	manpower = 6735826
+	resources={
+		tungsten=35.000
+		steel=42.000
+	}
+	state_category = city
 	
 
 	history={
@@ -19,5 +22,5 @@ state={
 		2212 2226 5166 8160 8191 10940 
 	}
 
-	local_supplies=0.0 
+	local_supplies=25.0 
 }

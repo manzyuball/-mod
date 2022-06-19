@@ -31,7 +31,18 @@ focus_tree = {
 		available_if_capitulated = no
 
 	    completion_reward = {
-          
+                swap_ideas = {
+                    remove_idea = rengou
+                    add_idea = rengou1
+                    }
+            
+            hidden_effect = {
+                news_event = {
+                    id = news.3
+                    days = 1
+                    random = 0
+                    }
+            }
 	    }
 }
 
@@ -53,7 +64,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_stability = 0.05
 }
 }
 focus = {
@@ -74,7 +85,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_research_slot = 1
 }
 }
 focus = {
@@ -96,7 +107,17 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+   swap_ideas = {
+    remove_idea = rengou1
+    add_idea = rengou2
+   }
+   custom_effect_tooltip = TUR_1agaru
+   hidden_effect = {
+   add_to_variable = {
+      var = TUR.TUR_KAIKAKUDO
+      value = 10
+   }
+ }
 }
 }
 focus = {
@@ -118,7 +139,17 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+   swap_ideas = {
+    remove_idea = rengou1
+    add_idea = hurui1
+   }
+   custom_effect_tooltip = TUR_1sagaru
+   hidden_effect = {
+   add_to_variable = {
+      var = TUR.TUR_KAIKAKUDO
+      value = -10
+   }
+ }
 }
 }
 focus = {
@@ -139,7 +170,8 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_stability = 0.15
+    add_political_power = 100
 }
 }
 focus = {
@@ -160,7 +192,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = hurui1
+        add_idea = hurui2
+       }
 }
 }
 focus = {
@@ -181,7 +216,48 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = infrastructure
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_building_construction = {
+            type = infrastructure
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = infrastructure
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_building_construction = {
+            type = infrastructure
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = infrastructure
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_building_construction = {
+            type = infrastructure
+            level = 2
+            instant_build = yes
+        }
+    }
 }
 }
 
@@ -203,7 +279,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = rengou2
+        add_idea = rengou3
+       }
 }
 }
 focus = {
@@ -224,7 +303,36 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
 }
 }
 focus = {
@@ -245,7 +353,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_timed_idea = {
+        idea = kane
+        days = 180
+        }
 }
 }
 focus = {
@@ -266,7 +377,22 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    random_owned_controlled_state = {
+        limit = {
+            is_coastal = yes
+            free_building_slots = {
+                building = dockyard
+                size > 2
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 3
+        add_building_construction = {
+            type = dockyard
+            level = 3
+            instant_build = yes
+        }
+    }
 }
 }
 focus = {
@@ -288,7 +414,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = rengou3
+        add_idea = rengou4
+       }
 }
 }
 focus = {
@@ -309,7 +438,18 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    remove_ideas = rengou4
+    add_timed_idea = {
+        idea = rengou5
+        days = 360
+        }
+        custom_effect_tooltip = TUR_1agaru
+        hidden_effect = {
+        add_to_variable = {
+           var = TUR.TUR_KAIKAKUDO
+           value = 10
+        }
+      }
 }
 }
 focus = {
@@ -331,7 +471,52 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = hurui2
+        add_idea = hurui3
+       }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = infrastructure
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_building_construction = {
+            type = infrastructure
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = infrastructure
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_building_construction = {
+            type = infrastructure
+            level = 2
+            instant_build = yes
+        }
+    }
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = infrastructure
+                size > 1
+                include_locked = yes
+            }
+        }
+        add_building_construction = {
+            type = infrastructure
+            level = 2
+            instant_build = yes
+        }
+    }
 }
 }
 #© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
@@ -354,7 +539,15 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    remove_ideas = hurui3
+    add_stability = -0.15
+    custom_effect_tooltip = TUR_1sagaru
+    hidden_effect = {
+    add_to_variable = {
+       var = TUR.TUR_KAIKAKUDO
+       value = -10
+    }
+  }
 }
 }
 focus = {
@@ -376,7 +569,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_stability = 0.15
 }
 }
 focus = {
@@ -398,7 +591,15 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+   797 = {
+    set_state_category = megalopolis
+    add_building_construction = {
+        type = industrial_complex
+        level = 5
+        instant_build = yes
+        }
+        add_extra_state_shared_building_slots = 5
+   }
 }
 }
 focus = {
@@ -419,7 +620,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+   add_ideas = TUR_keiza
 }
 }
 
@@ -439,7 +640,7 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    army_experience = 150
 }
 }
 focus = {
@@ -459,7 +660,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = gun
+        add_idea = gun1
+       }
 }
 }
 focus = {
@@ -470,6 +674,7 @@ focus = {
 	prerequisite = {  focus = TUR_g2 }
 	relative_position_id = TUR_g1
     cost = 5
+    mutually_exclusive = { focus = TUR_g4 }
 
     ai_will_do = {
     factor = 50
@@ -479,7 +684,24 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = gun1
+        add_idea = guna1
+       }
+       add_tech_bonus = {
+        name = infantry_artillery_bonus
+        bonus = 2.0
+        uses = 1
+        category = infantry_weapons
+        category = artillery
+    }
+    custom_effect_tooltip = TUR_1sagaru
+    hidden_effect = {
+    add_to_variable = {
+       var = TUR.TUR_KAIKAKUDO
+       value = -10
+    }
+  }
 }
 }
 #© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
@@ -491,6 +713,7 @@ focus = {
     y = 2
 	prerequisite = {  focus = TUR_g2 }
 	relative_position_id = TUR_g1
+    mutually_exclusive = { focus = TUR_g3 }
     cost = 5
 
     ai_will_do = {
@@ -501,7 +724,17 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = gun1
+        add_idea = gun2
+       }
+       custom_effect_tooltip = TUR_1agaru
+       hidden_effect = {
+       add_to_variable = {
+          var = TUR.TUR_KAIKAKUDO
+          value = 10
+       }
+     }
 }
 }
 focus = {
@@ -521,7 +754,12 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_doctrine_cost_reduction = {
+        name = air_doc_bonus
+        cost_reduction = 0.5
+        uses = 3
+        category = air_doctrine
+    }
 }
 }
 focus = {
@@ -541,7 +779,14 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_tech_bonus = {
+        name = cr_bonus
+        bonus = 3.0
+        ahead_reduction = 2
+        uses = 3
+        category = cl_tech
+        category = ca_tech
+    }
 }
 }
 focus = {
@@ -562,7 +807,12 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_tech_bonus = {
+        name = armor_bonus
+        bonus = 3.0
+        uses = 2
+        category = armor
+    }
 }
 }
 focus = {
@@ -571,9 +821,12 @@ focus = {
     x = 1
     y = 2
 	prerequisite = {  focus = TUR_g2 }
+    mutually_exclusive = { focus = TUR_g10 }
 	relative_position_id = TUR_g1
     cost = 5
-
+	available = {
+        has_completed_focus = TUR_g4
+        }
     ai_will_do = {
     factor = 50
     }	
@@ -582,7 +835,17 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = gun2
+        add_idea = gun3
+       }
+       custom_effect_tooltip = TUR_1agaru
+       hidden_effect = {
+       add_to_variable = {
+          var = TUR.TUR_KAIKAKUDO
+          value = 10
+       }
+     }
 }
 }
 focus = {
@@ -602,7 +865,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = gun3
+        add_idea = gun4
+       }
 }
 }
 focus = {
@@ -611,9 +877,12 @@ focus = {
     x = -1
     y = 2
 	prerequisite = {  focus = TUR_g2 }
+    mutually_exclusive = { focus = TUR_g8 }
 	relative_position_id = TUR_g1
     cost = 5
-
+	available = {
+        has_completed_focus = TUR_g3
+        }
     ai_will_do = {
     factor = 50
     }	
@@ -622,7 +891,17 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = guna1
+        add_idea = guna2
+       }
+       custom_effect_tooltip = TUR_1sagaru
+       hidden_effect = {
+       add_to_variable = {
+          var = TUR.TUR_KAIKAKUDO
+          value = -10
+       }
+     }
 }
 }
 focus = {
@@ -642,7 +921,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = guna2
+        add_idea = guna3
+       }
 }
 }
 focus = {
@@ -662,7 +944,13 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_tech_bonus = {
+        name = infantry_artillery_bonus
+        ahead_reduction = 2
+        uses = 2
+        category = infantry_weapons
+        category = artillery
+    }
 }
 }
 focus = {
@@ -682,7 +970,12 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    add_doctrine_cost_reduction = {
+        name = land_doc_bonus
+        cost_reduction = 0.5
+        uses = 1
+        category = land_doctrine
+    }
 }
 }
 focus = {
@@ -703,7 +996,10 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    swap_ideas = {
+        remove_idea = guna3
+        add_idea = guna4
+       }
 }
 }
 focus = {
@@ -724,7 +1020,19 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    if = {
+        limit = {
+            has_completed_focus = TUR_g3	
+        }
+        add_stability = 0.15
+        add_war_support = 0.15
+    }
+    if = {
+        limit = {
+            has_completed_focus = TUR_g4	
+        }
+        add_ideas = TUIR_GUN
+    }
 }
 }
 focus = {
@@ -744,7 +1052,18 @@ focus = {
     available_if_capitulated = no
 
 completion_reward = {
-   
+    if = {
+        limit = {
+            has_completed_focus = TUR_g3	
+        }
+        add_stability = 0.15
+    }
+    if = {
+        limit = {
+            has_completed_focus = TUR_g4	
+        }
+        remove_ideas = gun4
+    }
 }
 }
 

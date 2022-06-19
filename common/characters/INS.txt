@@ -1,29 +1,15 @@
 characters={
-	INS_sukarno={
-		name=INS_sukarno
+	INS_kiatazima={
+		name=INS_kiatazima
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-			}
-		}
-		country_leader={
-			ideology=socialism
-			traits = {
-			}
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-	INS_a_t_van_starkenborgh_stachouwer={
-		name=INS_a_t_van_starkenborgh_stachouwer
-		portraits={
-			civilian={
-				large="GFX_portrait_indonesia_at_van_starkenborgh"
+				large="gfx/leaders/_EOB/koisokuniaki.dds"
 			}
 		}
 		country_leader={
 			ideology=conservatism 
 			traits = {
+				jap_syokumin2 
 			}
 			expire="1965.1.1.1"
 			id=-1

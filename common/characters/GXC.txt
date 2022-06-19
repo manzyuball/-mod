@@ -27,30 +27,6 @@ characters={
 			id=-1
 		}
 	}
-	GXC_Tyoumei={
-		name=GXC_Tyoumei
-		portraits={
-			civilian={
-				large="gfx/leaders/GXC/Portrait_Guanxi_Tyoumei.dds"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = GXC_li_zongren
-			allowed  = {
-				original_tag  = GXC
-			}
-			traits  = {
-				old_figurehead
-			}
-		}
-
-		country_leader={
-			ideology=rexism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
 
 	GXC_chen_jitang={
 		name=GXC_chen_jitang
@@ -111,6 +87,21 @@ characters={
 			ideology=leninism
 			traits={ dealbroker }
 			expire="1948.1.1.12"
+			id=-1
+		}
+	}
+
+	GXC_li_ting={
+		name=GXC_li_ting
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			traits={ compassionate_gentleman }
+			expire="1953.1.1.12"
 			id=-1
 		}
 	}

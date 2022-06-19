@@ -40,7 +40,6 @@ news_event = {
 	major = yes
 	
 	is_triggered_only = yes
-	
 	option = {
 		name = news.2.a
 		trigger = {
@@ -149,5 +148,193 @@ news_event = {
 	option = {
 		name = news.6.b
 		trigger = { TAG = JAP }
+	}
+}
+#日本が日英同盟を尊重
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_news_event_020
+	major = yes
+	trigger = {
+		has_global_flag = NitieiPact
+	}
+	option = {
+		name = news.7.a
+		trigger = {
+			NOT = {
+				OR = {
+				TAG = JAP
+				TAG = ENG
+				}
+			}
+		}
+		hidden_effect = {
+			clr_global_flag = NitieiPact
+		}
+	}
+	option = {
+		name = news.7.b
+		trigger = { 
+			OR = {
+				TAG = JAP 
+				TAG = ENG
+			}
+
+			}
+			hidden_effect = {
+				clr_global_flag = NitieiPact
+			}
+		}
+}
+#ヒトラー氏当選
+news_event = { 
+	id = news.8
+	title = news.8.t
+	desc = news.8.d
+	picture = GFX_news_event_german_speech
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = news.8.a
+		trigger = {
+			NOT = {
+				TAG = AUS
+			}
+		}
+	}
+	option = {
+		name = news.8.b
+		trigger = { TAG = AUS }
+	}
+}
+#第4インターナショナルの北欧侵攻
+news_event = { 
+	id = news.9
+	title = news.9.t
+	desc = news.9.d
+	picture = GFX_news_event_011
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = news.9.a
+		trigger = {
+			OR = {
+				NOT = {
+				TAG = GER
+				TAG = FRA
+				}
+			}
+		}
+	}
+	option = {
+		name = news.9.b
+		trigger = { 
+			OR = {
+			TAG = GER
+			TAG = FRA
+		}
+	}
+	}
+}
+ #アメリカ内戦の再開
+news_event = { 
+	id = news.10
+	title = news.10.t
+	desc = news.10.d
+	picture = GFX_news_event_saf_soldiers_3
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = news.10.a
+		trigger = {
+			OR = {
+				NOT = {
+				TAG = USN
+				TAG = USB
+				TAG = CSA
+				TAG = USA	
+				}
+			}
+		}
+	}
+	option = {
+		name = news.10.b
+		trigger = { 
+			OR = {
+				TAG = USN
+				TAG = USB
+				TAG = CSA
+				TAG = USA	
+		}
+	}
+	}
+}
+ #アメリカ内戦延長戦
+ news_event = {
+	id = news.11
+	title = news.11.t
+	desc = news.11.d
+	picture = GFX_news_event_005
+	major = yes
+	trigger = {
+		OR= {
+			AND = {
+				CSA = {
+					NOT = { has_war = yes }
+				   }
+			    USB = { NOT = { exists = yes } }
+				USN = { NOT = { exists = yes } }
+			}
+			AND = {
+				USB = {
+					NOT = { has_war = yes }
+				   }
+			    CSA = { NOT = { exists = yes } }
+				USN = { NOT = { exists = yes } }
+			}
+			AND = {
+				USN = {
+					NOT = { has_war = yes }
+				   }
+			    USB = { NOT = { exists = yes } }
+				CSA = { NOT = { exists = yes } }
+			}
+		}
+	}
+	fire_only_once = yes
+	option = {
+		name = news.11.a
+		if = {
+			limit = { USB = { exists = yes  } }
+			USB = {
+				remove_ideas = naisenn
+				declare_war_on = {
+					target = USA
+					type = annex_everything
+					}
+			}
+		}
+		if = {
+			limit = { USN = { exists = yes  } }
+			USN = {
+				remove_ideas = naisenn
+				declare_war_on = {
+					target = USA
+					type = annex_everything
+					}
+			}
+		}
+		if = {
+			limit = { CSA = { exists = yes  } }
+			CSA = {
+				remove_ideas = naisenn
+				declare_war_on = {
+					target = USA
+					type = annex_everything
+					}
+			}
+		}
 	}
 }

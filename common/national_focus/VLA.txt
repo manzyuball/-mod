@@ -1,0 +1,1644 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_CHI_INFLATION}
+### search_filters = {FOCUS_FILTER_USA_CONGRESS}
+### search_filters = {FOCUS_FILTER_TFV_AUTONOMY}
+### search_filters = {FOCUS_FILTER_MEX_CHURCH_AUTHORITY}
+### search_filters = {FOCUS_FILTER_MEX_CAUDILLO_REBELLION}
+
+focus_tree = {
+	id = VLA_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VLA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 70 y = 1100 }
+	##########################################################
+	##########################################################
+	######### ロマノフ・ロシアの政治 NFツリー ##################
+	##########################################################
+	##########################################################
+
+	focus = {
+		id = VLA_se1
+		icon = "GFX_focus_SOV_rebuild_the_savior_cathedral"
+		x = 6
+		y = 0
+		#mutually_exclusive = { focus =  }
+		#prerequisite = { focus =  }
+		#relative_position_id = VLA_sanB1
+		cost = 15
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			custom_effect_tooltip = VLA_sovo
+			add_political_power = 150
+			hidden_effect = {
+		if = {
+				limit = {
+				AND = {
+					check_variable = {
+						var = VLA.VLA_teise_h
+						value = VLA.VLA_gunk_h
+						compare = greater_than
+						}
+						check_variable = {
+							var = VLA.VLA_teise_h
+							value = VLA.VLA_roz_h
+							compare = greater_than
+							}
+				}
+			}
+			set_country_flag = VLA_T_WIN
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = {
+						var = VLA.VLA_gunk_h
+						value = VLA.VLA_teise_h
+						compare = greater_than
+						}
+						check_variable = {
+							var = VLA.VLA_gunk_h
+							value = VLA.VLA_roz_h
+							compare = greater_than
+							}
+				}
+			}
+			set_country_flag = VLA_G_WIN
+		}
+		else = {
+			set_country_flag = VLA_R_WIN
+		}
+		}
+	}
+	}
+	focus = {
+		id = VLA_seA1
+		icon = "GFX_goal_support_democracy"
+		x = 0
+		y = 1
+		available = {
+			has_country_flag = VLA_T_WIN2
+		}
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_se1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA2
+		icon = "GFX_goal_generic_attack_allies"
+		x = -1
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA3
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -1
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA2 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA4
+		icon = "GFX_focus_mex_arrest_general_cedillo"
+		x = -1
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA3 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA5
+		icon = "GFX_goal_generic_propaganda"
+		x = 1
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA6
+		icon = "GFX_focus_eng_move_to_secure_the_dominions"
+		x = 1
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA5 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seA7
+		icon = "GFX_focus_SOV_penal_battalions"
+		x = 1
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA6 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	######################################
+	focus = {
+		id = VLA_seB1
+		icon = "GFX_focus_generic_military_dictatorship"
+		x = 3
+		y = 1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_se1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		available = {
+			has_country_flag = VLA_G_WIN2
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seB2
+		icon = "GFX_focus_focus_fra_maquis"
+		x = 3
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seB1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seB3
+		icon = "GFX_focus_spr_the_anti_fascist_workers_revolution"
+		x = 3
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seB2 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seB4
+		icon = "GFX_focus_mex_arrest_general_cedillo"
+		x = 3
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seB3 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seB5
+		icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
+		x = 5
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seB1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seB6
+		icon = "GFX_focus_generic_strike_at_democracy2"
+		x = 5
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seB5 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seB7
+		icon = "GFX_goal_generic_political_pressure"
+		x = 5
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seB6 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	###############################
+	focus = {
+		id = VLA_seC1
+		icon = "GFX_focus_renounce_the_treaty_of_trianon"
+		x = -3
+		y = 1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_se1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		available = {
+			has_country_flag = VLA_R_WIN2
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seC2
+		icon = "GFX_focus_ger_strike_at_the_source"
+		x = -5
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seC1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seC3
+		icon = "GFX_focus_SOV_patriarch_of_all_russia"
+		x = -5
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seC2 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seC4
+		icon = "GFX_focus_generic_military_dictatorship"
+		x = -5
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seC3 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seC5
+		icon = "GFX_focus_rom_parties_end"
+		x = -3
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seC1 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seC6
+		icon = "GFX_focus_eng_concessions_to_the_trade_unions"
+		x = -3
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seC5 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_seC7
+		icon = "GFX_focus_SOV_penal_battalions"
+		x = -3
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seC6 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	##################################
+	focus = {
+		id = VLA_se2
+		icon = "GFX_goal_generic_forceful_treaty"
+		x = 0
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_seA4 focus = VLA_seB4 focus = VLA_seC4 }
+		prerequisite = { focus = VLA_seA7 focus = VLA_seB7 focus = VLA_seC7 }
+		relative_position_id = VLA_se1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+	##########################################################
+	##########################################################
+	######### ロマノフ・ロシアの産業 NFツリー ##################
+	##########################################################
+	##########################################################
+
+	focus = {
+		id = VLA_sanA1
+		icon = "GFX_goal_generic_demand_territory"
+		x = -4
+		y = 0
+		#mutually_exclusive = { focus =  }
+		#prerequisite = { focus =  }
+		available = {
+			has_country_flag = VLA_R_WIN2
+		}
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = VLA_sanA2
+		icon = "GFX_focus_generic_industry_1"
+		x = -4
+		y = 1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA1 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = VLA_sanA3
+		icon = "GFX_focus_generic_manpower"
+		x = -4
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA2 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_ideas = VLA_GUNKOKU
+		}
+	}
+	focus = {
+		id = VLA_sanA4
+		icon = "GFX_goal_generic_military_sphere"
+		x = -2
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA3 focus = VLA_sanB2 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = VLA_sanA5
+		icon = "GFX_focus_CZE_german_puppet"
+		x = -6
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA3 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_ideas = VLA_Roudouhou
+		}
+	}
+	focus = {
+		id = VLA_sanA6
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -7
+		y = 4
+		available = {
+			has_completed_focus = VLA_sanA16
+		}
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA5 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA7
+		icon = "GFX_focus_usa_reestablish_the_gold_standard"
+		x = -5
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA5 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = {
+					type = steel
+					amount = 30
+					}
+					add_resource = {
+						type = tungsten
+						amount = 23
+						}
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanA9
+		icon = "GFX_goal_generic_construct_civ_factory"
+		x = -7
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA6 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VLA_sanA10
+		icon = "GFX_goal_generic_small_arms"
+		x = -9
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA3 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 3.0
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+	focus = {
+		id = VLA_sanA11
+		icon = "GFX_focus_generic_license_production"
+		x = -9
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA10 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 2
+				uses = 2
+				category = motorized_equipment
+			}
+		}
+	}
+	focus = {
+		id = VLA_sanA12
+		icon = "GFX_focus_generic_steel"
+		x = -2
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA4 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+			add_resource = {
+				type = steel
+				amount = 23
+				}
+			}
+		}
+	}
+	focus = {
+		id = VLA_sanA13
+		icon = "GFX_focus_generic_combined_arms"
+		x = -2
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA12 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = VLA_sanA14
+		icon = "GFX_focus_SOV_merge_plants"
+		x = -4
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA12 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = VLA_sanA15
+		icon = "GFX_goal_generic_construct_mil_factory"
+		x = -4
+		y = 6
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA14 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			custom_effect_tooltip = VLA_sibeliaq
+			set_country_flag = VLA_sibelia
+		}
+	}
+	focus = {
+		id = VLA_sanA16
+		icon = "GFX_goal_generic_political_pressure"
+		x = -4
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA3 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VLA_GUNKOKU
+				add_idea = VLA_GUNKOKU1
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanA17
+		icon = "GFX_focus_generic_aircraft_production"
+		x = -2
+		y = 6
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanA13 }
+	    relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = VLA_sanB1
+		icon = "GFX_goal_generic_demand_territory"
+		x = 22
+		y = 0
+		available = {
+			has_country_flag = VLA_T_WIN2
+		}
+		#mutually_exclusive = { focus =  }
+		#prerequisite = { focus =  }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = VLA_sanB2
+		icon = "GFX_goal_generic_neutrality_focus"
+		x = 0
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanB1 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_ideas = VLA_T_SAN
+		}
+	}
+	focus = {
+		id = VLA_sanB3
+		icon = "GFX_focus_usa_recruit_the_free_corps"
+		x = 1
+		y = 1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanB1 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = USA
+				modifier = kyuusekkinn
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanB4
+		icon = "GFX_focus_chi_mission_to_the_us"
+		x = 2
+		y = 2
+		#mutually_exclusive = { focus =  }
+		relative_position_id = VLA_sanB1
+		prerequisite = { focus = VLA_sanB3 }
+		prerequisite = { focus = VLA_sanB5 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VLA_USA_S
+				add_idea = VLA_USA_S2
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanB5
+		icon = "GFX_focus_usa_guarantee_the_american_dream"
+		x = 3
+		y = 1
+		#mutually_exclusive = { focus =  }
+		relative_position_id = VLA_sanB1
+		prerequisite = { focus = VLA_sanB1 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_ideas = VLA_USA_S
+		}
+	}
+	focus = {
+		id = VLA_sanB6
+		icon = "GFX_focus_chi_collaboration_with_the_japanese"
+		x = -2
+		y = 1
+		#mutually_exclusive = { focus =  }
+		relative_position_id = VLA_sanB1
+		prerequisite = { focus = VLA_sanB1 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = JAP
+				modifier = kyuusekkinn
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanB7
+		icon = "GFX_focus_jap_zaibatsu"
+		x = -2
+		y = 2
+		#mutually_exclusive = { focus =  }
+		relative_position_id = VLA_sanB1
+		prerequisite = { focus = VLA_sanB6 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_ideas = VLA_zaibatu
+		}
+	}
+	focus = {
+		id = VLA_sanB8
+		icon = "GFX_focus_hol_abandon_the_gold_standard"
+		x = 0
+		y = 4
+		relative_position_id = VLA_sanB1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanB2 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VLA_T_SAN
+				add_idea = VLA_T_SAN1
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanB9
+		icon = "GFX_goal_generic_positive_trade_relations"
+		x = 0
+		y = 6
+		relative_position_id = VLA_sanB1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanB8 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VLA_T_SAN1
+				add_idea = VLA_T_SAN2
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanC1
+		icon = "GFX_goal_generic_demand_territory"
+		x = 5
+		y = 0
+		#mutually_exclusive = { focus =  }
+		#prerequisite = { focus =  }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		available = {
+			has_country_flag = VLA_G_WIN2
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = VLA_sanC2
+		icon = "GFX_goal_generic_construction2"
+		x = 5
+		y = 1
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC1 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			564 = {
+			set_state_category = town
+			}
+			566 = {
+				set_state_category = town
+				}
+				567 = {
+					set_state_category = town
+					}
+					576 = {
+						set_state_category = town
+						}
+						578 = {
+							set_state_category = town
+							}
+		}
+	}
+	focus = {
+		id = VLA_sanC3
+		icon = "GFX_goal_generic_construct_infrastructure"
+		x = 5
+		y = 2
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC2 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = VLA_T_T_T
+				days = 120
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanC4
+		icon = "GFX_focus_NZL_bob_semple_tank"
+		x = 2
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC3 focus = VLA_sanB2 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = VLA_sanC5
+		icon = "GFX_goal_generic_consumer_goods"
+		x = 2
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC4 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_ideas = VLA_seizpu
+		}
+	}
+	focus = {
+		id = VLA_sanC6
+		icon = "GFX_focus_generic_industry_3"
+		x = 2
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC5 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = VLA_sanC7
+		icon = "GFX_goal_generic_construct_civ_factory"
+		x = 2
+		y = 6
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC6 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = VLA_sanC8
+		icon = "GFX_goal_generic_production2"
+		x = 4
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC5 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VLA_seizpu
+				add_idea = VLA_seizpu2
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanC9
+		icon = "GFX_goal_generic_occupy_states_coastal"
+		x = 4
+		y = 6
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC8 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VLA_seizpu2
+				add_idea = VLA_seizpu3
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanC10
+		icon = "GFX_focus_chi_british_cooperation"
+		x = 6
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC3 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = ENG
+				modifier = kyuusekkinn
+				}
+				ENG = {
+					send_equipment = {
+						equipment = infantry_equipment
+						amount = 1500
+						target = VLA
+						}
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanC11
+		icon = "GFX_goal_generic_construction"
+		x = 4
+		y = 3
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC3 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_political_power = 300
+		}
+	}
+	focus = {
+		id = VLA_sanC12
+		icon = "GFX_focus_generic_aluminum"
+		x = 4
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC11 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = {
+					type = aluminium
+					amount = 31
+					}
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanC13
+		icon = "GFX_focus_eng_bring_the_dominions_back_into_the_fold"
+		x = 6
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC10 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = CAN
+				modifier = kyuusekkinn
+				}
+				reverse_add_opinion_modifier = {
+					target = AST
+					modifier = kyuusekkinn
+					}
+					reverse_add_opinion_modifier = {
+						target = NZL
+						modifier = kyuusekkinn
+						}
+						reverse_add_opinion_modifier = {
+							target = SAF
+							modifier = kyuusekkinn
+							}
+							reverse_add_opinion_modifier = {
+								target = EGY
+								modifier = kyuusekkinn
+								}
+								reverse_add_opinion_modifier = {
+									target = RAJ
+									modifier = kyuusekkinn
+									}
+		}
+	}
+	focus = {
+		id = VLA_sanC14
+		icon = "GFX_goal_demand_sudetenland"
+		x = 8
+		y = 4
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC10 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_ideas = VLA_KOKUEIKA
+		}
+	}
+	focus = {
+		id = VLA_sanC15
+		icon = "GFX_focus_POL_warsaw_main_station"
+		x = 8
+		y = 5
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC14 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VLA_KOKUEIKA
+				add_idea = VLA_KOKUEIKA1
+				}
+		}
+	}
+	focus = {
+		id = VLA_sanC16
+		icon = "GFX_goal_generic_scientific_exchange"
+		x = 9
+		y = 6
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC15 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		add_research_slot = 1
+		}
+	}
+	focus = {
+		id = VLA_sanC17
+		icon = "GFX_focus_generic_tank_production"
+		x = 7
+		y = 6
+		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = VLA_sanC15 }
+		relative_position_id = VLA_sanB1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VLA_KOKUEIKA1
+				add_idea = VLA_KOKUEIKA2
+				}
+		}
+	}
+}

@@ -4,18 +4,18 @@ state={
 	name="STATE_5"
 
 	history={
-		owner = GER
-		controller = GER
+		owner = LAT
 		buildings = {
 			infrastructure = 3
 
 		}
 		add_core_of = GER
+		add_core_of = LAT
 
 	}
 
 	provinces={
-		3351 3380 6347 6402 8940 9346 9398 11245 13760 13876 13878 
+		3351 3380 6375 6402 9346 11245 
 	}
 	manpower=1238108
 	buildings_max_level_factor=1.000

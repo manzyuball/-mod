@@ -1,0 +1,28 @@
+state={
+	id=950
+	name="STATE_950"
+	provinces={
+		554 3618 6615 7322 9453 11442 11455 11469 11591 
+	}
+	history={
+		owner = KAZ
+		add_core_of = KAZ
+		add_core_of = UZB
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SOV
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+
+			}
+
+		}
+	}
+	manpower=91231
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

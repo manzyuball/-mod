@@ -1,13 +1,14 @@
 characters={
-	PHI_manuel_luis_quezón={
-		name="Manuel Luis Quezón"
+	JAP_koiso = {
+		name = "JAP_koiso"
 		portraits={
 			civilian={
-				large="gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+				large="gfx/leaders/_EOB/kunai_koiso.dds"
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology = conservatism
+			traits={ jap_syokumin }
 			expire="1965.1.1.1"
 			id=-1
 		}

@@ -1,100 +1,74 @@
 ideas = {
 	country = {
-		victor_emmanuel = {
-			
-			
-			allowed = {
-				original_tag = "ITA"
-			}
-
-			available = {
-				NOT = {
-					has_government = neutrality #remove if King in power
-				}
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = communism
-				}
-				NOT = {
-					any_other_country = {
-						original_tag = ITA
-						has_government = fascism
-					}
-				}
-			}
-			
+		ITA_syoki_ideas = {
 			removal_cost = -1
-			
+			picture = sour_loser
 			modifier = {
-				stability_factor = 0.05				
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				army_core_attack_factor = -0.25
 			}
 		}
-		vittoria_mutilata = {			
-			
-			allowed = {
-				original_tag = "ITA"
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					OR = {
-						has_government = communism
-						has_government = democratic
-					}
-				}
-			}
-			
+		ITA_umi = {
 			removal_cost = -1
-			
+			picture = generic_coastal_navy
 			modifier = {
-				communism_acceptance = -10
-				democratic_acceptance = -10
-				fascism_acceptance = 10
-				ai_focus_aggressive_factor = 0.5
-				justify_war_goal_time = -0.05
+				Civilian_intel_to_others = 5	
+				industrial_capacity_dockyard = 0.2
 			}
 		}
-
-		ITA_german_millitary_cooperation_focus = {
-
-			picture = german_advisors
-
-			allowed = {
-				original_tag = ITA
-			}
-
-			allowed_civil_war = {
-				OR = {
-					AND = {
-						has_government = fascism
-						GER = {
-							has_government = fascism
-						}
-					}
-					AND = {
-						has_government = communism
-						GER = {
-							has_government = communism
-						}
-					}
-					AND = {
-						has_government = democratic
-						GER = {
-							has_government = democratic
-						}
-					}
-				}
-			}
-
-			removal_cost = -1	
-
+		ITA_umi2 = {
+			removal_cost = -1
+			picture = generic_coastal_navy
 			modifier = {
-				land_doctrine_cost_factor = -0.05
-				air_doctrine_cost_factor = -0.05
+				consumer_goods_factor = -0.08
+				Civilian_intel_to_others = 5
+				industrial_capacity_dockyard = 0.2
 			}
-			
+		}
+		ITA_touitu = {
+			removal_cost = -1
+			picture = generic_victors_of_ww1
+			modifier = {
+				army_core_attack_factor = 0.25
+				war_support_factor = 0.10
+			}
+		}
+		ITA_touitu1 = {
+			removal_cost = -1
+			picture = generic_victors_of_ww1
+			modifier = {
+				army_core_attack_factor = 0.45
+				war_support_factor = 0.25
+			}
+		}
+		ITA_asasa = {
+			removal_cost = -1
+			picture = POL_the_peasants_strike
+			modifier = {
+				ai_focus_aggressive_factor = 0.95
+				army_attack_factor = 0.35
+				terrain_penalty_reduction = 0.5
+			}
+		}
+		ITA_rome = {
+			removal_cost = -1
+			picture = generic_fascism_drift_2
+			modifier = {
+				ai_get_ally_desire_factor = 150
+				justify_war_goal_time = -0.5
+				non_core_manpower = 0.15
+			}
+		}
+		ITA_FRA = {
+			removal_cost = -1
+			picture = fra_political_violence
+			modifier = {
+			ITA = {
+			targeted_modifier = { tag = FRA attack_bonus_against = 0.25 }
+			}
+			army_attack_factor = 0.1
+			}
 		}
 	}
 

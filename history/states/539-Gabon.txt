@@ -4,7 +4,6 @@ state={
 
 	history={
 		owner = TZN
-		add_core_of = GAB
 		victory_points = {
 			5139 1 
 		}
@@ -20,11 +19,11 @@ state={
 	}
 
 	provinces={
-		5139 8207 10948 13210 13271 13272 13273 
+		5139 8207 10948 13210 
 	}
 	manpower=409752
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 
 	local_supplies=1.0 
 }

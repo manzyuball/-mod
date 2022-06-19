@@ -12,12 +12,23 @@ if = {
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
 	gw_artillery = 1
-	interwar_antiair = 1
 	early_fighter = 1
-	cv_early_fighter = 1
+	fighter1 = 1
 	early_bomber = 1
-	CAS1 = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -43,7 +54,7 @@ if = {
 
 recruit_character = PRU_Óscar_benavides
 recruit_character = PRU_sebastián_lynch
-recruit_character = PRU_hilarión_lynch
+recruit_character = PRU_migel
 recruit_character = PRU_santiago_ruíztagle
 recruit_character = PRU_rafael_escardo
 recruit_character = PRU_alberto_lopez_flores
@@ -67,88 +78,24 @@ recruit_character = PRU_jose_bustamante_y_rivero
 recruit_character = PRU_armando_reveredo_iglesias
 recruit_character = PRU_reynaldo_vinatea
 
-
+add_manpower = 300000
 set_country_flag = monroe_doctrine
 
-set_convoys = 5
+set_convoys = 175
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	add_command_power = 100
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "PRU_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "PRU_1939_naval_mtg"
-		else = {
-			set_naval_oob = "PRU_1939_naval_legacy"
-		}
-	}
-
-	set_technology = {
-		tactical_bomber1 = 1
-		interwar_artillery = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
+add_ideas = {
+	PRU_sasngakui
 }
-
 set_politics = {
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1931.10.11"
 	election_frequency = 96
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 49
-	fascism = 51
+	communism = 90
+	fascism = 10
 }
-
-1939.1.1 = {
-	recruit_character = PRU_manuel_prado_ugarteche
-	promote_character = PRU_manuel_prado_ugarteche
-	retire_character = PRU_Óscar_benavides
-}
-
-
 ### VARIANTS ###
 # 1936 Start #
 if = {

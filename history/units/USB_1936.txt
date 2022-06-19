@@ -1,8 +1,5 @@
 ﻿division_template = {
 	name = "労働民兵"
-
-	division_names_group = USB_INF_04
-
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -20,10 +17,7 @@
 }
 
 division_template = {
-	name = "State Defense Force"
-
-	division_names_group = USB_INF_01
-
+	name = "工場守備隊"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -46,8 +40,176 @@ division_template = {
 		infantry = { x = 4 y = 2 }
 	}
 }
-
 units = {
+	division = {
+		name = "工場守備隊"
+		location = 3878
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 4569
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 1595
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 10717
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 4740
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 3719
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 12586
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 9450
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 3878
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 4569
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 1595
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 10717
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 4740
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 3719
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 12586
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 9450
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 3878
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 4569
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 1595
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 10717
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 4740
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 3719
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 12586
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "工場守備隊"
+		location = 9450
+		division_template = "工場守備隊"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	######################################################
 	division = {
 		name = "ニューヨーク労働民兵"
 		location = 3878

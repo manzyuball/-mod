@@ -4,19 +4,22 @@ state={
 	name="STATE_81"
 
 	history={
-
-		owner = ROM
+		victory_points = {
+			6652 1 
+		}
+		owner = BUL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 
 		}
 		add_core_of = ROM
+		add_core_of = BUL
 
 	}
 
 	provinces={
-		637 3645 5962 6667 8414 11605 13724 
+		3630 6652 11588 11657 
 	}
 	manpower=1519300
 	buildings_max_level_factor=1.000

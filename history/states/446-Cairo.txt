@@ -6,13 +6,13 @@ state={
 	history={
 		owner = EGY
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 2
 			air_base = 5
-
 		}
 		victory_points = {
-			7011 20 
+			7011 25 
 		}
 		victory_points = {
 			3996 5 
@@ -25,10 +25,10 @@ state={
 	}
 
 	provinces={
-		992 1068 3996 4055 4143 7011 7117 7188 10031 12004 13471 13472 13473 13493 
+		992 1068 3996 4055 4143 7011 7117 7188 10005 10031 12004 
 	}
 	manpower=6586596
 	buildings_max_level_factor=1.000
 	state_category=large_city
-	local_supplies=0.000
+	local_supplies=35.000
 }

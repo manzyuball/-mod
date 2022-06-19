@@ -1,4 +1,4 @@
-﻿capital = 797
+﻿capital = 49
 
 if = {
 	limit = {
@@ -22,18 +22,9 @@ if = {
 	}
 }
 
-###################
-#### 3D MODELS ####
-###################
-
-#Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#TUR_communism
-#TUR_democratic
-#TUR_fascism
-#TUR_neutrality
 set_cosmetic_tag = TUR_neutrality
 
-set_research_slots = 4
+set_research_slots = 3
 
 set_technology = {
 	infantry_weapons = 1
@@ -97,52 +88,120 @@ if = {
 		mtg_transport = 1
 	}
 }
-add_ideas = {	
+add_ideas = {
 	TUR_hinsi
 	rengou
 	arabu
 	kenpou
 	gun
 }
-
+set_variable = {
+	var = TUR.TUR_KAIKAKUDO
+	value = 150
+}
+add_manpower = 864210
+if = {
+	limit = {
+			has_dlc = "La Resistance"
+	}
+	set_autonomy = {
+		target = SAU
+		autonomous_state = autonomy_collaboration_government
+		freedom_level = 0.1
+	}
+	else = {
+		puppet = SAU
+	}
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.2.8"
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 10
-	fascism = 30
-	neutrality = 60
+	democratic = 6
+	neutrality = 94
 }
 
-set_convoys = 45
-set_stability = 0
-set_war_support = 0.1
+set_convoys = 190
+set_stability = 0.5
+set_war_support = 0.3
 
-	recruit_character = TUR_ismet_inonu
+	recruit_character = TUR_abdulmejid_ii
 	recruit_character = TUR_mustafa_kemal_ataturk
 	recruit_character = TUR_sefik_husnu
 	recruit_character = TUR_celal_bayar
+	recruit_character = TUR_mehmet_recep_peker
 	recruit_character = TUR_fevzi_cakmak
-	recruit_character = TUR_cemil_cahit_toydemir
-	recruit_character = TUR_rauf_orbay
-	recruit_character = TUR_memduh_tagmac
-	recruit_character = TUR_abdurrahman_gurman
-	recruit_character = TUR_mehmet_ali_ulgen
-	recruit_character = TUR_sabiha_gokcen
-	recruit_character = TUR_mehmet_gunaltay
-	recruit_character = TUR_ali_fuat_cebesoy
-	recruit_character = TUR_refik_saydam
-	recruit_character = TUR_erkan_gataly
-	recruit_character = TUR_ali_orlungat
-	recruit_character = TUR_mehmet_salih_omurtak
-	recruit_character = TUR_nazmi_solok
-	recruit_character = TUR_hassan_saka
-	recruit_character = TUR_kazim_ozalp
-	recruit_character = TUR_mumtaz_okmen
+	recruit_character = TUR_fahrettin_altay
 	recruit_character = TUR_kazim_orbay
+	recruit_character = TUR_cemil_cahit_toydemir
+	recruit_character = TUR_izzettin_chalishlar
+	recruit_character = TUR_kazim_karabekir
+	recruit_character = TUR_mustafa_muglali
+	recruit_character = TUR_mehmet_salih_omurtak
+	recruit_character = TUR_hayrullah_fisek
+	recruit_character = TUR_mehmet_nuri_yamut
+	recruit_character = TUR_sadik_altincan
+	recruit_character = TUR_sukru_okan
+	recruit_character = TUR_mehmet_ali_ulgen
+	recruit_character = TUR_abdurrahman_gurman
+	recruit_character = TUR_fakhri_pasha
+	recruit_character = TUR_refet_bele
+	recruit_character = TUR_zeki_dogan
+	recruit_character = TUR_sabiha_gokcen
+	recruit_character = TUR_ali_fuat_cebesoy
+	recruit_character = TUR_vecihi_hurkus
+	recruit_character = TUR_ali_ihsan_sabis
+	recruit_character = TUR_rauf_orbay
+	recruit_character = TUR_izzettin_calislar
+	recruit_character = TUR_ahmet_ali_celikten
+	recruit_character = TUR_mehmet_fahri_engin
+	recruit_character = TUR_muzaffer_goksenin
+	recruit_character = TUR_halil_kut
+	recruit_character = TUR_mumtaz_okmen
+	recruit_character = TUR_riza_nur
+	recruit_character = TUR_nejdet_sancar
+	recruit_character = TUR_kazim_ozalp
+	recruit_character = TUR_sukru_saracoglu_prime_minister
+	recruit_character = TUR_adnan_menderes
+	recruit_character = TUR_nuri_demirag_prime_minister
+	recruit_character = TUR_hasan_saka
+	recruit_character = TUR_hilmi_uran
+	recruit_character = TUR_fethi_okyar
+	recruit_character = TUR_sukru_saracoglu
+	recruit_character = TUR_halide_edib_adivar
+	recruit_character = TUR_sevket_sureyya_aydemir
+	recruit_character = TUR_mehmet_emin_yurdakul
+	recruit_character = TUR_nuri_demirag
+	recruit_character = TUR_nuri_killigil
+	recruit_character = TUR_said_i_nursi
+	recruit_character = TUR_ismet_inonu
+	recruit_character = TUR_nihal_atsiz
+	recruit_character = TUR_zeki_velidi_togan
+	recruit_character = TUR_nazim_hikmetr
 
+
+if = {
+	limit = {
+		AND = {
+			has_dlc = "La Resistance"
+			has_dlc = "Battle for the Bosporus"
+		}
+	}
+	recruit_character = TUR_elyesa_bazna
+	create_operative_leader = {
+		name = "Ruzi Nazar"
+		GFX = "GFX_portrait_tur_ruzi_nazar"
+		traits = { operative_tough operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = no
+		nationalities = { TUR SOV KAZ }
+	}
+}
+
+### VARIANTS ###
 # 1936 Start #
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

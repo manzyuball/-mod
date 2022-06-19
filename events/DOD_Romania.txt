@@ -1,1 +1,9 @@
-﻿
+﻿###########################
+# Hungarian Events
+###########################
+
+add_namespace = DOD_romania
+
+#Jakob: 80-90
+#Gabriel: 100-110
+

@@ -5,13 +5,12 @@ state={
 	resources={
 		steel=2.000
 		chromium=3.000
-		WAR_HORSES=43
 	}
 
 	history={
 		owner = MON
 		victory_points = {
-			4801 15
+			4801 10
 		}
 		victory_points = {
 			7799 1 

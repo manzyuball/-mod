@@ -12,7 +12,6 @@ state={
 		victory_points = {
 			2115 1 
 		}
-		add_core_of = ANG
 	}
 	provinces={
 		2115 

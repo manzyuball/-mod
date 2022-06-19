@@ -15,12 +15,23 @@ state={
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 6
-			air_base = 2
+			air_base = 5
 		}
 		victory_points = {
 			7101 10 
 		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				infrastructure = 3 #was: 6
+				air_base = 3
+				arms_factory = 1
+
+			}
+
+		}
+
 	}
 
-	local_supplies=0.0 
+	local_supplies=25.0 
 }

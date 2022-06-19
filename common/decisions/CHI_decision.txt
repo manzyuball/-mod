@@ -6,20 +6,6 @@ CHI_habatukousou = {
 				original_tag = CHI
 		}
 
-		available = {
-			CHI = {
-				
-			}
-		}
-
-		visible = {
-			CHI = {
-				has_completed_focus = {
-
-            }
-			}
-		}
-
 		cost = 25
 		fire_only_once = no
 
@@ -37,11 +23,10 @@ CHI_habatukousou = {
             }
 			hidden_effect = {
             add_to_variable = {
-               var = CHI_koukuu_h
+               var = CHI.CHI_koukuu_h
                value = 10
             }
           }
-
 		}
 	}
 
@@ -49,20 +34,6 @@ CHI_habatukousou = {
 
 		allowed = {
 				original_tag = CHI
-		}
-
-		available = {
-			CHI = {
-				
-			}
-		}
-
-		visible = {
-			CHI = {
-				has_completed_focus = {
-
-            }
-			}
 		}
 
 		cost = 75
@@ -84,7 +55,7 @@ CHI_habatukousou = {
          }
 			hidden_effect = {
             add_to_variable = {
-               var = CHI_koukuu_h
+               var = CHI.CHI_koukuu_h
                value = 25
             }
           }
@@ -96,20 +67,6 @@ CHI_habatukousou = {
 
 		allowed = {
 				original_tag = CHI
-		}
-
-		available = {
-			CHI = {
-				
-			}
-		}
-
-		visible = {
-			CHI = {
-				has_completed_focus = {
-
-            }
-			}
 		}
 
 		cost = 100
@@ -126,7 +83,7 @@ CHI_habatukousou = {
             }
 			hidden_effect = {
             add_to_variable = {
-               var = CHI_koukuu_h
+               var = CHI.CHI_koukuu_h
                value = 30
             }
           }
@@ -138,20 +95,6 @@ CHI_habatukousou = {
 
 		allowed = {
 				original_tag = CHI
-		}
-
-		available = {
-			CHI = {
-				
-			}
-		}
-
-		visible = {
-			CHI = {
-				has_completed_focus = {
-
-            }
-			}
 		}
 
 		cost = 100
@@ -168,7 +111,7 @@ CHI_habatukousou = {
             }
 			hidden_effect = {
             add_to_variable = {
-               var = CHI_koukuu_h
+               var = CHI.CHI_koukuu_h
                value = 30
             }
           }
@@ -192,20 +135,6 @@ CHI_habatukousou = {
 				original_tag = CHI
 		}
 
-		available = {
-			CHI = {
-				
-			}
-		}
-
-		visible = {
-			CHI = {
-				has_completed_focus = {
-
-            }
-			}
-		}
-
 		cost = 25
 		fire_only_once = no
 
@@ -219,7 +148,7 @@ CHI_habatukousou = {
          add_manpower = 50000
 			hidden_effect = {
             add_to_variable = {
-               var = CHI_riku_h
+               var = CHI.CHI_riku_h
                value = 10
             }
           }
@@ -231,20 +160,6 @@ CHI_habatukousou = {
 
 		allowed = {
 				original_tag = CHI
-		}
-
-		available = {
-			CHI = {
-				
-			}
-		}
-
-		visible = {
-			CHI = {
-				has_completed_focus = {
-
-            }
-			}
 		}
 
 		cost = 75
@@ -260,7 +175,7 @@ CHI_habatukousou = {
          load_oob = "CHI_sinpei"
 			hidden_effect = {
             add_to_variable = {
-               var = CHI_riku_h
+               var = CHI.CHI_riku_h
                value = 25
             }
           }
@@ -271,20 +186,6 @@ CHI_habatukousou = {
 
 		allowed = {
 				original_tag = CHI
-		}
-
-		available = {
-			CHI = {
-				
-			}
-		}
-
-		visible = {
-			CHI = {
-				has_completed_focus = {
-
-            }
-			}
 		}
 
 		cost = 75
@@ -307,7 +208,7 @@ CHI_habatukousou = {
           }
 			hidden_effect = {
             add_to_variable = {
-               var = CHI_riku_h
+               var = CHI.CHI_riku_h
                value = 25
             }
           }
@@ -330,21 +231,6 @@ CHI_habatukousou = {
 		allowed = {
 				original_tag = CHI
 		}
-
-		available = {
-			CHI = {
-				
-			}
-		}
-
-		visible = {
-			CHI = {
-				has_completed_focus = {
-
-            }
-			}
-		}
-
 		cost = 25
 		fire_only_once = no
 
@@ -362,7 +248,7 @@ CHI_habatukousou = {
          }
 			hidden_effect = {
             add_to_variable = {
-               var = CHI_tetu_h
+               var = CHI.CHI_tetu_h
                value = 10
             }
          }
@@ -374,20 +260,6 @@ CHI_habatukousou = {
 
 		allowed = {
 				original_tag = CHI
-		}
-
-		available = {
-			CHI = {
-				
-			}
-		}
-
-		visible = {
-			CHI = {
-				has_completed_focus = {
-
-            }
-			}
 		}
 
 		cost = 25
@@ -407,7 +279,7 @@ CHI_habatukousou = {
          }
 			hidden_effect = {
             add_to_variable = {
-               var = CHI_tetu_h
+               var = CHI.CHI_tetu_h
                value = 10
             }
          }
@@ -420,21 +292,6 @@ CHI_habatukousou = {
 		allowed = {
 				original_tag = CHI
 		}
-
-		available = {
-			CHI = {
-				
-			}
-		}
-
-		visible = {
-			CHI = {
-				has_completed_focus = {
-
-            }
-			}
-		}
-
 		cost = 75
 		fire_only_once = no
 
@@ -452,7 +309,7 @@ CHI_habatukousou = {
          }
 			hidden_effect = {
             add_to_variable = {
-               var = CHI_tetu_h
+               var = CHI.CHI_tetu_h
                value = 25
             }
          }
@@ -464,20 +321,6 @@ CHI_habatukousou = {
 
 		allowed = {
 				original_tag = CHI
-		}
-
-		available = {
-			CHI = {
-				
-			}
-		}
-
-		visible = {
-			CHI = {
-				has_completed_focus = {
-
-            }
-			}
 		}
 
 		cost = 185
@@ -500,9 +343,42 @@ CHI_habatukousou = {
             }
 			hidden_effect = {
             add_to_variable = {
-               var = CHI_tetu_h
+               var = CHI.CHI_tetu_h
                value = 45
             }
+         }
+
+		}
+	}
+
+	CHI_asas = {
+
+		allowed = {
+				original_tag = CHI
+		}
+        icon = hol_attract_foreign_investors
+		cost = 50
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = CHI_ta
+			hidden_effect = {
+            add_to_variable = {
+               var = CHI.CHI_tetu_h
+               value = -10
+            }
+			add_to_variable = {
+				var = CHI.CHI_riku_h
+				value = -10
+			 }
+			 add_to_variable = {
+				var = CHI.CHI_koukuu_h
+				value = -10
+			 }
          }
 
 		}

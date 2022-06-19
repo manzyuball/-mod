@@ -26,7 +26,6 @@ state={
 		}
 		add_core_of = YUG
 		add_core_of = BOS
-		add_core_of = CRO
 		add_core_of = AUS
 	}
 

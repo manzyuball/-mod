@@ -1,12 +1,13 @@
-
 state={
 	id=923
 	name="STATE_923"
+	provinces={
+		1546 4509 4552 7529 7542 7570 8235 8250 10369 10396 10436 10990 12371 
+	}
 	resources={
 		gold=52.000
 		silver=73.000
 	}
-
 	history={
 		owner = INS
 		add_core_of = INS
@@ -22,10 +23,6 @@ state={
 
 		}
 
-	}
-
-	provinces={
-		1546 4509 4552 7529 7542 7570 10369 10396 10436 12371 
 	}
 	manpower=314300
 	buildings_max_level_factor=1.000
