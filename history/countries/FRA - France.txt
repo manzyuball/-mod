@@ -172,6 +172,7 @@ give_guarantee = SOV
 
 recruit_character = FRA_philippe_petain
 recruit_character = FRA_torotky
+recruit_character = SOV_lev_trotsky
 recruit_character = FRA_pierre_laval
 recruit_character = FRA_edouard_daladier
 recruit_character = FRA_jean_de_lattre_de_tassigny

@@ -2,10 +2,11 @@ ideas = {
 	country = {
 
 		PRU_sasngakui = {
-			picture = SPR_international_brigades
+			picture = raj_indian_gentlemen_officers
 			removal_cost = -1
 			
 			modifier = {
+				conscription = 0.05
 				army_attack_factor = 0.25
 				attrition = -0.25
 				supply_consumption_factor = -0.25

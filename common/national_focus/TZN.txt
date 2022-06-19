@@ -660,7 +660,9 @@
 		prerequisite = { focus = TZN_S3 }
 		relative_position_id = TZN_S1
 		cost = 10
-		factor = 0
+		ai_will_do = {
+    	factor = 0
+		}
 		completion_reward = {
 			POR = { puppet = TZN }
 			transfer_state = 796

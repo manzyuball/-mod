@@ -82,7 +82,7 @@ ideas = {
 			production_speed_rail_way_factor = 0.1
 		}
     	}
-		KaihatuKeikaku4 = { #帝国の産業政策
+		KaihatuKeikaku5 = { #帝国の産業政策
 		picture = JAP_industrial_standard
 		modifier = {
 			industrial_capacity_factory = 0.25
@@ -172,6 +172,7 @@ ideas = {
 				training_time_factor = -0.25
 			}
 		}
+	}
 
 
 		#テクノロジー
@@ -417,5 +418,5 @@ ideas = {
 				traits = { tank_manufacturer }
 			}	
 		}
-	}
+	
 }

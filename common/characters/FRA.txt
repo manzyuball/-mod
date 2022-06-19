@@ -56,6 +56,40 @@ characters={
 		}
 	}
 
+	
+	SOV_lev_trotsky = {
+		name = SOV_lev_trotsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
+			}
+			army = {
+				small = "GFX_idea_SOV_lev_trotsky"
+			}
+		}
+		allowed_civil_war = { 
+					has_government = communism
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = SOV_lev_trotsky
+			allowed = {
+				original_tag = FRA
+			}
+			on_add = {	
+			}
+			
+			visible = {
+			}
+			available = {
+			}
+			traits = {
+				pc_military_naval_affairs
+			}
+		}
+	}
+
 	FRA_jean_de_lattre_de_tassigny={
 		name=FRA_jean_de_lattre_de_tassigny
 		portraits={

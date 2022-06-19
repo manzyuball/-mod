@@ -57,7 +57,6 @@ if = {
 	set_research_slots = 2
 }
 give_guarantee = TZN
-set_convoys = 50
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.3.5"

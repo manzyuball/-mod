@@ -34,45 +34,27 @@ JAP_historical_plan = {
 	}
 
 	ai_national_focuses = {
-		JAP_min1 #March 10 1936	
-		JAP_min2 #May 20 1936	
-		JAP_min3 #July 30 1936	
-		JAP_min5 #October 10 1936	
-		JAP_min6 #December 20 1936	
+		JAP_NITIEI1 #March 10 1936	
+		JAP_NITIEI2 #May 20 1936	
+		JAP_NITIEI3 #July 30 1936	
+		JAP_NITIEI4 #October 10 1936	
+		JAP_NITIEI9 #December 20 1936	
 		#1937
-		JAP_sen1 #February 30 1937	
-		JAP_sen2 #May 10 1937	
-		JAP_sen19 #July 20 1937	
-		JAP_sen26 #September 30 1937	
-		JAP_sen27 #December 10 1937	
+		JAP_NITIEI5 #February 30 1937	
+		JAP_NITIEI10 #May 10 1937	
+		JAP_NITIEI6 #July 20 1937	
+		JAP_NITIEI7 #September 30 1937	
+		JAP_NITIEI8 #December 10 1937	
 		#1938
-		JAP_min8 #February 20 1938	
-		JAP_min9 #April 30 1938	
-		JAP_min9 #July 10 1938	
-		JAP_min11 #September 20 1938	
-		JAP_min12 #August 10 1942	
+		JAP_NITIEI15 #February 20 1938	
+		JAP_NITIEI22 #April 30 1938	
+		JAP_NITIEI11 #July 10 1938	
+		JAP_NITIEI12 #September 20 1938	
+		JAP_NITIEI13 #August 10 1942	
 		#1939
-		JAP_min13 #October 20 1942	
-		JAP_min15 #June 30 1939	
-		JAP_sen30 #November 30 1938	
-		JAP_sen32 #February 10 1939	
-		JAP_sen18 #April 20 1939	
-		#1940
-		JAP_sen20 #September 10 1939	
-		JAP_sen21 #November 20 1939	
-		JAP_sen22 #January 30 1940	
-		JAP_sen3 #April 10 1940	
-		JAP_sen8 #June 20 1940	
-		#1941
-		JAP_sen9 #August 30 1940	
-		JAP_sen10 #November 10 1940	
-		JAP_sen11 #March 30 1941	
-		JAP_min14 #August 20 1941	
-		JAP_min18 #October 30 1941	
-		#1942
-		JAP_min19 #January 20 1941	
-		JAP_min21 #June 10 1941	
-		JAP_min20 #January 10	
+		JAP_NITIEI31 #October 20 1942	
+		JAP_NITIEI32 #June 30 1939	
+		JAP_NITIEI33 #November 30 1938
 	}
 
 	research = {

@@ -161,7 +161,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ politically_connected }
+			traits={ }
 			skill=4
 			attack_skill=4
 			defense_skill=3
@@ -710,16 +710,12 @@ characters={
 			slot = political_advisor
 			idea_token = CHI_random_prince_of_terror
 			available  = {
-				has_completed_focus  = CHI_bureau_of_investigation_and_statistics 
 			}
 			visible  = {
-				has_focus_tree  = china_nationalist_focus
 			}
 			allowed  = {
-				or  = {
 					original_tag  = CHI
-					is_chinese_warlord = yes 
-				}
+				
 				has_dlc = "La Resistance"
 				has_dlc = "Waking the Tiger"
 			}
@@ -781,10 +777,6 @@ characters={
 			slot = political_advisor
 			idea_token = CHI_soong_mei_ling
 			available  = {
-				has_country_leader  = {
-					ruling_only  = yes 
-					character  = CHI_chiang_kaishek
-				}
 			}
 			allowed  = {
 				original_tag  = CHI

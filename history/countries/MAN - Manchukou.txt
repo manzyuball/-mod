@@ -7,7 +7,7 @@ set_technology = {
 	gw_artillery = 1
 	
 }
-
+recruit_character = SOV_grigory_semyonov
 recruit_character = MAN_aisin_gioro_puyi
 recruit_character = MAN_zhang_haipeng
 recruit_character = MAN_zhang_jinghui
@@ -26,11 +26,6 @@ recruit_character = MAN_xian_yuan
 recruit_character = MAN_guan_xingde
 
 if = {
-	limit = { has_dlc = "No Step Back" }
-	recruit_character = SOV_grigory_semyonov
-	SOV_grigory_semyonov = { 
-		set_character_flag = SOV_exiled_army_leader
-	}
 }
 
 set_convoys = 25

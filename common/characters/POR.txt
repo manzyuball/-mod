@@ -121,7 +121,6 @@ characters = {
 					has_dlc = "La Resistance"
 				}
 				available = {
-					has_completed_focus = POR_allow_free_elections
 				}
 				name = "POR_jose_manuel_sarmento_de_beires"
 				
@@ -174,7 +173,6 @@ characters = {
 				has_dlc = "La Resistance"
 			}
 			available = {
-				has_completed_focus = POR_estado_novo
 			}
 			traits = {
 				army_chief_reform_2
@@ -278,12 +276,6 @@ characters = {
 					has_dlc = "La Resistance"
 				}
 				available = {
-					NOT = {
-						or = {
-							has_completed_focus = POR_popular_front
-							has_completed_focus = POR_strengthen_the_regime
-						}
-					}
 				}
 				traits = {
 					army_chief_morale_2
@@ -392,7 +384,6 @@ characters = {
 					has_dlc = "La Resistance"
 				}
 				available = {
-					has_completed_focus = POR_colonial_army 
 				}
 				name = POR_francisco_craveiro_lopes 
 				traits = {
@@ -822,7 +813,6 @@ characters = {
 					has_dlc = "La Resistance"
 				}
 				available = {
-					has_completed_focus = POR_allow_free_elections 
 				}
 				name = POR_jaime_cortesao 
 				traits = {
@@ -848,17 +838,6 @@ characters = {
 				original_tag = POR
 			}
 			available = {
-				NOT = {
-					has_completed_focus = POR_estado_novo 
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
 			}
 			do_effect = {
 				NOT = {
@@ -908,10 +887,6 @@ characters = {
 				has_dlc = "La Resistance"
 			}
 			available = {
-				OR = {
-					has_completed_focus = POR_limited_self_rule 
-					has_completed_focus = POR_allow_free_elections 
-				}
 			}
 			traits = {
 				silent_workhorse 
@@ -937,7 +912,7 @@ characters = {
 				has_dlc = "La Resistance"
 			}
 			available = {
-				has_completed_focus = POR_reorganization_of_the_communist_party 
+			
 			}
 			traits = {
 				financial_expert 
@@ -963,7 +938,6 @@ characters = {
 				has_dlc = "La Resistance"
 			}
 			available = {
-				has_completed_focus = POR_national_syndicalism 
 			}
 			traits = {
 				national_integralist 
@@ -996,7 +970,6 @@ characters = {
 				has_dlc = "La Resistance"
 			}
 			available = {
-				has_completed_focus = POR_popular_front 
 			}
 			traits = {
 				liberal_journalist 
@@ -1016,10 +989,6 @@ characters = {
 				has_dlc = "La Resistance"
 			}
 			available = {
-				OR = {
-					has_completed_focus = POR_appease_monarchists 
-					has_completed_focus = POR_a_royal_wedding 
-				}
 			}
 			traits = {
 				fortification_engineer 
@@ -1130,7 +1099,6 @@ characters = {
 				has_dlc = "La Resistance"
 			}
 			available = {
-				has_completed_focus = POR_concordat_with_the_holy_see 
 			}
 			traits = {
 				appeaser 
@@ -1156,9 +1124,6 @@ characters = {
 				has_dlc = "La Resistance"
 			}
 			available = {
-				NOT = {
-					has_completed_focus = POR_popular_front 
-				}
 			}
 			traits = {
 				financial_expert 
@@ -1184,10 +1149,6 @@ characters = {
 				has_dlc = "La Resistance"
 			}
 			available = {
-				OR = {
-					has_completed_focus = POR_appease_monarchists 
-					has_completed_focus = POR_a_royal_wedding 
-				}
 			}
 			traits = {
 				traditionalist_theorist 
@@ -1275,7 +1236,6 @@ characters = {
 					has_dlc = "La Resistance"
 				}
 				available = {
-					has_completed_focus = POR_national_syndicalism 
 				}
 				traits = {
 					fascist_demagogue 
@@ -1307,9 +1267,6 @@ characters = {
 				has_dlc = "La Resistance"
 			}
 			available = {
-				NOT = {
-					has_completed_focus = POR_popular_front 
-				}
 			}
 			traits = {
 				war_industrialist 

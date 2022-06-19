@@ -67,7 +67,6 @@ if = {
 	}
 }
 add_ideas = {
-	uncontrolled_exports
 	POL_S1
 	POL_S2
 }
@@ -75,16 +74,16 @@ add_ideas = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 3
-	fascism = 86
-	communism = 10
-	neutrality = 1
+	democratic = 25
+	fascism = 50
+	communism = 0
+	neutrality = 25
 }
 
 recruit_character = POL_ignacy_moscicki

@@ -347,7 +347,49 @@ characters={
 			}
 		}
 	}
+	SOV_grigory_semyonov = {
+		name = SOV_grigory_semyonov
+		portraits = {
+			army = {
+				small = "GFX_idea_SOV_grigory_semyonov"
+				large = "GFX_portrait_SOV_grigory_semyonov"
+			}
+		}
 
+		corps_commander = {
+			traits = { cavalry_officer cavalry_leader }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 0
+			visible = {
+				OR = {
+					has_idea = SOV_grigory_semyonov
+					has_completed_focus = SOV_approach_semyonov
+				}
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = SOV_grigory_semyonov
+			allowed = {
+				OR = {
+					original_tag = SOV
+					original_tag = MAN # This is where he starts the game
+				}
+			}
+			available = {
+			}
+			visible = {
+			}
+			traits = {
+				ataman_transbaikal_host
+			}
+		}		
+	}
 
 	### POLITICAL ADVISORS ###
 
