@@ -53,6 +53,7 @@
  Italy_GUN32:0 "自由飛行"
  Italy_GUN33:0 "新型の開発"
 
+
  #"北部イタリア"
  ITA_Rome:0 "不条理を打ち砕け"
  ITA_Rome1:0 "全体主義的政治"
@@ -90,11 +91,26 @@
  ITA_Rome34:0 "輝く赤き星"
 
  #ideas
- 
+ ITA_Dam_ideas:0 "ダムの建設事業"
+ ITA_SainyuunoZouka_ideas:0 "歳入の増加"
+ ITA_Hurukiwosuteru_ideas:0 "古き法はゴミ箱へ"
+ ITA_RinziSyuunyuu_ideas:0 "臨時収入"
+ ITA_KyuusokunaKougyouka_ideas:0 "急速な工業化"
+ ITA_GunkokuSyugi_ideas:0 "軍国主義"
+ ITA_GunkokuSyugi1_ideas:0 "軍国主義"
+ ITA_GunkokuSyugi2_ideas:0 "軍国主義"
+ ITA_KAigun_ideas:0 "最高のイタリア艦隊"
+ ITA_Sinpei_ideas:0 "新兵募集キャンペーン"
+ ITA_RIkugun_ideas:0 "最高のイタリア陸軍"
+ ITA_fascism1_ideas:0 "ファッシに力を"
+ ITA_fascism2_ideas:0 "ファッシに力を"
+ ITA_fascism3_ideas:0 "ファッシに力を"
+ ITA_ROMEEMPIRE_Bouken:0 "ローマ帝国への冒険"
+ ITA_ROMEEMPIRE_Bouken1:0 "ローマ帝国の実現"
  #"南部イタリア"
 
 
  #Ideas
 
  #説明
-
+ 

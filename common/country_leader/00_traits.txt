@@ -24,6 +24,16 @@ leader_traits = {
 		}
 	}
 
+	ITA_Caesaru = {
+		random = no
+		army_attack_against_major_factor = 0.4	
+        army_breakthrough_against_major_factor = 0.4
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	chi_q = {
 		random = no
 		stability_factor = -0.10

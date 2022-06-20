@@ -1,73 +1,156 @@
 ideas = {
 	country = {
-		ITA_syoki_ideas = {
+		ITA_Dam_ideas = {
 			removal_cost = -1
-			picture = sour_loser
+			picture = hol_prepare_the_inundation_lines
 			modifier = {
-				stability_factor = -0.10
-				war_support_factor = -0.10
-				army_core_attack_factor = -0.25
+				production_speed_infrastructure_factor = 0.25
+				local_resources_factor = 0.15
 			}
 		}
-		ITA_umi = {
+		ITA_SainyuunoZouka_ideas = {
 			removal_cost = -1
-			picture = generic_coastal_navy
+			picture = generic_economic_increase
 			modifier = {
-				Civilian_intel_to_others = 5	
-				industrial_capacity_dockyard = 0.2
+				consumer_goods_factor = -0.15
 			}
 		}
-		ITA_umi2 = {
+		ITA_Hurukiwosuteru_ideas = {
 			removal_cost = -1
-			picture = generic_coastal_navy
+			picture = generic_constitutional_guarantees
 			modifier = {
-				consumer_goods_factor = -0.08
-				Civilian_intel_to_others = 5
-				industrial_capacity_dockyard = 0.2
+				trade_laws_cost_factor = -1
+				mobilization_laws_cost_factor = -1
+				economy_cost_factor = -1
 			}
 		}
-		ITA_touitu = {
+		ITA_RinziSyuunyuu_ideas = {
 			removal_cost = -1
-			picture = generic_victors_of_ww1
+			picture = generic_constitutional_guarantees
 			modifier = {
-				army_core_attack_factor = 0.25
-				war_support_factor = 0.10
+				consumer_goods_factor = -0.15
 			}
 		}
-		ITA_touitu1 = {
+		ITA_KyuusokunaKougyouka_ideas = {
 			removal_cost = -1
-			picture = generic_victors_of_ww1
+			picture = generic_production_bonus
 			modifier = {
-				army_core_attack_factor = 0.45
+				production_speed_buildings_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.20
+				industrial_capacity_factory = 0.2
+			}
+		}
+		ITA_GunkokuSyugi_ideas = {
+			removal_cost = -1
+			picture = generic_secret_police
+			modifier = {
+				research_speed_factor = 0.05
+				production_speed_arms_factory_factor = 0.20
+				war_support_factor = 0.2
+			}
+		}
+		ITA_GunkokuSyugi1_ideas = {
+			removal_cost = -1
+			picture = generic_secret_police
+			modifier = {
+				conscription = 0.02
+				research_speed_factor = 0.05
+				production_speed_arms_factory_factor = 0.20
+				war_support_factor = 0.2
+				command_power_gain = 0.5
+			}
+		}
+		ITA_GunkokuSyugi2_ideas = {
+			removal_cost = -1
+			picture = generic_secret_police
+			modifier = {
+				conscription = 0.02
+				research_speed_factor = 0.05
+				production_speed_arms_factory_factor = 0.20
 				war_support_factor = 0.25
+				command_power_gain = 0.5
+				training_time_army_factor = -0.35
 			}
 		}
-		ITA_asasa = {
+		ITA_KAigun_ideas = {
 			removal_cost = -1
-			picture = POL_the_peasants_strike
+			picture = generic_coastal_defense_ships
 			modifier = {
-				ai_focus_aggressive_factor = 0.95
-				army_attack_factor = 0.35
-				terrain_penalty_reduction = 0.5
+				navy_capital_ship_attack_factor = 0.15
+				navy_capital_ship_defence_factor = 0.15
+				navy_screen_attack_factor = 0.15
+				navy_screen_defence_factor = 0.15
+				navy_submarine_attack_factor = 0.15
+				navy_submarine_defence_factor = 0.15
+				naval_coordination = 0.10
+				naval_speed_factor = 0.10
 			}
 		}
-		ITA_rome = {
+		ITA_RIkugun_ideas = {
 			removal_cost = -1
-			picture = generic_fascism_drift_2
+			picture = MEX_politicised_army_2
 			modifier = {
-				ai_get_ally_desire_factor = 150
-				justify_war_goal_time = -0.5
-				non_core_manpower = 0.15
+				army_leader_start_level = 2
+				max_planning = 25
+				army_attack_against_minor_factor = 0.25
+				army_defence_against_minor_factor = 0.25
 			}
 		}
-		ITA_FRA = {
+		ITA_Sinpei_ideas = {
 			removal_cost = -1
-			picture = fra_political_violence
+			picture = generic_reserve_divisions
 			modifier = {
-			ITA = {
-			targeted_modifier = { tag = FRA attack_bonus_against = 0.25 }
+			weekly_manpower = 7500
 			}
-			army_attack_factor = 0.1
+		}
+		###################KITA
+		ITA_fascism1_ideas = {
+			removal_cost = -1
+			picture = saf_ossewabrandwag_fascism
+			modifier = {
+			drift_defence_factor = 0.50
+            communism_drift = 0.01
+			}
+		}
+		ITA_fascism2_ideas = {
+			removal_cost = -1
+			picture = saf_ossewabrandwag_fascism
+			modifier = {
+			drift_defence_factor = 0.50
+			political_power_factor = 0.15
+            communism_drift = 0.01
+			}
+		}
+		ITA_fascism3_ideas = {
+			removal_cost = -1
+			picture = saf_ossewabrandwag_fascism
+			modifier = {
+			drift_defence_factor = 0.50
+			political_power_factor = 0.15
+            communism_drift = 0.01
+			stability_factor = 0.20
+			war_support_factor = 0.20
+			}
+		}
+		ITA_ROMEEMPIRE_Bouken  = {
+			removal_cost = -1
+			picture = FRA_la_deluge
+			modifier = {
+			offensive_war_stability_factor = 0.5
+			conscription = 0.05
+			}
+		}
+		ITA_ROMEEMPIRE_Bouken1  = {
+			removal_cost = -1
+			picture = FRA_la_deluge
+			modifier = {
+			offensive_war_stability_factor = 0.5
+			conscription = 0.05
+			production_speed_buildings_factor = 0.25
+			industrial_capacity_factory = 0.25
+			offence = 0.25
+			defence = 0.25
+			political_power_factor = 0.25
 			}
 		}
 	}
