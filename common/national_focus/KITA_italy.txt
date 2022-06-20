@@ -73,8 +73,8 @@
 		bypass = {
 		}
 		completion_reward = {
-			create_wargoal = {
-				type = annex_wargoal_focus
+			declare_war_on = {
+				type = pupet_wargoal_focus
 				target = MLT
 				}
 		}
@@ -163,8 +163,8 @@
 		bypass = {
 		}
 		completion_reward = {
-			create_wargoal = {
-				type = annex_wargoal_focus
+			declare_war_on = {
+				type = pupet_wargoal_focus
 				target = TUN
 				}
 		}
@@ -299,9 +299,9 @@
 			add_state_core = 350
 			add_state_core = 353
 			add_state_core = 352
-			create_wargoal = {
-				type = annex_wargoal_focus
-				target = TUR
+			declare_war_on = {
+				target = FRA
+				type = annex_everything
 				}
 		}
 	}
@@ -368,24 +368,24 @@
 		bypass = {
 		}
 		completion_reward = {
-			YUG = { every_owned_state = { limit = { is_core_of = FRA } add_core_of = ITA }}
-			GRE = { every_owned_state = { limit = { is_core_of = FRA } add_core_of = ITA }}
-			ALB = { every_owned_state = { limit = { is_core_of = FRA } add_core_of = ITA }}
-			BUL = { every_owned_state = { limit = { is_core_of = FRA } add_core_of = ITA }}
-			create_wargoal = {
-				type = annex_wargoal_focus
+			YUG = { every_owned_state = { limit = { is_core_of = YUG } add_core_of = ITA }}
+			GRE = { every_owned_state = { limit = { is_core_of = GRE } add_core_of = ITA }}
+			ALB = { every_owned_state = { limit = { is_core_of = ALB } add_core_of = ITA }}
+			BUL = { every_owned_state = { limit = { is_core_of = BUL } add_core_of = ITA }}
+			declare_war_on = {
+				type = pupet_wargoal_focus
 				target = YUG
 				}
-				create_wargoal = {
-					type = annex_wargoal_focus
+				declare_war_on = {
+					type = pupet_wargoal_focus
 					target = ALB
 					}
-					create_wargoal = {
-						type = annex_wargoal_focus
+					declare_war_on = {
+						type = pupet_wargoal_focus
 						target = GRE
 						}
-						create_wargoal = {
-							type = annex_wargoal_focus
+						declare_war_on = {
+							type = pupet_wargoal_focus
 							target = BUL
 							}
 				
@@ -601,13 +601,13 @@
 		completion_reward = {
 			
 			declare_war_on = {
-				type = annex_wargoal_focus
-				target = SPR
+				type = pupet_wargoal_focus
+				target = CAT
 				}
 				declare_war_on = {
-						type = annex_wargoal_focus
-						target = CAT
-						}
+					type = pupet_wargoal_focus
+					target = SPR
+					}
 						hidden_effect = {
 							MOR = { set_state_controller = 177 }
 							puppet = MOR	
@@ -637,8 +637,8 @@
 			add_state_core = 151
 			add_state_core = 3
 			add_state_core = 871
-			create_wargoal = {
-				type = annex_wargoal_focus
+			declare_war_on = {
+				type = pupet_wargoal_focus
 				target = SWI
 				}
 		}
@@ -696,6 +696,10 @@
 				add_state_core = 795
 				add_state_core = 179
 			}
+			declare_war_on = {
+				type = pupet_wargoal_focus
+				target = POR
+				}
 		}
 	}
 	focus = {

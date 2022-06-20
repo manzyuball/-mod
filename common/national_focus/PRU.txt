@@ -20,7 +20,7 @@ focus_tree = {
 		x = -1
 		y = 0
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 		factor = 1
@@ -42,7 +42,7 @@ focus = {
     x = -1
     y = 1
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -65,7 +65,7 @@ focus = {
     x = -4
     y = 2
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -85,7 +85,7 @@ focus = {
     x = -4
     y = 3
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -105,7 +105,7 @@ focus = {
     x = -4
     y = 4
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -127,7 +127,7 @@ focus = {
     x = -4
     y = 5
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -149,7 +149,7 @@ focus = {
     x = -4
     y = 6
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -171,7 +171,7 @@ focus = {
     x = -4
     y = 7
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -192,7 +192,7 @@ focus = {
     x = -8
     y = 2
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -213,7 +213,7 @@ focus = {
     x = -7
     y = 3
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -235,7 +235,7 @@ focus = {
     x = -7
     y = 4
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -259,7 +259,7 @@ focus = {
     x = -7
     y = 5
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -288,7 +288,7 @@ focus = {
     x = -7
     y = 6
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -313,7 +313,7 @@ focus = {
     x = -7
     y = 7
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -353,7 +353,7 @@ focus = {
     x = -9
     y = 3
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -377,7 +377,7 @@ focus = {
     x = -9
     y = 4
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -401,7 +401,7 @@ focus = {
     x = -9
     y = 5
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -421,7 +421,7 @@ focus = {
     x = -9
     y = 6
 
-    cost = 5
+    cost = 10
     available = {
         has_completed_focus = PRU_se61
     }
@@ -450,7 +450,7 @@ focus = {
     x = 0
     y = 2
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -474,7 +474,7 @@ focus = {
     x = 0
     y = 3
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -495,7 +495,7 @@ focus = {
     x = -1
     y = 4
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -517,7 +517,7 @@ focus = {
     prerequisite = { focus = PRU_se52 }
     x = -1
     y = 5
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -540,7 +540,7 @@ focus = {
     prerequisite = { focus = PRU_se53 }
     x = -1
     y = 6
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -563,7 +563,7 @@ focus = {
     prerequisite = { focus = PRU_se54 }
     x = -1
     y = 7
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -586,7 +586,7 @@ focus = {
     prerequisite = { focus = PRU_se51 }
     x = 1
     y = 4
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -621,7 +621,7 @@ focus = {
     prerequisite = { focus = PRU_se56 }
     x = 1
     y = 5
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -640,7 +640,7 @@ focus = {
     prerequisite = { focus = PRU_se57 }
     x = 1
     y = 6
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -675,7 +675,7 @@ focus = {
     prerequisite = { focus = PRU_se58 }
     x = 1
     y = 7
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -695,7 +695,7 @@ focus = {
     prerequisite = { focus = PRU_se59 }
     x = 1
     y = 8
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -751,7 +751,7 @@ focus = {
     x = 8
     y = 2
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -772,7 +772,7 @@ focus = {
     x = 4
     y = 3
 
-    cost = 5
+    cost = 10
     available = {
         has_completed_focus = PRU_se73
     }
@@ -801,7 +801,7 @@ focus = {
     x = 3
     y = 4
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -828,7 +828,7 @@ focus = {
     x = 5
     y = 4
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -852,7 +852,7 @@ focus = {
     x = 3
     y = 5
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -875,7 +875,7 @@ focus = {
     x = 5
     y = 5
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -896,7 +896,7 @@ focus = {
     x = 4
     y = 6
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -965,7 +965,7 @@ focus = {
     x = 8
     y = 3
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -988,7 +988,7 @@ focus = {
     x = 8
     y = 4
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -1011,7 +1011,7 @@ focus = {
     x = 7
     y = 5
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -1040,7 +1040,7 @@ focus = {
     x = 9
     y = 5
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -1063,7 +1063,7 @@ focus = {
     x = 10
     y = 6
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -1086,7 +1086,7 @@ focus = {
     x = 6
     y = 6
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -1110,7 +1110,7 @@ focus = {
     x = 8
     y = 6
 
-    cost = 5
+    cost = 10
 		available = {
             has_completed_focus = PRU_se48
 		}
@@ -1194,7 +1194,7 @@ focus = {
     x = 12
     y = 3
 
-    cost = 5
+    cost = 10
     available = {
         has_completed_focus = PRU_se67
     }
@@ -1216,7 +1216,7 @@ focus = {
     x = 11
     y = 4
 
-    cost = 5
+    cost = 10
     available = {
         has_completed_focus = PRU_se57
     }
@@ -1260,7 +1260,7 @@ focus = {
     x = 13
     y = 4
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -1294,7 +1294,7 @@ focus = {
     x = 13
     y = 5
 
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
@@ -1316,7 +1316,7 @@ focus = {
     x = 11
     y = 5
 
-    cost = 5
+    cost = 10
     available = {
         has_completed_focus = PRU_se31
     }
@@ -1340,7 +1340,7 @@ focus = {
     available = {
         has_completed_focus = PRU_se73
     }
-    cost = 5
+    cost = 10
 
     ai_will_do = {
     factor = 1
