@@ -114,3 +114,13 @@
 
  #説明
  
+ #decision
+ Kaigun_ITA:0 "海軍に予算を割く"
+ Rikugun_ITA:0 "陸軍に予算を割く"
+ Tousi_ITA:0 "主要産業の活性化"
+ Enzetu_ITA:0 "演説を行う"
+ KAKUSA_ITA:0 "格差をなくす"
+ Tyouhei_ITA:0 "強制的な徴兵"
+ Kougyou_ITA:0 "勤労月間の制定"
+ SeikatunoKiitume_ITA:0 "生活の切り詰め"
+ ITA_Seisaku:0 "政策の決定"
