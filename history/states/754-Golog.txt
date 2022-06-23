@@ -8,9 +8,7 @@ state={
 		add_core_of = MON
 		add_core_of = CHI
 		add_core_of = PRC
-		victory_points = {
-			12732 3 
-		}
+
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -21,7 +19,7 @@ state={
 	}
 
 	provinces={
-		1882 4536 10490 12815 
+		1882 4536 12815 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000

@@ -1,0 +1,39 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+danzig_of_war_preparation_additional = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		has_completed_focus = GER_danzig_or_war
+		country_exists = POL
+		NOT = { owns_state = 85 }
+	}
+	
+	abort = {
+		OR = {
+			NOT = { country_exists = POL }
+			GER = { has_war_with = POL }
+			owns_state = 85 
+		}
+	}
+	
+	ai_strategy = {
+		type = declare_war
+		id = "POL"
+		value = 500
+	}
+}

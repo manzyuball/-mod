@@ -1,0 +1,22 @@
+state={
+	id=973
+	name="STATE_973"
+	provinces={
+		13245
+	}
+	history = {
+		
+		owner = INS
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = INS
+		
+
+	}
+	state_category = small_island
+	manpower=18124
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

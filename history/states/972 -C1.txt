@@ -1,0 +1,23 @@
+state={
+	id = 972
+	name = "STATE_972"
+	history={
+		owner = MON
+		add_core_of = MON
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12732 3 
+		}
+	}
+	provinces={
+		12732 10490
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
