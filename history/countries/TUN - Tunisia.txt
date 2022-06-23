@@ -1,5 +1,5 @@
-﻿capital = 458
-
+﻿capital = 835
+oob = "MLT_1936"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
