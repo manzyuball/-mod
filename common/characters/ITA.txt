@@ -65,20 +65,6 @@ characters={
 				large="gfx/leaders/ITA/Portrait_Italy_Pietro_Badoglio.dds"
 			}
 		}
-		advisor={
-			slot = army_chief
-			idea_token = pietro_badoglio
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				army_chief_morale_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 
 		field_marshal={
 			traits={ inflexible_strategist defensive_doctrine }
@@ -99,20 +85,6 @@ characters={
 			}
 			army={
 				large="gfx/leaders/ITA/portrait_italy_emilio_de_bono.dds"
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = emilio_de_bono
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				army_chief_defensive_1
-			}
-			cost =  50
-			ai_will_do = {
-				factor = 1.000
 			}
 		}
 		
@@ -137,21 +109,6 @@ characters={
 				large="gfx/leaders/ITA/Portrait_Italy_Ugo_Cavallero.dds"
 			}
 		}
-		advisor={
-			slot = army_chief
-			idea_token = ugo_cavallero
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				army_chief_maneuver_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		
 		corps_commander={
 			traits={ career_officer trait_cautious }
 			skill=2
@@ -171,18 +128,6 @@ characters={
 			}
 			army={
 				large="gfx/leaders/ITA/Portrait_Italy_Giovanni_Messe.dds"
-			}
-		}
-		advisor={
-			cost = 150
-			slot = theorist
-			idea_token = giovanni_messe
-			ledger = army
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				mobile_warfare_expert
 			}
 		}
 		
@@ -252,7 +197,7 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				air_chief_all_weather_2
+				ITA_Dokuritu_AIR
 			}
 			cost = 100
 			ai_will_do = {
@@ -261,12 +206,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ career_officer  }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			traits={ commando trickster expert_improviser  }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=0
 		}
 	}

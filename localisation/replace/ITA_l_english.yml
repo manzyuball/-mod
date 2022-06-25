@@ -91,6 +91,7 @@
  ITA_Rome34:0 "輝く赤き星"
 
  #ideas
+ ITA_AIR_1_ideas:0 "航空戦略の重視"
  ITA_Dam_ideas:0 "ダムの建設事業"
  ITA_SainyuunoZouka_ideas:0 "歳入の増加"
  ITA_Hurukiwosuteru_ideas:0 "古き法はゴミ箱へ"
@@ -107,6 +108,10 @@
  ITA_fascism3_ideas:0 "ファッシに力を"
  ITA_ROMEEMPIRE_Bouken:0 "ローマ帝国への冒険"
  ITA_ROMEEMPIRE_Bouken1:0 "ローマ帝国の実現"
+ Italy_AIR:0 "イタリア航空設計会"
+ ITA_aircraft_manufacturer:0 "革命飛行隊の設計社"
+ ita_oil_man:0 "イタリア石油科学研究大学"
+ ITA_Dokuritu_AIR:0 "独立革命航空隊の創設者"
  #"南部イタリア"
 
 

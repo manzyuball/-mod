@@ -21,6 +21,7 @@ set_research_slots = 4
 set_stability = 0.3
 set_war_support = 0.3
 add_ideas = {
+	ITA_AIR_1_ideas
 }
 add_manpower = 764210
 

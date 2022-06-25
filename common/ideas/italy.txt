@@ -8,6 +8,16 @@ ideas = {
 				local_resources_factor = 0.15
 			}
 		}
+		ITA_AIR_1_ideas = {
+			removal_cost = -1
+			picture = generic_air_research
+			modifier = {
+				ai_focus_aviation_factor = 0.5
+				air_agility_factor = 0.25
+				air_attack_factor = 0.20
+				air_defence_factor = 0.20
+			}
+		}
 		ITA_SainyuunoZouka_ideas = {
 			removal_cost = -1
 			picture = generic_economic_increase
@@ -234,18 +244,18 @@ ideas = {
 		
 		designer = yes
 		
-		macchi = {
+		Italy_AIR = {
 			
-			
+			picture = eng_special_air_service
 			allowed = {
 				original_tag = ITA
 			}
 			
 			research_bonus = {
-				air_equipment = 0.15
+				air_equipment = 0.20
 			}
 			
-			traits = { light_aircraft_manufacturer }
+			traits = { ITA_aircraft_manufacturer }
 		}
 		
 		savoia_marchetti = {
@@ -303,6 +313,22 @@ ideas = {
 			}
 			
 			traits = { industrial_concern }
+		}
+		ita_oil_man = {
+			picture = socialist_science_focus
+			allowed = {
+				original_tag = ITA
+			}
+			
+			research_bonus = {
+				synth_resources = 0.15
+			}
+			modifier = {
+				country_resource_oil = 35
+				air_fuel_consumption_factor = -0.5
+			}
+			
+			traits = { refinery_concern }
 		}		
 	}
 	
