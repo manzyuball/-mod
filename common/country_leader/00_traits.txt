@@ -13,6 +13,15 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	luber = {
+		random = no
+		Industrial_factory_donations = 4
+		country_resource_rubber = 25
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	heiwasyugisysa = {
 		random = no
@@ -5610,7 +5619,8 @@ leader_traits = {
 	}
 	
 	ITA_Dokuritu_AIR = {
-	experience_gain_air = 0.15
+	experience_gain_air = 0.15	
+    air_superiority_detect_factor = 0.15
 	air_strategic_bomber_bombing_factor = 0.5
 	air_escort_efficiency = 0.5
 	command_cap = @tier3
