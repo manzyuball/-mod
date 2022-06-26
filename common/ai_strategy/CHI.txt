@@ -1,4 +1,4 @@
-Chutou_strategy = {
+ai_strategy = {
 
 	enable = {
 		original_tag = CHI
@@ -6,7 +6,7 @@ Chutou_strategy = {
 
 	ai_strategy = {
 		type =  garrison
-		value = -85
+		value = -250
 	}
 
     ai_strategy = {

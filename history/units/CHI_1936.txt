@@ -70,6 +70,11 @@ units = {
 		location = 7014
 		division_template = "中華国防軍"
 		start_experience_factor = 0.3
+	division = {
+		name = "第一国防軍"
+		location = 7014
+		division_template = "中華国防軍"
+		start_experience_factor = 0.3
 	}
 	division = {
 		name = "第一国防軍"
@@ -91,30 +96,17 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "第一国防軍"
-		location = 11913
+		name = "第二国防軍"
+		location = 7199
 		division_template = "中華国防軍"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
-		name = "第一国防軍"
-		location = 7014
+		name = "第二国防軍"
+		location = 9970
 		division_template = "中華国防軍"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
-	division = {
-		name = "第一国防軍"
-		location = 7191
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 9974
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-
 	division = {
 		name = "第一国防軍"
 		location = 7025
@@ -237,36 +229,6 @@ units = {
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "第二国防軍"
-		location = 7097
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 10364
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 1628
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第一国防軍"
-		location = 11913
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 7014
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
 		name = "第一国防軍"
 		location = 7191
 		division_template = "中華国防軍"
@@ -302,281 +264,6 @@ units = {
 		location = 7191
 		division_template = "中華国防軍"
 		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 9974
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-
-	division = {
-		name = "第一国防軍"
-		location = 7025
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 11913
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 7014
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 7191
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 9974
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-
-	division = {
-		name = "第一国防軍"
-		location = 7025
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第二国防軍"
-		location = 7199
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 9970
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 7097
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 10364
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 1628
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 4619
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 7199
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 9970
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 7097
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 10364
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 1628
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 4619
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 7199
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 9970
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 7097
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 10364
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 1628
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第一国防軍"
-		location = 11913
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 7014
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 7191
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 9974
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-
-	division = {
-		name = "第一国防軍"
-		location = 7025
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 11913
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 7014
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 7191
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 9974
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-
-	division = {
-		name = "第一国防軍"
-		location = 7025
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 11913
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 7014
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 7191
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第一国防軍"
-		location = 9974
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-
-	division = {
-		name = "第一国防軍"
-		location = 7025
-		division_template = "中華国防軍"
-		start_experience_factor = 0.3
-	}
-	division = {
-		name = "第二国防軍"
-		location = 7199
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 9970
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 7097
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 10364
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 1628
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "第二国防軍"
-		location = 4619
-		division_template = "中華国防軍"
-		start_experience_factor = 0.2
 	}
 	division = {
 		name = "第二国防軍"
@@ -822,4 +509,6 @@ instant_effect = {
 		progress = 0.55
 		efficiency = 100
 	}	
+}
+
 }

@@ -1,4 +1,4 @@
-Chuton_strategy = {
+ai_strategy = {
 
 	enable = {
 		original_tag = FRA
