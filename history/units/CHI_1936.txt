@@ -70,6 +70,7 @@ units = {
 		location = 7014
 		division_template = "中華国防軍"
 		start_experience_factor = 0.3
+	}
 	division = {
 		name = "第一国防軍"
 		location = 7014
@@ -509,6 +510,4 @@ instant_effect = {
 		progress = 0.55
 		efficiency = 100
 	}	
-}
-
 }
