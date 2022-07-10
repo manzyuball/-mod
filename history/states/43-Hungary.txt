@@ -14,8 +14,8 @@ state={
 		owner = AUS
 		buildings = {
 			infrastructure = 3
-			arms_factory = 4
-			industrial_complex = 8
+			arms_factory = 2
+			industrial_complex = 3
 			air_base = 4
 		}
 		victory_points = {

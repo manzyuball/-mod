@@ -1,0 +1,6 @@
+ITA_Seisaku = {
+	icon = SOV_permanent_revolution
+	allowed = {
+		original_tag = ITA
+	}
+}

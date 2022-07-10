@@ -1,0 +1,21 @@
+state={
+	id=973
+	name="STATE_973"
+	provinces={
+		1230 2047 2170 2184 2222 4236 4335 5176 5226 7299 7424 8221 12955 
+	}
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	impassable = yes
+	manpower=82251
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

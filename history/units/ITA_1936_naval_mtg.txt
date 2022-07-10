@@ -130,39 +130,6 @@ units= {
 	}
 	
 	fleet = {
-		name = "Comando Navale Basso Tirreno"			
-		naval_base = 819 # Naples, Italy
-		task_force = { 
-			name = "III Squadra Navale" # Dipartimento Militare Marittimo 'Basso Tirreno' (Check - III Squadra correct?)
-			location = 819 # Naples, Italy
-			# III Squadriglia Torpediniere
-			ship = { name = "RCT Generale Marcello Prestinari" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Generale Antonio Cantore" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Giuseppe La Masa" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Giacinto Carini" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			# IV Squadriglia Torpediniere
-			ship = { name = "RCT Calatafimi" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Castelfidardo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Curtatone" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Monzambano" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-		} 
-		task_force = { 
-			name = "II Gruppo Sommergibili"	
-			location = 819 # Naples, Italy
-			# XXI Squadriglia Sommergibili
-			ship = { name = "RSmg Jalea" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			ship = { name = "RSmg Jantina" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			ship = { name = "RSmg Ametista" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			ship = { name = "RSmg Zaffiro" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			# XXII Squadriglia Sommergibili
-			ship = { name = "RSmg Diamante" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			ship = { name = "RSmg Topazio" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			ship = { name = "RSmg Galatea" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			ship = { name = "RSmg Nereide" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-		} 
-	}
-	
-	fleet = {
 		name = "Comando Navale Sardegna"			
 		naval_base = 6891 # La Maddalena, Sardinia
 		task_force = { 
@@ -187,124 +154,7 @@ units= {
 		} 
 
 	}
-	
-	fleet = {
-		name = "Comando Navale Sicilia"			
-		naval_base = 4159 # Messina, Sicily
-		task_force = { 
-			name = "Squadra di Sicilia" # Comando Militare Marittimo 'Sicilia'
-			location = 4159 # Messina, Sicily
-			# I Squadriglia Torpediniere
-			ship = { name = "RCT Palestro" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Confienza" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT San Martino" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Solferino" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			# V Squadriglia Torpediniere
-			ship = { name = "RCT Giuseppe La Farina" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Simone Schiaffino" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Giuseppe Dezza" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Giuseppe Cesare Abba" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-		} 
-		task_force = { 
-			name = "III Gruppo Sommergibili" 
-			location = 4159 # Messina, Sicily
-			# XXXI Squadriglia Sommergibili
-			ship = { name = "RSmg Vettor Pisani" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
-			ship = { name = "RSmg Giovanni Bausan" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
-			ship = { name = "RSmg Marcantonio Colonna" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
-			ship = { name = "RSmg Des Geneys" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
-			# XXXII Squadriglia Sommergibili
-			ship = { name = "RSmg Fratelli Bandiera" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RSmg Luciano Manara" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RSmg Ciro Menotti" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RSmg Santorre Santarosa" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			# XXXIII Squadriglia Sommergibili
-			ship = { name = "RSmg Goffredo Mameli" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
-			ship = { name = "RSmg Pier Capponi" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
-			ship = { name = "RSmg Tito Speri" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
-			ship = { name = "RSmg Giovanni da Procida" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
-		} 
-	}
-	
-	### EAGEAN SEA ###
-	fleet = {
-		name = "Comando Navale Mar Egeo"			
-		naval_base = 10007 # Rhodes, Greece
-		task_force = { 
-			name = "Squadra di Mar Egeo" 
-			location = 10007 # Rhodes, Greece
-			# IV Squadriglia Cacciatorpediniere
-			ship = { name = "RCT Francesco Crispi" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Quintino Sella" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			# VIII Squadriglia Torpediniere
-			ship = { name = "RCT Astore" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Maestrale Class" } } } 
-			ship = { name = "RCT Spica" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Maestrale Class" } } } 
-		} 
-		task_force = { 
-			name = "VI Gruppo Sommergibili"	
-			location = 10007 # Rhodes, Greece
-			# LXI Squadriglia Sommergibili
-			ship = { name = "RSmg Sirena" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			ship = { name = "RSmg Argonauta" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			ship = { name = "RSmg Fisalia" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			ship = { name = "RSmg Smeraldo" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			ship = { name = "RSmg Naiade" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-		} 
-	}
-	
-	### AFRICA ###
-	fleet = {
-		name = "Comando Navale Libia"			
-		naval_base = 1130 # Tobruk, Libya
-		task_force = { 
-			name = "Squadra di Libia" 
-			location = 1130 # Tobruk, Libya
-			# I Squadriglia Cacciatorpediniere
-			ship = { name = "RCT Aquilone" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Euro" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Nembo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Turbine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-		} 
-		task_force = { 
-			name = "V Gruppo Sommergibili" 
-			location = 1130 # Tobruk, Libya
-			# LI Squadriglia Sommergibili
-			ship = { name = "RSmg Delfino" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RSmg Narvalo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RSmg Squalo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RSmg Tricheco" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-		} 
-	}
-	
-	fleet = {
-		name = "Comando Navale Mar Rosso"			
-		naval_base = 12766 # Massawa, Eritrea
-		task_force = { 
-			name = "Squadra di Mar Rosso" 
-			location = 12766 # Massawa, Eritrea
-			# III Squadriglia Cacciatorpediniere
-			ship = { name = "RCT Francesco Nullo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Nazario Sauro" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Cesare Battisti" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Daniele Manin" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			# V Squadriglia Cacciatorpediniere
-			ship = { name = "RCT Leone" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } } 
-			ship = { name = "RCT Pantera" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } } 
-			ship = { name = "RCT Tigre" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } } 
-			# V Squadriglia Torpediniere del Mar Rosso
-			ship = { name = "RCT Giovanni Acerbi" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-			ship = { name = "RCT Vincenzo Giordano Orsini" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curatone Class" } } } 
-		} 
-		task_force = { 
-			name = "VIII Gruppo Sommergibili" 
-			location = 12766 # Massawa, Eritrea
-			# LXXXI Squadriglia Sommergibili
-			ship = { name = "RSmg Luigi Settembrini" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RSmg Ruggiero Settimo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RSmg Salpa" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			ship = { name = "RSmg Serpente " definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-		} 
-	}
+
 } 
 
 
@@ -315,90 +165,6 @@ units= {
 instant_effect = {
 	if = { 
 		limit = { is_tutorial = no } 
-		
-		##### Ships #####
-		# BB: "RN Conte di Cavour" (Refitted & Recommissioned: 1-Jun, 1937)
-		add_equipment_production = { 
-			equipment = { 
-				type = ship_hull_heavy_1
-				creator = "ITA" 
-				version_name = "Conte Di Cavour Class" 
-			} 
-			name = "RN Conte di Cavour"
-			requested_factories = 2
-			progress = 0.20 
-			amount = 1 
-		} 
-
-		# BB: "RN Giulio Cesare" (Refitted & Recommissioned: 3-Jun, 1937)
-		add_equipment_production = { 
-			equipment = { 
-				type = ship_hull_heavy_1 
-				creator = "ITA" 
-				version_name = "Conte Di Cavour Class" 
-			} 
-			name = "RN Giulio Cesare"
-			requested_factories = 2
-			progress = 0.20 
-			amount = 1 
-		} 
-		# BB: "Littorio"
-		add_equipment_production = { 
-			equipment = { 
-				type = ship_hull_heavy_2
-				creator = "ITA" 
-				version_name = "Littorio Class" 
-			} 
-			requested_factories = 2
-			progress = 0.20 
-			amount = 1 
-		} 
-		# BB: Vittoria Veneto
-		add_equipment_production = { 
-			equipment = { 
-				type = ship_hull_heavy_2
-				creator = "ITA" 
-				version_name = "Littorio Class" 
-			} 
-			requested_factories = 2
-			progress = 0.20 
-			amount = 1 
-		} 
-
-		# CL: "RI Eugenio di Savoia" (Commissioned: 16-Jan, 1936)
-		add_equipment_production = { 
-			equipment = { 
-				type = ship_hull_cruiser_2 
-				creator = "ITA" 
-				version_name = "Montecuccoli Class" 
-			} 
-			requested_factories = 1 
-			progress = 0.95 
-			amount = 1 
-		} 
-		# CL: "Duca degli Abruzzi"
-		add_equipment_production = { 
-			equipment = { 
-				type = ship_hull_cruiser_2 
-				creator = "ITA" 
-				version_name = "Duca degli Abruzzi Class" 
-			} 
-			requested_factories = 1 
-			progress = 0.5 
-			amount = 1 
-		} 
-		# CL: Giuseppe Garibaldi
-		add_equipment_production = { 
-			equipment = { 
-				type = ship_hull_cruiser_2 
-				creator = "ITA" 
-				version_name = "Duca degli Abruzzi Class" 
-			} 
-			requested_factories = 1 
-			progress = 0.45 
-			amount = 1 
-		} 
-
 		# DD: "RCT Perseo", "RCT Sirio"
 		add_equipment_production = { 
 			equipment = { 
@@ -407,7 +173,7 @@ instant_effect = {
 				version_name = "Maestrale Class" 
 			} 
 			requested_factories = 1 
-			progress = 0.70 
+			progress = 0.90 
 			amount = 1
 		} 
 		add_equipment_production = { 
@@ -417,7 +183,7 @@ instant_effect = {
 				version_name = "Maestrale Class" 
 			} 
 			requested_factories = 1
-			progress = 0.60 
+			progress = 0.95 
 			amount = 1 
 		} 
 
@@ -430,7 +196,7 @@ instant_effect = {
 			} 
 			name = "RSmg Enrico Tazzoli"
 			requested_factories = 1 
-			progress = 0.50 
+			progress = 0.95 
 			amount = 1 
 		} 
 	} 

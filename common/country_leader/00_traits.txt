@@ -13,11 +13,30 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	luber = {
+		random = no
+		Industrial_factory_donations = 4
+		country_resource_rubber = 25
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	heiwasyugisysa = {
 		random = no
 		political_power_factor = 0.25
 		political_advisor_cost_factor = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ITA_Caesaru = {
+		random = no
+		army_attack_against_major_factor = 0.4	
+        army_breakthrough_against_major_factor = 0.4
 		
 		ai_will_do = {
 			factor = 1
@@ -4274,6 +4293,31 @@ leader_traits = {
 			factor = 2
 		}
 	}
+
+	ITA_aircraft_manufacturer = { 
+		random = no
+		equipment_bonus = {
+			fighter_equipment = {
+				build_cost_ic = -0.15
+			}
+			CAS_equipment = {
+				build_cost_ic = -0.15
+			}
+			heavy_fighter_equipment = {
+				build_cost_ic = -0.15
+			}
+			tac_bomber_equipment = {
+				build_cost_ic = -0.15
+			}
+			modifier = { 
+				air_range_factor = 0.3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 200
+		}
+	}
 	
 	
 	CAS_manufacturer = {
@@ -5574,7 +5618,17 @@ leader_traits = {
 		}
 	}
 	
+	ITA_Dokuritu_AIR = {
+	experience_gain_air = 0.15	
+    air_superiority_detect_factor = 0.15
+	air_strategic_bomber_bombing_factor = 0.5
+	air_escort_efficiency = 0.5
+	command_cap = @tier3
 	
+	ai_will_do = {
+		factor = 100
+	}
+}
 	air_chief_reform_1 = {  # Rate at which air experience is gained increases by 5%
 		sprite = 1
 		experience_gain_air = 0.12

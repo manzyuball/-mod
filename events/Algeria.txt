@@ -1,0 +1,87 @@
+add_namespace = Algeria
+add_namespace = news
+
+#Second treaty of Addis Ababa
+country_event = {
+	id = Algeria.1
+	title = Algeria.1.t
+	desc = Algeria.1.d
+	picture = GFX_report_event_france_parade
+
+	trigger = {
+		tag = ALG
+		has_war_with = FRA
+		461  = { is_controlled_by = ALG }
+		has_civil_war = no
+		is_in_faction = no
+		FRA = { is_in_faction = yes }
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	fire_only_once = yes
+
+	#Offer territory
+	option = {
+		name = Algeria.1.a
+		ai_chance = {
+			base = 9
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		white_peace = {
+			tag = FRA 
+			message = treaty_of_Alger
+		}
+		transfer_state = 1
+		transfer_state = 114
+		add_stability = 0.1
+		give_military_access = FRA
+		give_military_access = GER
+		give_military_access = HOL
+		give_military_access = ITA
+		news_event = { hours = 6 id = news.Algeria }
+	}
+
+	#Let's go to Italy!
+	option = {
+		name = Algeria.1.b
+		ai_chance = {
+			base = 1
+
+		}
+	}
+}
+
+# treaty of Alger
+news_event = {
+	id = news.Alger
+	title = news.Alger.t
+	desc = news.Alger.d
+	picture = GFX_news_event_009
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.Alger.a
+		trigger = {
+			NOT = {
+				TAG = ALG
+				TAG = FRA
+			}
+		}
+	}
+	option = {
+		name = news.Alger.b
+		trigger = { TAG = ALG }
+	}
+	option = {
+		name = news.Alger.c
+		trigger = { TAG = FRA }
+	}
+
+}

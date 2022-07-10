@@ -1,0 +1,19 @@
+state={
+	id=971
+	name="STATE_971"
+	provinces={
+		7570 8235 8250 10436 10990 
+	}
+	
+	history={
+		owner = INS
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	impassable = yes
+	manpower=114300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

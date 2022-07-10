@@ -1,0 +1,16 @@
+ai_strategy = {
+
+	enable = {
+		original_tag = CHI
+	}
+
+	ai_strategy = {
+		type =  garrison
+		value = -250
+	}
+
+    ai_strategy = {
+		type = front_unit_request
+		value = 150 
+	}
+}

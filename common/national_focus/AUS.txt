@@ -20,7 +20,7 @@ focus_tree = {
 		icon = "GFX_focus_proclaim_the_restauration_of_Austria_Hungary"
 		x = 10
 		y = 0
-		cost = 5
+		cost = 7.14
         #prerequisite = { focus = GER_n1 }
 		#relative_position_id = GER_n1
 		completion_reward = {
@@ -32,7 +32,7 @@ focus_tree = {
 		icon = "GFX_focus_ger_reichskommisariats"
 		x = 0
 		y = 1
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_na_1 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -45,7 +45,7 @@ focus_tree = {
 		icon = "GFX_focus_hol_the_foundations_of_defense"
 		x = 0
 		y = 2
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz1 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -60,7 +60,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_manpower"
 		x = 1
 		y = 3
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz2 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -76,7 +76,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_propaganda"
 		x = -1
 		y = 3
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz2 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -93,7 +93,7 @@ focus_tree = {
 		icon = "GFX_focus_rom_royal_dictatorship"
 		x = -2
 		y = 2
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz1 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -108,7 +108,7 @@ focus_tree = {
 		icon = "GFX_focus_hol_abandon_the_gold_standard"
 		x = 2
 		y = 2
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz1 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -123,7 +123,7 @@ focus_tree = {
 		icon = "GFX_focus_POL_complete_april_constitution"
 		x = 0
 		y = 4
-		cost = 5
+		cost = 7.14
 		available = {
 			fascism > 0.45
       	}
@@ -144,7 +144,7 @@ focus_tree = {
 		icon = "GFX_goal_tfv_strengthen_commonwealth_ties"
 		x = -7
 		y = 5
-		cost = 5
+		cost = 7.14
 		available = {
         NOT = { has_completed_focus = AUS_naz9 }
 		}
@@ -162,7 +162,7 @@ focus_tree = {
 		icon = "GFX_focus_hun_elect_a_king"
 		x = -2
 		y = 1
-		cost = 5
+		cost = 7.14
 		available = {
 		NOT = { has_completed_focus = AUS_nazB }
 		}
@@ -177,7 +177,7 @@ focus_tree = {
 		icon = "GFX_focus_focus_fra_national_resistance_council"
 		x = -4
 		y = 2
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazA }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -188,7 +188,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_royal_wedding"
 		x = -2
 		y = 2
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazA }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -199,7 +199,7 @@ focus_tree = {
 		icon = "GFX_focus_SOV_zemsky_sobor"
 		x = -2
 		y = 3
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazA2 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -210,7 +210,7 @@ focus_tree = {
 		icon = "GFX_focus_proclaim_the_restauration_of_Austria_Hungary"
 		x = -4
 		y = 3
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazA2 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -221,7 +221,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_polish_deal"
 		x = -6
 		y = 3
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazA2 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -232,7 +232,7 @@ focus_tree = {
 		icon = "GFX_focus_POL_polish_revanchism"
 		x = -6
 		y = 4
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazA5 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -243,7 +243,7 @@ focus_tree = {
 		icon = "GFX_focus_usa_focus_on_europe"
 		x = -4
 		y = 4
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazA4 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -254,7 +254,7 @@ focus_tree = {
 		icon = "GFX_focus_SOV_transcaucasian_republic"
 		x = -2
 		y = 4
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazA3 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -265,7 +265,7 @@ focus_tree = {
 		icon = "GFX_focus_SOV_panslavic_nationalism"
 		x = -2
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazA8 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -276,7 +276,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_monarchy_2"
 		x = -4
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazA7 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -287,7 +287,7 @@ focus_tree = {
 		icon = "GFX_focus_POL_expand_polish_intelligence"
 		x = -6
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazA6 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -298,7 +298,7 @@ focus_tree = {
 		icon = "GFX_focus_rom_royal_dictatorship"
 		x = -4
 		y = 6
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazA11 focus = AUS_nazA10 focus = AUS_nazA9 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -309,7 +309,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_military_academy"
 		x = 2
 		y = 1
-		cost = 5
+		cost = 7.14
 		available = {
 			NOT = { has_completed_focus = AUS_nazA }
 			}
@@ -324,7 +324,7 @@ focus_tree = {
 		icon = "GFX_goal_tfv_saf_support_ossebrandwag"
 		x = 2
 		y = 2
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -336,7 +336,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_military_sphere"
 		x = 4
 		y = 2
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -363,7 +363,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_coastal_fort"
 		x = 4
 		y = 3
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB2 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -375,7 +375,7 @@ focus_tree = {
 		icon = "GFX_focus_eng_liberate_the_home_of_marx"
 		x = 3
 		y = 4
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB3 }
 		prerequisite = { focus = AUS_nazB5 }
 		relative_position_id = AUS_naz8
@@ -391,7 +391,7 @@ focus_tree = {
 		icon = "GFX_focus_rom_handle_king"
 		x = 2
 		y = 3
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB1 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -406,7 +406,7 @@ focus_tree = {
 		icon = "GFX_focus_prc_infiltration"
 		x = 6
 		y = 4
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB3 }
 		relative_position_id = AUS_naz8
 		available = {
@@ -433,7 +433,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_manpower"
 		x = 6
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB6 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -448,7 +448,7 @@ focus_tree = {
 		icon = "GFX_focus_POL_sanation_right"
 		x = 8
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB6 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -476,7 +476,7 @@ focus_tree = {
 		icon = "GFX_focus_SOV_the_glory_of_the_red_army_alternative"
 		x = 6
 		y = 6
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB7 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -491,7 +491,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_air_defense"
 		x = 6
 		y = 3
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB2 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -551,7 +551,7 @@ focus_tree = {
 		icon = "GFX_goal_support_democracy"
 		x = 4
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB4 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -563,7 +563,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_demand_territory"
 		x = 4
 		y = 6
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB11 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -575,7 +575,7 @@ focus_tree = {
 		icon = "GFX_focus_mex_arrest_general_cedillo"
 		x = 2
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB4 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -590,7 +590,7 @@ focus_tree = {
 		icon = "GFX_focus_SOV_penal_battalions"
 		x = 2
 		y = 6
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB13 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -605,7 +605,7 @@ focus_tree = {
 		icon = "GFX_focus_BUL_free_balkan_states"
 		x = 0
 		y = 4
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB5 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -661,7 +661,7 @@ focus_tree = {
 		icon = "GFX_focus_BUL_consolidate_the_third_bulgarian_state"
 		x = 0
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB15 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -686,7 +686,7 @@ focus_tree = {
 		icon = "GFX_focus_proclaim_the_restauration_of_Austria_Hungary"
 		x = 0
 		y = 6
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB16 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -748,7 +748,7 @@ focus_tree = {
 		icon = "GFX_focus_usa_reestablish_the_gold_standard"
 		x = 0
 		y = 1
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz8 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -783,7 +783,7 @@ focus_tree = {
 		icon = "GFX_focus_usa_guarantee_the_american_dream"
 		x = 0
 		y = 2
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB18 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -795,7 +795,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_steel"
 		x = 0
 		y = 3
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_nazB19 }
 		relative_position_id = AUS_naz8
 		completion_reward = {
@@ -812,7 +812,7 @@ focus_tree = {
 		icon = "GFX_focus_LIT_new_kind_of_iron_wolf"
 		x = 7
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz7 }
 		available = {
 		NOT = { has_completed_focus = AUS_naz8 }
@@ -835,7 +835,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_dangerous_deal"
 		x = 5
 		y = 6
-		cost = 5
+		cost = 7.14
 		ai_will_do = {
 			factor = 100
 		}
@@ -851,7 +851,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_major_war"
 		x = 9
 		y = 6
-		cost = 5
+		cost = 7.14
 		ai_will_do = {
 			factor = 0
 		}
@@ -866,7 +866,7 @@ focus_tree = {
 		icon = "GFX_focus_SOV_penal_battalions"
 		x = 11
 		y = 7
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz11 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -877,7 +877,7 @@ focus_tree = {
 		icon = "GFX_focus_por_estado_novo"
 		x = 11
 		y = 8
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz12 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -888,7 +888,7 @@ focus_tree = {
 		icon = "GFX_goal_tfv_saf_support_ossebrandwag"
 		x = 9
 		y = 7
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz11 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -899,7 +899,7 @@ focus_tree = {
 		icon = "GFX_focus_spr_crush_the_revolution"
 		x = 9
 		y = 8
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz14 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -910,7 +910,7 @@ focus_tree = {
 		icon = "GFX_focus_usa_voter_registration_act"
 		x = 9
 		y = 9
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz15 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -921,7 +921,7 @@ focus_tree = {
 		icon = "GFX_focus_eng_liberate_the_home_of_marx"
 		x = 11
 		y = 9
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz15 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -932,7 +932,7 @@ focus_tree = {
 		icon = "GFX_focus_BUL_free_balkan_states"
 		x = 13
 		y = 9
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz15 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -943,7 +943,7 @@ focus_tree = {
 		icon = "GFX_focus_CZE_german_puppet"
 		x = 14
 		y = 10
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz18 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -954,7 +954,7 @@ focus_tree = {
 		icon = "GFX_focus_spr_crush_the_revolution"
 		x = 12
 		y = 10
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz18 }
         prerequisite = { focus = AUS_naz17 }
 		relative_position_id = AUS_na_1
@@ -966,7 +966,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_combined_arms"
 		x = 9
 		y = 10
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz16 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -977,7 +977,7 @@ focus_tree = {
 		icon = "GFX_focus_ger_reichskommisariats"
 		x = 10
 		y = 11
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz20 }
         prerequisite = { focus = AUS_naz21 }
 		relative_position_id = AUS_na_1
@@ -989,7 +989,7 @@ focus_tree = {
 		icon = "GFX_focus_hun_elect_a_king"
 		x = 5
 		y = 7
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz10 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1001,7 +1001,7 @@ focus_tree = {
 		icon = "GFX_focus_eng_liberate_the_home_of_marx"
 		x = 5
 		y = 8
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz23 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1013,7 +1013,7 @@ focus_tree = {
 		icon = "GFX_focus_ger_return_of_the_kaiser"
 		x = 3
 		y = 8
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz23 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1028,7 +1028,7 @@ focus_tree = {
 		icon = "GFX_focus_rom_handle_king"
 		x = 1
 		y = 8
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz23 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1043,7 +1043,7 @@ focus_tree = {
 		icon = "GFX_focus_hun_assassinate_horthy"
 		x = 3
 		y = 7
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz10 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1058,7 +1058,7 @@ focus_tree = {
 		icon = "GFX_focus_ger_revive_kaiserreich"
 		x = 3
 		y = 9
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz25 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1070,7 +1070,7 @@ focus_tree = {
 		icon = "GFX_goal_tfv_sever_ties_with_uk"
 		x = 1
 		y = 9
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz26 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1085,7 +1085,7 @@ focus_tree = {
 		icon = "GFX_focus_mex_arrest_general_cedillo"
 		x = 5
 		y = 9
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz24 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1100,7 +1100,7 @@ focus_tree = {
 		icon = "GFX_focus_ger_great_red_menace"
 		x = 4
 		y = 10
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz30 }
         prerequisite = { focus = AUS_naz28 }
 		relative_position_id = AUS_na_1
@@ -1113,7 +1113,7 @@ focus_tree = {
 		icon = "GFX_focus_attack_italy"
 		x = 5
 		y = 11
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz31 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1131,7 +1131,7 @@ focus_tree = {
 		icon = "GFX_focus_SOV_panslavic_nationalism"
 		x = 3
 		y = 11
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz31 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1154,7 +1154,7 @@ focus_tree = {
 		icon = "GFX_focus_POL_habsburg"
 		x = 1
 		y = 11
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz31 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1192,7 +1192,7 @@ focus_tree = {
 		icon = "GFX_focus_POL_warsaw_main_station"
 		x = 7
 		y = 7
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz9 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1205,7 +1205,7 @@ focus_tree = {
 		icon = "GFX_focus_POL_develop_polish_shipbuilding"
 		x = 7
 		y = 8
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz35 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1217,7 +1217,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_construction"
 		x = 7
 		y = 10
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz36 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1229,7 +1229,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_construction"
 		x = 0
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz7 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1244,7 +1244,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_construct_infrastructure"
 		x = 0
 		y = 6
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz38 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1339,7 +1339,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_steel"
 		x = 2
 		y = 6
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz38 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1355,7 +1355,7 @@ focus_tree = {
 		icon = "GFX_focus_research2"
 		x = -2
 		y = 6
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz38 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1367,7 +1367,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_construction2"
 		x = -1
 		y = 7
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz38 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1382,7 +1382,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_industry_3"
 		x = 1
 		y = 7
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz38 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1426,7 +1426,7 @@ focus_tree = {
         mutually_exclusive = { focus =AUS_naz45 }
 		x = 3
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz7 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1439,7 +1439,7 @@ focus_tree = {
         mutually_exclusive = { focus = AUS_naz44 }
 		x = 5
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz7 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1452,7 +1452,7 @@ focus_tree = {
         mutually_exclusive = { focus =AUS_naz47 }
 		x = -3
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz7 }
 		relative_position_id = AUS_na_1
 		completion_reward = {
@@ -1474,7 +1474,7 @@ focus_tree = {
         mutually_exclusive = { focus = AUS_naz46 }
 		x = -5
 		y = 5
-		cost = 5
+		cost = 7.14
         prerequisite = { focus = AUS_naz7 }
 		relative_position_id = AUS_na_1
 		completion_reward = {

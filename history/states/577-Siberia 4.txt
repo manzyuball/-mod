@@ -6,7 +6,7 @@ state = {
 	resources = {
 		oil=13 # was: 14
 	}
-	
+	impassable = yes
 	state_category = pastoral
 
 	history = {
