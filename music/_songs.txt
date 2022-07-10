@@ -11,6 +11,242 @@ music = {
 }
 
 # PEACE SONGS ##################
+
+	music = {
+		song = "1812 Overture"
+		
+		chance = {
+			modifier = {
+				factor = 15
+			}		
+		}
+	}
+		music = {
+			song = "Battotai"
+			
+			chance = {
+				modifier = {
+					factor = 15
+				}		
+			}
+		}
+			music = {
+				song = "Ceddin Deden"
+				
+				chance = {
+					modifier = {
+						factor = 15
+					}		
+					}
+				}
+				music = {
+					song = "Erika"
+					
+					chance = {
+						modifier = {
+							factor = 15
+						}		
+					}
+					}
+music = {
+	song = "Battle of Britain March"
+	
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "Bella Ciao"
+	
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "Chinese Victory Song"
+	
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "Preußens Gloria march"
+	
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "Se il Papa è andato via"
+	
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "Mecidiye Marsi"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "Der heimliche Aufmarsch"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "Drum Bum and treceti batalioane romane carpatii"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "farewell Slavianka"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "Horthy Miklos katonaja vagyok"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "kaiserhymne"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "La Marseillaise"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "Le Chant Du Depart"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "Marching Through Georgia"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "Mazurek Dabrowskiego"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "Osmaniyez Marsi"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "The Fall of Constantinople"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "The Internationale"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "The Maple Leaf Forever"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "The Sacred war"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "The Yellow Rose of Texas"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "井岡山上太陽紅"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "義勇軍行進曲"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+music = {
+	song = "軍艦行進曲"
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+
+# WAR SONGS ####################
 music = {
 	song = "general_peace_1"
 	
@@ -72,230 +308,6 @@ music = {
 		}		
 	}	
 }
-
-music = {
-	song = "Der_offene_Aufmarsch"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			has_war = no
-			has_government = communism
-		}		
-	}
-	}
-	music = {
-		song = "1812 Overture"
-		
-		chance = {
-			modifier = {
-				factor = 15
-
-				tag = VLA
-			}		
-		}
-	}
-		music = {
-			song = "Battotai"
-			
-			chance = {
-				modifier = {
-					factor = 15
-					tag = JAP
-				}		
-			}
-		}
-			music = {
-				song = "Ceddin Deden"
-				
-				chance = {
-					modifier = {
-						factor = 15
-			
-						has_war = no
-						tag = TUR
-					}		
-					}
-				}
-				music = {
-					song = "Erika"
-					
-					chance = {
-						modifier = {
-							factor = 15
-				        tag = GER
-						}		
-					}
-					}
-					music = {
-						song = "Gott erhalte Franz den Kaiser"
-						
-						chance = {
-							modifier = {
-								factor = 15
-					        tag = aus
-							}		
-						}
-					}
-					music = {
-						song = "battle hymn of the republic"
-						
-						chance = {
-							modifier = {
-								factor = 15
-												
-								tag = USA
-								}
-							}	
-					}
-					music = {
-						song = "When Johnny Comes Marching Home"
-						
-						chance = {
-							modifier = {
-								factor = 15
-								tag = CSA
-							}		
-						}	
-					}
-music = {
-	song = "La Marseillaise"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			has_war = yes
-			has_government = communism
-		}		
-	}	
-}
-music = {
-	song = "Le chant du départ"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			has_war = yes
-			has_government = communism
-		}		
-	}	
-}
-music = {
-	song = "Battle of Britain March"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			tag = ENG
-		}		
-	}
-}
-music = {
-	song = "Bella Ciao"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			tag = MLT
-		}		
-	}
-}
-music = {
-	song = "Chinese Victory Song"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			tag = CHI
-		}		
-	}
-}
-music = {
-	song = "Föl föl vitézek"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			tag = AUS
-		}		
-	}
-}
-music = {
-	song = "Mazurek Dąbrowskiego"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			tag = POL
-		}		
-	}
-}
-music = {
-	song = "Preußens Gloria march"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			tag = LAT
-		}		
-	}
-}
-music = {
-	song = "Sacred War"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			has_war = yes
-		}		
-	}
-}
-music = {
-	song = "Se il Papa è andato via"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			tag = ITA
-		}		
-	}
-}
-music = {
-	song = "Unsere Panzerdivision"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			tag = GER
-		}		
-	}
-}
-music = {
-	song = "勇军进行曲"
-	
-	chance = {
-		modifier = {
-			factor = 15
-
-			tag = PRC
-		}		
-	}
-}
-
-# WAR SONGS ####################
-
 music = {
 	song = "general_war_1"
 	
@@ -466,19 +478,6 @@ music = {
 
 music = {
 	song = "comintern_war_3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-			has_government = communism
-		}		
-	}	
-}
-
-music = {
-	song = "Der offene Aufmarsch"
 	
 	chance = {
 		modifier = {

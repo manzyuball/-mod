@@ -4,6 +4,7 @@ state={
 	provinces={
 		2198 5216 8185 8254 10960 12965 
 	}
+	impassable = yes
 	history={
 		owner = BRA
 		buildings = {

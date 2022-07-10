@@ -1,26 +1,26 @@
 
 state={
 	id=557
-	name="STATE_557" # Mauritania
-	manpower = 225000
-	
-	state_category = town
+	name="STATE_557"
 
 	history={
 		owner = GNA
 		add_core_of = GNA
 		victory_points = {
-			5034 3
+			5034 3 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
 
 	}
 
 	provinces={
-		5034 5077 7992 8058 10814
+		5034 5077 7992 8058 
 	}
-
-	local_supplies=0.0 
+	manpower=225000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
