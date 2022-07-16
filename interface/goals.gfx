@@ -66,8 +66,42 @@ spriteTypes = {
 		name = "GFX_focus_Rome_Empire"
 		texturefile = "gfx/interface/goals/focus_Rome_Empire.dds"			
 	}
+	SpriteType = {
+		name = "GFX_focus_Hankyou"
+		texturefile = "gfx/interface/goals/Hankyou.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_KaigunEnsyu"
+		texturefile = "gfx/interface/goals/KaigunEnsyu.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_Kubiki_Tataru"
+		texturefile = "gfx/interface/goals/Kubiki_Tataru.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_Kyoudansyaku"
+		texturefile = "gfx/interface/goals/Kyoudansyaku.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_manifesto"
+		texturefile = "gfx/interface/goals/manifesto.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_nomonhano"
+		texturefile = "gfx/interface/goals/nomonhano.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_Tako"
+		texturefile = "gfx/interface/goals/Tako.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_TyuuouAzia"
+		texturefile = "gfx/interface/goals/TyuuouAzia.png"			
+	}
 
 
+
+	
 	SpriteType = {
 	name = "focus_ita_correcting_the_north_south_divide"
 	texturefile = "gfx/interface/goals/focus_ita_agricultural_war.dds"			

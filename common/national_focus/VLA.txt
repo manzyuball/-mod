@@ -1315,7 +1315,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC6
-		icon = "GFX_focus_generic_industry_3"
+		icon = "GFX_focus_jap_newdeal2"
 		x = 2
 		y = 5
 		#mutually_exclusive = { focus =  }
@@ -1469,7 +1469,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC11
-		icon = "GFX_goal_generic_construction"
+		icon = "GFX_focus_DAM"
 		x = 4
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -1577,7 +1577,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC15
-		icon = "GFX_focus_POL_warsaw_main_station"
+		icon = "GFX_focus_jap_newdeal1"
 		x = 8
 		y = 5
 		#mutually_exclusive = { focus =  }
@@ -1620,7 +1620,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC17
-		icon = "GFX_focus_generic_tank_production"
+		icon = "GFX_focus_jap_newdeal3"
 		x = 7
 		y = 6
 		#mutually_exclusive = { focus =  }
@@ -1639,6 +1639,655 @@ focus_tree = {
 				remove_idea = VLA_KOKUEIKA1
 				add_idea = VLA_KOKUEIKA2
 				}
+		}
+	}
+	focus = {
+		id = VLA_gai
+		icon = "GFX_focus_SOV_transcaucasian_republic"
+		x = 40
+		y = 0
+		#mutually_exclusive = { focus =  }
+		prerequisite = {}
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia1
+		icon = "GFX_goal_generic_major_alliance"
+		x = 0
+		y = 1
+		relative_position_id = VLA_gai
+		mutually_exclusive = { focus = VLA_gaia18 focus = VLA_gaia8 }
+		prerequisite = {focus =  VLA_gai }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia2
+		icon = "GFX_focus_LIT_restore_the_grand_duchy"
+		x = 0
+		y = 2
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia1 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia3
+		icon = "GFX_focus_eng_the_sun_never_sets"
+		x = 2
+		y = 2
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia1 focus =  VLA_gaia8 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia4
+		icon = "GFX_focus_POL_sanation_right"
+		x = 2
+		y = 3
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia3 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia5
+		icon = "GFX_focus_generic_polish_deal"
+		x = 0
+		y = 3
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia2 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia6
+		icon = "GFX_goal_support_democracy"
+		x = 1
+		y = 5
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia5 }
+		prerequisite = {focus =  VLA_gaia4 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia7
+		icon = "GFX_focus_Hankyou"
+		x = 1
+		y = 6
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia6 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia8
+		icon = "GFX_focus_SOV_zemsky_sobor"
+		x = 5
+		y = 1
+		relative_position_id = VLA_gai
+		mutually_exclusive = { focus = VLA_gaia1 focus = VLA_gaia18 }
+		prerequisite = {focus =  VLA_gai }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia9
+		icon = "GFX_focus_Kyoudansyaku"
+		x = 5
+		y = 2
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia8 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia10
+		icon = "GFX_focus_jap_pacific_guardian"
+		x = 5
+		y = 4
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia9 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia11
+		icon = "GFX_focus_man_claim_the_mandate_of_heaven"
+		x = 7
+		y = 4
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia9 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia12
+		icon = "GFX_focus_CZE_german_puppet"
+		x = 8
+		y = 5
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia11 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia13
+		icon = "GFX_focus_manifesto"
+		x = 5
+		y = 5
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia10 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia14
+		icon = "GFX_focus_nomonhano"
+		x = 6
+		y = 6
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia13 }
+		prerequisite = {focus =  VLA_gaia11 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia15
+		icon = "GFX_focus_KaigunEnsyu"
+		x = 4
+		y = 7
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia13 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia16
+		icon = "GFX_focus_jap_zaibatsu"
+		x = 3
+		y = 6
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia10 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia17
+		icon = "GFX_goal_tfv_generic_tech_sharing"
+		x = 2
+		y = 7
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia16 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia18
+		icon = "GFX_focus_SOV_mobilization_plan"
+		x = -2
+		y = 1
+		relative_position_id = VLA_gai
+		mutually_exclusive = { focus = VLA_gaia1 focus = VLA_gaia8 }
+		prerequisite = {focus =  VLA_gai}
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia19
+		icon = "GFX_focus_Kubiki_Tataru"
+		x = -2
+		y = 2
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia18 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia20
+		icon = "GFX_focus_generic_befriend_sinkiang"
+		x = -2
+		y = 3
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia19 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia21
+		icon = "GFX_focus_jap_manchurian_project"
+		x = -1
+		y = 4
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia20 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia22
+		icon = "GFX_focus_generic_japanese_imperial_glory"
+		x = -1
+		y = 5
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia21 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia23
+		icon = "GFX_focus_SOV_rebuild_the_savior_cathedral"
+		x = -3
+		y = 4
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia20 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia24
+		icon = "GFX_focus_attack_china"
+		x = -3
+		y = 5
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia23 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia25
+		icon = "GFX_focus_TyuuouAzia"
+		x = -5
+		y = 3
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia19 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia26
+		icon = "GFX_focus_generic_balkans_focus"
+		x = -6
+		y = 4
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia25 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia27
+		icon = "GFX_focus_BUL_free_balkan_states"
+		x = -6
+		y = 5
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia26 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia28
+		icon = "GFX_focus_Tako"
+		x = -7
+		y = 7
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia29 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia29
+		icon = "GFX_focus_generic_africa_naval"
+		x = -6
+		y = 6
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia27 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia30
+		icon = "GFX_focus_jap_strike_south"
+		x = -3
+		y = 6
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia24 }
+		prerequisite = {focus =  VLA_gaia22 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia31
+		icon = "GFX_focus_spa_the_war_of_vengeance"
+		x = -3
+		y = 7
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia30 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia32
+		icon = "GFX_focus_ger_break_anglo_french_colonial_hegemony"
+		x = -5
+		y = 7
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia29 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia33
+		icon = "GFX_focus_SOV_panslavic_nationalism"
+		x = -4
+		y = 8
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia32 }
+		prerequisite = {focus =  VLA_gaia31 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
 		}
 	}
 }
