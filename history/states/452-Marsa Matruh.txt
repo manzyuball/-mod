@@ -15,7 +15,7 @@ state={
 			9989 3 
 		}
 		add_core_of = EGY
-
+		add_claim_by = TUR
 	}
 
 	provinces={

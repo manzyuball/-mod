@@ -21,7 +21,7 @@ state={
 		victory_points = {
 			12725 1
 		}
-
+		add_claim_by = TUR
 		add_core_of = SUD
 	}
 	provinces={

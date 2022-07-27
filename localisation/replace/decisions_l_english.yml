@@ -3,7 +3,11 @@
  enzetu:0 "全国民よ!全民族よ!帝国の名の下に団結せよ!"
  souryokusennenzetu:0 "諸君は総力戦を望むか？"
  souryokusennenzetu2:0 "人々よ立ち上がれ!そして嵐を起こせ!"
-
+ generic_ryoud:0 "請求権のある領土の中核化"
+ Genelic_Tyuukakuka:0 "請求権のある領土の中核化"
+ generic_ryoud:0 "請求権のある州を統合"
+ generic_ryoud_desc:0 "我々は戦争などにより新たな土地を得た!/nしかし正当に認められたその領土もまだ中核州と呼ぶにはほど遠い/nそこですぐにでも我が国に適応させる必要だあるだろう"
+ generic_ryoud1:0 "[FROM.GetName]を統合"
  #SWE
  SWE_decisions:0 "三つの壁計画"
  daiitinokabe:0 "第一の壁"

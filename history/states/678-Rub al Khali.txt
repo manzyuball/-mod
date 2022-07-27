@@ -10,7 +10,7 @@ state={
 
 		}
 		add_core_of = SAU
-		add_core_of = TUR
+		add_claim_by = TUR
 
 	}
 

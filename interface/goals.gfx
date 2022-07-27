@@ -98,8 +98,14 @@ spriteTypes = {
 		name = "GFX_focus_TyuuouAzia"
 		texturefile = "gfx/interface/goals/TyuuouAzia.png"			
 	}
-
-
+	SpriteType = {
+		name = "GFX_focus_Miger"
+		texturefile = "gfx/interface/goals/Miger.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_PRU_SUN"
+		texturefile = "gfx/interface/goals/PRU_SUN.png"			
+	}
 
 	
 	SpriteType = {

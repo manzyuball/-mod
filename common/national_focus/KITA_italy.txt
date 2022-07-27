@@ -217,6 +217,17 @@
 				}
 			set_cosmetic_tag = BIG_ITA
 			set_major = yes
+			hidden_effect = {
+				annex_country = {
+					target = TUN
+					transfer_troops = yes
+					}
+					annex_country = {
+						target = MLT
+						transfer_troops = yes
+						}	
+			}
+
 		}
 	}
 	focus = {

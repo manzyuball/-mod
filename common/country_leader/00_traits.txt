@@ -13,6 +13,17 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	Russia_king = {
+		random = no
+		conscription = 0.02
+		political_power_factor = 0.1
+		defensive_war_stability_factor = 0.25
+		offensive_war_stability_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	luber = {
 		random = no

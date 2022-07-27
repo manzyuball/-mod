@@ -13,6 +13,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_Portrait_Rituan"
+		texturefile = "gfx/leaders/_EOB/Portrait_Rituan.dds"
+	}
+
+	spriteType = {
 		name = "GFX_portrait_operative_unknown"
 		texturefile = "gfx/leaders/operative_unknown.dds"
 	}
@@ -26,7 +31,7 @@ spriteTypes = {
 		name = "GFX_portrait_unknown_female"
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
-
+	
 
 	### GER
 

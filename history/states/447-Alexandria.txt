@@ -24,7 +24,7 @@ state={
 				naval_base = 8
 			}
 		}
-
+		add_claim_by = TUR
 		add_core_of = EGY
 	}
 

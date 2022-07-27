@@ -290,3 +290,77 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = VLA.9
+	title = VLA.9.t
+	desc = VLA.9.d
+	picture = GFX_report_event_generic_sign_treaty2
+		fire_only_once = yes
+
+	trigger = {
+		tag = VLA
+		has_global_flag = MON_VLA_KOUSYOU_A
+	}
+	
+	option = {
+		name = VLA.9.a
+		VLA = {
+			add_state_core = 885
+			add_state_core = 329
+			transfer_state = 885
+			transfer_state = 329
+			give_guarantee = MON
+		
+		}
+		MON = { give_guarantee = VLA }
+
+	}
+}
+country_event = {
+	id = VLA.10
+	title = VLA.10.t
+	desc = VLA.10.d
+	picture = GFX_report_event_SOV_military_offensive
+		fire_only_once = yes
+
+	trigger = {
+		tag = VLA
+		has_global_flag = MON_VLA_KOUSYOU_B
+	}
+	
+	option = {
+		name = VLA.10.a
+		VLA = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = MON
+				}
+	
+				add_state_claim = 885
+				add_state_claim = 329
+		}
+
+	}
+}
+country_event = {
+	id = VLA.11
+	title = VLA.11.t
+	desc = VLA.11.d
+	picture = GFX_report_event_generic_sign_treaty1
+		fire_only_once = yes
+
+	trigger = {
+		has_country_flag = POL_Kousyou
+	}
+	
+	option = {
+		name = VLA.11.a
+		give_guarantee = POL
+		POL = { give_guarantee = VLA }
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 2500
+			producer = POL
+			}
+	}
+}

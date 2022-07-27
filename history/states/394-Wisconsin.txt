@@ -6,14 +6,14 @@ state={
 	state_category = large_city
 	
 	resources={
-		steel=53 # was: 84
+		steel=75 # was: 84
 	}
 
 	history={
 		owner = USB
 		buildings = {
 			infrastructure = 3 #was: 6
-			industrial_complex = 3
+			industrial_complex = 7
 		}
 		add_core_of = USA
 		add_core_of = USB

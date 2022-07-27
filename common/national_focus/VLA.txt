@@ -108,7 +108,11 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_targeted_decision = VLA_habatu
+			add_ideas = {
+				VLA_ROZYAEF_BAD
+				VLA_GUNKOKU_BAD
+			}
 		}
 	}
 	focus = {
@@ -128,7 +132,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_ROZYAEF_BAD
+add_idea = VLA_ROZYAEF_BAD1
+}
 		}
 	}
 	focus = {
@@ -148,7 +155,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_ROZYAEF_BAD1
+add_idea = VLA_ROZYAEF_BAD2
+}
 		}
 	}
 	focus = {
@@ -168,7 +178,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_ideas = VLA_ROZYAEF_BAD2
 		}
 	}
 	focus = {
@@ -188,7 +198,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_GUNKOKU_BAD
+add_idea =VLA_GUNKOKU_BAD1
+}
 		}
 	}
 	focus = {
@@ -208,7 +221,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_GUNKOKU_BAD1
+add_idea = VLA_GUNKOKU_BAD2
+}
 		}
 	}
 	focus = {
@@ -228,7 +244,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_ideas = VLA_GUNKOKU_BAD2
 		}
 	}
 	######################################
@@ -252,7 +268,11 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_targeted_decision = VLA_habatu
+			add_ideas = {
+				VLA_TEISE_BAD
+				VLA_ROZYAEF_BAD
+			}
 		}
 	}
 	focus = {
@@ -272,7 +292,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_ROZYAEF_BAD
+add_idea = VLA_ROZYAEF_BAD1
+}
 		}
 	}
 	focus = {
@@ -292,7 +315,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_ROZYAEF_BAD1
+add_idea = VLA_ROZYAEF_BAD2
+}
 		}
 	}
 	focus = {
@@ -312,7 +338,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_ideas = VLA_ROZYAEF_BAD2
 		}
 	}
 	focus = {
@@ -332,7 +358,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_TEISE_BAD
+add_idea = VLA_TEISE_BAD1
+}
 		}
 	}
 	focus = {
@@ -352,7 +381,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_TEISE_BAD1
+add_idea = VLA_TEISE_BAD2
+}
 		}
 	}
 	focus = {
@@ -372,7 +404,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_ideas = VLA_TEISE_BAD2
 		}
 	}
 	###############################
@@ -396,7 +428,11 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_targeted_decision = VLA_habatu
+			add_ideas = {
+				VLA_TEISE_BAD
+				VLA_GUNKOKU_BAD
+			}
 		}
 	}
 	focus = {
@@ -416,7 +452,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_TEISE_BAD
+add_idea = VLA_TEISE_BAD1
+}
 		}
 	}
 	focus = {
@@ -436,7 +475,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_TEISE_BAD1
+add_idea = VLA_TEISE_BAD2
+}
 		}
 	}
 	focus = {
@@ -456,7 +498,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_ideas = VLA_TEISE_BAD2
 		}
 	}
 	focus = {
@@ -476,7 +518,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_GUNKOKU_BAD
+add_idea = VLA_GUNKOKU_BAD1
+}
 		}
 	}
 	focus = {
@@ -496,7 +541,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_GUNKOKU_BAD1
+add_idea = VLA_GUNKOKU_BAD2
+}
 		}
 	}
 	focus = {
@@ -516,7 +564,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_ideas = VLA_GUNKOKU_BAD2
 		}
 	}
 	##################################
@@ -538,7 +586,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_country_leader_trait = Russia_king
 		}
 	}
 
@@ -721,7 +769,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_Roudouhou
+add_idea = VLA_Roudouhou1
+}
 		}
 	}
 	focus = {
@@ -770,7 +821,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_Roudouhou1
+add_idea = VLA_Roudouhou2
+}
 		}
 	}
 	focus = {
@@ -1646,17 +1700,18 @@ focus_tree = {
 		icon = "GFX_focus_SOV_transcaucasian_republic"
 		x = 40
 		y = 0
-		#mutually_exclusive = { focus =  }
-		prerequisite = {}
 		cost = 5
 		ai_will_do = {
 			factor = 100
 		}
 		available = {
+			has_completed_focus = VLA_se2
 		}
-		bypass = {	
+		bypass = {
 		}
 		completion_reward = {
+			set_major = yes
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -1672,10 +1727,12 @@ focus_tree = {
 			factor = 100
 		}
 		available = {
+			has_country_flag = VLA_T_WIN2
 		}
 		bypass = {	
 		}
 		completion_reward = {
+			add_ideas = { VLA_Tomo }
 		}
 	}
 	focus = {
@@ -1695,6 +1752,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			custom_effect_tooltip = MON_KOUSYOU_VLA
+			hidden_effect = {
+				set_global_flag = MON_Kousyou
+			}
 		}
 	}
 	focus = {
@@ -1714,6 +1775,23 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			add_political_power = 150
+			add_opinion_modifier = {
+				target = ENG
+				modifier = kyuusekkinn
+				}
+				add_opinion_modifier = {
+					target = JAP
+					modifier = kyuusekkinn
+					}
+					reverse_add_opinion_modifier = {
+						target = JAP
+						modifier = kyuusekkinn
+						}
+						reverse_add_opinion_modifier = {
+							target = ENG
+							modifier = kyuusekkinn
+							}
 		}
 	}
 	focus = {
@@ -1733,6 +1811,47 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			add_manpower = 42000
+			create_field_marshal = {
+				name = "連合国ロシア義勇軍最高司令部"
+				picture = "GFX_Portrait_Rituan"
+				traits = { brilliant_strategist inflexible_strategist organizer logistics_wizard }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 4
+				}
+			create_corps_commander = {
+				name = "連合国ロシア義勇軍第一司令部"
+				picture = "GFX_Portrait_Rituan"
+				traits = { brilliant_strategist inflexible_strategist organizer }
+				skill = 5
+				attack_skill = 4
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 4
+				}
+				create_corps_commander = {
+					name = "連合国ロシア義勇軍第二司令部"
+					picture = "GFX_Portrait_Rituan"
+					traits = { brilliant_strategist inflexible_strategist organizer }
+					skill = 5
+					attack_skill = 4
+					defense_skill = 4
+					planning_skill = 4
+					logistics_skill = 4
+					}
+					create_corps_commander = {
+						name = "連合国ロシア義勇軍第三司令部"
+						picture = "GFX_Portrait_Rituan"
+						traits = { brilliant_strategist inflexible_strategist organizer }
+						skill = 5
+						attack_skill = 4
+						defense_skill = 4
+						planning_skill = 4
+						logistics_skill = 4
+						}
 		}
 	}
 	focus = {
@@ -1752,6 +1871,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			custom_effect_tooltip = POL_KOUSYOU_VLA
+			hidden_effect = {
+				set_country_flag = POL_Kousyou
+			}
 		}
 	}
 	focus = {
@@ -1771,7 +1894,11 @@ focus_tree = {
 		}
 		bypass = {	
 		}
-		completion_reward = {
+		completion_reward = {			
+			swap_ideas = {
+			remove_idea = VLA_Tomo
+			add_idea = VLA_Tomo1
+			}
 		}
 	}
 	focus = {
@@ -1791,6 +1918,17 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			every_country = {
+				limit = {
+					has_government = communism
+				}
+				VLA = {
+					create_wargoal = {
+						type = topple_government
+						target = PREV
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -1806,10 +1944,12 @@ focus_tree = {
 			factor = 100
 		}
 		available = {
+			has_country_flag = VLA_G_WIN2
 		}
 		bypass = {	
 		}
 		completion_reward = {
+			add_stability = 0.15
 		}
 	}
 	focus = {
@@ -1997,10 +2137,14 @@ focus_tree = {
 			factor = 100
 		}
 		available = {
+			has_country_flag = VLA_R_WIN2
 		}
 		bypass = {	
 		}
 		completion_reward = {
+			add_ideas = {
+				VLA_ROZYAEF_GAI1
+			}
 		}
 	}
 	focus = {
@@ -2020,6 +2164,11 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = VLA_ROZYAEF_GAI1
+				add_idea = VLA_ROZYAEF_GAI2
+				}
+				activate_decision = VLA_Russian_power
 		}
 	}
 	focus = {
@@ -2039,6 +2188,27 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			add_state_claim = 885
+			add_state_claim = 329
+			add_state_claim = 818
+			add_state_claim = 618
+			add_state_claim = 617
+			add_state_claim = 619
+			add_state_claim = 287
+			add_state_claim = 759
+			add_state_claim = 760
+			add_state_claim = 820
+			add_state_claim = 330
+			add_state_claim = 817
+			add_state_claim = 819
+			add_state_claim = 761
+			add_state_claim = 612
+			add_state_claim = 611
+			add_state_claim = 621
+			add_state_claim = 746
+			add_state_claim = 616
+			add_state_claim = 754
+			add_state_claim = 755
 		}
 	}
 	focus = {
@@ -2058,6 +2228,20 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			add_state_claim = 714
+			add_state_claim = 717
+			add_state_claim = 328
+			add_state_claim = 715
+			add_state_claim = 716
+			add_state_claim = 745
+			add_state_claim = 610
+			add_state_claim = 699
+			add_state_claim = 851
+			add_state_claim = 608
+			create_wargoal = {
+				type = annex_everything
+				target = MAN
+				}
 		}
 	}
 	focus = {
@@ -2077,6 +2261,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = JAP
+				}
 		}
 	}
 	focus = {
@@ -2096,6 +2284,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			add_timed_idea = {
+				idea = VLA_TYUUKA_KOUTEI
+				days = 100
+				}
 		}
 	}
 	focus = {
@@ -2115,6 +2307,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = CHI
+				}
 		}
 	}
 	focus = {
@@ -2134,6 +2330,51 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			annex_country = {
+				target = UZB
+				transfer_troops = yes
+				}
+			create_wargoal = {
+				type = annex_everything
+				target = KYR
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = BUK
+					}
+					create_wargoal = {
+						type = annex_everything
+						target = TAJ
+						}
+						create_wargoal = {
+							type = annex_everything
+							target = TMS
+							}
+			VLA = {
+				add_state_core = 732
+				add_state_core = 405
+				add_state_core = 742
+				add_state_core = 830
+				add_state_core = 585
+				add_state_core = 957
+				add_state_core = 832
+				add_state_core = 584
+				add_state_core = 589
+				add_state_core = 953
+				add_state_core = 404
+				add_state_core = 586
+				add_state_core = 954
+				add_state_core = 955
+				add_state_core = 956
+				add_state_core = 952
+				add_state_core = 402
+				add_state_core = 831
+				add_state_core = 823
+				add_state_core = 587
+				add_state_core = 951
+				add_state_core = 950
+
+			}
 		}
 	}
 	focus = {
@@ -2153,6 +2394,52 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			every_state = { 
+				limit = { is_core_of = UKR }
+				add_claim_by = VLA
+			 }
+			 every_state = { 
+				limit = { is_core_of = POL }
+				add_claim_by = VLA
+			 }
+			 add_state_claim = 812
+			 add_state_claim = 813
+			 add_state_claim = 13
+			 add_state_claim = 191
+			 add_state_claim = 811
+			 add_state_claim = 12
+			 add_state_claim = 810
+			 add_state_claim = 808
+			 add_state_claim = 809
+			 add_state_claim = 190
+			 add_state_claim = 815
+			 add_state_claim = 189
+			 add_state_claim = 815
+			 add_state_claim = 11
+			 add_state_claim = 814
+			 add_state_claim = 188
+			 add_state_claim = 763
+			 add_state_claim = 958
+			 add_state_claim = 5
+			 add_state_claim = 85
+			 add_state_claim = 807
+			 add_state_claim = 959
+			 create_wargoal = {
+				type = annex_everything
+				target = TUR
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = LAT
+					}
+					create_wargoal = {
+						type = annex_everything
+						target = POL
+						}
+						create_wargoal = {
+							type = annex_everything
+							target = UKR
+							}
 		}
 	}
 	focus = {
@@ -2172,6 +2459,22 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ROM
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = YUG
+					}
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = GRE
+						}
+						create_wargoal = {
+							type = puppet_wargoal_focus
+							target = ALB
+							}
 		}
 	}
 	focus = {
@@ -2191,6 +2494,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			add_ideas = { VLA_OctPus }
 		}
 	}
 	focus = {
@@ -2210,6 +2514,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			add_political_power = 200
 		}
 	}
 	focus = {
@@ -2230,6 +2535,22 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = VIN
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = SIA
+					}
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = MAL
+						}
+						create_wargoal = {
+							type = puppet_wargoal_focus
+							target = INS
+							}
 		}
 	}
 	focus = {
@@ -2249,6 +2570,23 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = CAN
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = USA
+					}
+					add_state_claim = 650
+					add_state_claim = 463
+					add_state_claim = 739
+					add_state_claim = 740
+					add_state_claim = 473
+					add_state_claim = 471
+					add_state_claim = 472
+					add_state_claim = 469
+					add_state_claim = 470
 		}
 	}
 	focus = {
@@ -2268,6 +2606,14 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ENG
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = FRA
+					}
 		}
 	}
 	focus = {
@@ -2288,6 +2634,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
+			add_ideas = { VLA_SekaiSeihuku }
 		}
 	}
 }

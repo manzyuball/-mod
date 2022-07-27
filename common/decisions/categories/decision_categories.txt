@@ -36,3 +36,9 @@ SWE_decisions = {
 	has_country_flag = kigyou1
 	}
    }
+
+   generic_ryoud = {
+	icon = generic_political_actions
+	visible = {
+	}
+   }
