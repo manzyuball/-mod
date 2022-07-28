@@ -90,6 +90,19 @@
  uk_b67:0 "世界の警察に"
  uk_b68:0 "分割統治"
  uk_b69:0 "秩序"
+ communism1:0 "共産党内閣の組閣"
+ communism2:0 "共産主義の拡大"
+ communism3:0 "王室の運命"
+ communism4:0 "アイルランドの回収"
+ communism5:0 "英連邦の回収"
+ communism6:0 "世界革命への準備"
+ communism7:0 "北欧革命"
+ commonwealth_ends:0 "コモンウェルスの縮小"
+ kokunainokaihatu:0 "国内の開発Ⅰ"
+ kokunainokaihatu_two:0 "国内の開発Ⅱ"
+ kokunainokaihatu_three:0 "国内の開発Ⅲ"
+#IDEAS
+#IDEAS
 #IDEAS
  
  ENG_loiyalnavy:0 "ロイヤルネイビー"
@@ -113,8 +126,13 @@
  ENG_Hukusi:0 "福祉の国"
  ENG_Hukusi2:0 "福祉の国"
  ENG_Hukusi3:0 "ゆりかごから墓場まで"
+ ENG_Shuchu:0 "国内に集中"
+ ENG_republic:0 "栄光ある共和国"
 
 #event 
  britain.start.t:0 "大英帝国"
  britain.start.d:0 "大英帝国は今、最大の繁栄を見せているように思える、しかしWW1での苦痛な敗北のツケが回ってきた。帝国に世界恐慌が襲いまたもや革命の危機がやってきたのだ。フランスやドイツは恐慌の影響を受けず今も軍拡を進め、今にもブリテン島に上陸しようと機会を疑っている...果たして帝国はこの危機を乗り越えられるのだろうか?"
  britain.start.a:0 "神よ、王を守り給え"
+
+ koueiarukoritu:0 "光栄ある孤立"
+ fifth:0 "第5インターナショナル"

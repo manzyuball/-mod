@@ -99,7 +99,7 @@ focus = {
 }
 focus = {
 	id = PRU_seA3
-	icon ="GFX_focus_ger_return_of_the_kaiser"
+	icon ="GFX_focus_Zenken"
 	x = 0
 	y = 4
 
@@ -159,7 +159,7 @@ focus = {
 }
 focus = {
 	id = PRU_seK3
-	icon ="GFX_focus_ger_return_of_the_kaiser"
+	icon ="GFX_focus_Yakihata"
 	x = -1
 	y = 7
 
@@ -259,7 +259,7 @@ focus = {
 }
 focus = {
 	id = PRU_seK8
-	icon ="GFX_focus_mex_privatisation"
+	icon ="GFX_focus_KUROZI"
 	x = 1
 	y = 6
 
@@ -279,7 +279,7 @@ focus = {
 }
 focus = {
 	id = PRU_seK9
-	icon ="GFX_focus_ger_return_of_the_kaiser"
+	icon ="GFX_focus_fra_devalue_the_franc"
 	x = 1
 	y = 7
 
@@ -299,7 +299,7 @@ focus = {
 }
 focus = {
 	id = PRU_seK10
-	icon ="GFX_focus_ger_return_of_the_kaiser"
+	icon ="GFX_focus_Yaku"
 	x = 1
 	y = 8
 
@@ -640,7 +640,7 @@ focus = {
 }
 focus = {
 	id = PRU_seN3
-	icon ="GFX_focus_ger_return_of_the_kaiser"
+	icon ="GFX_focus_SInei"
 	x = -1
 	y = 2
 
@@ -680,7 +680,7 @@ focus = {
 }
 focus = {
 	id = PRU_seN5
-	icon ="GFX_focus_ger_return_of_the_kaiser"
+	icon ="GFX_focus_mex_privatisation"
 	x = -1
 	y = 4
 

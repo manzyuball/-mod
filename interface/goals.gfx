@@ -106,6 +106,36 @@ spriteTypes = {
 		name = "GFX_focus_PRU_SUN"
 		texturefile = "gfx/interface/goals/PRU_SUN.png"			
 	}
+	SpriteType = {
+		name = "GFX_focus_Zenken"
+		texturefile = "gfx/interface/goals/focus_Zenken.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_Yakihata"
+		texturefile = "gfx/interface/goals/focus_Yakihata.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_SInei"
+		texturefile = "gfx/interface/goals/focus_SInei.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_Yaku"
+		texturefile = "gfx/interface/goals/focus_Yaku.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_attack_ireland"
+		texturefile = "gfx/interface/goals/focus_attack_ireland.png"			
+	}
+
+
+
+
+
+
+
+
+
+
 
 	
 	SpriteType = {

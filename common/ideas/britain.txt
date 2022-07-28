@@ -1,6 +1,21 @@
 ideas = {
 
 	country = {
+		ENG_Shuchu = {
+			name = ENG_Shuchu
+			picture = generic_industrial_concern_1
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				production_speed_industrial_complex_factor = 1
+			}
+		}
+		ENG_republic = {
+			name = ENG_republic
+			picture = generic_communist_army
+			modifier = {
+				war_support_factor = 0.5
+			}
+		}
 		ENG_loiyalnavy = {
 			name = ENG_loiyalnavy
 			picture = generic_navy_bonus
