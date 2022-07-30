@@ -32,7 +32,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
 	
-
+	spriteType = {
+		name = "GFX_portrait_MANTyousaku"
+		texturefile = "gfx/leaders/MANTyousaku.dds"
+	}
+	
 	### GER
 
 	spriteType = {

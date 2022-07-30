@@ -9,7 +9,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = send_attache
+			picture = received_attache
 			
 			modifier = {
 				consumer_goods_factor = -0.05
@@ -27,7 +27,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = send_attache
+			picture = jap_supremacy_of_technology
 			
 			modifier = {
 				research_time_factor = -0.7

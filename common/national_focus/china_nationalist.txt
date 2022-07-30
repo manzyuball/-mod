@@ -1822,6 +1822,10 @@
 						type = annex_everything
 						target = SHX
 						}
+						create_wargoal = {
+							type = annex_everything
+							target = MEN
+							}
 		}
 	}
 	focus = {

@@ -91,15 +91,15 @@ characters={
 			legacy_id=-1
 		}
 	}
-	MANTyousaku  ={
-		name= MANTyousaku
+	MAN_TYOSAKU={
+		name = MAN_TYOSAKU
 		portraits={
 			civilian={
-				large="gfx/leaders/_EOB/MANTyousaku.dds"
+				large="GFX_portrait_MANTyousaku"
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=liberalism
 			traits={ national_integralist }
 			expire="1956.1.1.12"
 			id=-1
