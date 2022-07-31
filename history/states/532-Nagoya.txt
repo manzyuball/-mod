@@ -4,7 +4,10 @@ state={
 	name="STATE_532" # Tokai
 	manpower = 6174000
 	state_category = metropolis
-
+	resources={
+		steel=20.000
+		aluminium=34.000
+	}
 	history={
 		owner = JAP
 		add_core_of = JAP

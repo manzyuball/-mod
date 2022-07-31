@@ -784,7 +784,7 @@ ask_foreign_manpower_as_major = {
 
 	ai_strategy = {
 		type = asking_foreign_garrison
-		value = 100
+		value = 50
 		# id = ITA # id is optionnal. If it is filled, the value will just apply for this country. If not, the value will apply for all countries.
 	}
 }

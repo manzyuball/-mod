@@ -11,6 +11,6 @@ ai_strategy = {
 
     ai_strategy = {
 		type = front_unit_request
-		value = 150 
+		value = 500 
 	}
 }

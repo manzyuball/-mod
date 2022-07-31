@@ -332,6 +332,7 @@
 		cost = 10	
 		available = {
 			has_completed_focus = SWE_9
+			has_completed_focus = SWE_42
 		}
 		available_if_capitulated = yes
 		completion_reward = {

@@ -20,7 +20,195 @@ ideas = {
 				can_be_called_to_war = no
 			}
 		}
+		PRU_Teikoku_Bousoudo_LOW = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_masters_of_our_own_fate
+			removal_cost = -1
+			modifier = {
+				ai_focus_aggressive_factor = 0.25
+			}
+		}
+		PRU_Teikoku_Bousoudo_OK = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_masters_of_our_own_fate
+			removal_cost = -1
+			modifier = {
+				offensive_war_stability_factor = 0.25
+				ai_focus_aggressive_factor = 0.5
+				conscription = 0.02
+				stability_factor = -0.25
+				surrender_limit = 0.25
+			}
+		}
+		PRU_Teikoku_Bousoudo_NO = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_masters_of_our_own_fate
+			removal_cost = -1
+			modifier = {
+				offensive_war_stability_factor = 0.5
+				ai_focus_aggressive_factor = 0.75
+				conscription = 0.05
+				stability_factor = -0.5
+				surrender_limit = 0.5
+			}
+		}
+		PRU_Teikoku_Bousoudo_Shit = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_masters_of_our_own_fate
+			removal_cost = -1
+			modifier = {
+				offensive_war_stability_factor = 1
+				ai_focus_aggressive_factor = 1
+				conscription = 0.1
+				stability_factor = -1
+				surrender_limit = 0.75
+			}
+		}
 
+
+		PRU_Keizai = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_seize_the_gold_reserves
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.15
+			}
+		}
+		PRU_Keizai2 = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_seize_the_gold_reserves
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.075
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.15
+			}
+		}
+		PRU_Keizai3 = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_seize_the_gold_reserves
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.15
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.15
+			}
+		}
+		PRU_Keizai4 = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_seize_the_gold_reserves
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = -0.15
+				production_speed_buildings_factor = 0.3
+				industrial_capacity_factory = 0.3
+				production_factory_max_efficiency_factor = 0.3
+			}
+		}
+		PRU_AHEN1 = {
+			allowed = {
+				always = yes
+			}
+			picture = prc_permit_opium_trade
+			removal_cost = -1
+			modifier = {
+				stability_weekly = -0.01
+			}
+		}
+		PRU_GAIKOU = {
+			allowed = {
+				always = yes
+			}
+			picture = usa_desegregation_2
+			removal_cost = -1
+			modifier = {
+				fascism_acceptance = -500
+				democratic_acceptance = -500
+				communism_acceptance = -500
+				neutrality_acceptance = -500
+			}
+		}
+		PRU_GAIKOU2 = {
+			allowed = {
+				always = yes
+			}
+			picture = usa_desegregation_2
+			removal_cost = -1
+			modifier = {
+				justify_war_goal_time = -0.70
+				fascism_acceptance = -500
+				democratic_acceptance = -500
+				communism_acceptance = -500
+				neutrality_acceptance = -500
+			}
+		}
+		PRU_KAKOKUNA = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_crush_the_revolution
+			removal_cost = -1
+			modifier = {
+				resistance_activity = -0.75
+			}
+		}
+		PRU_KAKOKUNA1 = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_crush_the_revolution
+			removal_cost = -1
+			modifier = {
+				resistance_activity = -0.75
+				local_resources_factor = 0.35
+			}
+		}
+		PRU_KAKOKUNA2 = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_crush_the_revolution
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				resistance_activity = -0.75
+				local_resources_factor = 0.35
+			}
+		}
+		PRU_KAKOKUNA3 = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_crush_the_revolution
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.15
+				resistance_activity = -0.75
+				local_resources_factor = 0.35
+				industrial_factory_donations = 5
+				military_factory_donations = 5
+			}
+		}
 	}
 	
 		aircraft_manufacturer = { 

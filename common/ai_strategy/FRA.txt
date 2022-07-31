@@ -11,7 +11,23 @@ ai_strategy = {
 
 	ai_trategy = {
 		type = build_army
-		value = 50
+		value = 350
+	}
+}
+ai_strategy = {
+
+	enable = {
+		original_tag = FRA
+	}
+
+	ai_strategy = {
+		type =  garrison
+		value = -250
+	}
+
+    ai_strategy = {
+		type = front_unit_request
+		value = 500 
 	}
 }
 ai_strategy = {
@@ -38,12 +54,12 @@ ai_strategy = {
  ai_strategy = {
 	type = dont_defend_ally_borders
 	id = CHI
-	value = -100
+	value = -500
  }
  ai_strategy = {
 	type = dont_defend_ally_borders
 	id = IVO
-	value = -100
+	value = -500
  }
 
  ai_strategy = {
@@ -62,13 +78,13 @@ SPR_strategy = {
 	ai_strategy = {
 		type = declare_war
 		id = CAT
-		value = 100
+		value = 500
 	}
 
 	ai_strategy = {
 		type =  prepare_for_war
 		id = CAT
-		value = 150
+		value = 500
 	}
 }
 
@@ -81,13 +97,13 @@ FRA_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = europe
-		value = 250
+		value = 500
 	}
 
 	ai_strategy = {
 		type = area_priority
 		id = scandinavia
-		value = 250
+		value = 500
 	}
 
 	ai_strategy = {

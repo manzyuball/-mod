@@ -221,7 +221,7 @@ set_popularities = {
 	communism = 85
 }
 
-set_convoys = 150
+set_convoys = 35
 set_stability = 0.75
 
 FRA = { add_to_faction = HOL }

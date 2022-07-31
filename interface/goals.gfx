@@ -126,9 +126,18 @@ spriteTypes = {
 		name = "GFX_focus_attack_ireland"
 		texturefile = "gfx/interface/goals/focus_attack_ireland.png"			
 	}
-
-
-
+	SpriteType = {
+		name = "GFX_focus_INKA"
+		texturefile = "gfx/interface/goals/INKA.png"			
+	}
+	SpriteType = {
+		name = "GFX_INKA_HEISI"
+		texturefile = "gfx/interface/goals/INKA_HEISI.png"			
+	}
+	SpriteType = {
+		name = "GFX_INKA_GAIKOU"
+		texturefile = "gfx/interface/goals/INKA_GAIKOU.png"			
+	}
 
 
 

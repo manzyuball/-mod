@@ -79,10 +79,12 @@ recruit_character = PRU_armando_reveredo_iglesias
 recruit_character = PRU_reynaldo_vinatea
 
 add_manpower = 300000
-
-set_convoys = 175
-
+set_research_slots = 4
+set_convoys = 75
+set_stability = 0.25
+set_war_support = 0.05
 add_ideas = {
+	PRU_Yomigaettateikoku
 }
 set_politics = {
 	ruling_party = communism

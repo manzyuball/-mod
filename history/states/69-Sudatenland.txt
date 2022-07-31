@@ -24,7 +24,7 @@ state=
 		add_core_of = AUS
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
+			industrial_complex = 4
 			anti_air_building = 1
 			424 =
 			{

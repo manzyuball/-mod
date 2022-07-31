@@ -1,0 +1,11 @@
+
+JAP_MANSYU = {
+    enable = {
+        TAG = JAP
+    }
+    ai_strategy = {
+      type = alliance
+      id = MAN
+      value = 500
+    }
+}
