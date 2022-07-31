@@ -1,6 +1,6 @@
 characters={
-	VLA_tura = {
-		name = VLA_tura
+	VLA_nikolay_ii_romanov = {
+		name = VLA_nikolay_ii_romanov
 		portraits = {
 			civilian = {
 				large = GFX_portrait_nikolay
@@ -12,5 +12,219 @@ characters={
 			expire = "1953.3.1.1"
 			id = -1
 		}
+	}
+	VLA_lavr_kornilov = {
+		name = VLA_lavr_kornilov
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLA/VLA_lavr_kornilov.png"
+			}
+		}
+        field_marshal = {
+            traits = {
+                infantry_leader
+                offensive_doctorine
+                brilliant_strategist
+				war_hero
+            }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 3
+        }
+	}
+	VLA_anton_denikin = {
+		name = VLA_anton_denikin
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLA/VLA_anton_denikin.png"
+			}
+		}
+        field_marshal = {
+            traits = {
+                winter_specialist
+				inflexible_strategist
+            }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 1
+            planning_skill = 5
+            logistics_skill = 2
+        }
+	}
+	VLA_pyotr_wrangel = {
+		name = VLA_pyotr_wrangel
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLA/VLA_pyotr_wrangel.png"
+			}
+		}
+        field_marshal = {
+            traits = {
+                cavalry_leader
+				cavalry_officer
+				harsh_leader
+				inspirational_leader
+            }
+            skill = 4
+            attack_skill = 5
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 3
+        }
+	}
+	VLA_aleksandr_kolchak = {
+		name = VLA_aleksandr_kolchak
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLA/VLA_aleksandr_kolchak.png"
+			}
+			navy = {
+				large = "gfx/leaders/VLA/VLA_aleksandr_kolchak.png"
+			}
+		}
+        field_marshal = {
+            traits = {
+                politically_connected
+				commando
+            }
+            skill = 4
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 5
+        }
+		navy_leader = {
+			traits = {
+				bold
+				air_controller
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 5
+		}
+	}
+	VLA_pyotr_krasnov = {
+		name = VLA_pyotr_krasnov
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLA/VLA_pyotr_krasnov.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+                Ranger
+				cavalry_leader
+				cavalry_officer
+            }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}	
+	}
+	VLA_aleksandr_kutepov = {
+		name = VLA_aleksandr_kutepov
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLA/VLA_aleksandr_kutepov.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+                Ranger
+				brilliant_strategist
+				hill_fighter
+				infantry_leader
+            }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}	
+	}
+	VLA_mikhail_diterikhs = {
+		name = VLA_mikhail_diterikhs
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLA/VLA_mikhail_diterikhs.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+                infantry_officer
+				infantry_leader
+				trait_cautious
+            }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}	
+	}
+	VLA_vladimir_kappel = {
+		name = VLA_vladimir_kappel
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLA/VLA_vladimir_kappel.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+                trait_reckless
+				guerilla_fighter
+            }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 4
+		}	
+	}
+	VLA_aleksey_grishin_almazov = {
+		name = VLA_aleksey_grishin_almazov
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLA/VLA_aleksey_grishin_almazov.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+                trickster
+				organizer
+            }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}	
+	}
+	VLA_mikhail_drozdovsky = {
+		name = VLA_mikhail_drozdovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLA/VLA_mikhail_drozdovsky.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+                media_personality
+				trait_reckless
+				organizer
+				infantry_officer
+            }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 2
+		}	
 	}
 }

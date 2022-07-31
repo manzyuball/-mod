@@ -26,7 +26,6 @@
 	motorized_rocket_unit = 1
 	motorized_rocket_brigade = 1
 }
-recruit_character = VLA_tura
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -118,6 +117,15 @@ set_popularities = {
 	communism = 10
 }
 
-
-
+recruit_character = VLA_nikolay_ii_romanov
+recruit_character = VLA_lavr_kornilov
+recruit_character = VLA_anton_denikin
+recruit_character = VLA_pyotr_wrangel
+recruit_character = VLA_aleksandr_kolchak
+recruit_character = VLA_pyotr_krasnov
+recruit_character = VLA_aleksandr_kutepov
+recruit_character = VLA_mikhail_diterikhs
+recruit_character = VLA_vladimir_kappel
+recruit_character = VLA_aleksey_grishin_almazov
+recruit_character = VLA_mikhail_drozdovsky
 
