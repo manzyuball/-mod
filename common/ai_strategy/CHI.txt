@@ -14,3 +14,15 @@ ai_strategy = {
 		value = 500 
 	}
 }
+ai_VLA_Russia = {
+
+	enable = {
+		original_tag = CHI
+	}
+
+	ai_strategy = {
+		type =	befriend
+		id = VLA
+		value = 500
+	}
+}

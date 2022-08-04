@@ -462,7 +462,6 @@ ideas = {
 			available = {
 				if = {
 					limit = { has_dlc = "Waking the Tiger" }
-					has_completed_focus = MAN_invite_japanese_investors
 				}
 			}
 			
@@ -502,7 +501,6 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			available = {
-				has_completed_focus = MAN_mamc
 			}
 
 			allowed = {
@@ -527,7 +525,6 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			available = {
-				has_completed_focus = MAN_mamc
 			}
 
 			allowed = {
@@ -552,7 +549,6 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			available = {
-				has_completed_focus = MAN_mamc
 			}
 
 			allowed = {

@@ -436,5 +436,616 @@ ideas = {
 			
 		}
 	}
+		
+	tank_manufacturer = {
+		
+		designer = yes
+
+		SOV_morozov_design_bureau_2 = {
+			name = morozov_design_bureau
+
+			picture = morozov_design_bureau
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+				hidden_trigger = {
+				}
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			modifier = {
+			}
+
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.15
+				}
+			}
+		}
+
+		SOV_astrov_design_bureau_2_3 = {
+			name = astrov_design_bureau
+			
+			picture = astrov_design_bureau
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { medium_tank_manufacturer }
+
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.15
+					soft_attack = 0.10
+				}
+			}
+		}
+		SOV_okmo_final = {
+			name = okmo
+
+			picture = okmo
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+			
+			research_bonus = {
+				armor = 0.25
+			}
+			
+			traits = { infantry_tank_manufacturer }
+
+			equipment_bonus = {
+				armor = {
+					maximum_speed = 0.05
+					build_cost_ic = -0.05
+					soft_attack = 0.05
+				}
+			}
+		}
+
+                                                            
+ #    #  #   #  #####  #   ####   #    #   ####   #    #  # 
+ ##  ##   # #     #    #  #       #    #  #    #  #    #  # 
+ # ## #    #      #    #   ####   ######  #       ######  # 
+ #    #    #      #    #       #  #    #  #       #    #  # 
+ #    #    #      #    #  #    #  #    #  #    #  #    #  # 
+ #    #    #      #    #   ####   #    #   ####   #    #  # 
+                                                            
+		SOV_mytishchy_machine_building_plant_final = {
+			name = SOV_mytishchy_machine_building_plant
+
+			picture = SOV_mytishchy_machine_building_plant
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_refurbishment_plant }
+			
+			modifier = {
+				equipment_conversion_speed = 0.15
+				equipment_capture_factor = 0.15
+				land_equipment_upgrade_xp_cost = -0.1
+			}
+
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.05
+					soft_attack = 0.05
+				}
+			}
+		}  
+
+		SOV_kirov_final = {
+			name = SOV_kirov
+
+			picture = SOV_kirov
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { heavy_tank_manufacturer }
+			
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.05
+					soft_attack = 0.15
+				}
+			}
+		}
+	}
+
+	naval_manufacturer = {
+	
+		designer = yes                            
+		SOV_nevskoye_design_bureau_final_3 = {
+			name = nevskoye_design_bureau
+
+			picture = nevskoye_design_bureau
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+				naval_air = 0.15
+				naval_mines = 0.15
+			}
+			
+			traits = { battlefleet_designer }
+			
+			modifier = {
+				repair_speed_factor = 0.15
+			}
+
+			equipment_bonus = {
+				coastal_defense_ships = {
+					build_cost_ic = -0.2
+				}
+				submarine = {
+					build_cost_ic = -0.2
+				}
+			}
+		}
+		SOV_rubin_design_bureau_final_3 = {
+			name = SOV_rubin_design_bureau
+
+			picture = SOV_rubin_design_bureau
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+				naval_mines = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			modifier = {
+				repair_speed_factor = 0.05
+			}
+
+			equipment_bonus = {
+				coastal_defense_ships = {
+					build_cost_ic = -0.3
+				}
+				submarine = {
+					build_cost_ic = -0.3
+				}
+			}
+		}                                                 
+		SOV_black_sea_shipyard_final_3 = {
+			name = SOV_black_sea_shipyard
+
+			picture = SOV_black_sea_shipyard
+			
+			allowed = {
+				original_tag = SOV
+			}
+			visible = {
+			}
+			research_bonus = {
+				naval_equipment = 0.25
+				naval_mines = 0.25
+			}
+			traits = { black_sea_naval_manufacturer }
+			
+			modifier = {
+				repair_speed_factor = 0.1
+			}
+
+			equipment_bonus = {
+				coastal_defense_ships = {
+					build_cost_ic = -0.1
+				}
+				submarine = {
+					build_cost_ic = -0.1
+				}
+			}
+		}
+
+		SOV_sevastopol_marine_plant_final_3 = {
+			name = SOV_sevastopol_marine_plant
+
+			picture = SOV_sevastopol_marine_plant
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.1
+				naval_mines = 0.15
+			}
+			
+			traits = { repair_and_refurbishment_plant }
+			
+			modifier = {
+				naval_accidents_chance = -0.15
+				repair_speed_factor = 0.15
+				refit_ic_cost = -0.15
+				refit_speed = 0.15
+			}
+
+			equipment_bonus = {
+				coastal_defense_ships = {
+					build_cost_ic = -0.1
+				}
+				submarine = {
+					build_cost_ic = -0.1
+				}
+			}
+		}
+	}
+	
+	aircraft_manufacturer = {
+		
+		designer = yes
+		SOV_mig_design_bureau_final = {
+			name = mig_design_bureau
+
+			picture = mig_design_bureau
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+			
+			available = {
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+				radar_tech = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			modifier = {
+				air_agility_factor = 0.05
+				air_mission_efficiency = 0.05
+			}
+
+			equipment_bonus = {
+				CAS_equipment = {
+					build_cost_ic = -0.15
+				}
+			}
+		}
+		SOV_ilyushin_design_bureau_final = {
+			name = ilyushin_design_bureau
+
+			picture = ilyushin_design_bureau
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+			
+			available = {
+			}
+			
+			research_bonus = {
+				air_equipment = 0.25
+				radar_tech = 0.25
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			modifier = {
+				air_agility_factor = 0.15
+				air_mission_efficiency = 0.15
+			}
+
+			equipment_bonus = {
+				CAS_equipment = {
+					build_cost_ic = -0.1
+				}
+			}
+		}
+		SOV_tupolev_design_bureau_final = {
+			name = tupolev_design_bureau
+
+			picture = tupolev_design_bureau
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+			
+			available = {
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+				radar_tech = 0.1
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			modifier = {
+				air_agility_factor = 0.05
+				air_mission_efficiency = 0.05
+			}
+
+			equipment_bonus = {
+				CAS_equipment = {
+					build_cost_ic = -0.05
+				}
+			}
+		}
+
+		SOV_yakovlev_design_bureau_final = {
+			name = yakovlev_design_bureau
+
+			picture = yakovlev_design_bureau
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+			
+			available = {
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+				radar_tech = 0.1
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			modifier = {
+				air_agility_factor = 0.05
+				air_mission_efficiency = 0.05
+			}
+
+			equipment_bonus = {
+				CAS_equipment = {
+					build_cost_ic = -0.05
+				}
+			}
+		}
+	}	
+	
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		SOV_grabin_design_bureau_final = {
+			name = grabin_design_bureau
+
+			picture = grabin_design_bureau
+				
+			allowed = {
+				original_tag = SOV
+			}
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				industrial_capacity_factory = 0.15
+			}
+
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = -0.15
+				}
+			}
+		}
+		SOV_tula_arms_plant_final = {
+			name = tula_arms_plant
+			
+			picture = tula_arms_plant
+
+			allowed = {
+				original_tag = SOV
+			}
+			
+			visible = {
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				industrial_capacity_factory = 0.15
+			}
+
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.25
+				}
+			}
+		}
+		SOV_gaz_final = {
+			name = gaz
+
+			picture = gaz
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			visible = {
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.25
+				mot_rockets = 0.50
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				industrial_capacity_factory = 0.15
+			}
+
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.25
+				}
+			}
+		}
+	}
+
+	industrial_concern = {
+
+		stalingrad_tractor_factory_improved = {
+			name = stalingrad_tractor_factory
+
+			picture = stalingrad_tractor_factory
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+			
+			research_bonus = {
+				industry = 0.25
+			}
+			
+			traits = { industrial_concern }
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		leningrad_polytechnical_institute_improved = {
+			name = leningrad_polytechnical_institute
+
+			picture = leningrad_polytechnical_institute
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+
+			research_bonus = {
+				electronics = 0.25
+			}
+			
+			traits = { electronics_concern }
+			
+			modifier = {
+				supply_consumption_factor = -0.05
+			}
+		}
+		SOV_soviet_railways_improved = { #NSB
+			name = SOV_soviet_railways
+
+			picture = SOV_soviet_railways
+
+			allowed = {
+				original_TAG = SOV
+				
+			}
+			cost = 75
+
+			research_bonus = {
+				train_tech = 0.25
+			}
+			
+			traits = { railway_company }
+			
+			modifier = {
+				mobilization_speed = 0.05
+			}
+		}
+		SOV_gosproyektstroy_2_ger = {
+
+			name = SOV_gosproyektstroy_1
+			
+			picture = generic_industrial_concern_2
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			visible = {
+			}
+
+			cost = 100
+			
+			traits = { construction_company }
+			
+			modifier = {
+				custom_modifier_tooltip = SOV_gosproyektstroy_1_tt
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				license_purchase_cost = -0.25
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+	}
 
 }
