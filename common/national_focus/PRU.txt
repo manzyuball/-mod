@@ -850,6 +850,10 @@ focus = {
 	relative_position_id = PRU_se1
 	prerequisite = { focus = PRU_seA3 }
 	completion_reward = {
+		custom_effect_tooltip = PRU_nsa
+		hidden_effect = {
+			set_country_flag = PRU_Ansatu
+		}
 	}
 }
 focus = {
@@ -889,6 +893,10 @@ focus = {
 	relative_position_id = PRU_seN1
 	prerequisite = { focus = PRU_seN2 }
 	completion_reward = {
+		custom_effect_tooltip = PRU_SINEI
+		hidden_effect = {
+			load_oob = "PRU_SINEI"
+		}
 	}
 }
 focus = {
@@ -908,7 +916,21 @@ focus = {
 	relative_position_id = PRU_seN1
 	prerequisite = { focus = PRU_seN3 }
 	completion_reward = {
-		add_stability = 0.1
+		add_ideas = PRU_HIMIT
+		create_corps_commander = {
+			name = "国家親衛隊秘密警察所長"
+			picture = "Portrait_Italy_Angelo_Iachino.dds"
+			traits = { trait_reckless harsh_leader brilliant_strategist }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			}
+			swap_ideas = {
+				remove_idea = PRU_Teikoku_Bousoudo_LOW 
+				add_idea = PRU_Teikoku_Bousoudo_OK
+				}
 	}
 }
 focus = {
@@ -928,7 +950,10 @@ focus = {
 	relative_position_id = PRU_seN1
 	prerequisite = { focus = PRU_seN4 }
 	completion_reward = {
-		add_stability = 0.1
+		swap_ideas = {
+			remove_idea = PRU_Teikoku_Bousoudo_OK
+			add_idea = PRU_Teikoku_Bousoudo_NO
+			}
 	}
 }
 focus = {
@@ -948,7 +973,10 @@ focus = {
 	relative_position_id = PRU_seN1
 	prerequisite = { focus = PRU_seN5 }
 	completion_reward = {
-		add_stability = 0.1
+		swap_ideas = {
+			remove_idea = PRU_Teikoku_Bousoudo_NO
+			add_idea = PRU_Teikoku_Bousoudo_Shit
+			}
 	}
 }
 focus = {
@@ -968,7 +996,7 @@ focus = {
 	relative_position_id = PRU_seN1
 	prerequisite = { focus = PRU_seN6 }
 	completion_reward = {
-		add_stability = 0.1
+		add_research_slot = 1
 	}
 }
 focus = {
@@ -979,6 +1007,7 @@ focus = {
 
 	cost = 5
 
+
 	ai_will_do = {
 	factor = 1
 	}
@@ -988,6 +1017,7 @@ focus = {
 	relative_position_id = PRU_seN1
 	prerequisite = { focus = PRU_seN2 }
 	completion_reward = {
+		add_ideas = PRU_SENSOUZEi
 	}
 }
 focus = {
@@ -1007,7 +1037,17 @@ focus = {
 	relative_position_id = PRU_seN1
 	prerequisite = { focus = PRU_seN8 }
 	completion_reward = {
-		add_stability = 0.1
+		add_manpower = 64021
+		create_corps_commander = {
+			name = "ユナイテッド・ファミリー"
+			picture = "Portrait_Germany_Hilter_M.dds"
+			traits = { substance_abuser  }
+			skill = 4
+			attack_skill = 8
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			}
 	}
 }
 focus = {
@@ -1027,7 +1067,7 @@ focus = {
 	relative_position_id = PRU_seN1
 	prerequisite = { focus = PRU_seN9 }
 	completion_reward = {
-		add_stability = 0.1
+		add_research_slot = 1
 	}
 }
 focus = {
@@ -1047,7 +1087,7 @@ focus = {
 	relative_position_id = PRU_seN1
 	prerequisite = { focus = PRU_seN10 }
 	completion_reward = {
-		add_stability = 0.1
+		add_ideas = PRU_KAGAKUSENSOU
 	}
 }
 focus = {
@@ -1067,12 +1107,15 @@ focus = {
 	relative_position_id = PRU_seN1
 	prerequisite = { focus = PRU_seN11 }
 	completion_reward = {
-		add_stability = 0.1
+		swap_ideas = {
+			remove_idea = PRU_KAGAKUSENSOU
+			add_idea = PRU_KAGAKUSENSOU1
+			}
 	}
 }
 focus = {
 	id = PRU_seN13
-	icon ="GFX_focus_ger_return_of_the_kaiser"
+	icon ="GFX_focus_POL_end_the_regency"
 	x = 0
 	y = 7
 
@@ -1088,12 +1131,15 @@ focus = {
 	prerequisite = { focus = PRU_seN12}
 	prerequisite = { focus = PRU_seN7}
 	completion_reward = {
-		add_stability = 0.1
+		swap_ideas = {
+			remove_idea = PRU_KAGAKUSENSOU1
+			add_idea = PRU_SIWOSUUHAI
+			}
 	}
 }
 focus = {
 	id = PRU_seN14
-	icon ="GFX_focus_ger_return_of_the_kaiser"
+	icon ="GFX_focus_mex_restore_the_army_of_christ"
 	x = 0
 	y = 8
 
@@ -1108,7 +1154,10 @@ focus = {
 	relative_position_id = PRU_seN1
 	prerequisite = { focus = PRU_seN13}
 	completion_reward = {
-		add_stability = 0.1
+		swap_ideas = {
+			remove_idea = PRU_SIWOSUUHAI
+			add_idea = PRU_SIWOSUUHAI1
+			}
 	}
 }
 focus = {
@@ -1128,7 +1177,10 @@ focus = {
 	relative_position_id = PRU_seN1
 	prerequisite = { focus = PRU_seN14}
 	completion_reward = {
-		add_stability = 0.1
+		swap_ideas = {
+			remove_idea = PRU_SIWOSUUHAI1
+			add_idea = PRU_SIWOSUUHAI2
+			}
 	}
 }
 focus = {

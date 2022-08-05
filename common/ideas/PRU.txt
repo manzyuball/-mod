@@ -209,6 +209,104 @@ ideas = {
 				military_factory_donations = 5
 			}
 		}
+		PRU_HIMIT = {
+			allowed = {
+				always = yes
+			}
+			picture = generic_secret_police
+			removal_cost = -1
+			modifier = {
+				non_core_manpower = 0.15
+				compliance_growth_on_our_occupied_states = -0.5
+			}
+		}
+		PRU_SENSOUZEi = {
+			allowed = {
+				always = yes
+			}
+			picture = generic_secret_police
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				industrial_factory_donations = 20
+			}
+			cancel = {
+				has_war = yes
+			}
+		}
+		PRU_KAGAKUSENSOU = {
+			allowed = {
+				always = yes
+			}
+			picture = SOV_atomic_bomb_project
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.25
+			}
+		}
+		PRU_KAGAKUSENSOU1 = {
+			allowed = {
+				always = yes
+			}
+			picture = SOV_atomic_bomb_project
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.25
+				army_org_Factor = 0.15
+			}
+		}
+		PRU_SIWOSUUHAI = {
+			allowed = {
+				always = yes
+			}
+			picture = SOV_atomic_bomb_project
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.40
+				army_org_Factor = 0.25
+				conscription = 0.05
+			}
+		}
+		PRU_SIWOSUUHAI1 = {
+			allowed = {
+				always = yes
+			}
+			picture = SOV_atomic_bomb_project
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.40
+				army_org_Factor = 0.25
+				conscription = 0.1
+				mobilization_speed = 0.25
+			}
+		}
+		PRU_SIWOSUUHAI2 = {
+			allowed = {
+				always = yes
+			}
+			picture = SOV_atomic_bomb_project
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.40
+				army_org_Factor = 0.3
+				conscription = 0.15
+				mobilization_speed = 0.5
+			}
+		}
+		PRU_SIWOSUUHAI3 = {
+			allowed = {
+				always = yes
+			}
+			picture = SOV_atomic_bomb_project
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.40
+				army_defence_factor = 0.25
+				army_org_Factor = 0.3
+				conscription = 0.5
+				mobilization_speed = 0.5
+			}
+		}
 	}
 	
 		aircraft_manufacturer = { 
