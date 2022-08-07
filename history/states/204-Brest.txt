@@ -4,7 +4,7 @@ state={
 	name="STATE_204" # Bobruysk
 	manpower = 1041084
 	
-	state_category = rural
+	state_category = towm
 
 	history={
 		victory_points = {

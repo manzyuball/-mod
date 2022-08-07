@@ -6,7 +6,7 @@ state={
 	history={
 		owner = AST
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			12237 = {
 				naval_base = 2
 

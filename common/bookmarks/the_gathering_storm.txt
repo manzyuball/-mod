@@ -117,14 +117,10 @@ bookmarks = {
 			history = "POL_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				uncontrolled_exports
-				POL_april_constitution_1
-				POL_looming_peasants_strike
+				POL_S1
+				POL_S2
 			}
 			focuses = {
-				POL_complete_april_constitution
-				POL_organize_the_peasants_strike
-				POL_fulfil_fifth_of_november
 			}
 		}
 		"TUR"={
@@ -225,6 +221,15 @@ bookmarks = {
 				YUG_d1
 				YUG_d13
 				YUG_k2
+			}
+		}
+		"USB"={
+			minor = yes
+			history = "USB_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
 			}
 		}
 		

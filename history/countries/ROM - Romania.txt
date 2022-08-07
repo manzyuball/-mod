@@ -105,33 +105,19 @@ if = {
 	}
 }
 
-
-#Kick off kings crazy life
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	ROM = {
-		#Pick from list of the sane events first
-		random_list = {
-			100 = { country_event = { id = DOD_romania.81 days = 2 random_days = 20 } }
-		}
-	}
-}
-
 set_convoys = 20
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 30
-	fascism = 40
+	fascism = 20
 	communism = 10
-	neutrality = 20
+	neutrality = 40
 }
 
 ### VARIANTS ###

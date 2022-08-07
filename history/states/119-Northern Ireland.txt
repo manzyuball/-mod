@@ -12,9 +12,9 @@ state={
 			385 1 # Londonderry
 		}
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 5
+			industrial_complex = 4
 			air_base = 1
 			dockyard = 2
 			3379 = {

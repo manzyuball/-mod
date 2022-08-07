@@ -2,7 +2,7 @@ state={
 	id=667
 	name="STATE_667"
 	resources={
-		rubber=12 # was: 16
+		rubber=52 # was: 16
 	}
 
 	history={
@@ -10,6 +10,7 @@ state={
 		add_core_of = INS
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 4
 			1355 = {
 				naval_base = 1
 
