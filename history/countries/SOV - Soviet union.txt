@@ -511,8 +511,6 @@ set_popularities = {
 create_faction = "第３インターナショナル"
 add_to_faction = SOV
 give_guarantee = FRA
-give_guarantee = ROM
-
 if = {
 	limit = {
 		has_dlc = "La Resistance"
