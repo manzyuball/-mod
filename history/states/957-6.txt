@@ -1,11 +1,9 @@
+
 state={
 	id=957
 	name="STATE_957"
-	provinces={
-		1576 1614 4618 
-	}
-	history = {
-		
+
+	history={
 		owner = TAJ
 		buildings = {
 			infrastructure = 2
@@ -13,14 +11,17 @@ state={
 		}
 		add_core_of = TAJ
 		add_core_of = SOV
-		
 		victory_points = {
 			1554 1 
 		}
-		
+
 	}
-	state_category = rural
+
+	provinces={
+		1576 1614 4618 12324 12465 
+	}
 	manpower=181241
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

@@ -67,11 +67,11 @@ if = {
 	}
 }
 add_ideas = {
-	POL_S1
-	POL_S2
+	POL_ThreeHOU
+	POL_NOUGYOU
 }
-
-set_convoys = 10
+add_manpower = 1264210
+set_convoys = 50
 
 set_politics = {
 	ruling_party = neutrality
@@ -80,10 +80,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 50
-	communism = 0
-	neutrality = 25
+	democratic = 30
+	fascism = 30
+	communism = 10
+	neutrality = 30
 }
 
 recruit_character = POL_ignacy_moscicki

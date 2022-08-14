@@ -125,7 +125,7 @@ ideas = {
 			name = ENG_Kyoukou
 			picture = usa_great_depression_3
 			modifier = {
-				consumer_goods_factor = 0.25
+				consumer_goods_factor = 0.15
 				production_factory_start_efficiency_factor = -0.1
 				industrial_capacity_factory = -0.1
 			}
@@ -149,7 +149,7 @@ ideas = {
 
 			modifier = {
 				min_export = 0.05
-				consumer_goods_factor = -0.09
+				consumer_goods_factor = -0.10
 			}
 		}
 

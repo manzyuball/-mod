@@ -138,8 +138,11 @@ spriteTypes = {
 		name = "GFX_INKA_GAIKOU"
 		texturefile = "gfx/interface/goals/INKA_GAIKOU.png"			
 	}
-
-
+	SpriteType = {
+		name = "GFX_BIG_Poland"
+		texturefile = "gfx/interface/goals/Poland.png"			
+	}
+	
 
 
 

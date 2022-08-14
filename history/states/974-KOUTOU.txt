@@ -1,0 +1,28 @@
+state={
+	id=974
+	name="STATE_974"
+	provinces={
+		1078 1120 1162 4165 4207 7067 7141 7182 9938 9970 9978 
+	}
+	resources={
+		tungsten=25.000
+		steel=19.000
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = TAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			air_base = 5
+		}
+
+	}
+	manpower=6700000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+}

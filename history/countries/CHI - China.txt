@@ -147,7 +147,10 @@ set_variable = {
 	var = CHI.CHI_tetu_h
 	value = 10
 }
-
+create_faction = "アジア社会主義革命戦線‌"
+add_to_faction = BRM
+add_to_faction = IVO
+add_to_faction = CHI
 if = {
 	limit = {
 		has_dlc = "Waking the Tiger"

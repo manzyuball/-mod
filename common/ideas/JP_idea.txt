@@ -22,7 +22,7 @@ ideas = {
 		SyouwaKyoukou = { #昭和恐慌
 			picture = great_depression
 			modifier = {
-				consumer_goods_factor = 0.35
+				consumer_goods_factor = 0.15
 				stability_factor = -0.15
 				production_speed_buildings_factor = -0.1
 			}
@@ -30,7 +30,7 @@ ideas = {
 		SyouwaKyoukou1 = { #昭和恐慌
 		picture = great_depression
 		modifier = {
-			consumer_goods_factor = 0.25
+			consumer_goods_factor = 0.10
 			stability_factor = -0.05
 			production_speed_buildings_factor = -0.1
 		}
@@ -38,14 +38,14 @@ ideas = {
 	SyouwaKyoukou2= { #昭和恐慌
 	picture = great_depression
 	modifier = {
-		consumer_goods_factor = 0.15
+		consumer_goods_factor = 0.10
 		stability_factor = -0.05
 	}
     }
 	SyouwaKyoukou3= { #昭和恐慌
 	picture = great_depression
 	modifier = {
-		consumer_goods_factor = 0.1
+		stability_factor = -0.05
 	}
     }
 		KaihatuKeikaku = { #第1次匡救政策
