@@ -456,7 +456,7 @@ focus = {
 	y = 5
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -468,7 +468,6 @@ focus = {
 		annex_country = {
 			target = WAL
 			transfer_troops = yes
-			}
 		}
 	}
 }
@@ -795,7 +794,7 @@ focus = {
 	completion_reward = {
 		AUS = { add_to_faction = ROM }
 		add_popularity = {
-			ideology = fascism
+			ideology = neutrality
 			popularity = 0.3
 			}
 	}
