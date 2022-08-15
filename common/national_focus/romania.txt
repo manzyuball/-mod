@@ -94,6 +94,7 @@ focus = {
 		add_popularity = {
 			ideology = democratic
 			popularity = -0.2
+		}
 	}
 }
 focus = {
