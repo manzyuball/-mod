@@ -1897,10 +1897,14 @@
 		}
 
 		completion_reward = {
-			create_wargoal = {
+			declare_war_on = {
 				type = annex_everything
 				target = MAN
 				}
+				declare_war_on = {
+					type = annex_everything
+					target = JAP
+					}
 			add_timed_idea = {
 				idea = CHI_daityuuka
 				days = 180

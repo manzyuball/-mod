@@ -92,7 +92,7 @@
 			factor = 10
 		}
 		available = {
-
+			has_war = no
 		}
 		bypass = {
 		}
@@ -101,6 +101,10 @@
 			add_state_core = 156
 			add_state_core = 115
 			add_state_core = 835
+			annex_country = {
+				target = MLT
+				transfer_troops = yes
+				}	
 		}
 	}
 	focus = { 
@@ -222,10 +226,6 @@
 					target = TUN
 					transfer_troops = yes
 					}
-					annex_country = {
-						target = MLT
-						transfer_troops = yes
-						}	
 			}
 
 		}

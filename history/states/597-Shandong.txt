@@ -13,11 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
-
-		}
-		1938.10.25 = {
-			controller = JAP
+			industrial_complex = 2
 
 		}
 
