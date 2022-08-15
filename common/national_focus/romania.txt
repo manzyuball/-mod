@@ -402,7 +402,7 @@ focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-			ideology = communism
+			ideology = neutrality
 			popularity = 0.2
 		}
 	}
@@ -794,7 +794,7 @@ focus = {
 	completion_reward = {
 		AUS = { add_to_faction = ROM }
 		add_popularity = {
-			ideology = neutrality
+			ideology = fascism
 			popularity = 0.3
 			}
 	}
