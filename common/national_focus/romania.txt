@@ -842,7 +842,7 @@ focus = {
 	completion_reward = {
 		ENG = { add_to_faction = ROM }
 		add_popularity = {
-			ideology = democracy
+			ideology = democratic
 			popularity = 0.3
 			}
 	}
