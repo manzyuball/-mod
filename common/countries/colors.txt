@@ -1,4 +1,4 @@
-#reload countrycolorsPRU
+#reload countrycolors
 
 GER = {
 	color = rgb { 139 0 0 }
