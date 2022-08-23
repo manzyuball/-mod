@@ -226,6 +226,14 @@ recruit_character = FRA_paul_baudouin
 recruit_character = FRA_maurice_gauche
 recruit_character = FRA_jacques_duclos
 recruit_character = FRA_marcel_bucard
+recruit_character = EOB_Boueisyou
+recruit_character = EOB_Boueisyou1
+recruit_character = EOB_Boueisyou2
+recruit_character = EOB_Boueisyou3
+recruit_character = EOB_Gaimu
+recruit_character = EOB_Gaimu1
+recruit_character = EOB_Gaimu2
+recruit_character = EOB_Gaimu3
 add_ideas = {
 	FRA_la_KAKUMEI
 }

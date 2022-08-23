@@ -8,12 +8,10 @@ if = {
 		set_naval_oob = "HOL_1936_naval_legacy"
 	}
 }
-
-set_research_slots = 3
-set_stability = 0.75
-set_war_support = 0
+set_research_slots = 4
+set_stability = 0.6
+set_war_support = 4
 add_command_power = 10
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -28,14 +26,12 @@ set_technology = {
 	marines = 1
 	basic_train = 1
 }
-
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = { bicycle_infantry = 1 }
 }
-
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
@@ -106,109 +102,14 @@ recruit_character = HOL_meinout_rost_van_tonningen
 recruit_character = HOL_dirk_jan_de_geer
 recruit_character = HOL_pieter_sjoerds_gerbrandy
 recruit_character = HOL_wilhelmina
-
-1939.1.1 = {
-	add_ideas = {
-		limited_conscription
-	}
-
-	add_political_power = 1198
-	add_command_power = 100
-	
-	#generic focuses
-	remove_ideas = HOL_weak_government
-
-	complete_national_focus = HOL_obtain_foreign_colonial_investments	
-	complete_national_focus = HOL_the_crown_jewel_colony				
-	complete_national_focus = HOL_the_western_possessions				
-	complete_national_focus = HOL_abandon_the_gold_standard			
-	complete_national_focus = HOL_continue_the_public_works			
-	complete_national_focus = HOL_finish_the_noordoostpolder			
-	complete_national_focus = HOL_the_maastunnel						
-	complete_national_focus = HOL_expand_the_artillerieinrichtingen	
-	complete_national_focus = HOL_philips_focus							
-	complete_national_focus = HOL_expand_RD_facilities				
-	complete_national_focus = HOL_overturn_military_budget_cuts		
-	complete_national_focus = HOL_prepare_naval_expansion				
-	complete_national_focus = HOL_cornerstone_of_colonial_defense		
-	complete_national_focus = HOL_modernize_the_cruiser_fleet			
-	complete_national_focus = HOL_expand_curacao_oil_refineries		
-	complete_national_focus = HOL_prepare_the_inundation_lines		
-	complete_national_focus = HOL_germany_is_the_greater_threat		
-	complete_national_focus = HOL_antilles_defenses					
-	complete_national_focus = HOL_form_new_government	
-	
-	oob = "HOL_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "HOL_1939_naval_mtg"
-		else = {
-			set_naval_oob = "HOL_1939_naval_legacy"
-		}
-	}
-
-	set_technology = {
-		tech_engineers = 1
-		motorised_infantry = 1
-		fighter1 = 1
-		tactical_bomber1 = 1
-		naval_bomber1 = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		marines = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		fuel_refining2 = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		concentrated_industry = 1
-		concentrated_industry2 = 1
-		concentrated_industry3 = 1
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-		basic_submarine = 1
-		improved_light_cruiser = 1
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-			improved_ship_hull_submarine = 1
-			basic_ship_hull_light = 1
-			basic_light_battery = 1
-			basic_medium_battery = 1
-		}
-	}
-	HOL_dirk_jan_de_geer = {
-		promote_character = { ideology = conservatism }
-	}
-}
-
+recruit_character = EOB_Boueisyou
+recruit_character = EOB_Boueisyou1
+recruit_character = EOB_Boueisyou2
+recruit_character = EOB_Boueisyou3
+recruit_character = EOB_Gaimu
+recruit_character = EOB_Gaimu1
+recruit_character = EOB_Gaimu2
+recruit_character = EOB_Gaimu3
 set_politics = {
 	ruling_party = communism
 	last_election = "1933.4.26"
@@ -220,13 +121,9 @@ set_popularities = {
 	fascism = 5
 	communism = 85
 }
-
 set_convoys = 35
 set_stability = 0.75
-
 FRA = { add_to_faction = HOL }
-
-
 ### VARIANTS ###
 # 1936 Start #
 if = {

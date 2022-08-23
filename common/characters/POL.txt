@@ -308,29 +308,25 @@ characters = {
 		}
 	}
 
-	POL_pavel_bermondt_avalov = {
-		name=POL_pavel_bermondt_avalov
-		portraits = {
+	POL_Pius = {
+		name=POL_Pius
+		portraits={
 			civilian = {
-				large="GFX_portrait_POL_pavel_bermondt_avlov"
+				large="gfx/leaders/_EOB/domohu.dds"
 			}
-			army = {
-				large="GFX_portrait_POL_pavel_bermondt_avlov"
-			}
-		}
+		}	
 		country_leader = {
-			ideology=gen_nazism
+			ideology=fascism_ideology
 			expire="1965.1.1.1"
-			traits = { POL_cossack_king }
-			id=-1
+			id= -1
+			traits = { Kaihatud father_of_polish_nationalism }
 		}
 	}
-
 	POL_roman_dmowski = {
 		name=POL_roman_dmowski
 		portraits={
 			civilian = {
-				large="GFX_portrait_POL_roman_dmowski"
+				large="gfx/leaders/_EOB/domohu.dds"
 			}
 			army={
 				small="gfx/interface/ideas/idea_POL_roman_dmowski.dds"
@@ -371,21 +367,6 @@ characters = {
 		}
 	}
 
-	POL_boleslaw_piasecki = {
-		name=POL_boleslaw_piasecki
-		portraits = {
-			civilian = {
-				large="GFX_POL_boleslaw_piasecki"
-			}
-		}
-		country_leader = {
-			ideology=falangism
-			expire="1965.1.1.1"
-			id=-1
-			traits = { unruly_falangist }
-		}
-	}
-
 	POL_edward_rydzsmigly = {
 		name=POL_edward_rydz_smigly
 		portraits = {
@@ -416,7 +397,7 @@ characters = {
 		}
 		
 		field_marshal = {
-			traits = { old_guard POL_sanation_right_leader thorough_planner politically_connected }
+			traits = { POL_sanation_right_leader thorough_planner politically_connected }
 			skill=4
 			attack_skill=4
 			defense_skill=2
@@ -426,30 +407,6 @@ characters = {
 		}
 	}
 
-	POL_wojtek = {
-		name = POL_wojtek
-		portraits = {
-			army = {
-				large = "gfx/leaders/POL/Portrait_POL_Voytek.dds"
-				small = "GFX_idea_POL_wojtek"
-			}
-			civilian = {
-				large = "GFX_portrait_POL_king_woytek"
-			}
-		}
-		corps_commander = {
-			traits = { bearer_of_artillery }
-			visible = {
-				has_country_flag = POL_vojtek_commander
-			}
-			skill = 1
-		}
-		country_leader = {
-			ideology=despotism
-			traits = { he_who_bears_the_throne }
-			expire="1966.1.1.1"
-		}
-	}
 
 	POL_rudinger_von_der_goltz = {
 		name=POL_rudinger_von_der_goltz
@@ -460,7 +417,7 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { thorough_planner old_guard }
+			traits = { thorough_planner }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 1

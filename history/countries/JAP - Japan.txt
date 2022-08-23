@@ -272,7 +272,7 @@ give_guarantee = VLA
 give_guarantee = VIN
 give_guarantee = ENG
 
-recruit_character = JAP_kizt
+recruit_character = JAP_Waka
 recruit_character = JAP_kyuichi_tokuda
 recruit_character = JAP_emperor_hirohito
 recruit_character = JAP_tomoyuki_yamashita

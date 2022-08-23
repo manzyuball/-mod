@@ -91,6 +91,9 @@ focus = {
 	available_if_capitulated = no
 	complete_tooltip = { }
 	completion_reward = {
+		set_politics = {
+			ruling_party = fascism
+			}
 	}
 }
 focus = {
@@ -735,6 +738,13 @@ focus = {
 	available_if_capitulated = no
 	complete_tooltip = { }
 	completion_reward = {
+		set_politics = {
+			ruling_party = fascism
+			}
+		hidden_effect = {
+			retire_character = POL_roman_dmowski
+			recruit_character = POL_Pius
+		}
 	}
 }
 focus = {

@@ -81,7 +81,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+recruit_character = VLA_tura
 
 set_variable = {
 	var = VLA.VLA_teise_h

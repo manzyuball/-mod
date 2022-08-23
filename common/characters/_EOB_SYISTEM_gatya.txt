@@ -1,0 +1,449 @@
+characters={
+
+		### POLITICAL ADVISORS ###
+
+	EOB_Boueisyou = {
+		name = EOB_Boueisyou
+		portraits={
+			civilian={
+				small="GFX_Boue_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Boueisyou
+			allowed  = {
+				exists = yes
+			}
+			available = {
+				FROM = { 
+				}
+				has_country_flag = Boueisyou_Kyoka
+			}
+			visible = {
+				FROM = { has_country_flag = Boueisyou_Kyoka } 
+			}
+			traits  = {
+				BOUEISYOU
+			}
+		}
+	}
+	EOB_Boueisyou1 = {
+		name = EOB_Boueisyou1
+		portraits={
+			civilian={
+				small="GFX_Boue_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Boueisyou1
+			allowed  = {
+				exists = yes
+			}
+			available = {
+				FROM = { 
+				}
+				AND = {
+					has_country_flag = Boueisyou_Kyoka1
+					NOT = { has_country_flag = Boueisyou_Kyoka }
+				}
+			}
+			visible = {
+				FROM = { 
+				AND = {
+					has_country_flag = Boueisyou_Kyoka1
+					NOT = { has_country_flag = Boueisyou_Kyoka }
+				}
+			}
+			}
+			traits  = {
+				BOUEISYOU1
+			}
+		}
+	}
+	EOB_Boueisyou2 = {
+		name = EOB_Boueisyou2
+		portraits={
+			civilian={
+				small="GFX_Boue_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Boueisyou2
+			allowed  = {
+				exists = yes
+			}
+			available = {
+				FROM = { 
+				}
+				AND = {
+					has_country_flag = Boueisyou_Kyoka2
+					NOT = { has_country_flag = Boueisyou_Kyoka1 }
+				}
+			}
+			visible = {
+				FROM = { 
+				AND = {
+					has_country_flag = Boueisyou_Kyoka2
+					NOT = { has_country_flag = Boueisyou_Kyoka1 }
+				} 
+			}
+			}
+			traits  = {
+				BOUEISYOU2
+			}
+		}
+	}
+	EOB_Boueisyou3 = {
+		name = EOB_Boueisyou3
+		portraits={
+			civilian={
+				small="GFX_Boue_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Boueisyou3
+			allowed  = {
+				exists = yes
+			}
+			available = {
+				FROM = { 
+					
+				AND = {
+					has_country_flag = Boueisyou_Kyoka3
+					NOT = { has_country_flag = Boueisyou_Kyoka2 }
+				}
+				}
+			}
+			visible = {
+				FROM = { 
+					AND = {
+						has_country_flag = Boueisyou_Kyoka3
+						NOT = { has_country_flag = Boueisyou_Kyoka2 }
+					}
+				}
+			
+			}
+			traits  = {
+				BOUEISYOU3
+			}
+		}
+	}
+	EOB_Gaimu = {
+		name = EOB_Gaimu
+		portraits={
+			civilian={
+				small="GFX_Gaimu_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Gaimu
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			available = {
+				FROM = { 
+					has_country_flag = Gaimu_Kyoka
+				}
+				
+			}
+			visible = {
+				FROM = { 
+					has_country_flag = Gaimu_Kyoka
+				}
+				
+			}
+			traits  = {
+				GAIMUSYOU
+			}
+		}
+	}
+	EOB_Gaimu1 = {
+		name = EOB_Gaimu1
+		portraits={
+			civilian={
+				small="GFX_Gaimu_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Gaimu1
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			available = {
+				FROM = { 
+					has_country_flag = Gaimu_Kyoka1
+				}
+				
+			}
+			visible = {
+				FROM = { 
+					has_country_flag = Gaimu_Kyoka1
+				}
+				
+			}
+			traits  = {
+				GAIMUSYOU1
+			}
+		}
+	}
+	EOB_Gaimu2 = {
+		name = EOB_Gaimu2
+		portraits={
+			civilian={
+				small="GFX_Gaimu_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Gaimu2
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			available = {
+				FROM = { 
+					has_country_flag = Gaimu_Kyoka2
+				}
+				
+			}
+			visible = {
+				FROM = { 
+					has_country_flag = Gaimu_Kyoka2
+				}
+				
+			}
+			traits  = {
+				GAIMUSYOU2
+			}
+		}
+	}
+	EOB_Gaimu3 = {
+		name = EOB_Gaimu3
+		portraits={
+			civilian={
+				small="GFX_Gaimu_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Gaimu3
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			available = {
+				FROM = {
+					has_country_flag = Gaimu_Kyoka3
+			}
+				
+			}
+			visible = {
+			FROM = { 
+				has_country_flag = Gaimu_Kyoka3
+			}
+		
+			}
+			traits  = {
+				GAIMUSYOU3
+			}
+		}
+	}
+	EOB_Gunbi = {
+		name = EOB_Gunbi
+		portraits={
+			civilian={
+				small="GFX_Gunbi_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Gunbi
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			visible = {
+
+				has_country_flag = Gunbi_Kyoka
+			}
+			traits  = {
+			}
+		}
+	}	
+	EOB_Gyouse = {
+		name = EOB_Gyouse
+		portraits={
+			civilian={
+				small="GFX_Gyouse_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Gyouse
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			visible = {
+				has_country_flag = Gyouse_Kyoka
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Kagaku = {
+		name = EOB_Kagaku
+		portraits={
+			civilian={
+				small="GFX_Kagaku_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Kagaku
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			visible = {
+				has_country_flag = Kagaku_Kyoka
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Koueki = {
+		name = EOB_Koueki
+		portraits={
+			civilian={
+				small="GFX_Koueki_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Koueki
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			visible = {
+				has_country_flag = Koueki_Kyoka
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Koutu = {
+		name = EOB_Koutu
+		portraits={
+			civilian={
+				small="GFX_Koutu_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Koutu
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			visible = {
+				has_country_flag = Koutu_Kyoka
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Nougyo = {
+		name = EOB_Nougyo
+		portraits={
+			civilian={
+				small="GFX_Nougyo_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Nougyo
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			visible = {
+				has_country_flag = Nougyo_Kyoka
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Sangyo = {
+		name = EOB_Sangyo
+		portraits={
+			civilian={
+				small="GFX_Sangyo_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Sangyo
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			visible = {
+				has_country_flag = Sangyo_Kyoka
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Senden = {
+		name = EOB_Senden
+		portraits={
+			civilian={
+				small="GFX_Senden_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Senden
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			visible = {
+				has_country_flag = Senden_Kyoka
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Zaimu = {
+		name = GFX_Zaimu_Syou
+		portraits={
+			civilian={
+				small="GFX_Boue_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Zaimu
+			allowed  = {
+				exists = yes
+				always = yes
+			}
+			visible = {
+				has_country_flag = Zaimu_Kyoka
+			}
+			traits  = {
+			}
+		}
+	}
+}

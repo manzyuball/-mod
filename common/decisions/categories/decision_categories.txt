@@ -42,3 +42,9 @@ SWE_decisions = {
 	visible = {
 	}
    }
+
+   generic_Syoutyou = {
+	icon = generic_political_actions
+	visible = {
+	}
+   }
