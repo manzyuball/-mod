@@ -26,7 +26,9 @@
 	motorized_rocket_unit = 1
 	motorized_rocket_brigade = 1
 }
+
 recruit_character = VLA_tura
+
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -81,7 +83,6 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-recruit_character = VLA_tura
 
 set_variable = {
 	var = VLA.VLA_teise_h
