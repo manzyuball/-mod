@@ -23,7 +23,6 @@ set_technology = {
 	motorized_rocket_unit = 1
 	motorized_rocket_brigade = 1
 }
-recruit_character = VLA_tura
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }

@@ -3197,7 +3197,15 @@ focus = {
 
 		available_if_capitulated = yes
 		completion_reward = {
-			ENG = { add_to_faction = VLA }
+
+			reverse_add_opinion_modifier = {
+				target = VLA
+				modifier = kyuusekkinn
+				}
+				add_relation_modifier = {
+					target = VLA
+					modifier = kyuusekkinn
+					}
 		}
 	}
 	focus = {

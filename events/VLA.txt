@@ -28,7 +28,7 @@ country_event = {
 	
 	option = {
 		name = VLA.1.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_gunk
 		add_to_variable = {
 			var = VLA.VLA_gunk_h
@@ -38,7 +38,7 @@ country_event = {
 
 	option = {
 		name = VLA.1.c
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_roz
 		add_to_variable = {
 			var = VLA.VLA_roz_h
@@ -75,7 +75,7 @@ country_event = {
 	
 	option = {
 		name = VLA.2.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_gunk
 		add_to_variable = {
 			var = VLA.VLA_gunk_h
@@ -85,7 +85,7 @@ country_event = {
 
 	option = {
 		name = VLA.2.c
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_roz
 		add_to_variable = {
 			var = VLA.VLA_roz_h
@@ -122,7 +122,7 @@ country_event = {
 	
 	option = {
 		name = VLA.3.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_gunk
 		add_to_variable = {
 			var = VLA.VLA_gunk_h
@@ -132,7 +132,7 @@ country_event = {
 
 	option = {
 		name = VLA.3.c
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_roz
 		add_to_variable = {
 			var = VLA.VLA_roz_h
@@ -169,7 +169,7 @@ country_event = {
 	
 	option = {
 		name = VLA.4.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_gunk
 		add_ideas = VLA_touti2
 		add_to_variable = {
@@ -180,7 +180,7 @@ country_event = {
 
 	option = {
 		name = VLA.4.c
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_roz
 		add_ideas = VLA_touti3
 		add_to_variable = {
@@ -218,7 +218,7 @@ country_event = {
 	
 	option = {
 		name = VLA.5.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_gunk
 		add_ideas = VLA_syuukyou2
 		add_to_variable = {
@@ -229,7 +229,7 @@ country_event = {
 
 	option = {
 		name = VLA.5.c
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_roz
 		add_ideas = VLA_syuukyou3
 		add_to_variable = {
@@ -362,5 +362,30 @@ country_event = {
 			amount = 2500
 			producer = POL
 			}
+	}
+}
+
+country_event = {
+	id = VLA.12
+	title = VLA.12.t
+	desc = VLA.12.d
+	picture = GFX_news_event_005
+
+	trigger = {
+		tag = VLA
+		has_war_with = SOV
+	}
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+	option = {
+		name = VLA.12.a
+		ai_chance = {
+			base = 9
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+        add_ideas = VLA_KORITU
 	}
 }

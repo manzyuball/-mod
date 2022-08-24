@@ -1,0 +1,68 @@
+FRA_historical_plan = {
+	name = "Romanof historical plan"
+	desc = "Historical behavior for Romanof"
+
+	allowed = {
+		original_tag = VLA
+	}
+	enable = {
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = VLA_ai_behavior
+					option = DEFAULT
+				}	
+			}
+			has_game_rule = {
+				rule = VLA_ai_behavior
+				option = DEMOCRATIC_HISTORICAL
+			}
+		}
+	}
+	abort = {
+		has_game_rule = {
+			rule = VLA_ai_behavior
+			option = DEFAULT
+		}
+	}
+
+	ai_national_focuses = {
+		VLA_se1
+		VLA_seA1	
+		VLA_seA2
+		VLA_seA3
+		VLA_seA4
+		VLA_seA5
+		VLA_seA6
+		VLA_seA7
+		VLA_sanB1
+		VLA_sanB6
+		VLA_sanB7
+		VLA_sanB2
+		VLA_sanC4
+		VLA_sanC5
+		VLA_gaia1
+		VLA_gaia2
+		VLA_gaia3
+		VLA_gaia4
+		VLA_sanC6
+		VLA_sanC7
+	}
+	research = {
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

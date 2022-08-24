@@ -314,15 +314,12 @@ leader_traits = {
 		}
 	}
 	
-	Baka = {
+	SOVIET_BUHA = {
 		random = no
-		ai_focus_aggressive_factor = 0.5
-		ai_badass_factor = 0.35
-		stability_factor = -0.05
-		democratic_acceptance = -100
-		fascism_acceptance = -100
-		neutrality_acceptance = -80
-		communism_acceptance = -50
+		stability_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		industrial_capacity_factory = 0.1
+		communism_acceptance = -20
 
 		ai_will_do = {
 			factor = 1

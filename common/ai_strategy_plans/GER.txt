@@ -30,7 +30,6 @@ German_historical = {
 	ai_national_focuses = {
 		# grab as fast as you can if available
 		GER_s1
-
 		GER_s5
 		GER_s4
 		GER_s15
@@ -46,14 +45,14 @@ German_historical = {
 		GER_n8
 		GER_s3
 		GER_n15
-		GER_n2
-		GER_air_innovation
 		#1939
 		GER_s16
 		GER_s22
 		GER_s23
 		GER_s24
 		GER_s2
+		GER_n2
+		GER_air_innovation
 		#1940
 		GER_s6
 		GER_s7

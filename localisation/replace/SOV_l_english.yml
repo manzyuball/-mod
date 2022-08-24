@@ -70,6 +70,7 @@
  SOV_s38:0 "NKVDの忠誠"
  SOV_s39:0 "スターリンの神格化"
  #IDEAS
+ SOV_KYOktous:0 "極東戦争"
  Nougyoumonndai:0 "深刻な農業問題"
  Nougyoumonndai2:0 "農業問題"
  Nougyoumonndai2x:0 "農業問題"
@@ -106,3 +107,7 @@
  #ディシジョン
  SOV_kyu_decisions:0 "ソビエト宮殿の建設"
  soviet_aaa:0 "基盤の建設"
+
+ NSB_soviet.1.t:0 "極東戦争"
+ NSB_soviet.1.d:0 "今日、再びソビエトはロシア全土の革命の為に、シベリアの地に足を進めた。我らは何年もこの時に備えてきたのだ!兵士一人一人がソビエトの運命を託されているという事を肝に銘じなければならない。祖国のために戦え!兵士達よ!!"
+ NSB_soviet.1.a:0 "そうだ"

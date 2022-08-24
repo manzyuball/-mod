@@ -1774,7 +1774,7 @@
 		cost = 15
 
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 
 		available = {
@@ -1807,7 +1807,7 @@
 		cost = 15
 
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 
 		available = {
@@ -1838,7 +1838,7 @@
 		cost = 15
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		available = {
@@ -1890,7 +1890,7 @@
 		cost = 25
 
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 
 		available = {

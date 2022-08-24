@@ -13,8 +13,11 @@ ideas = {
 		picture = prc_low_popular_support3
 
 		removal_cost = -1
-		
+		rule = {
+			can_join_factions_not_allowed_diplomacy = yes
+		}
 		modifier = {
+			
 			stability_factor = -0.45
 			political_power_factor = -0.25
 			research_time_factor = 0.2

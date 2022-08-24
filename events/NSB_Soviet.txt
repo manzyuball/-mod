@@ -2,25 +2,32 @@
 # NSB Soviet Events
 ###########################
 
-add_namespace = NSB_soviet_paranoia_system_events
-add_namespace = NSB_soviet_propaganda_capmaign_events
-add_namespace = NSB_soviet_foreign_politics_events
-add_namespace = NSB_soviet_academy_of_sciences
-add_namespace = NSB_soviet_atomic_bomb_project
-add_namespace = NSB_soviet_five_year_plan
-add_namespace = NSB_soviet_great_patriotic_war
-add_namespace = NSB_soviet_soviet_german_trade_agreement
-add_namespace = NSB_soviet_policies_of_collective_security
-add_namespace = NSB_soviet_comecon
-add_namespace = NSB_soviet_spanish_civil_war
-add_namespace = NSB_soviet_planned_economy
-add_namespace = NSB_Soviet_fascist_civil_war
-add_namespace = NSB_soviet_communist_civil_war
-add_namespace = NSB_soviet_permanent_revolution
-add_namespace = NSB_soviet_for_the_common_good
-add_namespace = NSB_soviet_civil_war_common
-add_namespace = NSB_soviet_fascist_tsarist
-add_namespace = NSB_soviet_nationalist
+add_namespace = NSB_soviet
+
+country_event = {
+	id = NSB_soviet.1
+	title = NSB_soviet.1.t
+	desc = NSB_soviet.1.d
+	picture = GFX_news_event_006
+
+	trigger = {
+		tag = SOV
+		has_war_with = VLA
+	}
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+	option = {
+		name = NSB_soviet.1.a
+		ai_chance = {
+			base = 9
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+        add_ideas = SOV_KYOktous
+	}
+}
 
 
 #########################

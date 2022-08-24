@@ -239,7 +239,7 @@
 		mutually_exclusive = { }
 		cost = 5
 		ai_will_do = {
-			factor = 10
+			factor = 0
 		}
 		available = {
 			has_completed_focus = ITA_Rome8

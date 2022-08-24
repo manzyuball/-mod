@@ -166,7 +166,6 @@ declare_war_on = {
 add_to_faction = GER
 add_to_faction = ITA
 add_to_faction = HOL
-give_guarantee = SOV
 
 recruit_character = FRA_philippe_petain
 recruit_character = FRA_torotky

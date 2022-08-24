@@ -1911,7 +1911,7 @@ add_idea = VLA_Roudouhou2
 		prerequisite = {focus =  VLA_gaia6 }
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 1
 		}
 		available = {
 		}

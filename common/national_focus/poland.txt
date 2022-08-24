@@ -94,6 +94,9 @@ focus = {
 		set_politics = {
 			ruling_party = fascism
 			}
+			hidden_effect = {
+				AUS = { add_to_faction = POL }
+			}
 	}
 }
 focus = {
@@ -742,8 +745,11 @@ focus = {
 			ruling_party = fascism
 			}
 		hidden_effect = {
-			retire_character = POL_roman_dmowski
-			recruit_character = POL_Pius
+			remove_country_leader_role = {
+				character = POL_roman_dmowski
+				ideology = fascism_ideology
+			  }
+			
 		}
 	}
 }

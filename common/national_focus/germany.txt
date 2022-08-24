@@ -27,7 +27,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_airforce
 		x = 2
 		y = 0
-		cost = 15
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -147,7 +147,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = GER_air_innovation
-		cost = 15
+		cost = 10
 		ai_will_do = {
 			factor = 0.25
 		}
@@ -1435,7 +1435,7 @@ focus = {
 	icon = "GFX_focus_generic_provoke_border_clashes"
 	x = 19
 	y = 0
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 190
 	}
@@ -1460,7 +1460,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 0
 	y = 1
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 100
 	}
@@ -1489,7 +1489,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 2
 	y = 1
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1507,7 +1507,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 4
 	y = 1
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 1000
 	}
@@ -1522,7 +1522,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = -2
 	y = 1
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1540,7 +1540,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 0
 	y = 2
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1571,7 +1571,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 0
 	y = 3
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1589,7 +1589,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 0
 	y = 4
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1607,7 +1607,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 2
 	y = 2
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1626,7 +1626,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = -2
 	y = 2
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1648,7 +1648,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = -2
 	y = 3
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1665,7 +1665,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 2
 	y = 3
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1680,7 +1680,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 4
 	y = 2
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1695,7 +1695,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 4
 	y = 3
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1715,7 +1715,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 6
 	y = 2
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1730,7 +1730,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 6
 	y = 3
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1746,7 +1746,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 2
 	y = 4
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1761,7 +1761,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 2
 	y = 5
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1777,7 +1777,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 4
 	y = 5
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1796,7 +1796,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 3
 	y = 6
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1811,7 +1811,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 6
 	y = 4
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1826,7 +1826,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 8
 	y = 4
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1844,7 +1844,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 8
 	y = 5
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}
@@ -1862,7 +1862,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 6
 	y = 5
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 10
 	}

@@ -98,6 +98,7 @@ set_variable = {
 }
 add_ideas = {
 	VLA_GokkannnoGUN
+	VLA_KORITU
 }
 add_manpower = 864210
 if = {

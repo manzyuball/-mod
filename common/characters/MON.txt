@@ -26,11 +26,11 @@ characters={
 			id=-1
 		}
 	}
-	MON_fu_shangzhi={
-		name="Fu Shangzhi"
+	MON_Tokuo = {
+		name="MON_Tokuo"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+				large="gfx/leaders/_EOB/Tokuo.dds"
 			}
 		}
 		country_leader={

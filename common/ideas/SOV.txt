@@ -67,6 +67,23 @@ ideas = {
 				war_support_factor = -0.10
 			}
 		}
+
+		SOV_KYOktous = { #極東戦争
+
+			allowed = {
+				always = yes
+			}
+			picture = tur_sub_zero_survival_training
+
+			removal_cost = -1
+			modifier = {
+				ai_focus_aggressive_factor = 0.5
+				terrain_penalty_reduction = 0.25
+				winter_attrition_factor = -0.25
+				supply_consumption_factor = -0.25
+			}
+			targeted_modifier = { tag = VLA attack_bonus_against = 0.25  defense_bonus_against = 0.25 }
+		}
 		#NFアイデア
 		Gonenkann = {  #５か年計画
 

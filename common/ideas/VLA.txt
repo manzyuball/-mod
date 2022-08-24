@@ -1,6 +1,26 @@
 ideas = {
 
 	country = {
+		VLA_KORITU = { #孤立した大帝国
+	    allowed = {	always = no }
+	    picture = FRA_army_of_aggression_focus
+	    removal_cost = -1
+		rule = {
+			can_join_factions_not_allowed_diplomacy = yes
+		}
+        }
+		VLA_KORITU = { #極東戦争
+	    allowed = {	always = no }
+	    picture = tur_sub_zero_survival_training
+	    removal_cost = -1
+		modifier = {
+			ai_focus_aggressive_factor = 0.5
+			terrain_penalty_reduction = 0.25
+			winter_attrition_factor = -0.25
+			supply_consumption_factor = -0.25
+		}
+		targeted_modifier = { tag = SOV attack_bonus_against = 0.25  defense_bonus_against = 0.25 }
+        }
 		VLA_GokkannnoGUN = {
 			removal_cost = -1
 			picture = SOV_the_road_of_life
