@@ -1,4 +1,4 @@
-﻿focus_tree = {
+focus_tree = {
 	id = romanian_focus
 	
 	country = {
@@ -71,7 +71,7 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+	add_war_support = 0.2
 	}
 }
 focus = {
@@ -91,7 +91,10 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_popularity = {
+			ideology = democratic
+			popularity = -0.2
+		}
 	}
 }
 focus = {
@@ -112,7 +115,10 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_popularity = {
+			ideology = communism
+			popularity = 0.2
+		}
 	}
 }
 focus = {
@@ -395,7 +401,10 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.2
+		}
 	}
 }
 focus = {
@@ -436,7 +445,7 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+	add_war_support = 0.15
 	}
 }
 focus = {
@@ -447,7 +456,7 @@ focus = {
 	y = 5
 	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 
 	available = {
@@ -456,7 +465,10 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		annex_country = {
+			target = WAL
+			transfer_troops = yes
+		}
 	}
 }
 #© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
@@ -478,7 +490,10 @@ focus = {
 	bypass = {
 	}
 	completion_reward = {
-
+		declare_war_on = {
+			target = AUS
+			type = annex_everything
+			}
 	}
 }
 focus = {
@@ -827,7 +842,7 @@ focus = {
 	completion_reward = {
 		ENG = { add_to_faction = ROM }
 		add_popularity = {
-			ideology = democracy
+			ideology = democratic
 			popularity = 0.3
 			}
 	}
