@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = ENG
-		add_core_of = DJI
+		add_core_of = ETH
 		victory_points = {
 			8124 1
 		}

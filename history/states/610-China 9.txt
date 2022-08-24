@@ -11,6 +11,7 @@ state={
 		add_core_of = MAN
 		add_core_of = PRC
 		buildings = {
+			industrial_complex = 3
 			infrastructure = 2
 		}
 

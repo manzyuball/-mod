@@ -367,9 +367,8 @@ ideas = {
 			
 			allowed = {
 				OR = {
-					is_literally_china = yes
-					tag = MAN
-					tag = MEN
+					tag = CHI
+					tag = TAN
 				}
 				has_dlc = "Waking the Tiger"
 			}
@@ -394,9 +393,8 @@ ideas = {
 			
 			allowed = {
 				OR = {
-					is_literally_china = yes
-					tag = MAN
-					tag = MEN
+					tag = CHI
+					tag = TAN
 				}
 				has_dlc = "Waking the Tiger"
 			}
@@ -425,10 +423,7 @@ ideas = {
 
 			
 			allowed = {
-				OR = {
-					is_literally_china = yes
-					tag = MAN
-				}
+					tag = CHI
 				has_dlc = "Waking the Tiger"
 			}
 
@@ -451,10 +446,7 @@ ideas = {
 
 			
 			allowed = {
-				OR = {
-					is_literally_china = yes
-					tag = MAN
-				}
+					tag = CHI
 				has_dlc = "Waking the Tiger"
 			}
 
@@ -475,10 +467,7 @@ ideas = {
 
 			
 			allowed = {
-				OR = {
-					is_literally_china = yes
-					tag = MAN
-				}
+					tag = CHI
 				has_dlc = "Waking the Tiger"
 			}
 
@@ -499,10 +488,7 @@ ideas = {
 
 			
 			allowed = {
-				OR = {
-					is_literally_china = yes
-					tag = MAN
-				}
+					tag = CHI
 				has_dlc = "Waking the Tiger"
 			}
 
@@ -530,17 +516,10 @@ ideas = {
 			
 			allowed = {
 				has_dlc = "Waking the Tiger"
-				OR = {
-					is_literally_china = yes
-					tag = MAN
-				}
+					tag = CHI
 			}
 			
 			available = {
-				OR = {
-					has_completed_focus = CHI_chinese_panzers
-					has_idea = german_advisors
-				}
 				NOT = {
 					has_war_with = GER
 				}
@@ -559,10 +538,7 @@ ideas = {
 				factor = 1
 				
 				modifier = { # CHI might lose the advisors, don't want the AI wasting PP
-					factor = 0
-					NOT = {
-						has_completed_focus = CHI_chinese_panzers
-					}
+					factor = 3
 				}
 			}
 		}
@@ -581,16 +557,12 @@ ideas = {
 					limit = {
 						has_dlc = "Waking the Tiger"
 					}
-					has_completed_focus = CHI_camco
 				}
 			}
 
 			allowed = {
 				has_DLC = "Waking the Tiger"
-				OR = {
-					is_literally_china = yes
-					tag = MAN
-				}
+					tag = CHI
 			}
 			
 			research_bonus = {
@@ -617,16 +589,12 @@ ideas = {
 					limit = {
 						has_dlc = "Waking the Tiger"
 					}
-					has_completed_focus = CHI_local_fighter_production
 				}
 			}
 
 			allowed = {
 				has_DLC = "Waking the Tiger"
-				OR = {
-					is_literally_china = yes
-					tag = MAN
-				}
+					tag = CHI
 
 			}
 			
@@ -662,10 +630,7 @@ ideas = {
 
 			allowed = {
 				has_DLC = "Waking the Tiger"
-				OR = {
-					is_literally_china = yes
-					tag = MAN
-				}
+					tag = CHI
 			}
 
 			equipment_bonus = {
@@ -707,10 +672,7 @@ ideas = {
 
 			allowed = {
 				has_dlc = "Waking the Tiger"
-				OR = {
-					original_tag = MAN
-					is_literally_china = yes
-				}
+					original_tag = CHI
 			}
 
 			research_bonus = {
@@ -735,10 +697,7 @@ ideas = {
 
 			allowed = {
 				has_DLC = "Waking the Tiger"
-				OR = {
-					original_tag = MAN
-					is_literally_china = yes
-				}
+					original_tag = CHI
 			}
 			
 			research_bonus = {
@@ -769,10 +728,7 @@ ideas = {
 
 			allowed = {
 				has_DLC = "Waking the Tiger"
-				OR = {
-					original_tag = MAN
-					is_literally_china = yes
-				}
+					original_tag = CHI
 			}
 			
 			research_bonus = {
@@ -798,10 +754,7 @@ ideas = {
 
 			allowed = {
 				has_DLC = "Waking the Tiger"
-				OR = {
-					original_tag = MAN
-					is_literally_china = yes
-				}
+					original_tag = CHI
 			}
 			
 			research_bonus = {
@@ -815,10 +768,6 @@ ideas = {
 				
 				modifier = { # AI is likely to lose access to this state and waste the PP
 					factor = 0
-					OR = {
-						has_war_with = JAP
-						date < 1940.0.0
-					}
 				}
 			}
 		}

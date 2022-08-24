@@ -1202,125 +1202,6 @@ focus = {
 	}
 
 	focus = {
-		id = uk_balkan_strategy
-		prerequisite = { focus = uk_protect_suez }
-		prerequisite = { focus = uk_malta_focus }
-		icon = GFX_goal_generic_improve_relations
-		available = {
-			has_government = democratic
-		}
-		bypass = {
-			NOT = {
-				country_exists = YUG
-				country_exists = GRE
-				country_exists = ROM
-				country_exists = BUL
-				country_exists = HUN
-			}
-		}
-		x = 1
-		y = 1
-		relative_position_id = uk_protect_suez
-		cost = 3
-		ai_will_do = {
-			factor = 1
-		}
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {
-			every_country = {
-				limit = {
-					OR = {
-						tag = YUG
-						tag = GRE
-						tag = ROM
-					}
-					NOT = {
-						OR = {
-							AND = {
-								is_in_faction_with = GER
-								GER = { has_government = fascism }
-							}
-							AND = {
-								is_in_faction_with = ITA
-								ITA = { has_government = fascism }
-							}
-							GRE = { 
-								has_country_flag = GRE_britain_rebuffed
-							}
-						}
-					}
-				}
-				country_event = { id = generic.19 }
-				add_offsite_building = { type = arms_factory level = 2 }
-			}
-			YUG = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_good } }
-			GRE = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_good } }
-			ROM = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_good } }
-			BUL = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_bad } }
-			HUN = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_bad } }
-		}
-	}
-
-	focus = {
-		id = uk_sanction_italy_focus
-		available = {
-			ITA = {
-				ENG_focus_available_embargo_sanction = yes
-			}	
-		}
-		bypass = {
-			has_war_with = ITA
-		}
-		prerequisite = { focus = uk_balkan_strategy }
-		icon = GFX_goal_generic_trade
-		x = 0
-		y = 1
-		relative_position_id = uk_balkan_strategy
-		cost = 3
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			ITA = {
-				add_opinion_modifier = { target = ENG modifier = embargo }
-				add_opinion_modifier = { target = ENG modifier = sanctions_relations } 
-			}
-		}
-	}
-	focus = {
-		id = ENG_war_with_italy
-		available = {
-			has_offensive_war = no
-			ITA = {
-				ENG_focus_available_war = yes
-			}	
-		}
-		bypass = {
-			has_war_with = ITA
-		}
-		will_lead_to_war_with = ITA
-		prerequisite = { focus = uk_sanction_italy_focus }
-		icon = GFX_focus_attack_italy
-		x = 0
-		y = 1
-		relative_position_id = uk_sanction_italy_focus
-		cost = 2
-		ai_will_do = {
-			factor = 1
-		}	
-		completion_reward = {
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = ITA
-				expire = 0
-			} 
-		}
-	}	
-
-	focus = {
 		id = uk_turkey_focus
 		prerequisite = { focus = uk_protect_suez }
 		mutually_exclusive = { focus = uk_greece_focus }
@@ -1335,7 +1216,7 @@ focus = {
 		} #TUR not in a faction
 		#prerequisite = { focus = uk_battleship_focus }
 		icon = GFX_goal_generic_political_pressure
-		x = -3
+		x = -1
 		y = 1
 		relative_position_id = uk_protect_suez
 		cost = 3
@@ -1409,7 +1290,7 @@ focus = {
 			NOT = { has_government = communism }
 		} 
 		icon = GFX_goal_generic_political_pressure
-		x = -1
+		x = 1
 		y = 1
 		relative_position_id = uk_protect_suez
 		cost = 3
@@ -1535,8 +1416,188 @@ focus = {
 		}
 	}
 	focus = {
+		id = commonwealth_ends
+		icon = "GFX_goal_tfv_sever_ties_with_uk"
+		mutually_exclusive = {
+			focus = uk_commonwealth_focus
+			
+		}
+		prerequisite = { focus = uk_colonial_focus  }
+		x = 16
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 0
+		}
+		available = {
+		}
+		bypass = {
+		}
+		complete_tooltip = {
+		}
+		completion_reward = {
+			create_faction = koueiarukoritu
+			add_ideas = {
+				ENG_Shuchu
+			}
+		}
+	}
+	focus = {
+		id = kokunainokaihatu
+		icon = "GFX_goal_generic_construct_civ_factory"
+		prerequisite = { focus = commonwealth_ends }
+		x = 0
+		y = 3
+		relative_position_id = commonwealth_ends
+		cost = 10
+		ai_will_do = {
+			factor = 0
+		}
+		available = {
+		}
+		bypass = {
+		}
+		complete_tooltip = {
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = kokunainokaihatu_two
+		icon = "GFX_goal_generic_construct_civ_factory"
+		prerequisite = { focus = kokunainokaihatu }
+		x = 0
+		y = 4
+		relative_position_id = commonwealth_ends
+		cost = 10
+		ai_will_do = {
+			factor = 0
+		}
+		available = {
+		}
+		bypass = {
+		}
+		complete_tooltip = {
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = kokunainokaihatu_three
+		icon = "GFX_goal_generic_construct_civ_factory"
+		prerequisite = { focus = kokunainokaihatu_two }
+		x = 0
+		y = 5
+		relative_position_id = commonwealth_ends
+		cost = 10
+		ai_will_do = {
+			factor = 0
+		}
+		available = {
+		}
+		bypass = {
+		}
+		complete_tooltip = {
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
 		id = uk_commonwealth_focus 
 		prerequisite = { focus = uk_colonial_focus }
+		mutually_exclusive = {
+			focus = commonwealth_ends
+		}
 		available = {
 			OR = {
 				any_country = {
@@ -1803,26 +1864,6 @@ focus = {
 					value = -0.05
 					localization = uk_india_focus
 				}
-			}
-		}
-	}
-	
-	focus = {
-		id = uk_free_india_focus 
-		prerequisite = { focus = uk_india_focus }
-		icon = GFX_goal_generic_improve_relations
-		x = 0
-		y = 1
-		relative_position_id = uk_india_focus
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {				
-					set_global_flag = indian_independence_promised
-					add_timed_idea = { idea = indian_independence_promised_idea days = 1460 }
-					RAJ = {
-						remove_ideas = RAJ_azad_hind				
 			}
 		}
 	}
@@ -2309,11 +2350,167 @@ focus = {
 	}
 
 	focus = {
+		id = communism1
+		icon = "GFX_focus_por_workers_of_iberia"
+		x = 31
+		y = 0
+		cost = 3
+		mutually_exclusive = {
+			focus = uk_b1
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.3
+					}
+				set_politics = {
+					ruling_party = communism
+					}
+		}
+	}
+	focus = {
+		id = communism2
+		icon = "GFX_focus_generic_soviet_politics"
+		x = 31
+		y = 1
+		cost = 10
+		prerequisite = { focus = communism1 }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.2
+					}
+		}
+	}
+	focus = {
+		id = communism3
+		icon = "GFX_goal_tfv_burn_the_royal_portraits"
+		x = 31
+		y = 2
+		cost = 3
+		prerequisite = { focus = communism2 }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+					}
+				create_faction = fifth
+				swap_ideas = {
+					remove_idea = george_v
+					add_idea = ENG_republic
+					}
+				add_stability = -0.60
+				TZN = { add_ideas = george_v }
+				IRE = { transfer_state = 134 transfer_state = 119 transfer_state = 113 transfer_state = 135 }
+		}
+	}
+	focus = {
+		id = communism4
+		icon = "GFX_focus_attack_ireland"
+		x = 29
+		y = 3
+		cost = 10
+		prerequisite = { focus = communism3 }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = IRE
+					expire = 0
+					}
+		}
+	}
+	focus = {
+		id = communism5
+		icon = "GFX_focus_generic_strike_at_democracy2"
+		x = 29
+		y = 5
+		cost = 10
+		prerequisite = { focus = communism4 }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = CAN
+					expire = 0
+					}
+		}
+	}
+	focus = {
+		id = communism6
+		icon = "GFX_focus_eng_global_defense"
+		x = 29
+		y = 6
+		cost = 10
+		prerequisite = { focus = communism5 }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = communism7
+		icon = "GFX_focus_generic_scandinavian_alliance"
+		x = 29
+		y = 7
+		cost = 10
+		prerequisite = { focus = communism6 }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = FIN
+					expire = 0
+					}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = DEN
+					expire = 0
+					}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = NOR
+					expire = 0
+					}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = SWE
+					expire = 0
+					}
+		}
+	}
+	focus = {
 		id = uk_b1
 		icon = "GFX_goal_support_democracy"
 		x = 38
 		y = 0
 		cost = 3
+		mutually_exclusive = {
+			focus = communism1
+		}
 		ai_will_do = {
 			factor = 1000
 		}
@@ -2722,8 +2919,7 @@ focus = {
 		x = 31
 		y = 3
 		cost = 3
-		prerequisite = { focus = uk_b5 }
-
+		prerequisite = { focus = communism3 }
 		available_if_capitulated = yes
 		completion_reward = {
 			326 = {

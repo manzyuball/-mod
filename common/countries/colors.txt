@@ -1,4 +1,4 @@
-#reload countrycolorsPRU
+#reload countrycolors
 
 GER = {
 	color = rgb { 139 0 0 }
@@ -218,8 +218,8 @@ PHI = {
 	color_ui = rgb { 198 169 248 }
 }
 PRU = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+	color = rgb { 59 40 48 }
+	color_ui = rgb { 59 40 48 }
 }
 SAF = {
 	color = rgb { 195 107 160 }

@@ -115,6 +115,7 @@ add_to_faction = AUS
 add_to_faction = BUL
 add_to_faction = TUR
 add_to_faction = LAT
+add_to_faction = FIN
 add_to_faction = POL
 add_to_faction = UKR
 add_to_faction = FIN

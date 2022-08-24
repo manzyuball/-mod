@@ -14,7 +14,7 @@ state={
 
 		}
 		add_core_of = FIN
-
+		add_claim_by = VLA
 	}
 
 	provinces={

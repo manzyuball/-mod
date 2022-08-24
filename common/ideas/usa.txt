@@ -1148,7 +1148,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}			
 
 			
@@ -1166,7 +1171,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1184,10 +1194,12 @@ ideas = {
 			
 			picture = generic_industrial_concern_1
 			allowed = {
+				OR = {
 				original_tag = USA
-			}
-			available = {
-				has_completed_focus = USA_main_battle_tanks
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 
 			
@@ -1214,10 +1226,12 @@ ideas = {
 			
 			picture = usa_tank_destroyer_board
 			allowed = {
+				OR = {
 				original_tag = USA
-			}
-			available = {
-				has_completed_focus = USA_tank_destroyer_doctrine
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 
 			
@@ -1254,7 +1268,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1278,7 +1297,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1297,7 +1321,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1316,7 +1345,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1335,7 +1369,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1359,7 +1398,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1374,30 +1418,16 @@ ideas = {
 			}
 		}
 		
-		#bell = {
-		#	
-		#	
-		#	allowed = {
-		#		original_tag = USA
-		#	}
-		#	
-		#
-		#	
-		#	research_bonus = {
-		#		air_equipment = 0.15
-		#	}
-		#	
-		#	traits = { light_aircraft_manufacturer }	#TODO, make different from north american
-		#	
-		#	modifier = {
-		#	}
-		#}	
-		
 		lockheed = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1416,7 +1446,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1436,7 +1471,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1450,30 +1490,16 @@ ideas = {
 			modifier = {
 			}
 		}
-		
-		#consolidated_aircraft = {
-		#	
-		#	
-		#	allowed = {
-		#		original_tag = USA
-		#	}
-		#	
-		#
-		#	
-		#	research_bonus = {
-		#		air_equipment = 0.15
-		#	}
-		#	
-		#	traits = { heavy_aircraft_manufacturer } #TODO remove?
-		#	
-		#	modifier = {
-		#	}
-		#}
 		grumman = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1498,7 +1524,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1517,7 +1548,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1538,7 +1574,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1562,7 +1603,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1582,7 +1628,12 @@ ideas = {
 			
 			
 			allowed = {
+				OR = {
 				original_tag = USA
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 
@@ -1600,10 +1651,12 @@ ideas = {
 			
 			picture = usa_general_motors
 			allowed = {
+				OR = {
 				original_tag = USA
-			}
-			available = {
-				has_completed_focus = USA_wartime_industry
+				original_tag = CSA
+				original_tag = USB
+				original_tag = USN
+				}
 			}
 			
 

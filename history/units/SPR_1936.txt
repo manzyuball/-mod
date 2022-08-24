@@ -68,6 +68,36 @@ units = {
 		start_experience_factor = 0.2
 	}	
 	division = {			
+		name = "スペイン正規兵"		
+		location = 3938
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}	
+	division = {			
+		name = "スペイン正規兵"		
+		location = 875
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}	
+	division = {			
+		name = "スペイン正規兵"		
+		location = 875
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}	
+	division = {			
+		name = "スペイン正規兵"		
+		location = 1048
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}	
+	division = {			
+		name = "スペイン正規兵"		
+		location = 1048
+		division_template = "正規兵"
+		start_experience_factor = 0.2
+	}	
+	division = {			
 		name = "国境守備隊"		
 		location = 874
 		division_template = "守備隊"
@@ -132,6 +162,23 @@ units = {
 		location = 9828
 		division_template = "守備隊"
 		start_experience_factor = 0.2
+	}
+	division = {			
+		name = "国境守備隊"		
+		location = 12083
+		division_template = "守備隊"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		name = "国境守備隊"		
+		location = 1192
+		division_template = "守備隊"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		name = "国境守備隊"		
+		location = 7196
+		division_template = "守備隊"
 	}
 	division = {			
 		name = "国境守備隊"		

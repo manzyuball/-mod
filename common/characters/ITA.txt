@@ -3,7 +3,7 @@ characters={
 		name=ITA_benito_mussolini
 		portraits={
 			civilian={
-				large="gfx/leaders/ITA/Portrait_Italy_Benito_Mussolini.dds"
+				large="gfx/leaders/_EOB/musso.dds"
 			}
 		}
 		country_leader={
@@ -65,28 +65,14 @@ characters={
 				large="gfx/leaders/ITA/Portrait_Italy_Pietro_Badoglio.dds"
 			}
 		}
-		advisor={
-			slot = army_chief
-			idea_token = pietro_badoglio
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				army_chief_morale_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 
 		field_marshal={
-			traits={ old_guard inflexible_strategist politically_connected defensive_doctrine }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits={ inflexible_strategist defensive_doctrine }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -101,28 +87,14 @@ characters={
 				large="gfx/leaders/ITA/portrait_italy_emilio_de_bono.dds"
 			}
 		}
-		advisor={
-			slot = army_chief
-			idea_token = emilio_de_bono
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				army_chief_defensive_1
-			}
-			cost =  50
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 		
 		field_marshal={
-			traits={ old_guard trait_cautious politically_connected defensive_doctrine }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits={  trait_cautious defensive_doctrine }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -137,26 +109,11 @@ characters={
 				large="gfx/leaders/ITA/Portrait_Italy_Ugo_Cavallero.dds"
 			}
 		}
-		advisor={
-			slot = army_chief
-			idea_token = ugo_cavallero
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				army_chief_maneuver_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		
 		corps_commander={
-			traits={ old_guard career_officer trait_cautious }
+			traits={ career_officer trait_cautious }
 			skill=2
-			attack_skill=1
-			defense_skill=1
+			attack_skill=3
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=3
 			legacy_id=0
@@ -173,25 +130,13 @@ characters={
 				large="gfx/leaders/ITA/Portrait_Italy_Giovanni_Messe.dds"
 			}
 		}
-		advisor={
-			cost = 150
-			slot = theorist
-			idea_token = giovanni_messe
-			ledger = army
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				mobile_warfare_expert
-			}
-		}
 		
 		corps_commander={
-			traits={ armor_officer war_hero }
-			skill=4
-			attack_skill=4
-			defense_skill=3
-			planning_skill=2
+			traits={ armor_officer brilliant_strategist }
+			skill=6
+			attack_skill=5
+			defense_skill=4
+			planning_skill=3
 			logistics_skill=4
 			legacy_id=0
 		}
@@ -207,7 +152,7 @@ characters={
 		}
 		corps_commander={
 			traits={ inflexible_strategist career_officer }
-			skill=1
+			skill=2
 			attack_skill=1
 			defense_skill=1
 			planning_skill=1
@@ -252,7 +197,7 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				air_chief_all_weather_2
+				ITA_Dokuritu_AIR
 			}
 			cost = 100
 			ai_will_do = {
@@ -261,12 +206,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ career_officer politically_connected }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits={ commando trickster expert_improviser  }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=0
 		}
 	}
@@ -298,12 +243,12 @@ characters={
 		}
 
 		field_marshal={
-			traits={ trait_cautious politically_connected offensive_doctrine }
-			skill=2
-			attack_skill=2
-			defense_skill=2
+			traits={ organizer logistics_wizard thorough_planner brilliant_strategist }
+			skill=3
+			attack_skill=3
+			defense_skill=3
 			planning_skill=2
-			logistics_skill=1
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -961,14 +906,6 @@ characters={
 				original_tag  = ITA
 			}
 			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					not  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
 			}
 			traits  = {
 				fascist_demagogue 
@@ -1092,7 +1029,7 @@ characters={
 				original_tag  = ITA
 			}
 			traits  = {
-				ideological_crusader 
+				luber
 			}
 			on_add  = {
 			}

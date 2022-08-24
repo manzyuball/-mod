@@ -4,20 +4,16 @@ state={
 	name="STATE_597"
 
 	history={
-		owner = MAN
+		owner = MEN
 		add_core_of = CHI
 		add_core_of = PRC
-		add_core_of = MAN
+		add_core_of = MEN
 		victory_points = {
 			1069 3 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
-
-		}
-		1938.10.25 = {
-			controller = JAP
+			industrial_complex = 2
 
 		}
 

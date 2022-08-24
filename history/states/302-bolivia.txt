@@ -29,5 +29,5 @@ state={
 	manpower=2344500
 	buildings_max_level_factor=1.000
 
-	local_supplies=35.0 
+	local_supplies=135.0 
 }

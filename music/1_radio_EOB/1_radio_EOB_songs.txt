@@ -1,0 +1,243 @@
+
+music_station = "1_radio_EOB"
+music = {
+	song = "Gibraltar"
+	chance = {
+		modifier = {
+			factor = 0.7
+		}		
+	}
+}
+music = {
+	song = "1812 Overture"
+	
+	chance = {
+		modifier = {
+			factor = 15
+		}		
+	}
+}
+	music = {
+		song = "Battotai"
+		
+		chance = {
+			modifier = {
+				factor = 15
+			}		
+		}
+	}
+		music = {
+			song = "Ceddin Deden"
+			
+			chance = {
+				modifier = {
+					factor = 15
+				}		
+				}
+			}
+			music = {
+				song = "Erika"
+				
+				chance = {
+					modifier = {
+						factor = 15
+					}		
+				}
+				}
+music = {
+song = "Battle of Britain March"
+
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "Bella Ciao"
+
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "Chinese Victory Song"
+
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "Preußens Gloria march"
+
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "Se il Papa è andato via"
+
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "Mecidiye Marsi"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "Der heimliche Aufmarsch"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "Drum Bum and treceti batalioane romane carpatii"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "farewell Slavianka"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "Horthy Miklos katonaja vagyok"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "kaiserhymne"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "La Marseillaise"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "Le Chant Du Depart"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "Marching Through Georgia"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "Mazurek Dabrowskiego"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "Osmaniyez Marsi"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "The Fall of Constantinople"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "The Internationale"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "The Maple Leaf Forever"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "The Sacred war"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "The Yellow Rose of Texas"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "井岡山上太陽紅"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "義勇軍行進曲"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}
+music = {
+song = "軍艦行進曲"
+chance = {
+	modifier = {
+		factor = 15
+	}		
+}
+}

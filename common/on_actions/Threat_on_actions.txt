@@ -1,15 +1,4 @@
 on_actions = {
-	on_weekly = { 
-		effect = {
-			PAN = {
-				add_named_threat = {
-					threat = -0.5
-					name = weekly_threat_change
-					}
-			 }
-			
-	 }
-	}
 	on_nuke_drop = { effect = { random_country = { add_named_threat = { threat = 20 name = nuke_drop_threat } } } }
 
 	on_startup = {

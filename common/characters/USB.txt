@@ -1,4 +1,18 @@
 characters={
+	USB_David_Dubinsky={
+		name = USB_David_Dubinsky
+		portraits={
+			civilian={
+				large="gfx/leaders/_EOB/USB_David_Dubinsky.dds"
+			}
+		}
+		country_leader={
+			ideology= leninism
+			traits={ financial_expert }
+			expire="1953.1.1.12"
+			id=-1
+		}
+	}
 	USB_georges_vereecken={
 		advisor={
 			slot = navy_chief

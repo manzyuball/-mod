@@ -332,6 +332,7 @@
 		cost = 10	
 		available = {
 			has_completed_focus = SWE_9
+			has_completed_focus = SWE_42
 		}
 		available_if_capitulated = yes
 		completion_reward = {
@@ -615,7 +616,17 @@
 		hidden_effect = {
 			if = {
 				limit = {
-					has_dlc = "Waking the Tiger"
+					AND = {
+						has_dlc = "Waking the Tiger"
+						FIN = {
+						 has_war_with = GER 
+						 has_opinion = {
+							target = SWE
+							value > 50
+							}
+					}
+					}
+					
 				}   
 				activate_decision = form_nordic_league
 			}

@@ -19,10 +19,10 @@ starting_train_buffer = 2
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "FRA_1936_naval_mtg"
-		set_war_support = 0.5
+		set_war_support = 0.7
 	else = {
 		set_naval_oob = "FRA_1936_naval_legacy"
-		set_war_support = 0.5
+		set_war_support = 0.8
 	}
 }
 
@@ -141,7 +141,7 @@ if = {
 	}
 }
 
-set_convoys = 550
+set_convoys = 200
 set_politics = {
 	ruling_party = communism
 	last_election = "1932.5.1"
@@ -164,8 +164,6 @@ declare_war_on = {
 	type = annex_everything
 }
 add_to_faction = GER
-add_to_faction = IVO
-add_to_faction = CHI
 add_to_faction = ITA
 add_to_faction = HOL
 give_guarantee = SOV
@@ -228,6 +226,14 @@ recruit_character = FRA_paul_baudouin
 recruit_character = FRA_maurice_gauche
 recruit_character = FRA_jacques_duclos
 recruit_character = FRA_marcel_bucard
+recruit_character = EOB_Boueisyou
+recruit_character = EOB_Boueisyou1
+recruit_character = EOB_Boueisyou2
+recruit_character = EOB_Boueisyou3
+recruit_character = EOB_Gaimu
+recruit_character = EOB_Gaimu1
+recruit_character = EOB_Gaimu2
+recruit_character = EOB_Gaimu3
 add_ideas = {
 	FRA_la_KAKUMEI
 }

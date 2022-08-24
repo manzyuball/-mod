@@ -1,4 +1,32 @@
 characters={
+GNA_Houphouet_Boigny={
+	name = GNA_Houphouet_Boigny
+	portraits={
+		civilian={
+			large="gfx/leaders/_EOB/GNA_Houphouet_Boigny.dds"
+		}
+	}
+	country_leader={
+		ideology= moderatism
+		traits={ great_war_hero }
+		expire="1947.1.1.1"
+		id=-1
+	}
+}
+GNA_Houphouet_Boigny={
+	name = GNA_Houphouet_Boigny
+	portraits={
+		civilian={
+			large="gfx/leaders/_EOB/USAarusumis.dds"
+		}
+	}
+	country_leader={
+		ideology= conservatism
+		traits={ }
+		expire="1947.1.1.1"
+		id=-1
+	}
+}
 	GNA_nccr={
 		advisor={
 			slot = navy_chief

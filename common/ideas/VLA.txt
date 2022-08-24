@@ -229,6 +229,150 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.15
 			}
 		}
+		VLA_ROZYAEF_BAD = {
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = -0.25
+				surrender_limit = -0.1
+			}
+		}
+		VLA_ROZYAEF_BAD1 = {
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = -0.25
+			}
+		}
+		VLA_ROZYAEF_BAD2 = {
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				stability_factor = -0.10
+			}
+		}
+		VLA_TEISE_BAD = {
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = -0.25
+				surrender_limit = -0.1
+			}
+		}
+		VLA_TEISE_BAD1 = {
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = -0.25
+			}
+		}
+		VLA_TEISE_BAD2 = {
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				political_power_factor = -0.25
+			}
+		}
+		VLA_GUNKOKU_BAD = {
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = -0.25
+				surrender_limit = -0.1
+			}
+		}
+		VLA_GUNKOKU_BAD1 = {
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = -0.25
+			}
+		}
+		VLA_GUNKOKU_BAD2 = {
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				political_power_factor = -0.25
+			}
+		}
+		VLA_ROZYAEF_GAI1 = {
+			removal_cost = -1
+			picture = SOV_fascist_womens_movement
+			modifier = {
+				war_support_factor = 0.15
+			}
+		}
+		VLA_ROZYAEF_GAI2 = {
+			removal_cost = -1
+			picture = SOV_fascist_womens_movement
+			modifier = {
+				war_support_factor = 0.15
+				conscription = 0.02
+				mobilization_speed = 0.15
+			}
+		}
+		VLA_TYUUKA_KOUTEI = {
+			removal_cost = -1
+			picture = jap_intervene_in_china
+			modifier = {
+			targeted_modifier = { tag = MAN attack_bonus_against = 0.25 }
+			targeted_modifier = { tag = CHI attack_bonus_against = 0.25 }
+			terrain_penalty_reduction = 0.15
+			out_of_supply_factor = 0.25
+			}
+		}
+		VLA_OctPus = {
+			removal_cost = -1
+			picture = tur_golden_age_of_the_wolf
+			modifier = {
+				acclimatization_cold_climate_gain_factor = 0.35
+				navy_max_range_factor = 0.25
+				navy_screen_attack_factor = 0.15
+				spotting_chance = 0.15
+			}
+		}
+		VLA_SekaiSeihuku = { 
+			removal_cost = -1
+			picture = SOV_the_true_tsars
+			modifier = {
+				subjects_autonomy_gain = -20
+				non_core_manpower = 0.15
+                resistance_activity = -0.5				
+                Resistance_decay_on_our_occupied_states = -0.5
+			}
+		}
+		VLA_Tomo = { 
+			removal_cost = -1
+			picture = generic_volunteer_expedition_bonus
+			modifier = {
+				opinion_gain_monthly_factor = 0.25
+				improve_relations_maintain_cost_factor = -0.8
+				democratic_acceptance = 120
+			}
+		}
+		VLA_Tomo1 = { 
+			removal_cost = -1
+			picture = SOV_the_true_tsars
+			modifier = {
+				defensive_war_stability_factor = 0.6
+				offensive_war_stability_factor = 0.6
+				army_org_Factor = 0.15
+				send_volunteer_size = 120
+				opinion_gain_monthly_factor = 0.25
+				improve_relations_maintain_cost_factor = -0.8
+				democratic_acceptance = 120
+				send_volunteers_desire = ENG
+				send_volunteers_desire = JAP
+				send_volunteers_desire = POL
+				send_volunteers_desire = MAN
+			}
+		}
 	}
 	# TECHNOLOGY
 	

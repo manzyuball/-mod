@@ -10,6 +10,7 @@ state={
 		owner = POL
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 4
 
 		}
 		add_core_of = POL
@@ -17,10 +18,10 @@ state={
 	}
 
 	provinces={
-		548 3230 6259 6321 6401 6567 9290 9316 11385 
+		3230 6259 6321 6567 9290 9316 11385 
 	}
 	manpower=1412100
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 	local_supplies=7.000
 }

@@ -1822,6 +1822,10 @@
 						type = annex_everything
 						target = SHX
 						}
+						create_wargoal = {
+							type = annex_everything
+							target = MEN
+							}
 		}
 	}
 	focus = {
@@ -1852,6 +1856,28 @@
 			add_political_power = 250
 			add_stability = 0.15
 			add_war_support = 0.15
+			hidden_effect = {
+				annex_country = {
+					target = MEN
+					transfer_troops = yes
+					}
+					annex_country = {
+						target = TAN
+						transfer_troops = yes
+						}
+						annex_country = {
+							target = YUN
+							transfer_troops = yes
+							}
+							annex_country = {
+								target = GXC
+								transfer_troops = yes
+								}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = TIB
+				}
 		}
 	}
 	focus = {
@@ -1871,10 +1897,14 @@
 		}
 
 		completion_reward = {
-			create_wargoal = {
+			declare_war_on = {
 				type = annex_everything
 				target = MAN
 				}
+				declare_war_on = {
+					type = annex_everything
+					target = JAP
+					}
 			add_timed_idea = {
 				idea = CHI_daityuuka
 				days = 180
@@ -1964,6 +1994,10 @@
 				type = annex_everything
 				target = VIN
 				}
+				create_wargoal = {
+					type = annex_everything
+					target = SIA
+					}
 		}
 	}
 	focus = {

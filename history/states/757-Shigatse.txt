@@ -9,6 +9,7 @@ state={
 	state_category = rural
 	history={
 		owner = TIB
+		add_claim_by = CHI
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

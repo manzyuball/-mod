@@ -1,4 +1,18 @@
 characters={
+	MAN_TYOSAKU = {
+		name = MAN_TYOSAKU
+		portraits={
+			civilian={
+				large="gfx/leaders/_EOB/MAN_TTYOU.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ national_integralist }
+			expire="1956.1.1.12"
+			id=-1
+		}
+	}
 	MAN_aisin_gioro_puyi={
 		name=MAN_aisin_gioro_puyi
 		portraits={
@@ -91,20 +105,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	MANTyousaku  ={
-		name= MANTyousaku
-		portraits={
-			civilian={
-				large="gfx/leaders/_EOB/MANTyousaku.dds"
-			}
-		}
-		country_leader={
-			ideology=conservatism
-			traits={ national_integralist }
-			expire="1956.1.1.12"
-			id=-1
-		}
-	}
+
 	MAN_changlin_linge={
 		name=MAN_changlin_linge
 		portraits={

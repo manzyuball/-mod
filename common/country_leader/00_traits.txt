@@ -4,6 +4,145 @@
 
 leader_traits = {
 	
+	BOUEISYOU = {
+		sprite = 1
+		random = no
+		defensive_war_stability_factor = 0.2
+		production_speed_bunker_factor = 0.15
+		production_speed_coastal_bunker_factor = 0.15
+		production_speed_air_base_factor = 0.15
+		production_speed_anti_air_building_factor = 0.15
+		production_speed_radar_station_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	BOUEISYOU1 = {
+		sprite = 1
+		random = no
+		defensive_war_stability_factor = 0.25
+		production_speed_bunker_factor = 0.2
+		production_speed_coastal_bunker_factor = 0.2
+		production_speed_air_base_factor = 0.2
+		production_speed_anti_air_building_factor = 0.2
+		production_speed_radar_station_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	BOUEISYOU2 = {
+		sprite = 1
+		random = no
+		defensive_war_stability_factor = 0.3
+		production_speed_bunker_factor = 0.25
+		production_speed_coastal_bunker_factor = 0.25
+		production_speed_air_base_factor = 0.25
+		production_speed_anti_air_building_factor = 0.25
+		production_speed_radar_station_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	BOUEISYOU3 = {
+		sprite = 1
+		random = no
+		defensive_war_stability_factor = 0.35
+		production_speed_bunker_factor = 0.3
+		production_speed_coastal_bunker_factor = 0.3
+		production_speed_air_base_factor = 0.3
+		production_speed_anti_air_building_factor = 0.3
+		production_speed_radar_station_factor = 0.3
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	GAIMUSYOU = {
+		sprite = 13
+		random = no
+		lend_lease_tension = -0.20
+		send_volunteers_tension = -0.20
+		generate_wargoal_tension = -0.20
+		join_faction_tension = -0.20
+		opinion_gain_monthly_factor = 0.2
+		license_purchase_cost = -0.75
+		license_production_speed = 0.75
+		send_volunteer_size = 5
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	GAIMUSYOU1 = {
+		sprite = 13
+		random = no
+		lend_lease_tension = -0.30
+		send_volunteers_tension = -0.30
+		generate_wargoal_tension = -0.30
+		join_faction_tension = -0.30
+		opinion_gain_monthly_factor = 0.3
+		license_purchase_cost = -0.85
+		license_production_speed = 0.85
+		send_volunteer_size = 10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	GAIMUSYOU2 = {
+		sprite = 13
+		random = no
+		lend_lease_tension = -0.40
+		send_volunteers_tension = -0.40
+		generate_wargoal_tension = -0.40
+		join_faction_tension = -0.40
+		opinion_gain_monthly_factor = 0.4
+		license_purchase_cost = -0.95
+		license_production_speed = 0.95
+		send_volunteer_size = 15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	GAIMUSYOU3 = {
+		sprite = 13
+		random = no
+		lend_lease_tension = -0.50
+		send_volunteers_tension = -0.50
+		generate_wargoal_tension = -0.50
+		join_faction_tension = -0.50
+		opinion_gain_monthly_factor = 0.5
+		license_purchase_cost = -1
+		license_production_speed = 1
+		send_volunteer_size = 20
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	SUBARASII = {
+		random = no
+		political_power_factor = 0.20
+		stability_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	Kaihatud = {
+		random = no
+		political_power_factor = 0.20
+		production_speed_buildings_factor = 0.1
+		consumer_goods_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	kat = {
 		random = no
 		drift_defence_factor = -0.5
@@ -13,11 +152,41 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	Russia_king = {
+		random = no
+		conscription = 0.02
+		political_power_factor = 0.1
+		defensive_war_stability_factor = 0.25
+		offensive_war_stability_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	luber = {
+		random = no
+		Industrial_factory_donations = 4
+		country_resource_rubber = 25
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	heiwasyugisysa = {
 		random = no
 		political_power_factor = 0.25
 		political_advisor_cost_factor = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ITA_Caesaru = {
+		random = no
+		army_attack_against_major_factor = 0.4	
+        army_breakthrough_against_major_factor = 0.4
 		
 		ai_will_do = {
 			factor = 1
@@ -4274,6 +4443,31 @@ leader_traits = {
 			factor = 2
 		}
 	}
+
+	ITA_aircraft_manufacturer = { 
+		random = no
+		equipment_bonus = {
+			fighter_equipment = {
+				build_cost_ic = -0.15
+			}
+			CAS_equipment = {
+				build_cost_ic = -0.15
+			}
+			heavy_fighter_equipment = {
+				build_cost_ic = -0.15
+			}
+			tac_bomber_equipment = {
+				build_cost_ic = -0.15
+			}
+			modifier = { 
+				air_range_factor = 0.3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 200
+		}
+	}
 	
 	
 	CAS_manufacturer = {
@@ -5574,7 +5768,17 @@ leader_traits = {
 		}
 	}
 	
+	ITA_Dokuritu_AIR = {
+	experience_gain_air = 0.15	
+    air_superiority_detect_factor = 0.15
+	air_strategic_bomber_bombing_factor = 0.5
+	air_escort_efficiency = 0.5
+	command_cap = @tier3
 	
+	ai_will_do = {
+		factor = 100
+	}
+}
 	air_chief_reform_1 = {  # Rate at which air experience is gained increases by 5%
 		sprite = 1
 		experience_gain_air = 0.12

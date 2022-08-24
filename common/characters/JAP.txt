@@ -28,16 +28,16 @@ characters={
 		}
 	}
 
-	JAP_kizt={
-		name=JAP_kizt
+	JAP_Waka={
+		name=JAP_Waka
 		portraits={
 			civilian={
-				large="gfx/leaders/JAP/kizyuro.dds"
+				large="gfx/leaders/_EOB/waka.dds"
 			}
 		}
 		country_leader={
 			ideology=liberalism
-			traits={  }
+			traits={  SUBARASII }
 			expire="1989.1.1.1"
 			id=-1
 		}

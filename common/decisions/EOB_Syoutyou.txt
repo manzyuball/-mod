@@ -1,0 +1,220 @@
+generic_Syoutyou = {
+    EOB_Bouei1 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                NOT = {
+                    has_country_flag = Boueisyou_Kyoka
+                }
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Boueisyou_DecisionDesc
+            hidden_effect = {
+                FROM = {  set_country_flag = Boueisyou_Kyoka } 
+            }
+            }
+        }
+        EOB_Bouei2 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    has_country_flag = Boueisyou_Kyoka
+                    NOT = { has_country_flag = Boueisyou_Kyoka1 }
+                }
+             
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Boueisyou_DecisionDesc1
+            hidden_effect = {
+                FROM = {   set_country_flag = Boueisyou_Kyoka1 }
+                FROM = {  clr_country_flag = Boueisyou_Kyoka }
+            }
+            }
+        }
+        EOB_Bouei3 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    has_country_flag = Boueisyou_Kyoka1
+                    NOT = { has_country_flag = Boueisyou_Kyoka2 }
+                }
+             
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Boueisyou_DecisionDesc1
+            hidden_effect = {
+                FROM = {    set_country_flag = Boueisyou_Kyoka2 }
+                FROM = {    clr_country_flag = Boueisyou_Kyoka1 }
+            }
+            }
+        }
+        EOB_Bouei4 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    has_country_flag = Boueisyou_Kyoka2
+                    NOT = { has_country_flag = Boueisyou_Kyoka3 }
+                }
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Boueisyou_DecisionDesc1
+            hidden_effect = {
+                FROM = {    set_country_flag = Boueisyou_Kyoka3 }
+                FROM = {   clr_country_flag = Boueisyou_Kyoka2 }
+            }
+            }
+        }
+        EOB_Gaimusyou = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    NOT = { has_country_flag = Gaimu_Kyoka }
+                }
+             
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Gaimu_DecisionDesc
+            hidden_effect = {
+                FROM = {   set_country_flag = Gaimu_Kyoka }
+            }
+            }
+        }
+        EOB_Gaimusyou1 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    has_country_flag = Gaimu_Kyoka
+                    NOT = { has_country_flag = Gaimu_Kyoka1 }
+                }
+             
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Gaimu_DecisionDesc1
+            hidden_effect = {
+                FROM = {    set_country_flag = Gaimu_Kyoka1 }
+                FROM = {    clr_country_flag = Gaimu_Kyoka }
+            }
+            }
+        }
+        EOB_Gaimusyou2 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    has_country_flag = Gaimu_Kyoka1
+                    NOT = { has_country_flag = Gaimu_Kyoka2 }
+                }
+             
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Gaimu_DecisionDesc1
+            hidden_effect = {
+                FROM = {    set_country_flag = Gaimu_Kyoka2 }
+                FROM = {    clr_country_flag = Gaimu_Kyoka1 }
+            }
+            }
+        }
+        EOB_Gaimusyou3 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    has_country_flag = Gaimu_Kyoka2
+                    NOT = { has_country_flag = Gaimu_Kyoka3 }
+                }
+             
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Gaimu_DecisionDesc1
+            hidden_effect = {
+                FROM = {   set_country_flag = Gaimu_Kyoka3 }
+                FROM = {   clr_country_flag = Gaimu_Kyoka2 }
+            }
+            }
+        }
+    }

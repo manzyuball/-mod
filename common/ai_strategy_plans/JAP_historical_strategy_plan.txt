@@ -7,20 +7,7 @@ JAP_historical_plan = {
 	}
 	enable = {
 		OR = {
-			AND = {
-				is_historical_focus_on = yes
-				OR = {
-					not = { has_dlc = "Waking the Tiger" }
-					has_game_rule = {
-						rule = JAP_ai_behavior
-						option = DEFAULT
-					}
-				}
-			}
-			has_game_rule = {
-				rule = JAP_ai_behavior
-				option = FASCIST
-			}
+			is_historical_focus_on = yes
 			has_country_flag = JAP_AI_RANDOM_FASCIST
 		}
 		MAN = {
@@ -28,9 +15,6 @@ JAP_historical_plan = {
 		}
 	}
 	abort = {
-		MAN = {
-			has_completed_focus = MAN_assertiveness
-		}
 	}
 
 	ai_national_focuses = {

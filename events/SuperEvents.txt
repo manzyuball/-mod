@@ -1,0 +1,95 @@
+################
+# SUPER EVENTS #
+################
+
+add_namespace = super
+
+country_event = {	#USA_CIV
+	id = super.1
+	title = super.1.t
+	desc = super.1.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		AND = {
+			CSA = { has_war = yes }
+			NOT = {
+				has_global_flag = Super_WW2
+			}
+		}
+	}
+	
+
+	option = {
+		name = super.1.a
+		
+        set_global_flag = USA_CIV
+		set_global_flag = Super_Event_Visible
+		play_song = "America_civil_war"
+		
+	}
+}
+country_event = {	#WW2
+	id = super.2
+	title = super.2.t
+	desc = super.2.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		AND = {
+		FRA = { has_war_with = ENG }	
+		GER = { has_war_with = ENG }	
+		CHI = { has_war_with = JAP }	
+		}
+	}
+	
+
+	option = {
+		name = super.2.a
+		
+		set_global_flag = Super_Event_Visible
+		play_song = "WW2"
+		
+		#WW2 Flag
+		set_global_flag = WW2
+	}
+}
+country_event = {	#WW2
+	id = super.3
+	title = super.3.t
+	desc = super.3.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		SOV = { has_war_with = VLA }
+	}
+	
+
+	option = {
+		name = super.3.a
+		
+		set_global_flag = Super_Event_Visible
+		play_song = "Russ_War"
+		
+		#WW2 Flag
+		set_global_flag = RUUSAN_WAR
+	}
+}

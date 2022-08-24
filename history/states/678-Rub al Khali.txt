@@ -2,7 +2,7 @@
 state={
 	id=678
 	name="STATE_678"
-
+	impassable = yes
 	history={
 		owner = SAU
 		buildings = {
@@ -10,7 +10,7 @@ state={
 
 		}
 		add_core_of = SAU
-		add_core_of = TUR
+		add_claim_by = TUR
 
 	}
 

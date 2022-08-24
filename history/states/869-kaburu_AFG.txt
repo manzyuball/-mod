@@ -8,7 +8,6 @@ state={
 		owner = KKP
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
 		}
 		add_core_of = KKP
 		add_core_of = AFG

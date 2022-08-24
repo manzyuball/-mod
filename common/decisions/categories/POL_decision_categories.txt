@@ -1,0 +1,28 @@
+POL_KAKUDAI = {
+	icon = hol_secret_staff_talks
+	allowed = {
+		original_tag = POL
+	}
+	available = { 
+		OR = {
+			has_completed_focus = POL_PI4
+			has_completed_focus = POL_S6
+		}
+	}
+}
+POL_UKR_SINK = {
+	icon = saf_anti_colonialist_crusade
+	allowed = {
+		original_tag = POL
+	}
+	visible = {
+		AND = {
+			has_completed_focus = POL_PI6
+			country_exists = UKR
+		}
+
+	}
+	available = {
+			has_completed_focus = POL_PI6
+	}
+}

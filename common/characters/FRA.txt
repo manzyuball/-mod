@@ -46,7 +46,7 @@ characters={
 		name=FRA_philippe_petain
 		portraits={
 			civilian={
-				large="gfx/leaders/FRA/Portrait_France_Philippe_Petain.dds"
+				large="gfx/leaders/_EOB/petann.dds"
 			}
 		}
 		country_leader={
