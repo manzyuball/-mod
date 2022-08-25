@@ -369,4 +369,95 @@
 			}
 		}
 	}
+	focus = {
+		id = ALG_back
+		icon = "GFX_focus_ger_bulwark_against_bolshevism"
+		x = 10
+		y = 0
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_state_core = 1
+			FRA = {
+				start_civil_war = {
+					ideology = neutrality
+					size = 0.9
+					capital = 735
+					states = {
+						735 21 22 31 32
+					}
+				}
+			}
+		}
+		available = {
+			NOT = { has_war_with = FRA }
+			ALG = { has_government = neutrality }
+		}
+	}
+	focus = {
+		id = ALG_annex
+		icon = "GFX_focus_generic_vichy_france_triumphant"
+		prerequisite = { focus = ALG_back }
+		x = 10
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			annex_country = {
+				target = FRA
+				transfer_troops = yes
+			}
+		}
+		available = {
+			FRA = { has_government = neutrality }
+		}
+	}
+	focus = {
+		id = ALG_SAHARA
+		icon = "GFX_focus_fra_le_deluge_shine"
+		prerequisite = { focus = ALG_annex }
+		x = 10
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = GNA
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = ALG_DOUMEI
+		icon = "GFX_focus_proclaim_the_restauration_of_austria_hungary"
+		prerequisite = { focus = ALG_annex }
+		x = 8
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			AUS = { add_to_faction = ALG }
+		}
+	}
+	focus = {
+		id = ALG_CHUKAKU
+		icon = "GFX_focus_fra_french_union"
+		prerequisite = { focus = ALG_annex }
+		x = 12
+		y = 2
+		cost = 20
+		ai_will_do = {
+			factor = 27
+		}
+		completion_reward = {
+			add_state_core = 1 add_state_core = 735 add_state_core = 21 add_state_core = 22 add_state_core = 31 add_state_core = 32 add_state_core = 20 add_state_core = 26 add_state_core = 25 add_state_core = 19 add_state_core = 806 add_state_core = 969 add_state_core = 23 add_state_core = 33 add_state_core = 970 add_state_core = 16 add_state_core = 27 add_state_core = 17 add_state_core = 965 add_state_core = 28 add_state_core = 875 add_state_core = 785 add_state_core = 15 add_state_core = 30 add_state_core = 14 add_state_core = 29
+	}
 }
