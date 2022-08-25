@@ -458,6 +458,6 @@
 			factor = 27
 		}
 		completion_reward = {
-			add_state_core = 1 add_state_core = 735 add_state_core = 21 add_state_core = 22 add_state_core = 31 add_state_core = 32 add_state_core = 20 add_state_core = 26 add_state_core = 25 add_state_core = 19 add_state_core = 806 add_state_core = 969 add_state_core = 23 add_state_core = 33 add_state_core = 970 add_state_core = 16 add_state_core = 27 add_state_core = 17 add_state_core = 965 add_state_core = 28 add_state_core = 875 add_state_core = 785 add_state_core = 15 add_state_core = 30 add_state_core = 14 add_state_core = 29
+			add_state_core = 1 add_state_core = 735 add_state_core = 21 add_state_core = 22 add_state_core = 31 add_state_core = 32 add_state_core = 20 add_state_core = 26 add_state_core = 25 add_state_core = 19 add_state_core = 806 add_state_core = 969 add_state_core = 23 add_state_core = 33 add_state_core = 970 add_state_core = 16 add_state_core = 27 add_state_core = 17 add_state_core = 965 add_state_core = 28 add_state_core = 875 add_state_core = 785 add_state_core = 15 add_state_core = 30 add_state_core = 14 add_state_core = 29 add_state_core = 18 add_state_core = 24 
 	}
 }
