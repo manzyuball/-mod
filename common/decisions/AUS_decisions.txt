@@ -139,11 +139,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -162,11 +162,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -185,11 +185,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -208,11 +208,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -231,11 +231,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -254,11 +254,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -277,11 +277,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -311,11 +311,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 50
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -345,11 +345,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 50
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -379,11 +379,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 50
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {

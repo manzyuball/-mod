@@ -80,10 +80,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	fascism = 30
+	democratic = 40
+	fascism = 10
 	communism = 10
-	neutrality = 30
+	neutrality = 40
 }
 
 recruit_character = POL_ignacy_moscicki

@@ -1918,17 +1918,6 @@ add_idea = VLA_Roudouhou2
 		bypass = {	
 		}
 		completion_reward = {
-			every_country = {
-				limit = {
-					has_government = communism
-				}
-				VLA = {
-					create_wargoal = {
-						type = topple_government
-						target = PREV
-					}
-				}
-			}
 		}
 	}
 	focus = {

@@ -157,6 +157,10 @@ FRA_Ryoud_Kakutyo = {
                     add_state_core = 795
                     add_state_core = 179
                  }
+                 annex_country = {
+					target = POR
+					transfer_troops = yes
+					}
                 }
     
             }

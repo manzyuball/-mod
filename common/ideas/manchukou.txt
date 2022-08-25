@@ -12,7 +12,16 @@ ideas = {
 			picture = generic_build_infrastructure
 			targeted_modifier = {
 				tag = JAP
-				cic_to_target_factor = 0.75
+				cic_to_target_factor = 0.15
+			}
+		}
+		five_years_MAN = {
+			removal_cost = -1
+			picture = generic_build_infrastructure
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
 			}
 		}
 	}
@@ -61,6 +70,28 @@ ideas = {
 
 	aircraft_manufacturer = {
 		designer = yes
+
+		MAN_manshu = {
+
+			picture = generic_air_manufacturer_1
+
+			available = {
+			}
+
+			allowed = {
+				original_tag = MAN
+			}
+			
+			research_bonus = {
+				air_equipment = 0.25
+			}
+			
+			traits = { light_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
 		MAN_manshu = {
 
