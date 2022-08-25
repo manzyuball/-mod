@@ -678,6 +678,12 @@ focus_tree = {
 				target = BUL
 				transfer_troops = yes
 				}
+				annex_country = {
+					target = WAL
+					transfer_troops = yes
+					}
+					add_state_core = 961
+					add_state_core = 46
 				add_state_core = 81
 				add_state_core = 48
 				add_state_core = 803

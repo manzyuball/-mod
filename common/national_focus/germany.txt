@@ -1480,6 +1480,10 @@ focus = {
 			type = puppet_wargoal_focus
 			target = POL
 			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = AUS
+				}
 	}
 }
 focus = {

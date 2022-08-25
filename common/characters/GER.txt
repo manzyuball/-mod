@@ -91,7 +91,7 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ old_guard urban_assault_specialist defensive_doctrine }
+			traits={ urban_assault_specialist defensive_doctrine }
 			skill=3
 			attack_skill=3
 			defense_skill=2
@@ -1472,7 +1472,7 @@ characters={
 				}
 			}
 			ai_will_do = {
-				factor = 0.000
+				factor = 100
 			}
 		}
 	}
@@ -1506,86 +1506,6 @@ characters={
 		}		
 	}
 
-	GER_joseph_goebbels={
-		name=GER_joseph_goebbels
-		portraits={
-			army={
-				small="GFX_idea_joseph_goebbels"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = joseph_goebbels
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-			}
-			traits = {
-				fascist_demagogue propaganda_expert 
-			}
-			do_effect = {
-				NOT = {
-					has_government = fascism 
-				}
-			}
-			ai_will_do = {
-				factor = 24.000
-			}
-		}
-	}
-
-	GER_rudolf_hess={
-		name=GER_rudolf_hess
-		portraits={
-			army={
-				small="GFX_idea_rudolf_hess"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = rudolf_hess
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-			}
-			traits = {
-				amateur_aviator_hess
-			}
-		}
-	}
-
-	GER_heinrich_himmler={
-		name=GER_heinrich_himmler
-		portraits={
-			army={
-				small="GFX_idea_heinrich_himmler"
-				large="gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler.dds"
-			}
-			civilian = {
-				large="gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler.dds"
-			}
-		}
-		allowed_civil_war = {
-			has_government = fascism
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = heinrich_himmler
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-			}
-			on_add = {
-				custom_effect_tooltip = GER_SS_himmler_recruit
-			}
-			traits = {
-				prince_of_terror 
-			}
-		}
-	}
 
 	GER_martin_bormann={
 		name=GER_martin_bormann

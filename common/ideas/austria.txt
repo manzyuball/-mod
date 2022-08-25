@@ -286,6 +286,10 @@ ideas = {
 				war_support_factor = 0.15
 				production_speed_arms_factory_factor = 0.35
 			}
+			rule = {
+				can_decline_call_to_war = no
+			}
+
 		}
 		AUS_Kunsyua = {
 			picture = HUN_hungarian_monarchy_habsburg

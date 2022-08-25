@@ -29,6 +29,10 @@ ideas = {
 			modifier = {
 				ai_focus_aggressive_factor = 0.25
 			}
+			rule = {
+				can_join_factions = no
+				
+			}
 		}
 		PRU_Teikoku_Bousoudo_OK = {
 			allowed = {
@@ -42,6 +46,10 @@ ideas = {
 				conscription = 0.02
 				stability_factor = -0.25
 				surrender_limit = 0.25
+			}
+			rule = {
+				can_join_factions = no
+				
 			}
 		}
 		PRU_Teikoku_Bousoudo_NO = {
@@ -57,6 +65,10 @@ ideas = {
 				stability_factor = -0.5
 				surrender_limit = 0.5
 			}
+			rule = {
+				can_join_factions = no
+				
+			}
 		}
 		PRU_Teikoku_Bousoudo_Shit = {
 			allowed = {
@@ -70,6 +82,10 @@ ideas = {
 				conscription = 0.1
 				stability_factor = -1
 				surrender_limit = 0.75
+			}
+			rule = {
+				can_join_factions = no
+				
 			}
 		}
 

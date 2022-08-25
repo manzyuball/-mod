@@ -20,7 +20,7 @@ state=
 			}
 		}
 		add_core_of = LAT
-
+		add_core_of = GER
 	}
 	provinces={
 		3288 	

@@ -113,7 +113,7 @@
  france.34.t:0 "イタリアの合意"
  france.34.d:0 "我々の経済提案に対しイタリアは合意し、経済の相互援助が決定された"
  france.34.a:0 "素晴らしい"
- 
+ FRA_Ryoud_Kakutyo:0 "革命の拡大"
  FRA_SPAIN_SEIKYU:0 "大カタルーニャの請求"
  FRA_SPAIN_SENSO:0 "イベリア侵攻"
  FRA_SPAIN_Soutokuhu:0 "革命政府の樹立"
@@ -125,3 +125,5 @@
  FRA_POR_SOUTOKU12:0 "ポルトガル州をスペイン政府に統合します"
  FRA_SWI_WAR:0 "対スイスインターナショナル合同戦争"
  FRA_AFRICA_WAR:0 "サハラ作戦"
+ FRA_AFRICA_WAR2:0 "エジプト遠征"
+ FRA_Russian_WAR2:0 "ロシア遠征"

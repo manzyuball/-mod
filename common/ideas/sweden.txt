@@ -1,6 +1,19 @@
 ideas = {
 	country = {
+		Hokuou_DANKETI_IDEAS = {
+			
+			allowed = {
+				always = no
+			}
 
+			removal_cost = -1
+
+			picture =MEX_politicised_army_2
+			
+			modifier = {
+				surrender_limit = 0.75
+			}
+		}
 		The_tower = {
 			
 			allowed = {

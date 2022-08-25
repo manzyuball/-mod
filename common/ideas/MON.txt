@@ -11,7 +11,7 @@ ideas = {
 			opinion_gain_monthly_factor = -0.75
 	    }
 		rule = {
-			can_join_factions_not_allowed_diplomacy = yes
+			can_join_factions = no
 		}
     }
     }

@@ -1,4 +1,4 @@
-﻿l_english: ##SPR
+﻿l_english:
  USN_democratic:0 "合衆国海軍"
  USN_democratic_DEF:0 "合衆国海軍"
  USN_democratic_ADJ:0 "合衆国海軍"
@@ -697,3 +697,4 @@
  SPR:0 "スペイン"
  SPR_DEF:0 "スペイン"
  SPR_ADJ:0 "スペイン"
+ 
