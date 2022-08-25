@@ -30,6 +30,11 @@
  ALG_a6:0 "急造の要塞"
  ALG_a7:0 "死守"
  ALG_a8:0 "対共産の十字軍"
+ ALG_back:0 "一斉蜂起"
+ ALG_annex:0 "帰還"
+ ALG_SAHARA:0 "サハラ戦争"
+ ALG_DOUMEI:0 "中央同盟国と同盟"
+ ALG_CHUKAKU:0 "民主主義的プロパガンダ"
  #友好度
  
  #隠し効果
