@@ -1,0 +1,20 @@
+state={
+	id=899
+	name="STATE_899"
+	provinces={
+		4892 5000 5056 
+	}
+	state_category = town
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = VEN
+
+	}
+	manpower=543156
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

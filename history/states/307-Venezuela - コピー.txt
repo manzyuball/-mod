@@ -1,0 +1,40 @@
+
+state={
+	id=307
+	name="STATE_307"
+	resources={
+		oil=95.000
+	}
+
+	history={
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 2
+			8113 = {
+				naval_base = 3
+
+			}
+			10912 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			8113 5 
+		}
+
+	}
+
+	provinces={
+		4942 7968 8024 8080 8113 10767 10823 10912 
+	}
+	manpower=1335010
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
