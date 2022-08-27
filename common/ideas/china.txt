@@ -78,13 +78,13 @@ ideas = {
 				air_accidents_factor = 0.15
 			}
 			rule = {
-				can_be_called_to_war = not
+				can_be_called_to_war = no
 			}
 			rule = {
 				can_be_called_to_war = no
 			}
-			set_rule = {
-				can_be_called_to_war = not
+			rule = {
+				can_be_called_to_war = no
 			}
 		}
 		CHI_BUNRETU = {
@@ -125,6 +125,7 @@ ideas = {
 			picture = chi_army_corruption
 
 			modifier = {
+				ai_focus_aggressive_factor = 0.5
 				army_core_attack_factor = 0.3
 				army_core_defence_factor = 0.3
 				max_command_power = 25
@@ -136,6 +137,7 @@ ideas = {
 			picture = chi_army_corruption
 
 			modifier = {
+				ai_focus_aggressive_factor = 0.5
 				army_core_attack_factor = 0.3
 				army_core_defence_factor = 0.3
 				planning_speed = 0.10
@@ -149,6 +151,7 @@ ideas = {
 			picture = chi_army_corruption
 
 			modifier = {
+				ai_focus_aggressive_factor = 0.5
 				army_core_attack_factor = 0.3
 				army_core_defence_factor = 0.3
 				planning_speed = 0.10

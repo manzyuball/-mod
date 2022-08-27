@@ -151,7 +151,7 @@ add_ideas = {
 	ENG_Kyoukou
 	ENG_loiyalnavy
 }
-set_convoys = 350
+set_convoys = 550
 
 # DIPLOMACY
 if = {

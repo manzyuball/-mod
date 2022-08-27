@@ -26,11 +26,10 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-		white_peace = {
-			tag = FRA 
-			message = Irish_resistance
-		}
-		IRE = { transfer_state = 134 transfer_state = 119 transfer_state = 113 transfer_state = 135 }
-		FRA = { add_to_faction = IRE }
+		IRE = { transfer_state = 134 transfer_state = 119 transfer_state = 113 transfer_state = 135 
+		declare_war_on = {
+			target = ENG
+			type = annex_everything
+			}}
 	}
 }

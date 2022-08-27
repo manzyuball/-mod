@@ -3080,11 +3080,6 @@ focus = {
 				relation = guarantee
 				active = yes
 				}
-				diplomatic_relation = {
-					country = TIB
-					relation = guarantee
-					active = yes
-					}
 					diplomatic_relation = {
 						country = AFG
 						relation = guarantee

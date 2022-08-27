@@ -185,8 +185,8 @@ if = {
 }
 
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.3
+set_stability = 0.3
+set_war_support = 0.2
 # Starting tech
 set_technology = { #WARNING: Do not just remove techs from here -> It can impact a lot of stuff. Before removing, double check that content does not count on these techs being researched
 	infantry_weapons = 1
@@ -294,7 +294,7 @@ if = {
 	}
 }
 
-set_convoys = 250
+set_convoys = 50
 
 set_politics = {
 	ruling_party = communism

@@ -1,0 +1,37 @@
+## This is so those cucks in Japan and England actually protect the island when there's nothing to do
+# Written by dickey bong
+# my wife left me lol
+
+JAP_protect_island_war = {
+	enable = {
+		tag = JAP
+		has_war = no
+	}
+	abort = {
+		tag = JAP
+		has_war = yes
+	}
+
+	ai_strategy = { 
+		type = area_priority        
+		id = japan 			      
+		value = 500 
+	} 
+}
+
+JAP_protect_island_peace = {
+	enable = {
+		tag = JAP
+		has_war = yes
+	}
+	abort = {
+		tag = JAP
+		has_war = no
+	}
+
+	ai_strategy = { 
+		type = area_priority        
+		id = japan 			      
+		value = 1000
+	} 
+}

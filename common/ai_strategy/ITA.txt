@@ -1,0 +1,19 @@
+
+ITA_air_plan = {
+	enable = {
+		tag = ITA
+	}
+	
+	abort = {
+		has_war = yes
+	}
+
+    ai_strategy = {
+        type = force_build_armies
+        value = 60
+    }
+    ai_strategy = {
+        type = air_factory_balance
+        value = 50
+    }
+}

@@ -8,8 +8,8 @@ state={
 		owner = GER
 		buildings = {
 			infrastructure = 3
-			arms_factory = 3
-			industrial_complex = 4
+			arms_factory = 1
+			industrial_complex = 3
 			anti_air_building = 2
 
 		}
