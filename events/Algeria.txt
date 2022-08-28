@@ -1,7 +1,7 @@
 add_namespace = Algeria
 add_namespace = news
 
-#Second treaty of Addis Ababa
+#Second treaty of Alger
 country_event = {
 	id = Algeria.1
 	title = Algeria.1.t
