@@ -36,7 +36,6 @@ country_event = {
 			message = treaty_of_Alger
 		}
 		transfer_state = 1
-		transfer_state = 114
 		add_stability = 0.1
 		give_military_access = FRA
 		give_military_access = GER
