@@ -1,4 +1,4 @@
-﻿capital = 808
+﻿capital = 763
 
 oob = "LAT_1936"
 if = {
@@ -31,6 +31,10 @@ recruit_character = LAT_janis_kaminskis
 recruit_character = LAT_fricis_menders
 recruit_character = LAT_alberts_kvesis
 recruit_character = LAT_ruden
+recruit_character = LAT_syutoraich
+recruit_character = LAT_gerd_von_rundstedt
+recruit_character = LAT_erich_von_manstein
+recruit_character = LAT_heinz_guderian
 IF = { 
 	limit = { has_dlc = "No Step Back" }
 	recruit_character = LAT_janis_balodis

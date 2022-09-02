@@ -10,6 +10,13 @@ ideas = {
 				conscription = 0.05
 			}
 		}
+		LAT_NO_GIKAI = { #エップからの釘
+		picture = saf_history_of_segregation
+		removal_cost = -1
+		modifier = {
+			political_power_factor = -0.1
+		}
+	}
 	}
 
 	aircraft_manufacturer = {

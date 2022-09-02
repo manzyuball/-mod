@@ -41,6 +41,7 @@
  MON_Tokuo:0 "徳王"
  SOV_BUHA:0 "ニコライ・ブハーリン"
  SOVIET_BUHA:0 "自由なソビエトの建設者"
+ LAT_syutoraich:0 "ユリウス・シュトライヒャー"
  EOB_Boueisyou:0 "防衛省"
  EOB_Gaimu:0 "外務省"
  EOB_Gunbi:0 "陸軍省"
@@ -52,3 +53,9 @@
  EOB_Sangyo:0 "産業省"
  EOB_Senden:0 "宣伝省"
  EOB_Zaimu:0 "財務省"
+ 
+
+ #将軍
+ LAT_gerd_von_rundstedt:0 "ゲルト・フォン・ルンドシュテット"
+ LAT_erich_von_manstein:0 "エーリッヒ・フォン・マンシュタイン"
+ LAT_heinz_guderian:0 "ハインツ・グデーリアン"
