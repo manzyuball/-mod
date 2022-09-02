@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = AUS
+		owner = VNI
 		victory_points = {
 			11584 10 
 		}
@@ -24,7 +24,7 @@ state={
 			}
 
 		}
-		add_core_of = AUS
+		add_core_of = VEN
 		add_core_of = ITA
 		1939.1.1 = {
 			buildings = {

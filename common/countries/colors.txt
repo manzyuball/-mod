@@ -1,5 +1,25 @@
 #reload countrycolors
+#eob
+SAR = {
+	color = rgb { 111 71 71 }
+	color_ui = rgb { 144 92 92 }
 
+}
+VNI = {
+	color = rgb { 65 175 179 }
+	color_ui = rgb { 85 228 233 }
+}
+
+
+
+
+
+
+
+
+
+
+###
 GER = {
 	color = rgb { 139 0 0 }
 	color_ui = rgb { 138 155 116 }

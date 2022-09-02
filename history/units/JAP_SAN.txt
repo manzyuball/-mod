@@ -1,0 +1,89 @@
+﻿division_template = {
+	name = "山東上陸海軍陸戦隊"
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}	
+	priority = 2
+}
+division_template = {
+	name = "山東上陸歩兵隊" 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+units = {
+
+	division = {
+		name = "山東上陸海軍陸戦隊"
+		location = 4205
+		division_template = "山東上陸海軍陸戦隊"
+	}
+	division = {
+		name = "山東上陸歩兵隊"
+		location =1200
+		division_template = "山東上陸歩兵隊"
+	}
+	division = {
+		name = "山東上陸海軍陸戦隊"
+		location =10018
+		division_template = "山東上陸海軍陸戦隊"
+	}
+	division = {
+		name = "山東上陸歩兵隊"
+		location =4186
+		division_template = "山東上陸歩兵隊"
+	}
+	division = {
+		name = "山東上陸海軍陸戦隊"
+		location = 1104
+		division_template = "山東上陸海軍陸戦隊"
+	}
+	division = {
+		name = "山東上陸歩兵隊"
+		location = 7105
+		division_template = "山東上陸歩兵隊"
+	}
+	division = {
+		name = "山東上陸海軍陸戦隊"
+		location = 10000
+		division_template = "山東上陸海軍陸戦隊"
+	}
+	division = {
+		name = "山東上陸歩兵隊"
+		location = 10000
+		division_template = "山東上陸歩兵隊"
+	}
+	division = {
+		name = "山東上陸歩兵隊"
+		location = 4205
+		division_template = "山東上陸歩兵隊"
+	}
+	division = {
+		name = "山東上陸歩兵隊"
+		location = 7105
+		division_template = "山東上陸歩兵隊"
+	}
+}

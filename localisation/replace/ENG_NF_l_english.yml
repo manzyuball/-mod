@@ -102,7 +102,18 @@
  kokunainokaihatu_two:0 "国内の開発Ⅱ"
  kokunainokaihatu_three:0 "国内の開発Ⅲ"
 #IDEAS
-#IDEAS
+#descision
+ ENG_Zyouriku:0 "上陸作戦"
+ ENG_FRA_ZYOURIKU_ZYUNBI:0 "フランスへの上陸計画"
+ ENG_Zyunbi_zyouriku_OK:0 "フランスへの上陸を計画する"
+ ENG_ZYOURIKU_OK:0 "フランスへの上陸を計画した"
+ ENG_FRA_ZYOURIKU_NORMANDY:0 "ノルマンディー上陸作戦"
+ ENG_FRA_Normandy:0 "ノルマンディーに上陸します"
+ ENG_Zyouriku_ideas:0 "上陸作戦の決行"
+ ENG_FRA_ZYOURIKU_BRITANU:0 "ブルターニュ上陸作戦"
+ ENG_FRA_BRITANU:0 "ブルターニュに上陸します"
+ ENG_FRA_ZYOURIKU_KARE:0 "カレー上陸計画"
+ ENG_FRA_KARE:0 "カレーに上陸します"
 #IDEAS
  
  ENG_loiyalnavy:0 "ロイヤルネイビー"

@@ -1,5 +1,16 @@
 ideas = {
 	country = {
+		JAP_Zyouriku_ideas = { 
+			name = JAP_Zyouriku_ideas
+			picture = generic_coastal_defense_ships
+			modifier = {
+				ai_focus_aggressive_factor = 0.25
+				land_reinforce_rate = 0.05
+			}
+			targeted_modifier = { tag = CHI attack_bonus_against = 0.05 }
+			targeted_modifier = { tag = IVO attack_bonus_against = 0.05 }
+		}
+
 		Shared_shells = {
 			name = JP_SS
 			picture = JAP_share_shell

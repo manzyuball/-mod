@@ -38,12 +38,12 @@ units = {
 
 	division = {
 		name = "広州上陸海軍陸戦隊"
-		location = 7108
+		location = 1047
 		division_template = "広州上陸海軍陸戦隊"
 	}
 	division = {
 		name = "広州上陸歩兵隊"
-		location = 1202
+		location =7108
 		division_template = "広州上陸歩兵隊"
 	}
 	division = {
@@ -53,12 +53,22 @@ units = {
 	}
 	division = {
 		name = "広州上陸歩兵隊"
-		location = 7067
+		location = 1202
 		division_template = "広州上陸歩兵隊"
 	}
 	division = {
 		name = "広州上陸海軍陸戦隊"
-		location = 7067
+		location = 12095
+		division_template = "広州上陸海軍陸戦隊"
+	}
+	division = {
+		name = "広州上陸歩兵隊"
+		location = 7152
+		division_template = "広州上陸歩兵隊"
+	}
+	division = {
+		name = "広州上陸海軍陸戦隊"
+		location = 7108
 		division_template = "広州上陸海軍陸戦隊"
 	}
 	division = {
@@ -67,33 +77,13 @@ units = {
 		division_template = "広州上陸歩兵隊"
 	}
 	division = {
-		name = "広州上陸海軍陸戦隊"
-		location = 10062
-		division_template = "広州上陸海軍陸戦隊"
-	}
-	division = {
 		name = "広州上陸歩兵隊"
-		location = 12095
+		location = 4050
 		division_template = "広州上陸歩兵隊"
 	}
 	division = {
 		name = "広州上陸歩兵隊"
-		location = 11941
-		division_template = "広州上陸歩兵隊"
-	}
-	division = {
-		name = "広州上陸歩兵隊"
-		location = 7152
-		division_template = "広州上陸歩兵隊"
-	}
-	division = {
-		name = "広州上陸歩兵隊"
-		location = 11938
-		division_template = "広州上陸歩兵隊"
-	}
-	division = {
-		name = "広州上陸歩兵隊"
-		location = 1187
+		location = 1202
 		division_template = "広州上陸歩兵隊"
 	}
 }

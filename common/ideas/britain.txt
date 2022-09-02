@@ -1,6 +1,17 @@
 ideas = {
 
 	country = {
+
+		ENG_Zyouriku_ideas = { 
+			name = ENG_Zyouriku_ideas
+			picture = generic_coastal_defense_ships
+			modifier = {
+				ai_focus_aggressive_factor = 0.25
+				land_reinforce_rate = 0.05
+			}
+			targeted_modifier = { tag = FRA attack_bonus_against = 0.05 }
+		}
+
 		ENG_Shuchu = {
 			name = ENG_Shuchu
 			picture = generic_industrial_concern_1
@@ -318,7 +329,9 @@ ideas = {
 			traits = { popular_figurehead }
 			
 		}
-	
+
+
+
 	naval_manufacturer = {
 		
 		designer = yes
