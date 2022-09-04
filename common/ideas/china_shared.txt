@@ -520,9 +520,6 @@ ideas = {
 			}
 			
 			available = {
-				NOT = {
-					has_war_with = GER
-				}
 			}
 			
 			cost = 150
@@ -625,7 +622,6 @@ ideas = {
 			cost = 50
 
 			available = {
-				has_completed_focus = CHI_local_bomber_production
 			}
 
 			allowed = {

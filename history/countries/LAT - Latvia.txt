@@ -8,7 +8,17 @@ if = {
 		set_naval_oob = "LAT_1936_naval_legacy"
 	}
 }
-add_manpower = 864210
+
+set_variable = {
+	var = LAT.LAT_Onken
+	value = 0
+}
+set_variable = {
+	var = LAT.LAT_Kageki
+	value = 0
+}
+
+add_manpower = 994210
 recruit_character = LAT_gustavs_celminsh
 recruit_character = LAT_augusts_kirhensteins
 recruit_character = LAT_martinsh_penikis

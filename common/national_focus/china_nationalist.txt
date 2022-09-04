@@ -1025,7 +1025,7 @@
 	}
 	focus = {
 		id = CHI_S3
-		icon = GFX_goal_generic_national_unity
+		icon = "GFX_goal_generic_position_armies"
 		x = -5
 		y = 1
 		prerequisite = { focus = CHI_S1 }
@@ -1033,14 +1033,53 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 0
+			factor = 15
 		}
 
 		available = {
 		}
 
 		completion_reward = {
-			add_stability = 0.05
+			600 = {
+				add_extra_state_shared_building_slots = 2
+				set_building_level = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+					}
+			}
+			964 = {
+				add_extra_state_shared_building_slots = 2
+				set_building_level = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+					}
+			}
+			963 = {
+				add_extra_state_shared_building_slots = 2
+				set_building_level = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+					}
+			}
+			602 = {
+				add_extra_state_shared_building_slots = 2
+				set_building_level = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+					}
+			}
+			750 = {
+				add_extra_state_shared_building_slots = 2
+				set_building_level = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+					}
+			}
 		}
 	}
 	focus = {
@@ -1323,6 +1362,7 @@
 		icon = "GFX_focus_generic_military_dictatorship"
 		x = 2
 		y = 5
+		mutually_exclusive = { focus = CHI_S14 }
 		prerequisite = { focus = CHI_S12 }
 		relative_position_id = CHI_S1
 		cost = 5
@@ -1341,6 +1381,7 @@
 	focus = {
 		id = CHI_S14
 		icon = "GFX_focus_hol_the_foundations_of_defense"
+		mutually_exclusive = { focus = CHI_S13 }
 		x = -2
 		y = 5
 		prerequisite = { focus = CHI_S12 }
@@ -1510,7 +1551,7 @@
 
 		completion_reward = {
 			set_major = yes
-			add_research_slot = 1
+			
 			army_experience = 150
 		}
 	}
@@ -1519,7 +1560,7 @@
 		icon = "GFX_goal_generic_occupy_states_ongoing_war"
 		x = 0
 		y = 7
-		prerequisite = { focus = CHI_S14 focus = CHI_S13 }
+		prerequisite = { focus = CHI_S21 }
 		relative_position_id = CHI_S1
 		cost = 10
 
@@ -1586,7 +1627,7 @@
 
 	focus = {
 		id = CHI_S23
-		icon = GFX_goal_generic_national_unity
+		icon = "GFX_focus_SOV_merge_plants"
 		x = -1
 		y = 1
 		prerequisite = { focus = CHI_S3 }
@@ -1601,14 +1642,23 @@
 		}
 
 		completion_reward = {
-			add_stability = 0.05
+			add_political_power = 200
+			add_victory_points = {
+				province = 10057
+				value = 10
+			}
+			add_victory_points = {
+				province = 7097
+				value = 10
+			}
 		}
 	}
 	focus = {
 		id = CHI_S24
-		icon = GFX_goal_generic_national_unity
+		icon = "GFX_focus_LAT_suspend_constitution_of_latvia"
 		x = -3
-		y = 3
+		y = 2
+		mutually_exclusive = { focus = CHI_S26 }
 		prerequisite = { focus = CHI_S23 }
 		relative_position_id = CHI_S3
 		cost = 5
@@ -1621,12 +1671,12 @@
 		}
 
 		completion_reward = {
-			add_stability = 0.05
+			add_research_slot = 1
 		}
 	}
 	focus = {
 		id = CHI_S25
-		icon = GFX_goal_generic_national_unity
+		icon = "GFX_focus_generic_socialist_science"
 		x = -3
 		y = 4
 		prerequisite = { focus = CHI_S24 }
@@ -1641,14 +1691,15 @@
 		}
 
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = CHI_WAR_CITY
 		}
 	}
 	focus = {
 		id = CHI_S26
-		icon = GFX_goal_generic_national_unity
+		icon = "GFX_goal_generic_construct_mil_factory"
 		x = -1
 		y = 2
+		mutually_exclusive = { focus = CHI_S24 }
 		prerequisite = { focus = CHI_S23 }
 		relative_position_id = CHI_S3
 		cost = 5
@@ -1661,12 +1712,44 @@
 		}
 
 		completion_reward = {
-			add_stability = 0.05
+			963 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
+			}
+			964 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
+			}
+			600 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
+			}
+			602 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
+			}
+				
 		}
 	}
 	focus = {
 		id = CHI_S27
-		icon = GFX_goal_generic_national_unity
+		icon = "GFX_focus_generic_tank_production"
 		x = -1
 		y = 3
 		prerequisite = { focus = CHI_S26 }
@@ -1681,12 +1764,18 @@
 		}
 
 		completion_reward = {
-			add_stability = 0.05
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 5.0
+				uses = 2
+				category = armor
+			}
+			add_ideas = CHI_Kourituk
 		}
 	}
 	focus = {
 		id = CHI_S28
-		icon = GFX_goal_generic_national_unity
+		icon = "GFX_focus_SOV_organize_wreckers"
 		x = -1
 		y = 4
 		prerequisite = { focus = CHI_S27 }
@@ -1701,12 +1790,15 @@
 		}
 
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = CHI_Kourituk
+				add_idea = CHI_Kourituka
+				}
 		}
 	}
 	focus = {
 		id = CHI_S29
-		icon = GFX_goal_generic_national_unity
+		icon = "GFX_focus_rocketry"
 		x = -2
 		y = 5
 		prerequisite = { focus = CHI_S25 }
@@ -1721,12 +1813,18 @@
 		}
 
 		completion_reward = {
-			add_stability = 0.05
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				ahead_reduction = 4
+				uses = 3
+				category = rocketry
+				category = jet_technology
+			}
 		}
 	}
 	focus = {
 		id = CHI_S30
-		icon = GFX_goal_generic_national_unity
+		icon = "GFX_focus_SOV_the_comecon"
 		x = -4
 		y = 5
 		prerequisite = { focus = CHI_S25 }
@@ -1741,12 +1839,17 @@
 		}
 
 		completion_reward = {
-			add_stability = 0.05
+			add_tech_bonus = {
+				bonus = 3.0
+				ahead_reduction = 2
+				uses = 2
+				category = nuclear
+			}
 		}
 	}
 	focus = {
 		id = CHI_S31
-		icon = GFX_goal_generic_national_unity
+		icon = "GFX_focus_wonderweapons"
 		x = -4
 		y = 6
 		prerequisite = { focus = CHI_S30 }
@@ -1761,7 +1864,10 @@
 		}
 
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = CHI_WAR_CITY
+				add_idea = CHI_WAR_CITY1
+				}
 		}
 	}
 	focus = {
