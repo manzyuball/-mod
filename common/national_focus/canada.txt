@@ -557,7 +557,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 75
+			factor = 0
 		}
 
 		available = {
@@ -679,14 +679,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 5
-			modifier = {
-				OR = {
-					communism > 0.15
-					fascism > 0.15
-					}
-				factor = 2.5
-			}
+			factor = 50
 		}
 
 		available = {
@@ -724,15 +717,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
-			modifier = {
-				democratic > 0.6
-				factor = 2
-			}
-			modifier = {
-				democratic < 0.4
-				factor = 0.5
-			}
+			factor = 50
 		}
 
 		available = {
