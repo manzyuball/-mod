@@ -521,7 +521,7 @@
 	focus = {
 		id = CAN_kainyu4
 		icon = GFX_focus_generic_home_defense
-		prerequisite = { focus = CAN_kainyu2 focus = CAN_kakumei2 }
+		prerequisite = { focus = CAN_kainyu2 }
 		mutually_exclusive = { focus = }
 		x = 24
 		y = 3
