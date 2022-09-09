@@ -1,5 +1,36 @@
 ideas = {
-
+	country = {
+		EOB_Zinei = { #孤立してない大帝国
+	    allowed = {	always = no }
+	    picture = ast_volunteer_defence_corps
+	    removal_cost = -1
+		rule = {
+			can_join_factions = yes
+			
+		}
+        }
+		EOB_SEITOPUKA = {
+	    allowed = {	always = no }
+	    picture = ast_volunteer_defence_corps
+	    removal_cost = -1
+		modifier = {
+			justify_war_goal_time = -1.5
+			generate_wargoal_tension = -0.95
+		}
+        }
+		EOB_Syougun = {
+			allowed = {	always = no }
+			picture = ast_volunteer_defence_corps
+			removal_cost = -1
+			modifier = {
+				army_leader_start_level = 4
+				army_leader_start_attack_level= 3
+				army_leader_start_planning_level= 3
+				army_leader_start_defense_level= 3
+				army_leader_start_logistics_level= 3
+			}
+			}
+	}
 	hidden_ideas = {
 
 		continuous_naval_production = {

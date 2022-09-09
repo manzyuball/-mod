@@ -1,0 +1,576 @@
+generic_Syoutyou = {
+    EOB_Bouei1 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                NOT = {
+                    has_country_flag = Boueisyou_Kyoka
+                }
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Boueisyou_DecisionDesc
+            hidden_effect = {
+                FROM = {  set_country_flag = Boueisyou_Kyoka } 
+            }
+            }
+        }
+        EOB_Bouei2 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    has_country_flag = Boueisyou_Kyoka
+                    NOT = { has_country_flag = Boueisyou_Kyoka1 }
+                }
+             
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Boueisyou_DecisionDesc1
+            hidden_effect = {
+                FROM = {   set_country_flag = Boueisyou_Kyoka1 }
+                FROM = {  clr_country_flag = Boueisyou_Kyoka }
+            }
+            }
+        }
+        EOB_Bouei3 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    has_country_flag = Boueisyou_Kyoka1
+                    NOT = { has_country_flag = Boueisyou_Kyoka2 }
+                }
+             
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Boueisyou_DecisionDesc1
+            hidden_effect = {
+                FROM = {    set_country_flag = Boueisyou_Kyoka2 }
+                FROM = {    clr_country_flag = Boueisyou_Kyoka1 }
+            }
+            }
+        }
+        EOB_Bouei4 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    has_country_flag = Boueisyou_Kyoka2
+                    NOT = { has_country_flag = Boueisyou_Kyoka3 }
+                }
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Boueisyou_DecisionDesc1
+            hidden_effect = {
+                FROM = {    set_country_flag = Boueisyou_Kyoka3 }
+                FROM = {   clr_country_flag = Boueisyou_Kyoka2 }
+            }
+            }
+        }
+        EOB_Gaimusyou = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    NOT = { has_country_flag = Gaimu_Kyoka }
+                }
+             
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Gaimu_DecisionDesc
+            hidden_effect = {
+                FROM = {   set_country_flag = Gaimu_Kyoka }
+            }
+            }
+        }
+        EOB_Gaimusyou1 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    has_country_flag = Gaimu_Kyoka
+                    NOT = { has_country_flag = Gaimu_Kyoka1 }
+                }
+             
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Gaimu_DecisionDesc1
+            hidden_effect = {
+                FROM = {    set_country_flag = Gaimu_Kyoka1 }
+                FROM = {    clr_country_flag = Gaimu_Kyoka }
+            }
+            }
+        }
+        EOB_Gaimusyou2 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    has_country_flag = Gaimu_Kyoka1
+                    NOT = { has_country_flag = Gaimu_Kyoka2 }
+                }
+             
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Gaimu_DecisionDesc1
+            hidden_effect = {
+                FROM = {    set_country_flag = Gaimu_Kyoka2 }
+                FROM = {    clr_country_flag = Gaimu_Kyoka1 }
+            }
+            }
+        }
+        EOB_Gaimusyou3 = {
+            available = {
+            }
+            ai_will_do = {
+                base = 50
+            }
+            allowed = {  }
+            cost = 25
+            fire_only_once = yes
+            days_remove = 35
+            modifier = {
+                political_power_factor = -0.1
+            }
+            visible = {
+                AND = {
+                    has_country_flag = Gaimu_Kyoka2
+                    NOT = { has_country_flag = Gaimu_Kyoka3 }
+                }
+             
+            }
+            remove_effect = {
+            custom_effect_tooltip = EOB_Gaimu_DecisionDesc1
+            hidden_effect = {
+                FROM = {   set_country_flag = Gaimu_Kyoka3 }
+                FROM = {   clr_country_flag = Gaimu_Kyoka2 }
+            }
+            }
+        }
+    }
+
+    generic_Malti = {
+        EOB_MU_ZINEI = {
+            available = {
+            }
+            ai_will_do = {
+                base = 0
+            }
+            cost = 0
+            fire_only_once = yes
+            modifier = {
+            }
+            visible = {
+            }
+            complete_effect = {
+            add_ideas = EOB_Zinei
+            }
+        }
+        EOB_MU_SEITOUKA = {
+            available = {
+            }
+            ai_will_do = {
+                base = 0
+            }
+            cost = 0
+            fire_only_once = yes
+            modifier = {
+            }
+            visible = {
+            }
+            complete_effect = {
+            add_ideas = EOB_SEITOPUKA
+            }
+        }
+        EOB_MU_SYOUGung_ga = {
+            available = {
+            }
+            ai_will_do = {
+                base = 0
+            }
+            cost = 0
+            fire_only_once = yes
+            modifier = {
+            }
+            visible = {
+            }
+            complete_effect = {
+            add_ideas = EOB_Syougun 
+            }
+        }
+        EOB_MU_democratic = {
+            available = {
+            }
+            ai_will_do = {
+                base = 0
+            }
+            cost = 0
+            fire_only_once = yes
+            modifier = {
+            }
+            visible = {
+            }
+            complete_effect = {
+                set_politics = {
+                    parties = {
+                    democratic = {
+                    popularity = 100
+                    }
+                    fascism = {
+                    popularity = 0
+                    }
+                    communism = {
+                    popularity = 0
+                    }
+                    neutrality = {
+                    popularity = 0
+                    }
+                    }
+                    ruling_party = democratic
+                    } 
+            }
+        }
+        EOB_MU_democratic = {
+            available = {
+            }
+            ai_will_do = {
+                base = 0
+            }
+            cost = 0
+            fire_only_once = yes
+            modifier = {
+            }
+            visible = {
+            }
+            complete_effect = {
+                set_politics = {
+                    parties = {
+                    democratic = {
+                    popularity = 100
+                    }
+                    fascism = {
+                    popularity = 0
+                    }
+                    communism = {
+                    popularity = 0
+                    }
+                    neutrality = {
+                    popularity = 0
+                    }
+                    }
+                    ruling_party = democratic
+                    } 
+            }
+        }
+        EOB_MU_neutrality = {
+            available = {
+            }
+            ai_will_do = {
+                base = 0
+            }
+            cost = 0
+            fire_only_once = yes
+            modifier = {
+            }
+            visible = {
+            }
+            complete_effect = {
+                set_politics = {
+                    parties = {
+                    democratic = {
+                    popularity = 0
+                    }
+                    fascism = {
+                    popularity = 0
+                    }
+                    communism = {
+                    popularity = 0
+                    }
+                    neutrality = {
+                    popularity = 100
+                    }
+                    }
+                    ruling_party = neutrality
+                    } 
+            }
+        }
+        EOB_MU_communism = {
+            available = {
+            }
+            ai_will_do = {
+                base = 0
+            }
+            cost = 0
+            fire_only_once = yes
+            modifier = {
+            }
+            visible = {
+            }
+            complete_effect = {
+                set_politics = {
+                    parties = {
+                    democratic = {
+                    popularity = 0
+                    }
+                    fascism = {
+                    popularity = 0
+                    }
+                    communism = {
+                    popularity = 100
+                    }
+                    neutrality = {
+                    popularity = 0
+                    }
+                    }
+                    ruling_party = communism
+                    } 
+            }
+        }
+        EOB_MU_fascism = {
+            available = {
+            }
+            ai_will_do = {
+                base = 0
+            }
+            cost = 0
+            fire_only_once = yes
+            modifier = {
+            }
+            visible = {
+            }
+            complete_effect = {
+                set_politics = {
+                    parties = {
+                    democratic = {
+                    popularity = 0
+                    }
+                    fascism = {
+                    popularity = 100
+                    }
+                    communism = {
+                    popularity = 0
+                    }
+                    neutrality = {
+                    popularity = 0
+                    }
+                    }
+                    ruling_party = fascism
+                    } 
+            }
+        }
+        EOB_ANNEX_ENG = {
+            available = {
+                tag = ENG
+            }
+            ai_will_do = {
+                base = 0
+            }
+            cost = 0
+            fire_only_once = yes
+            modifier = {
+            }
+            visible = {
+            }
+            complete_effect = {
+                ENG = {
+                    every_state = { 
+                        limit = { is_core_of = CAN }
+                        add_core_of = ENG
+                     }
+                    annex_country = {
+                        target = CAN
+                        transfer_troops = yes
+                        }
+
+                        every_state = { 
+                            limit = { is_core_of = AST }
+                            add_core_of = ENG
+                         }
+                        annex_country = {
+                            target = AST
+                            transfer_troops = yes
+                            }
+                            
+                            every_state = { 
+                                limit = { is_core_of = NZL }
+                                add_core_of = ENG
+                             }
+                            annex_country = {
+                                target = NZL
+                                transfer_troops = yes
+                                }
+
+                                every_state = { 
+                                    limit = { is_core_of = RAJ }
+                                    add_core_of = ENG
+                                 }
+                                annex_country = {
+                                    target = RAJ
+                                    transfer_troops = yes
+                                    }
+                                    every_state = { 
+                                        limit = { is_core_of = SAF }
+                                        add_core_of = ENG
+                                     }
+                                    annex_country = {
+                                        target = SAF
+                                        transfer_troops = yes
+                                        }
+
+                                        every_state = { 
+                                            limit = { is_core_of = EGY }
+                                            add_core_of = ENG
+                                         }
+                                        annex_country = {
+                                            target = EGY
+                                            transfer_troops = yes
+                                            }
+                }
+            }
+
+            }
+            EOB_ANNEX_FRA = {
+                available = {
+                    tag = FRA
+                }
+                ai_will_do = {
+                    base = 0
+                }
+                cost = 0
+                fire_only_once = yes
+                modifier = {
+                }
+                visible = {
+                }
+                complete_effect = {
+                    FRA = {
+                        every_state = { 
+                            limit = { is_core_of = GER }
+                            add_core_of = FRA
+                         }
+                        annex_country = {
+                            target = GER
+                            transfer_troops = yes
+                            }
+
+                            every_state = { 
+                                limit = { is_core_of = ITA }
+                                add_core_of = FRA
+                             }
+                            annex_country = {
+                                target = ITA
+                                transfer_troops = yes
+                                }
+
+                                every_state = { 
+                                    limit = { is_core_of = HOL }
+                                    add_core_of = FRA
+                                 }
+                                annex_country = {
+                                    target = HOL
+                                    transfer_troops = yes
+                                    }
+                    }
+                }
+            }
+            EOB_ANNEX_USA = {
+                available = {
+                    tag = USA
+                }
+                ai_will_do = {
+                    base = 0
+                }
+                cost = 0
+                fire_only_once = yes
+                modifier = {
+                }
+                visible = {
+                }
+                complete_effect = {
+                    USA = {
+                        annex_country = {
+                            target = CSA
+                            transfer_troops = yes
+                            }
+                            annex_country = {
+                                target = USB
+                                transfer_troops = yes
+                                }
+                                annex_country = {
+                                    target = USN
+                                    transfer_troops = yes
+                                    }
+                    }
+                }
+            }
+    }

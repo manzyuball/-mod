@@ -67,15 +67,11 @@ SWE_decisions = {
 	}
    }
 
-   generic_Syoutyou = {
+   generic_Malti = {
 	icon = generic_political_actions
 	visible = {
 	}
 	allowed = {
-		OR = {
-			original_tag = VNI
-			original_tag = SAR
-		}
-		
+		is_ai = no		
 	}
    }
