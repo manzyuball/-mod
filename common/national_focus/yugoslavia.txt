@@ -537,7 +537,7 @@ focus = {
 			target = BUL
 			type = annex_everything
 			}
-			set_state_controller = 106
+			transfer_state = 106
 	}
 	}
 }

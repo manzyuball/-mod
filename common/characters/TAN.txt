@@ -1,13 +1,13 @@
 characters={
-	TAN_salchak_toka={
-		name="Salchak Toka"
+	TAN_TinRen={
+		name="TAN_TinRen"
 		portraits={
 			civilian={
-				large="gfx/leaders/TAN/portrait_tan_salchak_toka.dds"
+				large="gfx/leaders/_EOB/TAN_SYTIY.dds"
 			}
 		}
 		country_leader={
-			ideology=stalinism
+			ideology=liberalism
 			expire="1965.1.1.1"
 			id=-1
 		}

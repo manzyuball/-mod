@@ -1,0 +1,63 @@
+CHI_dont_protect_kouchu = {
+	enable = {
+		AND = {
+			tag = CHI
+			has_war_with = JAP
+		}
+	}
+	
+	abort = {
+		AND = {
+			tag = CHI
+			has_war = no
+		}
+	}
+
+	ai_strategy = { 
+		type = area_priority        
+		id = kouchu			      
+		value = -10000
+	} 
+}
+CHI_dont_protect_romanoh = {
+	enable = {
+		AND = {
+			tag = CHI
+			has_war_with = JAP
+		}
+	}
+	
+	abort = {
+		AND = {
+			tag = CHI
+			has_war = no
+		}
+	}
+
+	ai_strategy = { 
+		type = dont_defend_ally_borders       
+		id = VLA	      
+		value = -1000000
+	} 
+}
+CHI_Manchu = {
+	enable = {
+		AND = {
+			tag = CHI
+			has_war_with = MAN
+		}
+	}
+	
+	abort = {
+		AND = {
+			tag = CHI
+			has_war = no
+		}
+	}
+
+	ai_strategy = {
+		type = front_armor_score
+		id = MAN
+		value = 5000
+	}
+}

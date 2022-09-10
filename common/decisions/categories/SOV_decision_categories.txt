@@ -1,0 +1,11 @@
+################
+#### SOVIET ####
+################
+
+SOV_Ryodo = {
+	icon = SOV_civil_puppet_interaction
+	allowed = {
+		original_tag = SOV
+	}
+}
+

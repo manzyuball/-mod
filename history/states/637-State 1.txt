@@ -16,7 +16,7 @@ state = {
 		add_core_of = SOV
 		add_core_of = VLA
 	}
-
+	impassable = yes
 	provinces = {
 		1823 1839 1863 4728 7878 12207 12522 
 	}

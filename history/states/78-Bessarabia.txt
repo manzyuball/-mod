@@ -4,19 +4,21 @@ state=
 	name="STATE_78"
 	manpower = 2296800
 	
-	state_category = town
+	state_category = city
 	
 	history= {
+		add_core_of = MOL
 		owner = ROM
 		victory_points = {
-			3707 1
+			3707 3
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 2
 		}
 		add_core_of = ROM
 		add_core_of = UKR
+		add_claim_by =  WAL
 	}
 	provinces=
 	{

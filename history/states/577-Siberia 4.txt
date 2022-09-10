@@ -6,7 +6,7 @@ state = {
 	resources = {
 		oil=13 # was: 14
 	}
-	
+	impassable = yes
 	state_category = pastoral
 
 	history = {
@@ -16,7 +16,6 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = SOV
-		add_core_of = OVO
 	}
 
 	provinces = {

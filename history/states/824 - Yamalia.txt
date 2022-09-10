@@ -5,7 +5,7 @@ state = {
 	manpower = 21974
 	
 	state_category = pastoral
-
+	impassable = yes
 	history = {
 		owner = VLA
 		add_core_of = VLA
@@ -13,7 +13,6 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = SOV
-		add_core_of = YAM
 	}
 
 	provinces = {

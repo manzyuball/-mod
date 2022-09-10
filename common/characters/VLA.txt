@@ -1,9 +1,10 @@
 characters={
+
 	VLA_tura = {
 		name = VLA_tura
 		portraits = {
 			civilian = {
-				large = GFX_portrait_nikolay
+				large = "gfx/leaders/_EOB/nikolay.dds"
 			}
 		}
 		country_leader = {
@@ -13,4 +14,5 @@ characters={
 			id = -1
 		}
 	}
+
 }

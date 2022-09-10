@@ -1,43 +1,162 @@
 ideas = {
 
 country = {
-
-	POL_S1 = {
-
+	POL_GUNKOKU = {
 		allowed = {
 			original_tag = POL
 		}
-
 		removal_cost = -1
-
-		picture = SPR_masters_of_our_own_fate
-		rule = {
-			can_join_factions_not_allowed_diplomacy = no
-		}
+		picture = generic_reserve_divisions
 		modifier = {
-			political_power_factor = 0.25
-			war_support_factor = 0.10
-			stability_factor = 0.10
-			army_core_defence_factor = 0.15
-			army_core_attack_factor = 0.15
+			conscription = 0.01
+			training_time_army_factor = -0.25
+			industrial_capacity_factory = 0.15
 		}
 	}
-
-	POL_S2 = {
-
+	POL_NOUGYOU = {
 		allowed = {
 			original_tag = POL
 		}
-
 		removal_cost = -1
-
-		picture = POL_april_constitution
-
+		picture = POL_the_peasants_strike
 		modifier = {
-			conscription = 0.07
-			training_time_army_factor = -0.25
+			stability_factor = -0.10
+			surrender_limit = -0.1
+			conscription_factor = -0.35
+			consumer_goods_factor = 0.05
+		}
+	}
+	POL_NOUGYOU1 = {
+		allowed = {
+			original_tag = POL
+		}
+		removal_cost = -1
+		picture = POL_the_peasants_strike
+		modifier = {
+			surrender_limit = -0.1
+			conscription_factor = -0.35
+		}
+	}
+	POL_NOUGYOU2 = {
+		allowed = {
+			original_tag = POL
+		}
+		removal_cost = -1
+		picture = POL_looming_peasants_strike
+		modifier = {
+			global_building_slots_factor = 0.15
+		}
+	}
+	POL_NOUGYOU3 = {
+		allowed = {
+			original_tag = POL
+		}
+		removal_cost = -1
+		picture = LIT_invested_in_farms
+		modifier = {
+			consumer_goods_factor = -0.05
+			production_factory_start_efficiency_factor = 0.15
+			global_building_slots_factor = 0.15
+		}
+	}
+	POL_AUS_KEIZAITEIKEI = {
+		allowed = {	original_tag = POL	}
+		removal_cost = -1
+		picture = HUN_hungarian_monarchy_habsburg
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+		targeted_modifier = { tag = AUS trade_cost_for_target_factor = -0.5 }
+	}
+	POL_GER_KEIZAITEIKEI = {
+		allowed = {	original_tag = POL	}
+		removal_cost = -1
+		picture = ger_rebuild_the_nation
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+		targeted_modifier = { tag = LAT trade_cost_for_target_factor = -0.5 }
+	}
+	POL_HANKYOU = {
+		allowed = {	original_tag = POL	}
+		removal_cost = -1
+		picture = LIT_iron_wolf_bad_4
+		modifier = {
+			drift_defence_factor = 0.25
+		}
+		targeted_modifier = { tag = GER attack_bonus_against = 0.15 }
+		targeted_modifier = { tag = SOV attack_bonus_against = 0.15 }
+		targeted_modifier = { tag = FRA attack_bonus_against = 0.15 }
+	}
+	POL_ZAPAS = {
+		allowed = {	original_tag = POL	}
+		removal_cost = -1
+		picture = POL_ideology_drift_defence
+		modifier = {
+			defensive_war_stability_factor = 0.25
+			surrender_limit = 0.5
+			political_power_factor = 0.25
+		}
+	}
+	POL_MIN_KEIZAI = {
+		allowed = {	original_tag = POL	}
+		removal_cost = -1
+		picture = export_focus
+		modifier = {
+			production_factory_max_efficiency_factor = 0.1
+		}
+	}
+	POL_MIN_KEIZAI1 = {
+		allowed = {	original_tag = POL	}
+		removal_cost = -1
+		picture = free_trade
+		modifier = {
+			consumer_goods_factor = 0.05
+			production_factory_max_efficiency_factor = 0.15
+			production_factory_efficiency_gain_factor = 0.1
+			industrial_capacity_factory = 0.1
+		}
+	}
+	POL_ThreeHOU = {
+		allowed = {	original_tag = POL	}
+		removal_cost = -1
+		picture = hol_the_foundations_of_defense
+		modifier = {
+			stability_factor = 0.15
+			drift_defence_factor = -0.25
+			political_power_factor = -0.25
+		}
+	}
+	POL_DOKUSAI_KEIZAI = {
+		allowed = {	original_tag = POL	}
+		removal_cost = -1
+		picture = hol_the_foundations_of_defense
+		modifier = {
+			consumer_goods_factor = -0.05
+			production_speed_buildings_factor = 0.15
+		}
+	}
+	POL_DOKUSAI_KEIZAI1 = {
+		allowed = {	original_tag = POL	}
+		removal_cost = -1
+		picture = hol_the_foundations_of_defense
+		modifier = {
+			consumer_goods_factor = -0.05
+			production_speed_buildings_factor = 0.15
+			production_speed_infrastructure_factor = 0.25
+			production_speed_rail_way_factor = 0.25
+		}
+	}
+	POL_DOKUSAI_KEIZAI2 = {
+		allowed = {	original_tag = POL	}
+		removal_cost = -1
+		picture = hol_the_foundations_of_defense
+		modifier = {
 			consumer_goods_factor = -0.1
 			industrial_capacity_factory = 0.15
+			production_speed_buildings_factor = 0.15
+			production_speed_infrastructure_factor = 0.25
+			production_speed_rail_way_factor = 0.25
 		}
 	}
 }
@@ -110,8 +229,6 @@ country = {
 			}
 
 			visible = {
-				has_country_flag = POL_ford_motors
-				NOT = { has_completed_focus = POL_adaptive_designs }
 			}
 
 			picture = ford_motor_company
@@ -144,8 +261,6 @@ country = {
 			}
 
 			visible = {
-				has_country_flag = POL_vauxhall_motors
-				NOT = { has_completed_focus = POL_adaptive_designs }
 			}
 
 			picture = vauxhall
@@ -178,8 +293,6 @@ country = {
 			}
 
 			visible = {
-				has_country_flag = POL_somua_motors
-				NOT = { has_completed_focus = POL_adaptive_designs }
 			}
 
 			picture = somua
@@ -200,7 +313,7 @@ country = {
 			}
 
 			modifier = {
-				consumer_goods_factor = 0.02
+				consumer_goods_factor = -0.05
 			}
 		}
 
@@ -212,8 +325,6 @@ country = {
 			}
 
 			visible = {
-				has_country_flag = POL_ford_motors
-				has_completed_focus = POL_adaptive_designs
 			}
 
 			picture = ford_motor_company
@@ -242,8 +353,6 @@ country = {
 			}
 
 			visible = {
-				has_country_flag = POL_vauxhall_motors
-				has_completed_focus = POL_adaptive_designs
 			}
 
 			picture = vauxhall
@@ -272,8 +381,6 @@ country = {
 			}
 
 			visible = {
-				has_country_flag = POL_somua_motors
-				has_completed_focus = POL_adaptive_designs
 			}
 
 			picture = somua

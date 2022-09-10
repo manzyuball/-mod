@@ -1,3 +1,27 @@
 ﻿add_namespace = wtt_china
 
-#
+country_event = {
+	id = wtt_china.1
+	title = wtt_china.1.t
+	desc = wtt_china.1.d
+	picture = GFX_report_event_ast_army
+	trigger = {
+		tag = MON
+		has_global_flag = MON_Kousyou
+	}
+	fire_only_once = yes
+	option = {
+		name = wtt_china.1.a
+        ai_chance = { factor = 10 }
+        hidden_effect = {
+            set_global_flag = MON_VLA_KOUSYOU_A
+        }
+	}
+    option = {
+		name = wtt_china.1.b
+        ai_chance = { factor = 2 }
+        hidden_effect = {
+            set_global_flag = MON_VLA_KOUSYOU_B
+        }
+	}
+}

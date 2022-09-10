@@ -1,0 +1,153 @@
+music = {
+	name = "maintheme"
+	file = "Gibraltar.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Erika"
+	file = "Erika.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "Ceddin Deden"
+	file = "Ceddin Deden.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "Battotai"
+	file = "Battotai.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "Gibraltar"
+	file = "Gibraltar.ogg"
+	volume = 0.65
+}
+music = {
+	name = "1812 Overture"
+	file = "1812 Overture.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Battle of Britain March"
+	file = "Battle of Britain March.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Bella Ciao"
+	file = "Bella Ciao.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Chinese Victory Song"
+	file = "Chinese Victory Song.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Mecidiye Marsi"
+	file = "Mecidiye Marsi.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Preußens Gloria march"
+	file = "Preußens Gloria march.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Se il Papa è andato via"
+	file = "Se il Papa è andato via.ogg"
+	volume = 1.55
+}
+music = {
+	name = "Der heimliche Aufmarsch"
+	file = "Der heimliche Aufmarsch.ogg"
+	volume = 1.60
+}
+music = {
+	name = "Drum Bum and treceti batalioane romane carpatii"
+	file = "Drum Bum and treceti batalioane romane carpatii.ogg"
+	volume = 1.60
+}
+music = {
+	name = "farewell Slavianka"
+	file = "farewell Slavianka.ogg"
+	volume = 1.60
+}
+music = {
+	name = "Horthy Miklos katonaja vagyok"
+	file = "Horthy Miklos katonaja vagyok.ogg"
+	volume = 1.60
+}
+music = {
+	name = "kaiserhymne"
+	file = "kaiserhymne.ogg"
+	volume = 1.60
+}
+music = {
+	name = "La Marseillaise"
+	file = "La Marseillaise.ogg"
+	volume = 1.60
+}
+music = {
+	name = "Le Chant Du Depart"
+	file = "Le Chant Du Depart.ogg"
+	volume = 1.60
+}
+music = {
+	name = "Marching Through Georgia"
+	file = "Marching Through Georgia.ogg"
+	volume = 1.60
+}
+music = {
+	name = "Mazurek Dabrowskiego"
+	file = "Mazurek Dabrowskiego.ogg"
+	volume = 1.60
+}
+music = {
+	name = "Osmaniyez Marsi"
+	file = "Osmaniyez Marsi.ogg"
+	volume = 1.60
+}
+music = {
+	name = "The Fall of Constantinople"
+	file = "The Fall of Constantinople.ogg"
+	volume = 1.60
+}
+music = {
+	name = "The Internationale"
+	file = "The Internationale.ogg"
+	volume = 1.60
+}
+music = {
+	name = "The Maple Leaf Forever"
+	file = "The Maple Leaf Forever.ogg"
+	volume = 1.60
+}
+music = {
+	name = "The Sacred war"
+	file = "The Sacred war.ogg"
+	volume = 1.60
+}
+music = {
+	name = "The Yellow Rose of Texas"
+	file = "The Yellow Rose of Texas.ogg"
+	volume = 1.60
+}
+music = {
+	name = "井岡山上太陽紅"
+	file = "井岡山上太陽紅.ogg"
+	volume = 1.60
+}
+music = {
+	name = "義勇軍行進曲"
+	file = "義勇軍行進曲.ogg"
+	volume = 1.60
+}
+music = {
+	name = "軍艦行進曲"
+	file = "軍艦行進曲.ogg"
+	volume = 1.60
+}

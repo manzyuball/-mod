@@ -1,0 +1,147 @@
+## area priorities for ENGLAND
+
+ENG_protect_island_war = {
+	enable = {
+		tag = ENG
+		has_war = no
+	}
+	abort = {
+		tag = ENG
+		has_war = yes
+	}
+
+	ai_strategy = { 
+		type = area_priority        
+		id = britain 			      
+		value = 500 
+	} 
+}
+
+ENG_protect_island_peace = {
+	enable = {
+		tag = ENG
+		has_war = yes
+	}
+	abort = {
+		tag = ENG
+		has_war = no
+	}
+
+	ai_strategy = { 
+		type = area_priority        
+		id = britain 			      
+		value = 1000
+	} 
+}
+
+ENG_dont_protect_raj = {
+	enable = {
+		AND = {
+			tag = ENG
+			has_war = yes
+		}
+		AND = { 
+			RAJ = {
+				is_subject_of = ENG
+				surrender_progress > 0.5
+			}
+			ENG = {
+				surrender_progress < 0.75
+			}			
+		}
+	}
+	
+	abort = {
+		NOT = { 
+			RAJ = {
+				surrender_progress > 0.5
+			}
+			ENG = {
+				surrender_progress < 0.75
+			}			
+		}
+	}
+
+	ai_strategy = { 
+		type = area_priority        
+		id = india 			      
+		value = 1000 
+	} 
+}
+
+ENG_dont_protect_saf = {
+	enable = {
+		AND = {
+			tag = ENG
+			has_war = yes
+		}
+		AND = { 
+			SAF = {
+				is_subject_of = ENG
+				surrender_progress > 0.5
+			}
+			ENG = {
+				surrender_progress < 0.75
+			}			
+		}
+	}
+	
+	abort = {
+		NOT = { 
+			SAF = {
+				surrender_progress > 0.5
+			}
+			ENG = {
+				surrender_progress < 0.75
+			}			
+		}
+	}
+
+	ai_strategy = { 
+		type = area_priority        
+		id = south_africa 			      
+		value = -1000 
+	} 
+}
+ENG_dont_protect_Namerica = {
+	enable = {
+		AND = {
+			tag = ENG
+			has_war = yes
+		}
+	}
+	
+	abort = {
+		AND = {
+			tag = ENG
+			has_war = no
+		}
+	}
+
+	ai_strategy = { 
+		type = area_priority        
+		id = south_america		      
+		value = -1000 
+	} 
+}
+ENG_Tyuou_pact = {
+	enable = {
+		AND = {
+			tag = ENG
+			has_war_with = GER
+		}
+	}
+	
+	abort = {
+		AND = {
+			tag = ENG
+			has_war_with = AUS
+		}
+	}
+
+	ai_strategy = { 
+		type = befriend       
+		id = AUS	      
+		value = 1000 
+	} 
+}

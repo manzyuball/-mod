@@ -74,30 +74,7 @@ units = {
 		division_template = "赤軍歩兵部隊"
 		start_experience_factor = 0.3
 	}
-	division= {
-		name = "戦線守備兵"
-		location = 12619
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.3
-	}
-	division= {
-		name = "機械化戦線守備兵"
-		location = 1292
-		division_template = "赤軍機甲師団"
-		start_experience_factor = 0.3
-	}
-	division= {
-		name = "機械化戦線守備兵"
-		location = 1292
-		division_template = "赤軍機甲師団"
-		start_experience_factor = 0.3
-	}
-	division= {
-		name = "機械化戦線守備兵"
-		location = 4824
-		division_template = "赤軍機甲師団"
-		start_experience_factor = 0.3
-	}
+
 	division= {
 		name = "機械化戦線守備兵"
 		location = 4824
@@ -134,42 +111,7 @@ units = {
 		division_template = "赤軍騎兵隊"
 		start_experience_factor = 0.3
 	}
-	division= {
-		name = "コサック部隊"
-		location = 3672
-		division_template = "赤軍騎兵隊"
-		start_experience_factor = 0.3
-	}
-	division= {
-		name = "コサック部隊"
-		location = 3668
-		division_template = "赤軍騎兵隊"
-		start_experience_factor = 0.3
-	}
-	division= {
-		name = "コサック部隊"
-		location = 719
-		division_template = "赤軍騎兵隊"
-		start_experience_factor = 0.3
-	}
-	division= {
-		name = "コサック部隊"
-		location = 9417
-		division_template = "赤軍騎兵隊"
-		start_experience_factor = 0.3
-	}
-	division= {
-		name = "コサック部隊"
-		location = 3529
-		division_template = "赤軍騎兵隊"
-		start_experience_factor = 0.3
-	}
-	division= {
-		name = "コサック部隊"
-		location = 3529
-		division_template = "赤軍騎兵隊"
-		start_experience_factor = 0.3
-	}
+
 	division= {
 		name = "コサック部隊"
 		location = 9753
@@ -191,109 +133,6 @@ units = {
 	division= {
 		name = "西方都市守備隊"
 		location = 3686
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 11437
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 3452
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 11670
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 11504
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 525
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 6593
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 9288
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 6373
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 306
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 11230
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-
-	division= {
-		name = "西方都市守備隊"
-		location = 11370
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 11202
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 3151
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 3140
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 306
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 6380
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "西方都市守備隊"
-		location = 6380
 		division_template = "赤軍歩兵部隊"
 		start_experience_factor = 0.2
 	}
@@ -358,48 +197,7 @@ units = {
 		division_template = "赤軍歩兵部隊"
 		start_experience_factor = 0.1
 	}
-	division= {
-		name = "地方都市守備隊"
-		location = 3578
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.1
-	}
-	division= {
-		name = "地方都市守備隊"
-		location = 6398
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.1
-	}
-	division= {
-		name = "地方都市守備隊"
-		location = 3356
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.1
-	}
-	division= {
-		name = "地方都市守備隊"
-		location = 9355
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.1
-	}
-	division= {
-		name = "地方都市守備隊"
-		location = 6262
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.1
-	}
-	division= {
-		name = "地方都市守備隊"
-		location = 3578
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.1
-	}
-	division= {
-		name = "地方都市守備隊"
-		location = 11225
-		division_template = "赤軍歩兵部隊"
-		start_experience_factor = 0.1
-	}
+	
 	division= {
 		name = "地方都市守備隊"
 		location = 6338
@@ -488,12 +286,12 @@ air_wings = {
 		# 15ya Istrebitel'nye Aviabrigada
 		fighter_equipment_0 = {
 			owner = "SOV" 
-			amount = 94
+			amount = 20
 		}
 		# 18ya Bombardirovochnye Aviabrigada
 		tac_bomber_equipment_0 =  {
 			owner = "SOV" 
-			amount = 60
+			amount = 20
 		}
 	}
 
@@ -502,81 +300,15 @@ air_wings = {
 		# 2ya Istrebitel'nye Aviabrigada
 		fighter_equipment_0 = {
 			owner = "SOV" 
-			amount = 94
+			amount = 10
 		}
 		# 3ya Dal'nyaya Bombardirovochnye Aviabrigada
 		# 13ya Dal'nyaya Bombardirovochnye Aviabrigada
 		strat_bomber_equipment_1 =  {
 			owner = "SOV" 
-			amount = 48
+			amount = 50
 		}
 		# TODO -- 46ya Transporta Aviabrigada -- transport planes
-	}
-
-	# BOVO Aviatsya Komandovaniya -- Minsk
-	206 = {
-		# 8ya Istrebitel'nye Aviabrigada
-		fighter_equipment_1 = {
-			owner = "SOV" 
-			amount = 94
-		}
-		# 14ya Istrebitel'nye Aviabrigada
-		fighter_equipment_0 = {
-			owner = "SOV" 
-			amount = 94
-		}
-		# 16ya Bombardirovochnye Aviabrigada
-		tac_bomber_equipment_0 =  {
-			owner = "SOV" 
-			amount = 60
-		}
-	}
-
-	# KOVO Aviatsya Komandovaniya -- Kiev
-	202 = {
-		# 17ya Istrebitel'nye Aviabrigada
-		fighter_equipment_1 = {
-			owner = "SOV" 
-			amount = 94
-		}
-		# 1ya Bombardirovochnye Aviabrigada
-		# 10ya Bombardirovochnye Aviabrigada
-		tac_bomber_equipment_0 =  {
-			owner = "SOV" 
-			amount = 120
-		}
-	}
-
-	# Dal'nevostochniy Aviatsya Komandovaniya -- Vladivostock	
-	408 = {
-		# 12ya Istrebitel'nye Aviabrigada
-		# 20ya Istrebitel'nye Aviabrigada
-		fighter_equipment_0 = {
-			owner = "SOV" 
-			amount = 188
-		}
-		# 5ya Dal'nyaya Bombardirovochnye Aviabrigada
-		strat_bomber_equipment_1 =  {
-			owner = "SOV" 
-			amount = 24
-		}
-	}
-
-	# VVS - KBF Aviatsya Komandovaniya -- Leningrad
-	195 = {
-		# 8ya VMF Aviabrigada
-		nav_bomber_equipment_1 = {
-			owner = "SOV" 
-			amount = 54
-		}
-	}
-	# VVS - BSF Aviatsya Komandovaniya -- Sevastopol
-	137 = {
-		# 4ya VMF Aviabrigada
-		nav_bomber_equipment_1 = {
-			owner = "SOV" 
-			amount = 54
-		}
 	}
 }
 
@@ -638,24 +370,5 @@ instant_effect = {
 		efficiency = 50
 	}
 
-	add_equipment_production = {
-		equipment = {
-			type = fighter_equipment_1
-			creator = "SOV" 
-		}
-		requested_factories = 1
-		progress = 0.15
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = strat_bomber_equipment_1
-			creator = "SOV" 
-		}
-		requested_factories = 1
-		progress = 0.2
-		efficiency = 50
-	}
 }
 	#####################

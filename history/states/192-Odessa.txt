@@ -7,12 +7,12 @@ state = {
 	state_category = metropolis
 
 	history = {
-		owner = UKR
+		owner = ROM
 		victory_points = {
 			11670 10 
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 4 #was: 5
 			industrial_complex = 7
 			air_base = 6
 			11670 ={
@@ -21,9 +21,10 @@ state = {
 			}
 		}
 		add_core_of = SOV
-		add_core_of = ROM
+		add_core_of = MOL
 		add_core_of = UKR
 		add_claim_by = VLA
+		add_core_of = ROM
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2

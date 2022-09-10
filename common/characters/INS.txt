@@ -1,13 +1,13 @@
 characters={
-	INS_kiatazima={
-		name=INS_kiatazima
+	INS_OKADA = {
+		name=INS_OKADA
 		portraits={
 			civilian={
-				large="gfx/leaders/_EOB/koisokuniaki.dds"
+				large="gfx/leaders/_EOB/okada.dds"
 			}
 		}
 		country_leader={
-			ideology=conservatism 
+			ideology = conservatism 
 			traits = {
 				jap_syokumin2 
 			}

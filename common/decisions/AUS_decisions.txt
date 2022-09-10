@@ -139,11 +139,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -162,11 +162,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -185,11 +185,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -208,11 +208,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -231,11 +231,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -254,11 +254,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -277,11 +277,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 25
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -311,11 +311,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 50
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -345,11 +345,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 50
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -379,11 +379,11 @@ AUS_SS_decisions = {
 			 }
 		}
 		icon = "GFX_decision_generic_military"
-		cost = 50
+		cost = 0
 		fire_only_once = yes
 
 		ai_will_do = {
-			factor = 50
+			factor = 500
 		}
 
 		complete_effect = {
@@ -393,4 +393,282 @@ AUS_SS_decisions = {
 			}
 		}
 	}
-}	
+}
+AUS_Dai_mother_land_war = {
+
+	AUS_HUN_line = {
+		available = {
+			AND = {
+			has_war = yes
+			has_equipment = {
+				infantry_equipment > 1500
+				}
+			 }
+		}
+		icon = generic_prepare_civil_war
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 500
+		}
+		days_remove = 100
+		complete_effect = {
+			custom_effect_tooltip = AUS_DAISOKOKU_SIMIN
+			add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = -3500
+                }
+				155 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				43 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				154 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				664 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				70 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				71 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				73 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				
+		}
+		remove_effect = {
+			155 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			43 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			154 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			664 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			70 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			71 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			73 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			#remove_dynamic_modifier
+		}	
+	}
+
+	AUS_CZE_line = {
+		available = {
+			AND = {
+			has_war = yes
+			has_equipment = {
+				infantry_equipment > 1500
+				}
+			 }
+		}
+		icon = generic_prepare_civil_war
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 500
+		}
+		days_remove = 100
+		complete_effect = {
+			custom_effect_tooltip = AUS_DAISOKOKU_SIMIN
+			add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = -3500
+                }
+				69 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				9 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				75 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				74 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				
+		}
+		remove_effect = {
+			69 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			9 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			75 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			74 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			#remove_dynamic_modifier
+		}	
+	}
+
+	AUS_CRO_line = {
+		available = {
+			AND = {
+			has_war = yes
+			has_equipment = {
+				infantry_equipment > 1500
+				}
+			 }
+		}
+		icon = generic_prepare_civil_war
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 500
+		}
+		days_remove = 100
+		complete_effect = {
+			custom_effect_tooltip = AUS_DAISOKOKU_SIMIN
+			add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = -3500
+                }
+				102 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				103 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				163 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				879 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				104 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				804 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				109 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				876 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				
+		}
+		remove_effect = {
+			102 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			103 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			163 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			879 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			104 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			804 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			109 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			876 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			#remove_dynamic_modifier
+		}	
+	}
+	AUS_AUS_line = {
+		available = {
+			AND = {
+			has_war = yes
+			has_equipment = {
+				infantry_equipment > 1500
+				}
+			 }
+		}
+		icon = generic_prepare_civil_war
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 500
+		}
+		days_remove = 100
+		complete_effect = {
+			custom_effect_tooltip = AUS_DAISOKOKU_SIMIN
+			add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = -3500
+                }
+				153 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				39 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				736 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				152 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				4 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				856 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				878 = {
+					add_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+				}
+				
+		}
+		remove_effect = {
+			153 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			39 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			736 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			152 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			4 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			856 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			878 = {
+				remove_dynamic_modifier = { modifier = Kokumin_niyoru_Bouei }
+			}
+			#remove_dynamic_modifier
+		}	
+	}
+
+}

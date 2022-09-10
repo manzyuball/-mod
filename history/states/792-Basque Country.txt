@@ -1,3 +1,4 @@
+
 state={
 	id=792
 	name="STATE_792"
@@ -8,16 +9,18 @@ state={
 	history={
 		owner = CAT
 		victory_points = {
-			740 10
+			740 10 
 		}
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
 			740 = {
 				naval_base = 1
+
 			}
 			air_base = 1
+
 		}
 		add_core_of = SPR
 		add_core_of = CAT
@@ -26,11 +29,10 @@ state={
 	}
 
 	provinces={
-		740 3735 6756 13233 
+		740 3735 6756 13220 13233 
 	}
 	manpower=928094
 	buildings_max_level_factor=1.000
 	state_category=town
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

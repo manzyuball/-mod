@@ -1,143 +1,326 @@
 ideas = {
 	country = {
+		PRU_Yomigaettateikoku = {
+			
+			allowed = {
+				always = yes
+			}
+			picture = MEX_politicised_army_2
 
-		PRU_sasngakui = {
-			picture = raj_indian_gentlemen_officers
 			removal_cost = -1
 			
 			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.05
+			}
+			rule = {
+				can_not_declare_war = yes
+				can_not_be_called_to_war = yes
+				can_be_called_to_war = not
+				can_be_called_to_war = no
+			}
+		}
+		PRU_Teikoku_Bousoudo_LOW = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_masters_of_our_own_fate
+			removal_cost = -1
+			modifier = {
+				ai_focus_aggressive_factor = 0.25
+			}
+			rule = {
+				can_join_factions = no
+				
+			}
+		}
+		PRU_Teikoku_Bousoudo_OK = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_masters_of_our_own_fate
+			removal_cost = -1
+			modifier = {
+				offensive_war_stability_factor = 0.25
+				ai_focus_aggressive_factor = 0.5
+				conscription = 0.02
+				stability_factor = -0.25
+				surrender_limit = 0.25
+			}
+			rule = {
+				can_join_factions = no
+				
+			}
+		}
+		PRU_Teikoku_Bousoudo_NO = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_masters_of_our_own_fate
+			removal_cost = -1
+			modifier = {
+				offensive_war_stability_factor = 0.5
+				ai_focus_aggressive_factor = 0.75
 				conscription = 0.05
-				army_attack_factor = 0.25
-				attrition = -0.25
-				supply_consumption_factor = -0.25
+				stability_factor = -0.5
+				surrender_limit = 0.5
+			}
+			rule = {
+				can_join_factions = no
+				
 			}
 		}
-		PRU_saikenn = {
-			picture = generic_reserve_divisions
+		PRU_Teikoku_Bousoudo_Shit = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_masters_of_our_own_fate
 			removal_cost = -1
-			
 			modifier = {
-				stability_weekly = 0.01	
+				offensive_war_stability_factor = 1
+				ai_focus_aggressive_factor = 1
+				conscription = 0.1
+				stability_factor = -1
+				surrender_limit = 0.75
+			}
+			rule = {
+				can_join_factions = no
+				
 			}
 		}
-		PRU_sangyou = {
-			picture = generic_agrarian_society
-			removal_cost = -1
-			
-			modifier = {	
+
+
+		PRU_Keizai = {
+			allowed = {
+				always = yes
 			}
-		}
-		PRU_sangyou1 = {
-			picture = generic_agrarian_society
+			picture = SPR_seize_the_gold_reserves
 			removal_cost = -1
-			
 			modifier = {
-				consumer_goods_factor = -0.1	
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.15
 			}
 		}
-		PRU_sangyou2 = {
-			picture = generic_agrarian_society
+		PRU_Keizai2 = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_seize_the_gold_reserves
 			removal_cost = -1
-			
 			modifier = {
-				consumer_goods_factor = -0.1
-				production_speed_buildings_factor = 0.25
-				local_resources_factor = 0.15
+				consumer_goods_factor = -0.075
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.15
 			}
 		}
-		PRU_sangyou3 = {
-			picture = generic_agrarian_society
+		PRU_Keizai3 = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_seize_the_gold_reserves
 			removal_cost = -1
-			
 			modifier = {
-				consumer_goods_factor = -0.1
-				production_speed_buildings_factor = 0.25
-				local_resources_factor = 0.15
-				global_building_slots_factor = 0.25
+				consumer_goods_factor = -0.15
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.15
 			}
 		}
-		PRU_sangyou4 = {
-			picture = generic_agrarian_society
+		PRU_Keizai4 = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_seize_the_gold_reserves
 			removal_cost = -1
-			
 			modifier = {
-				consumer_goods_factor = -0.1
-				production_speed_buildings_factor = 0.25
-				local_resources_factor = 0.15
-				global_building_slots_factor = 0.25	
-				weekly_manpower = 3500
+				stability_factor = -0.1
+				consumer_goods_factor = -0.15
+				production_speed_buildings_factor = 0.3
+				industrial_capacity_factory = 0.3
+				production_factory_max_efficiency_factor = 0.3
 			}
 		}
-		PRU_RED = {
-			picture = fourth_international
-			removal_cost = -1
-			
-			modifier = {
-				justify_war_goal_time = -0.25
+		PRU_AHEN1 = {
+			allowed = {
+				always = yes
 			}
-		}
-		PRU_RED1 = {
-			picture = fourth_international
-			removal_cost = -1
-			
-			modifier = {
-				justify_war_goal_time = -0.25
-				ai_focus_aggressive_factor = 0.85
-				offensive_war_stability_factor = 0.5
-			}
-		}
-		PRU_RED2 = {
-			picture = fourth_international
-			removal_cost = -1
-			
-			modifier = {
-				justify_war_goal_time = -0.85
-				ai_focus_aggressive_factor = 0.85
-				offensive_war_stability_factor = 0.5
-			}
-		}
-		PRU_RED3 = {
-			picture = fourth_international
-			removal_cost = -1
-			
-			modifier = {
-				justify_war_goal_time = -0.85
-				ai_focus_aggressive_factor = 0.85
-				offensive_war_stability_factor = 0.5
-				occupation_cost = -0.85
-			}
-		}
-		PRU_kami = {
-			picture = ROM_the_sentinel_of_the_motherland
-			removal_cost = -1
-			
-			modifier = {
-				global_building_slots_factor = 0.22
-				local_resources_factor = 0.22
-				production_speed_buildings_factor = 0.22
-				industrial_capacity_factory = 0.22
-			}
-		}
-		PRU_YAKU = {
 			picture = prc_permit_opium_trade
 			removal_cost = -1
-			
 			modifier = {
-				political_power_factor = -0.15
-				consumer_goods_factor = -0.10
-				industrial_capacity_factory = 0.1
-				stability_factor = 0.10
+				stability_weekly = -0.01
 			}
 		}
-		PRU_kuruu = {
-			picture = chi_army_corruption3
+		PRU_GAIKOU = {
+			allowed = {
+				always = yes
+			}
+			picture = usa_desegregation_2
 			removal_cost = -1
-			
 			modifier = {
-				terrain_penalty_reduction = 0.35
-				supply_consumption_factor = -0.35
-				army_org = 35
+				fascism_acceptance = -500
+				democratic_acceptance = -500
+				communism_acceptance = -500
+				neutrality_acceptance = -500
+			}
+		}
+		PRU_GAIKOU2 = {
+			allowed = {
+				always = yes
+			}
+			picture = usa_desegregation_2
+			removal_cost = -1
+			modifier = {
+				justify_war_goal_time = -0.70
+				fascism_acceptance = -500
+				democratic_acceptance = -500
+				communism_acceptance = -500
+				neutrality_acceptance = -500
+			}
+		}
+		PRU_KAKOKUNA = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_crush_the_revolution
+			removal_cost = -1
+			modifier = {
+				resistance_activity = -0.75
+			}
+		}
+		PRU_KAKOKUNA1 = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_crush_the_revolution
+			removal_cost = -1
+			modifier = {
+				resistance_activity = -0.75
+				local_resources_factor = 0.35
+			}
+		}
+		PRU_KAKOKUNA2 = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_crush_the_revolution
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				resistance_activity = -0.75
+				local_resources_factor = 0.35
+			}
+		}
+		PRU_KAKOKUNA3 = {
+			allowed = {
+				always = yes
+			}
+			picture = SPR_crush_the_revolution
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.15
+				resistance_activity = -0.75
+				local_resources_factor = 0.35
+				industrial_factory_donations = 5
+				military_factory_donations = 5
+			}
+		}
+		PRU_HIMIT = {
+			allowed = {
+				always = yes
+			}
+			picture = generic_secret_police
+			removal_cost = -1
+			modifier = {
+				non_core_manpower = 0.15
+				compliance_growth_on_our_occupied_states = -0.5
+			}
+		}
+		PRU_SENSOUZEi = {
+			allowed = {
+				always = yes
+			}
+			picture = generic_secret_police
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				industrial_factory_donations = 20
+			}
+			cancel = {
+				has_war = yes
+			}
+		}
+		PRU_KAGAKUSENSOU = {
+			allowed = {
+				always = yes
+			}
+			picture = SOV_atomic_bomb_project
+			removal_cost = -1
+			modifier = {
 				army_attack_factor = 0.25
+			}
+		}
+		PRU_KAGAKUSENSOU1 = {
+			allowed = {
+				always = yes
+			}
+			picture = SOV_atomic_bomb_project
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.25
+				army_org_Factor = 0.15
+			}
+		}
+		PRU_SIWOSUUHAI = {
+			allowed = {
+				always = yes
+			}
+			picture = SOV_atomic_bomb_project
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.40
+				army_org_Factor = 0.25
+				conscription = 0.05
+			}
+		}
+		PRU_SIWOSUUHAI1 = {
+			allowed = {
+				always = yes
+			}
+			picture = SOV_atomic_bomb_project
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.40
+				army_org_Factor = 0.25
+				conscription = 0.1
+				mobilization_speed = 0.25
+			}
+		}
+		PRU_SIWOSUUHAI2 = {
+			allowed = {
+				always = yes
+			}
+			picture = SOV_atomic_bomb_project
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.40
+				army_org_Factor = 0.3
+				conscription = 0.15
+				mobilization_speed = 0.5
+			}
+		}
+		PRU_SIWOSUUHAI3 = {
+			allowed = {
+				always = yes
+			}
+			picture = SOV_atomic_bomb_project
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.40
+				army_defence_factor = 0.25
+				army_org_Factor = 0.3
+				conscription = 0.5
+				mobilization_speed = 0.5
 			}
 		}
 	}

@@ -37,8 +37,6 @@ SOV_historical_plan = {
 		SOV_g3
 		SOV_s
 		SOV_g9
-		SOV_s1
-		SOV_s15
 		SOV_g11
 		SOV_g12
 		SOV_p15
@@ -46,7 +44,6 @@ SOV_historical_plan = {
 		SOV_p20
 		SOV_p20
 		SOV_p21
-		SOV_s16
 	}
 
 	research = {

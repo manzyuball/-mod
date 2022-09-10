@@ -10,10 +10,11 @@ state={
 			infrastructure = 2
 			industrial_complex = 2
 		}
+		set_demilitarized_zone = yes
 		add_core_of = CHL
 	}
 	manpower=231978
 	state_category=town
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	local_supplies=5.000
 }

@@ -8,8 +8,8 @@ state={
 		owner = INS
 		add_core_of = INS
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 3
 
 		}
 

@@ -14,11 +14,10 @@ state = {
 			}
 		}
 		add_core_of = SOV
-		add_core_of = CKK
 		add_core_of = VLA
 
 	}
-
+	impassable = yes
 	provinces = {
 		4744 5264 13062 13063 13204
 	}

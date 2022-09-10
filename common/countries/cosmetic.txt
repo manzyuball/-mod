@@ -3,6 +3,16 @@ MAL_UK = {
     color_ui = rgb { 255 73 121 }
 }
 
+BIG_ITA = {
+    color = rgb { 0 100 0 }
+    color_ui = rgb { 0 100 0 }
+}
+
+BIG_ITA_ROME = {
+    color = rgb { 139 0 0 }
+    color_ui = rgb { 139 0 0 }
+}
+
 RAJ_UK = {
 	color = rgb { 170  10  10 }
 	color_ui = rgb { 200  10  10 }

@@ -124,14 +124,13 @@ recruit_character = ARG_ramon_castillo
 recruit_character = ARG_luis_podesta_costa
 recruit_character = ARG_senor_hitler
 
-set_country_flag = monroe_doctrine
 
 set_research_slots = 4
 set_stability = 0.75
 set_war_support = 0.21
 add_command_power = 50
 add_political_power = 450
-set_convoys = 520
+set_convoys = 250
 set_politics = {
 	ruling_party = democratic
 	last_election = "1931.11.8"

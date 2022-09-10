@@ -3,7 +3,7 @@ state={
 	id=105
 	name="STATE_105"
 	resources={
-		chromium=20.000
+		chromium=30.000
 		aluminium=70.000
 	}
 
@@ -13,10 +13,11 @@ state={
 		}
 		owner = YUG
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 3
 			9809 = {
-				naval_base = 1
+				naval_base = 4
 
 			}
 

@@ -1,0 +1,17 @@
+music = {
+	name = "America_civil_war"
+	file = "America_civil_war.ogg"
+}
+music = {
+	name = "JA_CH_WAR"
+	file = "JA_CH_WAR.ogg"
+}
+music = {
+	name = "Russ_War"
+	file = "Russ_War.ogg"
+}
+music = {
+	name = "WW2"
+	file = "WW2.ogg"
+	volume = 1.35
+}

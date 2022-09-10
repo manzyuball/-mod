@@ -1,6 +1,29 @@
 ideas = {
 
 	country = {
+		ikari = {
+
+			picture = generic_fascism_banned
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			modifier = {
+				army_speed_factor = 2
+				training_time_army_factor = -0.3
+				conscription_factor = 0.05
+			}
+		}
+
 		ROM_revenge_against_soviet = {
 
 			picture = anti_soviet_pact

@@ -77,8 +77,11 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			custom_effect_tooltip = LAT_setumei
+			add_political_power = 150
 			hidden_effect = {
 				set_global_flag = us_naisenn
+				retire_country_leader = yes
 			}
 		}
 	}

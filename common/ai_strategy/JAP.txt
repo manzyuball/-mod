@@ -1,0 +1,61 @@
+JAP_factry = {
+	enable = {
+		AND = {
+			tag = JAP
+			has_war = no
+		}
+	}
+	
+	abort = {
+		AND = {
+			tag = JAP
+			has_war = yes
+		}
+	}
+
+    ai_strategy = {
+        type = added_military_to_civilian_factory_ratio
+        value = 25
+    }
+}
+JAP_factry_senzi = {
+	enable = {
+		AND = {
+			tag = JAP
+			has_war = yes
+		}
+	}
+	
+	abort = {
+		AND = {
+			tag = JAP
+			has_war = no
+		}
+	}
+
+    ai_strategy = {
+        type = added_military_to_civilian_factory_ratio
+        value = 40
+    }
+}
+JAP_kouchu_zyouriku = {
+	enable = {
+		AND = {
+			tag = JAP
+			has_war_with = CHI
+		}
+	}
+	
+	abort = {
+		AND = {
+			tag = JAP
+			has_war = no
+		}
+	}
+
+    ai_strategy = {
+        type = invasion_unit_request
+        area = kouchu
+        value = 5000
+    }
+}

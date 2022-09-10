@@ -1,0 +1,18 @@
+ideas = {
+	country = { 
+    #初期アイデア
+	MON_KORITU = { #孤立した大帝国
+	    allowed = {	always = no }
+	    picture = porsche
+	    removal_cost = -1
+	    modifier = {
+			political_power_factor = -0.1
+			enemy_justify_war_goal_time = -0.75
+			opinion_gain_monthly_factor = -0.75
+	    }
+		rule = {
+			can_join_factions = no
+		}
+    }
+    }
+}

@@ -16,6 +16,7 @@ state={
 			industrial_complex = 4
 			air_base = 3
 		}
+		add_claim_by = VLA
 		add_core_of = SOV
 		add_core_of = UKR
 	}

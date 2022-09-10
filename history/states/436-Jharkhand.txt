@@ -4,17 +4,17 @@ state={
 	name="STATE_436" # Jabalpur
 	manpower = 14123100
 	
-	state_category = rural
+	state_category = town
 	
 	resources={
-		chromium=4 # was: 6
+		chromium=9 # was: 6
 	}
 
 	history={
 		owner = IVO
 		add_core_of = IVO
 		buildings = {
-			infrastructure = 2
+			infrastructure = 23
 		}
 
 	}

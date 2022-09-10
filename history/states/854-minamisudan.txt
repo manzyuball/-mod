@@ -16,7 +16,7 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
-
+		add_claim_by = TUR
 	}
 	manpower=30538
 	state_category = rural

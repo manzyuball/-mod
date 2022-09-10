@@ -28,8 +28,20 @@ ITA_historical_plan = {
 	}
 
 	ai_national_focuses = {
-						#May 20 1943	
-		 											#July 30 1943		
+		Italy_Naisei
+		Italy_Naisei1
+		Italy_Naisei2
+		ITA_Rome
+		ITA_Rome2
+		ITA_Rome1
+		ITA_Rome4
+		ITA_Rome7
+		ITA_Rome3
+		ITA_Rome6
+		ITA_Rome5
+		Italy_GUN
+		Italy_GUN1
+		ITA_Rome8
 	}				
 
 	research = {

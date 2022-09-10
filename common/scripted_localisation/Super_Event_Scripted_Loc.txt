@@ -1,0 +1,67 @@
+#Titles
+defined_text = {
+    name = get_super_event_title
+    text = {
+        trigger = {
+            has_global_flag = WW2
+        }
+        localization_key = "sp_event_Second_World_War"
+    }
+	text = {
+        trigger = {
+            has_global_flag = USA_CIV
+        }
+        localization_key = "sp_event_Second_USA_CIV_War"
+    }
+	text = {
+        trigger = {
+            has_global_flag = RUUSAN_WAR
+        }
+        localization_key = "sp_event_Russian_War"
+    }
+}
+################################################################################
+defined_text = {
+    name = get_super_event_remark
+	text = {
+		trigger = {
+			has_global_flag = WW2
+		}
+		localization_key = "sp_event_Second_World_War_REMARK"
+	}
+    text = {
+		trigger = {
+			has_global_flag = USA_CIV
+		}
+		localization_key = "sp_event_Second_USA_CIV_War_REMARK"
+	}
+    text = {
+		trigger = {
+			has_global_flag = RUUSAN_WAR
+		}
+		localization_key = "sp_event_Russian_War_REMARK"
+	}
+
+}
+################################################################################
+defined_text = {
+    name = get_super_event_quote
+    text = {
+        trigger = {
+            has_global_flag = WW2
+        }
+        localization_key = "sp_event_Second_World_War_QUOTE"
+    }
+    text = {
+        trigger = {
+            has_global_flag = USA_CIV
+        }
+        localization_key = "sp_event_Second_USA_CIV_War_QUOTE"
+    }
+    text = {
+        trigger = {
+            has_global_flag = RUUSAN_WAR
+        }
+        localization_key = "sp_event_Russian_War_QUOTE"
+    }
+}

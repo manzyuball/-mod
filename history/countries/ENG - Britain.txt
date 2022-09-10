@@ -29,10 +29,10 @@ if = {
 
 load_oob = "ENG_Motorized"
 
-set_research_slots = 4
+set_research_slots = 5
 
 set_stability = 0.6
-set_war_support = 0.15
+set_war_support = 0.5
 add_command_power = 20
 
 # Starting tech
@@ -151,7 +151,7 @@ add_ideas = {
 	ENG_Kyoukou
 	ENG_loiyalnavy
 }
-set_convoys = 800
+set_convoys = 550
 
 # DIPLOMACY
 if = {
@@ -222,6 +222,7 @@ set_popularities = {
 
 create_faction = Allies
 add_to_faction = ENG
+add_to_faction = SAR
 add_to_faction = CAN
 add_to_faction = AST
 add_to_faction = NZL
@@ -294,7 +295,14 @@ recruit_character = ENG_frederick_bowhill
 recruit_character = ENG_cyril_newall
 recruit_character = ENG_sholto_douglas
 recruit_character = ENG_edward_ellington
-
+recruit_character = EOB_Boueisyou
+recruit_character = EOB_Boueisyou1
+recruit_character = EOB_Boueisyou2
+recruit_character = EOB_Boueisyou3
+recruit_character = EOB_Gaimu
+recruit_character = EOB_Gaimu1
+recruit_character = EOB_Gaimu2
+recruit_character = EOB_Gaimu3
 
 
 recruit_character = ENG_john_beckett

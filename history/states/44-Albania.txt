@@ -4,8 +4,8 @@ state={
 	name="STATE_44"
 	manpower = 740800
 	resources={
-		aluminium=2 # was: 3
-		chromium=2 # was: 3
+		aluminium=16 # was: 3
+		chromium=13 # was: 3
 	}
 	
 	state_category = town
@@ -19,22 +19,16 @@ state={
 			11767 1
 		}
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 2 
+			infrastructure = 3
+			arms_factory = 5
+			industrial_complex = 5
 			air_base = 3
 			11767 = {
 				naval_base = 4
 			}
 		}
 		add_core_of = ALB
-		add_claim_by = ITA
 
-		1939.4.12 = {
-			owner = ITA
-			controller = ITA
-			remove_claim_by = ITA
-		}
 	}
 
 	provinces={

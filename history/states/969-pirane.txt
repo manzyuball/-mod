@@ -4,12 +4,15 @@ state={
 	provinces={
 		929 3740 3749 6759 9882 9884 11697 11699 12169 
 	}
+	resources={
+		rubber=14.000
+	}
 	history={
 		owner = FRA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3
-			industrial_complex = 2
+			industrial_complex = 4
 			air_base = 2
 
 		}

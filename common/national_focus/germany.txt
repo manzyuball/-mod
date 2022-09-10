@@ -1460,7 +1460,7 @@ focus = {
 	relative_position_id = GER_s1
 	x = 0
 	y = 1
-	cost = 15
+	cost = 10
 	ai_will_do = {
 		factor = 100
 	}
@@ -1480,6 +1480,10 @@ focus = {
 			type = puppet_wargoal_focus
 			target = POL
 			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = AUS
+				}
 	}
 }
 focus = {

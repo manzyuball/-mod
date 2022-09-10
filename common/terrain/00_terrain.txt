@@ -37,12 +37,6 @@ categories =  {
 			attack = -0.05
 			#movement = -0.2
 		}
-
-		enemy_army_bonus_air_superiority_factor = -0.05
-		
-		supply_flow_penalty_factor = 0.05
-		
-		truck_attrition_factor = 0.05
 	}
 
 	hills = {
@@ -59,11 +53,6 @@ categories =  {
 			attack = -0.1
 			#movement = -0.2
 		}
-		enemy_army_bonus_air_superiority_factor = -0.05
-		
-		supply_flow_penalty_factor = 0.08
-		
-		truck_attrition_factor = 0.1
 	}
 	
 	mountain = {
@@ -81,12 +70,6 @@ categories =  {
 			attack = -0.25
 			#movement = -0.4
 		}
-
-		enemy_army_bonus_air_superiority_factor = -0.10
-		
-		supply_flow_penalty_factor = 0.12
-		
-		truck_attrition_factor = 0.75
 	}
 	
 	plains = {
@@ -113,9 +96,6 @@ categories =  {
 			#movement = -0.2
 		}
 
-		enemy_army_bonus_air_superiority_factor = -0.25
-				
-		supply_flow_penalty_factor = -0.1
 	}
 	
 	jungle = {
@@ -135,13 +115,8 @@ categories =  {
 			#movement = -0.3
 		}
 
-		enemy_army_bonus_air_superiority_factor = -0.20
-		
 		sickness_chance = 0.4
-		
-		supply_flow_penalty_factor = 0.16
-		
-		truck_attrition_factor = 0.8
+
 	}	
 	
 	marsh = {
@@ -162,9 +137,6 @@ categories =  {
 		
 		sickness_chance = 1.0
 		
-		supply_flow_penalty_factor = 0.16
-		
-		truck_attrition_factor = 0.28
 	}
 	
 	desert = {
@@ -179,9 +151,6 @@ categories =  {
 		
 		sickness_chance = 1.0
 		
-		supply_flow_penalty_factor = 0.14
-		
-		truck_attrition_factor = 0.25
 	}
 	
 	water_fjords = {

@@ -4,24 +4,25 @@ state = {
 	name = "STATE_834"
 	manpower = 183748
 	
-	state_category = rural
+	state_category = town
 
 	history = {
-		owner = UKR
+		owner = ROM
 		victory_points = {
-			3757 2 
+			3757 5 
 		}
 		victory_points = {
-			741 1 
+			741 3 
 		}
 		buildings = {
-		
-			infrastructure = 2
+			industrial_complex = 3
+			infrastructure = 3
 			
 		}
 		add_core_of = SOV
 		add_core_of = UKR
 		add_claim_by = VLA
+		add_core_of = MOL
 		add_core_of = ROM
 		1939.1.1 = {
 			buildings = {

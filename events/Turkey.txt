@@ -72,19 +72,10 @@ country_event = {
 	option = {
 		name = turkey.3.a
 		hidden_effect = {
-			TUR = { release = SAU }
 			SAU = {
-				transfer_state = 679
-				transfer_state = 455
-				transfer_state = 345
-				declare_war_on = {
-					target = TUR
-					type = annex_everything
-					}
-					declare_war_on = {
-						target = TUR
-						type = annex_everything
-						}
+				transfer_state  = 679
+				transfer_state  = 455
+				transfer_state  = 345
 							declare_war_on = {
 								target = CYP
 								type = annex_everything
@@ -99,12 +90,12 @@ country_event = {
 										}
 			}
 			IRQ = {
-				transfer_state = 675
-				transfer_state = 291
-				transfer_state = 676
-				transfer_state = 350
-				transfer_state = 352
-				transfer_state = 680
+				transfer_state  = 675
+				transfer_state  = 291
+				transfer_state  = 676
+				transfer_state  = 350
+				transfer_state  = 352
+				transfer_state  = 680
 				declare_war_on = {
 					target = TUR
 					type = annex_everything
@@ -124,10 +115,10 @@ country_event = {
 					load_oob = "IRQ_1936"
 			}
 			LEB = {
-				transfer_state = 799
-				transfer_state = 677
-				transfer_state = 554
-				transfer_state = 553
+				transfer_state  = 799
+				transfer_state  = 677
+				transfer_state  = 554
+				transfer_state  = 553
 				add_state_core = 553
 				add_state_core = 554
 				add_state_core = 677
@@ -150,23 +141,16 @@ country_event = {
 									}
 									load_oob = "IRQ_1939"
 			}
-			BUL = {
-				transfer_state = 341
-			}
-			GRE = {
-				transfer_state = 187
-				transfer_state = 164
-			}
 			CYP = {
-				transfer_state = 344
-				transfer_state = 345
-				transfer_state = 342
-				transfer_state = 346
-				transfer_state = 339
-				transfer_state = 343
-				transfer_state = 49
-				transfer_state = 348
-				transfer_state = 798
+				transfer_state  = 344
+				transfer_state  = 345
+				transfer_state  = 342
+				transfer_state  = 346
+				transfer_state  = 339
+				transfer_state  = 343
+				transfer_state  = 49
+				transfer_state  = 348
+				transfer_state  = 798
 				add_state_core = 344
 				add_state_core = 345
 				add_state_core = 342
@@ -222,19 +206,10 @@ country_event = {
 	option = {
 		name = turkey.2.b
 		hidden_effect = {
-			TUR = { release = SAU }
 			SAU = {
-				transfer_state = 679
-				transfer_state = 455
-				transfer_state = 345
-				declare_war_on = {
-					target = TUR
-					type = annex_everything
-					}
-					declare_war_on = {
-						target = TUR
-						type = annex_everything
-						}
+				transfer_state  = 679
+				transfer_state  = 455
+				transfer_state  = 345
 							declare_war_on = {
 								target = CYP
 								type = annex_everything
@@ -249,12 +224,12 @@ country_event = {
 										}
 			}
 			IRQ = {
-				transfer_state = 675
-				transfer_state = 291
-				transfer_state = 676
-				transfer_state = 350
-				transfer_state = 352
-				transfer_state = 680
+				transfer_state  = 675
+				transfer_state  = 291
+				transfer_state  = 676
+				transfer_state  = 350
+				transfer_state  = 352
+				transfer_state  = 680
 				declare_war_on = {
 					target = TUR
 					type = annex_everything
@@ -274,10 +249,10 @@ country_event = {
 					load_oob = "IRQ_1936"
 			}
 			LEB = {
-				transfer_state = 799
-				transfer_state = 677
-				transfer_state = 554
-				transfer_state = 553
+				transfer_state  = 799
+				transfer_state  = 677
+				transfer_state  = 554
+				transfer_state  = 553
 				add_state_core = 553
 				add_state_core = 554
 				add_state_core = 677
@@ -300,23 +275,16 @@ country_event = {
 									}
 									load_oob = "IRQ_1939"
 			}
-			BUL = {
-				transfer_state = 341
-			}
-			GRE = {
-				transfer_state = 187
-				transfer_state = 164
-			}
 			CYP = {
-				transfer_state = 344
-				transfer_state = 345
-				transfer_state = 342
-				transfer_state = 346
-				transfer_state = 339
-				transfer_state = 343
-				transfer_state = 49
-				transfer_state = 348
-				transfer_state = 798
+				transfer_state  = 344
+				transfer_state  = 345
+				transfer_state  = 342
+				transfer_state  = 346
+				transfer_state  = 339
+				transfer_state  = 343
+				transfer_state  = 49
+				transfer_state  = 348
+				transfer_state  = 798
 				add_state_core = 344
 				add_state_core = 345
 				add_state_core = 342
@@ -372,19 +340,10 @@ country_event = {
 	option = {
 		name = turkey.2.c
 		hidden_effect = {
-			TUR = { release = SAU }
 			SAU = {
-				transfer_state = 679
-				transfer_state = 455
-				transfer_state = 345
-				declare_war_on = {
-					target = TUR
-					type = annex_everything
-					}
-					declare_war_on = {
-						target = TUR
-						type = annex_everything
-						}
+				transfer_state  = 679
+				transfer_state  = 455
+				transfer_state  = 345
 							declare_war_on = {
 								target = CYP
 								type = annex_everything
@@ -399,12 +358,12 @@ country_event = {
 										}
 			}
 			IRQ = {
-				transfer_state = 675
-				transfer_state = 291
-				transfer_state = 676
-				transfer_state = 350
-				transfer_state = 352
-				transfer_state = 680
+				transfer_state  = 675
+				transfer_state  = 291
+				transfer_state  = 676
+				transfer_state  = 350
+				transfer_state  = 352
+				transfer_state  = 680
 				declare_war_on = {
 					target = TUR
 					type = annex_everything
@@ -424,10 +383,10 @@ country_event = {
 					load_oob = "IRQ_1936"
 			}
 			LEB = {
-				transfer_state = 799
-				transfer_state = 677
-				transfer_state = 554
-				transfer_state = 553
+				transfer_state  = 799
+				transfer_state  = 677
+				transfer_state  = 554
+				transfer_state  = 553
 				add_state_core = 553
 				add_state_core = 554
 				add_state_core = 677
@@ -450,23 +409,16 @@ country_event = {
 									}
 									load_oob = "IRQ_1939"
 			}
-			BUL = {
-				transfer_state = 341
-			}
-			GRE = {
-				transfer_state = 187
-				transfer_state = 164
-			}
 			CYP = {
-				transfer_state = 344
-				transfer_state = 345
-				transfer_state = 342
-				transfer_state = 346
-				transfer_state = 339
-				transfer_state = 343
-				transfer_state = 49
-				transfer_state = 348
-				transfer_state = 798
+				transfer_state  = 344
+				transfer_state  = 345
+				transfer_state  = 342
+				transfer_state  = 346
+				transfer_state  = 339
+				transfer_state  = 343
+				transfer_state  = 49
+				transfer_state  = 348
+				transfer_state  = 798
 				add_state_core = 344
 				add_state_core = 345
 				add_state_core = 342
@@ -522,19 +474,10 @@ country_event = {
 	option = {
 		name = turkey.3.d
 		hidden_effect = {
-			TUR = { release = SAU }
 			SAU = {
-				transfer_state = 679
-				transfer_state = 455
-				transfer_state = 345
-				declare_war_on = {
-					target = TUR
-					type = annex_everything
-					}
-					declare_war_on = {
-						target = TUR
-						type = annex_everything
-						}
+				transfer_state  = 679
+				transfer_state  = 455
+				transfer_state  = 345
 							declare_war_on = {
 								target = CYP
 								type = annex_everything
@@ -549,12 +492,12 @@ country_event = {
 										}
 			}
 			IRQ = {
-				transfer_state = 675
-				transfer_state = 291
-				transfer_state = 676
-				transfer_state = 350
-				transfer_state = 352
-				transfer_state = 680
+				transfer_state  = 675
+				transfer_state  = 291
+				transfer_state  = 676
+				transfer_state  = 350
+				transfer_state  = 352
+				transfer_state  = 680
 				declare_war_on = {
 					target = TUR
 					type = annex_everything
@@ -574,10 +517,10 @@ country_event = {
 					load_oob = "IRQ_1936"
 			}
 			LEB = {
-				transfer_state = 799
-				transfer_state = 677
-				transfer_state = 554
-				transfer_state = 553
+				transfer_state  = 799
+				transfer_state  = 677
+				transfer_state  = 554
+				transfer_state  = 553
 				add_state_core = 553
 				add_state_core = 554
 				add_state_core = 677
@@ -600,23 +543,16 @@ country_event = {
 									}
 									load_oob = "IRQ_1939"
 			}
-			BUL = {
-				transfer_state = 341
-			}
-			GRE = {
-				transfer_state = 187
-				transfer_state = 164
-			}
 			CYP = {
-				transfer_state = 344
-				transfer_state = 345
-				transfer_state = 342
-				transfer_state = 346
-				transfer_state = 339
-				transfer_state = 343
-				transfer_state = 49
-				transfer_state = 348
-				transfer_state = 798
+				transfer_state  = 344
+				transfer_state  = 345
+				transfer_state  = 342
+				transfer_state  = 346
+				transfer_state  = 339
+				transfer_state  = 343
+				transfer_state  = 49
+				transfer_state  = 348
+				transfer_state  = 798
 				add_state_core = 344
 				add_state_core = 345
 				add_state_core = 342
@@ -668,5 +604,43 @@ country_event = {
 									}
 									IRQ = { change_tag_from = TUR }
 		}
+	}
+	country_event = {
+		id = turkey.4
+		title = turkey.4.t
+		desc = turkey.4.d
+		picture = GFX_report_event_tur_kurdish_guerillas
+	
+		fire_only_once = yes
+	
+		trigger = {
+			original_tag = TUR
+			NOT = {
+				AND = {
+					has_war_with = IRQ
+					has_war_with = CYP
+					has_war_with = LEB
+				}
+			}
+		}	
+		option = {
+			name = turkey.4.a
+			annex_country = {
+				target = LEB
+				transfer_troops = yes
+				}
+				annex_country = {
+					target = CYP
+					transfer_troops = yes
+					}
+					annex_country = {
+						target = IRQ
+						transfer_troops = yes
+						}
+						annex_country = {
+							target = KUR
+							transfer_troops = yes
+							}
+		}			
 	}
 }

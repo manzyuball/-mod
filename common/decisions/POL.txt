@@ -1,0 +1,143 @@
+#Category allowed for POL
+POL_UKR_SINK = {
+	POL_UKR_SEIZITEKI = {
+		icon = eng_propaganda_campaigns
+		available = {
+		}
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+		days_remove = 20
+		complete_effect = {
+			custom_effect_tooltip = UKR_5_POL
+			hidden_effect = {
+				add_to_variable = {
+					var = POL_UKR_EIKYO
+					value = 5
+				}	
+			}
+		}
+	}
+	POL_UKR_KEIZAI = {
+		icon = generic_construction
+		available = {
+		}
+		fire_only_once = no
+		ai_will_do = {
+			factor = 10
+		}
+		days_remove = 40
+		complete_effect = {
+			custom_effect_tooltip = UKR_5_POL
+			hidden_effect = {
+				add_to_variable = {
+					var = POL_UKR_EIKYO
+					value = 5
+				}	
+			}
+		}
+		modifier = {
+	    consumer_goods_factor = 0.05
+		}
+
+    }
+	POL_UKR_GUNZI = {
+		icon = generic_tank
+		available = {
+			AND = {
+				has_equipment = {
+					infantry_equipment > 749
+					}
+					has_manpower > 750
+			}
+		}
+		fire_only_once = no
+		ai_will_do = {
+			factor = 10
+		}
+		days_remove = 15
+		complete_effect = {
+			custom_effect_tooltip = UKR_5_POL
+			add_manpower = -750
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 750
+				target = UKR
+				}
+			hidden_effect = {
+				add_to_variable = {
+					var = POL_UKR_EIKYO
+					value = 5
+				}	
+			}
+
+		}
+	}
+	POL_UKR_HHEIGOU = {
+		icon = generic_civil_support
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = POL_UKR_5
+			}
+			check_variable = {
+				POL_UKR_EIKYO > 29
+				}
+				hidden_trigger = {
+				UKR = { is_ai = yes }
+				}
+		}
+		fire_only_once = no
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			annex_country = {
+				target = UKR
+				transfer_troops = yes
+				}
+		}
+	}
+}
+
+POL_KAKUDAI = {
+	POL_DAIPoll = {
+		available = {
+			FROM = {	
+                all_neighbor_state = { is_core_of = POL }
+				NOT = { is_core_of = POL }
+				NOT = { is_claimed_by = POL }
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		state_target = yes
+		on_map_mode = map_and_decisions_view 
+		target_array = owned_states
+		cost = 25
+		fire_only_once = yes
+		days_remove = 35
+		modifier = {
+			stability_factor = -0.01
+		}
+		visible = {
+				FROM = {
+					num_owned_neighbour_states = {
+						owner = POL
+						count = 1
+						}
+					NOT = { is_core_of = POL }
+					NOT = { is_claimed_by = POL }
+				}
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			FROM = {
+				add_claimed_by = POL
+			}
+		}
+	}
+}
