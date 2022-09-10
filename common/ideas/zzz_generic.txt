@@ -5,9 +5,8 @@ ideas = {
 	    picture = ast_volunteer_defence_corps
 	    removal_cost = -1
 		rule = {
-			can_join_factions = yes
-			
-		}
+			can_create_factions = yes
+		}		
         }
 		EOB_SEITOPUKA = {
 	    allowed = {	always = no }

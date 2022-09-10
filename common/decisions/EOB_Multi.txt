@@ -275,39 +275,7 @@ generic_Syoutyou = {
                 base = 0
             }
             cost = 0
-            fire_only_once = yes
-            modifier = {
-            }
-            visible = {
-            }
-            complete_effect = {
-                set_politics = {
-                    parties = {
-                    democratic = {
-                    popularity = 100
-                    }
-                    fascism = {
-                    popularity = 0
-                    }
-                    communism = {
-                    popularity = 0
-                    }
-                    neutrality = {
-                    popularity = 0
-                    }
-                    }
-                    ruling_party = democratic
-                    } 
-            }
-        }
-        EOB_MU_democratic = {
-            available = {
-            }
-            ai_will_do = {
-                base = 0
-            }
-            cost = 0
-            fire_only_once = yes
+            fire_only_once = no
             modifier = {
             }
             visible = {
@@ -339,7 +307,7 @@ generic_Syoutyou = {
                 base = 0
             }
             cost = 0
-            fire_only_once = yes
+            fire_only_once = no
             modifier = {
             }
             visible = {
@@ -371,7 +339,7 @@ generic_Syoutyou = {
                 base = 0
             }
             cost = 0
-            fire_only_once = yes
+            fire_only_once = no
             modifier = {
             }
             visible = {
@@ -403,7 +371,7 @@ generic_Syoutyou = {
                 base = 0
             }
             cost = 0
-            fire_only_once = yes
+            fire_only_once = no
             modifier = {
             }
             visible = {
