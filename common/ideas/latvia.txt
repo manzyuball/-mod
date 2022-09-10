@@ -10,6 +10,27 @@ ideas = {
 				conscription = 0.05
 			}
 		}
+		Proisen_Seiei = { #プロイセンの精神
+		picture = ger_revive_the_kaiserreich
+		removal_cost = -1
+		modifier = {
+			army_core_defence_factor = 0.25
+			army_core_attack_factor = 0.25
+			conscription = 0.05
+			army_org_Factor = 0.2
+			army_morale_factor = 0.2
+		}
+	}
+	Proisen_balte = { #プロイセンの精神
+	picture = ger_revive_the_kaiserreich
+	removal_cost = -1
+	modifier = {
+		army_core_defence_factor = 0.25
+		army_core_attack_factor = 0.25
+		conscription = 0.05
+		non_core_manpower = 0.2
+	}
+    }
 		LAT_NO_GIKAI = { #エップからの釘
 		picture = saf_history_of_segregation
 		removal_cost = -1
@@ -79,7 +100,7 @@ ideas = {
 	modifier = {
 		army_artillery_attack_factor = 0.15
 		breakthrough_factor = 0.15
-		artillery = {
+		artillery_brigade = {
 			combat_width = -1
 		}
 	}
@@ -92,7 +113,7 @@ ideas = {
 		breakthrough_factor = 0.15
 		special_forces_cap = 0.15
 		command_power_gain = 0.25
-		artillery = {
+		artillery_brigade = {
 			combat_width = -1
 		}
 	}
@@ -108,7 +129,7 @@ ideas = {
 		army_armor_speed_factor = 0.3
 		army_armor_attack_factor = 0.3
 		army_speed_factor = 0.15
-		artillery = {
+		artillery_brigade = {
 			combat_width = -1
 		}
 	}
@@ -123,6 +144,63 @@ ideas = {
 	}
 	modifier = {
 		navy_submarine_attack_factor = 0.25
+	}
+    }
+	LAT_Totugeki_tai = { #国民突撃隊の拡大
+	picture = generic_reserve_divisions
+	removal_cost = -1
+	modifier = {
+	conscription_factor = 0.25
+	training_time_army_factor = -0.25
+	resistance_growth_on_our_occupied_states = 0.4
+	}
+    }
+	LAT_Totugeki_tai_NO = { #国民突撃隊の廃止
+	picture = generic_reserve_divisions
+	removal_cost = -1
+	modifier = {
+		conscription_factor = -0.25
+		army_core_attack_factor = -0.15
+		army_core_defence_factor = -0.15
+	}
+    }
+	LAT_Seihu_army = { #プロイセン突撃隊
+	picture = generic_reserve_divisions
+	removal_cost = -1
+	modifier = {
+		conscription_factor = 0.5
+		non_core_manpower = 0.10
+		training_time_army_factor = -0.25
+		resistance_growth_on_our_occupied_states = 0.5
+	}
+    }
+	LAT_Tyouhei_kiki = { #徴兵危機
+	picture = generic_disjointed_gov
+	removal_cost = -1
+	modifier = {
+		conscription_factor = -0.5
+	}
+    }
+	LAT_Tyouhei_kiki12 = { #バルトからの徴兵
+	picture = generic_disjointed_gov
+	removal_cost = -1
+	modifier = {
+		conscription_factor = -0.1
+		non_core_manpower = 0.35
+	}
+    }
+	LAT_Buy_guns = { #兵器の購入
+	picture = MEX_callistas
+	removal_cost = -1
+	targeted_modifier = { tag = LAT cic_to_target_factor = 0.15 }
+    }
+	LAT_Sou_douin = { #総動員
+	picture = tot_economic_mobilisation
+	removal_cost = -1
+	modifier = {
+	consumer_goods_factor = -0.05
+	industrial_capacity_factory = 0.25
+	industrial_capacity_dockyard = 0.2
 	}
     }
 	}

@@ -37,7 +37,7 @@
  LAT_SE17:0 "旧式装備の再利用"
  LAT_SE18:0 "国民は工場へ"
  LAT_SE19:0 "兵器の購入"
- LAT_SE20:0 "国民は軍隊へ"
+ LAT_SE20:0 "科学者は兵器開発を"
  LAT_SE21:0 "国防軍治安維持部隊"
  LAT_SE22:0 "教育での国内安定化"
  LAT_SE23:0 "秘密警察の創設"
@@ -51,6 +51,8 @@
  #IDEAS
  LAT_NO_GIKAI:0 "エップからの釘"
  Proisen:0 "プロイセンの精神"
+ Proisen_Seiei:0 "プロイセンの精神"
+ Proisen_balte:0 "プロイセンの精神"
  LAT_REMU_plan:0 "レームプラン"
  LAT_GERI_plan:0 "ゲーリングプラン"
  LAT_Poisen_army_storong:0 "帝国陸軍の強化"
@@ -60,12 +62,18 @@
  LAT_Poisen_army_storong1GG:0 "帝国陸軍の強化"
  LAT_Poisen_army_storong2GG:0 "帝国陸軍の強化"
  LAT_U_bort:0 "柔軟なUボート戦略"
- #友好度
+ LAT_Totugeki_tai:0 "国民防衛軍の拡大"
+ LAT_Totugeki_tai_NO:0 "国民防衛軍の廃止"
+ LAT_Seihu_army:0 "プロイセン突撃隊"
+ LAT_Tyouhei_kiki:0 "徴兵危機"
+ LAT_Tyouhei_kiki12:0 "バルトからの徴兵"
+ #人物
  
  #隠し効果
  LAT_setumei:0 "後継者の発表に関連する一連のイベントが発生する"
  LAT_HAUSER_decision:0 "ハウサーによる軍の精鋭化に関するディシジョンが解放される"
  LAT_MANSYUTAIN_decision:0 "マンシュタインによる軍の効率化に関するディシジョンが解放される"
+ LAT_De_army_shougun_decision:0 "合計四名の優秀な防衛軍将校を将軍に昇進できる"
  #ディシジョン
  LAT_MM_plan:0 "マンシュタインの陸軍改革"
  LAT_MM_plan_1:0 "先の大戦からの学習"
@@ -78,6 +86,13 @@
  LAT_GG_plan_1:0 "局地的集中火力戦術"
  LAT_GG_plan_2:0 "決定打の探求"
  LAT_GG_plan_3:0 "フールズ・メイト戦術の発案"
+ LAT_Kokumin_Bouei_army:0 "国民防衛軍の拡大"
+ LAT_ZUMI_tyouhou:0 "国民防衛軍の徴募を既に行った"
+ LAT_Kokumin_Bouei_army123:0 "[FROM.GetName]での国民防衛軍の徴募"
+ LAT_shogun_Kanyuu_1:0 "§Yフリードリヒ・パウルス§!の昇格"
+ LAT_shogun_Kanyuu_2:0 "§Yエルヴィン・ロンメル§!の昇格"
+ LAT_shogun_Kanyuu_3:0 "§Yヴィルヘルム・フォン・レープ§!の昇格"
+ LAT_shogun_Kanyuu_4:0 "§Yゲオルク=ハンス・ラインハルト§!の昇格"
  #EVENT
  LAT_events.1.t:0 "帝国会議"
  LAT_events.1.d:0 "ルーデンドルフは長い間軍事独裁を保ってきたが、それは彼だけの力だけで成しえた物ではない。フライコーア組織者のエップやメディア王フーゲンベルク、国民に高い人気を誇るゲーリングら有力者の助けもあってプロイセンは存続してきた。彼らの支持を得る為にルーデンドルフは会合を開き、彼らの要求を聞き入れていた。ルーデンドルフは今回の会合で後継者を発表するつもりだ。この後継者がルーデンドルフのカマリラのお眼鏡に叶うかどうかは会合と、これからの政治手腕にかかっているだろう"
