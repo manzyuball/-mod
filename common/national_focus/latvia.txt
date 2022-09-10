@@ -215,6 +215,8 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_political_power = 200
+
 		}
 	}
 	focus = {
@@ -241,6 +243,22 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -267,6 +285,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_ideas = LAT_U_bort
 		}
 	}
 	focus = {
@@ -293,6 +312,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			navy_experience = 25
 		}
 	}
 	focus = {
@@ -319,6 +339,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			custom_effect_tooltip = LAT_HAUSER_decision
 		}
 	}
 	focus = {
@@ -345,6 +366,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			custom_effect_tooltip = LAT_MANSYUTAIN_decision
 		}
 	}
 	focus = {
@@ -411,7 +433,7 @@ focus_tree = {
 		x = 4
 		y = 2
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 100
@@ -426,6 +448,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -438,7 +461,7 @@ focus_tree = {
 		x = 8
 		y = 2
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 100
@@ -453,6 +476,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			air_experience = 50
 		}
 	}
 	focus = {
@@ -479,6 +503,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			army_experience = 50
+			add_timed_idea = {
+				idea = LAT_REMU_plan 
+				days = 120
+				}
 		}
 	}
 	focus = {
@@ -505,6 +534,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			air_experience = 50
+			add_timed_idea = {
+				idea = LAT_GERI_plan
+				days = 120
+				}
 		}
 	}
 	focus = {
@@ -735,6 +769,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			
 		}
 	}
 	focus = {
