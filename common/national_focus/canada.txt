@@ -175,6 +175,7 @@
 						autonomy_state = autonomy_dominion
 				}
 			}
+		load_focus_tree = ANOTHERCANADA
 		}
 	}
 
@@ -4062,5 +4063,4 @@
 			}
 		}
 	}
-
 }		
