@@ -10,10 +10,10 @@ state={
 		add_core_of = JAP
 		
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			air_base = 10
-			industrial_complex = 2
-			arms_factory = 2
+			industrial_complex = 8
+			arms_factory = 3
 			dockyard = 4
 
 		1182 = {

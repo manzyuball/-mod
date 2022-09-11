@@ -98,7 +98,15 @@
  CHI_zaa1:0 "これにより§R漢陽兵工廠§!の影響力が§R30§!弱くなるだろう"
  CHI_aaa:0 "これによりすべての派閥の影響力が§R15§!弱くなるだろう"
  CHI_ta:0 "これにより全ての派閥の影響力が§R10§!弱まるだろう"
- 
+ CHI_Gunzi_sakusen:0 "軍事戦略"
+ CHI_KUUTEI:0 "空挺降下作戦の準備"
+ CHI_Taiwan_DESDESC:0 "4師団の落下傘部隊を訓練し、降下する準備を整える"
+ CHI_Taiwan_KUUTEI_Kekkou:0 "台湾奪還作戦"
+ CHI_taiwan_Kekkoui:0 "台湾に4師団の落下傘部隊を降下させます"
+ CHI_Okinawa_KUUTEI_Kekkou:0 "琉球作戦"
+ CHI_okinawa_Kekkoui:0 "沖縄に4師団の落下傘部隊を降下させます"
+ CHI_Tanegasima_KUUTEI_Kekkou:0 "種子島降下作戦"
+ CHI_Tanegasima_Kekkoui:0 "種子島に4師団の落下傘部隊を降下させます"
 #ideas
  China_Gunzi_city:0 "中央軍事研究学園都市"
  CHI_Kourituk:0 "中央軍事研究学園都市"

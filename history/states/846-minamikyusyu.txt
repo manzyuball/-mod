@@ -8,8 +8,12 @@ state={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-			industrial_complex = 5
-			infrastructure = 1
+			industrial_complex = 7
+			infrastructure = 4
+			4198 = {
+				naval_base = 6
+
+			}
 		}
 		victory_points = {
 			4102 15 

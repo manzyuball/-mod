@@ -61,7 +61,7 @@ GER_Ryoud_Kakutyo = {
             transfer_state = 877
             transfer_state = 102
             transfer_state = 736
-            transfer_state = 38
+            transfer_state = 874
 			
 			transfer_state = 74
 			transfer_state = 75
