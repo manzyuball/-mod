@@ -67,6 +67,8 @@
  LAT_Seihu_army:0 "プロイセン突撃隊"
  LAT_Tyouhei_kiki:0 "徴兵危機"
  LAT_Tyouhei_kiki12:0 "バルトからの徴兵"
+ LAT_Buy_guns:0 "兵器の購入"
+ LAT_Sou_douin:0 "総動員"
  #人物
  
  #隠し効果

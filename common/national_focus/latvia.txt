@@ -907,7 +907,7 @@ focus_tree = {
 	focus = {
 		id = LAT_SE28
 		icon = "GFX_focus_EST_era_of_silence"
-		prerequisite = { focus = LAT_SE13 focus = LAT_SE14  }
+		prerequisite = { focus = LAT_SE27 }
 		relative_position_id = LAT_SE
 		x = 7
 		y = 4

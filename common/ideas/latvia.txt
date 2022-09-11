@@ -192,7 +192,7 @@ ideas = {
 	LAT_Buy_guns = { #兵器の購入
 	picture = MEX_callistas
 	removal_cost = -1
-	targeted_modifier = { tag = LAT cic_to_target_factor = 0.15 }
+	targeted_modifier = { tag = ENG cic_to_target_factor = 0.15 }
     }
 	LAT_Sou_douin = { #総動員
 	picture = tot_economic_mobilisation

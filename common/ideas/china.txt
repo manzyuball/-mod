@@ -384,27 +384,22 @@ ideas = {
 		designer = yes
 		
 		CHI_12 = {
-
 			picture = generic_air_manufacturer_3
 			available = {
 				check_variable = {
 					CHI_koukuu_h > 30
 					}
 			}
-
 			allowed = {
-
 				original_tag = CHI
 			}
-			
 			research_bonus = {
 				air_equipment = 0.25
 			}
-			cost = 100
 			traits = { fuel_efficient_aircraft_manufacturer }
-						
+					
 			ai_will_do = {
-				factor = 1
+				factor = 10
 			}
 		}
 	}
@@ -422,12 +417,9 @@ ideas = {
 			allowed = {
 				original_tag = CHI
 			}
-
-			cost = 100
 			ai_will_do = {
 				factor = 200
 			}
-
 			modifier = {
 				production_speed_industrial_complex_factor = 0.2
 				local_resources_factor = 0.35

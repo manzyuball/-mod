@@ -118,6 +118,9 @@ focus = {
 	completion_reward = {
 		add_political_power = 100
 		add_stability = -0.05
+		hidden_effect = {
+			AUS = { add_to_faction = POL }
+		}
 	}
 }
 focus = {
@@ -140,6 +143,9 @@ focus = {
 		set_major = yes
 		activate_decision = POL_KAKUDAI
 		custom_effect_tooltip = POL_KAKUDAI_D
+		hidden_effect = {
+			AUS = { add_to_faction = POL }
+		}
 	}
 }
 focus = {
