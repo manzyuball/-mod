@@ -1,0 +1,46 @@
+spriteTypes = {	
+	SpriteType = {
+		name = GFX_Boue_Syou
+		texturefile = "gfx/interface/Syasin/Boue.png"
+	}
+	SpriteType = {
+		name = GFX_Gaimu_Syou
+		texturefile = "gfx/interface/Syasin/Gaimu.png"
+	}
+	SpriteType = {
+		name = GFX_Gunbi_Syou
+		texturefile = "gfx/interface/Syasin/Gunbi.png"
+	}
+	SpriteType = {
+		name = GFX_Gyouse_Syou
+		texturefile = "gfx/interface/Syasin/Gyouse.png"
+	}
+	SpriteType = {
+		name = GFX_Kagaku_Syou
+		texturefile = "gfx/interface/Syasin/Kagaku.png"
+	}
+	SpriteType = {
+		name = GFX_Koueki_Syou
+		texturefile = "gfx/interface/Syasin/Koueki.png"
+	}
+	SpriteType = {
+		name = GFX_Koutu_Syou
+		texturefile = "gfx/interface/Syasin/Koutu.png"
+	}
+	SpriteType = {
+		name = GFX_Nougyo_Syou
+		texturefile = "gfx/interface/Syasin/Nougyo.png"
+	}
+	SpriteType = {
+		name = GFX_Sangyo_Syou
+		texturefile = "gfx/interface/Syasin/Sangyo.png"
+	}
+	SpriteType = {
+		name = GFX_Senden_Syou
+		texturefile = "gfx/interface/Syasin/Senden.png"
+	}
+	SpriteType = {
+		name = GFX_Zaimu_Syou
+		texturefile = "gfx/interface/Syasin/Zaimu.png"
+	}
+}

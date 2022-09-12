@@ -1,0 +1,35 @@
+add_namespace = Ireland
+add_namespace = news
+country_event = {
+	id = Ireland.1
+	title = Ireland.1.t
+	desc = Ireland.1.d
+	picture = GFX_report_event_french_resistance_01
+
+	trigger = {
+		tag = ENG
+		has_war_with = FRA
+		126  = { is_controlled_by = FRA }
+		FRA = { is_in_faction = yes }
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	fire_only_once = yes
+
+	option = {
+		name = Ireland.1.a
+		ai_chance = {
+			base = 9
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		IRE = { transfer_state = 134 transfer_state = 119 transfer_state = 113 transfer_state = 135 
+		declare_war_on = {
+			target = ENG
+			type = annex_everything
+			}}
+	}
+}

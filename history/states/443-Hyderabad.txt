@@ -4,7 +4,7 @@ state={
 	name="STATE_443" # Sind
 	manpower = 3887000
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = IVO
@@ -14,7 +14,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 1
+			industrial_complex = 4
 			3456 = {
 				naval_base = 4
 			}

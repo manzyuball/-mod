@@ -1,0 +1,191 @@
+characters={
+	EOB_Boueisyou = {
+		name = EOB_Boueisyou
+		portraits={
+			civilian={
+				small="GFX_Boue_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Boueisyou
+			allowed  = {
+				tag = EOB
+			}
+			traits  = {
+				BOUEISYOU
+			}
+		}
+	}
+	EOB_Gaimu = {
+		name = EOB_Gaimu
+		portraits={
+			civilian={
+				small="GFX_Gaimu_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Gaimu
+			allowed  = {
+				tag = EOB
+			}
+			traits  = {
+				GAIMUSYOU
+			}
+		}
+	}
+	EOB_Gunbi = {
+		name = EOB_Gunbi
+		portraits={
+			civilian={
+				small="GFX_Gunbi_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Gunbi
+			allowed  = {
+				tag = EOB
+			}
+			traits  = {
+			}
+		}
+	}	
+	EOB_Gyouse = {
+		name = EOB_Gyouse
+		portraits={
+			civilian={
+				small="GFX_Gyouse_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Gyouse
+			allowed  = {
+				tag = EOB
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Kagaku = {
+		name = EOB_Kagaku
+		portraits={
+			civilian={
+				small="GFX_Kagaku_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Kagaku
+			allowed  = {
+				tag = EOB
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Koueki = {
+		name = EOB_Koueki
+		portraits={
+			civilian={
+				small="GFX_Koueki_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Koueki
+			allowed  = {
+				tag = EOB
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Koutu = {
+		name = EOB_Koutu
+		portraits={
+			civilian={
+				small="GFX_Koutu_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Koutu
+			allowed  = {
+				tag = EOB
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Nougyo = {
+		name = EOB_Nougyo
+		portraits={
+			civilian={
+				small="GFX_Nougyo_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Nougyo
+			allowed  = {
+				tag = EOB
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Sangyo = {
+		name = EOB_Sangyo
+		portraits={
+			civilian={
+				small="GFX_Sangyo_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Sangyo
+			allowed  = {
+				tag = EOB
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Senden = {
+		name = EOB_Senden
+		portraits={
+			civilian={
+				small="GFX_Senden_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Senden
+			allowed  = {
+				tag = EOB
+			}
+			traits  = {
+			}
+		}
+	}
+	EOB_Zaimu = {
+		name = GFX_Zaimu_Syou
+		portraits={
+			civilian={
+				small="GFX_Boue_Syou"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = EOB_Zaimu
+			allowed  = {
+				tag = EOB
+			}
+			traits  = {
+			}
+		}
+	}
+}

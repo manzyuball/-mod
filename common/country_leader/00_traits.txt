@@ -4,10 +4,140 @@
 
 leader_traits = {
 	
+	BOUEISYOU = {
+		sprite = 1
+		random = no
+		production_speed_bunker_factor = 0.15
+		production_speed_coastal_bunker_factor = 0.15
+		production_speed_air_base_factor = 0.15
+		production_speed_anti_air_building_factor = 0.15
+		production_speed_radar_station_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	GAIMUSYOU = {
+		sprite = 2
+		random = no
+		send_volunteers_tension = -0.20
+		generate_wargoal_tension = -0.20
+		join_faction_tension = -0.20
+		opinion_gain_monthly_factor = 0.2
+		send_volunteer_size = 5
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	RIKUGUNSYOU = {
+		sprite = 3
+		random = no
+		conscription = 0.01
+		training_time_army_factor = -0.15
+		army_leader_start_level = 2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SOUMUTYOU = {
+		sprite = 4
+		random = no
+		political_power_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	KYOUIKUTYOU = {
+		sprite = 5
+		random = no
+		research_speed_factor = -0.07
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Boueki = {
+		sprite = 6
+		random = no
+		trade_opinion_factor = 0.50
+		license_purchase_cost = -1
+		license_production_speed = 1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Koutuu = {
+		sprite = 7
+		random = no
+		production_speed_infrastructure_factor = 0.25
+		production_speed_supply_node_factor = 0.25
+		production_speed_rail_way_factor = 0.25
+		production_speed_naval_base_factor = 0.25 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Nougyo = {
+		sprite = 8
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Sangyo = {
+		sprite = 9
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Senden = {
+		sprite = 10
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Zaimu = {
+		sprite = 11
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SUBARASII = {
+		random = no
+		political_power_factor = 0.20
+		stability_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	Kaihatud = {
+		random = no
+		political_power_factor = 0.20
+		production_speed_buildings_factor = 0.1
+		consumer_goods_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	kat = {
 		random = no
 		drift_defence_factor = -0.5
 		stability_factor = -0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Russia_king = {
+		random = no
+		conscription = 0.02
+		political_power_factor = 0.1
+		defensive_war_stability_factor = 0.25
+		offensive_war_stability_factor = 0.25
 		
 		ai_will_do = {
 			factor = 1
@@ -164,15 +294,12 @@ leader_traits = {
 		}
 	}
 	
-	Baka = {
+	SOVIET_BUHA = {
 		random = no
-		ai_focus_aggressive_factor = 0.5
-		ai_badass_factor = 0.35
-		stability_factor = -0.05
-		democratic_acceptance = -100
-		fascism_acceptance = -100
-		neutrality_acceptance = -80
-		communism_acceptance = -50
+		stability_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		industrial_capacity_factory = 0.1
+		communism_acceptance = -20
 
 		ai_will_do = {
 			factor = 1

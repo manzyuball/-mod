@@ -11,6 +11,11 @@ state={
 			arms_factory = 4
 			industrial_complex = 7
 			air_base = 3
+<<<<<<< HEAD
+=======
+			7408 = {
+				naval_base = 10
+>>>>>>> master
 
 
 		}

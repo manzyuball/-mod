@@ -66,8 +66,95 @@ spriteTypes = {
 		name = "GFX_focus_Rome_Empire"
 		texturefile = "gfx/interface/goals/focus_Rome_Empire.dds"			
 	}
+<<<<<<< HEAD
 
 
+=======
+	SpriteType = {
+		name = "GFX_focus_Hankyou"
+		texturefile = "gfx/interface/goals/Hankyou.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_KaigunEnsyu"
+		texturefile = "gfx/interface/goals/KaigunEnsyu.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_Kubiki_Tataru"
+		texturefile = "gfx/interface/goals/Kubiki_Tataru.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_Kyoudansyaku"
+		texturefile = "gfx/interface/goals/Kyoudansyaku.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_manifesto"
+		texturefile = "gfx/interface/goals/manifesto.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_nomonhano"
+		texturefile = "gfx/interface/goals/nomonhano.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_Tako"
+		texturefile = "gfx/interface/goals/Tako.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_TyuuouAzia"
+		texturefile = "gfx/interface/goals/TyuuouAzia.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_Miger"
+		texturefile = "gfx/interface/goals/Miger.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_PRU_SUN"
+		texturefile = "gfx/interface/goals/PRU_SUN.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_Zenken"
+		texturefile = "gfx/interface/goals/focus_Zenken.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_Yakihata"
+		texturefile = "gfx/interface/goals/focus_Yakihata.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_SInei"
+		texturefile = "gfx/interface/goals/focus_SInei.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_Yaku"
+		texturefile = "gfx/interface/goals/focus_Yaku.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_attack_ireland"
+		texturefile = "gfx/interface/goals/focus_attack_ireland.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_INKA"
+		texturefile = "gfx/interface/goals/INKA.png"			
+	}
+	SpriteType = {
+		name = "GFX_INKA_HEISI"
+		texturefile = "gfx/interface/goals/INKA_HEISI.png"			
+	}
+	SpriteType = {
+		name = "GFX_INKA_GAIKOU"
+		texturefile = "gfx/interface/goals/INKA_GAIKOU.png"			
+	}
+	SpriteType = {
+		name = "GFX_BIG_Poland"
+		texturefile = "gfx/interface/goals/Poland.png"			
+	}
+	
+
+
+
+
+
+
+	
+>>>>>>> master
 	SpriteType = {
 	name = "focus_ita_correcting_the_north_south_divide"
 	texturefile = "gfx/interface/goals/focus_ita_agricultural_war.dds"			

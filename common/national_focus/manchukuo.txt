@@ -114,7 +114,7 @@
 	focus = {
 		id = MAN_s4
 		icon = "GFX_focus_spa_caudillo_of_spain"
-		prerequisite = { focus = MAN_s2 }
+		prerequisite = { focus = MAN_s3 }
 		x = 0
 		y = 3
 		relative_position_id = MAN_s1
@@ -134,7 +134,7 @@
 	focus = {
 		id = MAN_s5
 		icon = "GFX_goal_support_democracy"
-		prerequisite = { focus = MAN_s2 }
+		prerequisite = { focus = MAN_s4 }
 		x = 0
 		y = 4
 		relative_position_id = MAN_s1
@@ -168,6 +168,7 @@
 		complete_tooltip = {
 		}
 		completion_reward = {
+			add_ideas = five_years_MAN
 		}
 	}
 	focus = {
@@ -188,6 +189,22 @@
 		complete_tooltip = {
 		}
 		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -419,69 +436,8 @@
 		}
 	}
 	focus = {
-		id = MAN_s19
-		icon = "GFX_focus_SOV_panslavic_nationalism"
-		x = -12
-		y = 1
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = MAN_s20
-		icon = "GFX_focus_rom_abdicate"
-		prerequisite = { focus = MAN_s19 }
-		x = -12
-		y = 2
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = MAN_s21
-		icon = "GFX_goal_generic_intelligence_exchange"
-		prerequisite = { focus = MAN_s20 }
-		x = -12
-		y = 6
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
 		id = MAN_s22
 		icon = "GFX_focus_chi_one_china_policy"
-		prerequisite = { focus = MAN_s21 }
-		prerequisite = { focus = MAN_s17 }
 		x = -9
 		y = 7
 		relative_position_id = MAN_s1
@@ -598,129 +554,8 @@
 		completion_reward = {
 		}
 	}
-	focus = {
-		id = MAN_s28
-		icon = "GFX_focus_POL_riot_of_37"
-		prerequisite = { focus = MAN_s2 }
-		x = 2
-		y = 2
-		mutually_exclusive = {
-			focus = MAN_s3
-		}
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = MAN_s29
-		icon = "GFX_focus_generic_support_the_left_right"
-		prerequisite = { focus = MAN_s2 }
-		x = 2
-		y = 3
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = MAN_s30
-		icon = "GFX_focus_mex_soldaderas"
-		prerequisite = { focus = MAN_s2 }
-		x = 2
-		y = 4
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = MAN_s31
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = MAN_s1 }
-		x = 4
-		y = 1
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = MAN_s32
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = MAN_s1 }
-		x = 4
-		y = 2
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = MAN_s33
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = MAN_s1 }
-		x = 4
-		y = 3
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-		}
-	}
+
+
 	focus = {
 		id = MAN_t1
 		icon = "GFX_focus_prc_infiltration"
@@ -863,243 +698,6 @@
 		complete_tooltip = {
 		}
 		completion_reward = {
-		}
-	}
-	focus = {
-		id = Romanov1
-		icon = "GFX_focus_SOV_panslavic_nationalism"
-		mutually_exclusive = {
-			focus = MAN_s1
-		}
-		x = 7
-		y = 0
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-			add_stability = -0.1
-		}
-	}
-	focus = {
-		id = Romanov2
-		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = Romanov1 }
-		x = 7
-		y = 1
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-			add_stability = -0.1
-		}
-	}
-	focus = {
-		id = Romanov3
-		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = Romanov2 }
-		x = 7
-		y = 2
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = Romanov4
-		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = Romanov3 }
-		x = 7
-		y = 3
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-	focus = {
-		id = Romanov5
-		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = Romanov4 }
-		x = 7
-		y = 4
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-			add_stability = -0.3
-		}
-	}
-	focus = {
-		id = Romanov6
-		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = Romanov5 }
-		x = 7
-		y = 5
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-			add_stability = 0.1
-		}
-	}
-	focus = {
-		id = Romanov7
-		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = Romanov5 }
-		x = 5
-		y = 5
-		relative_position_id = MAN_s1
-		cost = 20
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = MON
-				}
-		}
-	}
-	focus = {
-		id = Romanov8
-		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = Romanov3 }
-		x = 9
-		y = 3
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-		add_war_support = 0.1
-		}
-	}
-	focus = {
-		id = Romanov9
-		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = Romanov8 }
-		x = 9
-		y = 4
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-			add_manpower = -5000
-		}
-	}
-	focus = {
-		id = Romanov10
-		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = Romanov9 }
-		x = 9
-		y = 5
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = Romanov11
-		icon = "GFX_focus_SOV_panslavic_nationalism"
-		prerequisite = { focus = Romanov10 }
-		x = 9
-		y = 6
-		relative_position_id = MAN_s1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-		}
-		bypass = {
-		}
-		complete_tooltip = {
-		}
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = JAP
-				}
 		}
 	}
 }

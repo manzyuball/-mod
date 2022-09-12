@@ -68,6 +68,21 @@ tyuuou = {
 	Monthly_population = 0.5
 }
 
+Kokumin_niyoru_Bouei = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_SOV_civilian_labor_in_defense
+	
+	max_dig_in = 25
+	dig_in_speed_factor = 0.25
+	targeted_modifier = { tag = GER defense_bonus_against = 0.25 }
+	targeted_modifier = { tag = FRA defense_bonus_against = 0.25 }
+
+	production_speed_bunker_factor = 0.5
+	production_speed_anti_air_building_factor = 0.5
+	industry_repair_factor = 0.5
+}
+
 JAP_kaihatu2 = {
 	enable = { always = yes }
 

@@ -11,7 +11,6 @@ state={
 		victory_points = {
 			185 1
 		}
-		add_core_of = LAT
 	}
 
 	provinces={

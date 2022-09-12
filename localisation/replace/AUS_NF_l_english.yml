@@ -120,6 +120,13 @@
  #友好度
  
  #隠し効果 
+ AUS_Dai_mother_land_war:0 "大祖国戦争"
+ Kokumin_niyoru_Bouei:0 "武装国民防衛作戦"
+ AUS_AUS_line:0 "オーストリアでの武装国民防衛作戦"
+ AUS_CZE_line:0 "チェコでの武装国民防衛作戦"
+ AUS_HUN_line:0 "中央ハンガリーでの武装国民防衛作戦"
+ AUS_CRO_line:0 "北部バルカン地方での武装国民防衛作戦"
+ AUS_DAISOKOKU_SIMIN:0 "市民と協力し防衛をより強固なものとします"
  AUS_bq1:0 "合計6~8の武装国防志願兵がスポーンします"
  AUS_SSq:0 "武装国防志願兵を募集するディシジョンが許可される"
  AUS_SS_decisions:0 "武装国防志願兵の募集"

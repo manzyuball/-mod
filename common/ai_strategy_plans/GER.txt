@@ -25,47 +25,11 @@ German_historical = {
 		}
 	}
 	abort = {
-		OR = {
-			SWE = {
-				has_government = communism #prio 1, crush Sweden
-			}
-			SOV = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			ENG = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			any_country_with_original_tag = {
-				original_tag_to_check = HUN
-				has_completed_focus = HUN_invite_the_habsburg_prince
-			}
-			any_country_with_original_tag = {
-				original_tag_to_check = FRA
-				OR = {
-					has_completed_focus = FRA_utilize_the_leagues
-					has_completed_focus = FRA_invite_communist_ministers
-					has_completed_focus = FRA_leftist_rhetoric
-					has_completed_focus = FRA_right_wing_rhetoric
-				}
-			}
-			any_country_with_original_tag = {
-				original_tag_to_check = USA
-				OR = {
-					has_completed_focus = USA_war_plan_red
-					has_completed_focus = USA_war_plan_white
-				}
-			}
-		}
 	}
 
 	ai_national_focuses = {
 		# grab as fast as you can if available
 		GER_s1
-
 		GER_s5
 		GER_s4
 		GER_s15
@@ -74,41 +38,29 @@ German_historical = {
 		#1937
 		GER_n6
 		GER_n9
-		GER_s5
-		GER_s2
-		GER_s10
-		#1938
-		GER_s16
 		GER_s3
 		GER_n12
 		GER_n13
-		GER_s21
-		#1939
+		#1938
 		GER_n8
-		GER_n3
-		GER_s6
-		GER_s11
-		GER_s7
-		#1940
+		GER_s3
+		GER_n15
+		#1939
+		GER_s16
 		GER_s22
 		GER_s23
 		GER_s24
-		GER_s8
-		GER_n2	
-		#1941
-		GER_n16
+		GER_s2
+		GER_n2
 		GER_air_innovation
-		GER_naval_rearmament
-		GER_naval_effort
-		GER_naval_effort2
-		#1942
-		GER_strategic_air_effort
-		GER_air_innovation_2
-		GER_rocketry_focus
-		GER_long_range_escorts
-		GER_wunderwaffe
-		GER_u_boat_effort
-		GER_trade_interdiction
+		#1940
+		GER_s6
+		GER_s7
+		GER_s8
+		GER_s12
+		GER_s17
+		#1941
+		GER_s18
 	}
 
 	research = {

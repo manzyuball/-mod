@@ -169,7 +169,16 @@
  JAP_bouhatei:0 "防波堤の帝国"
  JAP_bouhatei_desc:0 "帝国は第一次世界大戦から今日までの数十年間、経済・外交・軍事\nあらゆる点において戦い続けてきた、そして戦いはいよいよ終末を迎える。\n最終決戦に挑む前に防波堤を修理し、迫りくる赤き洪水と戦う準備をしなければならない"
  JAP_bou1:0 "円ブロックの強化"
-
+ JAP_Zyouriku:0 "上陸作戦"
+ JAP_ZYOURIKU_OK:0 "上陸作戦を計画した"
+ JAP_CHI_ZYOURIKU_ZYUNBI:0 "上陸作戦の計画"
+ JAP_Zyunbi_zyouriku_OK:0 "上陸作戦を計画します" 
+ JAP_CHI_Syanghai_Z:0 "上海周辺に上陸します"
+ JAP_CHI_ZYOURIKU_Syanghai:0 "上海上陸作戦"
+ JAP_CHI_KOUSYU_Z:0 "広州周辺に上陸します"
+ JAP_CHI_ZYOURIKU_KOUSYU:0 "広州上陸作戦"
+ JAP_CHI_ZYOURIKU_SAN:0 "山東上陸作戦"
+ JAP_CHI_SAN_Z:0 "山東半島に上陸します"
  #国名
  JAP_fascism:0 "大日本帝国"
  JAP_fascism_DEF:0 "大日本帝国"
@@ -189,6 +198,7 @@
 
 
 #IDEAS
+ JAP_Zyouriku_ideas:0 "上陸作戦の決行"
  ENblo:0 "円ブロック"
  JAP_bou2:0 "合同軍事練習"
  goudou:0 "合同軍事演習中"
@@ -207,6 +217,7 @@
  KaihatuKeikaku2:0 "第二次匡救政策"
  KaihatuKeikaku3:0 "第三次匡救政策"
  KaihatuKeikaku4:0 "第四次匡救政策"
+ KaihatuKeikaku5:0 "次匡救政策の終了"
  SEKKYOKUZAISEI:0 "積極財政"
  KAIHATUSYUURYOU:0 "発展した本土"
  Touyounominsyusyugi:0 "東洋の民主主義"

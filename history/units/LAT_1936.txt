@@ -14,14 +14,36 @@
 }
 
 division_template = {
+	name = "国民防衛軍"	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+	is_locked = yes
+}
+
+division_template = {
 	name = "砲兵付属歩兵隊"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		artillery_brigade = { x = 1 y = 0 }
-		artillery_brigade = { x = 1 y = 1 }
-		artillery_brigade = { x = 1 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
@@ -152,6 +174,12 @@ units = {
 	division = {
 		name = "旧ドイツ帝国正規兵"
 		location = 266
+		division_template = "旧ドイツ帝国正規兵"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "旧ドイツ帝国正規兵"
+		location = 11386
 		division_template = "旧ドイツ帝国正規兵"
 		start_experience_factor = 0.8
 	}

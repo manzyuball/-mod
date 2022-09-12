@@ -12,12 +12,12 @@ focus_tree = {
 	}
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 1100 }
+	continuous_focus_position = { x = 650 y = 100 }
 
 	focus = {
 		id = PRU_se1
-		icon ="GFX_focus_ger_return_of_the_kaiser"
-		x = -1
+		icon ="GFX_focus_PRU_SUN"
+		x = 4
 		y = 0
 
 		cost = 10
@@ -30,81 +30,93 @@ focus_tree = {
 		available_if_capitulated = no
 
 	    completion_reward = {
-            add_stability = 0.1
+            remove_ideas = PRU_Yomigaettateikoku
 	    }
 }
+
 #© 2022 Empire of Breakwaters制作チーム, 饅頭ボール. All rights reserved.
 #このファイルは著作権法で保護されており、このファイルの一部もしくは全体のEoB以外へのあらゆる利用は許可されていません。
 focus = {
-    id = PRU_se2
-    icon = "GFX_goal_reichsautobahn"
-    prerequisite = { focus = PRU_se1 }
-    x = -1
-    y = 1
+	id = PRU_seA
+	icon ="GFX_goal_generic_national_unity"
+	x = 0
+	y = 1
 
+<<<<<<< HEAD
     cost = 10
+=======
+	cost = 5
+>>>>>>> master
 
-    ai_will_do = {
-    factor = 1
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_se1 }
 
-completion_reward = {
-    add_timed_idea = {
-        idea = PRU_saikenn
-        days = 30
-        }
-}
+	completion_reward = {
+		add_political_power = 75
+		add_offsite_building = { type = industrial_complex level = 2 }
+	}
 }
 focus = {
-    id = PRU_se3
-    icon = "GFX_goal_molotov_ribbentrop_pact"
-    prerequisite = { focus = PRU_se2 }
-    x = -4
-    y = 2
+	id = PRU_seA1
+	icon ="GFX_focus_hol_the_foundations_of_defense"
+	x = 0
+	y = 2
 
+<<<<<<< HEAD
     cost = 10
+=======
+	cost = 5
+>>>>>>> master
 
-    ai_will_do = {
-    factor = 1
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_stability = 0.15
-}
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seA }
+	completion_reward = {
+		add_stability = 0.1
+	}
 }
 focus = {
-    id = PRU_se31
-    icon = "GFX_focus_POL_riot_of_37"
-    prerequisite = { focus = PRU_se3 }
-    x = -4
-    y = 3
+	id = PRU_seA2
+	icon ="GFX_focus_Miger"
+	x = 0
+	y = 3
 
+<<<<<<< HEAD
     cost = 10
+=======
+	cost = 5
+>>>>>>> master
 
-    ai_will_do = {
-    factor = 1
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-   
-}
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seA1 }
+	completion_reward = {
+		add_stability = 0.1
+	}
 }
 focus = {
-    id = PRU_se32
-    icon = "GFX_focus_generic_military_mission"
-    prerequisite = { focus = PRU_se31 }
-    x = -4
-    y = 4
+	id = PRU_seA3
+	icon ="GFX_focus_Zenken"
+	x = 0
+	y = 4
 
+<<<<<<< HEAD
     cost = 10
 
     ai_will_do = {
@@ -141,57 +153,105 @@ completion_reward = {
     add_state_core = 487
     add_state_core = 895
 }
+=======
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seA2 }
+	completion_reward = {
+		add_ideas = PRU_Teikoku_Bousoudo_LOW
+		activate_decision = PRU_KAKUDAI
+	}
+>>>>>>> master
 }
 focus = {
-    id = PRU_se34
-    icon = "GFX_focus_hol_the_foundations_of_defense"
-    prerequisite = { focus = PRU_se33 }
-    x = -4
-    y = 6
+	id = PRU_seK1
+	icon ="GFX_focus_generic_join_comintern"
+	x = 0
+	y = 5
 
+<<<<<<< HEAD
     cost = 10
+=======
+	cost = 5
+>>>>>>> master
 
-    ai_will_do = {
-    factor = 1
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_stability = 0.1
-    add_state_core = 896
-    add_state_core = 305
-}
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seA3 }
+	completion_reward = {
+		add_ideas = PRU_Keizai
+	}
 }
 focus = {
-    id = PRU_se35
-    icon = "GFX_goal_generic_propaganda"
-    prerequisite = { focus = PRU_se34 }
-    x = -4
-    y = 7
+	id = PRU_seK2
+	icon ="GFX_focus_generic_industry_3"
+	x = -1
+	y = 6
 
+<<<<<<< HEAD
     cost = 10
+=======
+	cost = 5
+>>>>>>> master
 
-    ai_will_do = {
-    factor = 1
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    add_stability = 0.1
-    add_political_power = 250
-}
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK1 }
+	completion_reward = {
+		add_timed_idea = {
+			idea = PRU_AHEN1
+			days = 60
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+	}
 }
 focus = {
-    id = PRU_se4
-    icon = "GFX_goal_generic_intelligence_exchange"
-    prerequisite = { focus = PRU_se2 }
-    x = -8
-    y = 2
+	id = PRU_seK3
+	icon ="GFX_focus_Yakihata"
+	x = -1
+	y = 7
 
+<<<<<<< HEAD
     cost = 10
 
     ai_will_do = {
@@ -1113,87 +1173,61 @@ focus = {
     cost = 10
 		available = {
             has_completed_focus = PRU_se48
-		}
-    ai_will_do = {
-    factor = 100
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
+=======
+	cost = 5
 
-completion_reward = {
-    custom_effect_tooltip = PRU_i
-    add_state_core = 493
-    add_state_core = 306
-    add_state_core = 489
-    add_state_core = 307
-    add_state_core = 488
-    add_state_core = 899
-    add_state_core = 486
-    add_state_core = 306
-    add_state_core = 898
-    add_state_core = 310
-    add_state_core = 309
-    add_state_core = 687
-    add_state_core = 900
-    add_state_core = 903
-    add_state_core = 902
-    add_state_core = 487
-    add_state_core = 895
-    add_state_core = 901
-    add_state_core = 495
-    add_state_core = 497
-    add_state_core = 498
-    add_state_core = 505
-    add_state_core = 280
-    add_state_core = 504
-    add_state_core = 501
-    add_state_core = 905
-    add_state_core = 904
-    add_state_core = 499
-    add_state_core = 496
-    add_state_core = 500
-    add_state_core = 906
-    add_state_core = 503
-    add_state_core = 502
-    add_state_core = 908
-    add_state_core = 891
-    add_state_core = 300
-    add_state_core = 892
-    add_state_core = 688
-    add_state_core = 301
-    add_state_core = 893
-    add_state_core = 506
-    add_state_core = 508
-    add_state_core = 509
-    add_state_core = 301
-    add_state_core = 894
-    add_state_core = 510
-    add_state_core = 919
-    add_state_core = 511
-    add_state_core = 890
-    add_state_core = 279
-    add_state_core = 907
-    add_state_core = 278
-    add_state_core = 918
-    add_state_core = 889
-    add_state_core = 512
-    add_state_core = 507
-    add_state_core = 887
-    add_state_core = 888
-    add_state_core = 299
-    add_state_core = 691
-    add_state_core = 304
-    add_state_core = 695
-}
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK2 }
+	completion_reward = {
+		add_offsite_building = { type = industrial_complex level = 3 }
+		add_timed_idea = {
+			idea = PRU_AHEN1
+			days = 60
+			}
+	}
 }
 focus = {
-    id = PRU_se74
-    icon = "GFX_focus_POL_beck_ribbentrop"
-    prerequisite = { focus = PRU_se6 }
-    x = 12
-    y = 3
+	id = PRU_seK4
+	icon ="GFX_focus_ger_return_of_the_kaiser"
+	x = -1
+	y = 8
 
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK3 }
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 3
+			uses = 3
+			category = industry
+>>>>>>> master
+		}
+		add_timed_idea = {
+			idea = PRU_AHEN1
+			days = 60
+			}
+	}
+}
+focus = {
+	id = PRU_seK5
+	icon ="GFX_focus_AST_squander_bug"
+	x = -1
+	y = 9
+
+<<<<<<< HEAD
     cost = 10
     available = {
         has_completed_focus = PRU_se67
@@ -1204,18 +1238,34 @@ focus = {
     cancel_if_invalid = yes
     continue_if_invalid = no
     available_if_capitulated = no
+=======
+	cost = 5
+>>>>>>> master
 
-completion_reward = {
-    add_stability = 0.1
-}
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK4 }
+	completion_reward = {
+		add_political_power = 150
+		add_stability = 0.15
+		add_timed_idea = {
+			idea = PRU_AHEN1
+			days = 60
+			}
+	}
 }
 focus = {
-    id = PRU_se75
-    icon = "GFX_focus_CZE_german_puppet"
-    prerequisite = { focus = PRU_se74 }
-    x = 11
-    y = 4
+	id = PRU_seK6
+	icon ="GFX_focus_Yaku"
+	x = -1
+	y = 10
 
+<<<<<<< HEAD
     cost = 10
     available = {
         has_completed_focus = PRU_se57
@@ -1226,96 +1276,118 @@ focus = {
     cancel_if_invalid = yes
     continue_if_invalid = no
     available_if_capitulated = no
+=======
+	cost = 5
+>>>>>>> master
 
-completion_reward = {
-    custom_effect_tooltip = SOV_penal_battalions_spawn_tt
-    hidden_effect = {
-        set_technology = { penal_infantry = 1 popup = no }
-
-        division_template = {
-            name = "戦列歩兵自由解放部隊"
-            regiments = {
-                penal_battalion = { x = 0 y = 0 }
-                penal_battalion = { x = 0 y = 1 }
-                penal_battalion = { x = 0 y = 2 }
-                penal_battalion = { x = 1 y = 0 }
-                penal_battalion = { x = 1 y = 1 }
-                penal_battalion = { x = 1 y = 2 }
-                penal_battalion = { x = 2 y = 0 }
-                penal_battalion = { x = 2 y = 1 }
-                penal_battalion = { x = 2 y = 2 }
-            }
-            support = {
-                artillery = { x = 0 y = 0 }
-            }
-        }
-        SOV_spawn_penal_divisions_effect = yes
-    }
-}
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK5 }
+	completion_reward = {
+		add_timed_idea = {
+			idea = PRU_AHEN1
+			days = 60
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+	}
 }
 focus = {
-    id = PRU_se76
-    icon = "GFX_focus_rom_handle_king"
-    prerequisite = { focus = PRU_se74 }
-    x = 13
-    y = 4
+	id = PRU_seK7
+	icon ="GFX_focus_AST_war_japan"
+	x = -1
+	y = 11
 
+<<<<<<< HEAD
     cost = 10
+=======
+	cost = 5
+>>>>>>> master
 
-    ai_will_do = {
-    factor = 1
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    create_wargoal = {
-        type = annex_everything
-
-        target = TUR
-        }
-        create_wargoal = {
-            type = annex_everything
-    
-            target = JAP
-            }
-            create_wargoal = {
-                type = annex_everything
-        
-                target = AUS
-                }
-}
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK6 }
+	completion_reward = {
+		reverse_add_opinion_modifier = {
+			target = JAP
+			modifier = dankou
+			}
+	}
 }
 focus = {
-    id = PRU_se77
-    icon = "GFX_focus_eng_crush_the_dream"
-    prerequisite = { focus = PRU_se76 }
-    x = 13
-    y = 5
+	id = PRU_seK8
+	icon ="GFX_focus_KUROZI"
+	x = 1
+	y = 6
 
+<<<<<<< HEAD
     cost = 10
+=======
+	cost = 5
+>>>>>>> master
 
-    ai_will_do = {
-    factor = 1
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
-
-completion_reward = {
-    set_rule = {
-        can_declare_war_without_wargoal_when_in_war = yes
-        }
-}
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK1 }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_Keizai
+			add_idea = PRU_Keizai2
+			}
+	}
 }
 focus = {
-    id = PRU_se78
-    icon = "GFX_focus_spr_the_anti_fascist_workers_revolution"
-    prerequisite = { focus = PRU_se75 }
-    x = 11
-    y = 5
+	id = PRU_seK9
+	icon ="GFX_focus_fra_devalue_the_franc"
+	x = 1
+	y = 7
 
+<<<<<<< HEAD
     cost = 10
     available = {
         has_completed_focus = PRU_se31
@@ -1326,12 +1398,27 @@ focus = {
     cancel_if_invalid = yes
     continue_if_invalid = no
     available_if_capitulated = no
+=======
+	cost = 5
+>>>>>>> master
 
-completion_reward = {
-    add_country_leader_trait = zikoku
-}
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK8 }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_Keizai2
+			add_idea = PRU_Keizai3
+			}
+	}
 }
 focus = {
+<<<<<<< HEAD
     id = PRU_se79
     icon = "GFX_focus_spr_crush_the_revolution"
     prerequisite = { focus = PRU_se78 focus = PRU_se77 }
@@ -1341,48 +1428,1040 @@ focus = {
         has_completed_focus = PRU_se73
     }
     cost = 10
+=======
+	id = PRU_seK10
+	icon ="GFX_focus_CZE_german_puppet"
+	x = 1
+	y = 8
+>>>>>>> master
 
-    ai_will_do = {
-    factor = 1
-    }	
-    cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
+	cost = 5
 
-completion_reward = {
-    custom_effect_tooltip = PRU_iq
-    add_state_core = 685
-    add_state_core = 880
-    add_state_core = 692
-    add_state_core = 308
-    add_state_core = 694
-    add_state_core = 686
-    add_state_core = 319
-    add_state_core = 318
-    add_state_core = 315
-    add_state_core = 689
-    add_state_core = 690
-    add_state_core = 693
-    add_state_core = 316
-    add_state_core = 317
-    add_state_core = 312
-    add_state_core = 314
-    add_state_core = 313
-    add_state_core = 311
-    add_state_core = 474
-    add_state_core = 475
-    add_state_core = 476
-    add_state_core = 485
-    add_state_core = 277
-    add_state_core = 477
-    add_state_core = 478
-    add_state_core = 479
-    add_state_core = 481
-    add_state_core = 480
-    add_state_core = 482
-    add_state_core = 483
-    add_state_core = 484
-    add_state_core = 910
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK9 }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_Keizai3
+			add_idea = PRU_Keizai4
+			}
+	}
 }
+focus = {
+	id = PRU_seK11
+	icon ="GFX_focus_jap_newdeal2"
+	x = 1
+	y = 9
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK10 }
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = PRU_seK12
+	icon ="GFX_focus_jap_newdeal3"
+	x = 1
+	y = 10
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK11 }
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = PRU_seK13
+	icon ="GFX_focus_jap_newdeal1"
+	x = 1
+	y = 11
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK12 }
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = PRU_seK14
+	icon ="GFX_focus_spa_supremacy_of_the_communion"
+	x = 0
+	y = 12
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK13 }
+	prerequisite = { focus = PRU_seK7 }
+	completion_reward = {
+		add_ideas = PRU_KAKOKUNA
+	}
+}
+focus = {
+	id = PRU_seK15
+	icon ="GFX_focus_GRE_a_land_of_mountains"
+	x = 0
+	y = 13
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK14 }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_KAKOKUNA
+			add_idea = PRU_KAKOKUNA1
+			}
+	}
+}
+focus = {
+	id = PRU_seK16
+	icon ="GFX_focus_usa_guarantee_the_american_dream"
+	x = 0
+	y = 14
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK15 }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_KAKOKUNA1
+			add_idea = PRU_KAKOKUNA2
+			}
+	}
+}
+focus = {
+	id = PRU_seK17
+	icon ="GFX_focus_LAT_suspend_constitution_of_latvia"
+	x = 0
+	y = 15
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seK16 }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_KAKOKUNA2
+			add_idea = PRU_KAKOKUNA3
+			}
+	}
+}
+focus = {
+	id = PRU_seG1
+	icon ="GFX_focus_jap_pacific_guardian"
+	x = -3
+	y = 2
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	completion_reward = {
+		add_political_power = 150
+	}
+}
+focus = {
+	id = PRU_seG2
+	icon ="GFX_focus_chi_reach_out_to_france"
+	x = 0
+	y = 1
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seG1
+	prerequisite = { focus = PRU_seG1 }
+	completion_reward = {
+		reverse_add_opinion_modifier = {
+			target = FRA
+			modifier = kyuusekkinn
+			}
+			diplomatic_relation = {
+				country = FRA
+				relation = non_aggression_pact
+				active = yes
+				}
+	}
+}
+focus = {
+	id = PRU_seG3
+	icon ="GFX_focus_ger_great_red_menace"
+	x = 0
+	y = 2
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seG1
+	prerequisite = { focus = PRU_seG2 }
+	completion_reward = {
+		add_ideas = PRU_GAIKOU
+	}
+}
+focus = {
+	id = PRU_seG4
+	icon ="GFX_INKA_GAIKOU"
+	x = 0
+	y = 3
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seG1
+	prerequisite = { focus = PRU_seG3 }
+	prerequisite = { focus = PRU_seA3 }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_GAIKOU
+			add_idea = PRU_GAIKOU2
+			}
+	}
+}
+focus = {
+	id = PRU_seG5
+	icon ="GFX_focus_attack_mexico"
+	x = 0
+	y = 4
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seG1
+	prerequisite = { focus = PRU_seG4 }
+	completion_reward = {
+		PRU = {
+			create_wargoal = {
+				type = annex_everything
+				target = MEX
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = HON
+					}
+			}
+			MEX = {
+				every_owned_state = {
+					add_claim_by = PRU
+				}		
+			}
+			HON = {
+				every_owned_state = {
+					add_claim_by = PRU
+				}		
+			}
+	}
+}
+focus = {
+	id = PRU_seG6
+	icon ="GFX_focus_mex_redeem_aztlan"
+	x = 0
+	y = 5
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seG1
+	prerequisite = { focus = PRU_seG5 }
+	completion_reward = {
+		PRU = {
+			create_wargoal = {
+				type = annex_everything
+				target = CUB
+				}
+			}
+			CUB = {
+				every_owned_state = {
+					add_claim_by = PRU
+				}		
+			}
+	}
+}
+focus = {
+	id = PRU_seG7
+	icon ="GFX_focus_eng_special_air_service"
+	x = 0
+	y = 6
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seG1
+	prerequisite = { focus = PRU_seG6 }
+	completion_reward = {
+		add_state_claim = 689
+		add_state_claim = 690
+		add_state_claim = 693
+		add_state_claim = 686
+		add_state_claim = 308
+		add_state_claim = 694
+		add_state_claim = 692
+		add_state_claim = 691
+		add_state_claim = 687
+		add_state_claim = 309
+		add_state_claim = 310
+		add_state_claim = 696
+		add_state_claim = 720
+		add_state_claim = 270
+		add_state_claim = 730
+		PRU = {
+			create_wargoal = {
+				type = annex_everything
+				target = ENG
+				}
+			}
+	}
+}
+focus = {
+	id = PRU_seN1
+	icon ="GFX_focus_spa_the_war_of_vengeance"
+	x = 4
+	y = 5
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seA3 }
+	completion_reward = {
+		custom_effect_tooltip = PRU_nsa
+		hidden_effect = {
+			set_country_flag = PRU_Ansatu
+		}
+	}
+}
+focus = {
+	id = PRU_seN2
+	icon ="GFX_focus_mex_support_general_cedillo"
+	x = 0
+	y = 1
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN1 }
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+focus = {
+	id = PRU_seN3
+	icon ="GFX_focus_SInei"
+	x = -1
+	y = 2
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN2 }
+	completion_reward = {
+		custom_effect_tooltip = PRU_SINEI
+		hidden_effect = {
+			load_oob = "PRU_SINEI"
+		}
+	}
+}
+focus = {
+	id = PRU_seN4
+	icon ="GFX_focus_RAJ_indian_gurkhas"
+	x = -1
+	y = 3
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN3 }
+	completion_reward = {
+		add_ideas = PRU_HIMIT
+		create_corps_commander = {
+			name = "国家親衛隊秘密警察所長"
+			picture = "Portrait_Italy_Angelo_Iachino.dds"
+			traits = { trait_reckless harsh_leader brilliant_strategist }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			}
+			swap_ideas = {
+				remove_idea = PRU_Teikoku_Bousoudo_LOW 
+				add_idea = PRU_Teikoku_Bousoudo_OK
+				}
+	}
+}
+focus = {
+	id = PRU_seN5
+	icon ="GFX_focus_mex_privatisation"
+	x = -1
+	y = 4
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN4 }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_Teikoku_Bousoudo_OK
+			add_idea = PRU_Teikoku_Bousoudo_NO
+			}
+	}
+}
+focus = {
+	id = PRU_seN6
+	icon ="GFX_focus_SOV_penal_battalions"
+	x = -1
+	y = 5
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN5 }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_Teikoku_Bousoudo_NO
+			add_idea = PRU_Teikoku_Bousoudo_Shit
+			}
+	}
+}
+focus = {
+	id = PRU_seN7
+	icon ="GFX_focus_generic_military_academy"
+	x = -1
+	y = 6
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN6 }
+	completion_reward = {
+		add_research_slot = 1
+	}
+}
+focus = {
+	id = PRU_seN8
+	icon ="GFX_focus_mex_caudillo_private_armies"
+	x = 1
+	y = 2
+
+	cost = 5
+
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN2 }
+	completion_reward = {
+		add_ideas = PRU_SENSOUZEi
+	}
+}
+focus = {
+	id = PRU_seN9
+	icon ="GFX_focus_chi_mission_to_the_us"
+	x = 1
+	y = 3
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN8 }
+	completion_reward = {
+		add_manpower = 64021
+		create_corps_commander = {
+			name = "ユナイテッド・ファミリー"
+			picture = "Portrait_Germany_Hilter_M.dds"
+			traits = { substance_abuser  }
+			skill = 4
+			attack_skill = 8
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			}
+	}
+}
+focus = {
+	id = PRU_seN10
+	icon ="GFX_focus_research"
+	x = 1
+	y = 4
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN9 }
+	completion_reward = {
+		add_research_slot = 1
+	}
+}
+focus = {
+	id = PRU_seN11
+	icon ="GFX_goal_generic_production2"
+	x = 1
+	y = 5
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN10 }
+	completion_reward = {
+		add_ideas = PRU_KAGAKUSENSOU
+	}
+}
+focus = {
+	id = PRU_seN12
+	icon ="GFX_focus_generic_concessions"
+	x = 1
+	y = 6
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN11 }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_KAGAKUSENSOU
+			add_idea = PRU_KAGAKUSENSOU1
+			}
+	}
+}
+focus = {
+	id = PRU_seN13
+	icon ="GFX_focus_POL_end_the_regency"
+	x = 0
+	y = 7
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN12}
+	prerequisite = { focus = PRU_seN7}
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_KAGAKUSENSOU1
+			add_idea = PRU_SIWOSUUHAI
+			}
+	}
+}
+focus = {
+	id = PRU_seN14
+	icon ="GFX_focus_mex_restore_the_army_of_christ"
+	x = 0
+	y = 8
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN13}
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_SIWOSUUHAI
+			add_idea = PRU_SIWOSUUHAI1
+			}
+	}
+}
+focus = {
+	id = PRU_seN15
+	icon ="GFX_INKA_HEISI"
+	x = 0
+	y = 9
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seN1
+	prerequisite = { focus = PRU_seN14}
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = PRU_SIWOSUUHAI1
+			add_idea = PRU_SIWOSUUHAI2
+			}
+	}
+}
+focus = {
+	id = PRU_seW1
+	icon ="GFX_focus_generic_provoke_border_clashes"
+	x = 8
+	y = 5
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_se1
+	prerequisite = { focus = PRU_seA3}
+	completion_reward = {
+		add_war_support = 0.1
+	}
+}
+focus = {
+	id = PRU_seW2
+	icon ="GFX_goal_tfv_saf_anti_colonialist_crusade"
+	x = -1
+	y = 1
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seW1
+	prerequisite = { focus = PRU_seW1}
+	completion_reward = {
+		add_state_claim = 892
+		add_state_claim = 506
+		add_state_claim = 279
+		add_state_claim = 507
+	}
+}
+focus = {
+	id = PRU_seW3
+	icon ="GFX_goal_generic_position_armies"
+	x = -1
+	y = 2
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seW1
+	prerequisite = { focus = PRU_seW2}
+	completion_reward = {
+		PRU = {
+			create_wargoal = {
+				type = annex_everything
+				target = CHL
+				}
+			}
+	}
+}
+focus = {
+	id = PRU_seW4
+	icon ="GFX_goal_generic_war_with_comintern"
+	x = 1
+	y = 1
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seW1
+	prerequisite = { focus = PRU_seW1}
+	completion_reward = {
+		add_state_claim = 493
+		add_state_claim = 306
+		add_state_claim = 898
+		add_state_claim = 486
+		add_state_claim = 899
+		add_state_claim = 489
+		add_state_claim = 488
+		add_state_claim = 307
+		add_state_claim = 695
+	}
+}
+focus = {
+	id = PRU_seW5
+	icon ="GFX_goal_generic_major_war"
+	x = 1
+	y = 2
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seW1
+	prerequisite = { focus = PRU_seW4}
+	completion_reward = {
+		PRU = {
+			create_wargoal = {
+				type = annex_everything
+				target = COL
+				}
+			}
+
+	}
+}
+focus = {
+	id = PRU_seW6
+	icon ="GFX_focus_INKA"
+	x = 0
+	y = 3
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seW1
+	prerequisite = { focus = PRU_seW5}
+	prerequisite = { focus = PRU_seW3}
+	completion_reward = {
+		add_war_support = 0.15
+		set_major = yes
+		set_rule = {
+			can_create_factions = yes
+			can_declare_war_without_wargoal_when_in_war = yes
+			can_use_kamikaze_pilots = yes
+			}
+	}
+}
+focus = {
+	id = PRU_seW7
+	icon ="GFX_focus_por_recover_latin_america"
+	x = 0
+	y = 4
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seW1
+	prerequisite = { focus = PRU_seW6}
+	completion_reward = {
+		PRU = {
+			create_wargoal = {
+				type = annex_everything
+				target = ARG
+				}
+			}
+			ARG = {
+				every_owned_state = {
+					add_claim_by = PRU
+				}		
+			}
+	}
+}
+focus = {
+	id = PRU_seW8
+	icon ="GFX_focus_LIT_restore_the_grand_duchy"
+	x = 0
+	y = 5
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seW1
+	prerequisite = { focus = PRU_seW7}
+	completion_reward = {
+		PRU = {
+			create_wargoal = {
+				type = annex_everything
+				target = PAN
+				}
+			}
+			PAN = {
+				every_owned_state = {
+					add_claim_by = PRU
+				}		
+			}
+	}
+}
+focus = {
+	id = PRU_seW9
+	icon ="GFX_focus_por_recover_brazil"
+	x = 0
+	y = 6
+
+	cost = 5
+
+	ai_will_do = {
+	factor = 1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	relative_position_id = PRU_seW1
+	prerequisite = { focus = PRU_seW8}
+	completion_reward = {
+		PRU = {
+			create_wargoal = {
+				type = annex_everything
+				target = BRA
+				}
+			}
+			BRA = {
+				every_owned_state = {
+					add_claim_by = PRU
+				}		
+			}
+	}
 }
 }

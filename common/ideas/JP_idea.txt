@@ -1,5 +1,16 @@
 ideas = {
 	country = {
+		JAP_Zyouriku_ideas = { 
+			name = JAP_Zyouriku_ideas
+			picture = generic_coastal_defense_ships
+			modifier = {
+				ai_focus_aggressive_factor = 0.25
+				land_reinforce_rate = 0.05
+			}
+			targeted_modifier = { tag = CHI attack_bonus_against = 0.05 }
+			targeted_modifier = { tag = IVO attack_bonus_against = 0.05 }
+		}
+
 		Shared_shells = {
 			name = JP_SS
 			picture = JAP_share_shell
@@ -22,7 +33,7 @@ ideas = {
 		SyouwaKyoukou = { #昭和恐慌
 			picture = great_depression
 			modifier = {
-				consumer_goods_factor = 0.35
+				consumer_goods_factor = 0.15
 				stability_factor = -0.15
 				production_speed_buildings_factor = -0.1
 			}
@@ -30,7 +41,7 @@ ideas = {
 		SyouwaKyoukou1 = { #昭和恐慌
 		picture = great_depression
 		modifier = {
-			consumer_goods_factor = 0.25
+			consumer_goods_factor = 0.10
 			stability_factor = -0.05
 			production_speed_buildings_factor = -0.1
 		}
@@ -38,14 +49,14 @@ ideas = {
 	SyouwaKyoukou2= { #昭和恐慌
 	picture = great_depression
 	modifier = {
-		consumer_goods_factor = 0.15
+		consumer_goods_factor = 0.10
 		stability_factor = -0.05
 	}
     }
 	SyouwaKyoukou3= { #昭和恐慌
 	picture = great_depression
 	modifier = {
-		consumer_goods_factor = 0.1
+		stability_factor = -0.05
 	}
     }
 		KaihatuKeikaku = { #第1次匡救政策

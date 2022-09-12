@@ -1,0 +1,6 @@
+ENG_Zyouriku = {
+	icon = infiltration
+	allowed = {
+		original_tag = ENG
+	}
+}

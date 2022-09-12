@@ -22,13 +22,6 @@ FRA_historical_plan = {
 		}
 	}
 	abort = {
-		OR = {
-			GER = { has_completed_focus = GER_oppose_hitler }
-			AND = {
-				ENG = { has_completed_focus = ENG_a_change_in_course }
-				NOT = { GER = { has_completed_focus = GER_oppose_hitler } }
-			}
-		}
 		has_game_rule = {
 			rule = FRA_ai_behavior
 			option = DEFAULT
@@ -64,12 +57,7 @@ FRA_historical_plan = {
 		FRA_n8
 		FRA_s16
 	}
-	focus_factors = {
-		FRA_right_wing_rhetoric = 0
-		FRA_leftist_rhetoric = 0
-	}
 	research = {
-
 	}
 
 	ideas = {

@@ -145,6 +145,9 @@ focus_tree = {
 		x = -7
 		y = 5
 		cost = 7.14
+		ai_will_do = {
+			factor = 95
+		}
 		available = {
         NOT = { has_completed_focus = AUS_naz9 }
 		}
@@ -163,6 +166,9 @@ focus_tree = {
 		x = -2
 		y = 1
 		cost = 7.14
+		ai_will_do = {
+			factor = 0
+		}
 		available = {
 		NOT = { has_completed_focus = AUS_nazB }
 		}
@@ -310,6 +316,9 @@ focus_tree = {
 		x = 2
 		y = 1
 		cost = 7.14
+		ai_will_do = {
+			factor = 50
+		}
 		available = {
 			NOT = { has_completed_focus = AUS_nazA }
 			}
@@ -669,6 +678,12 @@ focus_tree = {
 				target = BUL
 				transfer_troops = yes
 				}
+				annex_country = {
+					target = WAL
+					transfer_troops = yes
+					}
+					add_state_core = 961
+					add_state_core = 46
 				add_state_core = 81
 				add_state_core = 48
 				add_state_core = 803
@@ -816,6 +831,9 @@ focus_tree = {
         prerequisite = { focus = AUS_naz7 }
 		available = {
 		NOT = { has_completed_focus = AUS_naz8 }
+		}
+		ai_will_do = {
+			factor = 5
 		}
 		relative_position_id = AUS_na_1
 		completion_reward = {

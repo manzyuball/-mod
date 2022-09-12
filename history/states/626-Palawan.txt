@@ -10,7 +10,8 @@ state=
 	{
 		owner = PHI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 2
 			4429 = {
 				naval_base = 1
 			}

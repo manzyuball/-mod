@@ -19,7 +19,7 @@ set_technology = {
 set_convoys = 120
 
 ENG = { add_to_faction = EGY }
-
+set_cosmetic_tag = EGY_ENG_democratic
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

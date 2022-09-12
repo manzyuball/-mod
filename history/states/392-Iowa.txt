@@ -5,7 +5,9 @@ state={
 	manpower = 2470938
 	
 	state_category = city
-
+	resources={
+		rubber=24.000
+	}
 	history={
 		owner = USB
 		buildings = {

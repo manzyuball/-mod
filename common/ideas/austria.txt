@@ -231,10 +231,9 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				stability_factor = 0.15
-				Resistance_decay_on_our_occupied_states = 0.5
+				Resistance_decay_on_our_occupied_states = -0.5
 				political_power_factor = 0.15
 				production_speed_buildings_factor = 0.1
-				stability_factor = 0.10
 			}
 		}
 		AUS_SOKOKUSENSOU = {
@@ -287,6 +286,10 @@ ideas = {
 				war_support_factor = 0.15
 				production_speed_arms_factory_factor = 0.35
 			}
+			rule = {
+				can_decline_call_to_war = no
+			}
+
 		}
 		AUS_Kunsyua = {
 			picture = HUN_hungarian_monarchy_habsburg

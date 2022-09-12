@@ -3,15 +3,17 @@ state=
 	id=327
 	name="STATE_327" # Luzon
 	manpower = 3548684
-	
-	state_category = town
+	resources={
+		tungsten=41.000
+	}
+	state_category = metropolis
 	history=
 	{
 		owner = PHI
 		buildings = {
-			infrastructure = 3 #was: 5
-			arms_factory = 1
-			industrial_complex = 3
+			infrastructure = 5 #was: 5
+			arms_factory = 4
+			industrial_complex = 7
 			air_base = 6
 			10265 = {
 				naval_base = 5

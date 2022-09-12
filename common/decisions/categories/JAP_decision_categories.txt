@@ -4,10 +4,9 @@ JAP_bouhatei = {
 		original_tag = JAP
 	}
 }
-ENG_decision = {
-	icon = generic_propaganda
+JAP_Zyouriku = {
+	icon = infiltration
 	allowed = {
-		has_war = yes
-		original_tag = ENG
+		original_tag = JAP
 	}
 }

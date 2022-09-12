@@ -1,0 +1,25 @@
+state={
+	id=977
+	name="STATE_977"
+	provinces={
+		402 524 12562 
+	}
+	history={
+		owner = POL
+		victory_points = {
+			402 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 4
+			anti_air_building = 2
+		}
+		add_core_of = POL
+
+	}
+	manpower=1089000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=large_city
+}

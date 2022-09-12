@@ -66,41 +66,6 @@ characters={
 		}
 	}
 
-	GER_gerd_von_rundstedt={
-		name=GER_gerd_von_rundstedt
-		portraits={
-			army={
-				large="gfx/leaders/GER/Portrait_Germany_Gerd_von_Rundstedt.dds"
-				small="GFX_idea_gerd_von_rundstedt"
-			}
-		}	
-		advisor={
-			slot = high_command
-			idea_token = gerd_von_rundstedt
-			ledger = army
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				army_regrouping_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.500
-			}
-		}
-		
-		field_marshal={
-			traits={ old_guard urban_assault_specialist defensive_doctrine }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=1
-		}
-	}
-
 	GER_gunther_von_kluge={
 		name=GER_gunther_von_kluge
 		portraits={
@@ -120,126 +85,7 @@ characters={
 		}
 	}
 
-	GER_friedrich_paulus={
-		name=GER_friedrich_paulus
-		portraits={
-			army={
-				large="gfx/leaders/GER/Portrait_Germany_Friedrich_Paulus.dds"
-				small="gfx/interface/ideas/idea_GER_friedrich_paulus.dds"
-			}
-		}
-		corps_commander={
-			traits={ trait_cautious armor_officer }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=3
-		}
-	}
 
-	GER_erwin_rommel={
-		name=GER_erwin_rommel
-		portraits={
-			army={
-				large="gfx/leaders/GER/Portrait_Germany_Erwin_Rommel.dds"
-				small="GFX_idea_erwin_rommel"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = erwin_rommel
-			ledger = army
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				
-			}
-			traits = {
-				army_armored_3
-			}
-			cost = 200
-			ai_will_do = {
-				factor = 8.000
-			}
-		}
-		
-		corps_commander={
-			traits={ trait_reckless media_personality armor_officer war_hero trickster }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
-			legacy_id=4
-		}
-	}
-
-	GER_erich_von_manstein={
-		name=GER_erich_von_manstein
-		portraits={
-			army={
-				large="gfx/leaders/GER/Portrait_Germany_Erich_von_Manstein.dds"
-				small="GFX_idea_manstein"
-			}
-		}
-		advisor={
-			cost = 150
-			slot = theorist
-			idea_token = manstein
-			ledger = army
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				mobile_warfare_expert
-			}
-		}
-		
-		corps_commander={
-			traits={ brilliant_strategist armor_officer trickster trait_engineer }
-			skill=4
-			attack_skill=2
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=4
-			legacy_id=5
-		}
-	}
-
-	GER_heinz_guderian={
-		name=GER_heinz_guderian
-		portraits={
-			army={
-				large="gfx/leaders/GER/Portrait_Germany_Heinz_Guderian.dds"
-				small="GFX_idea_heinz_guderian"
-			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = heinz_guderian
-			ledger = army
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				blitzkrieg_theorist
-			}
-		}
-		
-		corps_commander={
-			traits={ brilliant_strategist career_officer armor_officer trickster panzer_leader }
-			skill=4
-			attack_skill=2
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=3
-			legacy_id=6
-		}
-	}
 
 	GER_wilhelm_list={
 		name=GER_wilhelm_list
@@ -333,44 +179,6 @@ characters={
 			planning_skill=3
 			logistics_skill=4
 			legacy_id=11
-		}
-	}
-
-	GER_wilhelm_ritter_von_leeb={
-		name=GER_wilhelm_ritter_von_leeb
-		portraits={
-			army={
-				large="gfx/leaders/GER/Portrait_Germany_Wilhelm_Ritter_von_Leeb.dds"
-				small="gfx/interface/ideas/idea_GER_wilhelm_ritter_von_leeb.dds"
-			}
-		}
-		corps_commander={
-			traits={ old_guard infantry_officer }
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=1
-			logistics_skill=2
-			legacy_id=13
-		}
-	}
-
-	GER_georghans_reinhardt={
-		name=GER_georghans_reinhardt
-		portraits={
-			army={
-				large="gfx/leaders/GER/Portrait_Germany_Georg_von_Reinhardt.dds"
-				small="gfx/interface/ideas/idea_GER_georg_von_reinhardt.dds"
-			}
-		}
-		corps_commander={
-			traits={ trait_cautious armor_officer }
-			skill=3
-			attack_skill=1
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=3
-			legacy_id=14
 		}
 	}
 
@@ -687,80 +495,6 @@ characters={
 			planning_skill=3
 			logistics_skill=2
 			legacy_id=35
-		}
-	}
-
-	GER_karl_donitz={
-		name=GER_karl_donitz
-		portraits={
-			army={
-				large="gfx/leaders/GER/Portrait_Germany_Karl_Donitz.dds"
-				small="gfx/interface/ideas/idea_GER_karl_donitz.dds"
-			}
-			army={
-				small="GFX_idea_donitz"
-			}
-		}
-		advisor={
-			slot = navy_chief
-			idea_token = donitz
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				navy_chief_commerce_raiding_3
-			}
-			cost = 200
-			ai_will_do = {
-				factor = 0.100
-			}
-		}
-		
-		navy_leader={
-			traits={ navy_career_officer seawolf }
-			skill=5
-			attack_skill=5
-			defense_skill=3
-			maneuvering_skill=3
-			coordination_skill=5
-			legacy_id=26
-		}
-	}
-
-	GER_erich_raeder={
-		name=GER_erich_raeder
-		portraits={
-			army={
-				large="gfx/leaders/GER/Portrait_Germany_Erich_Raeder.dds"
-				small="gfx/interface/ideas/idea_GER_erich_raeder.dds"
-			}
-			army={
-				small="GFX_idea_raeder"
-			}
-		}
-		advisor={
-			slot = navy_chief
-			idea_token = raeder
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				navy_chief_decisive_battle_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 0.100
-			}
-		}
-		
-		navy_leader={
-			traits={ battleship_adherent naval_lineage }
-			skill=4
-			attack_skill=3
-			defense_skill=4
-			maneuvering_skill=3
-			coordination_skill=3
-			legacy_id=27
 		}
 	}
 
@@ -1472,7 +1206,7 @@ characters={
 				}
 			}
 			ai_will_do = {
-				factor = 0.000
+				factor = 100
 			}
 		}
 	}
@@ -1506,86 +1240,6 @@ characters={
 		}		
 	}
 
-	GER_joseph_goebbels={
-		name=GER_joseph_goebbels
-		portraits={
-			army={
-				small="GFX_idea_joseph_goebbels"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = joseph_goebbels
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-			}
-			traits = {
-				fascist_demagogue propaganda_expert 
-			}
-			do_effect = {
-				NOT = {
-					has_government = fascism 
-				}
-			}
-			ai_will_do = {
-				factor = 24.000
-			}
-		}
-	}
-
-	GER_rudolf_hess={
-		name=GER_rudolf_hess
-		portraits={
-			army={
-				small="GFX_idea_rudolf_hess"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = rudolf_hess
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-			}
-			traits = {
-				amateur_aviator_hess
-			}
-		}
-	}
-
-	GER_heinrich_himmler={
-		name=GER_heinrich_himmler
-		portraits={
-			army={
-				small="GFX_idea_heinrich_himmler"
-				large="gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler.dds"
-			}
-			civilian = {
-				large="gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler.dds"
-			}
-		}
-		allowed_civil_war = {
-			has_government = fascism
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = heinrich_himmler
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-			}
-			on_add = {
-				custom_effect_tooltip = GER_SS_himmler_recruit
-			}
-			traits = {
-				prince_of_terror 
-			}
-		}
-	}
 
 	GER_martin_bormann={
 		name=GER_martin_bormann

@@ -6,7 +6,14 @@ state={
 	history={
 		owner = TIB
 		add_core_of = TIB
+<<<<<<< HEAD
 
+=======
+		add_claim_by = CHI
+		victory_points = {
+			7940 10 
+		}
+>>>>>>> master
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 2

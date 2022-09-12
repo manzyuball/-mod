@@ -84,3 +84,20 @@ run_generic_rescue_operation = {
 		mission_target = var:rescue_operative_from
 	}
 }
+
+AI_FRONT = {
+
+	enable = {
+		is_ai = yes
+	}
+
+	ai_strategy = {
+		type =  garrison
+		value = -500
+	}
+
+    ai_strategy = {
+		type = front_unit_request
+		value = 500 
+	}
+}

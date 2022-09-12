@@ -5,10 +5,13 @@ state={
 
 	history={
 		owner = LAT
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
+			infrastructure = 4
+			industrial_complex = 4
 
 		}
 		add_core_of = LAT

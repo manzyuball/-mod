@@ -28,7 +28,7 @@ country_event = {
 	
 	option = {
 		name = VLA.1.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_gunk
 		add_to_variable = {
 			var = VLA.VLA_gunk_h
@@ -38,7 +38,7 @@ country_event = {
 
 	option = {
 		name = VLA.1.c
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_roz
 		add_to_variable = {
 			var = VLA.VLA_roz_h
@@ -75,7 +75,7 @@ country_event = {
 	
 	option = {
 		name = VLA.2.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_gunk
 		add_to_variable = {
 			var = VLA.VLA_gunk_h
@@ -85,7 +85,7 @@ country_event = {
 
 	option = {
 		name = VLA.2.c
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_roz
 		add_to_variable = {
 			var = VLA.VLA_roz_h
@@ -122,7 +122,7 @@ country_event = {
 	
 	option = {
 		name = VLA.3.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_gunk
 		add_to_variable = {
 			var = VLA.VLA_gunk_h
@@ -132,7 +132,7 @@ country_event = {
 
 	option = {
 		name = VLA.3.c
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_roz
 		add_to_variable = {
 			var = VLA.VLA_roz_h
@@ -169,7 +169,7 @@ country_event = {
 	
 	option = {
 		name = VLA.4.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_gunk
 		add_ideas = VLA_touti2
 		add_to_variable = {
@@ -180,7 +180,7 @@ country_event = {
 
 	option = {
 		name = VLA.4.c
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_roz
 		add_ideas = VLA_touti3
 		add_to_variable = {
@@ -218,7 +218,7 @@ country_event = {
 	
 	option = {
 		name = VLA.5.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_gunk
 		add_ideas = VLA_syuukyou2
 		add_to_variable = {
@@ -229,7 +229,7 @@ country_event = {
 
 	option = {
 		name = VLA.5.c
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 5 }
 		custom_effect_tooltip = VLA_roz
 		add_ideas = VLA_syuukyou3
 		add_to_variable = {
@@ -290,3 +290,102 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = VLA.9
+	title = VLA.9.t
+	desc = VLA.9.d
+	picture = GFX_report_event_generic_sign_treaty2
+		fire_only_once = yes
+
+	trigger = {
+		tag = VLA
+		has_global_flag = MON_VLA_KOUSYOU_A
+	}
+	
+	option = {
+		name = VLA.9.a
+		VLA = {
+			add_state_core = 885
+			add_state_core = 329
+			transfer_state = 885
+			transfer_state = 329
+			give_guarantee = MON
+		
+		}
+		MON = { give_guarantee = VLA }
+
+	}
+}
+country_event = {
+	id = VLA.10
+	title = VLA.10.t
+	desc = VLA.10.d
+	picture = GFX_report_event_SOV_military_offensive
+		fire_only_once = yes
+
+	trigger = {
+		tag = VLA
+		has_global_flag = MON_VLA_KOUSYOU_B
+	}
+	
+	option = {
+		name = VLA.10.a
+		VLA = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = MON
+				}
+	
+				add_state_claim = 885
+				add_state_claim = 329
+		}
+
+	}
+}
+country_event = {
+	id = VLA.11
+	title = VLA.11.t
+	desc = VLA.11.d
+	picture = GFX_report_event_generic_sign_treaty1
+		fire_only_once = yes
+
+	trigger = {
+		has_country_flag = POL_Kousyou
+	}
+	
+	option = {
+		name = VLA.11.a
+		give_guarantee = POL
+		POL = { give_guarantee = VLA }
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 2500
+			producer = POL
+			}
+	}
+}
+
+country_event = {
+	id = VLA.12
+	title = VLA.12.t
+	desc = VLA.12.d
+	picture = GFX_news_event_005
+
+	trigger = {
+		tag = VLA
+		has_war_with = SOV
+	}
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+	option = {
+		name = VLA.12.a
+		ai_chance = {
+			base = 9
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+        add_ideas = VLA_KORITU
+	}
+}

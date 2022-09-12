@@ -4,12 +4,13 @@ state={
 	name="STATE_627"
 	manpower = 1496508
 	
-	state_category = rural
+	state_category = large_town
 
 	history={
 		owner = PHI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			industrial_complex = 3
 			4241 = {
 				naval_base = 1
 			}

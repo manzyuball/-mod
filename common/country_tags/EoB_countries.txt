@@ -1,0 +1,2 @@
+VNI	= "countries/_EOB_VNI.txt"
+SAR	= "countries/_EOB_SAR.txt"

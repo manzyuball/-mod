@@ -9,7 +9,7 @@ state={
 		owner = USB
 		buildings = {
 			infrastructure = 3 #was: 6
-			industrial_complex = 5
+			industrial_complex = 7
 		}
 		add_core_of = USA
 		add_core_of = USB

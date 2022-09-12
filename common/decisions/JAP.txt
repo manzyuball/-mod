@@ -578,6 +578,188 @@ JAP_interservice_rivalry = {
 		}
 	}
 }
-#Category allowed for JAP
-#Visible when has completed JAP_pacific_guardian focus.
-#Visible if independent
+JAP_Zyouriku = {
+	JAP_CHI_ZYOURIKU_ZYUNBI = {
+		icon = generic_operation
+		available = {
+            AND = {
+                JAP = {  has_war_with = CHI }  
+				JAP = {  has_war_with = IVO }  
+                NOT = { has_country_flag = JAP_ZYOURIKU_OK }
+                NOT = { has_idea = JAP_Zyouriku_ideas }
+					OR = {
+						AND = {
+							has_equipment = {
+								infantry_equipment > 19999
+								}
+									has_equipment = {
+										support_equipment > 399
+										}
+						}
+						is_ai = yes
+					}
+            }
+			
+
+		}
+		visible = {
+		}
+		cost = 50
+		fire_only_once = no
+		ai_will_do = {
+			factor = 10000
+		}
+        days_remove = 65
+		  remove_effect = {
+            custom_effect_tooltip = JAP_Zyunbi_zyouriku_OK
+            set_country_flag = JAP_ZYOURIKU_OK
+            add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = -20000
+                }
+                    add_equipment_to_stockpile = {
+                        type = support_equipment
+                        amount = -400
+                        }
+		}	
+	}
+	
+    JAP_CHI_ZYOURIKU_Syanghai = {
+		icon = generic_ignite_civil_war
+		available = {
+            AND = {
+                has_country_flag = JAP_ZYOURIKU_OK
+                CHI = {  has_war_with = JAP } 
+                alliance_naval_strength_ratio > 0.5
+            }
+			
+            
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 613
+			} 
+		}
+		visible = {
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 10000
+		}
+        days_remove = 5
+		hidden_effect = {
+			clr_country_flag = JAP_ZYOURIKU_OK
+		}
+		  remove_effect = {
+            custom_effect_tooltip = JAP_CHI_Syanghai_Z
+            add_timed_idea = {
+                idea = JAP_Zyouriku_ideas
+                days = 15
+                }
+            hidden_effect = {
+                load_oob = "JAP_SYA"
+                set_province_controller = 11928
+                set_province_controller = 7014
+                set_province_controller = 12076
+                set_province_controller = 12052
+                set_province_controller = 12076
+                set_province_controller = 4042
+            }
+
+		}
+	}
+	JAP_CHI_ZYOURIKU_KOUSYU = {
+		icon = generic_ignite_civil_war
+		available = {
+            AND = {
+                has_country_flag = JAP_ZYOURIKU_OK
+                CHI = {  has_war_with = JAP } 
+                alliance_naval_strength_ratio > 0.5
+            }
+            
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 593
+			} 
+		}
+		visible = {
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 10000
+		}
+        days_remove = 5
+		hidden_effect = {
+			clr_country_flag = JAP_ZYOURIKU_OK
+		}
+		  remove_effect = {
+            custom_effect_tooltip = JAP_CHI_KOUSYU_Z
+            add_timed_idea = {
+                idea = JAP_Zyouriku_ideas
+                days = 15
+                }
+            hidden_effect = {
+                load_oob = "JAP_KOU"
+                set_province_controller = 1047
+                set_province_controller = 7108
+                set_province_controller = 4050
+                set_province_controller = 1202
+                set_province_controller = 12095
+                set_province_controller = 7152
+				
+            }
+
+		}
+	}
+	JAP_CHI_ZYOURIKU_SAN = {
+		icon = generic_ignite_civil_war
+		available = {
+            AND = {
+                has_country_flag = JAP_ZYOURIKU_OK
+                CHI = {  has_war_with = JAP } 
+                alliance_naval_strength_ratio > 0.5
+            }
+            
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 597
+			} 
+		}
+		visible = {
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 10000
+		}
+        days_remove = 5
+		complete_effect = {
+			hidden_effect = {
+				clr_country_flag = JAP_ZYOURIKU_OK
+			}
+		}
+		  remove_effect = {
+            custom_effect_tooltip = JAP_CHI_SAN_Z
+            add_timed_idea = {
+                idea = JAP_Zyouriku_ideas
+                days = 15
+                }
+            hidden_effect = {
+               
+                load_oob = "JAP_SAN"
+                set_province_controller = 4205
+                set_province_controller = 1200
+                set_province_controller = 10018
+                set_province_controller = 4186
+                set_province_controller = 1104
+                set_province_controller = 7105
+				set_province_controller = 10000
+            }
+
+		}
+	}
+}

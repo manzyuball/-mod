@@ -3,6 +3,21 @@
 oob = "AUS_1936"
 
 set_research_slots = 5
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = VNI
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = VNI
+	}
+}
 
 set_technology = { #WARNING: Do not just remove techs from here -> It can impact a lot of stuff. Before removing, double check that content does not count on these techs being researched
 	infantry_weapons = 1
@@ -115,6 +130,7 @@ add_to_faction = AUS
 add_to_faction = BUL
 add_to_faction = TUR
 add_to_faction = LAT
+add_to_faction = FIN
 add_to_faction = POL
 add_to_faction = UKR
 recruit_character = AUS_Wilhelm

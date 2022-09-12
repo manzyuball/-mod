@@ -1,3 +1,9 @@
 #################
 #### GERMANY ####
 #################
+GER_Ryoud_Kakutyo = {
+	icon = sov_great_patriotic_war
+	allowed = {
+		original_tag = GER
+	}
+}

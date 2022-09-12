@@ -14,12 +14,10 @@ state={
 		buildings = {
 			infrastructure = 3 #was: 5
 			4640 = {
-				naval_base = 1
-
+				naval_base = 5
 			}
 
 		}
-		add_core_of = LAT
 
 	}
 

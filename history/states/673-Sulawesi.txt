@@ -13,11 +13,12 @@ state={
 		owner = INS
 		add_core_of = INS
 		victory_points = {
-			10263 3 
+			10263 5
 		}
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 2
 			air_base = 4
 			10153 = {
 				naval_base = 3

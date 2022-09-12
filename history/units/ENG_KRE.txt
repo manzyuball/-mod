@@ -1,0 +1,97 @@
+﻿division_template = {
+	name = "イギリス陸軍上陸部隊"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "軽装甲上陸支援師団"
+	
+	regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+   		armored_car = { x = 1 y = 0 }
+		armored_car = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+ }
+}
+units = {
+	division= {
+		name = "軽装甲上陸支援師団"
+		location = 575
+		division_template = "軽装甲上陸支援師団"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "軽装甲上陸支援師団"
+		location = 11548
+		division_template = "軽装甲上陸支援師団"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "イギリス陸軍上陸部隊"
+		location = 9500
+		division_template = "イギリス陸軍上陸部隊"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "イギリス陸軍上陸部隊"
+		location = 11548
+		division_template = "イギリス陸軍上陸部隊"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "イギリス陸軍上陸部隊"
+		location = 575
+		division_template = "イギリス陸軍上陸部隊"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "イギリス陸軍上陸部隊"
+		location = 6446
+		division_template = "イギリス陸軍上陸部隊"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "イギリス陸軍上陸部隊"
+		location = 6446
+		division_template = "イギリス陸軍上陸部隊"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "イギリス陸軍上陸部隊"
+		location = 6560
+		division_template = "イギリス陸軍上陸部隊"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "イギリス陸軍上陸部隊"
+		location = 6560
+		division_template = "イギリス陸軍上陸部隊"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "イギリス陸軍上陸部隊"
+		location = 575
+		division_template = "イギリス陸軍上陸部隊"
+		start_experience_factor = 0.3
+	}
+}

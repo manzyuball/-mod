@@ -108,7 +108,11 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_targeted_decision = VLA_habatu
+			add_ideas = {
+				VLA_ROZYAEF_BAD
+				VLA_GUNKOKU_BAD
+			}
 		}
 	}
 	focus = {
@@ -128,7 +132,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_ROZYAEF_BAD
+add_idea = VLA_ROZYAEF_BAD1
+}
 		}
 	}
 	focus = {
@@ -148,7 +155,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_ROZYAEF_BAD1
+add_idea = VLA_ROZYAEF_BAD2
+}
 		}
 	}
 	focus = {
@@ -168,7 +178,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_ideas = VLA_ROZYAEF_BAD2
 		}
 	}
 	focus = {
@@ -188,7 +198,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_GUNKOKU_BAD
+add_idea =VLA_GUNKOKU_BAD1
+}
 		}
 	}
 	focus = {
@@ -208,7 +221,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_GUNKOKU_BAD1
+add_idea = VLA_GUNKOKU_BAD2
+}
 		}
 	}
 	focus = {
@@ -228,7 +244,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_ideas = VLA_GUNKOKU_BAD2
 		}
 	}
 	######################################
@@ -252,7 +268,11 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_targeted_decision = VLA_habatu
+			add_ideas = {
+				VLA_TEISE_BAD
+				VLA_ROZYAEF_BAD
+			}
 		}
 	}
 	focus = {
@@ -272,7 +292,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_ROZYAEF_BAD
+add_idea = VLA_ROZYAEF_BAD1
+}
 		}
 	}
 	focus = {
@@ -292,7 +315,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_ROZYAEF_BAD1
+add_idea = VLA_ROZYAEF_BAD2
+}
 		}
 	}
 	focus = {
@@ -312,7 +338,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_ideas = VLA_ROZYAEF_BAD2
 		}
 	}
 	focus = {
@@ -332,7 +358,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_TEISE_BAD
+add_idea = VLA_TEISE_BAD1
+}
 		}
 	}
 	focus = {
@@ -352,7 +381,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_TEISE_BAD1
+add_idea = VLA_TEISE_BAD2
+}
 		}
 	}
 	focus = {
@@ -372,7 +404,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_ideas = VLA_TEISE_BAD2
 		}
 	}
 	###############################
@@ -396,7 +428,11 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_targeted_decision = VLA_habatu
+			add_ideas = {
+				VLA_TEISE_BAD
+				VLA_GUNKOKU_BAD
+			}
 		}
 	}
 	focus = {
@@ -416,7 +452,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_TEISE_BAD
+add_idea = VLA_TEISE_BAD1
+}
 		}
 	}
 	focus = {
@@ -436,7 +475,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_TEISE_BAD1
+add_idea = VLA_TEISE_BAD2
+}
 		}
 	}
 	focus = {
@@ -456,7 +498,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_ideas = VLA_TEISE_BAD2
 		}
 	}
 	focus = {
@@ -476,7 +518,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_GUNKOKU_BAD
+add_idea = VLA_GUNKOKU_BAD1
+}
 		}
 	}
 	focus = {
@@ -496,7 +541,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_GUNKOKU_BAD1
+add_idea = VLA_GUNKOKU_BAD2
+}
 		}
 	}
 	focus = {
@@ -516,7 +564,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			remove_ideas = VLA_GUNKOKU_BAD2
 		}
 	}
 	##################################
@@ -538,7 +586,7 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_country_leader_trait = Russia_king
 		}
 	}
 
@@ -721,7 +769,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_Roudouhou
+add_idea = VLA_Roudouhou1
+}
 		}
 	}
 	focus = {
@@ -770,7 +821,10 @@ focus_tree = {
 		bypass = {	
 		}
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+remove_idea = VLA_Roudouhou1
+add_idea = VLA_Roudouhou2
+}
 		}
 	}
 	focus = {
@@ -1315,7 +1369,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC6
-		icon = "GFX_focus_generic_industry_3"
+		icon = "GFX_focus_jap_newdeal2"
 		x = 2
 		y = 5
 		#mutually_exclusive = { focus =  }
@@ -1469,7 +1523,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC11
-		icon = "GFX_goal_generic_construction"
+		icon = "GFX_focus_DAM"
 		x = 4
 		y = 3
 		#mutually_exclusive = { focus =  }
@@ -1577,7 +1631,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC15
-		icon = "GFX_focus_POL_warsaw_main_station"
+		icon = "GFX_focus_jap_newdeal1"
 		x = 8
 		y = 5
 		#mutually_exclusive = { focus =  }
@@ -1620,7 +1674,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VLA_sanC17
-		icon = "GFX_focus_generic_tank_production"
+		icon = "GFX_focus_jap_newdeal3"
 		x = 7
 		y = 6
 		#mutually_exclusive = { focus =  }
@@ -1639,6 +1693,937 @@ focus_tree = {
 				remove_idea = VLA_KOKUEIKA1
 				add_idea = VLA_KOKUEIKA2
 				}
+		}
+	}
+	focus = {
+		id = VLA_gai
+		icon = "GFX_focus_SOV_transcaucasian_republic"
+		x = 40
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+			has_completed_focus = VLA_se2
+		}
+		bypass = {
+		}
+		completion_reward = {
+			set_major = yes
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = VLA_gaia1
+		icon = "GFX_goal_generic_major_alliance"
+		x = 0
+		y = 1
+		relative_position_id = VLA_gai
+		mutually_exclusive = { focus = VLA_gaia18 focus = VLA_gaia8 }
+		prerequisite = {focus =  VLA_gai }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+			has_country_flag = VLA_T_WIN2
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_ideas = { VLA_Tomo }
+		}
+	}
+	focus = {
+		id = VLA_gaia2
+		icon = "GFX_focus_LIT_restore_the_grand_duchy"
+		x = 0
+		y = 2
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia1 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			custom_effect_tooltip = MON_KOUSYOU_VLA
+			hidden_effect = {
+				set_global_flag = MON_Kousyou
+			}
+		}
+	}
+	focus = {
+		id = VLA_gaia3
+		icon = "GFX_focus_eng_the_sun_never_sets"
+		x = 2
+		y = 2
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia1 focus =  VLA_gaia8 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_opinion_modifier = {
+				target = ENG
+				modifier = kyuusekkinn
+				}
+				add_opinion_modifier = {
+					target = JAP
+					modifier = kyuusekkinn
+					}
+					reverse_add_opinion_modifier = {
+						target = JAP
+						modifier = kyuusekkinn
+						}
+						reverse_add_opinion_modifier = {
+							target = ENG
+							modifier = kyuusekkinn
+							}
+		}
+	}
+	focus = {
+		id = VLA_gaia4
+		icon = "GFX_focus_POL_sanation_right"
+		x = 2
+		y = 3
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia3 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_manpower = 42000
+			create_field_marshal = {
+				name = "連合国ロシア義勇軍最高司令部"
+				picture = "GFX_Portrait_Rituan"
+				traits = { brilliant_strategist inflexible_strategist organizer logistics_wizard }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 4
+				}
+			create_corps_commander = {
+				name = "連合国ロシア義勇軍第一司令部"
+				picture = "GFX_Portrait_Rituan"
+				traits = { brilliant_strategist inflexible_strategist organizer }
+				skill = 5
+				attack_skill = 4
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 4
+				}
+				create_corps_commander = {
+					name = "連合国ロシア義勇軍第二司令部"
+					picture = "GFX_Portrait_Rituan"
+					traits = { brilliant_strategist inflexible_strategist organizer }
+					skill = 5
+					attack_skill = 4
+					defense_skill = 4
+					planning_skill = 4
+					logistics_skill = 4
+					}
+					create_corps_commander = {
+						name = "連合国ロシア義勇軍第三司令部"
+						picture = "GFX_Portrait_Rituan"
+						traits = { brilliant_strategist inflexible_strategist organizer }
+						skill = 5
+						attack_skill = 4
+						defense_skill = 4
+						planning_skill = 4
+						logistics_skill = 4
+						}
+		}
+	}
+	focus = {
+		id = VLA_gaia5
+		icon = "GFX_focus_generic_polish_deal"
+		x = 0
+		y = 3
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia2 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			custom_effect_tooltip = POL_KOUSYOU_VLA
+			hidden_effect = {
+				set_country_flag = POL_Kousyou
+			}
+		}
+	}
+	focus = {
+		id = VLA_gaia6
+		icon = "GFX_goal_support_democracy"
+		x = 1
+		y = 5
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia5 }
+		prerequisite = {focus =  VLA_gaia4 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {			
+			swap_ideas = {
+			remove_idea = VLA_Tomo
+			add_idea = VLA_Tomo1
+			}
+		}
+	}
+	focus = {
+		id = VLA_gaia7
+		icon = "GFX_focus_Hankyou"
+		x = 1
+		y = 6
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia6 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia8
+		icon = "GFX_focus_SOV_zemsky_sobor"
+		x = 5
+		y = 1
+		relative_position_id = VLA_gai
+		mutually_exclusive = { focus = VLA_gaia1 focus = VLA_gaia18 }
+		prerequisite = {focus =  VLA_gai }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+			has_country_flag = VLA_G_WIN2
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_stability = 0.15
+		}
+	}
+	focus = {
+		id = VLA_gaia9
+		icon = "GFX_focus_Kyoudansyaku"
+		x = 5
+		y = 2
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia8 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia10
+		icon = "GFX_focus_jap_pacific_guardian"
+		x = 5
+		y = 4
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia9 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia11
+		icon = "GFX_focus_man_claim_the_mandate_of_heaven"
+		x = 7
+		y = 4
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia9 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia12
+		icon = "GFX_focus_CZE_german_puppet"
+		x = 8
+		y = 5
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia11 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia13
+		icon = "GFX_focus_manifesto"
+		x = 5
+		y = 5
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia10 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia14
+		icon = "GFX_focus_nomonhano"
+		x = 6
+		y = 6
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia13 }
+		prerequisite = {focus =  VLA_gaia11 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia15
+		icon = "GFX_focus_KaigunEnsyu"
+		x = 4
+		y = 7
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia13 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia16
+		icon = "GFX_focus_jap_zaibatsu"
+		x = 3
+		y = 6
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia10 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia17
+		icon = "GFX_goal_tfv_generic_tech_sharing"
+		x = 2
+		y = 7
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia16 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VLA_gaia18
+		icon = "GFX_focus_SOV_mobilization_plan"
+		x = -2
+		y = 1
+		relative_position_id = VLA_gai
+		mutually_exclusive = { focus = VLA_gaia1 focus = VLA_gaia8 }
+		prerequisite = {focus =  VLA_gai}
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+			has_country_flag = VLA_R_WIN2
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_ideas = {
+				VLA_ROZYAEF_GAI1
+			}
+		}
+	}
+	focus = {
+		id = VLA_gaia19
+		icon = "GFX_focus_Kubiki_Tataru"
+		x = -2
+		y = 2
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia18 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VLA_ROZYAEF_GAI1
+				add_idea = VLA_ROZYAEF_GAI2
+				}
+				activate_decision = VLA_Russian_power
+		}
+	}
+	focus = {
+		id = VLA_gaia20
+		icon = "GFX_focus_generic_befriend_sinkiang"
+		x = -2
+		y = 3
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia19 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_state_claim = 885
+			add_state_claim = 329
+			add_state_claim = 818
+			add_state_claim = 618
+			add_state_claim = 617
+			add_state_claim = 619
+			add_state_claim = 287
+			add_state_claim = 759
+			add_state_claim = 760
+			add_state_claim = 820
+			add_state_claim = 330
+			add_state_claim = 817
+			add_state_claim = 819
+			add_state_claim = 761
+			add_state_claim = 612
+			add_state_claim = 611
+			add_state_claim = 621
+			add_state_claim = 746
+			add_state_claim = 616
+			add_state_claim = 754
+			add_state_claim = 755
+		}
+	}
+	focus = {
+		id = VLA_gaia21
+		icon = "GFX_focus_jap_manchurian_project"
+		x = -1
+		y = 4
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia20 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_state_claim = 714
+			add_state_claim = 717
+			add_state_claim = 328
+			add_state_claim = 715
+			add_state_claim = 716
+			add_state_claim = 745
+			add_state_claim = 610
+			add_state_claim = 699
+			add_state_claim = 851
+			add_state_claim = 608
+			create_wargoal = {
+				type = annex_everything
+				target = MAN
+				}
+		}
+	}
+	focus = {
+		id = VLA_gaia22
+		icon = "GFX_focus_generic_japanese_imperial_glory"
+		x = -1
+		y = 5
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia21 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = JAP
+				}
+		}
+	}
+	focus = {
+		id = VLA_gaia23
+		icon = "GFX_focus_SOV_rebuild_the_savior_cathedral"
+		x = -3
+		y = 4
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia20 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = VLA_TYUUKA_KOUTEI
+				days = 100
+				}
+		}
+	}
+	focus = {
+		id = VLA_gaia24
+		icon = "GFX_focus_attack_china"
+		x = -3
+		y = 5
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia23 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = CHI
+				}
+		}
+	}
+	focus = {
+		id = VLA_gaia25
+		icon = "GFX_focus_TyuuouAzia"
+		x = -5
+		y = 3
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia19 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			annex_country = {
+				target = UZB
+				transfer_troops = yes
+				}
+			create_wargoal = {
+				type = annex_everything
+				target = KYR
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = BUK
+					}
+					create_wargoal = {
+						type = annex_everything
+						target = TAJ
+						}
+						create_wargoal = {
+							type = annex_everything
+							target = TMS
+							}
+			VLA = {
+				add_state_core = 732
+				add_state_core = 405
+				add_state_core = 742
+				add_state_core = 830
+				add_state_core = 585
+				add_state_core = 957
+				add_state_core = 832
+				add_state_core = 584
+				add_state_core = 589
+				add_state_core = 953
+				add_state_core = 404
+				add_state_core = 586
+				add_state_core = 954
+				add_state_core = 955
+				add_state_core = 956
+				add_state_core = 952
+				add_state_core = 402
+				add_state_core = 831
+				add_state_core = 823
+				add_state_core = 587
+				add_state_core = 951
+				add_state_core = 950
+
+			}
+		}
+	}
+	focus = {
+		id = VLA_gaia26
+		icon = "GFX_focus_generic_balkans_focus"
+		x = -6
+		y = 4
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia25 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			every_state = { 
+				limit = { is_core_of = UKR }
+				add_claim_by = VLA
+			 }
+			 every_state = { 
+				limit = { is_core_of = POL }
+				add_claim_by = VLA
+			 }
+			 add_state_claim = 812
+			 add_state_claim = 813
+			 add_state_claim = 13
+			 add_state_claim = 191
+			 add_state_claim = 811
+			 add_state_claim = 12
+			 add_state_claim = 810
+			 add_state_claim = 808
+			 add_state_claim = 809
+			 add_state_claim = 190
+			 add_state_claim = 815
+			 add_state_claim = 189
+			 add_state_claim = 815
+			 add_state_claim = 11
+			 add_state_claim = 814
+			 add_state_claim = 188
+			 add_state_claim = 763
+			 add_state_claim = 958
+			 add_state_claim = 5
+			 add_state_claim = 85
+			 add_state_claim = 807
+			 add_state_claim = 959
+			 create_wargoal = {
+				type = annex_everything
+				target = TUR
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = LAT
+					}
+					create_wargoal = {
+						type = annex_everything
+						target = POL
+						}
+						create_wargoal = {
+							type = annex_everything
+							target = UKR
+							}
+		}
+	}
+	focus = {
+		id = VLA_gaia27
+		icon = "GFX_focus_BUL_free_balkan_states"
+		x = -6
+		y = 5
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia26 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ROM
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = YUG
+					}
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = GRE
+						}
+						create_wargoal = {
+							type = puppet_wargoal_focus
+							target = ALB
+							}
+		}
+	}
+	focus = {
+		id = VLA_gaia28
+		icon = "GFX_focus_Tako"
+		x = -7
+		y = 7
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia29 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_ideas = { VLA_OctPus }
+		}
+	}
+	focus = {
+		id = VLA_gaia29
+		icon = "GFX_focus_generic_africa_naval"
+		x = -6
+		y = 6
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia27 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_political_power = 200
+		}
+	}
+	focus = {
+		id = VLA_gaia30
+		icon = "GFX_focus_jap_strike_south"
+		x = -3
+		y = 6
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia24 }
+		prerequisite = {focus =  VLA_gaia22 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = VIN
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = SIA
+					}
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = MAL
+						}
+						create_wargoal = {
+							type = puppet_wargoal_focus
+							target = INS
+							}
+		}
+	}
+	focus = {
+		id = VLA_gaia31
+		icon = "GFX_focus_spa_the_war_of_vengeance"
+		x = -3
+		y = 7
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia30 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = CAN
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = USA
+					}
+					add_state_claim = 650
+					add_state_claim = 463
+					add_state_claim = 739
+					add_state_claim = 740
+					add_state_claim = 473
+					add_state_claim = 471
+					add_state_claim = 472
+					add_state_claim = 469
+					add_state_claim = 470
+		}
+	}
+	focus = {
+		id = VLA_gaia32
+		icon = "GFX_focus_ger_break_anglo_french_colonial_hegemony"
+		x = -5
+		y = 7
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia29 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ENG
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = FRA
+					}
+		}
+	}
+	focus = {
+		id = VLA_gaia33
+		icon = "GFX_focus_SOV_panslavic_nationalism"
+		x = -4
+		y = 8
+		relative_position_id = VLA_gai
+		#mutually_exclusive = { focus =  }
+		prerequisite = {focus =  VLA_gaia32 }
+		prerequisite = {focus =  VLA_gaia31 }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {	
+		}
+		completion_reward = {
+			add_ideas = { VLA_SekaiSeihuku }
 		}
 	}
 }

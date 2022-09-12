@@ -1771,13 +1771,13 @@ focus = {
 	
 		available = {
 			ENG = {
-				is_neighbor_of = FRA
+				is_puppet_of = FRA
 			}
 			SWE = {
-				is_neighbor_of = FRA
+				is_puppet_of = FRA
 			}
 			AUS = {
-				is_neighbor_of = FRA
+				is_puppet_of = FRA
 			}
 		}
 		bypass = {
@@ -1831,13 +1831,13 @@ focus = {
 	
 		available = {
 			JAP = {
-				is_neighbor_of = FRA
+				is_puppet_of = FRA
 			}
 			CHI = {
-				is_neighbor_of = FRA
+				is_puppet_of = FRA
 			}
 			TUR = {
-				is_neighbor_of = FRA
+				is_puppet_of = FRA
 			}
 		}
 		bypass = {

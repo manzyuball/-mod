@@ -12,116 +12,20 @@ characters = {
   ####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
                                                                                                                   
 
-	SOV_iosif_stalin = {
-		name = SOV_iosif_stalin
+	SOV_BUHA = {
+		name = SOV_BUHA
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
-			}
-			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
-				small = "gfx/interface/ideas/idea_SOV_joseph_stalin.dds"
+				large = "gfx/leaders/_EOB/Buha.dds"
 			}
 		}
 		country_leader = {
-			ideology = stalinism
-			traits = { Baka }
+			ideology = leninism
+			traits = { SOVIET_BUHA }
 			expire = "1953.3.1.1"
 			id = -1
 		}
 	}
-
-	#TODO: This should be a country leader token added to Stalin in the appropriate event/focus/whatever
-	SOV_tsar_iosif_stalin = {
-		name = "Tsar Joseph I"
-		portraits = {
-			civilian = {
-				large = "GFX_portrait_SOV_tsar_stalin"
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			expire = "1953.3.1.1"
-			id = -1
-		}
-	}
-
-	# Kerensky and Rodzaevsky moved to the bottom of the file
-
-	SOV_tsar_vladimir_kirillovich = {
-		name = SOV_tsar_vladimir_kirillovich
-		portraits = {
-			civilian = {
-				large = "GFX_portrait_SOV_vladimir_kirillovich"
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			expire = "1953.3.1.1"
-			id = -1
-			traits = {
-				emperor_and_autocrat_of_all_the_russias
-			}
-		}
-	}
-	SOV_tsar_vsevolod_ivanovich = {
-		name = SOV_tsar_vsevolod_ivanovich
-		portraits = {
-			civilian = {
-				large = "GFX_portrait_SOV_vsevolod_ivanovich"
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			expire = "1953.3.1.1"
-			id = -1
-		}
-	}
-
-	SOV_metropolitan_meletius = {
-		name = SOV_metropolitan_meletius
-		portraits = {
-			civilian = {
-				large = "GFX_portrait_SOV_patriarch_meletius"
-			}
-			army = {
-				small = "GFX_idea_SOV_patriarch_meletius"
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			expire = "1953.3.1.1"
-			id = -1
-			traits = {
-				defier_of_the_sun_god supreme_representative_of_god_on_earth
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = SOV_patriarch_meletius
-			allowed = {
-				original_tag = SOV
-			}
-			visible = {
-			}
-			available = {
-			}
-			traits = {
-				the_masses_opium
-			}
-		}	
-	}
-
-	SOV_supreme_soviet = { #Country Leader role added via focus
-		name = SOV_supreme_soviet
-
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SOV/portrait_SOV_supreme_soviet.dds"
-			}
-		}
-	}
-
 	SOV_provisional_government = {
 		name = SOV_provisional_government
 
@@ -135,7 +39,6 @@ characters = {
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
-				emigre_connections desperate_gambit dysfunctional_assembly
 			}
 		}
 	}
@@ -160,7 +63,7 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { media_personality armor_officer war_hero winter_specialist }
+			traits = { armor_officer winter_specialist }
 			skill = 5
 			attack_skill = 5
 			defense_skill = 2
@@ -242,7 +145,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer politically_connected }
+			traits = { armor_officer }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
@@ -350,7 +253,7 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { harsh_leader armor_officer politically_connected }
+			traits = { harsh_leader armor_officer }
 			skill = 5
 			attack_skill = 4
 			defense_skill = 5

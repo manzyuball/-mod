@@ -3,10 +3,17 @@ state={
 	id=158
 	name="STATE_158"
 	resources={
+<<<<<<< HEAD
 		steel=31.000
 		aluminium=26.000
 		chromium=4.000
 		tungsten=3.000
+=======
+		steel=41.000
+		aluminium=36.000
+		chromium=9.000
+		tungsten=13.000
+>>>>>>> master
 	}
 
 	history={
@@ -16,8 +23,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
+<<<<<<< HEAD
 			arms_factory = 3
 			industrial_complex = 1
+=======
+			arms_factory = 5
+			industrial_complex = 4
+>>>>>>> master
 			dockyard = 2
 			air_base = 8
 			6788 = {

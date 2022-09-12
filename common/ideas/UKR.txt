@@ -1,0 +1,40 @@
+ideas = {
+	country = {
+
+		UKR_Kokumot = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_agrarian_reform
+			targeted_modifier = {
+				tag = AUS
+				cic_to_target_factor = 0.5
+			 }
+			 targeted_modifier = {
+				tag = POL
+				cic_to_target_factor = 0.25
+			 }		
+			modifier = {
+				stability_factor = -0.15
+
+			}
+		}
+		UKR_Kokumot_SOV = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_transformation_of_nature
+			
+			modifier = {
+			}
+		}
+	}
+}

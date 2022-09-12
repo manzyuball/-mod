@@ -1,0 +1,27 @@
+LAT_MM_plan = {
+	icon = military_operation
+	allowed = {
+		original_tag = LAT
+	}
+	visible = {
+	has_completed_focus = LAT_SE10
+	}
+}
+LAT_GG_plan = {
+	icon = military_operation
+	allowed = {
+		original_tag = LAT
+	}
+	visible = {
+	has_completed_focus = LAT_SE9
+	}
+}
+LAT_Kokumin_Bouei_army = {
+	icon = military_operation
+	allowed = {
+		original_tag = LAT
+	}
+	visible = {
+	has_completed_focus = LAT_SE25
+	}
+}

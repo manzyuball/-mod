@@ -12,6 +12,7 @@ music = {
 
 # PEACE SONGS ##################
 
+<<<<<<< HEAD
 	music = {
 		song = "1812 Overture"
 		
@@ -245,6 +246,9 @@ music = {
 		}		
 	}
 }
+=======
+
+>>>>>>> master
 
 # WAR SONGS ####################
 music = {

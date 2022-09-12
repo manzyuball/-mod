@@ -1,0 +1,45 @@
+German_historical = {
+	name = "Inka historical plan"
+	desc = "Essentially historical behaviour for Germany"
+
+	allowed = {
+		original_tag = PRU
+	}
+	enable = {
+	is_historical_focus_on = yes
+	}
+	abort = {
+	}
+
+	ai_national_focuses = {
+		# grab as fast as you can if available
+		PRU_se1
+
+		PRU_seA
+		PRU_seA1
+		PRU_seA2
+		PRU_seA3
+		PRU_seK1
+		#1937
+		PRU_seK2
+		PRU_seK3
+		PRU_seK8
+		PRU_seW1
+		PRU_seW4
+		#1938
+		PRU_seW5
+		PRU_seK9
+		PRU_seG1
+		PRU_seK10
+		PRU_seW3
+		#1939
+		PRU_seW6
+		PRU_seK11
+		PRU_seK12
+		PRU_seG3
+		PRU_seG4
+		#1940
+		PRU_seW7
+	
+	}
+}

@@ -17,6 +17,7 @@ state=
 		}
 		set_demilitarized_zone = yes
 		add_core_of = FIN
+		add_claim_by = VLA
 		add_core_of = SWE
 	}
 	

@@ -4,13 +4,19 @@ spriteTypes = {
   
 	spriteType = {
 		name = "GFX_portrait_nikolay"
-		texturefile = "gfx/leaders/VLA/nikolay.dds"
+		texturefile = "gfx/leaders/_EOB/nikolay.dds"
 	}
 
 	spriteType = {
 		name = "GFX_portrait_Syougun"
 		texturefile = "gfx/leaders/_EOB/Rituan.dds"
 	}
+
+	spriteType = {
+		name = "GFX_Portrait_Rituan"
+		texturefile = "gfx/leaders/_EOB/Portrait_Rituan.dds"
+	}
+
 
 	spriteType = {
 		name = "GFX_portrait_operative_unknown"
@@ -26,8 +32,12 @@ spriteTypes = {
 		name = "GFX_portrait_unknown_female"
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
-
-
+	
+	spriteType = {
+		name = "GFX_portrait_MANTyousaku"
+		texturefile = "gfx/leaders/MANTyousaku.dds"
+	}
+	
 	### GER
 
 	spriteType = {
@@ -7342,7 +7352,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = GFX_portrait_Michał_II
+		name = GFX_portrait_Michal_II
 		texturefile = gfx/leaders/ROM/Portrait_romania_michael_i.dds
 	}
 
@@ -7527,7 +7537,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = GFX_portrait_Radasłau_Astrouski
+		name = GFX_portrait_Radaslau_Astrouski
 		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds
 	}
 
@@ -8012,7 +8022,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = GFX_portrait_Ngo_Đinh_Diem
+		name = GFX_portrait_Ngo_Dinh_Diem
 		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_2.dds
 	}
 

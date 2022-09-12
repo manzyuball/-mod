@@ -1,63 +1,4 @@
 characters = {
-	POL_anna_andersson = {
-		name="Anastasia Romanov"
-		portraits = {
-			civilian = {
-				large="GFX_portrait_POL_anna_anderson"
-			}
-		}
-		country_leader = {
-			ideology=despotism
-			traits = { the_last_romanov_maybe }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-	POL_karl_albrecht = {
-		name=POL_karl_albrecht
-		portraits = {
-			civilian = {
-				large="GFX_portrait_POL_karl_albrecht"
-			}
-		}
-		country_leader = {
-			ideology=despotism
-			traits = { patriot_king }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-	POL_friedrich_christian = {
-		name=POL_friedrich_christian
-		portraits = {
-			civilian = {
-				large="GFX_portrait_POL_friedrich_christian"
-			}
-		}
-		country_leader = {
-			ideology=despotism
-			expire="1965.1.1.1"
-			id=-1
-			traits = { royal_legitimist }
-		}
-	}
-
-	POL_sejmik_regency = {
-		name=POL_sejmik_regency
-		portraits = {
-			civilian = {
-				large="GFX_portrait_POL_Sejmik_Regency" 
-			}
-		}
-		country_leader = {
-			ideology=despotism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
 	POL_boleslaw_wieniawa_glugoszowski = {
 		name=POL_boleslaw_wieniawa_glugoszowski
 		portraits = {
@@ -308,29 +249,25 @@ characters = {
 		}
 	}
 
-	POL_pavel_bermondt_avalov = {
-		name=POL_pavel_bermondt_avalov
-		portraits = {
+	POL_Pius = {
+		name=POL_Pius
+		portraits={
 			civilian = {
-				large="GFX_portrait_POL_pavel_bermondt_avlov"
+				large="gfx/leaders/_EOB/domohu.dds"
 			}
-			army = {
-				large="GFX_portrait_POL_pavel_bermondt_avlov"
-			}
-		}
+		}	
 		country_leader = {
-			ideology=gen_nazism
+			ideology=fascism_ideology
 			expire="1965.1.1.1"
-			traits = { POL_cossack_king }
-			id=-1
+			id= -1
+			traits = { Kaihatud father_of_polish_nationalism }
 		}
 	}
-
 	POL_roman_dmowski = {
 		name=POL_roman_dmowski
 		portraits={
 			civilian = {
-				large="GFX_portrait_POL_roman_dmowski"
+				large="gfx/leaders/_EOB/domohu.dds"
 			}
 			army={
 				small="gfx/interface/ideas/idea_POL_roman_dmowski.dds"
@@ -371,21 +308,6 @@ characters = {
 		}
 	}
 
-	POL_boleslaw_piasecki = {
-		name=POL_boleslaw_piasecki
-		portraits = {
-			civilian = {
-				large="GFX_POL_boleslaw_piasecki"
-			}
-		}
-		country_leader = {
-			ideology=falangism
-			expire="1965.1.1.1"
-			id=-1
-			traits = { unruly_falangist }
-		}
-	}
-
 	POL_edward_rydzsmigly = {
 		name=POL_edward_rydz_smigly
 		portraits = {
@@ -416,7 +338,7 @@ characters = {
 		}
 		
 		field_marshal = {
-			traits = { old_guard POL_sanation_right_leader thorough_planner politically_connected }
+			traits = { POL_sanation_right_leader thorough_planner  }
 			skill=4
 			attack_skill=4
 			defense_skill=2
@@ -426,30 +348,6 @@ characters = {
 		}
 	}
 
-	POL_wojtek = {
-		name = POL_wojtek
-		portraits = {
-			army = {
-				large = "gfx/leaders/POL/Portrait_POL_Voytek.dds"
-				small = "GFX_idea_POL_wojtek"
-			}
-			civilian = {
-				large = "GFX_portrait_POL_king_woytek"
-			}
-		}
-		corps_commander = {
-			traits = { bearer_of_artillery }
-			visible = {
-				has_country_flag = POL_vojtek_commander
-			}
-			skill = 1
-		}
-		country_leader = {
-			ideology=despotism
-			traits = { he_who_bears_the_throne }
-			expire="1966.1.1.1"
-		}
-	}
 
 	POL_rudinger_von_der_goltz = {
 		name=POL_rudinger_von_der_goltz
@@ -460,15 +358,14 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { thorough_planner old_guard }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
+			traits = { thorough_planner }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 4
 			logistics_skill = 4
 			legacy_id=-1
 			visible = {
-				has_completed_focus = POL_restore_bermontians
 			}
 		}
 	}
@@ -550,7 +447,7 @@ characters = {
 		}
 		
 		corps_commander = {
-			traits = { old_guard POL_sanation_left_leader }
+			traits = { POL_sanation_left_leader }
 			skill=3
 			attack_skill=2
 			defense_skill=3
@@ -1041,7 +938,6 @@ characters = {
 			}
 			allowed = {
 				original_tag = POL
-				has_dlc = "No Step Back"
 			}
 			traits = {
 				national_propagandist 
@@ -1075,9 +971,8 @@ characters = {
 	}
 
 	POL_mieczyslaw_michalowicz={
-		instance = {
 			allowed = {
-				has_dlc = "No Step Back"
+				original_tag = POL
 			}
 			name=POL_mieczyslaw_michalowicz
 			portraits={
@@ -1090,7 +985,6 @@ characters = {
 				idea_token = POL_mieczyslaw_michalowicz
 				allowed = {
 					original_tag = POL
-					has_dlc = "No Step Back"
 				}
 				available = {
 				}
@@ -1100,39 +994,7 @@ characters = {
 				ai_will_do = {
 					factor = 0.000
 				}
-			}			
-		}
-		instance = {
-			allowed = {
-				NOT = {
-					has_dlc = "No Step Back"
-				}
 			}
-			name=POL_mieczyslaw_michalowicz
-			portraits={
-				army={
-					small="GFX_idea_POL_mieczyslaw_michalowicz"
-				}
-			}
-			advisor={
-				slot = political_advisor
-				idea_token = POL_mieczyslaw_michalowicz
-				allowed = {
-					original_tag = POL
-					NOT = {
-						has_dlc = "No Step Back"
-					}
-				}
-				available = {
-				}
-				traits = {
-					democratic_reformer 
-				}
-				ai_will_do = {
-					factor = 0.000
-				}
-			}
-		}
 	}
 
 	POL_henryk_floyar_rajchman={
@@ -1149,7 +1011,6 @@ characters = {
 			}
 			allowed = {
 				original_tag = POL
-				has_dlc = "No Step Back"
 			}
 			traits = {
 				right_industrialist 
@@ -1308,7 +1169,6 @@ characters = {
 			}
 			allowed = {
 				original_tag = POL
-				has_dlc = "No Step Back"
 			}
 			traits = {
 				nationalist_journalist 
@@ -1483,7 +1343,6 @@ characters = {
 			}
 			allowed = {
 				original_tag = POL
-				has_dlc = "No Step Back"
 			}
 			traits = {
 				mastermind_code_cracker 

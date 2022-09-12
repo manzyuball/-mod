@@ -14,8 +14,6 @@
 		infantry = { x = 1 y = 3 }
 		cavalry = { x = 2 y = 0 }
 		cavalry = { x = 2 y = 1 }
-		artillery_brigade = { x = 2 y = 2 }
-		artillery_brigade = { x = 2 y = 3 }
 	}
 }
 
@@ -32,12 +30,6 @@ division_template = {
 		infantry = { x = 1 y = 3 }
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 2 y = 3 }
-		artillery_brigade = { x = 3 y = 0 }
-		artillery_brigade = { x = 3 y = 1 }
-		artillery_brigade = { x = 3 y = 2 }
-		artillery_brigade = { x = 3 y = 3 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
@@ -58,8 +50,6 @@ division_template = {
 		infantry = { x = 0 y = 3 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 1 y = 3 }
 	}
 }
 
@@ -357,108 +347,6 @@ units = {
 		location = 8083  # 
 			start_equipment_factor = 1
 		division_template = "アメリカ解放軍"
-	}
-	division = {
-		name = "ボーリガード隊"
-		location = 8014  # 
-			start_equipment_factor = 1
-		division_template = "アメリカ解放軍"
-	}
-	division = {
-		name = "ボーリガード隊"
-		location = 7045  # 
-			start_equipment_factor = 1
-		division_template = "アメリカ解放軍"
-	}
-	division = {
-		name = "ボーリガード隊"
-		location = 9876  # 
-			start_equipment_factor = 1
-		division_template = "アメリカ解放軍"
-	}
-	division = {
-		name = "ボーリガード隊"
-		location = 913  # 
-			start_equipment_factor = 1
-		division_template = "アメリカ解放軍"
-	}
-	division = {
-		name = "ボーリガード隊"
-		location = 8083  # 
-			start_equipment_factor = 1
-		division_template = "アメリカ解放軍"
-	}
-	division = {
-		name = "ボーリガード隊"
-		location = 8014  # 
-			start_equipment_factor = 1
-		division_template = "アメリカ解放軍"
-	}
-	division = {
-		name = "ボーリガード隊"
-		location = 7045  # 
-			start_equipment_factor = 1
-		division_template = "アメリカ解放軍"
-	}
-	division = {
-		name = "ボーリガード隊"
-		location = 9876  # 
-			start_equipment_factor = 1
-		division_template = "アメリカ解放軍"
-	}
-	division = {
-		name = "第三民兵"
-		location = 7388  # 
-			start_equipment_factor = 1
-		division_template = "国民民兵隊"
-	}
-	division = {
-		name = "第三民兵"
-		location = 1843  # 
-			start_equipment_factor = 1
-		division_template = "国民民兵隊"
-	}
-	division = {
-		name = "第三民兵"
-		location = 1572  # 
-			start_equipment_factor = 1
-		division_template = "国民民兵隊"
-	}
-	division = {
-		name = "第三民兵"
-		location = 7388  # 
-			start_equipment_factor = 1
-		division_template = "国民民兵隊"
-	}
-	division = {
-		name = "第三民兵"
-		location = 1843  # 
-			start_equipment_factor = 1
-		division_template = "国民民兵隊"
-	}
-	division = {
-		name = "第三民兵"
-		location = 1572  # 
-			start_equipment_factor = 1
-		division_template = "国民民兵隊"
-	}
-	division = {
-		name = "第三民兵"
-		location = 7388  # 
-			start_equipment_factor = 1
-		division_template = "国民民兵隊"
-	}
-	division = {
-		name = "第三民兵"
-		location = 1843  # 
-			start_equipment_factor = 1
-		division_template = "国民民兵隊"
-	}
-	division = {
-		name = "第三民兵"
-		location = 1572  # 
-			start_equipment_factor = 1
-		division_template = "国民民兵隊"
 	}
 	division = {
 		name = "第三民兵"

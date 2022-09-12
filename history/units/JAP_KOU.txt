@@ -1,0 +1,89 @@
+﻿division_template = {
+	name = "広州上陸海軍陸戦隊"
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}	
+	priority = 2
+}
+division_template = {
+	name = "広州上陸歩兵隊" 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+units = {
+
+	division = {
+		name = "広州上陸海軍陸戦隊"
+		location = 1047
+		division_template = "広州上陸海軍陸戦隊"
+	}
+	division = {
+		name = "広州上陸歩兵隊"
+		location =7108
+		division_template = "広州上陸歩兵隊"
+	}
+	division = {
+		name = "広州上陸海軍陸戦隊"
+		location = 4050
+		division_template = "広州上陸海軍陸戦隊"
+	}
+	division = {
+		name = "広州上陸歩兵隊"
+		location = 1202
+		division_template = "広州上陸歩兵隊"
+	}
+	division = {
+		name = "広州上陸海軍陸戦隊"
+		location = 12095
+		division_template = "広州上陸海軍陸戦隊"
+	}
+	division = {
+		name = "広州上陸歩兵隊"
+		location = 7152
+		division_template = "広州上陸歩兵隊"
+	}
+	division = {
+		name = "広州上陸海軍陸戦隊"
+		location = 7108
+		division_template = "広州上陸海軍陸戦隊"
+	}
+	division = {
+		name = "広州上陸歩兵隊"
+		location = 1047
+		division_template = "広州上陸歩兵隊"
+	}
+	division = {
+		name = "広州上陸歩兵隊"
+		location = 4050
+		division_template = "広州上陸歩兵隊"
+	}
+	division = {
+		name = "広州上陸歩兵隊"
+		location = 1202
+		division_template = "広州上陸歩兵隊"
+	}
+}

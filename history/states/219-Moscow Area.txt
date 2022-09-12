@@ -6,7 +6,8 @@ state={
 	
 	state_category = megalopolis
 	resources={
-		steel=16 # was: 28
+		steel=16 
+		rubber=24.000 # was: 28
 	}
 
 	history={
@@ -18,7 +19,7 @@ state={
 		buildings = {
 			infrastructure = 4 #was: 8
 			arms_factory = 2
-			industrial_complex = 4
+			industrial_complex = 3
 			air_base = 10
 		}
 		add_core_of = SOV

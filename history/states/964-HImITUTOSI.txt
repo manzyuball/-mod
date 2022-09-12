@@ -16,6 +16,9 @@ state={
 			radar_station = 3
 			air_base = 10
 		}
+		victory_points = {
+			10057 25 
+		}
 	}
 	manpower=21214
 	state_category=metropolis

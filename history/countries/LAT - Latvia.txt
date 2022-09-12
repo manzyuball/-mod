@@ -1,4 +1,4 @@
-﻿capital = 808
+﻿capital = 763
 
 oob = "LAT_1936"
 if = {
@@ -8,7 +8,17 @@ if = {
 		set_naval_oob = "LAT_1936_naval_legacy"
 	}
 }
-add_manpower = 864210
+
+set_variable = {
+	var = LAT.LAT_Onken
+	value = 0
+}
+set_variable = {
+	var = LAT.LAT_Kageki
+	value = 0
+}
+
+add_manpower = 994210
 recruit_character = LAT_gustavs_celminsh
 recruit_character = LAT_augusts_kirhensteins
 recruit_character = LAT_martinsh_penikis
@@ -31,6 +41,10 @@ recruit_character = LAT_janis_kaminskis
 recruit_character = LAT_fricis_menders
 recruit_character = LAT_alberts_kvesis
 recruit_character = LAT_ruden
+recruit_character = LAT_syutoraich
+recruit_character = LAT_gerd_von_rundstedt
+recruit_character = LAT_erich_von_manstein
+recruit_character = LAT_heinz_guderian
 IF = { 
 	limit = { has_dlc = "No Step Back" }
 	recruit_character = LAT_janis_balodis
@@ -44,6 +58,17 @@ IF = {
 	recruit_character = LAT_krisjanis_berkis
 }
 
+create_corps_commander = {
+	name = "Paul von Lettow-Vorbeck"
+	gfx = GFX_portrait_ger_von_lettow_vorbeck
+	traits = { trickster war_hero media_personality jungle_rat}
+	skill = 5
+	id = 499
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 5
+}
 
 set_technology = {
 	infantry_weapons = 1
@@ -70,7 +95,7 @@ if = {
 
 set_research_slots = 3
 
-set_convoys = 100
+set_convoys = 120
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1931.10.3"
@@ -86,6 +111,7 @@ set_popularities = {
 
 add_ideas = {
 	Proisen
+	LAT_Tyouhei_kiki
 }
 
 # probably needs some adjustment before nazi occupation in 1940

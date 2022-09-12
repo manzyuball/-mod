@@ -15,8 +15,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
+<<<<<<< HEAD
 			arms_factory = 1
 			industrial_complex = 3
+=======
+			arms_factory = 4
+			industrial_complex = 6
+>>>>>>> master
 		}
 		add_core_of = ITA
 	}

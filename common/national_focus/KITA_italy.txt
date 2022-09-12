@@ -92,7 +92,11 @@
 			factor = 10
 		}
 		available = {
+<<<<<<< HEAD
 
+=======
+			has_war = no
+>>>>>>> master
 		}
 		bypass = {
 		}
@@ -101,6 +105,13 @@
 			add_state_core = 156
 			add_state_core = 115
 			add_state_core = 835
+<<<<<<< HEAD
+=======
+			annex_country = {
+				target = MLT
+				transfer_troops = yes
+				}	
+>>>>>>> master
 		}
 	}
 	focus = { 
@@ -217,6 +228,16 @@
 				}
 			set_cosmetic_tag = BIG_ITA
 			set_major = yes
+<<<<<<< HEAD
+=======
+			hidden_effect = {
+				annex_country = {
+					target = TUN
+					transfer_troops = yes
+					}
+			}
+
+>>>>>>> master
 		}
 	}
 	focus = {
@@ -228,7 +249,11 @@
 		mutually_exclusive = { }
 		cost = 5
 		ai_will_do = {
+<<<<<<< HEAD
 			factor = 10
+=======
+			factor = 0
+>>>>>>> master
 		}
 		available = {
 			has_completed_focus = ITA_Rome8

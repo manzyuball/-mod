@@ -1,6 +1,6 @@
 ﻿l_english:
- EGY_ENG_democratic:0 "英領エジプト・アラブ国"
- EGY_ENG_democratic_DEF:0 "英領エジプト・アラブ国"
+ EGY_ENG_democratic:0 "英領アラビア帝国"
+ EGY_ENG_democratic_DEF:0 "英領アラビア帝国"
  INS_HOL_democratic:0 "インドネシア自治領"
  INS_HOL_democratic_DEF:0 "インドネシア自治領"
  INS_subject:0 "インドネシア自治領"
@@ -37,4 +37,9 @@
  BIG_ITA_ROME:0 "ローマ帝国"
  BIG_ITA_ROME_DEF:0 "ローマ帝国"
  BIG_ITA_ROME_ADJ:0 "ローマ帝国"
+<<<<<<< HEAD
  
+=======
+ FRA_IRE_democratic:0 "ガリア国"
+ FRA_IRE_democratic_DEF:0 "ガリア国"
+>>>>>>> master

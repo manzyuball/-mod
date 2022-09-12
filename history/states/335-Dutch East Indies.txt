@@ -8,22 +8,22 @@ state={
 	
 	resources={
 		rubber=140 # was: 242
-		oil=10 # was: 16
+		oil=40 # was: 16
 	}
 
 	history={
 		owner = INS
 		add_core_of = INS
 		victory_points = {
-			7381 5
+			7381 15
 		}
 		victory_points = {
 			4608 3 
 		}
 
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 1
+			infrastructure = 4 #was: 5
+			industrial_complex = 6
 			dockyard = 1
 			air_base = 3
 			7381 = {

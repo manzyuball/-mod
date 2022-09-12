@@ -4,7 +4,7 @@ state={
 	name="STATE_437" # Indore
 	manpower = 8402500
 
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = IVO

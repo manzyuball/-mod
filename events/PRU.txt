@@ -1,0 +1,27 @@
+﻿###########################
+# PRU Events
+###########################
+
+add_namespace = PRU
+
+country_event = {
+	id = PRU.1
+	title = PRU.1.t
+	desc = PRU.1.d
+	picture = GFX_report_event_generic_riot
+	trigger = {
+        tag = PRU
+		has_country_flag = PRU_Ansatu
+	}
+	fire_only_once = yes
+	option = {
+		name = PRU.1.a
+    CSA = {
+        add_stability = -0.05
+        kill_country_leader = yes
+    }
+	PRU = {
+        add_war_support = 0.1
+	}
+	}
+}

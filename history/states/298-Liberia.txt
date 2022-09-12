@@ -11,7 +11,7 @@ state=
 	
 
 	history= {
-		owner = TZN
+		owner = GNA
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3

@@ -3,14 +3,14 @@ state=
 	id=624
 	name="STATE_624"
 	manpower = 1290672
-	state_category = town
+	state_category = city
 	
 	history=
 	{
 		owner = PHI
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 7
 		}
 		
 		victory_points = {
