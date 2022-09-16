@@ -1,0 +1,177 @@
+LAT_MM_plan = {
+	LAT_MM_plan_1 = {
+		icon = generic_operation
+        available = { has_army_experience > 25 }
+        custom_cost_text = LAT_army_xp_25
+        visible = { }
+        cost = 0
+        fire_only_once = yes
+        ai_will_do = { factor = 100 }
+        complete_effect = {
+            add_ideas = LAT_Poisen_army_storong
+            hidden_effect = {
+                army_experience = -25
+            }
+        }
+	}
+    LAT_MM_plan_2 = {
+		icon = generic_operation
+        available = {AND = { has_army_experience > 50 has_idea = LAT_Poisen_army_storong }}
+        visible = { }
+        custom_cost_text = LAT_army_xp_50
+        cost = 0
+        fire_only_once = yes
+        ai_will_do = { factor = 100 }
+        complete_effect = {
+            swap_ideas = {
+                remove_idea = LAT_Poisen_army_storong
+                add_idea = LAT_Poisen_army_storong1
+                }
+            hidden_effect = {
+                army_experience = -50
+            }
+        }
+	}
+    LAT_MM_plan_3 = {
+		icon = generic_operation
+        available = { AND = { has_army_experience > 75 has_idea = LAT_Poisen_army_storong1 }}
+        visible = { }
+        custom_cost_text = LAT_army_xp_75
+        cost = 0
+        fire_only_once = yes
+        ai_will_do = { factor = 100 }
+        complete_effect = {
+            swap_ideas = {
+                remove_idea = LAT_Poisen_army_storong1
+                add_idea = LAT_Poisen_army_storong2
+                }
+            hidden_effect = {
+                army_experience = -75
+            }
+        }
+	}
+}
+LAT_GG_plan = {
+    LAT_GG_plan_1 = {
+		icon = generic_operation
+        available = { has_army_experience > 25 }
+        custom_cost_text = LAT_army_xp_25
+        visible = { }
+        cost = 0
+        fire_only_once = yes
+        ai_will_do = { factor = 100 }
+        complete_effect = {
+            add_ideas = LAT_Poisen_army_storongGG
+            hidden_effect = {
+                army_experience = -25
+            }
+        }
+        }
+        LAT_GG_plan_2 = {
+            icon = generic_operation
+            available = { AND = { has_army_experience > 50 has_idea = LAT_Poisen_army_storongGG } }
+            visible = { }
+            custom_cost_text = LAT_army_xp_50
+            cost = 0
+            fire_only_once = yes
+            ai_will_do = { factor = 100 }
+            complete_effect = {
+                swap_ideas = {
+                    remove_idea = LAT_Poisen_army_storongGG
+                    add_idea = LAT_Poisen_army_storong1GG
+                    }
+                hidden_effect = {
+                    army_experience = -50
+                }
+            }
+        }
+        LAT_GG_plan_3 = {
+            icon = generic_operation
+            available = {AND = { has_army_experience > 75 has_idea = LAT_Poisen_army_storong1GG }}
+            visible = { }
+            custom_cost_text = LAT_army_xp_75
+            cost = 0
+            fire_only_once = yes
+            ai_will_do = { factor = 100 }
+            complete_effect = {
+                swap_ideas = {
+                    remove_idea = LAT_Poisen_army_storong1GG
+                    add_idea = LAT_Poisen_army_storong2GG
+                    }
+                hidden_effect = {
+                    army_experience = -75
+                }
+            }
+        }
+}
+LAT_Kokumin_Bouei_army = {
+    LAT_Kokumin_Bouei_army123 = {
+		icon = generic_operation
+        FROM = {
+            is_fully_controlled_by = ROOT
+            is_core_of = ROOT
+            NOT = { has_state_flag = LAT_ZUMI_tyouhou }
+        }
+        visible = { }
+        cost = 0
+        fire_only_once = yes
+        ai_will_do = { factor = 100 }
+        complete_effect = {
+            create_unit = {
+                division = "name = \"国民防衛軍\" division_template = \"国民防衛軍\" start_experience_factor = 0.5 start_equipment_factor = 1 "
+                owner = LAT
+                }
+            hidden_effect = {
+                create_unit = {
+                    division = "name = \"国民防衛軍\" division_template = \"国民防衛軍\" start_experience_factor = 0.5 start_equipment_factor = 1 "
+                    owner = LAT
+                    }
+            set_state_flag = LAT_ZUMI_tyouhou
+            }
+        }
+        }
+        LAT_shogun_Kanyuu_1 = {
+            icon = generic_operation
+            available = { has_completed_focus = LAT_SE26 }
+            visible = { has_completed_focus = LAT_SE26 }
+            cost = 15
+            fire_only_once = yes
+            ai_will_do = { factor = 100 }
+            complete_effect = {
+                recruit_character = LAT_friedrich_paulus
+            }
+        }   
+        LAT_shogun_Kanyuu_2 = {
+            icon = generic_operation
+            available = { has_completed_focus = LAT_SE26 }
+            visible = { has_completed_focus = LAT_SE26 }
+            cost = 15
+            fire_only_once = yes
+            ai_will_do = { factor = 100 }
+            complete_effect = {
+                recruit_character = LAT_erwin_rommel
+            }
+        }   
+        LAT_shogun_Kanyuu_3 = {
+            icon = generic_operation
+            available = { has_completed_focus = LAT_SE26 }
+            visible = { has_completed_focus = LAT_SE26 }
+            cost = 15
+            fire_only_once = yes
+            ai_will_do = { factor = 100 }
+            complete_effect = {
+                recruit_character = LAT_wilhelm_ritter_von_leeb
+            }
+        }   
+        LAT_shogun_Kanyuu_4 = {
+            icon = generic_operation
+            available = { has_completed_focus = LAT_SE26 }
+            visible = { has_completed_focus = LAT_SE26 }
+            cost = 15
+            fire_only_once = yes
+            ai_will_do = { factor = 100 }
+            complete_effect = {
+                recruit_character = LAT_georghans_reinhardt
+            }
+        }   
+}

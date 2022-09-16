@@ -1,4 +1,4 @@
-technologies = {
+technologies = { # CHI
 
 	mobile_warfare = {
 		doctrine_name = "MOBILE_WARFARE_DOCTRINE"

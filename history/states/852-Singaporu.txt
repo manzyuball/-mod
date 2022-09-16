@@ -7,7 +7,7 @@ state={
 	history={
 		owner = MAL
 		victory_points = {
-			12299 10 
+			12299 25
 		}
 		buildings = {
 			infrastructure = 5

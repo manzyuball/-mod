@@ -6,7 +6,7 @@ state={
 	history={
 		owner = LAT
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 
 		}
 		add_core_of = GER

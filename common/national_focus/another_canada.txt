@@ -1,0 +1,446 @@
+﻿focus_tree = {
+	id = ANOTHERCANADA
+	
+	country = {
+		factor = 0
+	}
+	
+	default = no
+
+
+
+#	focus = {
+#		id = CAN_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+	focus = {
+		id = CAN_romanov1
+		icon = GFX_focus_SOV_zemsky_sobor
+		prerequisite = { focus = }
+		mutually_exclusive = { focus = CAN_romanov11 }
+		x = 4
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CAN_romanov2
+		icon = GFX_focus_POL_develop_polish_shipbuilding
+		prerequisite = { focus = CAN_romanov1 }
+		mutually_exclusive = { focus =  }
+		x = 2
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_state_core = 637 add_state_core = 822  add_state_core = 655
+		}
+	}
+	focus = {
+		id = CAN_romanov3
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = CAN_romanov1 }
+		mutually_exclusive = { focus =  }
+		x = 6
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			VLA = {
+				add_stability = -0.15
+			}
+			 add_state_core = 561 add_state_core = 560 add_state_core = 657 add_state_core = 409 add_state_core = 408 add_state_core = 857
+		}
+	}
+	focus = {
+		id = CAN_romanov8
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = CAN_romanov1 }
+		mutually_exclusive = { focus =  }
+		x = 4
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = VLA
+				}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SOV
+				}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = POL
+				}
+		}
+	}
+	focus = {
+		id = CAN_romanov4
+		icon = GFX_focus_SOV_transcaucasian_republic
+		prerequisite = { focus = CAN_romanov2 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_state_core = 644 add_state_core = 562 add_state_core = 574  add_state_core = 562  add_state_core = 565  add_state_core = 575  add_state_core = 516 add_state_core = 562  add_state_core = 576  add_state_core = 577  add_state_core = 824
+		}
+	}
+	focus = {
+		id = CAN_romanov5
+		icon = GFX_focus_SOV_breadbasket_of_the_union
+		prerequisite = { focus = CAN_romanov2 }
+		mutually_exclusive = { focus =  }
+		x = 3
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+					add_state_core = 571 add_state_core = 570 add_state_core = 569 add_state_core = 568 add_state_core = 567 add_state_core = 566 add_state_core = 565 add_state_core = 564 add_state_core = 563 add_state_core = 578 add_state_core = 40 add_state_core = 654 add_state_core = 886 add_state_core = 588
+		}
+	}
+	focus = {
+		id = CAN_romanov6
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		prerequisite = { focus = CAN_romanov3 }
+		mutually_exclusive = { focus =  }
+		x = 5
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			SOV = {
+				every_owned_state = {
+				add_core_of = CAN
+				}		
+			}
+		}
+	}
+	focus = {
+		id = CAN_romanov7
+		icon = GFX_focus_POL_belarus_army
+		prerequisite = { focus = CAN_romanov3 }
+		mutually_exclusive = { focus =  }
+		x = 7
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_state_core = 962 add_state_core = 206 add_state_core = 204  add_state_core = 194  add_state_core = 201  add_state_core = 93 add_state_core = 94 add_state_core = 95 add_state_core = 96
+		}
+	}
+	focus = {
+		id = CAN_romanov9
+		icon = GFX_focus_SOV_panslavic_nationalism
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 4
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CAN_romanov10
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = CAN_romanov9 }
+		mutually_exclusive = { focus = CAN_romanoc11 }
+		x = 5
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			VLA = {
+				set_autonomy = {
+					target = CAN
+					autonomy_state = autonomy_free
+					}
+				}
+		}
+	}
+	focus = {
+		id = CAN_romanov11
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = CAN_romanov9 }
+		mutually_exclusive = { focus = CAN_romanov10 }
+		mutually_exclusive = { focus = CAN_romanov1 }
+		x = 3
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+			}
+		}
+	}
+}		

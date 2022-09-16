@@ -11,8 +11,8 @@ state={
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 2
-			arms_factory = 2
-			industrial_complex = 5
+			arms_factory = 3
+			industrial_complex = 12
 			fuel_silo = 1
 		}
 		
