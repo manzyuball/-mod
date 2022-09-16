@@ -3,19 +3,19 @@ state={
 	id=672
 	name="STATE_672"
 	resources={
-		rubber=150.000
-		oil=12.000
-		aluminium=28.000
+		rubber=250.000
+		oil=82.000
+		aluminium=98.000
 	}
 
 	history={
 		owner = INS
 		add_core_of = INS
 		victory_points = {
-			4652 1 
+			4652 5
 		}
 		victory_points = {
-			12268 1 
+			12268 5 
 		}
 		buildings = {
 			infrastructure = 3

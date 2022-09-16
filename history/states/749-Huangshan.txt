@@ -9,7 +9,7 @@ state={
 	state_category=city
 	resources={
 		tungsten=35.000
-		steel=26.000
+		steel=66.000
 	}
 	history={
 		owner = CHI
