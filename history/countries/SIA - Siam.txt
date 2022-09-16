@@ -60,7 +60,12 @@ if = {
 		coastal_defense_ships = 1
 	}
 }
-set_convoys = 15
+
+add_ideas = {
+	JAP_Eikyo
+}
+
+set_convoys = 25
 
 1939.1.1 = {
 

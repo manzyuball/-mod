@@ -7,7 +7,7 @@ ideas = {
 				ai_focus_aggressive_factor = 0.25
 				land_reinforce_rate = 0.05
 			}
-			targeted_modifier = { tag = CHI attack_bonus_against = 0.05 }
+			targeted_modifier = { tag = CHI attack_bonus_against = 0.10 }
 			targeted_modifier = { tag = IVO attack_bonus_against = 0.05 }
 		}
 
@@ -33,7 +33,7 @@ ideas = {
 		SyouwaKyoukou = { #昭和恐慌
 			picture = great_depression
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_factor = 0.1
 				stability_factor = -0.15
 				production_speed_buildings_factor = -0.1
 			}
@@ -41,7 +41,7 @@ ideas = {
 		SyouwaKyoukou1 = { #昭和恐慌
 		picture = great_depression
 		modifier = {
-			consumer_goods_factor = 0.10
+			consumer_goods_factor = 0.05
 			stability_factor = -0.05
 			production_speed_buildings_factor = -0.1
 		}
@@ -49,7 +49,7 @@ ideas = {
 	SyouwaKyoukou2= { #昭和恐慌
 	picture = great_depression
 	modifier = {
-		consumer_goods_factor = 0.10
+		consumer_goods_factor = 0.05
 		stability_factor = -0.05
 	}
     }
@@ -165,6 +165,15 @@ ideas = {
 			global_building_slots_factor = 0.25
 			production_speed_buildings_factor = 0.25
 		}
+        }
+		JAP_Eikyo = { #日本の影響
+    	picture = ast_all_in
+     	modifier = {
+			local_resources_factor = 0.25
+			global_building_slots_factor = 0.25
+			production_speed_buildings_factor = 0.25
+		}
+		targeted_modifier = { tag = JAP cic_to_target_factor = 0.25 trade_cost_for_target_factor = -0.5 }
         }
 		ENblo = {
 			picture = gre_schachtplan

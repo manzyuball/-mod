@@ -7,6 +7,10 @@ set_technology = {
 	
 }
 
+add_ideas = {
+	JAP_Eikyo
+}
+
 recruit_character = MEN_prince_demchugdongrub
 recruit_character = MEN_sonin_xiangying
 recruit_character = MEN_zhao_zhanshan

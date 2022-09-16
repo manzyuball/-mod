@@ -1,12 +1,8 @@
+
 state={
 	id=750
 	name="STATE_750"
-	provinces={
-		4041 4896 5030 7101 7201 7279 7434 10006 10304 10757 10822 12086 12414 
-	}
-	manpower=8000000
-	buildings_max_level_factor=1.000
-	state_category =large_city
+
 	history={
 		owner = CHI
 		add_core_of = CHI
@@ -16,6 +12,7 @@ state={
 			industrial_complex = 2
 			arms_factory = 6
 			air_base = 5
+
 		}
 		victory_points = {
 			7101 10 
@@ -23,7 +20,7 @@ state={
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2
-				infrastructure = 3 #was: 6
+				infrastructure = 3
 				air_base = 3
 				arms_factory = 1
 
@@ -33,5 +30,11 @@ state={
 
 	}
 
-	local_supplies=25.0 
+	provinces={
+		4041 4896 5030 7101 7201 7279 7434 10006 10304 10757 10822 12086 12414 
+	}
+	manpower=8000000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=25.000
 }

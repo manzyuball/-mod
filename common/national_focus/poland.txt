@@ -262,6 +262,7 @@ focus = {
 	available_if_capitulated = no
 	complete_tooltip = { }
 	completion_reward = {
+		set_global_flag = AUS_ENG_POL_KOUWA
 	}
 }
 focus = {

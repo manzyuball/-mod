@@ -1,0 +1,175 @@
+﻿division_template = {
+	name = "精鋭歩兵" 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "駐屯兵"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "騎兵隊"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+
+	}
+}
+
+units = {
+	division = {
+		name = "ソヴィエト正規兵"
+		location = 642
+		division_template = "精鋭歩兵"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "ソヴィエト正規兵"
+		location = 10253
+		division_template = "精鋭歩兵"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "ソヴィエト正規兵"
+		location = 10131
+		division_template = "精鋭歩兵"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "ソヴィエト正規兵"
+		location = 1360
+		division_template = "精鋭歩兵"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "ソヴィエト正規兵"
+		location = 10348
+		division_template = "精鋭歩兵"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "ソヴィエト正規兵"
+		location = 1479
+		division_template = "精鋭歩兵"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "ソヴィエト正規兵"
+		location = 7243
+		division_template = "精鋭歩兵"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "ブジョンヌイ騎兵隊"
+		location = 7486
+		division_template = "騎兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "ブジョンヌイ騎兵隊"
+		location = 4638
+		division_template = "騎兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "ブジョンヌイ騎兵隊"
+		location = 7243
+		division_template = "騎兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "ブジョンヌイ騎兵隊"
+		location = 7354
+		division_template = "騎兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "ブジョンヌイ騎兵隊"
+		location = 7337
+		division_template = "騎兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "ブジョンヌイ騎兵隊"
+		location = 12139
+		division_template = "騎兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "ブジョンヌイ騎兵隊"
+		location = 1272
+		division_template = "騎兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "ブジョンヌイ騎兵隊"
+		location = 12266
+		division_template = "騎兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "ブジョンヌイ騎兵隊"
+		location = 4488
+		division_template = "騎兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "ブジョンヌイ騎兵隊"
+		location = 1479
+		division_template = "騎兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "ブジョンヌイ騎兵隊"
+		location = 10485
+		division_template = "騎兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "ブジョンヌイ騎兵隊"
+		location = 10406
+		division_template = "騎兵隊"
+		start_experience_factor = 0.3
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "KAZ"
+		}
+		requested_factories = 1
+		progress = 0.41
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "KAZ"
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+}

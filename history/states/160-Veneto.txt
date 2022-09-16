@@ -24,7 +24,7 @@ state={
 			}
 
 		}
-		add_core_of = VEN
+		add_core_of = VNI
 		add_core_of = ITA
 		1939.1.1 = {
 			buildings = {

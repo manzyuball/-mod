@@ -4,3 +4,10 @@ ENG_Zyouriku = {
 		original_tag = ENG
 	}
 }
+ENG_KOUWA = {
+	icon = generic_political_actions
+	allowed = {
+		original_tag = ENG
+		has_global_flag = AUS_ENG_POL_KOUWA
+	}
+}

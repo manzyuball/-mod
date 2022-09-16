@@ -70,6 +70,7 @@ SWE_decisions = {
    generic_Malti = {
 	icon = generic_political_actions
 	visible = {
+		NOT = { has_country_flag = EOB_decision_lost }
 	}
 	allowed = {
 		is_ai = no		

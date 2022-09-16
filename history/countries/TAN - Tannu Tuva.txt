@@ -142,6 +142,7 @@ if = {
 
 add_ideas = {
 	limited_conscription
+	JAP_Eikyo
 }
 
 set_politics = {

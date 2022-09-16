@@ -65,6 +65,7 @@
 		}
 
 		completion_reward = {
+			add_research_slot = 1
 			swap_ideas = {
 				remove_idea = CHI_kokubou
 				add_idea = CHI_kokubou1
@@ -1644,7 +1645,7 @@
 		completion_reward = {
 			add_political_power = 200
 			add_victory_points = {
-				province = 10057
+				province = 4130
 				value = 10
 			}
 			add_victory_points = {
@@ -1712,6 +1713,7 @@
 		}
 
 		completion_reward = {
+			add_research_slot = 1
 			963 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {

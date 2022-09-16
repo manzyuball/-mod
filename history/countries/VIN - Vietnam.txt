@@ -4,6 +4,11 @@ oob = "VIN_1936"
 
 set_research_slots = 3
 
+
+add_ideas = {
+	JAP_Eikyo
+}
+
 # Starting tech
 # clone of France
 set_technology = {
