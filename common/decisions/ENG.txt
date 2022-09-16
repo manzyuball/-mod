@@ -1,0 +1,429 @@
+ENG_Zyouriku = {
+	ENG_FRA_ZYOURIKU_ZYUNBI = {
+		icon = generic_operation
+		available = {
+            AND = {
+                FRA = {  has_war_with = ENG }  
+                NOT = { has_country_flag = ENG_ZYOURIKU_OK }
+                NOT = { has_idea = ENG_Zyouriku_ideas }
+                OR = {
+                    AND = {
+                        has_equipment = {
+                            infantry_equipment > 9999
+                            }
+                            has_equipment = {
+                                artillery_equipment > 119
+                                }
+                                has_equipment = {
+                                    support_equipment > 339
+                                    }
+                    }
+                    is_ai = yes
+                }
+
+
+            }
+
+		}
+		visible = {
+		}
+		cost = 50
+		fire_only_once = no
+		ai_will_do = {
+			factor = 10000
+		}
+        days_remove = 65
+		  remove_effect = {
+            custom_effect_tooltip = ENG_Zyunbi_zyouriku_OK
+            set_country_flag = ENG_ZYOURIKU_OK
+            add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = -10000
+                }
+                add_equipment_to_stockpile = {
+                    type = artillery_equipment
+                    amount = -120
+                    }
+                    add_equipment_to_stockpile = {
+                        type = support_equipment
+                        amount = -339
+                        }
+		}	
+	}
+    ENG_FRA_ZYOURIKU_NORMANDY = {
+		icon = generic_ignite_civil_war
+		available = {
+            AND = {
+                has_country_flag = ENG_ZYOURIKU_OK
+                FRA = {  has_war_with = ENG } 
+                alliance_naval_strength_ratio > 0.5
+            }
+            
+		}
+        highlight_states = {
+			highlight_state_targets = {
+				state = 15
+			} 
+		}
+		visible = {
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 10000
+		}
+        complete_effect = {
+            hidden_effect = {
+                clr_country_flag = ENG_ZYOURIKU_OK
+            }
+            }
+        days_remove = 5
+		  remove_effect = {
+            custom_effect_tooltip = ENG_FRA_Normandy
+            add_timed_idea = {
+                idea = ENG_Zyouriku_ideas
+                days = 15
+                }
+            hidden_effect = {
+                clr_country_flag = ENG_ZYOURIKU_OK
+                load_oob = "ENG_ZZZ"
+                set_province_controller = 6449
+                set_province_controller = 3579
+                set_province_controller = 9550
+                set_province_controller = 539
+                set_province_controller = 11535	
+                set_province_controller = 9434
+            }
+
+		}
+	}
+    ENG_FRA_ZYOURIKU_BRITANU = {
+		icon = generic_ignite_civil_war
+		available = {
+            AND = {
+                has_country_flag = ENG_ZYOURIKU_OK
+                FRA = {  has_war_with = ENG } 
+                alliance_naval_strength_ratio > 0.5
+            }
+            
+		}
+        highlight_states = {
+			highlight_state_targets = {
+				state = 14
+			} 
+		}
+		visible = {
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 10000
+		}
+        complete_effect = {
+            hidden_effect = {
+                clr_country_flag = ENG_ZYOURIKU_OK
+            }
+            }
+        days_remove = 5
+		  remove_effect = {
+            custom_effect_tooltip = ENG_FRA_BRITANU
+            add_timed_idea = {
+                idea = ENG_Zyouriku_ideas
+                days = 15
+                }
+            hidden_effect = {
+                clr_country_flag = ENG_ZYOURIKU_OK
+                load_oob = "ENG_BRI"
+                set_province_controller = 3552
+                set_province_controller = 9525
+                set_province_controller = 3552
+                set_province_controller = 542
+                set_province_controller = 3758
+                set_province_controller = 6572
+                set_province_controller = 11465
+            }
+
+		}
+	}
+    ENG_FRA_ZYOURIKU_KARE = {
+		icon = generic_ignite_civil_war
+		available = {
+            AND = {
+                has_country_flag = ENG_ZYOURIKU_OK
+                FRA = {  has_war_with = ENG } 
+                HOL = {  has_war_with = ENG } 
+                alliance_naval_strength_ratio > 0.5
+            }
+            
+		}
+        highlight_states = {
+			highlight_state_targets = {
+				state = 29
+			} 
+		}
+		visible = {
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 10000
+		}
+        complete_effect = {
+            hidden_effect = {
+                clr_country_flag = ENG_ZYOURIKU_OK
+            }
+            }
+        days_remove = 5
+		  remove_effect = {
+            custom_effect_tooltip = ENG_FRA_KARE
+            add_timed_idea = {
+                idea = ENG_Zyouriku_ideas
+                days = 15
+                }
+            hidden_effect = {
+                clr_country_flag = ENG_ZYOURIKU_OK
+                load_oob = "ENG_KRE"
+                set_province_controller = 9500
+                set_province_controller = 11548
+                set_province_controller = 575
+                set_province_controller = 6446
+                set_province_controller = 6560
+            }
+
+		}
+	}
+}
+ENG_KOUWA = {
+    ENG_WIN_WAR2 = {
+        icon = generic_operation
+        available = {
+            AND = {
+                OR = {
+                FRA = { is_puppet = yes }
+                FRA = { exists = no }
+                }
+                OR = {
+                GER = { is_puppet = yes }
+                GER = { exists = no }
+                }
+                AUS = { is_ai = yes }
+                AUS = { NOT = { has_war_with = FRA } }
+                ENG = { NOT = { has_war_with = FRA } }
+            }
+        }
+        visible = {
+        }
+        cost = 0
+        fire_only_once = yes
+        ai_will_do = {
+            factor = 1000
+        }
+        complete_effect = {
+        POL = { 
+        transfer_state = 814
+        add_state_core = 814
+        transfer_state = 11
+        add_state_core = 11
+        transfer_state = 815
+        add_state_core = 815
+        transfer_state = 189
+        add_state_core = 189
+        remove_state_core = 86
+        remove_state_core = 67
+        remove_state_core = 762
+        remove_state_core = 66
+        remove_state_core = 68
+        remove_state_core = 63
+        remove_state_core = 960
+        }
+        POL = { puppet = EST }
+        EST = { 
+            transfer_state = 190
+            add_state_core = 190
+            transfer_state = 809
+            add_state_core = 809
+            transfer_state = 810
+            add_state_core = 810
+            transfer_state = 12
+            add_state_core = 12
+            transfer_state = 13
+            add_state_core = 13
+            transfer_state = 191
+            add_state_core = 191
+            transfer_state = 813
+            add_state_core = 813
+            transfer_state = 812
+            add_state_core = 812
+            transfer_state = 811
+            add_state_core = 811
+            add_state_core = 808
+            }
+            LAT = { 
+                transfer_state = 63
+                transfer_state = 960
+                transfer_state = 86
+                transfer_state = 66
+                transfer_state = 67
+                transfer_state = 762
+                transfer_state = 68
+                transfer_state = 62
+                transfer_state = 976
+                transfer_state = 65
+                transfer_state = 842
+                transfer_state = 64
+                transfer_state = 61
+                transfer_state = 58
+                transfer_state = 59
+                transfer_state = 60
+                transfer_state = 54
+                transfer_state = 53
+                transfer_state = 52
+                transfer_state = 50
+                transfer_state = 55
+                transfer_state = 57
+                transfer_state = 56
+                transfer_state = 966
+                transfer_state = 51
+                transfer_state = 42
+                transfer_state = 8
+                transfer_state = 28
+                add_state_core = 8
+                transfer_state = 875
+                }
+               ENG = { puppet = BEL }
+                BEL = { 
+                    transfer_state = 6
+                    add_state_core = 6
+                    transfer_state = 34
+                    add_state_core = 34
+                    }
+                    ENG = { puppet = HOL }
+                    HOL = { 
+                        transfer_state = 36
+                        add_state_core = 36
+                        transfer_state = 7
+                        add_state_core = 7
+                        transfer_state = 35
+                        add_state_core = 35
+                        }
+                        ENG = { puppet = FRA }
+                        FRA = { 
+                            transfer_state = 29
+                            transfer_state = 785
+                            transfer_state = 965
+                            transfer_state = 16
+                            transfer_state = 18
+                            transfer_state = 17
+                            transfer_state = 27
+                            transfer_state = 34
+                            transfer_state = 15
+                            transfer_state = 30
+                            transfer_state = 14
+                            transfer_state = 23
+                            transfer_state = 19
+                            transfer_state = 806
+                            transfer_state = 969
+                            transfer_state = 25
+                            transfer_state = 33
+                            transfer_state = 970
+                            transfer_state = 1
+                            }
+                            ENG = { puppet = SPR }
+                            SPR = { 
+                                transfer_state = 171
+                                transfer_state = 174
+                                transfer_state = 790
+                                transfer_state = 791
+                                transfer_state = 176
+                                transfer_state = 792
+                                transfer_state = 172
+                                transfer_state = 793
+                                transfer_state = 41
+                                transfer_state = 788
+                                transfer_state = 175
+                                transfer_state = 166
+                                transfer_state = 170
+                                }
+                               AUS = { puppet = CAT }
+                                CAT = { 
+                                    transfer_state = 177
+                                    transfer_state = 165
+                                    transfer_state = 794
+                                    transfer_state = 167
+                                    transfer_state = 168
+                                    transfer_state = 173
+                                    transfer_state = 789
+                                    transfer_state = 169
+                                    }
+                                ENG = { puppet = POR }
+                                POR = { 
+                                    transfer_state = 179
+                                    transfer_state = 795
+                                    transfer_state = 112
+                                    transfer_state = 181
+                                    transfer_state = 180
+                                    transfer_state = 697
+                                    transfer_state = 698
+                                    transfer_state = 702
+                                    transfer_state = 296
+                                    }
+                                    AUS = { puppet = SWI }
+                                    SWI = { 
+                                        transfer_state = 872
+                                        transfer_state = 870
+                                        transfer_state = 151
+                                        transfer_state = 3
+                                        transfer_state = 871
+                                        transfer_state = 873
+                                        }
+                                        AUS = { puppet = OCC }
+                                        OCC = { 
+                                            transfer_state = 735
+                                            add_state_core = 735
+                                            transfer_state = 32
+                                            add_state_core = 32
+                                            transfer_state = 21
+                                            add_state_core = 21
+                                            transfer_state = 20
+                                            add_state_core = 20  
+                                            transfer_state = 22
+                                            add_state_core = 22 
+                                            transfer_state = 26
+                                            add_state_core = 26 
+                                            transfer_state = 31
+                                            add_state_core = 31 
+                                            }
+                                            AUS = { puppet = VNI }
+                                            VNI = { 
+                                                transfer_state = 159
+                                                add_state_core = 159
+                                                transfer_state =968
+                                                add_state_core =968
+                                                transfer_state = 967
+                                                add_state_core = 967
+                                                transfer_state = 158
+                                                add_state_core = 158  
+                                                transfer_state = 161
+                                                add_state_core = 161 
+                                                transfer_state = 162
+                                                add_state_core = 162 
+                                                transfer_state = 157
+                                                add_state_core = 157 
+                                                transfer_state = 2
+                                                add_state_core = 2 
+                                                transfer_state = 843
+                                                add_state_core = 843 
+                                                transfer_state = 941
+                                                add_state_core = 941 
+                                                transfer_state = 117
+                                                add_state_core = 117 
+                                                transfer_state = 156
+                                                add_state_core = 156 
+                                                transfer_state = 115
+                                                add_state_core = 115 
+                                                transfer_state = 835
+                                                add_state_core = 835
+                                                }
+    }
+}
+}

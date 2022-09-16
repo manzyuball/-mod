@@ -1,0 +1,261 @@
+ideas = {
+
+	country = {
+		Proisen = { #プロイセンの精神
+			picture = ger_revive_the_kaiserreich
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.25
+				army_core_attack_factor = 0.25
+				conscription = 0.05
+			}
+		}
+		Proisen_Seiei = { #プロイセンの精神
+		picture = ger_revive_the_kaiserreich
+		removal_cost = -1
+		modifier = {
+			army_core_defence_factor = 0.25
+			army_core_attack_factor = 0.25
+			conscription = 0.05
+			army_org_Factor = 0.2
+			army_morale_factor = 0.2
+		}
+	}
+	Proisen_balte = { #プロイセンの精神
+	picture = ger_revive_the_kaiserreich
+	removal_cost = -1
+	modifier = {
+		army_core_defence_factor = 0.25
+		army_core_attack_factor = 0.25
+		conscription = 0.05
+		non_core_manpower = 0.2
+	}
+    }
+		LAT_NO_GIKAI = { #エップからの釘
+		picture = saf_history_of_segregation
+		removal_cost = -1
+		modifier = {
+			political_power_factor = -0.1
+		}
+	}
+	LAT_REMU_plan = { #れーむプラン
+	picture = FRA_national_mobilization_focus
+	removal_cost = -1
+	modifier = {	
+	   weekly_manpower = 1000 
+       experience_gain_army = 0.5
+	}
+    }
+	LAT_GERI_plan = { #げりんぐプラン
+	picture = combined_bomber_offensive
+	removal_cost = -1
+	modifier = {		
+    experience_gain_air = 0.05
+
+	}
+	equipment_bonus = {
+		fighter_equipment = {
+			instant = yes
+			build_cost_ic = -0.15
+		}
+		CAS_equipment = {
+			instant = yes
+			build_cost_ic = -0.15
+		}
+	}
+    }
+	LAT_Poisen_army_storong = { #MM帝国陸軍の強化
+	picture = generic_war_preparation
+	removal_cost = -1
+	modifier = {
+		max_dig_in = 10
+		dig_in_speed_factor = 0.25	
+	}
+    }
+	LAT_Poisen_army_storong1 = { #MM帝国陸軍の強化
+	picture = generic_war_preparation
+	removal_cost = -1
+	modifier = {
+		max_dig_in = 10
+		dig_in_speed_factor = 0.25	
+		army_org = 15
+		attrition = -0.1
+	}
+    }
+	LAT_Poisen_army_storong2 = { #MM帝国陸軍の強化
+	picture = generic_war_preparation
+	removal_cost = -1
+	modifier = {
+		max_dig_in = 10
+		dig_in_speed_factor = 0.25	
+		army_org = 15
+		attrition = -0.1
+		max_planning = 0.25
+		planning_speed = 0.10
+	}
+    }
+	LAT_Poisen_army_storongGG = { #MM帝国陸軍の強化GG(ハウサー)
+	picture = generic_war_preparation
+	removal_cost = -1
+	modifier = {
+		army_artillery_attack_factor = 0.15
+		breakthrough_factor = 0.15
+		artillery_brigade = {
+			combat_width = -1
+		}
+	}
+    }
+	LAT_Poisen_army_storong1GG = { #MM帝国陸軍の強化GG(ハウサー)
+	picture = generic_war_preparation
+	removal_cost = -1
+	modifier = {
+		army_artillery_attack_factor = 0.15
+		breakthrough_factor = 0.15
+		special_forces_cap = 0.15
+		command_power_gain = 0.25
+		artillery_brigade = {
+			combat_width = -1
+		}
+	}
+    }
+	LAT_Poisen_army_storong2GG = { #MM帝国陸軍の強化GG(ハウサー)
+	picture = generic_war_preparation
+	removal_cost = -1
+	modifier = {
+		army_artillery_attack_factor = 0.15
+		breakthrough_factor = 0.15
+		special_forces_cap = 0.15
+		command_power_gain = 0.25
+		army_armor_speed_factor = 0.3
+		army_armor_attack_factor = 0.3
+		army_speed_factor = 0.15
+		artillery_brigade = {
+			combat_width = -1
+		}
+	}
+    }
+	LAT_U_bort = { #U_bort
+	picture = the_long_lance
+	removal_cost = -1
+	equipment_bonus = {
+		submarine = {
+			build_cost_ic = -0.25 instant = yes
+		}
+	}
+	modifier = {
+		navy_submarine_attack_factor = 0.25
+	}
+    }
+	LAT_Totugeki_tai = { #国民突撃隊の拡大
+	picture = generic_reserve_divisions
+	removal_cost = -1
+	modifier = {
+	conscription_factor = 0.25
+	training_time_army_factor = -0.25
+	resistance_growth_on_our_occupied_states = 0.4
+	}
+    }
+	LAT_Totugeki_tai_NO = { #国民突撃隊の廃止
+	picture = generic_reserve_divisions
+	removal_cost = -1
+	modifier = {
+		conscription_factor = -0.25
+		army_core_attack_factor = -0.15
+		army_core_defence_factor = -0.15
+	}
+    }
+	LAT_Seihu_army = { #プロイセン突撃隊
+	picture = generic_reserve_divisions
+	removal_cost = -1
+	modifier = {
+		conscription_factor = 0.5
+		non_core_manpower = 0.10
+		training_time_army_factor = -0.25
+		resistance_growth_on_our_occupied_states = 0.5
+	}
+    }
+	LAT_Tyouhei_kiki = { #徴兵危機
+	picture = generic_disjointed_gov
+	removal_cost = -1
+	modifier = {
+		conscription_factor = -0.5
+	}
+    }
+	LAT_Tyouhei_kiki12 = { #バルトからの徴兵
+	picture = generic_disjointed_gov
+	removal_cost = -1
+	modifier = {
+		conscription_factor = -0.1
+		non_core_manpower = 0.35
+	}
+    }
+	LAT_Buy_guns = { #兵器の購入
+	picture = MEX_callistas
+	removal_cost = -1
+	targeted_modifier = { tag = ENG cic_to_target_factor = 0.15 }
+    }
+	LAT_Sou_douin = { #総動員
+	picture = tot_economic_mobilisation
+	removal_cost = -1
+	modifier = {
+	consumer_goods_factor = -0.05
+	industrial_capacity_factory = 0.25
+	industrial_capacity_dockyard = 0.2
+	}
+    }
+	}
+	aircraft_manufacturer = {
+			
+		designer = yes
+		
+		vef = {
+			picture = generic_air_manufacturer_1
+
+			
+			allowed = {
+				original_tag = LAT
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# made light bombers, fighters and trainers
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	naval_manufacturer = {
+		
+		designer = yes
+		
+		lkod = {
+			picture = generic_naval_manufacturer_2
+
+			
+			allowed = {
+				original_tag = LAT
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				# mer research
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+}

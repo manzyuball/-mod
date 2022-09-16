@@ -1,0 +1,42 @@
+
+state={
+	id=219
+	name="STATE_219"
+	resources={
+		steel=16.000
+		rubber=24.000
+	}
+
+	history={
+		owner = SOV
+		add_core_of = VLA
+		victory_points = {
+			6380 45 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 10
+
+		}
+		add_core_of = SOV
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+				arms_factory = 10
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		301 3259 3391 6283 6380 6414 9378 11282 
+	}
+	manpower=8335992
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=6.000
+}

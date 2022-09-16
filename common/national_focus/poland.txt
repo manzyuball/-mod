@@ -1,0 +1,1407 @@
+focus_tree = {
+	id = poland_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POL
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1600 }
+
+focus = {
+	id = POL_S1
+	icon = "GFX_focus_POL_expand_polish_intelligence"
+	#prerequisite = { focus = }
+	#mutually_exclusive = { focus =  }
+	x = 10
+	y = 0
+	#relative_position_id = 
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_political_power = 75
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+			}
+	}
+}
+focus = {
+	id = POL_S2
+	icon = "GFX_focus_POL_sanation_left"
+	prerequisite = { focus =  POL_S1 }
+	#mutually_exclusive = { focus =  }
+	x = 10
+	y = 1
+	#relative_position_id = 
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+focus = {
+	id = POL_S3
+	icon = "GFX_focus_spr_masters_of_our_own_fate"
+	prerequisite = { focus =  POL_S2 }
+	#mutually_exclusive = { focus =  }
+	x = 10
+	y = 2
+	#relative_position_id = 
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = POL_S4
+	icon = "GFX_focus_POL_complete_april_constitution"
+	prerequisite = { focus =  POL_S3 }
+	mutually_exclusive = { focus = POL_PI1 }
+	x = -2
+	y = 1
+	relative_position_id = POL_S3
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		set_politics = {
+			ruling_party = fascism
+			}
+			hidden_effect = {
+				AUS = { add_to_faction = POL }
+			}
+	}
+}
+focus = {
+	id = POL_S5
+	icon = "GFX_focus_CZE_german_puppet"
+	prerequisite = { focus =  POL_S4 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 2
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_political_power = 100
+		add_stability = -0.05
+		hidden_effect = {
+			AUS = { add_to_faction = POL }
+		}
+	}
+}
+focus = {
+	id = POL_S6
+	icon = "GFX_BIG_Poland"
+	prerequisite = { focus =  POL_S5 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 3
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		set_major = yes
+		activate_decision = POL_KAKUDAI
+		custom_effect_tooltip = POL_KAKUDAI_D
+		hidden_effect = {
+			AUS = { add_to_faction = POL }
+		}
+	}
+}
+focus = {
+	id = POL_S7
+	icon = "GFX_focus_proclaim_the_restauration_of_Austria_Hungary"
+	prerequisite = { focus =  POL_S6 }
+	#mutually_exclusive = { focus =  }
+	x = 2
+	y = 5
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_ideas = POL_AUS_KEIZAITEIKEI
+	}
+}
+focus = {
+	id = POL_S8
+	icon = "GFX_focus_SOV_panslavic_nationalism"
+	prerequisite = { focus =  POL_S6 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 4
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = POL_S9
+	icon = "GFX_focus_ger_oppose_hitler"
+	prerequisite = { focus =  POL_S6 }
+	#mutually_exclusive = { focus =  }
+	x = -2
+	y = 5
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = POL_S10
+	icon = "GFX_focus_SOV_zemsky_sobor"
+	prerequisite = { focus =  POL_S8 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 5
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = POL_S11
+	icon = "GFX_focus_ger_great_red_menace"
+	prerequisite = { focus =  POL_S10 focus =  POL_S9 focus =  POL_S7 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 6
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_ideas = POL_HANKYOU
+	}
+}
+focus = {
+	id = POL_S12
+	icon = "GFX_goal_molotov_ribbentrop_pact"
+	prerequisite = { focus =  POL_S11 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 7
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		set_global_flag = AUS_ENG_POL_KOUWA
+	}
+}
+focus = {
+	id = POL_S13
+	icon = "GFX_focus_LIT_restore_the_grand_duchy"
+	prerequisite = { focus =  POL_S12 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 8
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_stability = 0.15
+		add_war_support = 0.15
+	}
+}
+focus = {
+	id = POL_S14
+	icon = "GFX_focus_POL_expand_polish_intelligence"
+	prerequisite = { focus =  POL_S13 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 9
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_ideas = POL_ZAPAS
+	}
+}
+
+focus = {
+	id = POL_GERMAN_1
+	icon = "GFX_focus_ger_return_of_the_kaiser"
+	prerequisite = { focus =  POL_S9 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 1
+	relative_position_id = POL_S9
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	LAT = {
+		add_opinion_modifier = {
+			target = POL
+			modifier = kyuusekkinn
+			}
+	}
+	}
+}
+focus = {
+	id = POL_GERMAN_2
+	icon ="GFX_focus_secret_rearmament"
+	prerequisite = { focus =  POL_GERMAN_1 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 2
+	relative_position_id = POL_S9
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		army_experience = 150
+		LAT = { army_experience = 150 }
+	}
+}
+focus = {
+	id = POL_GERMAN_3
+	icon = "GFX_focus_jap_newdeal2"
+	prerequisite = { focus =  POL_GERMAN_1 }
+	#mutually_exclusive = { focus =  }
+	x = -2
+	y = 2
+	relative_position_id = POL_S9
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_ideas = POL_GER_KEIZAITEIKEI
+	}
+}
+focus = {
+	id = POL_Factory_1
+	icon = "GFX_focus_generic_the_giant_wakes"
+	prerequisite = { focus =  POL_S4 }
+	#mutually_exclusive = { focus =  }
+	x = -4
+	y = 1
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_ideas = POL_MIN_KEIZAI
+	}
+}
+focus = {
+	id = POL_Factory_2
+	icon = "GFX_focus_DAM"
+	prerequisite = { focus =  POL_Factory_1 }
+	#mutually_exclusive = { focus =  }
+	x = -4
+	y = 2
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = POL_Factory_3
+	icon = "GFX_goal_generic_construct_naval_dockyard"
+	prerequisite = { focus =  POL_Factory_2 }
+	#mutually_exclusive = { focus =  }
+	x = -4
+	y = 3
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { random_owned_controlled_state = {is_coastal = yes } }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = POL_Factory_4
+	icon = "GFX_focus_jap_newdeal3"
+	prerequisite = { focus =  POL_Factory_1 }
+	#mutually_exclusive = { focus =  }
+	x = -6
+	y = 2
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_ideas = POL_GUNKOKU
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = POL_Factory_5
+	icon = "GFX_goal_generic_construct_mil_factory"
+	prerequisite = { focus =  POL_Factory_4 }
+	#mutually_exclusive = { focus =  }
+	x = -6
+	y = 3
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = POL_Factory_6
+	icon = "GFX_goal_generic_positive_trade_relations"
+	prerequisite = { focus =  POL_Factory_1 }
+	#mutually_exclusive = { focus =  }
+	x = -2
+	y = 2
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = POL_MIN_KEIZAI
+			add_idea = POL_MIN_KEIZAI1
+			}
+	}
+}
+focus = {
+	id = POL_Factory_7
+	icon = "GFX_focus_generic_industry_3"
+	prerequisite = { focus =  POL_Factory_1 }
+	#mutually_exclusive = { focus =  }
+	x = -5
+	y = 4
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = POL_Factory_8
+	icon = "GFX_goal_generic_construct_civ_factory"
+	prerequisite = { focus =  POL_Factory_7 }
+	#mutually_exclusive = { focus =  }
+	x = -5
+	y = 5
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = POL_Factory_9
+	icon = "GFX_focus_SOV_breadbasket_of_the_union"
+	prerequisite = { focus =  POL_Factory_7 }
+	#mutually_exclusive = { focus =  }
+	x = -7
+	y = 5
+	relative_position_id = POL_S4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_stability = 0.1
+		remove_ideas = POL_NOUGYOU
+	}
+}
+focus = {
+	id = POL_PI1
+	icon = "GFX_focus_POL_OZON"
+	prerequisite = { focus =  POL_S3 }
+	mutually_exclusive = { focus = POL_S4  }
+	x = 2
+	y = 1
+	relative_position_id = POL_S3
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		set_politics = {
+			ruling_party = fascism
+			}
+		hidden_effect = {
+			remove_country_leader_role = {
+				character = POL_roman_dmowski
+				ideology = fascism_ideology
+			  }
+			
+		}
+	}
+}
+focus = {
+	id = POL_PI2
+	icon = "GFX_focus_generic_military_dictatorship"
+	prerequisite = { focus =  POL_PI1 }
+	x = 0
+	y = 1
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		remove_ideas = POL_ThreeHOU
+	}
+}
+focus = {
+	id = POL_PI3
+	icon = "GFX_focus_POL_consolidate_sanation_government"
+	prerequisite = { focus =  POL_PI2 }
+	x = 0
+	y = 2
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = POL_PI4
+	icon = "GFX_BIG_Poland"
+	prerequisite = { focus =  POL_PI3 }
+	x = 0
+	y = 3
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		set_major = yes
+		activate_decision = POL_KAKUDAI 
+		custom_effect_tooltip = POL_KAKUDAI_D
+	}
+}
+focus = {
+	id = POL_PI5
+	icon = "GFX_goal_generic_demand_territory"
+	prerequisite = { focus =  POL_PI4 }
+	x = 0
+	y = 4
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		leave_faction = yes
+	}
+}
+focus = {
+	id = POL_PI6
+	icon = "GFX_focus_POL_ukrainian_army"
+	prerequisite = { focus =  POL_PI5 }
+	x = 0
+	y = 5
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		hidden_effect = {
+			set_variable = {
+				var = POL_UKR_EIKYO
+				value = 0
+			}	
+		}
+		activate_decision = POL_UKR_SINK
+		custom_effect_tooltip = POL_UKR_SINK_D
+	}
+}
+focus = {
+	id = POL_PI7
+	icon = "GFX_goal_generic_political_pressure"
+	prerequisite = { focus =  POL_PI6 }
+	x = 0
+	y = 6
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		set_rule = {
+			can_create_factions = yes
+			}
+			create_faction = "海洋間同盟"
+	}
+}
+focus = {
+	id = POL_PI_three1
+	icon = "GFX_focus_POL_belarus_army"
+	prerequisite = { focus =  POL_PI7 }
+	x = -1
+	y = 7
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = POL_PI_three2
+	icon = "GFX_focus_generic_baltic_entente"
+	prerequisite = { focus =  POL_PI_three1 }
+	x = -1
+	y = 8
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = POL_PI_three3
+	icon = "GFX_focus_SOV_reinforce_southern_naval_bases"
+	prerequisite = { focus =  POL_PI_three2 }
+	x = -1
+	y = 9
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_state_claim = 193
+		add_state_claim = 225
+		add_state_claim = 259
+		add_state_claim = 221
+		add_state_claim = 200
+		add_state_claim = 196
+		add_state_claim = 137
+		add_state_claim = 227
+		add_state_claim = 228
+		add_state_claim = 864
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = SOV
+			}
+	}
+}
+focus = {
+	id = POL_PI_min1
+	icon = "GFX_focus_EST_republican_defence_league"
+	prerequisite = { focus =  POL_PI7 }
+	x = 1
+	y = 7
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = POL_PI_min2
+	icon = "GFX_focus_attack_AUS"
+	prerequisite = { focus =  POL_PI_min1 }
+	x = 1
+	y = 8
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = AUS
+			}
+	}
+}
+focus = {
+	id = POL_PI_min3
+	icon = "GFX_goal_generic_territory_or_war"
+	prerequisite = { focus =  POL_PI_min2}
+	x = 1
+	y = 9
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = POL_PI_GERMAN1
+	icon = "GFX_goal_generic_military_sphere"
+	prerequisite = { focus =  POL_PI5 }
+	x = 2
+	y = 1
+	relative_position_id = POL_PI5
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		LAT = {
+			add_opinion_modifier = {
+				target = POL
+				modifier = dankou
+				}
+		}
+	}
+}
+focus = {
+	id = POL_PI_GERMAN2
+	icon = "GFX_focus_ger_oppose_hitler"
+	prerequisite = { focus = POL_PI_GERMAN1 }
+	x = 2
+	y = 2
+	relative_position_id = POL_PI5
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = POL_PI_GERMAN3
+	icon = "GFX_focus_SOV_baltic_security"
+	prerequisite = { focus = POL_PI_GERMAN1 }
+	x = 4
+	y = 2
+	relative_position_id = POL_PI5
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	LAT = {
+		remove_state_core = 812
+		remove_state_core = 811
+		remove_state_core = 813
+		remove_state_core = 13
+		remove_state_core = 191
+		remove_state_core = 12
+		remove_state_core = 810
+		remove_state_core = 808
+		remove_state_core = 809
+		remove_state_core = 190
+		remove_state_core = 815
+		remove_state_core = 11
+		remove_state_core = 189
+	}
+
+	}
+}
+focus = {
+	id = POL_PI_factry1
+	icon = "GFX_goal_generic_political_pressure"
+	prerequisite = { focus = POL_PI1 }
+	x = 2
+	y = 1
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_ideas = POL_DOKUSAI_KEIZAI
+	}
+}
+focus = {
+	id = POL_PI_factry2
+	icon = "GFX_focus_POL_warsaw_main_station"
+	prerequisite = { focus = POL_PI_factry1 }
+	x = 2
+	y = 2
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = POL_DOKUSAI_KEIZAI
+			add_idea = POL_DOKUSAI_KEIZAI1
+			}
+	}
+}
+focus = {
+	id = POL_PI_factry3
+	icon = "GFX_focus_SOV_merge_plants"
+	prerequisite = { focus = POL_PI_factry2 }
+	x = 2
+	y = 3
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = POL_DOKUSAI_KEIZAI1
+			add_idea = POL_DOKUSAI_KEIZAI2
+			}
+	}
+}
+focus = {
+	id = POL_PI_factry4
+	icon = "GFX_focus_POL_nationalist_education"
+	prerequisite = { focus = POL_PI_factry3 }
+	x = 2
+	y = 4
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_research_slot = 1
+	}
+}
+focus = {
+	id = POL_PI_factry5
+	icon = "GFX_goal_generic_construct_civ_factory"
+	prerequisite = { focus = POL_PI_factry1 }
+	x = 4
+	y = 2
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = POL_PI_factry6
+	icon = "GFX_goal_generic_construction2"
+	prerequisite = { focus = POL_PI_factry5 }
+	x = 4
+	y = 3
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		every_owned_state = {
+		add_extra_state_shared_building_slots = 2
+		}
+	}
+}
+focus = {
+	id = POL_PI_factry7
+	icon = "GFX_focus_generic_industry_3"
+	prerequisite = { focus = POL_PI_factry6 }
+	x = 4
+	y = 4
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = POL_PI_factry8
+	icon = "GFX_focus_KUROZI"
+	prerequisite = { focus = POL_PI_factry1 }
+	x = 6
+	y = 3
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = POL_NOUGYOU
+			add_idea = POL_NOUGYOU1
+			}
+	}
+}
+focus = {
+	id = POL_PI_factry9
+	icon = "GFX_focus_SOV_breadbasket_of_the_union"
+	prerequisite = { focus = POL_PI_factry8 }
+	x = 6
+	y = 4
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = POL_NOUGYOU1
+			add_idea = POL_NOUGYOU2
+			}
+	}
+}
+focus = {
+	id = POL_PI_factry10
+	icon = "GFX_focus_NZL_bob_semple_tank"
+	prerequisite = { focus = POL_PI_factry9 }
+	x = 4
+	y = 5
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = POL_NOUGYOU2
+			add_idea = POL_NOUGYOU3
+			}
+	}
+}
+focus = {
+	id = POL_PI_factry11
+	icon = "GFX_goal_generic_positive_trade_relations"
+	prerequisite = { focus = POL_PI_factry9 }
+	x = 6
+	y = 5
+	relative_position_id = POL_PI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_stability = 0.1
+		add_political_power = 100
+	}
+}
+}

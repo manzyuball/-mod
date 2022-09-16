@@ -1,0 +1,78 @@
+#AUS
+AUS_decisions = {
+ icon = SOV_propaganda
+ visible = {
+	has_government = fascism
+ }
+ allowed = {
+	original_tag = AUS
+}
+}
+AUS_SS_decisions = {
+	icon = GFX_decision_category_generic_fascism
+	visible = {
+		has_country_flag = AUS_SSq
+	}
+	allowed = {
+		original_tag = AUS
+	}
+   }
+AUS_enze_decisions = {
+	icon = SOV_propaganda
+	visible = {
+		has_country_flag = AUS_hit
+	}
+	allowed = {
+		original_tag = AUS
+	}
+   }
+   AUS_Dai_mother_land_war = {
+	icon = generic_propaganda
+	visible = {
+		has_war_with = GER
+	}
+	allowed = {
+		original_tag = AUS
+	}
+   }
+#SWE
+SWE_decisions = {
+	icon = generic
+	visible = {
+		has_country_flag = kab
+	}
+	allowed = {
+		original_tag = SWE
+	}
+}
+   syuto = {
+	icon = usa_congress
+	visible = {
+		has_country_flag = syut
+	}
+   }
+   kigyou = {
+	icon = generic_democracy
+	visible = {
+	has_country_flag = kigyou1
+	}
+	allowed = {
+		original_tag = SWE
+	}
+   }
+
+   generic_ryoud = {
+	icon = generic_political_actions
+	visible = {
+	}
+   }
+
+   generic_Malti = {
+	icon = generic_political_actions
+	visible = {
+		NOT = { has_country_flag = EOB_decision_lost }
+	}
+	allowed = {
+		is_ai = no		
+	}
+   }

@@ -1,0 +1,442 @@
+ideas = {
+	country = {
+		JAP_Zyouriku_ideas = { 
+			name = JAP_Zyouriku_ideas
+			picture = generic_coastal_defense_ships
+			modifier = {
+				ai_focus_aggressive_factor = 0.25
+				land_reinforce_rate = 0.05
+			}
+			targeted_modifier = { tag = CHI attack_bonus_against = 0.10 }
+			targeted_modifier = { tag = IVO attack_bonus_against = 0.05 }
+		}
+
+		Shared_shells = {
+			name = JP_SS
+			picture = JAP_share_shell
+		}
+		to_kikan = {
+			name = TOKIKAN
+			picture = JAP_to_kikan
+			modifier = {
+				operative_slot = 2
+			}
+		}
+		Oxygen_torpedoes = {
+			name = OT
+			picture = JAP_type_93_torpedo
+		}
+		Preservation_of_old_ships = {
+			name = POOS
+			picture = JAP_naval_escort_battle
+		}
+		SyouwaKyoukou = { #昭和恐慌
+			picture = great_depression
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = -0.15
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		SyouwaKyoukou1 = { #昭和恐慌
+		picture = great_depression
+		modifier = {
+			consumer_goods_factor = 0.05
+			stability_factor = -0.05
+			production_speed_buildings_factor = -0.1
+		}
+	}
+	SyouwaKyoukou2= { #昭和恐慌
+	picture = great_depression
+	modifier = {
+		consumer_goods_factor = 0.05
+		stability_factor = -0.05
+	}
+    }
+	SyouwaKyoukou3= { #昭和恐慌
+	picture = great_depression
+	modifier = {
+		stability_factor = -0.05
+	}
+    }
+		KaihatuKeikaku = { #第1次匡救政策
+			picture = JAP_industrial_standard
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		KaihatuKeikaku2 = { #第二次匡救政策
+		picture = JAP_industrial_standard
+		modifier = {
+			consumer_goods_factor = 0.05
+			production_speed_infrastructure_factor = 0.4
+			production_speed_rail_way_factor = 0.4
+		}
+    	}
+		KaihatuKeikaku3 = { #第3次匡救政策
+		picture = JAP_industrial_standard
+		modifier = {
+			consumer_goods_factor = 0.05
+			production_speed_industrial_complex_factor = 0.3
+			production_speed_infrastructure_factor = 0.1
+			production_speed_rail_way_factor = 0.1
+		}
+    	}
+		KaihatuKeikaku4 = { #第4次匡救政策
+		picture = JAP_industrial_standard
+		modifier = {
+			consumer_goods_factor = 0.05
+			industrial_capacity_factory = 0.25
+			production_speed_arms_factory_factor = 0.3
+			production_speed_industrial_complex_factor = 0.1
+			production_speed_infrastructure_factor = 0.1
+			production_speed_rail_way_factor = 0.1
+		}
+    	}
+		KaihatuKeikaku5 = { #帝国の産業政策
+		picture = JAP_industrial_standard
+		modifier = {
+			industrial_capacity_factory = 0.25
+			production_speed_buildings_factor = 0.2
+			production_factory_efficiency_gain_factor = 0.2
+			local_resources_factor = 0.2
+		}
+    	}
+		Touyounominsyusyugi = { #東洋の民主主義
+		picture = liberty_ships_focus
+		modifier = {
+			political_power_factor = 0.10
+			democratic_acceptance = 120
+		}
+	}
+	    Touyounominsyusyugi1 = { #防波堤の帝国
+    	picture = liberty_ships_focus
+     	modifier = {
+		political_power_factor = 0.10
+		democratic_acceptance = 120
+		production_speed_bunker_factor = 0.15
+		production_speed_coastal_bunker_factor = 0.15
+    	}
+        }
+		Yamatodamasii = { #不朽の大和魂
+    	picture = jap_militarism_showa
+     	modifier = {
+		conscription = 0.02
+		army_org_Factor = 0.1
+    	}
+        }
+		Yamatodamasii1 = { #効果的な精神論
+    	picture = jap_militarism_showa
+     	modifier = {
+		conscription = 0.02
+		army_org_Factor = 0.15
+		attrition = -0.15
+    	}
+        }
+		JAPAN_WORLDWAR2_idea = { #全てをかけた戦い
+    	picture = japanese_in_worldwar2
+     	modifier = {
+		max_planning = 0.25
+		army_attack_factor = 0.1
+		army_defence_factor = 0.1
+    	}
+        }
+		JAPAN_Nittyuu_idea = { #日中戦争
+    	picture = japanese_china_war
+     	modifier = {
+			terrain_penalty_reduction = 0.5
+			winter_attrition_factor = -0.25
+			heat_attrition_factor = -0.25
+    	}
+        }
+		Keizaikaihatukikou = { #経済協力開発機構
+    	picture = ast_all_in
+     	modifier = {
+			local_resources_factor = 0.35
+			min_export = 0.1
+			global_building_slots_factor = 0.10
+		}
+        }
+		Tyousen_syokuminti = { #朝鮮における日本の影響
+    	picture = ast_all_in
+     	modifier = {
+			local_resources_factor = 0.75
+			min_export = 0.5
+			global_building_slots_factor = 0.25
+			production_speed_buildings_factor = 0.25
+		}
+        }
+		JAP_Eikyo = { #日本の影響
+    	picture = ast_all_in
+     	modifier = {
+			local_resources_factor = 0.25
+			global_building_slots_factor = 0.25
+			production_speed_buildings_factor = 0.25
+		}
+		targeted_modifier = { tag = JAP cic_to_target_factor = 0.25 trade_cost_for_target_factor = -0.5 }
+        }
+		ENblo = {
+			picture = gre_schachtplan
+			modifier = {
+				consumer_goods_factor = -0.05
+				min_export = -0.05
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		goudou = {
+			picture = chi_army_corruption3
+			modifier = {
+				experience_gain_army = 0.5
+				experience_gain_air = 0.5
+				training_time_factor = -0.25
+			}
+		}
+	}
+
+
+		#テクノロジー
+		naval_manufacturer = {
+		
+			designer = yes
+			
+			kure_naval_arsenal = {
+				
+				
+				allowed = {
+					original_tag = JAP
+				}
+	
+				available = {
+				}
+	
+				cost = 75
+							
+				research_bonus = {
+					naval_equipment = 0.15
+				}
+				
+				traits = { battlefleet_designer } # built Yamato
+	
+			}
+			
+			yokosuka_naval_arsenal = {
+							
+				allowed = {
+					original_tag = JAP
+				}
+				
+				research_bonus = {
+					naval_equipment = 0.15
+				}
+				
+				traits = { pacific_fleet_naval_manufacturer } #built best CVs
+	
+				equipment_bonus = {
+					# 
+				}
+			}
+			
+			maizuru_naval_arsenal = {
+							
+				allowed = {
+					original_tag = JAP
+				}
+					
+				research_bonus = {
+					naval_equipment = 0.15
+				}
+				
+				traits = { convoy_escort_naval_manufacturer } #destroyer R&D
+	
+				equipment_bonus = {
+					# 
+				}
+			}
+			
+			sasebo_naval_arsenal = {
+				
+				allowed = {
+					original_tag = JAP
+				}
+				
+				research_bonus = {
+					naval_equipment = 0.15
+				}
+				
+				traits = { coastal_defence_naval_manufacturer } #used for many repairs and conversions
+				
+				equipment_bonus = {
+					
+				}
+			}	
+		}
+		
+		aircraft_manufacturer = {
+			
+			designer = yes
+			
+			mitsubishi = {
+							
+				allowed = {
+					original_tag = JAP		
+				}
+				
+				available = {
+					has_completed_focus = JAP_NITIEI24
+				}
+				
+				research_bonus = {
+					air_equipment = 0.15
+				}
+				
+				traits = { light_aircraft_manufacturer_2 }
+	
+				modifier = {
+	
+				}
+			}
+	
+			aichi = {
+				
+				allowed = {
+					original_tag = JAP
+				}
+	
+				available = {
+					has_completed_focus = JAP_NITIEI26
+				}
+							
+				research_bonus = {
+					air_equipment = 0.15
+				}
+				
+				traits = { fuel_efficient_aircraft_manufacturer }
+			}
+			
+			nakajima = {
+							
+				allowed = {
+					original_tag = JAP
+				}
+				
+				research_bonus = {
+					air_equipment = 0.15
+				}
+				
+				traits = { heavy_aircraft_manufacturer }
+	
+			}
+			
+			yokosuka = {
+							
+				allowed = {
+					original_tag = JAP
+				}
+							
+				research_bonus = {
+					air_equipment = 0.15
+				}
+				
+				traits = { naval_aircraft_manufacturer }
+			}
+		}
+		
+		
+		industrial_concern = {
+		
+			kawasaki = {
+				
+				allowed = {
+					original_tag = JAP
+				}
+				
+				research_bonus = {
+					industry = 0.15
+				}
+				
+				traits = { industrial_concern }
+			}
+			
+			
+			sumitomo = {
+							
+				allowed = {
+					original_tag = JAP
+				}
+							
+				research_bonus = {
+					electronics = 0.15
+				}
+				
+				traits = { electronics_concern }
+			}
+	
+			JAP_idemitsu_kosan = {
+							
+				picture = generic_industrial_concern_2
+				
+				allowed = {
+					original_tag = JAP
+				}
+							
+				research_bonus = {
+					industry = 0.05
+					synth_resources = 0.1
+				}
+				
+				traits = { refinery_concern }
+			}
+		}
+		
+		materiel_manufacturer = {
+				
+			designer = yes
+			
+			tokyo_arsenal = {
+				
+				allowed = {
+					original_tag = JAP
+				}
+				
+				research_bonus = {
+					infantry_weapons = 0.15
+				}
+				
+				traits = { infantry_equipment_manufacturer }
+			}
+			
+			nissan = {
+							
+				allowed = {
+					original_tag = JAP
+				}
+							
+				research_bonus = {
+					motorized_equipment = 0.15
+				}
+				
+				traits = { motorized_equipment_manufacturer }
+			}
+		}
+		
+		
+		tank_manufacturer = {
+		
+			designer = yes
+		
+			osaka_army_arsenal = {
+				
+				allowed = {
+					original_tag = JAP
+				}
+					
+				research_bonus = {
+					armor = 0.15
+				}
+				
+				traits = { tank_manufacturer }
+			}	
+		}
+	
+}
