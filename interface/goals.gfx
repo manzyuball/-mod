@@ -142,7 +142,73 @@ spriteTypes = {
 		name = "GFX_BIG_Poland"
 		texturefile = "gfx/interface/goals/Poland.png"			
 	}
-	
+	SpriteType = {
+		name = "GFX_USB_WIN"
+		texturefile = "gfx/interface/goals/USB_WIN.png"			
+	}
+	SpriteType = {
+		name = "GFX_USA_senryaku"
+		texturefile = "gfx/interface/goals/USB_senryaku.png"			
+	}
+	SpriteType = {
+		name = "GFX_NO_IMAGE"
+		texturefile = "gfx/interface/goals/NO_IMAGE.png"			
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

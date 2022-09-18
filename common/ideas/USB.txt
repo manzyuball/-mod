@@ -1,5 +1,71 @@
 ideas = {
-
+    country = {
+	    USB_NISIKAI = {		
+		allowed = {
+			always = no
+		}
+		picture = SPR_international_brigades
+		removal_cost = -1
+		targeted_modifier = { tag = usn attack_bonus_against = 0.15 defense_bonus_against = 0.1 }
+		}
+		USB_tOUSIN = {		
+			allowed = {
+				always = no
+			}
+			picture = SPR_international_brigades
+			removal_cost = -1
+			targeted_modifier = { tag = CSA attack_bonus_against = 0.15 defense_bonus_against = 0.1 }
+		}
+		USB_rOKKI = {		
+			allowed = {
+				always = no
+			}
+			picture = por_volunteers_in_the_war2
+			removal_cost = -1
+			modifier = { 
+				terrain_penalty_reduction = 0.5
+				attrition = -0.1
+			 }
+		}
+		USB_Tuikano_suppsy = {		
+			allowed = {
+				always = no
+			}
+			picture = eng_for_the_good_of_the_revolution
+			removal_cost = -1
+			modifier = { 
+				supply_consumption_factor = -0.75
+			 }
+		}
+		USB_FOR_INT = {		
+			allowed = {
+				always = no
+			}
+			picture = ger_the_great_red_menace
+			removal_cost = -1
+			modifier = { 
+				ai_focus_aggressive_factor = 0.75
+				conscription = 0.02
+				justify_war_goal_time = -0.5
+				offensive_war_stability_factor = 0.4
+			 }
+		}
+		USB_SINRYAKU = {		
+			allowed = {
+				always = no
+			}
+			picture = generic_usa_conflict
+			removal_cost = -1
+			modifier = { 
+				offence = 0.5
+				defence = 0.25
+				amphibious_invasion = 0.40
+				invasion_preparation = -0.40
+				industrial_capacity_factory = 0.15
+				production_speed_buildings_factor = 0.15
+			 }
+		}
+	}
 	aircraft_manufacturer = {
 	
 		designer = yes
