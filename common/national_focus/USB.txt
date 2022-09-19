@@ -287,6 +287,9 @@ focus = {
     set_cosmetic_tag = USB_USA_COM
 	add_stability = 0.05
 	add_country_leader_trait = USA_USB
+	hidden_effect = {
+		remove_ideas = { naisenn1 naisenn  }
+	}
 	}
 }
 focus = {
@@ -299,13 +302,15 @@ focus = {
 	relative_position_id = USB_NAISE1
 	cost = 10
 	ai_will_do = { factor = 1 }
-	available = { }
+	available = { AND = { has_completed_focus = USB_NAISE7 has_completed_focus = USB_NAISE8 has_completed_focus = USB_NAISE9 has_completed_focus = USB_NAISE10 } }
 	bypass = { }
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
 	complete_tooltip = { }
 	completion_reward = {
+		add_ideas = USB_REVORATION
+		remove_ideas = { USB_FACTRY USB_FARM USB_ARMY USB_POLITIC }
 		load_focus_tree = USB_second_focus
 	}
 }
@@ -321,12 +326,19 @@ focus = {
 	ai_will_do = { factor = 1 }
 	available = { }
 	bypass = { }
-	cancel_if_invalid = yes
+	cancel_if_invalid = no
 	continue_if_invalid = no
 	available_if_capitulated = no
 	complete_tooltip = { }
-	completion_reward = {
-	}
+	select_effect = { 
+		add_ideas = USB_FACTRY_BEFEORE
+		}
+		completion_reward = {
+		add_ideas = USB_FACTRY
+		hidden_effect = {
+			remove_ideas = USB_FACTRY_BEFEORE
+		}
+		}
 }
 focus = {
 	id = USB_NAISE8
@@ -340,12 +352,19 @@ focus = {
 	ai_will_do = { factor = 1 }
 	available = { }
 	bypass = { }
-	cancel_if_invalid = yes
+	cancel_if_invalid = no
 	continue_if_invalid = no
 	available_if_capitulated = no
 	complete_tooltip = { }
-	completion_reward = {
-	}
+	select_effect = { 
+		add_ideas = USB_FARM_BEFEORE
+		}
+		completion_reward = {
+		add_ideas = USB_FARM
+		hidden_effect = {
+			remove_ideas = USB_FARM_BEFEORE
+		}
+		}
 }
 focus = {
 	id = USB_NAISE9
@@ -359,12 +378,19 @@ focus = {
 	ai_will_do = { factor = 1 }
 	available = { }
 	bypass = { }
-	cancel_if_invalid = yes
+	cancel_if_invalid = no
 	continue_if_invalid = no
 	available_if_capitulated = no
 	complete_tooltip = { }
-	completion_reward = {
-	}
+	select_effect = { 
+		add_ideas = USB_ARMY_BEFEORE
+		}
+		completion_reward = {
+		add_ideas = USB_ARMY
+		hidden_effect = {
+			remove_ideas = USB_ARMY_BEFEORE
+		}
+		}
 }
 focus = {
 	id = USB_NAISE10
@@ -378,11 +404,18 @@ focus = {
 	ai_will_do = { factor = 1 }
 	available = { }
 	bypass = { }
-	cancel_if_invalid = yes
+	cancel_if_invalid = no
 	continue_if_invalid = no
 	available_if_capitulated = no
 	complete_tooltip = { }
+	select_effect = { 
+	add_ideas = USB_POLITIC_BEFEORE
+	}
 	completion_reward = {
+	add_ideas = USB_POLITIC
+	hidden_effect = {
+		remove_ideas = USB_POLITIC_BEFEORE
+	}
 	}
 }
 }

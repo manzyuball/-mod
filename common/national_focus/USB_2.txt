@@ -29,7 +29,7 @@ focus = {
 	complete_tooltip = { }
 	completion_reward = {
 		add_research_slot = 1
-		remove_ideas = CSA1
+
 	}
 }
 focus = {
@@ -272,7 +272,6 @@ focus = {
 focus = {
 	id = USB_SEI44
 	icon = "GFX_NO_IMAGE"
-	prerequisite = { focus = USB_SEI2 }
 	#mutually_exclusive = { focus =  }
 	x = 0
 	y = 2
@@ -295,14 +294,13 @@ focus = {
 focus = {
 	id = USB_SEI45
 	icon = "GFX_USA_senryaku"
-	prerequisite = { focus = USB_SEI44 }
 	#mutually_exclusive = { focus =  }
 	x = 0
 	y = 4
 	relative_position_id = USB_SEI1
 	cost = 10
 	ai_will_do = { factor = 1 }
-	available = { }
+	available = { has_completed_focus = USB_SEI44 }
 	bypass = { }
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -372,10 +370,27 @@ focus = {
 	available_if_capitulated = no
 	complete_tooltip = { }
 	completion_reward = {
-		declare_war_on = {
-			target = PRU
-			type = annex_everything
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = MEX
 			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = HON
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = PAN
+					}
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = COL
+						}
+						create_wargoal = {
+							type = puppet_wargoal_focus
+							target = PRU
+							}
+
 	}
 }
 }
