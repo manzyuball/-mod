@@ -1,31 +1,31 @@
-state = {
-	id = 949
-	name = "STATE_949" # hokuriku
-	manpower = 3450000
-	state_category = city
-	buildings_max_level_factor=1.000
-	local_supplies=9.0 
-	history = { 
+
+state={
+	id=949
+	name="STATE_949"
+
+	history={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-	
-		arms_factory = 5
-		industrial_complex = 8
-		fuel_silo = 2
-		infrastructure = 3
-		air_base = 6
-		9859 = {
-			naval_base = 6
+			arms_factory = 5
+			industrial_complex = 8
+			fuel_silo = 2
+			infrastructure = 3
+			air_base = 6
+			1063 = {
+				naval_base = 6
+
+			}
 
 		}
-	}
-	}
-	
-	victory_points = {
-		6994 5
-	}
-	
 
-	provinces = { 9865 9859 6994 6873 11847 6870 9807 3848 1063 12056 }
+	}
+
+	provinces={
+		1063 3848 4067 4153 6873 6994 9859 9865 11847 13241 13258 13259 13260 13261 
+	}
+	manpower=3450000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=9.000
 }

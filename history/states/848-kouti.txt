@@ -1,22 +1,27 @@
+
 state={
 	id=848
 	name="STATE_848"
-	provinces={
-		7197 11997 12028 
-	}
-	history = {
+
+	history={
 		owner = JAP
 		add_core_of = JAP
 		victory_points = {
-			7197 10
+			7197 10 
 		}
 		buildings = {
 			industrial_complex = 4
 			infrastructure = 3
+
 		}
+
+	}
+
+	provinces={
+		7197 11997 12028 13267 
 	}
 	manpower=502321
 	buildings_max_level_factor=1.000
+	state_category=city
 	local_supplies=0.000
-	state_category= city
 }

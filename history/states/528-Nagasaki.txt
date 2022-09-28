@@ -24,7 +24,6 @@ state={
 		victory_points = {
 			1025 10 
 		}
-
 		victory_points = {
 			9950 30 
 		}
@@ -40,10 +39,10 @@ state={
 	}
 
 	provinces={
-		1025 1158 4027 4164 7110 9950 10011 10020 10092 
+		1025 1158 4027 4164 7110 9950 10011 10020 10092 11925 13271 13272 13273 13274 13275 13276 
 	}
 	manpower=9069000
 	buildings_max_level_factor=1.000
-	state_category = metropolis
+	state_category=metropolis
 	local_supplies=10.000
 }
