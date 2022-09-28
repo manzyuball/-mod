@@ -117,10 +117,8 @@ recruit_character = SOV_vasily_chuykov
 recruit_character = SOV_vasily_kuznetsov
 recruit_character = SOV_vladimir_kasatonov
 recruit_character = SOV_vladimir_tributs
-
 recruit_character = SOV_yakov_cherevichenko
 recruit_character = SOV_yakov_smushkevich
-
 recruit_character = SOV_vitaly_primakov
 #Not available at game start
 recruit_character = SOV_vasily_korzh
@@ -153,15 +151,11 @@ if = {
 	recruit_character = SOV_andrey_shkuro
 	recruit_character = SOV_anton_denikin
 }
-
 set_technology = {
 	synth_oil_experiments = 1
 }
-
 capital = 219
-
 starting_train_buffer = 3.0
-
 if = {
 	limit = {
 		NOT = {
@@ -183,10 +177,31 @@ if = {
 		set_naval_oob = "SOV_1936_naval_legacy"
 	}
 }
-
 set_research_slots = 3
 set_stability = 0.3
 set_war_support = 0.2
+
+set_variable = {
+	var = SOV.RED_ARMY_BAD_POINT
+	value = 10
+}
+set_variable = {
+	var = SOV.RED_ARMY_RELATED_POINT
+	value = 100
+}
+set_variable = {
+	var = SOV.FARM_POINT
+	value = 100
+}
+set_variable = {
+	var = SOV.BAD_LERDER_POINT
+	value = 10
+}
+set_variable = {
+	var = SOV.real_good_country_point
+	value = 5
+}
+
 # Starting tech
 set_technology = { #WARNING: Do not just remove techs from here -> It can impact a lot of stuff. Before removing, double check that content does not count on these techs being researched
 	infantry_weapons = 1
@@ -211,7 +226,6 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	fuel_refining = 1
 	basic_train = 1
 }
-
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -275,10 +289,8 @@ if = {
 	}
 }
 add_ideas = {	
-	Not_kakumei
-	gunnomonndai
-	Nougyoumonndai
-	Torotuky
+SOV_soviet_FACTORY
+SOV_politics_civilwar
 }
 if = {
 	limit = {
@@ -293,9 +305,7 @@ if = {
 		puppet = KAZ
 	}
 }
-
 set_convoys = 50
-
 set_politics = {
 	ruling_party = communism
 	last_election = "1933.7.1"
@@ -322,7 +332,6 @@ if = {
 		available_to_spy_master = yes
 		nationalities = { SOV HUN }
 	}
-
 	create_operative_leader = {
 		name = "Kim Philby"
 		GFX = GFX_portrait_kim_philby
