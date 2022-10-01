@@ -1,0 +1,30 @@
+state = {
+	id = 835 # Hararghe
+	name = "STATE_835"
+	manpower = 1500000
+	resources = {
+	}
+	
+	state_category = rural
+
+	history = {
+		buildings = {
+			industrial_complex = 1
+			air_base = 1
+		}
+		
+		victory_points = { 
+			7980 2 
+		}
+		
+		owner = ETH
+		add_core_of = ETH
+
+	}
+
+	provinces = {
+ 		7980 12714 12757 12812
+ 	}
+
+	local_supplies=0.0 
+}

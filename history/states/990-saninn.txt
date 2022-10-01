@@ -1,0 +1,26 @@
+
+state={
+	id=990
+	name="STATE_990"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		1167 1191 7050 7145 10055 13270 
+	}
+	manpower=623427
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=1036
+	name="STATE_1036"
+	provinces={
+		4980 5008 5083 5214 10934 
+	}
+	impassable = yes
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BRA
+
+	}
+
+	manpower=65314
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

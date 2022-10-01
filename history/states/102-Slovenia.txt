@@ -9,16 +9,13 @@ state={
 			infrastructure = 3
 
 		}
-		victory_points = {
-			9627 3 
-		}
 		add_core_of = YUG
 		add_core_of = AUS
-
+		add_core_of = SLV
 	}
 
 	provinces={
-		596 3631 3654 6650 9596 9627 
+		596 3631 3654 9596 
 	}
 	manpower=1100000
 	buildings_max_level_factor=1.000

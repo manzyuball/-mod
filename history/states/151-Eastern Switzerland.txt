@@ -13,15 +13,19 @@ state={
 			industrial_complex = 2
 
 		}
+		victory_points = { 9638 5 }
+		victory_points = {
+			663 10
+		}
 		add_core_of = SWI
 
 	}
 
 	provinces={
-		 661 11601 
+		 661 11601 663 11623 9638 11604 
 	}
 	manpower=321642
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 	local_supplies=0.000
 }

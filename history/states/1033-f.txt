@@ -1,0 +1,21 @@
+state={
+	id=1033
+	name="STATE_1033"
+	provinces={
+		12869 
+	}
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = PRU
+
+	}
+
+	manpower=45314
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

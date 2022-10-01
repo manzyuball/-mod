@@ -5,9 +5,6 @@ state={
 
 	history={
 		owner = AUS
-		victory_points = {
-			11564 1 
-		}
 		buildings = {
 			infrastructure = 3
 			dockyard = 1
@@ -20,7 +17,7 @@ state={
 	}
 
 	provinces={
-		591 984 3601 6611 11564 11901 
+		591 984 3601 6611 11901 
 	}
 	manpower=631700
 	buildings_max_level_factor=1.000
