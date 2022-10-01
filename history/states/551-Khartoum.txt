@@ -1,10 +1,9 @@
+
 state={
 	id=551
 	name="STATE_551"
-	manpower = 1993507
-	
-	state_category = rural
-	history = {
+
+	history={
 		owner = EGY
 		add_core_of = EGY
 		buildings = {
@@ -13,20 +12,26 @@ state={
 			air_base = 2
 			12725 = {
 				naval_base = 3
+
 			}
+
 		}
 		victory_points = {
-			12806 3
+			12806 3 
 		}
 		victory_points = {
-			12725 1
+			12725 1 
 		}
 		add_claim_by = TUR
 		add_core_of = SUD
-	}
-	provinces={
-		8105
+
 	}
 
-	local_supplies=0.0 
+	provinces={
+		4138 4961 7925 12796 12826 12836 
+	}
+	manpower=1993507
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

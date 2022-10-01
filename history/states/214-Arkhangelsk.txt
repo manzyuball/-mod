@@ -20,11 +20,10 @@ state={
 		add_core_of = VLA
 		add_core_of = SOV
 
-
 	}
 
 	provinces={
-	 312 3168 3338
+		312 3080 3168 3338 6102 9248 
 	}
 	manpower=1050883
 	buildings_max_level_factor=1.000

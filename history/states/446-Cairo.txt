@@ -17,10 +17,11 @@ state={
 		}
 		add_core_of = EGY
 		add_claim_by = TUR
+
 	}
 
 	provinces={
-		7011 10005
+		7011 7091 10005 10073 11964 
 	}
 	manpower=6586596
 	buildings_max_level_factor=1.000

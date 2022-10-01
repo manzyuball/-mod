@@ -2,22 +2,29 @@
 state={
 	id=846
 	name="STATE_846"
-	manpower = 572200
-	state_category = town
 	resources={
-		aluminium=15 # was: 24 
+		aluminium=15.000
 	}
+
 	history={
 		owner = SWI
-		victory_points = { 9600 1 }
+		victory_points = {
+			9600 1 
+		}
 		buildings = {
-			infrastructure = 2 
+			infrastructure = 2
 			industrial_complex = 1
+
 		}
 		add_core_of = SWI
+
 	}
+
 	provinces={
-		9600 3641 658 3662 3660
+		658 3641 3660 3662 9600 
 	}
-	local_supplies=0.0  
+	manpower=572200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
