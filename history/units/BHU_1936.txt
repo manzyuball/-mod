@@ -10,10 +10,6 @@
 }
 
 
-units = {
-	##### No standing army #####
-}
-
 
 ### No BHU air forces ###
 instant_effect = {

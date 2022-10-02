@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_japanese:
  #大国同士
 WAR_NAME_SOV_ENG:0 "北海事変"
 WAR_NAME_SOV_FRA:0 "第二次フランス革命"
@@ -149,7 +149,6 @@ WAR_NAME_SOV_FIN:0 "冬戦争"
  WAR_NAME_USN_COL:0 "$SECOND$追従戦争"
  WAR_NAME_USN_ECU:0 "$SECOND$追従戦争"
  WAR_NAME_USN_BRA:0 "$SECOND$追従戦争"
- WAR_NAME_USN_PRU:0 "$SECOND$追従戦争
  WAR_NAME_USN_BOL:0 "$SECOND$追従戦争"
  WAR_NAME_USN_CHL:0 "$SECOND$追従戦争"
  WAR_NAME_USN_ARG:0 "$SECOND$追従戦争"

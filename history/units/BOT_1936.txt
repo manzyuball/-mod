@@ -17,12 +17,6 @@ division_template = {
 }
 
 
-
-units = {
-	
-}
-
-
 ### No air forces (small handful of various aircraft in 1935) ###
 
 #########################
