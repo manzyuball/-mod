@@ -11,18 +11,26 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
-	strategic_bomber1 = 1
-	CAS1 = 1
-	naval_bomber1 = 1
 	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1
 	synth_oil_experiments = 1
 	fuel_silos = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		fighter1 = 1
+		early_bomber = 1
+		tactical_bomber1 = 1
+		strategic_bomber1 = 1
+		CAS1 = 1
+		naval_bomber1 = 1
+	}
 }
 
 if = {
@@ -101,8 +109,6 @@ set_stability = 0.7
 	
 
 	set_technology = {
-		CAS2 = 1
-		heavy_fighter1 = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		infantry_weapons2 = 1
@@ -149,6 +155,15 @@ set_stability = 0.7
 		dispersed_industry4 = 1
 
 	}
+	if = {
+		limit = {
+			NOT = { has_dlc = "By Blood Alone" }
+		}
+		set_technology = {
+			CAS2 = 1
+			heavy_fighter1 = 1
+		}
+	}
 }
 
 set_politics = {
@@ -171,7 +186,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Klaus Klauser"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	picture = GFX_portrait_Klaus_Klauser
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -181,7 +196,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Konrad Adenauer"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+	picture = GFX_portrait_Konrad_Adenauer
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {

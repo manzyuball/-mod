@@ -8,6 +8,26 @@ if = {
 		set_naval_oob = "POL_1936_naval_legacy"
 	}
 }
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "POL_1936_air_bba"
+		set_technology = {
+			aa_lmg = 1
+			aa_cannon_1 = 1
+			iw_small_airframe = 1
+			basic_small_airframe = 1
+			engines_1 = 1
+			early_bombs = 1
+		}
+	else = {
+		set_air_oob = "POL_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+		}
+	}
+}
 
 set_research_slots = 4
 
@@ -21,9 +41,6 @@ set_technology = {
 	tech_recon = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	CAS1 = 1
 	trench_warfare = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
@@ -66,12 +83,14 @@ if = {
 		basic_depth_charges = 1
 	}
 }
+
 add_ideas = {
 	POL_ThreeHOU
 	POL_NOUGYOU
 }
 add_manpower = 1264210
 set_convoys = 50
+
 
 set_politics = {
 	ruling_party = neutrality
@@ -80,14 +99,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 10
-	communism = 10
-	neutrality = 60
+	democratic = 32
+	fascism = 11
+	communism = 19
+	neutrality = 38
 }
 
-recruit_character = POL_ignacy_moscicki
 recruit_character = POL_Pius
+recruit_character = POL_ignacy_moscicki
 recruit_character = POL_wladyslaw_sikorski
 recruit_character = POL_boleslaw_wieniawa_glugoszowski
 recruit_character = POL_wladyslaw_gomulka
@@ -141,14 +160,30 @@ recruit_character = POL_anna_andersson
 recruit_character = POL_friedrich_christian
 recruit_character = POL_rudinger_von_der_goltz
 recruit_character = POL_vladislav_korchits
+recruit_character = POL_wojtek
 AUS = { add_to_faction = POL }
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "No Step Back"
+			has_dlc = "Poland: United and Ready"
+		}
+	}
 	recruit_character = POL_walery_slawek
 	recruit_character = POL_jan_mosdorf
 	recruit_character = POL_tadeusz_bielecki
 	recruit_character = POL_joachim_stefan_bartoszewicz
 	recruit_character = POL_stanislaw_wojciechowski
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
 	recruit_character = POL_henryk_floyar_rajchman
 	recruit_character = POL_sejmik_regency
+}
 
 if = {
 	limit = {
@@ -173,15 +208,55 @@ if = {
 		nationalities = { POL }
 	}
 }
-
-create_equipment_variant = {
-	name = "PZL P.24"
-	type = fighter_equipment_0
-	upgrades = {
-		plane_gun_upgrade = 3
-		plane_range_upgrade = 0  
-		plane_engine_upgrade = 1
-		plane_reliability_upgrade = 3
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "By Blood Alone"
+		}
+	}
+	create_equipment_variant = {
+		name = "PZL P.24"
+		type = fighter_equipment_0
+		upgrades = {
+			plane_gun_upgrade = 3
+			plane_range_upgrade = 0  
+			plane_engine_upgrade = 1
+			plane_reliability_upgrade = 3
+		}
+	}
+}
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	create_equipment_variant = {
+		name = "PZL P.11"
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "PZL P.24"
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = aircraft_cannon_1_2x
+			fixed_auxiliary_weapon_slot_1 = light_mg_2x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "PZL P.23"
+		type = small_plane_cas_airframe_1
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = lmg_defense_turret
+		}
 	}
 }
 
@@ -207,7 +282,7 @@ if = {
 			tank_nsb_engine_upgrade = 1
 		}
 		obsolete = yes #used for oob
-		icon = "gfx/interface/technologies/POL_basic_light_tank.dds"
+		icon = "GFX_POL_basic_light_tank"
 	}
 	create_equipment_variant = {
 		name = "7TP dw"
@@ -225,7 +300,7 @@ if = {
 			tank_nsb_armor_upgrade = 2
 			tank_nsb_engine_upgrade = 2
 		}
-		icon = "gfx/interface/technologies/POL_imp_light_tank.dds"
+		icon = "GFX_POL_imp_light_tank"
 	}
 	create_equipment_variant = {
 		name = "7TP jw"
@@ -243,7 +318,7 @@ if = {
 			tank_nsb_armor_upgrade = 2
 			tank_nsb_engine_upgrade = 2
 		}
-		icon = "gfx/interface/technologies/POL_imp_light_tank.dds"
+		icon = "GFX_POL_imp_light_tank"
 	}
 #	add_equipment_to_stockpile = {
 #		type = light_tank_chassis_0

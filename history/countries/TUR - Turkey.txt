@@ -21,7 +21,28 @@ if = {
 		set_naval_oob = "TUR_1936_naval_legacy"
 	}
 }
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TUR_1936_air_bba"
+	else = {
+		set_air_oob = "TUR_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+		}
+	}
+}
 
+###################
+#### 3D MODELS ####
+###################
+
+#Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
+#TUR_communism
+#TUR_democratic
+#TUR_fascism
+#TUR_neutrality
 set_cosmetic_tag = TUR_neutrality
 
 set_research_slots = 3
@@ -34,12 +55,16 @@ set_technology = {
 	tech_support = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	CAS1 = 1
 	basic_train = 1
 }
 AUS = { add_to_faction = TUR }
+add_ideas = {
+	TUR_hinsi
+	rengou
+	arabu
+	kenpou
+	gun
+}
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -82,37 +107,12 @@ if = {
 		early_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		basic_battery = 1
-		basic_secondary_battery = 1
 		basic_torpedo = 1
 		coastal_defense_ships = 1
 		mtg_transport = 1
 	}
 }
-add_ideas = {
-	TUR_hinsi
-	rengou
-	arabu
-	kenpou
-	gun
-}
-set_variable = {
-	var = TUR.TUR_KAIKAKUDO
-	value = 150
-}
-add_manpower = 864210
-if = {
-	limit = {
-			has_dlc = "La Resistance"
-	}
-	set_autonomy = {
-		target = SAU
-		autonomous_state = autonomy_collaboration_government
-		freedom_level = 0.1
-	}
-	else = {
-		puppet = SAU
-	}
-}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.2.8"
@@ -123,11 +123,11 @@ set_popularities = {
 	neutrality = 94
 }
 
-set_convoys = 190
+set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.3
 
-	recruit_character = TUR_abdulmejid_ii
+recruit_character = TUR_abdulmejid_ii
 	recruit_character = TUR_mustafa_kemal_ataturk
 	recruit_character = TUR_sefik_husnu
 	recruit_character = TUR_celal_bayar
@@ -179,9 +179,6 @@ set_war_support = 0.3
 	recruit_character = TUR_ismet_inonu
 	recruit_character = TUR_nihal_atsiz
 	recruit_character = TUR_zeki_velidi_togan
-	recruit_character = TUR_nazim_hikmetr
-
-
 if = {
 	limit = {
 		AND = {

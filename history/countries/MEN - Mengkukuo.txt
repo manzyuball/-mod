@@ -7,10 +7,6 @@ set_technology = {
 	
 }
 
-add_ideas = {
-	JAP_Eikyo
-}
-
 recruit_character = MEN_prince_demchugdongrub
 recruit_character = MEN_sonin_xiangying
 recruit_character = MEN_zhao_zhanshan
@@ -74,11 +70,12 @@ recruit_character = MEN_megata_toshiro
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	fascism = 80
+	neutrality = 20
 }

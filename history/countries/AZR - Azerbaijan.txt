@@ -16,13 +16,21 @@ set_technology = {
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	strategic_bomber1 = 1
-	naval_bomber1 = 1
 	mass_assault = 1
 	fleet_in_being = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		fighter1 = 1
+		early_bomber = 1
+		strategic_bomber1 = 1
+		naval_bomber1 = 1
+	}
 }
 
 if = {
@@ -77,23 +85,17 @@ if = {
 		basic_torpedo = 1
 	}
 }
-set_politics = {
-	ruling_party = fascism
-	last_election = "1930.11.9"
-	election_frequency = 48
-	elections_allowed = no
-}
+
 set_popularities = {
-	democratic = 0
-	communism = 0
+	democratic = 30
+	communism = 40
 	neutrality = 30
-	fascism = 70
 }
 
 create_country_leader = {
 	name = "Mir Jafar Baghirov"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	picture = GFX_portrait_Mir_Jafar_Baghirov
 	expire = "1953.3.1"
 	ideology = stalinism
 	traits = {
@@ -104,7 +106,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mammad Amin Rasulzade"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = GFX_portrait_Mammad_Amin_Rasulzade
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {
@@ -115,7 +117,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Gara Garabeyov"
 	desc = ""
-	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+	picture = GFX_portrait_Gara_Garabeyov
 	expire = "1953.3.1"
 	ideology = moderatism
 	traits = {

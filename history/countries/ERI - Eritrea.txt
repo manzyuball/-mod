@@ -7,7 +7,6 @@ set_technology = {
 
 set_convoys = 10
 
-recruit_character = ERI_hikakin
 recruit_character = ERI_awt
 recruit_character = ERI_acd2
 recruit_character = ERI_nt
