@@ -76,6 +76,7 @@ set_technology = {
 	mass_assault = 1
 	fleet_in_being = 1
 	basic_train = 1
+}
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -242,5 +243,4 @@ if = {
 			rear_1_custom_slot = empty
 		}
 	}
-}
 }
