@@ -5,9 +5,7 @@ state={
 
 	history={
 		owner = SWI
-		victory_points = {
-			9620 15 
-		}
+
 		victory_points = {
 			663 10 
 		}
@@ -23,7 +21,7 @@ state={
 	}
 
 	provinces={
-		663 9638 11604 11623 
+		 663 9638 11604 11623 
 	}
 	manpower=161500
 	buildings_max_level_factor=1.000

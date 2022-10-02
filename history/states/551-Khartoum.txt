@@ -10,17 +10,7 @@ state={
 			infrastructure = 1
 			industrial_complex = 2
 			air_base = 2
-			12725 = {
-				naval_base = 3
 
-			}
-
-		}
-		victory_points = {
-			12806 3 
-		}
-		victory_points = {
-			12725 1 
 		}
 		add_claim_by = TUR
 		add_core_of = SUD

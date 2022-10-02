@@ -4,6 +4,7 @@ state={
 	provinces={
 		5239 6728 7185 7782 9615 10585 10605 13182
 	}
+	impassable = yes
 	history = {
 		owner = CAN
 		add_core_of = CAN

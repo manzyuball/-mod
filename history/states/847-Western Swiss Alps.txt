@@ -11,11 +11,13 @@ state={
 
 		}
 		add_core_of = SWI
-
+		victory_points = {
+			9620 15 
+		}
 	}
 
 	provinces={
-		636 3612 9587 9618 11590 
+		636 3612 9587 9618 9620 11590
 	}
 	manpower=198600
 	buildings_max_level_factor=1.000

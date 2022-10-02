@@ -5,7 +5,7 @@ state={
 	resources={
 		aluminium=4.000
 	}
-
+	impassable = yes
 	history={
 		owner = BRA
 		buildings = {

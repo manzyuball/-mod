@@ -2,11 +2,11 @@ state={
 	id=899
 	name="STATE_899"
 	manpower = 1163674
-	state_category = pastoral
+	state_category=rural
 
 	history={
-		owner = FRA
-		add_core_of = MLI
+		owner = GNA
+		add_core_of = GNA
 		
 		buildings = {
 			infrastructure = 2

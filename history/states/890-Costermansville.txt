@@ -3,16 +3,16 @@ state={
 	id=890
 	name="STATE_890"
 	resources={
-		rubber=3.000
+		rubber=13.000
 	}
 
 	history={
-		owner = BEL
+		owner = TZN
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = COG
+		add_core_of = TZN
 
 	}
 
