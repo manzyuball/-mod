@@ -122,13 +122,6 @@ units = {
 }
 
 
-air_wings = {
-	117 = {
-		fighter_equipment_0 =  { owner = "MLT" amount = 150 }		# Fighter Air Group -- Boeing 256s, various other aircraft
-	}
-}
-
-
 
 instant_effect = {
 	add_equipment_production = {

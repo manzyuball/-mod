@@ -506,23 +506,7 @@ units = {
 
 }
 
-### Air Forces ###
-air_wings = {
-	613 = {
-		fighter_equipment_0 = { owner = "CHI" amount = 500 }
-		tac_bomber_equipment_0 =  { owner = "CHI" amount = 250 }
-	}
-	750 = {
-		fighter_equipment_0 = { owner = "CHI" amount = 250 }
-		tac_bomber_equipment_0 =  { owner = "CHI" amount = 50 }
-	}
-	593 = {
-		fighter_equipment_0 = { owner = "CHI" amount = 100 }
-	}
-	607 = {
-		fighter_equipment_0 = { owner = "CHI" amount = 100 }
-	}
-}
+
 
 
 

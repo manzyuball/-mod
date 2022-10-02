@@ -196,22 +196,6 @@ units = {
 		start_experience_factor = 0.8
 	}
 }
-
-air_wings = {
-	12 = {
-		fighter_equipment_0 =  {
-			owner = "LAT" 
-			amount = 200
-		}
-	}
-	763 = {
-		fighter_equipment_0 =  {
-			owner = "LAT" 
-			amount = 800
-		}
-	}
-}
-
 ### Starting Production ###
 instant_effect = {
 	add_equipment_production = {

@@ -347,29 +347,6 @@ units = {
 		start_equipment_factor = 1.0
 		start_experience_factor = 0.2
 	}
-air_wings = {
-	357 = { 
-		fighter_equipment_0 =  {
-			owner = "USA" 
-			amount = 300
-		}
-		tac_bomber_equipment_0 = {
-			owner = "USA" 
-			amount = 150
-		}
-	}
-	360 = { 
-		fighter_equipment_0 =  {
-			owner = "USA" 
-			amount = 200
-		}
-		CAS_equipment_1 = {
-			owner = "USA" 
-			amount = 200
-		}
-	}
-}
-
 
 #########################
 ## STARTING PRODUCTION ##

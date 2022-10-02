@@ -194,21 +194,6 @@ units = {
 	}
 }
 
-air_wings = {
-	### Dirección General de Aeronáutica -- Buenos Aires
-	278 = {
-		# Fighter Air Group -- Dewotine D.21s
-		fighter_equipment_0 =  {
-			owner = "ARG" 
-			amount = 100
-		}
-		# CAS Air Group -- Breguet 19s
-		CAS_equipment_1 =  {
-			owner = "ARG" 
-			amount = 100
-		}
-	}
-}
 
 
 instant_effect = {

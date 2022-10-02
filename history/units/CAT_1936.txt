@@ -178,16 +178,6 @@ units = {
 }
 
 
-air_wings = {
-	### Aviação Militar -- Rio de Janiero
-	167 = {
-		# Fighter Air Group -- Boeing 256s
-		fighter_equipment_0 =  {
-			owner = "CAT" 
-			amount = 150
-		}
-	}
-}
 
 
 

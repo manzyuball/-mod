@@ -225,30 +225,6 @@ units = {
 		start_experience_factor = 0.2
 	}
 	
-air_wings = {
-	378 = {
-		tac_bomber_equipment_0 = {
-			owner = "USA" 
-			amount = 60
-		}
-		CAS_equipment_1 = {
-			owner = "USA" 
-			amount = 50
-		}
-	}
-	362 = { 
-		nav_bomber_equipment_1 =  {
-			owner = "USA" 
-			amount = 50
-		}
-	}
-	378 = { 
-		nav_bomber_equipment_1 =  {
-			owner = "USA" 
-			amount = 100
-		}
-	}
-}
 
 
 #########################

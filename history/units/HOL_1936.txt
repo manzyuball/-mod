@@ -158,22 +158,6 @@ units = {
 	}
 }
 
-### Air Wings
-air_wings = {
-	6 = {
-		fighter_equipment_0 = {
-			owner = "HOL" 
-			amount = 600
-		}
-	}
-	7 = {
-		fighter_equipment_0 = {
-			owner = "HOL" 
-			amount = 500
-		}
-	}
-}
-
 ### Starting Production ###
 instant_effect = {
 	add_equipment_production = {
