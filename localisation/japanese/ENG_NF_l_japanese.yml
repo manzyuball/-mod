@@ -1,12 +1,12 @@
-﻿l_japanese:
+l_japanese:
  uk_fu:0 "この状況に終止符を"
  uk_fu1:0 "王冠は誰の手に?"
- uk_fu2:0 "自由党との連立"
+ uk_fu2:0 "保守党との連立"
  uk_fu21:0 "民営化の推進"
  uk_fu22:0 "スターリングブロックの拡大"
  uk_fu23:0 "国富論"
  uk_fu24:0 "貿易の推進"
- uk_fu25:0 "一つの保守"
+ uk_fu25:0 "合流"
  uk_fu26:0 "勤勉と倹約"
  uk_fu11:0 "スパイの摘発"
  uk_fu12:0 "教育改革"
@@ -101,8 +101,7 @@
  kokunainokaihatu:0 "国内の開発Ⅰ"
  kokunainokaihatu_two:0 "国内の開発Ⅱ"
  kokunainokaihatu_three:0 "国内の開発Ⅲ"
-#IDEAS
-#descision
+ #descision
  ENG_Zyouriku:0 "上陸作戦"
  ENG_FRA_ZYOURIKU_ZYUNBI:0 "フランスへの上陸計画"
  ENG_Zyunbi_zyouriku_OK:0 "フランスへの上陸を計画する"
@@ -114,7 +113,7 @@
  ENG_FRA_BRITANU:0 "ブルターニュに上陸します"
  ENG_FRA_ZYOURIKU_KARE:0 "カレー上陸計画"
  ENG_FRA_KARE:0 "カレーに上陸します"
-#IDEAS
+ #IDEAS
  
  ENG_loiyalnavy:0 "ロイヤルネイビー"
  ENG_loiyalnavy2:0 "ロイヤルネイビー"
@@ -140,7 +139,7 @@
  ENG_Shuchu:0 "国内に集中"
  ENG_republic:0 "栄光ある共和国"
 
-#event 
+ #event 
  britain.start.t:0 "大英帝国"
  britain.start.d:0 "大英帝国は今、最大の繁栄を見せているように思える、しかしWW1での苦痛な敗北のツケが回ってきた。帝国に世界恐慌が襲いまたもや革命の危機がやってきたのだ。フランスやドイツは恐慌の影響を受けず今も軍拡を進め、今にもブリテン島に上陸しようと機会を疑っている...果たして帝国はこの危機を乗り越えられるのだろうか?"
  britain.start.a:0 "神よ、王を守り給え"
