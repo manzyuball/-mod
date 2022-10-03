@@ -287,7 +287,7 @@ ideas = {
 				}
 				
 				research_bonus = {
-					air_equipment = 0.15
+					air_equipment = 0.2
 				}
 				
 				traits = { light_aircraft_manufacturer_2 }
@@ -308,9 +308,12 @@ ideas = {
 				}
 							
 				research_bonus = {
-					air_equipment = 0.15
+					air_equipment = 0.2
 				}
-				
+				modifier = {
+				air_range_factor = 2
+				air_strategic_bomber_bombing_factor = 2
+				}
 				traits = { fuel_efficient_aircraft_manufacturer }
 			}
 			

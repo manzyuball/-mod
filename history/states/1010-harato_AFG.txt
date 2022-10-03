@@ -1,0 +1,23 @@
+state={
+	id=1010
+	name="STATE_1010"
+	provinces={
+		2101 4949 5020 5064 8090 10789 
+	}
+	history={
+		owner = AFG
+		victory_points = {
+			5064 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = AFG
+		add_core_of = KKP
+		}
+
+	manpower=543214
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

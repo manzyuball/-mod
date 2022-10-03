@@ -1,6 +1,15 @@
 ################
 #### SOVIET ####
 ################
+SOV_PARAMETA = {
+	icon = SOV_permanent_revolution
+	allowed = {
+		original_tag = SOV
+	}
+	available = { 
+	has_completed_focus =  SOV_NATIONAL_FORCUS
+	}
+}
 
 SOV_Ryodo = {
 	icon = SOV_civil_puppet_interaction

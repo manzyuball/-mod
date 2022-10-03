@@ -1,0 +1,26 @@
+state={
+	id=978
+	name="STATE_978"
+	provinces={
+		10074 
+	}
+	history={
+		owner = TUN
+		victory_points = {
+			10074 20 
+		}
+		buildings = {
+			air_base = 5
+			dockyard = 5
+			10074 = {
+				naval_base = 8
+		}
+		}
+		add_core_of = TUN
+
+	}
+	manpower=982635
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category= town
+}

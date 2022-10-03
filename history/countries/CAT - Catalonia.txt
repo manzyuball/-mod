@@ -12,9 +12,19 @@ set_technology = {
 	tech_mountaineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	naval_bomber1 = 1
+	
+	
+	
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		early_bomber = 1
+		naval_bomber1 = 1
+	}
 }
 add_manpower = 1000000
 declare_war_on = {
@@ -26,6 +36,18 @@ declare_war_on = {
 	type = annex_everything
 }
 set_convoys = 20
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 50
+	fascism = 3
+	communism = 47
+}
 
 set_politics = {
 	ruling_party = communism
@@ -49,31 +71,28 @@ SPR = {
 }
 create_country_leader = {
 	name = "Andreu Nin i Pérez"
-	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
+	picture = GFX_portrait_Andreu_Nin_i_Perez
 	expire = "1965.1.1"
 	ideology = marxism
 }
 
 create_country_leader = {
 	name = "Lluís Companys i Jover"
-	picture = "gfx//leaders//Europe//portrait_europe_generic_5.dds"
+	picture = GFX_portrait_Lluis_Companys_i_Jover
 	expire = "1965.1.1"
 	ideology = liberalism
 }
 
 create_country_leader = {
 	name = "Daniel Cardona i Civit"
-	picture = "gfx//leaders//Europe//portrait_europe_generic_5.dds"
+	picture = GFX_portrait_Daniel_Cardona_i_Civit
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 }
-create_country_leader = {
-	name = "無政府"
-	desc = ""
-	picture = "gfx/leaders/SPR/portrait_spr_anarchist_commune.dds"
-	ideology = anarchism
-	traits = {
-		anarchist_zeal
-	}
-}
 
+create_country_leader = {
+	name = "Francesc Cambó i Batlle"
+	picture = GFX_portrait_Francesc_Cambo_i_Batlle
+	expire = "1965.1.1"
+	ideology = centrism
+}

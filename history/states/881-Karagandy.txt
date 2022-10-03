@@ -1,0 +1,25 @@
+
+state={
+	id=881
+	name="STATE_881"
+
+	history={
+		owner = KAZ
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = VLA
+
+	}
+
+	provinces={
+		1272 1331 7337 7354 7392 10277 12139 12266 
+	}
+	manpower=227016
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

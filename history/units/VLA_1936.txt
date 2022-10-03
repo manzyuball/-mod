@@ -344,14 +344,6 @@ units = {
 }
 
 
-air_wings = {
-	### Aviação Militar -- Rio de Janiero
-	857 = {
-		fighter_equipment_0 =  { owner = "JAP" amount = 750 }		# Fighter Air Group -- Boeing 256s, various other aircraft
-	}
-}
-
-
 
 instant_effect = {
 	add_equipment_production = {

@@ -1,0 +1,421 @@
+focus_tree = {
+	id = USB_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USB
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1600 }
+
+focus = {
+	id = USB_NAISE1
+	icon = "GFX_goal_support_communism"
+	#prerequisite = { focus = }
+	#mutually_exclusive = { focus =  }
+	x = 5
+	y = 0
+	#relative_position_id = 
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_political_power = 150
+	}
+}
+focus = {
+	id = USB_NAISE2
+	icon = "GFX_focus_Rome_Caesal"
+	prerequisite = { focus =  USB_NAISE1 }
+	#mutually_exclusive = { focus =  }
+	x = 2
+	y = 1
+	relative_position_id = USB_NAISE1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { AND = { CSA = { exists = yes } USB = { has_war_with = CSA } } }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_timed_idea = {
+			idea = USB_tOUSIN
+			days = 90
+			}
+	}
+}
+focus = {
+	id = USB_NAISE20
+	icon = "GFX_focus_RAJ_lions_of_the_great_war"
+	prerequisite = { focus =  USB_NAISE2 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 1
+	relative_position_id = USB_NAISE2
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { AND = { CSA = { exists = yes } USB = { has_war_with = CSA } } }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_manpower = 250000
+		add_war_support = 0.1
+	}
+}
+focus = {
+	id = USB_NAISE23
+	icon = "GFX_focus_spr_the_anti_fascist_workers_revolution"
+	prerequisite = { focus =  USB_NAISE2 }
+	#mutually_exclusive = { focus =  }
+	x = 2
+	y = 1
+	relative_position_id = USB_NAISE2
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { AND = { CSA = { exists = yes } USB = { has_war_with = CSA } } }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_political_power = 100
+		add_stability = 0.1
+	}
+}
+focus = {
+	id = USB_NAISE24
+	icon = "GFX_focus_mex_soldaderas"
+	prerequisite = { focus =  USB_NAISE23 }
+	#mutually_exclusive = { focus =  }
+	x = 2
+	y = 2
+	relative_position_id = USB_NAISE2
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { AND = { CSA = { exists = yes } USB = { has_war_with = CSA } } }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		random_list = {
+			50 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 17500
+					producer = CSA
+					}
+					create_field_marshal = {
+						name = "george s patton"
+						picture = "gfx/leaders/USA/Portrait_USA_George_S_Patton.dds"
+						traits = { trait_reckless armor_officer war_hero trickster panzer_leader }
+						skill=5
+						attack_skill=7
+						defense_skill=3
+						planning_skill=2
+						logistics_skill=4
+						}
+			}
+			25 = {
+				army_experience = 250
+			}
+			25 = {
+				add_war_support = -0.05
+			}
+		}
+	}
+}
+
+focus = {
+	id = USB_NAISE3
+	icon = "GFX_focus_manifesto"
+	prerequisite = { focus =  USB_NAISE1 }
+	#mutually_exclusive = { focus =  }
+	x = -2
+	y = 1
+	relative_position_id = USB_NAISE1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { AND = { USN = { exists = yes } USB = { has_war_with = USN } } }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_timed_idea = {
+			idea = USB_NISIKAI
+			days = 90
+			}
+	}
+}
+focus = {
+	id = USB_NAISE30
+	icon = "GFX_focus_POL_warsaw_main_station"
+	prerequisite = { focus =  USB_NAISE3 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 1
+	relative_position_id = USB_NAISE3
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { AND = { USN = { exists = yes } USB = { has_war_with = USN } } }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_timed_idea = {
+			idea = USB_Tuikano_suppsy
+			days = 90
+			}
+	}
+}
+focus = {
+	id = USB_NAISE32
+	icon = "GFX_focus_GRE_a_land_of_mountains"
+	prerequisite = { focus =  USB_NAISE3 }
+	#mutually_exclusive = { focus =  }
+	x = -2
+	y = 1
+	relative_position_id = USB_NAISE3
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { AND = { USN = { exists = yes } USB = { has_war_with = USN } } }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_timed_idea = {
+			idea = USB_rOKKI
+			days = 90
+			}
+	}
+}
+focus = {
+	id = USB_NAISE33
+	icon = "GFX_focus_KaigunEnsyu"
+	prerequisite = { focus =  USB_NAISE32 }
+	#mutually_exclusive = { focus =  }
+	x = -2
+	y = 2
+	relative_position_id = USB_NAISE3
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { AND = { USN = { surrender_progress > 0.5 } USB = { has_war_with = USN } } }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		random_list = {
+			50 = {
+				USN = {
+					transfer_navy = {
+					target = USB
+					}
+				}
+			}
+			25 = {
+				navy_experience = 250
+			}
+			25 = {
+				add_war_support = -0.05
+			}
+		}
+	}
+}
+focus = {
+	id = USB_NAISE4
+	icon = "GFX_focus_generic_strike_at_democracy3"
+	prerequisite = { focus =  USB_NAISE1 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 1
+	relative_position_id = USB_NAISE1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { AND = { USN = { exists = no } CSA = { exists = no } } }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		declare_war_on = {
+			target = USA
+			type = annex_everything
+			}
+	}
+}
+focus = {
+	id = USB_NAISE5
+	icon = "GFX_USB_WIN"
+	prerequisite = { focus =  USB_NAISE4 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 3
+	relative_position_id = USB_NAISE1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+    set_cosmetic_tag = USB_USA_COM
+	add_stability = 0.05
+	add_country_leader_trait = USA_USB
+	hidden_effect = {
+		remove_ideas = { naisenn1 naisenn  }
+	}
+	}
+}
+focus = {
+	id = USB_NAISE6
+	icon = "GFX_focus_ger_great_red_menace"
+	prerequisite = { focus =  USB_NAISE5 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 5
+	relative_position_id = USB_NAISE1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { AND = { has_completed_focus = USB_NAISE7 has_completed_focus = USB_NAISE8 has_completed_focus = USB_NAISE9 has_completed_focus = USB_NAISE10 } }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_ideas = USB_REVORATION
+		remove_ideas = { USB_FACTRY USB_FARM USB_ARMY USB_POLITIC }
+		load_focus_tree = USB_second_focus
+	}
+}
+focus = {
+	id = USB_NAISE7
+	icon = "GFX_goal_generic_soviet_construction"
+	prerequisite = { focus =  USB_NAISE5 }
+	#mutually_exclusive = { focus =  }
+	x = -2
+	y = 5
+	relative_position_id = USB_NAISE1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	select_effect = { 
+		add_ideas = USB_FACTRY_BEFEORE
+		}
+		completion_reward = {
+		add_ideas = USB_FACTRY
+		hidden_effect = {
+			remove_ideas = USB_FACTRY_BEFEORE
+		}
+		}
+}
+focus = {
+	id = USB_NAISE8
+	icon = "GFX_focus_prc_agrarian_socialism"
+	prerequisite = { focus =  USB_NAISE5 }
+	#mutually_exclusive = { focus =  }
+	x = -4
+	y = 5
+	relative_position_id = USB_NAISE1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	select_effect = { 
+		add_ideas = USB_FARM_BEFEORE
+		}
+		completion_reward = {
+		add_ideas = USB_FARM
+		hidden_effect = {
+			remove_ideas = USB_FARM_BEFEORE
+		}
+		}
+}
+focus = {
+	id = USB_NAISE9
+	icon = "GFX_focus_SOV_builder_of_the_red_army"
+	prerequisite = { focus =  USB_NAISE5 }
+	#mutually_exclusive = { focus =  }
+	x = 2
+	y = 5
+	relative_position_id = USB_NAISE1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	select_effect = { 
+		add_ideas = USB_ARMY_BEFEORE
+		}
+		completion_reward = {
+		add_ideas = USB_ARMY
+		hidden_effect = {
+			remove_ideas = USB_ARMY_BEFEORE
+		}
+		}
+}
+focus = {
+	id = USB_NAISE10
+	icon = "GFX_focus_generic_soviet_politics"
+	prerequisite = { focus =  USB_NAISE5 }
+	#mutually_exclusive = { focus =  }
+	x = 4
+	y = 5
+	relative_position_id = USB_NAISE1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	select_effect = { 
+	add_ideas = USB_POLITIC_BEFEORE
+	}
+	completion_reward = {
+	add_ideas = USB_POLITIC
+	hidden_effect = {
+		remove_ideas = USB_POLITIC_BEFEORE
+	}
+	}
+}
+}

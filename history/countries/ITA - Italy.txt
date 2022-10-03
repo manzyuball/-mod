@@ -25,6 +25,14 @@ add_ideas = {
 }
 add_manpower = 764210
 
+############ ATOMIC RESEARCH ############
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	set_variable = { global.atomic_research_race = 0 }
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -35,14 +43,19 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	naval_bomber1 = 1
-	CAS1 = 1
+	trench_warfare = 1
 	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1 #Fiat AB611 entered service in 1933
+	}
 }
 if = {
 	limit = {
@@ -90,12 +103,10 @@ if = {
 		basic_depth_charges = 1
 		basic_torpedo = 1
 		basic_battery = 1
-		basic_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_battery = 1
 		basic_medium_battery = 1
 		basic_light_battery = 1
-		improved_secondary_battery = 1
 		basic_heavy_armor_scheme = 1
 		early_ship_hull_submarine = 1
 		basic_ship_hull_submarine = 1
@@ -111,13 +122,65 @@ if = {
 	}
 	set_naval_oob = "ITA_1936_naval_mtg"
 }
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "ITA_1936_air_bba"
+		set_technology = {
+			aa_lmg = 1
+			early_bombs = 1
+			aircraft_construction = 1
+			engines_1 = 1
+			engines_2 = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			basic_small_airframe = 1
+			basic_medium_airframe = 1
+		}
+	else = {
+		set_air_oob = "ITA_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+			naval_bomber1 = 1
+			CAS1 = 1
+		}
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	add_ideas = MTG_naval_treaty_cheating
+}
+
+
+### STOCKPILE ###
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 150
+}
+add_equipment_to_stockpile = {
+	type = gw_armored_car_equipment
+	amount = 150
+}
+add_equipment_to_stockpile = {
+	type = light_tank_chassis_0
+	amount = 150
+	variant_name = "Fiat 3000"
+}
+add_equipment_to_stockpile = {
+	type = light_tank_chassis_0
+	amount = 40
+	variant_name = "Fiat 3000B"
+}
+
 # DIPLOMACY / WAR 36
 if = {
 	limit = {
 		has_start_date < 1936.01.02
 	}
-
-
 	give_guarantee = FRA
 	give_guarantee = GER
 }
@@ -139,10 +202,11 @@ set_popularities = {
 
 FRA = { add_to_faction = ITA }
 
-recruit_character = ITA_palmiro_togliatti
-recruit_character = ITA_victor_emmanuel_iii
-recruit_character = ITA_ferruccio_parri
 recruit_character = ITA_benito_mussolini
+recruit_character = ITA_vittorio_emanuele_iii
+recruit_character = ITA_ferruccio_parri
+recruit_character = ITA_palmiro_togliatti
+recruit_character = ITA_rodolfo_graziani
 recruit_character = ITA_pietro_badoglio
 recruit_character = ITA_emilio_de_bono
 recruit_character = ITA_ugo_cavallero
@@ -150,15 +214,47 @@ recruit_character = ITA_giovanni_messe
 recruit_character = ITA_sebastiano_visconti_prasca
 recruit_character = ITA_ubaldo_soddu
 recruit_character = ITA_italo_balbo
-recruit_character = ITA_rodolfo_graziani
+
+recruit_character = ITA_ettore_bastico
+recruit_character = ITA_italo_gariboldi
+recruit_character = ITA_pietro_pintor
+recruit_character = ITA_mario_berti
+recruit_character = ITA_carlo_geloso
+recruit_character = ITA_giuseppe_tellera
+recruit_character = ITA_francesco_zingales
+recruit_character = ITA_ezio_rosi
+recruit_character = ITA_mario_vercellino
+recruit_character = ITA_prince_filiberto
+recruit_character = ITA_prince_adalberto
+recruit_character = ITA_prince_umberto
+recruit_character = ITA_alessandro_pirzio_biroli
+recruit_character = ITA_carlo_vecchiarelli
+recruit_character = ITA_mario_robotti
+recruit_character = ITA_ettore_baldassarre
+recruit_character = ITA_amedeo_guillet
+recruit_character = ITA_annibale_bergonzoli
+recruit_character = ITA_hamid_idris_awate
+recruit_character = ITA_ibrahim_farag_mohammed
+recruit_character = ITA_mario_ricci
+recruit_character = ITA_norma_barbolini
+recruit_character = ITA_luigi_longo
+recruit_character = ITA_ada_gobetti
+recruit_character = ITA_randolfo_pacciardi
+recruit_character = ITA_giuseppe_pieche
+recruit_character = ITA_giovanni_duca
+recruit_character = ITA_giuseppe_de_stefanis
+recruit_character = ITA_prince_aimone
+
 recruit_character = ITA_inigo_campioni
 recruit_character = ITA_alberto_da_zara
 recruit_character = ITA_giuseppe_fioravanzo
 recruit_character = ITA_carlo_bergamini
 recruit_character = ITA_angelo_iachino
+recruit_character = ITA_giuseppe_di_bartolo
+recruit_character = ITA_junio_valerio_borghese
+
 recruit_character = ITA_alfredo_guzzoni
 recruit_character = ITA_renato_sandalli
-recruit_character = ITA_guiseppe_fioravanzo
 recruit_character = ITA_francesco_pricolo
 recruit_character = ITA_silvio_scaroni
 recruit_character = ITA_vittorio_ambrosio
@@ -176,7 +272,6 @@ recruit_character = ITA_giovanni_marinelli
 recruit_character = ITA_serafino_mazzolini
 recruit_character = ITA_roberto_farinacci
 recruit_character = ITA_ivanoe_bonomi
-recruit_character = ITA_junio_valerio_borghese
 recruit_character = ITA_luigi_einaudi
 recruit_character = ITA_amadeo_bordiga
 recruit_character = ITA_paolo_thaon_di_revel
@@ -184,26 +279,75 @@ recruit_character = ITA_dino_grandi
 recruit_character = ITA_carlo_scorza
 recruit_character = ITA_gian_galeazzo_ciano
 
+recruit_character = ITA_alberto_pariani
+recruit_character = ITA_romeo_bernotti
+recruit_character = ITA_aldo_pellegrini
+recruit_character = ITA_achille_starace
+recruit_character = ITA_renato_ricci
+recruit_character = ITA_carlo_favagrossa
+recruit_character = ITA_alberto_beneduce
+recruit_character = ITA_guido_jung
+recruit_character = ITA_adelchi_serena
+recruit_character = ITA_curzio_malaparte
+recruit_character = ITA_giuseppe_bottai
+recruit_character = ITA_antonio_pesenti
+recruit_character = ITA_fausto_gullo
+recruit_character = ITA_giulio_paggio
+recruit_character = ITA_ignazio_silone
+recruit_character = ITA_vittorio_emanuele_orlando
+recruit_character = ITA_mario_scelba
+recruit_character = ITA_guido_de_ruggiero
+recruit_character = ITA_enrico_fermi
+recruit_character = ITA_alberto_tarchiani
+recruit_character = ITA_giuseppe_borea
+recruit_character = ITA_raffaele_de_courten
+
+recruit_character = ITA_sandro_pertini
+recruit_character = ITA_pietro_d_acquarone
+recruit_character = ITA_alberto_de_stefani
+recruit_character = ITA_ugo_luca
+recruit_character = ITA_pompeo_colajanni
+recruit_character = ITA_alcide_de_gasperi
+recruit_character = ITA_comitato_di_liberazione_nazionale
+recruit_character = ITA_papa_pio_xi
+recruit_character = ITA_papa_pio_xii
+recruit_character = ITA_antonio_gramsci
+
+recruit_character = ITA_haile_selassie_gugsa_doppleganger
+recruit_character = ITA_abba_jofir_doppleganger
+recruit_character = ITA_hailu_tekle_haymanot_doppleganger
+recruit_character = ITA_seyoum_mengesha_doppleganger
+
+
+########################################
+##### MISSIOLINIS - TRIGGER EVENTS #####
+########################################
+
+### IF NOT BBA, trigger the first Missiolini from here #TODO_Manu: PLEASE CHECK IF THIS ACTUALLY WORKS (character has just been recruited)
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	ITA_benito_mussolini = { unit_leader_event = { id = BBA_italo_ethiopian_war_events.01 days = 14 } }  # JAN 36 - Conquer Ethiopia  - APR/JUNE 36 - (120-170 days)
+}
+
+
+
 
 if = {
 	limit = {
 		has_dlc = "La Resistance"
 	}
-
-	create_operative_leader = {
-		name = "Maurizio Giglio"
-		GFX = GFX_portrait_maurizio_giglio
-		traits = { }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { ITA }
-	}
+	ITA_create_francesco_de_martini_operative = yes
+	ITA_create_paolo_caccia_dominioni_operative = yes
 }
 
 ### VARIANTS ###
 # 1936 Start #
 #plane variants
-create_equipment_variant = {
+if = {
+	limit = { NOT = { has_dlc = "By Blood Alone" } }
+	create_equipment_variant = {
 		name = "CR.42"
 		type = fighter_equipment_0
 		upgrades = {
@@ -212,10 +356,127 @@ create_equipment_variant = {
 			plane_engine_upgrade = 2
 			plane_reliability_upgrade = 1
 		}
+	}
 }
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	create_equipment_variant = {
+		name = "CR.32" #
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Ca.111" #
+		type = small_plane_cas_airframe_0
+		modules = {
+			fixed_main_weapon_slot = small_bomb_bay
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+		icon = "GFX_ITA_CAS1_medium"
+	}
+	create_equipment_variant = {
+		name = "Ca.101" #
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			engine_type_slot = engine_1_3x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		obsolete = yes
+		icon = "GFX_ITA_early_bomber_old_medium"
+	}
+	create_equipment_variant = {
+		name = "Ca.133" #
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			engine_type_slot = engine_1_3x
+			special_type_slot_1 = lmg_defense_turret_2x
+		}
+		obsolete = yes
+		icon = "GFX_ITA_early_bomber_old_medium"
+	}
+	create_equipment_variant = {
+		name = "SM.81" #
+		type = medium_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+			engine_type_slot = engine_1_3x
+			special_type_slot_1 = lmg_defense_turret_2x
+		}
+		icon = "GFX_ITA_early_bomber_medium"
+	}
+	create_equipment_variant = {
+		name = "SM.79" #
+		type = medium_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = torpedo_mounting
+			engine_type_slot = engine_2_3x
+			special_type_slot_1 = lmg_defense_turret_2x
+		}
+		icon = "GFX_ITA_naval_bomber1_medium"
+	}
+	create_equipment_variant = {
+		name = "Ba.65" #
+		type = small_plane_cas_airframe_1
+		modules = {
+			fixed_main_weapon_slot = small_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = light_mg_2x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_ITA_CAS1_medium"
+	}
+
+}
+
+#TANKS
 if = {
 	limit = {
 		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "Fiat 3000"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "GFX_ITA_basic_light_tank_medium"
+	}
+	create_equipment_variant = {
+		name = "Fiat 3000B"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "GFX_ITA_basic_light_tank_medium"
 	}
 	create_equipment_variant = {
 		name = "L3/35"
@@ -232,12 +493,12 @@ if = {
 			tank_nsb_engine_upgrade = 1
 			tank_nsb_armor_upgrade = 1
 		}
-		icon = "gfx/interface/technologies/ITA_basic_light_tank.dds"
+		icon = "GFX_ITA_basic_light_tank_medium"
 	}
 }
 if = {
 	limit = {
-		not = { has_dlc = "Man the Guns" }
+		NOT = { has_dlc = "Man the Guns" }
 	}
 	### Ship Variants ###
 	create_equipment_variant = {
@@ -393,7 +654,7 @@ if = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_engine_slot = cruiser_ship_engine_2
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 			fixed_ship_secondaries_slot = empty
 			mid_1_custom_slot = ship_medium_battery_1
@@ -412,7 +673,7 @@ if = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_engine_slot = cruiser_ship_engine_2
 			fixed_ship_armor_slot = ship_armor_cruiser_2
 			fixed_ship_secondaries_slot = empty
 			mid_1_custom_slot = ship_medium_battery_1
@@ -423,7 +684,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Bolzano Class"
-		type = ship_hull_cruiser_1
+		type = ship_hull_cruiser_2
 		name_group = ITA_CA_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -516,7 +777,7 @@ if = {
 	}
 	### Destroyer Variants
 	create_equipment_variant = {
-		name = "Curatone Class" 		#Represents the following WWI/1920s DDs/DEs: Curatone, Sauro/Sella, Turbine, Pilo, Audace, Siritori, La Masa, Palestro, Cantore
+		name = "Curtatone Class" 		#Represents the following WWI/1920s DDs/DEs: Curtatone, Sauro/Sella, Turbine, Pilo, Audace, Siritori, La Masa, Palestro, Cantore
 		type = ship_hull_light_1
 		name_group = ITA_DD_HISTORICAL
 		parent_version = 0
@@ -566,6 +827,23 @@ if = {
 		}
 	}
 	create_equipment_variant = {
+		name = "Aquila Class" 			#Represents the following WWI Aquila-Class Esploratori Leggeri
+		type = ship_hull_light_1
+		name_group = ITA_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
 			name = "Littorio Class"
 			type = ship_hull_heavy_2
 			name_group = ITA_BB_HISTORICAL
@@ -575,7 +853,7 @@ if = {
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_engine_slot = heavy_ship_engine_3
 				fixed_ship_secondaries_slot = ship_secondaries_2
 				fixed_ship_armor_slot = ship_armor_bb_2
 				front_1_custom_slot = ship_anti_air_1
@@ -611,7 +889,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Sirena Class"
-		type = ship_hull_submarine_2
+		type = ship_hull_submarine_1
 		name_group = ITA_SS_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -636,6 +914,72 @@ if = {
 
 
 1939.1.1 = {
+	if = {
+		limit = {
+			has_dlc = "By Blood Alone"
+		}
+		create_equipment_variant = {
+			name = "CR.42" #
+			type = small_plane_airframe_0
+			modules = {
+				fixed_main_weapon_slot = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = empty
+			}
+			obsolete = yes
+			icon = "GFX_ITA_early_fighter_medium"
+		}
+		create_equipment_variant = {
+			name = "G.50" #
+			type = small_plane_airframe_1
+			modules = {
+				fixed_main_weapon_slot = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Re.2000" #
+			type = small_plane_airframe_2
+			modules = {
+				fixed_main_weapon_slot = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "BR.20" #
+			type = medium_plane_airframe_1
+			modules = {
+				fixed_main_weapon_slot = medium_bomb_bay
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = lmg_defense_turret
+			}
+		}
+		create_equipment_variant = {
+			name = "Z.506" #
+			type = medium_plane_airframe_1
+			modules = {
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = torpedo_mounting
+				engine_type_slot = engine_2_3x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = lmg_defense_turret
+				special_type_slot_3 = flying_boat_medium
+			}
+			icon = "GFX_ITA_medium_plane_1_medium"
+		}
+		create_equipment_variant = {
+			name = "Ca.135" #
+			type = medium_plane_airframe_1
+			modules = {
+				fixed_main_weapon_slot = medium_bomb_bay
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = hmg_defense_turret
+			}
+		}
+	}
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		create_equipment_variant = {
@@ -741,7 +1085,7 @@ if = {
 				tank_nsb_engine_upgrade = 2
 				tank_nsb_armor_upgrade = 4
 			}
-			icon = "gfx/interface/technologies/ITA_imp_light_tank.dds"
+			icon = "GFX_ITA_improved_light_tank_medium"
 		}
 
 		create_equipment_variant = {
@@ -760,7 +1104,7 @@ if = {
 				tank_nsb_engine_upgrade = 2
 				tank_nsb_armor_upgrade = 3
 			}
-			icon = "gfx/interface/technologies/ITA_basic_main_tank.dds"
+			icon = "GFX_ITA_basic_medium_tank_medium"
 		}
 	}
 }

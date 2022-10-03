@@ -1,0 +1,20 @@
+
+state={
+	id=855
+	name="STATE_855"
+
+	history={
+		owner = SAU
+		add_core_of = SAU
+		add_claim_by = TUR
+
+	}
+
+	provinces={
+		4981 5099 7934 7970 10748 10835 12758 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

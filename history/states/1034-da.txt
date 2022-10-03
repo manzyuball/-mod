@@ -1,0 +1,21 @@
+state={
+	id=1034
+	name="STATE_1034"
+	provinces={
+		2007 10792 12729 12770 12825 
+	}
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = COL
+
+	}
+
+	manpower=65314
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

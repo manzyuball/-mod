@@ -1,0 +1,31 @@
+
+state={
+	id=859
+	name="STATE_859"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = SAU
+		add_core_of = SAU
+		add_claim_by = TUR
+		buildings = {
+			infrastructure = 1
+			12702 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1955 5024 7995 10791 10850 12702 
+	}
+	manpower=440000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

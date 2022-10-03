@@ -1,42 +1,44 @@
 
 state={
 	id=532
-	name="STATE_532" # Tokai
-	manpower = 6174000
-	state_category = metropolis
+	name="STATE_532"
 	resources={
 		steel=41.000
-		aluminium=34.000
+		aluminium=54.000
 	}
+
 	history={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 5 #was: 7
+			infrastructure = 5
 			arms_factory = 5
 			dockyard = 4
 			industrial_complex = 11
+
 		}
-		
 		victory_points = {
-			7087 5
+			7087 5 
 		}
-		
 		victory_points = {
-			10125 25
+			10125 25 
 		}
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
 				industrial_complex = 3
+
 			}
+
 		}
 
 	}
 
 	provinces={
-		4069 4172 7087 7157 7187 10100 10125 12072 12097 
+		4069 4172 7087 7157 7187 10100 10125 12072 12097 13246 
 	}
+	manpower=6174000
 	buildings_max_level_factor=1.000
-	local_supplies=0.0 
+	state_category=metropolis
+	local_supplies=0.000
 }

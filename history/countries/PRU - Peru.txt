@@ -2,6 +2,19 @@
 
 oob = "PRU_1936"
 if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "PRU_1936_air_bba"
+	else = {
+		set_air_oob = "PRU_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			cv_early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+		}
+	}
+}
+if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "PRU_1936_naval_mtg"
 	else = {
@@ -9,7 +22,6 @@ if = {
 	}
 }
 
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -21,11 +33,6 @@ set_technology = {
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	strategic_bomber1 = 1
-	naval_bomber1 = 1
 	mass_assault = 1
 	fleet_in_being = 1
 	
@@ -77,6 +84,7 @@ recruit_character = PRU_oscar_miro_quesada
 recruit_character = PRU_jose_bustamante_y_rivero
 recruit_character = PRU_armando_reveredo_iglesias
 recruit_character = PRU_reynaldo_vinatea
+
 
 add_manpower = 300000
 set_research_slots = 4

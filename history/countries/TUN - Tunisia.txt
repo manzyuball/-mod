@@ -73,6 +73,7 @@ recruit_character = TUN_fascist_guy
 	}
 }
 
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"

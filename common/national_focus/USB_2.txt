@@ -1,0 +1,396 @@
+focus_tree = {
+	id = USB_second_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 5
+			tag = USB
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1600 }
+
+focus = {
+	id = USB_SEI1
+	icon = "GFX_goal_support_communism"
+	#prerequisite = { focus = }
+	#mutually_exclusive = { focus =  }
+	x = 10
+	y = 0
+	#relative_position_id = 
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_research_slot = 1
+
+	}
+}
+focus = {
+	id = USB_SEI2
+	icon = "GFX_goal_generic_dangerous_deal"
+	prerequisite = { focus = USB_SEI1 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 1
+	relative_position_id = USB_SEI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+focus = {
+	id = USB_SEI3
+	icon = "GFX_focus_chi_reach_out_to_france"
+	prerequisite = { focus = USB_SEI2 }
+	mutually_exclusive = { focus = USB_SEI4 }
+	x = -4
+	y = 2
+	relative_position_id = USB_SEI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		reverse_add_opinion_modifier = {
+			target = FRA
+			modifier = kyuusekkinn
+			}
+			FRA = { add_to_faction = USB }
+	}
+}
+focus = {
+	id = USB_SEI30
+	icon = "GFX_focus_fra_loyalty_trotzky"
+	prerequisite = { focus = USB_SEI3 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 1
+	relative_position_id = USB_SEI3
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_ideas = { USB_FOR_INT }
+	}
+}
+focus = {
+	id = USB_SEI31
+	icon = "GFX_focus_chi_cooperation_with_the_nationalists"
+	prerequisite = { focus = USB_SEI3 }
+	#mutually_exclusive = { focus =  }
+	x = 2
+	y = 1
+	relative_position_id = USB_SEI3
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		reverse_add_opinion_modifier = {
+			target = CHI
+			modifier = kyuusekkinn
+			}
+			diplomatic_relation = {
+				country = CHI
+				relation = guarantee
+				active = yes
+				}
+				CHI = {
+				diplomatic_relation = {
+					country = CHI
+					relation = guarantee
+					active = yes
+					}
+				}
+	}
+}
+focus = {
+	id = USB_SEI32
+	icon = "GFX_focus_fra_le_deluge"
+	prerequisite = { focus = USB_SEI3 }
+	#mutually_exclusive = { focus =  }
+	x = -2
+	y = 1
+	relative_position_id = USB_SEI3
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_offsite_building = { type = arms_factory level = 6 }
+	}
+}
+focus = {
+	id = USB_SEI33
+	icon = "GFX_focus_SOV_international_union_of_soviet_republics"
+	prerequisite = { focus = USB_SEI30 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 2
+	relative_position_id = USB_SEI3
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		set_rule = {
+			can_declare_war_without_wargoal_when_in_war = yes
+			}
+	}
+}
+focus = {
+	id = USB_SEI4
+	icon = "GFX_focus_chi_mission_to_the_soviet_union"
+	prerequisite = { focus = USB_SEI2 }
+	mutually_exclusive = { focus = USB_SEI3 }
+	x = 4
+	y = 2
+	relative_position_id = USB_SEI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = USB_SEI40
+	icon = "GFX_focus_SOV_bukharinists"
+	prerequisite = { focus = USB_SEI4 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 1
+	relative_position_id = USB_SEI4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = USB_SEI41
+	icon = "GFX_focus_SOV_socialism_in_one_country"
+	prerequisite = { focus = USB_SEI4 }
+	#mutually_exclusive = { focus =  }
+	x = 2
+	y = 1
+	relative_position_id = USB_SEI4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = USB_SEI42
+	icon = "GFX_focus_por_latin_american_communism"
+	prerequisite = { focus = USB_SEI4 }
+	#mutually_exclusive = { focus =  }
+	x = -2
+	y = 1
+	relative_position_id = USB_SEI4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = USB_SEI43
+	icon = "GFX_focus_SOV_the_path_of_marxism_leninism"
+	prerequisite = { focus = USB_SEI40 }
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 2
+	relative_position_id = USB_SEI4
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+	}
+}
+focus = {
+	id = USB_SEI44
+	icon = "GFX_NO_IMAGE"
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 2
+	relative_position_id = USB_SEI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { OR = { has_completed_focus = USB_SEI33 has_completed_focus = USB_SEI43 } }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		reverse_add_opinion_modifier = {
+			target = CAN
+			modifier = dankou
+			}
+	}
+}
+focus = {
+	id = USB_SEI45
+	icon = "GFX_USA_senryaku"
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 4
+	relative_position_id = USB_SEI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { has_completed_focus = USB_SEI44 }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		add_ideas = USB_SINRYAKU
+	}
+}
+focus = {
+	id = USB_SEI46
+	icon = "GFX_NO_IMAGE"
+	#mutually_exclusive = { focus =  }
+	x = 2
+	y = 4
+	relative_position_id = USB_SEI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { has_completed_focus = USB_SEI45 }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		declare_war_on = {
+			target = ENG
+			type = annex_everything
+			}
+	}
+}
+focus = {
+	id = USB_SEI47
+	icon = "GFX_NO_IMAGE"
+	#mutually_exclusive = { focus =  }
+	x = -2
+	y = 4
+	relative_position_id = USB_SEI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { has_completed_focus = USB_SEI45 }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		declare_war_on = {
+			target = JAP
+			type = annex_everything
+			}
+	}
+}
+focus = {
+	id = USB_SEI48
+	icon = "GFX_NO_IMAGE"
+	#mutually_exclusive = { focus =  }
+	x = 0
+	y = 5.6
+	relative_position_id = USB_SEI1
+	cost = 10
+	ai_will_do = { factor = 1 }
+	available = { has_completed_focus = USB_SEI45 }
+	bypass = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = { }
+	completion_reward = {
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = MEX
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = HON
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = PAN
+					}
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = COL
+						}
+						create_wargoal = {
+							type = puppet_wargoal_focus
+							target = PRU
+							}
+
+	}
+}
+}

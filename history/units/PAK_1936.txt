@@ -36,11 +36,6 @@ units = {}
 	
 	
 
-air_wings = {
-	### AHQ India
-	
-}
-
 
 ##### Starting Production #####
 instant_effect = {

@@ -1,3 +1,98 @@
+SOV_PARAMETA = {
+
+    soviet_need_fake_paper = {
+
+        icon = bul_legalize_zveno
+   
+        cost = 25
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+            custom_trigger_tooltip = SOV_B_R
+           
+            check_variable = {
+                SOV.BAD_LERDER_POINT > 10
+                }
+                check_variable = {
+                    SOV.real_good_country_point > 10
+                    }
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_BHUHA_5_SOVIET_BUILT_5
+            hidden_effect = {
+                add_to_variable = {
+                   var = SOV.BAD_LERDER_POINT
+                   value = -5
+                }
+                add_to_variable = {
+                    var = SOV.real_good_country_point
+                    value = -5
+                 }
+            }
+        }
+    }
+    soviet_kuraku_lost = {
+
+        icon = hol_attract_foreign_investors
+   
+        cost = 25
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+        has_completed_focus = SOV_FACTRY_1
+        check_variable = {
+        SOV.FARM_POINT > 5
+        }
+        }
+        complete_effect = {
+
+        }
+        days_remove = 30
+        remove_effect = {
+            custom_effect_tooltip = SOV_FRAR_5
+            hidden_effect = {
+                add_to_variable = {
+                   var = SOV.FARM_POINT
+                   value = -5
+                }
+            }
+        }
+    }
+    soviet_kuraku_kyousei = {
+
+        icon = hol_attract_foreign_investors
+   
+        cost = 25
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+        has_completed_focus = SOV_FACTRY_1
+        check_variable = {
+        SOV.FARM_POINT > 5
+        }
+        }
+        complete_effect = {
+
+        }
+        days_remove = 30
+        remove_effect = {
+            custom_effect_tooltip = SOV_FRAR_5_BAD_5
+            hidden_effect = {
+                add_to_variable = {
+                   var = SOV.FARM_POINT
+                   value = -5
+                }
+                add_to_variable = {
+                    var = SOV.BAD_LERDER_POINT
+                    value = 5
+                 }
+            } 
+        }
+    }
+}
 SOV_Ryodo = {
 
      soviet_finland_pact = {

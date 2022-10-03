@@ -1,0 +1,31 @@
+
+state={
+	id=984
+	name="STATE_984"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = LAT
+		victory_points = {
+			6521 45 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 4
+			industrial_complex = 5
+			anti_air_building = 5
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		6521 13281 13282 13283 13284 
+	}
+	manpower=3218341
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

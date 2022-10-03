@@ -672,29 +672,7 @@ units = {
 	}
 }
 
-air_wings = {
-	4 = {
-		fighter_equipment_0 =  {
-			owner = "AUS" 
-			creator = "AUS"
-			amount = 100
-		}
-	}
-	856 = {
-		fighter_equipment_0 =  {
-			owner = "AUS" 
-			creator = "AUS"
-			amount = 100
-		}
-	}
-	43 = {
-		fighter_equipment_0 =  {
-			owner = "AUS" 
-			creator = "AUS"
-			amount = 100
-		}
-	}
-}
+
 
 ### Starting Production ###
 instant_effect = {

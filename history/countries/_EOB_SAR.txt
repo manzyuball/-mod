@@ -11,11 +11,6 @@ set_technology = {
 	tech_mountaineers = 1
 	motorised_infantry = 1
 	gw_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	naval_bomber1 = 1
-	CAS1 = 1
 	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
@@ -94,27 +89,6 @@ add_ideas = {
 
 set_convoys = 25
 
-recruit_character = MLT_Government
-recruit_character = MLT_Umberto_II
-recruit_character = MLT_nt
-recruit_character = MLT_communist_guy
-recruit_character = MLT_pot
-recruit_character = MLT_acas
-recruit_character = MLT_acr
-recruit_character = MLT_stc
-recruit_character = MLT_ai2
-recruit_character = MLT_ncs
-recruit_character = MLT_ncm
-recruit_character = MLT_acd2
-recruit_character = MLT_democratic_guy
-recruit_character = MLT_fascist_guy
-recruit_character = MLT_coi
-recruit_character = MLT_ar
-recruit_character = MLT_aa2
-recruit_character = MLT_awt
-recruit_character = MLT_acgs
-recruit_character = MLT_mt
-recruit_character = MLT_nccr
 
 
 set_politics = {

@@ -2,7 +2,17 @@
 
 
 oob = "BRA_1936"
-
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "BRA_1936_air_bba"
+	else = {
+		set_air_oob = "BRA_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
+		}
+	}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -10,14 +20,27 @@ set_technology = {
 	tech_engineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	gwtank = 1
-	early_fighter = 1
-	CAS1 = 1
 	basic_train = 1	
 }
 if = {
 	limit = {
-		not = { has_dlc = "Man the Guns" }
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns"}
 	}
 	set_technology = {
 		early_submarine = 1
@@ -30,7 +53,7 @@ if = {
 	set_naval_oob = "BRA_1936_naval_legacy"
 }
 if = {
-	limit = { has_dlc = "Man the Guns" }
+	limit = { has_dlc = "Man the Guns"}
 	set_technology = {
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
@@ -40,13 +63,12 @@ if = {
 		early_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		basic_battery = 1
-		basic_secondary_battery = 1
 		basic_torpedo = 1
 		mtg_transport = 1
 	}
 	set_naval_oob = "BRA_1936_naval"	
 }
-set_country_flag = monroe_doctrine
+
 
 recruit_character = BRA_getulio_vargas
 recruit_character = BRA_plinio_salgado
@@ -96,7 +118,6 @@ add_ideas = {
 	BRA_mayaku
 }
 set_convoys = 100
-
 if = {
 	limit = {
 		has_dlc = "Man the Guns"

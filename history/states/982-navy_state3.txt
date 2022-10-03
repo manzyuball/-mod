@@ -1,0 +1,34 @@
+state={
+	id=982
+	name="STATE_982"
+	provinces={
+		4296 4398 7315 7386 10157 10242 
+	}
+	history={
+		owner = USN
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 5
+			7315 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = USA
+		add_core_of = USN
+		add_core_of = USB
+		add_core_of = CSA
+		victory_points = {
+			7315 15 
+		}
+
+	}
+	manpower=1207682
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category= large_city
+}

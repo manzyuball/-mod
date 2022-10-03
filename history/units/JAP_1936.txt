@@ -324,58 +324,6 @@ units = {
 	}
 }
 
-#AIRCRAFT
-air_wings = {
-	845 = { 
-		fighter_equipment_0 = {
-			owner = "JAP" 
-			amount = 250
-		}
-		CAS_equipment_1 =  {
-			owner = "JAP" 
-			amount = 100
-		}
-		tac_bomber_equipment_0 =  {
-			owner = "JAP" 
-			amount = 50
-		}
-	}
-
-	531 = {
-		fighter_equipment_0 = {
-			owner = "JAP" 
-			amount = 400
-		}
-		CAS_equipment_1 =  {
-			owner = "JAP" 
-			amount = 100
-		}
-	}
-
-	529 = {
-		CAS_equipment_1 =  {
-			owner = "JAP" 
-			amount = 200
-		}
-
-	}
-	524 = { 
-		cv_fighter_equipment_0 =  {
-			owner = "JAP" 
-			amount = 200
-		}
-		cv_CAS_equipment_1 = {
-			owner = "JAP" 
-			amount = 100
-		}
-		cv_nav_bomber_equipment_1 =  {
-			owner = "JAP" 
-			amount = 100
-		}
-
-	}
-}
-
 
 #########################
 ## STARTING PRODUCTION ##

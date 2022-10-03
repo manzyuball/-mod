@@ -123,28 +123,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 }
-
-### Flygvapnet ###
-air_wings = {
-	141 = {
-		CAS_equipment_1 = {
-			owner = "SWE" 
-			amount = 200
-		}
-		fighter_equipment_0 =  {
-			owner = "SWE" 
-			amount = 400
-		}
-	}
-	140 = {
-		cv_nav_bomber_equipment_1 =  {
-			owner = "SWE" 
-			amount = 50
-		}
-	}
-}
-
-### Starting Production ###
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

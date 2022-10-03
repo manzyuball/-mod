@@ -207,19 +207,6 @@ units = {
 
 }
 
-### Air Wings
-air_wings = {
-	# Arma de Aviación -- Madrid (Getafe)
-	41 = { 
-		# Grupo n.1 de Caza FARE 'Alas Rojas'
-		fighter_equipment_0 = {
-			owner = "SPR" 
-			amount = 100
-		}
-	}
-}
-
-
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

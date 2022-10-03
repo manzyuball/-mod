@@ -1,0 +1,19 @@
+
+state={
+	id=861
+	name="STATE_861"
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		1657 4666 13162 13164 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

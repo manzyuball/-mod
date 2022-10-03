@@ -1,0 +1,41 @@
+state={
+	id=993
+	name="STATE_993"
+	provinces={
+		6845 
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+			6845 = {
+				naval_base = 8
+
+			}
+
+		}
+		add_core_of = USN
+		add_core_of = USB
+		add_core_of = USA
+		add_core_of = CSA
+		victory_points = {
+			6845 20 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 6
+				dockyard = 8
+
+			}
+
+		}
+
+	}
+	manpower=4215393
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

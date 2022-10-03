@@ -78,7 +78,7 @@ set_stability = 0.8
 		dispersed_industry2 = 1
 	}
 }
-ENG = { add_to_faction = OMA }
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

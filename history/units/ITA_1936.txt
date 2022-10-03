@@ -164,41 +164,6 @@ units = {
 }
 
 
-
-##### AIR WINGS #####
-air_wings = { 
-	### ITALY ###
-	162 = { 
-		heavy_fighter_equipment_1 = { 
-			amount = 200
-			owner = "ITA" 
-		} 
-		tac_bomber_equipment_0 = { 
-			amount = 200
-			owner = "ITA" 
-		} 
-	} 
-
-	# 3a Squadra Aerea - SQA3 (Rome)
-	161 = { 
-		heavy_fighter_equipment_1 = { 
-			amount = 250
-			owner = "ITA" 
-		}
-		tac_bomber_equipment_0 = { 
-			amount = 225
-			owner = "ITA" 
-		} 
-		# 8a Brigata Aerea 'Astore'
-		strat_bomber_equipment_1 = { 
-			amount = 125
-			owner = "ITA" 
-		} 
-	}
-
-} 
-
-
 ####### Starting Production Queue #######
 instant_effect = { 
 	if = { 

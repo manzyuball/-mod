@@ -27,6 +27,7 @@ recruit_character = GNA_aa2
 recruit_character = GNA_acr
 recruit_character = GNA_coi
 recruit_character = GNA_awt
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -34,8 +35,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 40
-	fascism = 5
-	communism = 10
-	neutrality = 45
+	democratic = 25
+	fascism = 20
+	communism = 5
+	neutrality = 50
 }

@@ -1,6 +1,7 @@
 ﻿capital = 439
 oob = "IVO_1936"
 # Starting tech
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -9,11 +10,10 @@ set_technology = {
 	tech_recon = 1
 	trench_warfare = 1
 	fleet_in_being = 1
-	CAS1 = 1
-	early_fighter = 1
 	fuel_silos = 1
 	fuel_refining = 1
 }
+
 
 set_convoys = 45
 set_autonomy = {
@@ -36,5 +36,10 @@ set_popularities = {
 RAJ = {
 	every_owned_state = {
 	add_core_of = IVO
+	}		
+}
+IVO = {
+	every_owned_state = {
+	add_core_of = RAJ
 	}		
 }

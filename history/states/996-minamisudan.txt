@@ -1,0 +1,27 @@
+
+state={
+	id=996
+	name="STATE_996"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		add_core_of = SUD
+		add_core_of = TZN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_claim_by = TUR
+
+	}
+
+	provinces={
+		1953 7996 10764 10908 
+	}
+	manpower=30538
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

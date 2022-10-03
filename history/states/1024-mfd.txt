@@ -1,0 +1,24 @@
+state={
+	id=1024
+	name="STATE_1024"
+	provinces={
+		4677 4719 7725 7786 10559 10683 12622 
+	}
+	history={
+		owner = VLA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = VLA
+		add_core_of = SOV
+
+	}
+
+	manpower=32143
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=890
+	name="STATE_890"
+	resources={
+		rubber=13.000
+	}
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TZN
+
+	}
+
+	provinces={
+		1181 4941 7161 10766 12907 
+	}
+	manpower=710035
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

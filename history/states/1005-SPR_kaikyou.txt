@@ -1,0 +1,25 @@
+state={
+	id=1005
+	name="STATE_1005"
+	provinces={
+		9945
+	}
+		history={
+			victory_points = {
+				9945 10
+			}
+			owner = ENG
+			buildings = {
+				infrastructure = 2
+				9945 = {
+					naval_base = 3
+	
+				}
+			}
+	
+		}
+	manpower=626345
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

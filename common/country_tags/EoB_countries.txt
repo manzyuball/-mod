@@ -1,2 +1,4 @@
 VNI	= "countries/_EOB_VNI.txt"
 SAR	= "countries/_EOB_SAR.txt"
+USN = "countries/United States Navy.txt"
+WAL = "countries/Warakia.txt"
