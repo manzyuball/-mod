@@ -257,10 +257,10 @@
 		completion_reward = {
 			KOR = { 
 				transfer_state = 527
-				transfer_state = 867
+				transfer_state = 1009
 				transfer_state = 525
-				transfer_state = 866
-				transfer_state = 865
+				transfer_state = 1007
+				transfer_state = 1008
 				add_ideas = Tyousen_syokuminti
 				add_country_leader_trait = jap_Manzyu
 			}

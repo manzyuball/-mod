@@ -1,0 +1,14 @@
+FRA_army_plan = {
+	enable = {
+		tag = FRA
+	}
+	
+	abort = {
+		has_war = no
+	}
+
+    ai_strategy = {
+        type = force_build_armies
+        value = 750
+    }
+}

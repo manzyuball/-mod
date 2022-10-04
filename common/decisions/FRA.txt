@@ -182,15 +182,46 @@ FRA_Ryoud_Kakutyo = {
                     target = SWI
                     type = annex_everything
                     }
-                add_state_claim = 871
+                add_state_claim = 845
                GER = { 
-                add_state_claim = 873
                 add_state_claim = 3
                 add_state_claim = 151
                 }
                 ITA = {
-                    add_state_claim = 872
-                    add_state_claim = 870
+                    add_state_claim = 846
+                    add_state_claim = 847
+                }
+                
+            }
+        }
+        FRA_SWI_BUNKATU = {
+            icon = generic_ignite_civil_war
+            available = {
+                AND = {
+                OR = {
+                SWI = { is_in_faction_with = FRA }
+                SWI = { exists = no }
+                }
+                ITA = { is_in_faction_with = FRA }
+                GER = { is_in_faction_with = FRA }
+                }
+            }
+            visible = {
+            }
+            cost = 0
+            fire_only_once = yes
+            ai_will_do = {
+                factor = 1000
+            }
+            complete_effect = {
+                transfer_state = 845
+               GER = { 
+                transfer_state = 3
+                transfer_state =  151
+                }
+                ITA = {
+                    transfer_state = 846
+                    transfer_state = 847
                 }
                 
             }
@@ -272,6 +303,7 @@ FRA_Ryoud_Kakutyo = {
             transfer_state = 10 
             transfer_state = 977 
             transfer_state = 98 
+            transfer_state = 90
             transfer_state = 97
             transfer_state = 92
             transfer_state = 88
@@ -304,14 +336,15 @@ FRA_Ryoud_Kakutyo = {
             transfer_state = 664
             transfer_state = 70
             transfer_state = 71
-            transfer_state = 877
-            transfer_state = 876
             transfer_state = 45
             transfer_state = 764
             transfer_state = 82
             transfer_state = 83
             transfer_state = 76
             transfer_state = 84
+            transfer_state = 1014
+            transfer_state = 1015
+            transfer_state = 1016
             }
             GER = { puppet = BLR }
             BLR = { 
@@ -319,7 +352,6 @@ FRA_Ryoud_Kakutyo = {
             transfer_state = 206 
             transfer_state = 204
             transfer_state = 194
-            transfer_state = 201
             transfer_state = 94
             transfer_state = 93
             transfer_state = 95
@@ -403,17 +435,23 @@ FRA_Ryoud_Kakutyo = {
             }
             FRA = { puppet = SAU }
             SAU = { 
-            transfer_state = 678
-            transfer_state = 292
-            transfer_state = 975
             transfer_state = 455
             transfer_state = 679
+            transfer_state = 975
+            transfer_state = 854
+            transfer_state = 855
+            transfer_state = 857
+            transfer_state = 292
+            transfer_state = 859
+            transfer_state = 856
+            transfer_state = 858
+            transfer_state = 678
             }
             ITA = { puppet = GRE }
             GRE = { 
             transfer_state = 185
             transfer_state = 805
-            transfer_state = 855
+            transfer_state = 997
             transfer_state = 47
             transfer_state = 186
             transfer_state = 182
@@ -439,7 +477,7 @@ FRA_Ryoud_Kakutyo = {
                 transfer_state = 107    
                 transfer_state = 104
                 transfer_state = 804
-                transfer_state = 879
+                transfer_state = 1046
                 transfer_state = 163 
                 transfer_state = 103
                 transfer_state = 109
@@ -447,6 +485,9 @@ FRA_Ryoud_Kakutyo = {
                 transfer_state = 736
                 transfer_state = 160
                 transfer_state = 39
+                transfer_state = 850
+                transfer_state = 852
+                transfer_state =  853
             }
 
         }

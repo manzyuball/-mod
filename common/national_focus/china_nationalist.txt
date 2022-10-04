@@ -2020,48 +2020,9 @@
 		}
 	}
 	focus = {
-		id = CHI_S36
-		icon = "GFX_focus_jap_manchurian_project"
-		x = -1
-		y = 3
-		prerequisite = { focus = CHI_S35 }
-		relative_position_id = CHI_S4
-		cost = 5
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		available = {
-		}
-
-		completion_reward = {
-			if = {
-				limit = {
-				MAN = {
-					is_puppet_of = CHI
-				}
-			}
-			annex_country = {
-				target = MAN
-				transfer_troops = yes
-				}
-			}
-			add_state_core = 851
-			add_state_core = 610
-			add_state_core = 609
-			add_state_core = 716
-			add_state_core = 715
-			add_state_core = 328
-			add_state_core = 717
-			add_state_core = 714
-			add_state_core = 745
-		}
-	}
-	focus = {
 		id = CHI_S37
 		icon = "GFX_focus_SOV_the_glory_of_the_red_army_alternative"
-		x = 1
+		x = 0
 		y = 3
 		prerequisite = { focus = CHI_S35 }
 		relative_position_id = CHI_S4
@@ -2084,7 +2045,7 @@
 	focus = {
 		id = CHI_S38
 		icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
-		x = 1
+		x = 0
 		y = 4
 		prerequisite = { focus = CHI_S37 }
 		relative_position_id = CHI_S4

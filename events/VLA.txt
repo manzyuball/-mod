@@ -305,9 +305,9 @@ country_event = {
 	option = {
 		name = VLA.9.a
 		VLA = {
-			add_state_core = 885
+			add_state_core = 1023
 			add_state_core = 329
-			transfer_state = 885
+			transfer_state = 1023
 			transfer_state = 329
 			give_guarantee = MON
 		
@@ -336,7 +336,7 @@ country_event = {
 				target = MON
 				}
 	
-				add_state_claim = 885
+				add_state_claim = 1023
 				add_state_claim = 329
 		}
 

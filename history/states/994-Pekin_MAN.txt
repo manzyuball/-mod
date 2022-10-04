@@ -8,6 +8,7 @@ state={
 		owner = MAN
 		add_core_of = MAN
 		add_core_of = PRC
+		add_claim_by = CHI
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 7
