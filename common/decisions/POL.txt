@@ -105,7 +105,7 @@ POL_KAKUDAI = {
 	POL_DAIPoll = {
 		available = {
 			FROM = {	
-                all_neighbor_state = { is_core_of = POL }
+                any_neighbor_state = { is_core_of = POL }
 				NOT = { is_core_of = POL }
 				NOT = { is_claimed_by = POL }
 			}

@@ -100,7 +100,8 @@
 			add_state_core = 117
 			add_state_core = 156
 			add_state_core = 115
-			add_state_core = 835
+			add_state_core = 849
+			add_state_core = 978
 			annex_country = {
 				target = MLT
 				transfer_troops = yes

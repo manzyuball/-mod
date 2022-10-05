@@ -77,6 +77,7 @@ focus_tree = {
 		completion_reward = {
 		add_stability = 0.1
 		custom_effect_tooltip = SOV_FRAM_AND_FACTORY
+		add_ideas = SOV_FACTORY_FACTOR1
 		}
 	} 
 	focus = {
@@ -92,6 +93,9 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			check_variable = {
+				SOV.FARM_POINT < 85
+				}
 		}
 		bypass = {
 		}
@@ -100,7 +104,33 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR1
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR1
+					add_idea = SOV_FACTORY_FACTOR2
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR2
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR2
+					add_idea = SOV_FACTORY_FACTOR3
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR3
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR3
+					add_idea = SOV_FACTORY_FACTOR4
+					}
+			}
 		}
 	} 
 	focus = {
@@ -116,6 +146,9 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			check_variable = {
+				SOV.FARM_POINT < 66
+				}
 		}
 		bypass = {
 		}
@@ -124,7 +157,33 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR1
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR1
+					add_idea = SOV_FACTORY_FACTOR2
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR2
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR2
+					add_idea = SOV_FACTORY_FACTOR3
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR3
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR3
+					add_idea = SOV_FACTORY_FACTOR4
+					}
+			}
 		}
 	} 
 	focus = {
@@ -140,6 +199,9 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			check_variable = {
+				SOV.FARM_POINT < 85
+				}
 		}
 		bypass = {
 		}
@@ -148,7 +210,33 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR1
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR1
+					add_idea = SOV_FACTORY_FACTOR2
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR2
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR2
+					add_idea = SOV_FACTORY_FACTOR3
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR3
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR3
+					add_idea = SOV_FACTORY_FACTOR4
+					}
+			}
 		}
 	}
 	focus = {
@@ -156,6 +244,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_construction"
 		prerequisite = { focus = SOV_FACTRY_4 }
 		prerequisite = { focus = SOV_FACTRY_3 }
+		prerequisite = { focus = SOV_FACTRY_2 }
 		#mutually_exclusive = { focus =  }
 		x = -1
 		y = 2
@@ -165,6 +254,9 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			check_variable = {
+				SOV.FARM_POINT < 51
+				}
 		}
 		bypass = {
 		}
@@ -173,7 +265,42 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR4
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR4
+					add_idea = SOV_FACTORY_FACTOR5
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR5
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR5
+					add_idea = SOV_FACTORY_FACTOR6
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR6
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR6
+					add_idea = SOV_FACTORY_FACTOR7
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR7
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR7
+					add_idea = SOV_FACTORY_FACTOR8
+					}
+			}
 		}
 	}
 	focus = {
@@ -189,6 +316,9 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			check_variable = {
+				SOV.FARM_POINT < 21
+				}
 		}
 		bypass = {
 		}
@@ -197,7 +327,42 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR4
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR4
+					add_idea = SOV_FACTORY_FACTOR5
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR5
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR5
+					add_idea = SOV_FACTORY_FACTOR6
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR6
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR6
+					add_idea = SOV_FACTORY_FACTOR7
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR7
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR7
+					add_idea = SOV_FACTORY_FACTOR8
+					}
+			}
 		}
 	}
 	focus = {
@@ -205,6 +370,7 @@ focus_tree = {
 		icon ="GFX_goal_generic_construction"
 		prerequisite = { focus = SOV_FACTRY_2 }
 		prerequisite = { focus = SOV_FACTRY_3 }
+		prerequisite = { focus = SOV_FACTRY_4 }
 		#mutually_exclusive = { focus =  }
 		x = 1
 		y = 2
@@ -214,6 +380,9 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			check_variable = {
+				SOV.FARM_POINT < 51
+				}
 		}
 		bypass = {
 		}
@@ -222,7 +391,42 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR4
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR4
+					add_idea = SOV_FACTORY_FACTOR5
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR5
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR5
+					add_idea = SOV_FACTORY_FACTOR6
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR6
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR6
+					add_idea = SOV_FACTORY_FACTOR7
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR7
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR7
+					add_idea = SOV_FACTORY_FACTOR8
+					}
+			}
 		}
 	}
 	focus = {
@@ -238,6 +442,9 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			check_variable = {
+				SOV.FARM_POINT < 21
+				}
 		}
 		bypass = {
 		}
@@ -246,7 +453,42 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR4
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR4
+					add_idea = SOV_FACTORY_FACTOR5
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR5
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR5
+					add_idea = SOV_FACTORY_FACTOR6
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR6
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR6
+					add_idea = SOV_FACTORY_FACTOR7
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR7
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR7
+					add_idea = SOV_FACTORY_FACTOR8
+					}
+			}
 		}
 	}
 	focus = {
@@ -263,6 +505,9 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			check_variable = {
+				SOV.FARM_POINT < 6
+				}
 		}
 		bypass = {
 		}
@@ -271,7 +516,10 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = SOV_FACTORY_FACTOR8
+				add_idea = SOV_FACTORY_FACTOR9
+				}
 		}
 	}
 	focus = {

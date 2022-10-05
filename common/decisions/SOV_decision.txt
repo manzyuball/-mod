@@ -36,7 +36,7 @@ SOV_PARAMETA = {
 
         icon = hol_attract_foreign_investors
    
-        cost = 25
+        cost = 75
         fire_only_once = no
         visible = {
         }
@@ -64,7 +64,7 @@ SOV_PARAMETA = {
 
         icon = hol_attract_foreign_investors
    
-        cost = 25
+        cost = 10
         fire_only_once = no
         visible = {
         }
@@ -90,6 +90,136 @@ SOV_PARAMETA = {
                     value = 5
                  }
             } 
+        }
+    }
+    soviet_kuraku_fact = {
+
+        icon = hol_attract_foreign_investors
+   
+        cost = 10
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+        has_completed_focus = SOV_FACTRY_1
+        check_variable = {
+        SOV.FARM_POINT > 10
+        }
+        }
+        complete_effect = {
+
+        }
+        modifier = {
+            civilian_factory_use = 5
+        }
+        days_remove = 30
+        remove_effect = {
+            custom_effect_tooltip = SOV_FRAR_5_BAD_5
+            hidden_effect = {
+                add_to_variable = {
+                   var = SOV.FARM_POINT
+                   value = -10
+                }
+            } 
+        }
+    }
+    soviet_army_tenkan = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+        has_completed_focus = SOV_FACTRY_9
+        NOT = { has_idea = SOV_FACTORY_FACTOR_ARMY }
+        }
+        complete_effect = {
+            if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR9
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR9
+					add_idea = SOV_FACTORY_FACTOR_ARMY
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR_MINKA
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR_MINKA
+					add_idea = SOV_FACTORY_FACTOR_ARMY
+					}
+			}
+        }
+    }
+    soviet_Minkan_tenkan = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+            has_completed_focus = SOV_FACTRY_9
+            NOT = { has_idea = SOV_FACTORY_FACTOR_MINKA }
+        }
+        complete_effect = {
+            if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR9
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR9
+					add_idea = SOV_FACTORY_FACTOR_MINKA
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR_ARMY
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR_ARMY
+					add_idea = SOV_FACTORY_FACTOR_MINKA
+					}
+			}
+        }
+    }
+    soviet_tenkan110 = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+            has_completed_focus = SOV_FACTRY_9
+            NOT = { has_idea = SOV_FACTORY_FACTOR9 }
+        }
+        complete_effect = {
+            if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR_MINKA
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR_MINKA
+					add_idea = SOV_FACTORY_FACTOR9
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR_ARMY
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR_ARMY
+					add_idea = SOV_FACTORY_FACTOR9
+					}
+			}
         }
     }
 }

@@ -38,6 +38,130 @@ ideas = {
 			army_core_defence_factor = 0.1
 		}
 	}
+	SOV_FACTORY_FACTOR1 = {  #工業化の進展1
+		allowed = {
+			always = no
+		}
+		removal_cost = -1
+		picture = SOV_stakhanovite_movement
+		modifier = {
+			industrial_factory_donations = 5
+			production_speed_industrial_complex_factor = 0.05
+		}
+	}
+	SOV_FACTORY_FACTOR2 = {  #工業化の進展2
+	allowed = {
+		always = no
+	}
+	removal_cost = -1
+	picture = SOV_stakhanovite_movement
+	modifier = {
+		industrial_factory_donations = 10
+		production_speed_industrial_complex_factor = 0.1
+	}
+    }
+	SOV_FACTORY_FACTOR3 = {  #工業化の進展3
+	allowed = {
+		always = no
+	}
+	removal_cost = -1
+	picture = SOV_stakhanovite_movement
+	modifier = {
+		industrial_factory_donations = 15
+		production_speed_industrial_complex_factor = 0.15
+	}
+    }
+	SOV_FACTORY_FACTOR4 = {  #工業化の進展4
+	allowed = {
+		always = no
+	}
+	removal_cost = -1
+	picture = SOV_stakhanovite_movement
+	modifier = {
+		industrial_factory_donations = 20
+		production_speed_industrial_complex_factor = 0.2
+	}
+    }
+	SOV_FACTORY_FACTOR5 = {  #工業化の進展5
+	allowed = {
+		always = no
+	}
+	removal_cost = -1
+	picture = SOV_stakhanovite_movement
+	modifier = {
+		industrial_factory_donations = 25
+		production_speed_industrial_complex_factor = 0.25
+	}
+    }
+	SOV_FACTORY_FACTOR6 = {  #工業化の進展6
+	allowed = {
+		always = no
+	}
+	removal_cost = -1
+	picture = SOV_stakhanovite_movement
+	modifier = {
+		industrial_factory_donations = 30
+		production_speed_industrial_complex_factor = 0.3
+	}
+    }
+	SOV_FACTORY_FACTOR7 = {  #工業化の進展7
+	allowed = {
+		always = no
+	}
+	removal_cost = -1
+	picture = SOV_stakhanovite_movement
+	modifier = {
+		industrial_factory_donations = 35
+		production_speed_industrial_complex_factor = 0.35
+	}
+    }
+	SOV_FACTORY_FACTOR8 = {  #工業化の進展8
+	allowed = {
+		always = no
+	}
+	removal_cost = -1
+	picture = SOV_stakhanovite_movement
+	modifier = {
+		industrial_factory_donations = 40
+		production_speed_industrial_complex_factor = 0.40
+	}
+    }
+	SOV_FACTORY_FACTOR9 = {  #工業化の進展9
+	allowed = {
+		always = no
+	}
+	removal_cost = -1
+	picture = SOV_stakhanovite_movement
+	modifier = {
+		industrial_factory_donations = 50
+		production_speed_industrial_complex_factor = 0.5
+	}
+    }
+	SOV_FACTORY_FACTOR_ARMY = {  #軍需産業への転換
+	allowed = {
+		always = no
+	}
+	removal_cost = -1
+	picture = SOV_stakhanovite_movement
+	modifier = {
+		military_factory_donations = 50
+		production_lack_of_resource_penalty_factor = -0.5
+		industrial_capacity_factory = 0.3
+	}
+    }
+	SOV_FACTORY_FACTOR_MINKA = {  #経済の還元
+	allowed = {
+		always = no
+	}
+	removal_cost = -1
+	picture = SOV_stakhanovite_movement
+	modifier = {
+		stability_weekly = 0.025
+		research_speed_factor = 0.2	
+		local_resources_factor = 0.2
+		political_power_factor = 0.2
+	}
+    }
 	}
 	}
 		

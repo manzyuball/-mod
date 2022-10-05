@@ -490,7 +490,7 @@
 		relative_position_id = JAP_NITIEI1
 		prerequisite = { focus = JAP_NITIEI16 }
 		completion_reward = { 
-			867 = {
+			1009 = {
                 add_building_construction = {
 					type = bunker
 					level = 4
@@ -1567,19 +1567,19 @@
 
 
 		completion_reward = {
-			866 = {
+			1008 = {
 				add_dynamic_modifier = { modifier = JAP_kaihatu } 
 		    }
-			865 = {
+			1007 = {
 				add_dynamic_modifier = { modifier = JAP_kaihatu } 
 		    }
 			525 = {
 				add_dynamic_modifier = { modifier = JAP_kaihatu } 
 		    }
-			867 = {
+			1009 = {
 				add_dynamic_modifier = { modifier = JAP_kaihatu } 
 		    }
-			27 = {
+			527 = {
 				add_dynamic_modifier = { modifier = JAP_kaihatu } 
 		    }
 	}
@@ -1684,7 +1684,7 @@
 
 
 		completion_reward = {
-			867 = {
+			1009 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -1721,7 +1721,7 @@
 
 
 		completion_reward = {
-			867 = {
+			1009 = {
 			add_manpower = 56700 
 			add_building_construction = {
 				type = arms_factory
@@ -1834,14 +1834,14 @@
 				instant_build = yes
 				}
 			}
-			865 = { 
+			1007 = { 
 				add_building_construction = {
 				type = infrastructure
 				level = 2
 				instant_build = yes
 				}
 			}
-			866 = { 
+			1008 = { 
 				add_building_construction = {
 				type = infrastructure
 				level = 2
@@ -1877,7 +1877,7 @@
 
 
 		completion_reward = {
-			867 = { 
+			1009 = { 
 				add_building_construction = {
 				type = arms_factory
 				level = 2
@@ -1913,7 +1913,7 @@
 
 
 		completion_reward = {
-			865 = { 
+			1007 = { 
 				add_building_construction = {
 				type = naval_base
 				level = 2

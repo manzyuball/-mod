@@ -197,6 +197,7 @@ ENG_KOUWA = {
     ENG_WIN_WAR2 = {
         icon = generic_operation
         available = {
+            is_puppet = no
             AND = {
                 OR = {
                 FRA = { is_puppet = yes }

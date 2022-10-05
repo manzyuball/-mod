@@ -7,6 +7,7 @@ FRA_Ryoud_Kakutyo = {
                 CAT = { has_war = no }
                 MOR = { has_war = no }
             }
+            is_puppet = no
 		}
 		visible = {
 		}
@@ -35,6 +36,7 @@ FRA_Ryoud_Kakutyo = {
 		icon = generic_ignite_civil_war
 		available = {
          165 = { is_claimed_by = FRA }
+         is_puppet = no
 		}
 		visible = {
 		}
@@ -74,6 +76,7 @@ FRA_Ryoud_Kakutyo = {
                 }
                  165 = { is_owned_and_controlled_by = FRA }
             }
+            is_puppet = no
 
 		}
 		visible = {
@@ -111,6 +114,7 @@ FRA_Ryoud_Kakutyo = {
 		icon = generic_ignite_civil_war
 		available = {
           SPR = { is_puppet_of = FRA }
+          is_puppet = no
 		}
 		visible = {
 		}
@@ -168,6 +172,7 @@ FRA_Ryoud_Kakutyo = {
         FRA_SWI_WAR = {
             icon = generic_ignite_civil_war
             available = {
+                is_puppet = no
             threat > 0.25
             }
             visible = {
@@ -197,6 +202,7 @@ FRA_Ryoud_Kakutyo = {
         FRA_SWI_BUNKATU = {
             icon = generic_ignite_civil_war
             available = {
+                is_puppet = no
                 AND = {
                 OR = {
                 SWI = { is_in_faction_with = FRA }
@@ -229,6 +235,7 @@ FRA_Ryoud_Kakutyo = {
         FRA_AFRICA_WAR = {
             icon = generic_ignite_civil_war
             available = {
+                is_puppet = no
             threat > 0.1
             }
             visible = {
@@ -248,6 +255,7 @@ FRA_Ryoud_Kakutyo = {
         FRA_AFRICA_WAR2 = {
             icon = generic_ignite_civil_war
             available = {
+                is_puppet = no
                 AND = {
                     GER = {  has_war_with = SWE }  
                     date > 1939.01.01
@@ -274,6 +282,7 @@ FRA_Ryoud_Kakutyo = {
         FRA_WIN_WAR2 = {
             icon = eng_trade_unions_support
             available = {
+                is_puppet = no
                 AND = {
                     OR = {
                     AUS = { is_puppet = yes }
@@ -495,6 +504,7 @@ FRA_Ryoud_Kakutyo = {
         FRA_Russian_WAR2 = {
             icon = generic_ignite_civil_war
             available = {
+                is_puppet = no
                 AND = {
                     OR = {
                         AUS = { is_in_faction_with = FRA }
