@@ -222,6 +222,153 @@ SOV_PARAMETA = {
 			}
         }
     }
+    soviet_Syoukou_kill = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_RED_ARMY_RELATED_POINT_5 
+            add_to_variable = {
+				var = SOV.RED_ARMY_RELATED_POINT
+				value = -5
+			}
+            random_unit_leader = { 
+            limit = {
+                skill < 4
+            }
+            retire = yes
+            }
+        }
+    }
+    soviet_Syoukou_kill_Yuusyu = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_RED_ARMY_RELATED_POINT_10 
+            add_to_variable = {
+				var = SOV.RED_ARMY_RELATED_POINT
+				value = -10
+			}
+            random_unit_leader = { 
+            limit = {
+                skill > 3
+            }
+            retire = yes
+            }
+        }
+    }
+    soviet_political_NO = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_RED_ARMY_RELATED_POINT_5 
+            add_to_variable = {
+				var = SOV.RED_ARMY_RELATED_POINT
+				value = -5
+			}
+            random_unit_leader = { 
+            limit = {
+                has_trait = politically_connected
+            }
+            remove_unit_leader_trait = politically_connected
+            }
+        }
+    }
+    soviet_Syoukyuu = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 25
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_RED_ARMY_BAD_POINT_5 
+            add_to_variable = {
+				var = SOV.RED_ARMY_BAD_POINT
+				value = -5
+			}
+            random_unit_leader = {
+            add_unit_leader_trait = JAP_communist_sympathizer
+            }
+        }
+    }
+    soviet_TEnnin = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 25
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_RED_ARMY_BAD_POINT_5 
+            add_to_variable = {
+				var = SOV.RED_ARMY_BAD_POINT
+				value = -5
+			}
+            random_unit_leader = {
+                add_timed_unit_leader_trait = {
+                    trait = reassigned
+                    days = 120
+                    }
+            }
+        }
+    }
+    soviet_Syoukou_kill_Yuusyu_gensui = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_RED_ARMY_RELATED_POINT_15 
+            add_to_variable = {
+				var = SOV.RED_ARMY_RELATED_POINT
+				value = -15
+			}
+            random_unit_leader = { 
+            limit = {
+                is_field_marshal = yes
+            }
+            retire = yes
+            }
+        }
+    }
 }
 SOV_Ryodo = {
 

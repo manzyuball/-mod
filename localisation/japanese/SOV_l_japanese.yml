@@ -57,7 +57,9 @@
  #IDEAS
  SOV_KYOktous:0 "極東戦争"
  SOV_soviet_FACTORY:0 "市場経済での成功"
- SOV_politics_civilwar:0 "政治的準内戦"
+ SOV_politics_civilwar1:0 "政治的準内戦"
+ SOV_politics_civilwar2:0 "政治的準内戦"
+ SOV_politics_civilwar3:0 "政治的準内戦"
  SOV_FACTORY_FACTOR1:0 "工業化の進展"
  SOV_FACTORY_FACTOR2:0 "工業化の進展"
  SOV_FACTORY_FACTOR3:0 "工業化の進展"
@@ -74,6 +76,10 @@
 
  #隠し効果
  SOV_FRAM_AND_FACTORY:0 "クラークの本格的な除去が開始される"
+ SOV_good_country_15:0 "労働者の楽園の建設度が§Y15%%§上昇する"
+ SOV_RED_ARMY_RELATED_POINT_15:0 "赤軍の影響度が§Y15%§減少する"
+ SOV_RED_ARMY_RELATED_POINT_5 :0 "赤軍の影響度が§Y5%§減少する"
+ SOV_RED_ARMY_RELATED_POINT_10 :0 "軍の影響度が§Y10%§減少する"
  #ディシジョン
  SOV_PARAMETA:0 "ソビエトの建設"
 
@@ -85,6 +91,12 @@
  SOV_FRAR_5_BAD_5:0 "クラークの数は§Y5%§減少し暴君度が§Y5%§加点される"
  soviet_kuraku_fact:0 "工業化の推進"
  soviet_army_tenkan:0 "工業力の軍事転換"
+ soviet_Syoukou_kill:0 "将軍を粛清"
+ soviet_Syoukou_kill_Yuusyu:0 "優秀な将軍を粛清"
+ soviet_Syoukou_kill_Yuusyu_gensui:0 "元帥の粛清"
+ soviet_political_NO:0 "政治と切り離す"
+ soviet_Syoukyuu:0 "昇給"
+ soviet_TEnnin:0 "左遷"
 
  SOV_Ryodo:0 "ソビエト安全保障理事会"
  soviet_finland_pact:0 "ソビエト=フィンランド不可侵条約"

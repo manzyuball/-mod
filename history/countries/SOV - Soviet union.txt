@@ -315,7 +315,7 @@ if = {
 }
 add_ideas = {	
 	SOV_soviet_FACTORY
-	SOV_politics_civilwar
+	SOV_politics_civilwar1 
 	}
 	if = {
 		limit = {

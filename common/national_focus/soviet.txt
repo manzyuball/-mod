@@ -543,7 +543,35 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			custom_effect_tooltip = SOV_good_country_15
+			add_to_variable = {
+				var = SOV.real_good_country_point
+				value = 15
+			 }
+			 if = {
+				limit = {
+					has_idea = SOV_politics_civilwar1 
+				}   
+				swap_ideas = {
+					remove_idea = SOV_politics_civilwar1 
+					add_idea = SOV_politics_civilwar2
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_politics_civilwar2
+				}
+				swap_ideas = {
+					remove_idea = SOV_politics_civilwar2
+					add_idea = SOV_politics_civilwar3
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_politics_civilwar3
+				}
+				remove_ideas = SOV_politics_civilwar3
+			}
 		}
 	}
 	focus = {
@@ -567,7 +595,11 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			custom_effect_tooltip = SOV_RED_ARMY_RELATED_POINT_15
+			add_to_variable = {
+				var = SOV.RED_ARMY_RELATED_POINT
+				value = -15
+			 }
 		}
 	} 
 	focus = {

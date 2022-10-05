@@ -15,17 +15,39 @@ ideas = {
 				production_speed_buildings_factor = 0.05
 			}
 		}		
-		SOV_politics_civilwar = {  #政治的準内戦
+		SOV_politics_civilwar1 = {  #政治的準内戦
 		allowed = {
 			always = no
 		}
 		removal_cost = -1
-		picture = can_wartime_prices_and_trade_board
+		picture = citizen_militia_2
 		modifier = {
 			surrender_limit = -0.15
 			stability_factor = -0.10
 			political_power_factor = -0.10
 		}
+		SOV_politics_civilwar2 = {  #政治的準内戦
+		allowed = {
+			always = no
+		}
+		removal_cost = -1
+		picture = citizen_militia_2
+		modifier = {
+			surrender_limit = -0.1
+			stability_factor = -0.05
+			political_power_factor = -0.05
+		}
+	}
+		SOV_politics_civilwar3 = {  #政治的準内戦
+		allowed = {
+			always = no
+		}
+		removal_cost = -1
+		picture = citizen_militia_2
+		modifier = {
+			surrender_limit = -0.05
+		}
+	}
 		SOV_KYOktous = {  #極東戦争
 		allowed = {
 			always = no
