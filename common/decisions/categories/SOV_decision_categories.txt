@@ -10,7 +10,15 @@ SOV_PARAMETA = {
 	has_completed_focus =  SOV_NATIONAL_FORCUS
 	}
 }
-
+SOV_SCHOOL= {
+	icon = military_operation
+	allowed = {
+		original_tag = SOV
+	}
+	available = { 
+	has_completed_focus = SOV_ARMY_2
+	}
+}
 SOV_Ryodo = {
 	icon = SOV_civil_puppet_interaction
 	allowed = {

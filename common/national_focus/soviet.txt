@@ -623,7 +623,7 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+		custom_effect_tooltip = SOVIET_sikan_school
 		}
 	} 
 	focus = {
