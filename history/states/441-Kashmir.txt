@@ -12,7 +12,6 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = RAJ
 		add_claim_by = PAK
 	}
 
