@@ -67,6 +67,7 @@ SOV_PARAMETA = {
         cost = 10
         fire_only_once = no
         visible = {
+            has_completed_focus = SOV_FACTRY_1
         }
         available = {
         has_completed_focus = SOV_FACTRY_1
@@ -99,6 +100,7 @@ SOV_PARAMETA = {
         cost = 10
         fire_only_once = no
         visible = {
+            has_completed_focus = SOV_FACTRY_1
         }
         available = {
         has_completed_focus = SOV_FACTRY_1
@@ -163,6 +165,8 @@ SOV_PARAMETA = {
         cost = 0
         fire_only_once = no
         visible = {
+            has_completed_focus = SOV_FACTRY_9
+            NOT = { has_idea = SOV_FACTORY_FACTOR_MINKA }
         }
         available = {
             has_completed_focus = SOV_FACTRY_9
@@ -196,6 +200,8 @@ SOV_PARAMETA = {
         cost = 0
         fire_only_once = no
         visible = {
+            has_completed_focus = SOV_FACTRY_9
+            NOT = { has_idea = SOV_FACTORY_FACTOR9 }
         }
         available = {
             has_completed_focus = SOV_FACTRY_9
@@ -229,6 +235,7 @@ SOV_PARAMETA = {
         cost = 0
         fire_only_once = no
         visible = {
+            has_completed_focus = SOV_ARMY_1
         }
         available = {
             has_completed_focus = SOV_ARMY_1
@@ -254,6 +261,7 @@ SOV_PARAMETA = {
         cost = 0
         fire_only_once = no
         visible = {
+            has_completed_focus = SOV_ARMY_1
         }
         available = {
             has_completed_focus = SOV_ARMY_1
@@ -279,6 +287,7 @@ SOV_PARAMETA = {
         cost = 0
         fire_only_once = no
         visible = {
+            has_completed_focus = SOV_ARMY_1
         }
         available = {
             has_completed_focus = SOV_ARMY_1
@@ -304,6 +313,7 @@ SOV_PARAMETA = {
         cost = 25
         fire_only_once = no
         visible = {
+            has_completed_focus = SOV_ARMY_1
         }
         available = {
             has_completed_focus = SOV_ARMY_1
@@ -326,6 +336,7 @@ SOV_PARAMETA = {
         cost = 25
         fire_only_once = no
         visible = {
+            has_completed_focus = SOV_ARMY_1
         }
         available = {
             has_completed_focus = SOV_ARMY_1
@@ -351,6 +362,7 @@ SOV_PARAMETA = {
         cost = 0
         fire_only_once = no
         visible = {
+            has_completed_focus = SOV_ARMY_1
         }
         available = {
             has_completed_focus = SOV_ARMY_1
@@ -371,29 +383,72 @@ SOV_PARAMETA = {
     }
 }
 SOV_SCHOOL = {
-    SOVIET_TARGET = {
+    SOVIET_TARGET1 = {
         icon = SWI_guisan_speech
         cost = 0
         fire_only_once = no
         available = {
-            FROM = {
-                NOT = { has_unit_leader_flag = ARMY_TARGET }
-            }
-        }
-        target_trigger = {
-            FROM = {
-                NOT = { has_unit_leader_flag = ARMY_TARGET }
-            }
+
         }
         visible = {
-            NOT = { any_unit_leader = { has_unit_leader_flag = ARMY_TARGET }}
+            NOT = { any_unit_leader = { has_unit_leader_flag = ARMY_TARGET } }
         }
         complete_effect = {
-            custom_effect_tooltip = SOV_SCHOOL_KAIKOU
-            FROM = {
-            limit = {
+            custom_effect_tooltip = SOV_SCHOOL_KAIKOU1
+            SOV_alexander_pylcyn = {
+                set_character_flag = ARMY_TARGET
             }
-            set_unit_leader_flag = ARMY_TARGET
+        }
+    }
+    SOVIET_TARGET2 = {
+        icon = SWI_guisan_speech
+        cost = 0
+        fire_only_once = no
+        available = {
+
+        }
+        visible = {
+            NOT = { any_unit_leader = { has_unit_leader_flag = ARMY_TARGET } }
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_SCHOOL_KAIKOU2
+            SOV_vasily_petrov = {
+                set_character_flag = ARMY_TARGET
+            }
+        }
+    }
+    
+    SOVIET_TARGET3 = {
+        icon = SWI_guisan_speech
+        cost = 0
+        fire_only_once = no
+        available = {
+
+        }
+        visible = {
+            NOT = { any_unit_leader = { has_unit_leader_flag = ARMY_TARGET } }
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_SCHOOL_KAIKOU3
+            SOV_yevgeny_ivanovsky = {
+                set_character_flag = ARMY_TARGET
+            }
+        }
+    }
+    SOVIET_TARGET4 = {
+        icon = SWI_guisan_speech
+        cost = 0
+        fire_only_once = no
+        available = {
+
+        }
+        visible = {
+            NOT = { any_unit_leader = { has_unit_leader_flag = ARMY_TARGET } }
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_SCHOOL_KAIKOU4
+            SOV_ivan_yakubovsky = {
+                set_character_flag = ARMY_TARGET
             }
         }
     }
@@ -402,20 +457,20 @@ SOV_SCHOOL = {
         cost = 0
         fire_only_once = no
         available = {
-            FROM = {
+            any_unit_leader = {
                has_unit_leader_flag = ARMY_TARGET 
             }
         }
-        target_trigger = {
-        has_unit_leader_flag = ARMY_TARGET    
+        visible = {
+            any_unit_leader = { has_unit_leader_flag = ARMY_TARGET } 
         }
         complete_effect = {
             custom_effect_tooltip = SOV_SCHOOL_offens
-            FROM = {
-            limit = {
+            any_unit_leader = {
+                limit = { has_unit_leader_flag = ARMY_TARGET }
+                add_attack = 1
             }
-            add_attack = 1
-            }
+            
         }
     }
     SOVIET_SCHOOL_FINISH = {
@@ -423,23 +478,22 @@ SOV_SCHOOL = {
         cost = 0
         fire_only_once = no
         available = {
-            FROM = {
+            any_unit_leader = {
                has_unit_leader_flag = ARMY_TARGET 
             }
         }
-        target_trigger = {
-        has_unit_leader_flag = ARMY_TARGET    
+        visible = {
+           any_unit_leader = { has_unit_leader_flag = ARMY_TARGET } 
         }
         complete_effect = {
             custom_effect_tooltip = SOV_SCHOOL_FINISH
-            FROM = {
-            limit = {
+            any_unit_leader = {
+                limit = { has_unit_leader_flag = ARMY_TARGET }
+                clr_unit_leader_flag = ARMY_TARGET 
             }
-            clr_unit_leader_flag = ARMY_TARGET 
-            }
+           
         }
     }
-
 }
 SOV_Ryodo = {
 
@@ -447,10 +501,13 @@ SOV_Ryodo = {
 
      icon = generic_civil_support
 
-     cost = 25
+     cost = 0
      fire_only_once = yes
      visible = {
      }
+     ai_will_do = {
+        factor = 100
+       }
      available = {
       AND = {
           SOV = { has_war = no }

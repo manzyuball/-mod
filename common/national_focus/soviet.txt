@@ -93,16 +93,27 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			check_variable = {
-				SOV.FARM_POINT < 85
-				}
+			OR = { 
+				is_ai = yes 
+					check_variable = {
+						SOV.FARM_POINT < 86
+						}
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = SOV_FARM_POINT_85
 		}
 		bypass = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		complete_tooltip = {}
+				complete_tooltip = {
+			swap_ideas = {
+				remove_idea = SOV_FACTORY_FACTOR1
+				add_idea = SOV_FACTORY_FACTOR2
+				}
+			}
 		completion_reward = {
 			if = {
 				limit = {
@@ -146,16 +157,28 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			check_variable = {
-				SOV.FARM_POINT < 66
-				}
+			OR = { 
+				is_ai = yes  
+				check_variable = {
+					SOV.FARM_POINT < 66
+					}
+			}
+
+		}
+		custom_trigger_tooltip = {
+			tooltip = SOV_FARM_POINT_65
 		}
 		bypass = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		complete_tooltip = {}
+		complete_tooltip = {
+			swap_ideas = {
+				remove_idea = SOV_FACTORY_FACTOR1
+				add_idea = SOV_FACTORY_FACTOR2
+				}
+			}
 		completion_reward = {
 			if = {
 				limit = {
@@ -199,16 +222,28 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			check_variable = {
-				SOV.FARM_POINT < 85
-				}
+			OR = { 
+				is_ai = yes  
+				check_variable = {
+					SOV.FARM_POINT < 86
+					}		
+			}
+
+		}
+		custom_trigger_tooltip = {
+			tooltip = SOV_FARM_POINT_85
 		}
 		bypass = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		complete_tooltip = {}
+				complete_tooltip = {
+			swap_ideas = {
+				remove_idea = SOV_FACTORY_FACTOR1
+				add_idea = SOV_FACTORY_FACTOR2
+				}
+			}
 		completion_reward = {
 			if = {
 				limit = {
@@ -254,16 +289,27 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			check_variable = {
-				SOV.FARM_POINT < 51
-				}
+			OR = { 
+				is_ai = yes  
+				check_variable = {
+					SOV.FARM_POINT < 51
+					}			
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = SOV_FARM_POINT_50
 		}
 		bypass = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		complete_tooltip = {}
+				complete_tooltip = {
+			swap_ideas = {
+				remove_idea = SOV_FACTORY_FACTOR1
+				add_idea = SOV_FACTORY_FACTOR2
+				}
+			}
 		completion_reward = {
 			if = {
 				limit = {
@@ -316,16 +362,27 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			check_variable = {
-				SOV.FARM_POINT < 21
-				}
+			OR = { 
+				is_ai = yes  
+				check_variable = {
+					SOV.FARM_POINT < 21
+					}			
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = SOV_FARM_POINT_20
 		}
 		bypass = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		complete_tooltip = {}
+				complete_tooltip = {
+			swap_ideas = {
+				remove_idea = SOV_FACTORY_FACTOR1
+				add_idea = SOV_FACTORY_FACTOR2
+				}
+			}
 		completion_reward = {
 			if = {
 				limit = {
@@ -380,16 +437,27 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			check_variable = {
-				SOV.FARM_POINT < 51
-				}
+			OR = { 
+				is_ai = yes  
+				check_variable = {
+					SOV.FARM_POINT < 51
+					}			
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = SOV_FARM_POINT_50
 		}
 		bypass = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		complete_tooltip = {}
+		complete_tooltip = {
+			swap_ideas = {
+				remove_idea = SOV_FACTORY_FACTOR1
+				add_idea = SOV_FACTORY_FACTOR2
+				}
+		}
 		completion_reward = {
 			if = {
 				limit = {
@@ -442,16 +510,27 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			check_variable = {
-				SOV.FARM_POINT < 21
-				}
+			OR = { 
+				is_ai = yes  
+				check_variable = {
+					SOV.FARM_POINT < 21
+					}			
+		}
+		}
+		custom_trigger_tooltip = {
+			tooltip = SOV_FARM_POINT_20
 		}
 		bypass = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		complete_tooltip = {}
+		complete_tooltip = {
+			swap_ideas = {
+				remove_idea = SOV_FACTORY_FACTOR1
+				add_idea = SOV_FACTORY_FACTOR2
+				}
+		}
 		completion_reward = {
 			if = {
 				limit = {
@@ -505,16 +584,27 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			check_variable = {
-				SOV.FARM_POINT < 6
-				}
+			OR = { 
+				is_ai = yes  
+				check_variable = {
+					SOV.FARM_POINT < 6
+					}			
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = SOV_FARM_POINT_5
 		}
 		bypass = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		complete_tooltip = {}
+		complete_tooltip = {
+			swap_ideas = {
+				remove_idea = SOV_FACTORY_FACTOR8
+				add_idea = SOV_FACTORY_FACTOR9
+				}
+			}
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SOV_FACTORY_FACTOR8
@@ -541,7 +631,6 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		complete_tooltip = {}
 		completion_reward = {
 			custom_effect_tooltip = SOV_good_country_15
 			add_to_variable = {
@@ -647,7 +736,7 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			custom_effect_tooltip = SOVIET_sikan_hero
 		}
 	} 
 	focus = {
@@ -671,7 +760,7 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			custom_effect_tooltip = SOVIET_sikan_citizn
 		}
 	}
 	focus = {
@@ -695,7 +784,11 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			custom_effect_tooltip = SOV_RED_ARMY_RELATED_POINT_15
+			add_to_variable = {
+				var = SOV.RED_ARMY_RELATED_POINT
+				value = -15
+			 }
 		}
 	}
 	focus = {
@@ -719,7 +812,7 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+		custom_effect_tooltip = SOV_RED_ARMY_SCHOOL_OFFENS
 		}
 	}
 	focus = {
@@ -743,7 +836,7 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			custom_effect_tooltip = SOV_RED_ARMY_SCHOOL_PLAM
 		}
 	}
 	focus = {

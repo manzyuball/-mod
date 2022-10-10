@@ -51,7 +51,74 @@ characters = {
  #     #  #   #   #    #    #        #        #       #    #  #    #  #       #   #   #    # 
  #     #  #    #  #    #    #        #######  ######  #    #  #####   ######  #    #   ####  
                                                                                              
-
+ SOV_alexander_pylcyn = {
+	name = SOV_alexander_pylcyn
+	portraits = {
+		army = {
+			small = "GFX_idea_maks_reyter"
+			large = "gfx/leaders/SOV/Portrait_Soviet_Generic_land_1.dds"
+		}
+	}
+	corps_commander = {
+		traits = { }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}	
+}
+SOV_vasily_petrov = {
+	name = SOV_vasily_petrov
+	portraits = {
+		army = {
+			small = "GFX_idea_ivan_chernyakhovsky"
+			large = "gfx/leaders/SOV/portrait_SOV_andrey_yeryomenko.dds"
+		}
+	}
+	corps_commander = {
+		traits = { }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}	
+}
+SOV_yevgeny_ivanovsky = {
+	name = SOV_yevgeny_ivanovsky
+	portraits = {
+		army = {
+			small = "GFX_idea_ivan_chernyakhovsky"
+			large = "gfx/leaders/SOV/Portrait_Soviet_Generic_navy_2.dds"
+		}
+	}
+	corps_commander = {
+		traits = { }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}	
+}
+SOV_ivan_yakubovsky = {
+	name = SOV_ivan_yakubovsky
+	portraits = {
+		army = {
+			small = "GFX_idea_ivan_konev"
+			large = "gfx/leaders/SOV/Portrait_Soviet_Kirill_Meretskov.dds"
+		}
+	}
+	corps_commander = {
+		traits = { }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}	
+}
 	SOV_georgy_zhukov = {
 		name = SOV_georgy_zhukov
 
@@ -383,7 +450,7 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { old_guard inflexible_strategist politically_connected }
+			traits = { inflexible_strategist politically_connected }
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -410,7 +477,6 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 413
-			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
 		}
 	}
 
