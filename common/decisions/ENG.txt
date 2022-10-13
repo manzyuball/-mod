@@ -198,18 +198,23 @@ ENG_KOUWA = {
         icon = generic_operation
         available = {
             is_puppet = no
+            is_ai = yes
             AND = {
-                OR = {
-                FRA = { is_puppet = yes }
-                FRA = { exists = no }
+                FRA = { 
+                    has_capitulated = yes
+                    has_war_with = ENG
+                    has_war_with = AUS
                 }
-                OR = {
-                GER = { is_puppet = yes }
-                GER = { exists = no }
+                ITA = { 
+                    has_capitulated = yes
+                    has_war_with = ENG
+                    has_war_with = AUS
                 }
-                AUS = { is_ai = yes }
-                AUS = { NOT = { has_war_with = FRA } }
-                ENG = { NOT = { has_war_with = FRA } }
+                GER = { 
+                    has_capitulated = yes
+                    has_war_with = ENG
+                    has_war_with = AUS
+                }
             }
         }
         visible = {
