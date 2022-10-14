@@ -108,11 +108,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-				complete_tooltip = {
-			swap_ideas = {
-				remove_idea = SOV_FACTORY_FACTOR1
-				add_idea = SOV_FACTORY_FACTOR2
-				}
+		complete_tooltip = {
+			custom_effect_tooltip = SOV_PARAMETER
 			}
 		completion_reward = {
 			if = {
@@ -174,10 +171,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		complete_tooltip = {
-			swap_ideas = {
-				remove_idea = SOV_FACTORY_FACTOR1
-				add_idea = SOV_FACTORY_FACTOR2
-				}
+			custom_effect_tooltip = SOV_PARAMETER
 			}
 		completion_reward = {
 			if = {
@@ -238,12 +232,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-				complete_tooltip = {
-			swap_ideas = {
-				remove_idea = SOV_FACTORY_FACTOR1
-				add_idea = SOV_FACTORY_FACTOR2
-				}
-			}
+		complete_tooltip = {
+		custom_effect_tooltip = SOV_PARAMETER
+		}
 		completion_reward = {
 			if = {
 				limit = {
@@ -304,11 +295,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-				complete_tooltip = {
-			swap_ideas = {
-				remove_idea = SOV_FACTORY_FACTOR1
-				add_idea = SOV_FACTORY_FACTOR2
-				}
+		complete_tooltip = {
+			custom_effect_tooltip = SOV_PARAMETER
 			}
 		completion_reward = {
 			if = {
@@ -377,11 +365,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-				complete_tooltip = {
-			swap_ideas = {
-				remove_idea = SOV_FACTORY_FACTOR1
-				add_idea = SOV_FACTORY_FACTOR2
-				}
+		complete_tooltip = {
+			custom_effect_tooltip = SOV_PARAMETER
 			}
 		completion_reward = {
 			if = {
@@ -453,11 +438,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		complete_tooltip = {
-			swap_ideas = {
-				remove_idea = SOV_FACTORY_FACTOR1
-				add_idea = SOV_FACTORY_FACTOR2
-				}
-		}
+			custom_effect_tooltip = SOV_PARAMETER
+			}
 		completion_reward = {
 			if = {
 				limit = {
@@ -526,11 +508,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		complete_tooltip = {
-			swap_ideas = {
-				remove_idea = SOV_FACTORY_FACTOR1
-				add_idea = SOV_FACTORY_FACTOR2
-				}
-		}
+			custom_effect_tooltip = SOV_PARAMETER
+			}
 		completion_reward = {
 			if = {
 				limit = {
@@ -1028,7 +1007,11 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			custom_effect_tooltip = SOV_RED_ARMY_BAD_POINT_10
+			add_to_variable = {
+				var = SOV.RED_ARMY_BAD_POINT
+				value = 10
+			}
 		}
 	}
 	focus = {
@@ -1145,7 +1128,12 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			custom_effect_tooltip = SOV_RED_ARMY_BAD_POINT_5
+			add_to_variable = {
+				var = SOV.RED_ARMY_BAD_POINT
+				value = -5
+			}
+			add_ideas = SOV_SINEI_SYOUKOU
 		}
 	}
 	focus = {
@@ -1168,7 +1156,10 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = SOV_SINEI_SYOUKOU
+				add_idea = SOV_SINEI_SYOUKOU1
+				}
 		}
 	}
 	focus = {
@@ -1191,7 +1182,10 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = SOV_SINEI_SYOUKOU1
+				add_idea = SOV_SINEI_SYOUKOU2
+				}
 		}
 	}
 	focus = {
@@ -1214,7 +1208,10 @@ focus_tree = {
 		available_if_capitulated = no
 		complete_tooltip = {}
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = SOV_SINEI_SYOUKOU2
+				add_idea = SOV_SINEI_SYOUKOU3
+				}
 		}
 	}
 	focus = {

@@ -1,4 +1,4 @@
-﻿l_japanese:
+﻿ l_english:
  #NF
  SOV_NATIONAL_FORCUS:0 "社会主義宣言"
  SOV_NATIONAL_FORCUS_desc:0 "ブハーリンの市場経済は順調に進み、1936年では予想以上の成果を出した。クラークはソビエトの人口を支え、半官半民の鉱山は採掘効率を上げ、工業化への基礎を築いている。ブハーリンは自由主義から社会主義の転換、共産主義への第二段階に突入したことを宣言し、国内産業の国有化に着手し始めた"
@@ -72,13 +72,18 @@
  SOV_FACTORY_FACTOR_ARMY:0 "軍需産業への転換"
  SOV_FACTORY_FACTOR_MINKA:0 "経済の還元"
  soviet_tenkan110:0 "転換の終了"
- 
+ SOV_SINEI_SYOUKOU:0 "親愛なる政治将校"
+ SOV_SINEI_SYOUKOU1:0 "親愛なる政治将校"
+ SOV_SINEI_SYOUKOU2:0 "親愛なる政治将校"
+ SOV_SINEI_SYOUKOU3:0 "親愛なる政治将校"
  #custtom_tooltip
  SOV_FRAM_AND_FACTORY:0 "クラークの本格的な除去が開始される"
  SOV_good_country_15:0 "労働者の楽園の建設度が§Y15%§上昇する"
  SOV_RED_ARMY_RELATED_POINT_15:0 "赤軍の影響度が§Y15§減少する"
  SOV_RED_ARMY_RELATED_POINT_5:0 "赤軍の影響度が§Y5§減少する"
  SOV_RED_ARMY_RELATED_POINT_10:0 "軍の影響度が§Y10§減少する"
+ SOV_RED_ARMY_BAD_POINT_10:0 "赤軍の不満度が§Y10§上昇する"
+ SOV_RED_ARMY_BAD_POINT_5:0 "赤軍の不満度が§Y5§減少する"
  SOVIET_sikan_school:0 "士官学校に関するディシジョンが解放される"
  SOV_FRAM_AND_FACTORY:0 "クラークの本格的な除去が開始される"
  SOV_good_country_15:0 "労働者の楽園の建設度が§Y15§上昇する"
@@ -96,6 +101,7 @@
  SOV_FARM_POINT_20:0 "クラークの数が§Y20個以下§である必要がある"
  SOV_FARM_POINT_5:0 "クラークの数が§Y5個以下§である必要がある"
  SOV_PARAMETER:0 "クラークや軍部を管理するディシジョンがアンロックされる"
+ SOV_kougyouka:0 "国民精神「§G工業化の進展§」の効果に§G民需工場の付与が5プラス§され§G民需工場の建設速度がプラス5%§される"
  
  soviet_need_fake_paper:0 "要求を満たす生産報告書の偽造"
  soviet_kuraku_lost:0 "クラークの買収"
