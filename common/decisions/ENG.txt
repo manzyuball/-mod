@@ -194,7 +194,7 @@ ENG_Zyouriku = {
 	}
 }
 ENG_KOUWA = {
-    ENG_WIN_WAR2 = {
+    ENG_WIN_WAR2 = { #842
         icon = generic_operation
         available = {
             is_puppet = no
@@ -275,7 +275,7 @@ ENG_KOUWA = {
                 transfer_state = 62
                 transfer_state = 976
                 transfer_state = 65
-                transfer_state = 842
+                transfer_state = 1013
                 transfer_state = 64
                 transfer_state = 61
                 transfer_state = 58
