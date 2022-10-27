@@ -1,3 +1,10 @@
 ################
 ##### USA ######
 ################
+USA_CIVIL = {
+	icon = usa_congress
+	allowed = {
+		original_tag = USA
+		
+	}
+}

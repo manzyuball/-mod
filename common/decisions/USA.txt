@@ -1,0 +1,341 @@
+USA_CIVIL = {
+	USA_GET_261 = {
+		icon = generic_speech
+        available = { 
+            has_war = no
+            has_full_control_of_state = 360
+            NOT = { has_full_control_of_state = 261	}
+            USB = { has_full_control_of_state = 261	}
+            NOT = { has_country_flag = USA_USA_STATE_ZYUNBI }
+            NOT = { 261 = { has_state_flag = USA_USA_STATE } }
+        }
+        visible = { USB = { has_war_with = CSA } }
+        cost = 30
+        fire_only_once = no
+        ai_will_do = { factor = 100 }
+        days_remove = 35
+		remove_effect = {
+            custom_effect_tooltip = USA_USA_STATE_DESC
+            261 = { set_state_flag = USA_USA_STATE }
+            clr_country_flag = USA_USA_STATE_ZYUNBI
+        }
+        complete_effect = {
+            set_country_flag = USA_USA_STATE_ZYUNBI
+        }
+	}
+    USA_WAR_261 = {
+		icon = onmap_recruit_operative
+        available = {
+            has_war = no
+            has_full_control_of_state = 360
+            NOT = { has_full_control_of_state = 261	}
+            USB = { has_full_control_of_state = 261	}
+            NOT = { has_country_flag = USA_USA_STATE_SEN }
+            261 = { has_state_flag = USA_USA_STATE }
+        }
+        visible = { USB = { has_war_with = CSA }  261 = { has_state_flag = USA_USA_STATE } }
+        cost = 0
+        fire_only_once = no
+        ai_will_do = { factor = 50 }
+        days_remove = 5
+		remove_effect = {
+            custom_effect_tooltip = USA_USA_STATE_WAR_DESC
+            start_border_war = {
+                change_state_after_war = yes
+                attacker = {
+                state = 360
+                num_provinces = 3
+                }
+                defender = {
+                state = 261
+                num_provinces = 3
+                }
+                }
+                clr_country_flag = USA_USA_STATE_WAR
+                261 = { clr_state_flag = USA_USA_STATE }
+        }
+        complete_effect = {
+            has_country_flag = USA_USA_STATE_WAR
+        }
+	}
+    USA_SEN_261 = {
+		icon = generic_political_discourse
+        available = {
+            has_war = no
+            has_full_control_of_state = 360
+            NOT = { has_full_control_of_state = 261	}
+            USB = { has_full_control_of_state = 261	}
+            NOT = { has_country_flag = USA_USA_STATE_WAR }
+            261 = { has_state_flag = USA_USA_STATE }
+        }
+        visible = { USB = { has_war_with = CSA }  261 = { has_state_flag = USA_USA_STATE } }
+        cost = 50
+        fire_only_once = no
+        ai_will_do = { factor = 50 }
+        days_remove = 25
+		remove_effect = {
+            custom_effect_tooltip = USA_USA_STATE_SEN_DESC
+            transfer_state = 261
+            clr_country_flag = USA_USA_STATE_SEN
+            261 = { clr_state_flag = USA_USA_STATE }
+        }
+        complete_effect = {
+            has_country_flag = USA_USA_STATE_SEN
+        }
+	}
+    ####################
+    USA_GET_816 = {
+		icon = generic_speech
+        available = { 
+            has_war = no
+            has_full_control_of_state = 360
+            NOT = { has_full_control_of_state = 816	}
+            USB = { has_full_control_of_state = 816	}
+            NOT = { has_country_flag = USA_USA_STATE_ZYUNBI }
+            NOT = { 816 = { has_state_flag = USA_USA_STATE } }
+        }
+        visible = { USB = { has_war_with = CSA } }
+        cost = 30
+        fire_only_once = no
+        ai_will_do = { factor = 100 }
+        days_remove = 35
+		remove_effect = {
+            custom_effect_tooltip = USA_USA_STATE_DESC
+            816 = { set_state_flag = USA_USA_STATE }
+            clr_country_flag = USA_USA_STATE_ZYUNBI
+        }
+        complete_effect = {
+            set_country_flag = USA_USA_STATE_ZYUNBI
+        }
+	}
+    USA_WAR_816 = {
+		icon = onmap_recruit_operative
+        available = {
+            has_war = no
+            has_full_control_of_state = 360
+            NOT = { has_full_control_of_state = 816	}
+            USB = { has_full_control_of_state = 816	}
+            NOT = { has_country_flag = USA_USA_STATE_SEN }
+            816 = { has_state_flag = USA_USA_STATE }
+        }
+        visible = { USB = { has_war_with = CSA }  816 = { has_state_flag = USA_USA_STATE } }
+        cost = 0
+        fire_only_once = no
+        ai_will_do = { factor = 50 }
+        days_remove = 5
+		remove_effect = {
+            custom_effect_tooltip = USA_USA_STATE_WAR_DESC
+            start_border_war = {
+                change_state_after_war = yes
+                attacker = {
+                state = 360
+                num_provinces = 3
+                }
+                defender = {
+                state = 816
+                num_provinces = 3
+                }
+                }
+                clr_country_flag = USA_USA_STATE_WAR
+                816 = { clr_state_flag = USA_USA_STATE }
+        }
+        complete_effect = {
+            has_country_flag = USA_USA_STATE_WAR
+        }
+	}
+    USA_SEN_816 = {
+		icon = generic_political_discourse
+        available = {
+            has_war = no
+            has_full_control_of_state = 360
+            NOT = { has_full_control_of_state = 816	}
+            USB = { has_full_control_of_state = 816	}
+            NOT = { has_country_flag = USA_USA_STATE_WAR }
+            816 = { has_state_flag = USA_USA_STATE }
+        }
+        visible = { USB = { has_war_with = CSA }  816 = { has_state_flag = USA_USA_STATE } }
+        cost = 50
+        fire_only_once = no
+        ai_will_do = { factor = 50 }
+        days_remove = 25
+		remove_effect = {
+            custom_effect_tooltip = USA_USA_STATE_SEN_DESC
+            transfer_state = 816
+            clr_country_flag = USA_USA_STATE_SEN
+            816 = { clr_state_flag = USA_USA_STATE }
+        }
+        complete_effect = {
+            has_country_flag = USA_USA_STATE_SEN
+        }
+	}
+        ####################
+        USA_GET_362 = {
+            icon = generic_speech
+            available = { 
+                has_war = no
+                has_full_control_of_state = 361
+                NOT = { has_full_control_of_state = 362	}
+                USB = { has_full_control_of_state = 362	}
+                NOT = { has_country_flag = USA_USA_STATE_ZYUNBI }
+                NOT = { 362 = { has_state_flag = USA_USA_STATE } }
+            }
+            visible = { USB = { has_war_with = CSA } }
+            cost = 30
+            fire_only_once = no
+            ai_will_do = { factor = 100 }
+            days_remove = 35
+            remove_effect = {
+                custom_effect_tooltip = USA_USA_STATE_DESC
+                362 = { set_state_flag = USA_USA_STATE }
+                clr_country_flag = USA_USA_STATE_ZYUNBI
+            }
+            complete_effect = {
+                set_country_flag = USA_USA_STATE_ZYUNBI
+            }
+        }
+        USA_WAR_362 = {
+            icon = onmap_recruit_operative
+            available = {
+                has_war = no
+                has_full_control_of_state = 361
+                NOT = { has_full_control_of_state = 362	}
+                USB = { has_full_control_of_state = 362	}
+                NOT = { has_country_flag = USA_USA_STATE_SEN }
+                362 = { has_state_flag = USA_USA_STATE }
+            }
+            visible = { USB = { has_war_with = CSA }  362 = { has_state_flag = USA_USA_STATE } }
+            cost = 0
+            fire_only_once = no
+            ai_will_do = { factor = 50 }
+            days_remove = 5
+            remove_effect = {
+                custom_effect_tooltip = USA_USA_STATE_WAR_DESC
+                start_border_war = {
+                    change_state_after_war = yes
+                    attacker = {
+                    state = 361
+                    num_provinces = 3
+                    }
+                    defender = {
+                    state = 362
+                    num_provinces = 3
+                    }
+                    }
+                    clr_country_flag = USA_USA_STATE_WAR
+                    362 = { clr_state_flag = USA_USA_STATE }
+            }
+            complete_effect = {
+                has_country_flag = USA_USA_STATE_WAR
+            }
+        }
+        USA_SEN_362 = {
+            icon = generic_political_discourse
+            available = {
+                has_war = no
+                has_full_control_of_state = 361
+                NOT = { has_full_control_of_state = 362	}
+                USB = { has_full_control_of_state = 362	}
+                NOT = { has_country_flag = USA_USA_STATE_WAR }
+                362 = { has_state_flag = USA_USA_STATE }
+            }
+            visible = { USB = { has_war_with = CSA }  362 = { has_state_flag = USA_USA_STATE } }
+            cost = 50
+            fire_only_once = no
+            ai_will_do = { factor = 50 }
+            days_remove = 25
+            remove_effect = {
+                custom_effect_tooltip = USA_USA_STATE_SEN_DESC
+                transfer_state = 362
+                clr_country_flag = USA_USA_STATE_SEN
+                362 = { clr_state_flag = USA_USA_STATE }
+            }
+            complete_effect = {
+                has_country_flag = USA_USA_STATE_SEN
+            }
+        }
+                ####################
+                USA_GET_369 = {
+                    icon = generic_speech
+                    available = { 
+                        has_war = no
+                        has_full_control_of_state = 261
+                        NOT = { has_full_control_of_state = 369	}
+                        USB = { has_full_control_of_state = 369	}
+                        NOT = { has_country_flag = USA_USA_STATE_ZYUNBI }
+                        NOT = { 369 = { has_state_flag = USA_USA_STATE } }
+                    }
+                    visible = { USB = { has_war_with = CSA } }
+                    cost = 30
+                    fire_only_once = no
+                    ai_will_do = { factor = 100 }
+                    days_remove = 35
+                    remove_effect = {
+                        custom_effect_tooltip = USA_USA_STATE_DESC
+                        369 = { set_state_flag = USA_USA_STATE }
+                        clr_country_flag = USA_USA_STATE_ZYUNBI
+                    }
+                    complete_effect = {
+                        set_country_flag = USA_USA_STATE_ZYUNBI
+                    }
+                }
+                USA_WAR_369 = {
+                    icon = onmap_recruit_operative
+                    available = {
+                        has_war = no
+                        has_full_control_of_state = 261
+                        NOT = { has_full_control_of_state = 369	}
+                        USB = { has_full_control_of_state = 369	}
+                        NOT = { has_country_flag = USA_USA_STATE_SEN }
+                        369 = { has_state_flag = USA_USA_STATE }
+                    }
+                    visible = { USB = { has_war_with = CSA }  369 = { has_state_flag = USA_USA_STATE } }
+                    cost = 0
+                    fire_only_once = no
+                    ai_will_do = { factor = 50 }
+                    days_remove = 5
+                    remove_effect = {
+                        custom_effect_tooltip = USA_USA_STATE_WAR_DESC
+                        start_border_war = {
+                            change_state_after_war = yes
+                            attacker = {
+                            state = 261
+                            num_provinces = 3
+                            }
+                            defender = {
+                            state = 369
+                            num_provinces = 3
+                            }
+                            }
+                            clr_country_flag = USA_USA_STATE_WAR
+                            369 = { clr_state_flag = USA_USA_STATE }
+                    }
+                    complete_effect = {
+                        has_country_flag = USA_USA_STATE_WAR
+                    }
+                }
+                USA_SEN_369 = {
+                    icon = generic_political_discourse
+                    available = {
+                        has_war = no
+                        has_full_control_of_state = 261
+                        NOT = { has_full_control_of_state = 369	}
+                        USB = { has_full_control_of_state = 369	}
+                        NOT = { has_country_flag = USA_USA_STATE_WAR }
+                        369 = { has_state_flag = USA_USA_STATE }
+                    }
+                    visible = { USB = { has_war_with = CSA }  369 = { has_state_flag = USA_USA_STATE } }
+                    cost = 50
+                    fire_only_once = no
+                    ai_will_do = { factor = 50 }
+                    days_remove = 25
+                    remove_effect = {
+                        custom_effect_tooltip = USA_USA_STATE_SEN_DESC
+                        transfer_state = 369
+                        clr_country_flag = USA_USA_STATE_SEN
+                        369 = { clr_state_flag = USA_USA_STATE }
+                    }
+                    complete_effect = {
+                        has_country_flag = USA_USA_STATE_SEN
+                    }
+                }
+}
