@@ -1,0 +1,62 @@
+ideas = {
+	country = {
+		kyokoku = { #挙国一致
+		
+			allowed = {
+				always = no
+			}
+
+			picture = tur_coordinated_balkan_armed_forces
+
+			removal_cost = -1
+		
+			modifier = {
+				conscription_factor = 0.85
+				planning_speed = 0.30
+				max_planning = 0.40
+				army_org_Factor = -0.05
+				army_defence_factor = 0.5
+				army_attack_factor = 0.5
+				experience_gain_army = 0.25
+				experience_gain_air = 0.25
+				experience_gain_navy = 0.25
+			}
+		}
+		teishi1 = { #黒人迫害停止
+		
+			allowed = {
+				always = no
+			}
+
+			picture = tur_coordinated_balkan_armed_forces
+
+			removal_cost = -1
+		
+			modifier = {
+				conscription_factor = 0.35
+			}
+		}
+		teishi2 = { #人種差別停止
+		
+			allowed = {
+				always = no
+			}
+
+			picture = tur_coordinated_balkan_armed_forces
+
+			removal_cost = -1
+		
+			modifier = {
+				conscription_factor = 0.35
+			}
+		}
+		USN_SAN = {
+			picture = SOV_fourth_five_year_plan
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				global_building_slots_factor = 0.10
+			}
+		}
+	}
+}
