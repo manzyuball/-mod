@@ -1,0 +1,2010 @@
+focus_tree = {
+	id = usa_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USN
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = USN
+		}
+	}
+	continuous_focus_position = { x = 50 y = 1600 }
+	default = no
+#	focus = {
+#		id = USN_
+#		#icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = 0
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+	focus = {
+		id = USN_1
+		icon = GFX_focus_generic_the_giant_wakes
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 10
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 300
+		}
+	}
+	focus = {
+		id = USN_2
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = USN_1 }
+		mutually_exclusive = { focus = USN_3 }
+		mutually_exclusive = { focus = USN_5 }
+		mutually_exclusive = { focus = USN_4 }
+		mutually_exclusive = { focus = USN_6 }
+		x = 10
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_2a
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = USN_2 }
+		x = 10
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_2b
+		icon = GFX_focus_generic_treaty
+		prerequisite = { focus = USN_2a }
+		x = 10
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_2c
+		icon = GFX_goal_continuous_non_factory_construct
+		prerequisite = { focus = USN_2b }
+		x = 9
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_2e
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = USN_2c }
+		x = 9
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_2d
+		icon = GFX_focus_GRE_a_land_of_mountains
+		prerequisite = { focus = USN_2b }
+		x = 11
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_2f
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = USN_2d }
+		x = 11
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_2g
+		icon = GFX_focus_generic_diplomatic_treaty
+		prerequisite = { focus = USN_2e }
+		prerequisite = { focus = USN_2f }
+		x = 10
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_2h
+		icon = GFX_focus_chi_mission_to_the_us
+		prerequisite = { focus = USN_2g focus = USN_3e }
+		mutually_exclusive = { focus = USN_4fb }
+		x = 10
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+			CSA = {
+				exists = no
+			}
+			USB = {
+				exists = no
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			annex_country = { target = USA }
+		}
+	}
+	focus = {
+		id = USN_2i
+		icon = GFX_goal_continuous_boost_freedom
+		prerequisite = { focus = USN_2h }
+		x = 10
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_3
+		icon = GFX_focus_prc_agrarian_socialism
+		prerequisite = { focus = USN_1 }
+		mutually_exclusive = { focus = USN_2 }
+		mutually_exclusive = { focus = USN_5 }
+		mutually_exclusive = { focus = USN_4 }
+		mutually_exclusive = { focus = USN_6 }
+		x = 5
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_3a
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = USN_3 }
+		x = 5
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.15
+		}
+	}
+	focus = {
+		id = USN_3b
+		#icon = GFX_
+		prerequisite = { focus = USN_3a }
+		x = 5
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = { ENG_Hukusi3 }
+		}
+	}
+	focus = {
+		id = USN_4
+		icon = GFX_focus_generic_join_comintern
+		prerequisite = { focus = USN_1 }
+		mutually_exclusive = { focus = USN_3 }
+		mutually_exclusive = { focus = USN_2 }
+		mutually_exclusive = { focus = USN_5 }
+		mutually_exclusive = { focus = USN_6 }
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_4a
+		icon = GFX_focus_SOV_penal_battalions
+		prerequisite = { focus = USN_4 }
+		x = 0
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.3
+					}
+				set_politics = {
+					ruling_party = communism
+					}
+		}
+	}
+	focus = {
+		id = USN_4b
+		icon = GFX_focus_SOV_builder_of_the_red_army
+		prerequisite = { focus = USN_4a }
+		x = 0
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+					}
+		}
+	}
+	focus = {
+		id = USN_4c
+		icon = GFX_INKA_GAIKOU
+		prerequisite = { focus = USN_4b }
+		x = -2
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+					}
+		}
+	}
+	focus = {
+		id = USN_4ca
+		icon = GFX_focus_generic_land_reclamation
+		prerequisite = { focus = USN_4c }
+		x = -3
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = USN_4cb
+		icon = GFX_focus_generic_land_reclamation
+		prerequisite = { focus = USN_4ca }
+		x = -3
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = USN_4d
+		icon = GFX_focus_generic_population_growth
+		prerequisite = { focus = USN_4b }
+		x = 0
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = { teishi1 }
+		}
+	}
+	focus = {
+		id = USN_4e
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = USN_4d }
+		prerequisite = { focus = USN_4c }
+		x = 0
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = { teishi2 }
+		}
+	}
+	focus = {
+		id = USN_4g
+		icon = GFX_focus_SWI_neutrality_on_the_move
+		prerequisite = { focus = USN_4e }
+		x = 0
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = USN_SAN
+		}
+	}
+	focus = {
+		id = USN_4f
+		icon = GFX_focus_SOV_the_supreme_soviet
+		prerequisite = { focus = USN_4b focus = USN_3b }
+		x = 2
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_4fa
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = USN_4f }
+		x = 2
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_4fb
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		prerequisite = { focus = USN_4fa }
+		mutually_exclusive = { focus = USN_2h }
+		x = 2
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			white_peace = USB
+		}
+	}
+	focus = {
+		id = USN_3f
+		icon = GFX_goal_generic_soviet_construction
+		prerequisite = { focus = USN_3b }
+		x = 4
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_3fa
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = USN_3f }
+		x = 4
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				random_owned_controlled_state = {
+					limit = {
+							free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+	}
+	focus = {
+		id = USN_3fb
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = USN_3fa }
+		x = 4
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = rubber
+				amount = 4
+			 }
+		}
+	}
+	focus = {
+		id = USN_4fc
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = USN_4fb }
+		x = 2
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			annex_country = { target = USB }
+		}
+	}
+	focus = {
+		id = USN_3c
+		icon = GFX_focus_generic_treaty
+		prerequisite = { focus = USN_3b }
+		x = 6
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = { kyokoku }
+		}
+	}
+	focus = {
+		id = USN_3d
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = USN_3c }
+		x = 6
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+				}
+		}
+	}
+	focus = {
+		id = USN_3e
+		icon = GFX_focus_generic_military_dictatorship
+		prerequisite = { focus = USN_3d }
+		x = 7
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.15
+		}
+	}
+	focus = {
+		id = USN_5
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = USN_1 }
+		mutually_exclusive = { focus = USN_3 }
+		mutually_exclusive = { focus = USN_2 }
+		mutually_exclusive = { focus = USN_4 }
+		mutually_exclusive = { focus = USN_6 }
+		x = 15
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USN_5a
+		icon = GFX_focus_generic_league_of_nations
+		prerequisite = { focus = USN_5 }
+		x = 15
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_5h
+		icon = GFX_goal_anti_comintern_pact
+		prerequisite = { focus = USN_5 focus = USN_6 }
+		x = 18
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_5b
+		icon = GFX_focus_generic_conspiracy
+		prerequisite = { focus = USN_5a }
+		x = 15
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_5c
+		icon = GFX_focus_generic_strike_at_democracy2
+		prerequisite = { focus = USN_5b }
+		prerequisite = { focus = USN_5h }
+		x = 16
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_5d
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = USN_5c }
+		x = 16
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_5e
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = USN_5b }
+		x = 14
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_5f
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		prerequisite = { focus = USN_5e }
+		x = 14
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_5g
+		#icon = GFX_
+		prerequisite = { focus = USN_5d }
+		prerequisite = { focus = USN_5f }
+		x = 15
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_5i
+		icon = GFX_focus_usa_focus_on_europe
+		prerequisite = { focus = USN_5g }
+		x = 14
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_5j
+		icon = GFX_focus_usa_focus_on_asia
+		prerequisite = { focus = USN_5g }
+		x = 16
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_6
+		icon = GFX_focus_usa_voter_registration_act
+		prerequisite = { focus = USN_1 }
+		mutually_exclusive = { focus = USN_3 }
+		mutually_exclusive = { focus = USN_2 }
+		mutually_exclusive = { focus = USN_4 }
+		mutually_exclusive = { focus = USN_5 }
+		x = 20
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_6a
+		icon = GFX_focus_ETH_re-convene_the_parliament
+		prerequisite = { focus = USN_6 }
+		x = 20
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_6b
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = USN_6a }
+		x = 20
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_6c
+		icon = GFX_focus_generic_fascist_propaganda
+		prerequisite = { focus = USN_6b }
+		prerequisite = { focus = USN_5h }
+		x = 20
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_6e
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = USN_6c }
+		x = 19
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_6d
+		icon = GFX_focus_generic_monarchy_1
+		prerequisite = { focus = USN_6c }
+		x = 21
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_6f
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = USN_6d }
+		x = 21
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_6g
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = USN_6e }
+		x = 19
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_6h
+		icon = GFX_focus_ITA_generic_fascist_workers
+		prerequisite = { focus = USN_6g }
+		prerequisite = { focus = USN_6f }
+		x = 20
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_6i
+		icon = GFX_focus_por_concordat
+		prerequisite = { focus = USN_6h }
+		x = 20
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USN_6j
+		#icon = GFX_
+		prerequisite = { focus = USN_6i }
+		x = 20
+		y = 9
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+}
