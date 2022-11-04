@@ -43,3 +43,8 @@ IVO = {
 	add_core_of = RAJ
 	}		
 }
+RAJ = {
+	every_owned_state = {
+	add_core_of = RAJ
+	}		
+}
