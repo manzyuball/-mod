@@ -9,13 +9,14 @@ state={
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
-			4999 1
+			4999 1 
 		}
 		victory_points = {
-		    10856 1 
+			10856 1 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
 		1939.1.1 = {
 			buildings = {
@@ -29,7 +30,7 @@ state={
 	}
 
 	provinces={
-		1918 4407 4999 5102 7988 8104 10817 10856 12724 12837 
+		1918 4407 4999 5102 7988 8104 10817 10856 12724 12837 13450 
 	}
 	manpower=300000
 	buildings_max_level_factor=1.000

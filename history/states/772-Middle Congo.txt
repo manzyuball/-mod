@@ -10,7 +10,7 @@ state={
 		steel=23.000
 	}
 	history={
-		owner = TZN
+		owner = COG
 		victory_points = {
 			8193 2
 		}
@@ -20,7 +20,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = TZN
+		add_core_of = COG
 
 	}
 

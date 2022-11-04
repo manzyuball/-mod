@@ -1,0 +1,903 @@
+﻿	shared_focus = {
+		id = afsan1
+		icon = "GFX_goal_generic_production"
+		x = 3
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	shared_focus = {
+		id = afsan2
+		icon = "GFX_goal_generic_construct_mil_factory"
+		prerequisite = { focus = afsan1 }
+		relative_position_id = afsan1
+		available = {
+			OR = {
+				has_completed_focus = afsanor6
+			NOT = {	has_completed_focus = afsanor2 }
+			}
+		}
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}	
+	shared_focus = {
+		id = afsan2A
+		icon = "GFX_focus_generic_steel"
+		prerequisite = { focus = afsan1 }
+		relative_position_id = afsan1
+		x = 3
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = {
+					type = steel
+					amount = 10
+					}
+			}
+		}
+	}
+	shared_focus = {
+		id = afsan3A
+		icon = "GFX_focus_generic_rubber"
+		prerequisite = { focus = afsan2A }
+		relative_position_id = afsan1
+		x = 3
+		y = 2
+		cost = 10
+		completion_reward = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = rubber
+				amount = 4
+			 }
+		}
+	}
+    shared_focus = {
+		id = afsan3
+		icon = "GFX_focus_generic_aircraft_production"
+		prerequisite = { focus = afsan2 }
+		relative_position_id = afsan1
+		x = 1
+		y = 2
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+    shared_focus = {
+		id = afsan4
+		icon = "GFX_goal_generic_military_sphere"
+		prerequisite = { focus = afsan3 }
+		relative_position_id = afsan1
+		x = 1
+		y = 3
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+    shared_focus = {
+		id = afsan5
+		icon = "GFX_focus_research2"
+		prerequisite = { focus = afsan3 }
+		relative_position_id = afsan1
+		x = 3
+		y = 3
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+    shared_focus = {
+		id = afsan6
+		icon = "GFX_goal_generic_construct_civ_factory"
+		prerequisite = { focus = afsan4 }
+		mutually_exclusive = { focus = afsanor6 }
+		relative_position_id = afsan1
+		x = 1
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_ideas = Tenkan
+		}
+	}
+    shared_focus = {
+		id = afsan6A
+		icon = "GFX_focus_generic_tank_production"
+		prerequisite = { focus = afsan4 }
+		relative_position_id = afsan1
+		x = 2
+		y = 5
+		cost = 10
+		completion_reward = {
+			add_ideas = RAIN
+		}
+	}
+    shared_focus = {
+		id = afsan7A
+		icon = "GFX_goal_generic_small_arms"
+		prerequisite = { focus = afsan6A }
+		relative_position_id = afsan1
+		x = 3
+		y = 6
+		cost = 10
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RAIN
+				add_idea = RAIN2
+				}
+		}
+	}
+    shared_focus = {
+		id = afsanor2
+		icon = "GFX_goal_generic_construct_civ_factory"
+		prerequisite = { focus = afsan1 }
+		relative_position_id = afsan1
+		available = {
+			OR = {
+				has_completed_focus = afsan6
+			NOT = {	has_completed_focus = afsan2 }
+			}
+		}
+		x = -1
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+    shared_focus = {
+		id = afsanor2A
+		icon = "GFX_goal_generic_construct_infrastructure"
+		prerequisite = { focus = afsan1 }
+		relative_position_id = afsan1
+		x = -3
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+    shared_focus = {
+		id = afsanor3A
+		icon = "GFX_focus_SOV_the_road_of_life"
+		prerequisite = { focus = afsanor2A }
+		relative_position_id = afsan1
+		x = -3
+		y = 2
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+    shared_focus = {
+		id = afsanor3
+		icon = "GFX_focus_SOV_organize_wreckers"
+		prerequisite = { focus = afsanor2 }
+		relative_position_id = afsan1
+		x = -1
+		y = 2
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+    shared_focus = {
+		id = afsanor4
+		icon = "GFX_goal_generic_consumer_goods"
+		prerequisite = { focus = afsanor3 }
+		relative_position_id = afsan1
+		x = -1
+		y = 3
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+    shared_focus = {
+		id = afsanor5
+		icon = "GFX_focus_research2"
+		prerequisite = { focus = afsanor3 }
+		relative_position_id = afsan1
+		x = -3
+		y = 3
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+    shared_focus = {
+		id = afsanor6
+		icon = "GFX_goal_generic_construct_mil_factory"
+		prerequisite = { focus = afsanor4 }
+		mutually_exclusive = { focus = afsan6 }
+		relative_position_id = afsan1
+		x = -1
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_ideas = Tenkan
+		}
+	}
+    shared_focus = {
+		id = afsanor6A
+		icon = "GFX_focus_research"
+		prerequisite = { focus = afsanor4 }
+		relative_position_id = afsan1
+		x = -2
+		y = 5
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+    shared_focus = {
+		id = afsanor7A
+		icon = "GFX_goal_generic_positive_trade_relations"
+		prerequisite = { focus = afsanor6A }
+		relative_position_id = afsan1
+		x = -3
+		y = 6
+		cost = 10
+		completion_reward = {
+			add_ideas = boueki
+		}
+	}
+    shared_focus = {
+		id = afsanor7
+		icon = "GFX_focus_generic_industry_3"
+		prerequisite = { focus = afsanor6  focus = afsan6 }
+		relative_position_id = afsan1
+		x = 0
+		y = 5
+		cost = 10
+		completion_reward = {
+			add_ideas = Hattenn
+		}
+	}
+    shared_focus = {
+		id = afsanor8
+		icon = "GFX_goal_generic_soviet_construction"
+		prerequisite = { focus = afsanor7 }
+		relative_position_id = afsan1
+		mutually_exclusive = { focus = afsanor9 }
+		x = 1
+		y = 6
+		cost = 10
+		completion_reward = {
+			add_ideas = KeiB
+		}
+	}
+    shared_focus = {
+		id = afsanor9
+		icon = "GFX_focus_generic_the_giant_wakes"
+		prerequisite = { focus = afsanor7 }
+		relative_position_id = afsan1
+		mutually_exclusive = { focus = afsanor8 }
+		x = -1
+		y = 6
+		cost = 10
+		completion_reward = {
+			add_ideas = KeiA
+		}
+	}
+    shared_focus = {
+		id = afsanor10
+		icon ="GFX_focus_wonderweapons"
+		prerequisite = { focus = afsanor7 }
+		relative_position_id = afsan1
+		x = 0
+		y = 7
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = nuclear
+				category = rocketry
+			}
+		}
+	}
+    shared_focus = {
+		id = TZN_S1
+		icon ="GFX_focus_generic_africa_factory"
+		x = 12
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+    shared_focus = {
+		id = TZN_S2
+		icon ="GFX_focus_chi_british_cooperation"
+		x = 2
+		y = 1
+		prerequisite = { focus = TZN_S1 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			add_political_power = 75
+			reverse_add_opinion_modifier = {
+				target = ENG
+				modifier = kyuusekkinn
+				}
+		}
+	}
+    shared_focus = {
+		id = TZN_S3
+		icon ="GFX_focus_generic_befriend_portugal"
+		x = -2
+		y = 1
+		prerequisite = { focus = TZN_S1 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			add_political_power = 75
+			reverse_add_opinion_modifier = {
+				target = POR
+				modifier = kyuusekkinn
+				}
+		}
+	}
+    shared_focus = {
+		id = TZN_S4
+		icon ="GFX_focus_POL_develop_polish_shipbuilding"
+		x = -2
+		y = 2
+		prerequisite = { focus = TZN_S3 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			POR = { remove_resource_rights = 772 }
+			POR = { remove_resource_rights = 295 }
+		}
+	}
+    shared_focus = {
+		id = TZN_S5
+		icon ="GFX_focus_por_the_pink_map"
+		x = -4
+		y = 2
+		prerequisite = { focus = TZN_S3 }
+		relative_position_id = TZN_S1
+		cost = 10
+		ai_will_do = {
+    	factor = 0
+		}
+		completion_reward = {
+			POR = { puppet = TZN }
+			transfer_state = 796
+			transfer_state = 540
+			transfer_state = 771
+			transfer_state = 545
+			transfer_state = 770
+			transfer_state = 544
+			add_state_core = 796
+			add_state_core = 540
+			add_state_core = 771
+			add_state_core = 545
+			add_state_core = 770
+			add_state_core = 544
+		}
+	}
+    shared_focus = {
+		id = TZN_S6
+		icon ="GFX_focus_generic_africa_naval"
+		x = -1
+		y = 3
+		prerequisite = { focus = TZN_S3 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			add_ideas = { af_senkan }
+		}
+	}
+    shared_focus = {
+		id = TZN_S7
+		icon ="GFX_focus_RAJ_indian_gentlemen_offcers"
+		x = -5
+		y = 4
+		prerequisite = { focus = TZN_S3 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			add_ideas = { TZN_SYOU }
+		}
+	}
+    shared_focus = {
+		id = TZN_S8
+		icon ="GFX_focus_por_luso_tropicalism"
+		x = -3
+		y = 3
+		prerequisite = { focus = TZN_S3 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			add_ideas = { TZN_sensi }
+		}
+	}
+    shared_focus = {
+		id = TZN_S9
+		icon ="GFX_focus_usa_reestablish_the_gold_standard"
+		x = -1
+		y = 4
+		prerequisite = { focus = TZN_S6 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = af_senkan
+				add_idea = af_senkan1
+				}
+		}
+	}
+    shared_focus = {
+		id = TZN_S10
+		icon ="GFX_focus_prc_infiltration"
+		x = -3
+		y = 4
+		prerequisite = { focus = TZN_S8 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = TZN_sensi
+				add_idea = TZN_sensi1
+				}
+		}
+	}
+    shared_focus = {
+		id = TZN_S11
+		icon ="GFX_focus_renounce_the_treaty_of_trianon"
+		x = -3
+		y = 5
+		prerequisite = { focus = TZN_S8 }
+		prerequisite = { focus = TZN_S7 }
+		prerequisite = { focus = TZN_S9 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			remove_ideas = { TZN_POR }
+		}
+	}
+    shared_focus = {
+		id = TZN_S12
+		icon ="GFX_focus_generic_support_the_left_right"
+		x = 0
+		y = 6
+		prerequisite = { focus = TZN_S11 }
+		prerequisite = { focus = TZN_S21 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			remove_ideas = { ANKOKU }
+		}
+	}
+    shared_focus = {
+		id = TZN_S13
+		icon ="GFX_focus_generic_the_giant_wakes"
+		x = 1
+		y = 2
+		prerequisite = { focus = TZN_S2 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+    shared_focus = {
+		id = TZN_S14
+		icon ="GFX_goal_generic_army_motorized"
+		x = 1
+		y = 3
+		prerequisite = { focus = TZN_S13 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			add_resource = {
+				type = rubber
+				amount = 21
+				state = 548
+				}
+		}
+	}
+    shared_focus = {
+		id = TZN_S15
+		icon ="GFX_goal_generic_trade"
+		x = 1
+		y = 4
+		prerequisite = { focus = TZN_S14 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			ENG = { remove_resource_rights = 546 }
+			ENG = { remove_resource_rights = 548 }
+
+		}
+	}
+    shared_focus = {
+		id = TZN_S16
+		icon ="GFX_goal_tfv_saf_secure_interests_in_africa"
+		x = 3
+		y = 3
+		prerequisite = { focus = TZN_S2 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+    shared_focus = {
+		id = TZN_S17
+		icon ="GFX_goal_generic_territory_or_war"
+		x = 5
+		y = 2
+		prerequisite = { focus = TZN_S2 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			add_ideas = Kindaihou_TZN
+		}
+	}
+    shared_focus = {
+		id = TZN_S18
+		icon ="GFX_focus_spr_torchbearers_of_tomorrow"
+		x = 5
+		y = 3
+		prerequisite = { focus = TZN_S17 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.1
+		}
+	}
+    shared_focus = {
+		id = TZN_S19
+		icon ="GFX_focus_generic_steel"
+		x = 5
+		y = 4
+		prerequisite = { focus = TZN_S18 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = {
+					type = steel
+					amount = 31
+					}
+			}
+		}
+	}
+    shared_focus = {
+		id = TZN_S20
+		icon ="GFX_focus_hol_the_foundations_of_defense"
+		x = 3
+		y = 4
+		prerequisite = { focus = TZN_S18 }
+		prerequisite = { focus = TZN_S16 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Kindaihou_TZN
+				add_idea = Kindaihou_TZN1
+				}
+		}
+	}
+    shared_focus = {
+		id = TZN_S21
+		icon ="GFX_focus_renounce_the_treaty_of_trianon"
+		x = 3
+		y = 5
+		prerequisite = { focus = TZN_S15 }
+		prerequisite = { focus = TZN_S20 }
+		prerequisite = { focus = TZN_S19 }
+		relative_position_id = TZN_S1
+		cost = 10
+		completion_reward = {
+			remove_ideas = { TZN_ENG }
+		}
+	}

@@ -118,13 +118,6 @@ if = {
 if = {
 	limit = { has_dlc = "Together for Victory" }
 
-	add_ideas = {
-		RAJ_princely_states
-		RAJ_marginalized_muslim_community
-		RAJ_agrarian_society
-		RAJ_risk_of_famine
-	}
-
 	add_to_tech_sharing_group = commonwealth_research
 }
 
@@ -145,28 +138,9 @@ if = {
 	}
 }
 
-set_convoys = 20
+set_convoys = 50
 
 set_cosmetic_tag = RAJ_UK # British Raj
-
-640 = { #Mandalay
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-432 = { #Assam
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-427 = { #Hyderabad
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-436 = { #Jabalpur
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-437 = { #Indore
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-433 = { #Rajahsthan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
 
 set_politics = {
 	ruling_party = neutrality

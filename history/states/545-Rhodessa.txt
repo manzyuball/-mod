@@ -6,7 +6,7 @@ state={
 	name="STATE_545"
 
 	history={
-		owner = POR
+		owner = SAF
 		buildings = {
 			infrastructure = 2
 
@@ -14,7 +14,7 @@ state={
 		victory_points = {
 			10929 1 
 		}
-		add_core_of = TZN
+		add_core_of = SAF
 	}
 
 	provinces={

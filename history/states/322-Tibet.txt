@@ -1,3 +1,4 @@
+
 state={
 	id=322
 	name="STATE_322"
@@ -18,11 +19,10 @@ state={
 	}
 
 	provinces={
-		2010 2093 4994 5011 7926 8068 10755 10918 
+		2010 2093 4994 5011 7926 8068 10755 10918 13425 13433 13434 13435 13436 13437 13438 13440 13441 13444 
 	}
 	manpower=1722000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-
-	local_supplies=2.0 
+	local_supplies=2.000
 }

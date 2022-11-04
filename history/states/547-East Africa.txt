@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = TZN
+		owner = KEN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 4
@@ -19,7 +19,7 @@ state={
 		victory_points = {
 			1939 30
 		}
-		add_core_of = TZN
+		add_core_of = KEN
 	}
 
 	provinces={

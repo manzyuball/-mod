@@ -5,7 +5,7 @@ state={
 
 
 	history={
-		owner = WAL
+		owner = ROM
 		victory_points = {
 			9617 25 
 		}
@@ -17,8 +17,6 @@ state={
 
 		}
 		add_core_of = ROM
-		
-		add_core_of = WAL
 
 	}
 

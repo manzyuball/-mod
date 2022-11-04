@@ -54,8 +54,6 @@ focus_tree = {
 	focus = {
 		id = USN_1
 		icon = GFX_focus_generic_the_giant_wakes
-		prerequisite = { focus = }
-		mutually_exclusive = { focus =  }
 		x = 10
 		y = 0
 

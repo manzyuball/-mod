@@ -5,13 +5,13 @@ state={
 	state_category = town
 
 	history={
-		owner = TZN
+		owner = KEN
 		buildings = {
 			infrastructure = 1
 
 		}
 		
-		add_core_of = TZN
+		add_core_of = KEN
 
 	}
 

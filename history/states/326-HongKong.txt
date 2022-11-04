@@ -1,11 +1,9 @@
-state=
-{
+
+state={
 	id=326
 	name="STATE_326"
-	manpower = 1143516
-	state_category = large_town
-	history=
-	{
+
+	history={
 		owner = ENG
 		add_core_of = CHI
 		add_core_of = PRC
@@ -14,17 +12,23 @@ state=
 			10062 3 
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			air_base = 1
 			10062 = {
 				naval_base = 6
 				coastal_bunker = 1
+
 			}
+
 		}
-	}
-	provinces={
-		10062
+
 	}
 
-	local_supplies=0.0 
+	provinces={
+		10062 13398 
+	}
+	manpower=1143516
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

@@ -7,7 +7,7 @@ state={
 		rubber=32 # was: 2
 	}
 	history={
-		owner = TZN
+		owner = KEN
 		victory_points = {
 			2196 15
 		}
@@ -20,7 +20,7 @@ state={
 			}
 
 		}
-			add_core_of = TZN
+			add_core_of = KEN
 	}
 
 	provinces={

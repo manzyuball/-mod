@@ -7,7 +7,6 @@ state={
 	history={
 		owner = TZN
 		add_core_of = TZN
-		add_core_of = GNA
 		buildings = {
 			infrastructure = 1
 		}

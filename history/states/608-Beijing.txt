@@ -12,11 +12,13 @@ state={
 			infrastructure = 4
 			industrial_complex = 7
 			air_base = 3
+
 		}
+
 	}
 
 	provinces={
-		1134 4137 4140 6828 9969 12026 
+		1134 1137 4137 4140 4208 6828 7000 7109 9969 10022 10480 11944 11996 12026 13299 13300 13301 13305 13306 13312 
 	}
 	manpower=4648400
 	buildings_max_level_factor=1.000

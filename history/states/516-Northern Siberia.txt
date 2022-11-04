@@ -1,26 +1,27 @@
 
-state = {
-	id = 516
-	name = "STATE_516" # Taymyria
-	manpower = 21974
-	
-	state_category = pastoral
-	impassable = yes
-	history = {
+state={
+	id=516
+	name="STATE_516"
+
+	history={
 		victory_points = {
-			4859 1
+			4859 1 
 		}
 		owner = VLA
 		add_core_of = VLA
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = SOV
+
 	}
 
-	provinces = {
-		 2923 2972 3336 4692 4733 4859 10607 10635 11261 11328 12643 13064 
+	provinces={
+		2923 2972 3336 4692 4733 4859 10607 10635 11261 11328 12643 13064 13462 13463 13464 13465 
 	}
-
-	local_supplies = 0.0 
+	manpower=21974
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }
