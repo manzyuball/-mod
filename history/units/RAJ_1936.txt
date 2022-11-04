@@ -1,7 +1,5 @@
 ﻿division_template = {
 	name = "Infantry Division"
-	division_names_group = RAJ_INF_01
-
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -15,9 +13,7 @@
 	}
 }
 division_template = {
-	name = "District Garrison"			# Represents precursors to Indian Infantry Divisions (district divisions)
-	division_names_group = RAJ_GAR_01
-										# Has older equipment, lower experience
+	name = "District Garrison"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -46,120 +42,154 @@ division_template = {
 
 ####### OOB #######
 units = {
-	#India Command
-	
-	#Northern Command
-	
-	division= {	# "Pashawar District"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 101
-		}
-		location = 12717
+	division= {
+		name = "インド自衛軍"
+		location = 4104
 		division_template = "District Garrison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.2
 	}
-	division= {	# "Kohat District"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 102
-		}
-		location = 4998
+	division= {
+		name = "インド自衛軍"
+		location = 1059
 		division_template = "District Garrison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.2
 	}
-	division= {	# "Rawalpindi District"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 103
-		}
-		location = 12005
+	division= {
+		name = "インド自衛軍"
+		location = 1538
 		division_template = "District Garrison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.2
+	}	division= {
+		name = "インド自衛軍"
+		location = 4513
+		division_template = "District Garrison"
+		start_experience_factor = 0.2
 	}
-	division= {	# "Lahore District"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 104
-		}
-		location = 10843
+	division= {
+		name = "インド自衛軍"
+		location = 9946
 		division_template = "District Garrison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.2
 	}
-	division= {	# "Waziristan District"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 105
-		}
-		location = 1978
+	division= {
+		name = "インド自衛軍"
+		location = 1579
 		division_template = "District Garrison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.2
 	}
-	
-	#Eastern Command
-	division= {	# "Meerut District"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 106
-		}
-		location = 11955
+	division= {
+		name = "インド自衛軍"
+		location = 12490
 		division_template = "District Garrison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.2
 	}
-	division= {	# "Lucknow District"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 107
-		}
-		location = 12137
+	division= {
+		name = "インド自衛軍"
+		location = 10171
 		division_template = "District Garrison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "インド自衛軍"
+		location = 10511
+		division_template = "District Garrison"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "インド自衛軍"
+		location = 5019
+		division_template = "District Garrison"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "インド自衛軍"
+		location = 10311
+		division_template = "District Garrison"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "インド自衛軍"
+		location = 7060
+		division_template = "District Garrison"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "インド自衛軍"
+		location = 7177
+		division_template = "District Garrison"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "インド自衛軍"
+		location = 10019
+		division_template = "District Garrison"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "インド自衛軍"
+		location = 4072
+		division_template = "District Garrison"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "インド自衛軍"
+		location = 7013
+		division_template = "District Garrison"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "インド自衛軍"
+		location = 4353
+		division_template = "District Garrison"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "インド自衛軍"
+		location = 7465
+		division_template = "District Garrison"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "インド自衛軍"
+		location = 7090
+		division_template = "District Garrison"
+		start_experience_factor = 0.2
 	}
 	division= {	
-		name = "Presidency & Assam District"
-		location = 1497
-		division_template = "District Garrison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		name = "駐印英軍インド開放部隊"
+		location = 8011
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
 	}
-	
-	#Southern Command
-	division= {	# "Deccan District"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 109
-		}
-		location = 12781
-		division_template = "District Garrison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-	}
-	division= {	# "Bombay District"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 110
-		}
-		location = 1349
-		division_template = "District Garrison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-	}
-	division= {	# "Madras District"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 111
-		}
+	division= {	
+		name = "駐印英軍インド開放部隊"
 		location = 10278
-		division_template = "District Garrison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "駐印英軍インド開放部隊"
+		location = 4327
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "駐印英軍インド開放部隊"
+		location = 1349
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "駐印英軍インド開放部隊"
+		location = 12462
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "駐印英軍インド開放部隊"
+		location = 8087
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
 	}
 }
 
@@ -170,7 +200,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "RAJ"
 		}
-		requested_factories = 1
+		requested_factories = 5
 		progress = 0.12
 		efficiency = 100
 	}

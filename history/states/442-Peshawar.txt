@@ -13,7 +13,7 @@ state={
 		owner = IVO
 		add_core_of = IVO
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 3
 		}
 		add_core_of = PAK

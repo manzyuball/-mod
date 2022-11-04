@@ -609,7 +609,7 @@ JAP_Zyouriku = {
 		ai_will_do = {
 			factor = 10000
 		}
-        days_remove = 65
+        days_remove = 130
 		  remove_effect = {
             custom_effect_tooltip = JAP_Zyunbi_zyouriku_OK
             set_country_flag = JAP_ZYOURIKU_OK

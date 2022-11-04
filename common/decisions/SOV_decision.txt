@@ -36,7 +36,7 @@ SOV_PARAMETA = {
 
         icon = hol_attract_foreign_investors
    
-        cost = 25
+        cost = 75
         fire_only_once = no
         visible = {
         }
@@ -64,9 +64,10 @@ SOV_PARAMETA = {
 
         icon = hol_attract_foreign_investors
    
-        cost = 25
+        cost = 10
         fire_only_once = no
         visible = {
+            has_completed_focus = SOV_FACTRY_1
         }
         available = {
         has_completed_focus = SOV_FACTRY_1
@@ -92,6 +93,407 @@ SOV_PARAMETA = {
             } 
         }
     }
+    soviet_kuraku_fact = {
+
+        icon = hol_attract_foreign_investors
+   
+        cost = 10
+        fire_only_once = no
+        visible = {
+            has_completed_focus = SOV_FACTRY_1
+        }
+        available = {
+        has_completed_focus = SOV_FACTRY_1
+        check_variable = {
+        SOV.FARM_POINT > 10
+        }
+        }
+        complete_effect = {
+
+        }
+        modifier = {
+            civilian_factory_use = 5
+        }
+        days_remove = 30
+        remove_effect = {
+            custom_effect_tooltip = SOV_FRAR_5_BAD_5
+            hidden_effect = {
+                add_to_variable = {
+                   var = SOV.FARM_POINT
+                   value = -10
+                }
+            } 
+        }
+    }
+    soviet_army_tenkan = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+        }
+        available = {
+        has_completed_focus = SOV_FACTRY_9
+        NOT = { has_idea = SOV_FACTORY_FACTOR_ARMY }
+        }
+        complete_effect = {
+            if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR9
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR9
+					add_idea = SOV_FACTORY_FACTOR_ARMY
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR_MINKA
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR_MINKA
+					add_idea = SOV_FACTORY_FACTOR_ARMY
+					}
+			}
+        }
+    }
+    soviet_Minkan_tenkan = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+            has_completed_focus = SOV_FACTRY_9
+            NOT = { has_idea = SOV_FACTORY_FACTOR_MINKA }
+        }
+        available = {
+            has_completed_focus = SOV_FACTRY_9
+            NOT = { has_idea = SOV_FACTORY_FACTOR_MINKA }
+        }
+        complete_effect = {
+            if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR9
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR9
+					add_idea = SOV_FACTORY_FACTOR_MINKA
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR_ARMY
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR_ARMY
+					add_idea = SOV_FACTORY_FACTOR_MINKA
+					}
+			}
+        }
+    }
+    soviet_tenkan110 = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+            has_completed_focus = SOV_FACTRY_9
+            NOT = { has_idea = SOV_FACTORY_FACTOR9 }
+        }
+        available = {
+            has_completed_focus = SOV_FACTRY_9
+            NOT = { has_idea = SOV_FACTORY_FACTOR9 }
+        }
+        complete_effect = {
+            if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR_MINKA
+				}   
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR_MINKA
+					add_idea = SOV_FACTORY_FACTOR9
+					}
+			}
+			else_if = {
+				limit = {
+					has_idea = SOV_FACTORY_FACTOR_ARMY
+				}
+				swap_ideas = {
+					remove_idea = SOV_FACTORY_FACTOR_ARMY
+					add_idea = SOV_FACTORY_FACTOR9
+					}
+			}
+        }
+    }
+    soviet_Syoukou_kill = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        available = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_RED_ARMY_RELATED_POINT_5 
+            add_to_variable = {
+				var = SOV.RED_ARMY_RELATED_POINT
+				value = -5
+			}
+            random_unit_leader = { 
+            limit = {
+                skill < 4
+            }
+            retire = yes
+            }
+        }
+    }
+    soviet_Syoukou_kill_Yuusyu = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        available = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_RED_ARMY_RELATED_POINT_10 
+            add_to_variable = {
+				var = SOV.RED_ARMY_RELATED_POINT
+				value = -10
+			}
+            random_unit_leader = { 
+            limit = {
+                skill > 3
+            }
+            retire = yes
+            }
+        }
+    }
+    soviet_political_NO = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        available = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_RED_ARMY_RELATED_POINT_5 
+            add_to_variable = {
+				var = SOV.RED_ARMY_RELATED_POINT
+				value = -5
+			}
+            random_unit_leader = { 
+            limit = {
+                has_trait = politically_connected
+            }
+            remove_unit_leader_trait = politically_connected
+            }
+        }
+    }
+    soviet_Syoukyuu = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 25
+        fire_only_once = no
+        visible = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        available = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_RED_ARMY_BAD_POINT_5 
+            add_to_variable = {
+				var = SOV.RED_ARMY_BAD_POINT
+				value = -5
+			}
+            random_unit_leader = {
+            add_unit_leader_trait = JAP_communist_sympathizer
+            }
+        }
+    }
+    soviet_TEnnin = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 25
+        fire_only_once = no
+        visible = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        available = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_RED_ARMY_BAD_POINT_5 
+            add_to_variable = {
+				var = SOV.RED_ARMY_BAD_POINT
+				value = -5
+			}
+            random_unit_leader = {
+                add_timed_unit_leader_trait = {
+                    trait = reassigned
+                    days = 120
+                    }
+            }
+        }
+    }
+    soviet_Syoukou_kill_Yuusyu_gensui = {
+
+        icon = generic_merge_plant_materiel
+   
+        cost = 0
+        fire_only_once = no
+        visible = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        available = {
+            has_completed_focus = SOV_ARMY_1
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_RED_ARMY_RELATED_POINT_15 
+            add_to_variable = {
+				var = SOV.RED_ARMY_RELATED_POINT
+				value = -15
+			}
+            random_unit_leader = { 
+            limit = {
+                is_field_marshal = yes
+            }
+            retire = yes
+            }
+        }
+    }
+}
+SOV_SCHOOL = {
+    SOVIET_TARGET1 = {
+        icon = SWI_guisan_speech
+        cost = 0
+        fire_only_once = no
+        available = {
+
+        }
+        visible = {
+            NOT = { any_unit_leader = { has_unit_leader_flag = ARMY_TARGET } }
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_SCHOOL_KAIKOU1
+            SOV_alexander_pylcyn = {
+                set_character_flag = ARMY_TARGET
+            }
+        }
+    }
+    SOVIET_TARGET2 = {
+        icon = SWI_guisan_speech
+        cost = 0
+        fire_only_once = no
+        available = {
+
+        }
+        visible = {
+            NOT = { any_unit_leader = { has_unit_leader_flag = ARMY_TARGET } }
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_SCHOOL_KAIKOU2
+            SOV_vasily_petrov = {
+                set_character_flag = ARMY_TARGET
+            }
+        }
+    }
+    
+    SOVIET_TARGET3 = {
+        icon = SWI_guisan_speech
+        cost = 0
+        fire_only_once = no
+        available = {
+
+        }
+        visible = {
+            NOT = { any_unit_leader = { has_unit_leader_flag = ARMY_TARGET } }
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_SCHOOL_KAIKOU3
+            SOV_yevgeny_ivanovsky = {
+                set_character_flag = ARMY_TARGET
+            }
+        }
+    }
+    SOVIET_TARGET4 = {
+        icon = SWI_guisan_speech
+        cost = 0
+        fire_only_once = no
+        available = {
+
+        }
+        visible = {
+            NOT = { any_unit_leader = { has_unit_leader_flag = ARMY_TARGET } }
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_SCHOOL_KAIKOU4
+            SOV_ivan_yakubovsky = {
+                set_character_flag = ARMY_TARGET
+            }
+        }
+    }
+    SOVIET_SCHOOL_OFFENS = {
+        icon = SWI_guisan_speech
+        cost = 0
+        fire_only_once = no
+        available = {
+            any_unit_leader = {
+               has_unit_leader_flag = ARMY_TARGET 
+            }
+        }
+        visible = {
+            any_unit_leader = { has_unit_leader_flag = ARMY_TARGET } 
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_SCHOOL_offens
+            any_unit_leader = {
+                limit = { has_unit_leader_flag = ARMY_TARGET }
+                add_attack = 1
+            }
+            
+        }
+    }
+    SOVIET_SCHOOL_FINISH = {
+        icon = SWI_guisan_speech
+        cost = 0
+        fire_only_once = no
+        available = {
+            any_unit_leader = {
+               has_unit_leader_flag = ARMY_TARGET 
+            }
+        }
+        visible = {
+           any_unit_leader = { has_unit_leader_flag = ARMY_TARGET } 
+        }
+        complete_effect = {
+            custom_effect_tooltip = SOV_SCHOOL_FINISH
+            any_unit_leader = {
+                limit = { has_unit_leader_flag = ARMY_TARGET }
+                clr_unit_leader_flag = ARMY_TARGET 
+            }
+           
+        }
+    }
 }
 SOV_Ryodo = {
 
@@ -99,10 +501,13 @@ SOV_Ryodo = {
 
      icon = generic_civil_support
 
-     cost = 25
+     cost = 0
      fire_only_once = yes
      visible = {
      }
+     ai_will_do = {
+        factor = 100
+       }
      available = {
       AND = {
           SOV = { has_war = no }

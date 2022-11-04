@@ -2,7 +2,7 @@ state={
 	id=941
 	name="STATE_941"
 	provinces={
-		923 11846 11882 
+		923 11846
 	}
 	state_category = city
 	history={

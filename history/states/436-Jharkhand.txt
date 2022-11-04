@@ -14,7 +14,7 @@ state={
 		owner = IVO
 		add_core_of = IVO
 		buildings = {
-			infrastructure = 23
+			infrastructure = 3
 		}
 
 	}

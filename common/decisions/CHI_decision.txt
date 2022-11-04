@@ -407,7 +407,7 @@ CHI_Gunzi_sakusen = {
                     }
                     is_ai = yes
                 }
-				controls_state = 865
+				controls_state = 1007
             }
 		}
 		visible = {
@@ -442,7 +442,7 @@ CHI_Gunzi_sakusen = {
                 has_country_flag = CHI_Para_OK
                 CHI = {  has_war_with = JAP } 
 				has_deployed_air_force_size = {
-					size > 2000
+					size > 1000
 					type = fighter
 				}
             }
@@ -484,7 +484,7 @@ CHI_Gunzi_sakusen = {
                 has_country_flag = CHI_Para_OK
                 CHI = {  has_war_with = JAP } 
 				has_deployed_air_force_size = {
-					size > 2000
+					size > 1000
 					type = fighter
 				}
 				controls_state = 524
@@ -526,7 +526,7 @@ CHI_Gunzi_sakusen = {
                 has_country_flag = CHI_Para_OK
                 CHI = {  has_war_with = JAP } 
 				has_deployed_air_force_size = {
-					size > 2000
+					size > 1000
 					type = fighter
 				}
 				controls_state = 526

@@ -59,11 +59,15 @@ set_technology = {
 }
 AUS = { add_to_faction = TUR }
 add_ideas = {
-	TUR_hinsi
+	#TUR_hinsi
 	rengou
-	arabu
-	kenpou
+	#arabu
+	#kenpou
 	gun
+}
+set_variable = {
+	var = TUR.TUR_KAIKAKUDO
+	value = 150
 }
 if = {
 	limit = {
@@ -127,7 +131,7 @@ set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.3
 
-recruit_character = TUR_abdulmejid_ii
+    recruit_character = TUR_abdulmejid_ii
 	recruit_character = TUR_mustafa_kemal_ataturk
 	recruit_character = TUR_sefik_husnu
 	recruit_character = TUR_celal_bayar

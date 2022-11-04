@@ -1,9 +1,9 @@
-﻿capital = 845
+﻿capital = 988
 
 
 
-set_stability = 0.5 #baseline, THE EMPEROR PROTECTS
-set_war_support = 0.8
+set_stability = 0.85 #baseline, THE EMPEROR PROTECTS
+set_war_support = 0.5
 
 set_research_slots = 5
 set_fuel_ratio = 1.0
@@ -26,56 +26,56 @@ add_ideas = {
 }
 
 
-609 = {
+1007 = {
 	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
+	set_compliance = 45
+	set_resistance = 0
 	set_garrison_strength = 1.0
 }
 
-527 = {
+1008 = {
 	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
+	set_compliance = 45
+	set_resistance = 0
 	set_garrison_strength = 1.0
 }
 
 525 = {
 	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
+	set_compliance = 45
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+
+1009 = {
+	start_resistance = yes
+	set_compliance = 45
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+
+527 = {
+	start_resistance = yes
+	set_compliance = 45
+	set_resistance = 0
 	set_garrison_strength = 1.0
 }
 
 745 = {
 	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
+	set_compliance = 50
+	set_resistance = 0
 	set_garrison_strength = 1.0
 }
 
-524 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-647 = {
+743 = {
 	start_resistance = yes
 	set_compliance = 20
 	set_resistance = 0
 	set_garrison_strength = 1.0
 }
 
-684 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-633 = {
+728 = {
 	start_resistance = yes
 	set_compliance = 20
 	set_resistance = 0

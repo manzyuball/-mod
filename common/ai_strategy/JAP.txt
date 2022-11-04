@@ -2,21 +2,22 @@ JAP_factry = {
 	enable = {
 		AND = {
 			tag = JAP
-			has_war = no
+			NOT = { has_completed_focus = JAP_NITIEI31 }
 		}
 	}
 	
 	abort = {
 		AND = {
 			tag = JAP
-			has_war = yes
+			has_completed_focus = JAP_NITIEI31
 		}
 	}
 
-    ai_strategy = {
-        type = added_military_to_civilian_factory_ratio
-        value = 25
-    }
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 100
+	}
 }
 JAP_factry_senzi = {
 	enable = {
@@ -33,29 +34,9 @@ JAP_factry_senzi = {
 		}
 	}
 
-    ai_strategy = {
-        type = added_military_to_civilian_factory_ratio
-        value = 40
-    }
-}
-JAP_kouchu_zyouriku = {
-	enable = {
-		AND = {
-			tag = JAP
-			has_war_with = CHI
-		}
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 100
 	}
-	
-	abort = {
-		AND = {
-			tag = JAP
-			has_war = no
-		}
-	}
-
-    ai_strategy = {
-        type = invasion_unit_request
-        area = kouchu
-        value = 5000
-    }
 }

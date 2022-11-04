@@ -1,5 +1,5 @@
 NDefines = {
-
+	
 	NGame = {
 		START_DATE = "1936.1.1.12",
 		END_DATE = "1949.1.1.1",
@@ -109,9 +109,9 @@ NDefines = {
 		FLEET_FEAR = 1,									-- Impact on troops on borders when deciding how willing a nation is to trade
 		IC_TO_EQUIPMENT_COUP_RATIO = 0.1,				-- Ratio for calculating cost of staging coup
 		VOLUNTEERS_PER_TARGET_PROVINCE = 0.05,			-- Each province owned by the target country contributes this amount of volunteers to the limit.
-		VOLUNTEERS_PER_COUNTRY_ARMY = 0.05,				-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
+		VOLUNTEERS_PER_COUNTRY_ARMY = 0.25,				-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
 		VOLUNTEERS_RETURN_EQUIPMENT = 0.95,				-- Returning volunteers keep this much equipment
-		VOLUNTEERS_TRANSFER_SPEED = 14,					-- days to transfer a unit to another nation
+		VOLUNTEERS_TRANSFER_SPEED = 5,					-- days to transfer a unit to another nation
 		VOLUNTEERS_DIVISIONS_REQUIRED = 30,				-- This many divisons are required for the country to be able to send volunteers.
 		TENSION_STATE_VALUE = 2,						-- Tension value gained by annexing one state
 		TENSION_CIVIL_WAR_IMPACT = 0.2,					-- civil war multiplier on tension.
@@ -274,10 +274,10 @@ NDefines = {
 		WAR_SUPPORT_OFFNSIVE_WAR = -0.2,				-- Impact of being in offensive war
 		WAR_SUPPORT_DEFENSIVE_WAR = 0.2,				-- Impact of being in defensive war
 		WAR_SUPPORT_TENSION_IMPACT = 0.4,				-- Total impact of world tension
-		MIN_STABILITY = 0.0,
-		MAX_STABILITY = 1.0,
-		MIN_WAR_SUPPORT = 0.0,
-		MAX_WAR_SUPPORT = 1.0,
+		MIN_STABILITY = -2.0,
+		MAX_STABILITY = 2.0,
+		MIN_WAR_SUPPORT = -2.0,
+		MAX_WAR_SUPPORT = 2.0,
 		FRONT_PROVINCE_SCORE = 20,    					-- Max province score of a front. Used for the hostile troop alert
 		MAJOR_IC_RATIO = 3,                             -- difference in total factories needed to be considered major with respect to other nation
 		MAJOR_MIN_FACTORIES = 35,						-- need at least these many factories to become a major
@@ -724,10 +724,10 @@ NDefines = {
 		WAR_SCORE_LEND_LEASE_RECEIVED_IC_FACTOR = 0.1,  			-- war score deducted for every IC of lend lease received from allies
 		WAR_SCORE_LEND_LEASE_RECEIVED_FUEL_FACTOR = 0.01, 			-- war score deducted for every unit of fuel lend lease received from allies
 	
-		CORPS_COMMANDER_DIVISIONS_CAP = 24,			-- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
+		CORPS_COMMANDER_DIVISIONS_CAP = 30,			-- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
 		DIVISION_SIZE_FOR_XP = 8,                   -- how many battalions should a division have to count as a full divisions when calculating XP stuff
 		CORPS_COMMANDER_ARMIES_CAP = -1,			-- how many armies a corps commander is limited to. 0 = inf, < 0 = blocked
-		FIELD_MARSHAL_DIVISIONS_CAP = 24,			-- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
+		FIELD_MARSHAL_DIVISIONS_CAP = 30,			-- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
 		FIELD_MARSHAL_ARMIES_CAP = 5,				-- how many armies a field marshall is limited to. 0 = inf, < 0 = blocked
 	
 		UNIT_LEADER_GENERATION_CAPITAL_CONTINENT_FACTOR = 100, --Integer factor to multiply manpower.
@@ -995,7 +995,7 @@ NDefines = {
 		ACCLIMATIZATION_LOSS_SPEED_FACTOR = 2.0,		-- Loosing one acclimatization while being under affect of the opposite climate should cause it to drop down much faster than gaining.
 	
 	
-		PROMOTE_LEADER_CP_COST = 40.0,					-- cost of promoting a leader
+		PROMOTE_LEADER_CP_COST = 15.0,					-- cost of promoting a leader
 	
 		FIELD_MARSHAL_ARMY_BONUS_RATIO = 0.5,           -- ratio to apply regular bonuses FM bonuses to armies
 	
@@ -1004,9 +1004,9 @@ NDefines = {
 		GARRISON_ORDER_ARMY_CAP_FACTOR = 3.0,			-- armies gets increased cap when they are garrisoned
 	
 		COMMANDER_LEVEL_UP_STAT_COUNT = 3, 				-- num stats gained on level up
-		COMMANDER_LEVEL_UP_STAT_WEIGHTS = {5, 5, 5, 5}, -- level up stat random base weights attack, defense, planning, logistics
+		COMMANDER_LEVEL_UP_STAT_WEIGHTS = {15, 15, 15, 15}, -- level up stat random base weights attack, defense, planning, logistics
 	
-		NAVY_LEADER_LEVEL_UP_STAT_WEIGHTS = {5, 5, 5, 5}, -- level up stat random base weights attack, defense, maneuvering, coordination
+		NAVY_LEADER_LEVEL_UP_STAT_WEIGHTS = {15, 15, 15, 15}, -- level up stat random base weights attack, defense, maneuvering, coordination
 	
 		UNIT_LEADER_INITIAL_TRAIT_SLOT = { 				-- trait slot for 0 level leader
 			1.0, -- field marshal
@@ -1056,7 +1056,7 @@ NDefines = {
 		NEW_NAVY_LEADER_RANDOM_SKILL_CHANCES = { -- chances to give a random stat skill point for a new admiral
 		},
 	
-		UNIT_LEADER_MODIFIER_COOLDOWN_ON_GROUP_CHANGE = 15,		-- time in days for a unit leader to regain its modifiers
+		UNIT_LEADER_MODIFIER_COOLDOWN_ON_GROUP_CHANGE = 1,		-- time in days for a unit leader to regain its modifiers
 		UNIT_LEADER_ASSIGN_TRAIT_COST = 15.0,					-- cost to assign a new trait to a unit leader
 		ATTACHED_WINGS_ORDER_UPDATE_DAYS = 5,					-- Days untill the attached wing will update the order
 	
@@ -1961,7 +1961,7 @@ NDefines = {
 		GARRISON_FRACTION = 0.0, 					-- How large part of a front should always be holding the line rather than advancing at the enemy
 		THEORIST_SCALING_WEIGHT_FACTOR_PER_NON_POLITICAL_ADVISORS = 0.15, --Scale theorist weight by this * num non political advisors
 		DIPLOMATIC_ACTION_GOOD_BAD_RATIO_THRESHOLD = 1,
-		BASE_RELUCTANCE = 20, 						-- Base reluctance applied to all diplomatic offers
+		BASE_RELUCTANCE = 10, 						-- Base reluctance applied to all diplomatic offers
 		DIPLOMATIC_ACTION_RANDOM_FACTOR = 0.5, 		-- How much of the AI diplomatic action scoring is randomly determined (1.0 = half random, 2.0 = 2/3rd random, etc)
 		DIPLOMATIC_ACTION_PROPOSE_SCORE = 50, 		-- AI must score a diplomatic action at least this highly to propose it themselves
 		DILPOMATIC_ACTION_DECLARE_WAR_WARGOAL_BASE = 50, -- Base diplomatic action score bonus to go to war per wargoal
@@ -2341,7 +2341,7 @@ NDefines = {
 		TOO_INSIGNIFICANT_MAX_PENALTY = 350,						-- max penalty that will be applied for thinking a country is too insignificant
 	
 		-- Calculating wanted nr of divisions
-		WANTED_UNITS_INDUSTRY_FACTOR = 1.45,                        -- How many units a country wants is partially based on how much military industry that is available
+		WANTED_UNITS_INDUSTRY_FACTOR = 3.0,                        -- How many units a country wants is partially based on how much military industry that is available
 		WANTED_UNITS_THREAT_BASE = 0.7,                             -- If no threat, multiply min wanted units by this
 		WANTED_UNITS_THREAT_MAX = 25.0,                             -- Normalized threat is clamped to this
 		WANTED_UNITS_WAR_THREAT_FACTOR = 1.5,                       -- Factor threat with this if country is at war. this value is overriden by the value in ideology database if that value exceedes this.

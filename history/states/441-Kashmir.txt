@@ -10,9 +10,8 @@ state={
 		owner = IVO
 		add_core_of = IVO
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
-		add_core_of = RAJ
 		add_claim_by = PAK
 	}
 

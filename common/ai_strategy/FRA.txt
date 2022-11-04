@@ -1,0 +1,50 @@
+FRA_army_plan = {
+	enable = {
+		tag = FRA
+	}
+	
+	abort = {
+		has_war = no
+	}
+
+    ai_strategy = {
+        type = force_build_armies
+        value = 750
+    }
+}
+FRA_factry = {
+	enable = {
+		AND = {
+			tag = FRA
+			date < 1938.05.01
+		}
+	}
+	
+	abort = {
+		AND = {
+			tag = FRA
+			date > 1938.05.01
+		}
+	}
+
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 100
+	}
+}
+FRA_factry_senzi = {
+	enable = {
+		tag = FRA
+	}
+	
+	abort = {
+	}
+
+
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 25
+	}
+}

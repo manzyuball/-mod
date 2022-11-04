@@ -32,7 +32,7 @@ ENG_Zyouriku = {
 		ai_will_do = {
 			factor = 10000
 		}
-        days_remove = 65
+        days_remove = 130
 		  remove_effect = {
             custom_effect_tooltip = ENG_Zyunbi_zyouriku_OK
             set_country_flag = ENG_ZYOURIKU_OK
@@ -194,21 +194,27 @@ ENG_Zyouriku = {
 	}
 }
 ENG_KOUWA = {
-    ENG_WIN_WAR2 = {
+    ENG_WIN_WAR2 = { #842
         icon = generic_operation
         available = {
+            is_puppet = no
+            is_ai = yes
             AND = {
-                OR = {
-                FRA = { is_puppet = yes }
-                FRA = { exists = no }
+                FRA = { 
+                    has_capitulated = yes
+                    has_war_with = ENG
+                    has_war_with = AUS
                 }
-                OR = {
-                GER = { is_puppet = yes }
-                GER = { exists = no }
+                ITA = { 
+                    has_capitulated = yes
+                    has_war_with = ENG
+                    has_war_with = AUS
                 }
-                AUS = { is_ai = yes }
-                AUS = { NOT = { has_war_with = FRA } }
-                ENG = { NOT = { has_war_with = FRA } }
+                GER = { 
+                    has_capitulated = yes
+                    has_war_with = ENG
+                    has_war_with = AUS
+                }
             }
         }
         visible = {
@@ -269,7 +275,7 @@ ENG_KOUWA = {
                 transfer_state = 62
                 transfer_state = 976
                 transfer_state = 65
-                transfer_state = 842
+                transfer_state = 1013
                 transfer_state = 64
                 transfer_state = 61
                 transfer_state = 58
@@ -369,17 +375,18 @@ ENG_KOUWA = {
                                     }
                                     AUS = { puppet = SWI }
                                     SWI = { 
-                                        transfer_state = 872
-                                        transfer_state = 870
-                                        transfer_state = 151
+                                        transfer_state = 845
+                                        transfer_state = 847
+                                        transfer_state = 846
                                         transfer_state = 3
-                                        transfer_state = 871
-                                        transfer_state = 873
+                                        transfer_state = 151
                                         }
                                         AUS = { puppet = OCC }
                                         OCC = { 
                                             transfer_state = 735
                                             add_state_core = 735
+                                            transfer_state = 851
+                                            add_state_core = 851
                                             transfer_state = 32
                                             add_state_core = 32
                                             transfer_state = 21
@@ -397,8 +404,8 @@ ENG_KOUWA = {
                                             VNI = { 
                                                 transfer_state = 159
                                                 add_state_core = 159
-                                                transfer_state =968
-                                                add_state_core =968
+                                                transfer_state = 968
+                                                add_state_core = 968
                                                 transfer_state = 967
                                                 add_state_core = 967
                                                 transfer_state = 158
@@ -411,8 +418,6 @@ ENG_KOUWA = {
                                                 add_state_core = 157 
                                                 transfer_state = 2
                                                 add_state_core = 2 
-                                                transfer_state = 843
-                                                add_state_core = 843 
                                                 transfer_state = 941
                                                 add_state_core = 941 
                                                 transfer_state = 117
@@ -421,8 +426,12 @@ ENG_KOUWA = {
                                                 add_state_core = 156 
                                                 transfer_state = 115
                                                 add_state_core = 115 
-                                                transfer_state = 835
-                                                add_state_core = 835
+                                                transfer_state = 978
+                                                add_state_core = 978
+                                                transfer_state = 986
+                                                add_state_core = 986
+                                                transfer_state = 849
+                                                add_state_core = 849
                                                 }
     }
 }

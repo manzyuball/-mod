@@ -850,3 +850,24 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = britain.27
+	title = britain.27.t
+	desc = britain.27.d
+	picture = GFX_report_event_japan_europe_pact
+	trigger = {
+        original_tag = ENG
+        POR = {
+			surrender_progress > 0.5
+			has_war_with = FRA
+		}
+    }
+	fire_only_once = yes
+	option = {
+		name = britain.27.a
+		INS = { transfer_state = 721 }
+		RAJ = { transfer_state = 321 }
+		ENG = { transfer_state = 296 transfer_state = 729 transfer_state = 705 transfer_state = 540 transfer_state = 892 transfer_state = 891 transfer_state = 889 transfer_state = 771 transfer_state = 545 
+		transfer_state = 544 transfer_state = 896 transfer_state = 770 transfer_state = 897 }
+	}
+}

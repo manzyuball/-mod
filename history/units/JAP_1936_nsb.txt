@@ -249,7 +249,150 @@ units = {
 		division_template = "歩兵隊"
 		start_experience_factor = 0.3
 	}
-
+	division = {
+		name = "歩兵隊"
+		location = 11932
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "歩兵隊"
+		location = 13025 
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "歩兵隊"
+		location = 7186
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "歩兵隊"
+		location = 12011
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "歩兵隊"
+		location = 11981
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "歩兵隊"
+		location = 10000
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "歩兵隊"
+		location = 13037
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "歩兵隊"
+		location = 4052
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "歩兵隊"
+		location = 7125
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "歩兵隊"
+		location = 4056
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "歩兵隊"
+		location = 11948
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "歩兵隊"
+		location = 6928
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "日本本土防衛隊"
+		location = 12421 
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "日本本土防衛隊"
+		location = 10444
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "日本本土防衛隊"
+		location = 3962 
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "日本本土防衛隊"
+		location = 6994
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "日本本土防衛隊"
+		location = 7169 
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "日本本土防衛隊"
+		location = 1182
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "日本本土防衛隊"
+		location = 1117
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "日本本土防衛隊"
+		location = 10125
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "日本本土防衛隊"
+		location = 10032
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "日本本土防衛隊"
+		location = 7072 
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "日本本土防衛隊"
+		location = 1092
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "日本本土防衛隊"
+		location = 1025
+		division_template = "歩兵隊"
+		start_experience_factor = 0.3
+	}
 	division = {
 		name = "日本本土防衛隊"
 		location = 12421 
@@ -324,6 +467,10 @@ units = {
 	}
 }
 
+
+#########################
+## STARTING PRODUCTION ##
+#########################
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
