@@ -1,0 +1,754 @@
+ideas = {
+	industrial_concern = {
+		ETH_cie = { 
+
+			picture = ETH_cie
+
+			allowed = {
+				original_TAG = ETH
+				has_dlc = "By Blood Alone"
+			}
+
+			visible = {
+
+			}
+
+			available = {
+				
+			}
+
+			cost = 75
+
+			research_bonus = {
+				train_tech = 0.1
+			}
+
+			traits = { railway_company }
+
+			modifier = {
+				
+			}
+		}
+
+		ETH_dire_dawa_industries = {
+			picture = ETH_dire_dawa_industries
+			allowed = {
+				original_TAG = ETH
+				has_dlc = "By Blood Alone"
+			}
+
+			available = {
+				
+			}
+			cost = 125
+						
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+		}
+		ETH_ethiopian_electric_power = {
+			picture = ETH_ethiopian_electric_power
+			allowed = {
+				original_tag = ETH
+				has_dlc = "By Blood Alone"
+			}
+			available = {
+			
+			}
+			cost = 150
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}
+		ETH_tenneco = {
+			picture = ETH_tenneco
+			allowed = {
+				original_tag = ETH
+				has_dlc = "By Blood Alone"
+			}
+			available = {
+			
+			}
+			cost = 150
+
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.05
+			}
+			
+			traits = { refinery_concern }
+			
+			modifier = {
+				production_oil_factor = 0.1
+			}
+		}
+		ETH_standard_oil_california = {
+			picture = standard_oil_california
+			name = standard_oil_california
+			allowed = {
+				original_tag = ETH
+			}
+			available = {
+			
+			}
+
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+			
+			modifier = {
+			}
+		}
+		ETH_stalingrad_tractor_factory = {
+			picture = stalingrad_tractor_factory
+			allowed = {
+				original_tag = ETH
+			}
+
+			visible = {
+			
+			}
+
+			research_bonus = {
+				industry = 0.1
+			}
+
+			traits = { industrial_concern }
+
+			modifier = {
+			}
+		}
+		ETH_english_electric = {
+			picture =  english_electric
+			allowed = {
+				original_TAG = ETH
+			}
+			visible = {
+			}
+			
+			research_bonus = {
+				electronics = 0.2
+			}
+			
+			traits = { electronics_concern }
+			
+			modifier = {
+			}
+		}
+		ETH_CZE_skoda_works_2 = {
+			picture = CZE_skoda_works_2
+			allowed = {
+				original_tag = ETH
+			}
+			visible = {
+			}
+
+			research_bonus = {
+				industry = 0.2
+			}
+
+			traits = { industrial_concern }
+		}
+	}
+
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		ETH_ncgf = {
+			picture = ETH_ncgf
+			allowed = {
+				original_tag = ETH
+				has_dlc = "By Blood Alone"
+			}
+			available = {
+			
+			}
+			cost = 150
+
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer  }
+
+		}
+
+		ETH_hmmbi = {
+			picture = ETH_hmmbi
+			allowed = {
+				original_tag = ETH
+				has_dlc = "By Blood Alone"
+			}
+			available = {
+			
+			}
+			cost = 150
+
+
+			research_bonus = {
+				infantry_weapons = 0.10
+				artillery = 0.05
+			}
+			
+			traits = { infantry_equipment_manufacturer  }
+
+		}
+
+		ETH_gaz = {
+			name = gaz
+
+			picture = gaz
+
+			allowed = {
+				original_tag = ETH
+			}
+
+			visible = {
+			
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.15
+				mot_rockets = 0.50
+			}
+
+			traits = { motorized_equipment_manufacturer }
+
+			modifier = {
+			}
+		}
+
+		beretta_ETH = { 
+			allowed = {
+				original_tag = ETH
+			}
+			picture = beretta
+			visible = {
+				
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.2
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		breda_ETH = { 
+			allowed = {
+				original_tag = ETH
+			}
+			picture = breda
+			visible = {
+				
+			}
+			
+			research_bonus = {
+				artillery = 0.2
+			}
+			
+			traits = { artillery_manufacturer }
+		}	
+
+		ETH_CZE_skoda_artillery = {
+
+			picture = generic_artillery_manufacturer_2
+			visible = {
+			}
+			allowed = {
+				original_tag = ETH
+			}
+
+			research_bonus = {
+				artillery = 0.15
+			}
+
+			traits = { artillery_manufacturer }
+
+			equipment_bonus = {
+
+			}
+		}
+
+		ETH_mas = {
+			picture = mas			
+			allowed = {
+				original_tag = ETH
+			}
+			visible = {
+			}							
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		ETH_scania = {
+			picture = scania	
+			allowed = {
+				original_tag = ETH
+			}
+			visible = {
+			}
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+			
+			modifier = {
+				# more info
+			}
+		}
+		ETH_bofors = {
+			
+			picture = generic_artillery_manufacturer_1
+
+			allowed = {
+				original_tag = ETH
+			}
+			visible = {
+			}
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			equipment_bonus = {
+				artillery = {
+					reliability = 0.20
+				}
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+			}
+		}
+		ETH_mauser = {
+			picture = mauser
+			visible = {
+			}
+			
+			allowed = {
+				original_tag = ETH
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+
+		ETH_nissan = {
+			picture = nissan
+			visible = {
+			}	
+			allowed = {
+				original_tag = ETH
+			}
+						
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+
+	}
+
+	tank_manufacturer = {
+		designer = yes
+		ETH_mytishchy_machine_building_plant = {
+
+			picture = SOV_mytishchy_machine_building_plant
+
+			allowed = {
+				original_tag = ETH
+			}
+
+			visible = {
+				
+			}
+
+			research_bonus = {
+				armor = 0.1
+			}
+
+			traits = { tank_refurbishment_plant }
+
+			modifier = {
+				equipment_conversion_speed = 0.15
+				equipment_capture_factor = 0.15
+				land_equipment_upgrade_xp_cost = -0.1
+			}
+		}
+
+		fiat_ETH = { 
+			picture = fiat
+			allowed = {
+				original_tag = ETH
+			}
+			
+			visible = {
+				
+			}
+			
+			research_bonus = {
+				armor = 0.2
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		designer = yes
+
+		ETH_CZE_ckd = {
+			picture = CZE_ckd
+			allowed = {
+				original_tag = ETH
+			}
+			visible = {
+			}
+			research_bonus = {
+				armor = 0.15
+			}
+
+			traits = { fast_tank_manufacturer }
+
+			equipment_bonus = {
+				# made light/medium tanks panzerkampfwagen 38
+			}
+		}
+
+		ETH_CZE_skoda_armor = {
+
+			picture = generic_tank_manufacturer_3
+			visible = {
+			}
+			allowed = {
+				original_tag = ETH
+			}
+
+			research_bonus = {
+				armor = 0.15
+			}
+
+			traits = { heavy_tank_manufacturer }
+
+			equipment_bonus = {
+			}
+		}
+		ETH_vickers_armstrong_eng = {
+			picture = vickers_armstrong_eng
+			allowed = {
+				original_TAG = ETH
+			}
+			visible = {
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { medium_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		ETH_renault_fra = {
+		
+			picture = renault
+			visible = {
+			}			
+			allowed = {
+				original_tag = ETH
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { heavy_tank_manufacturer }
+		}
+		ETH_landsverk = {
+			
+			picture = generic_tank_manufacturer_2
+			visible = {
+			}				
+			allowed = {
+				original_tag = ETH
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+			
+			modifier = {
+				# notable tanks L-120 and L-60, lighter tanks as well as the medium tank Stridsvagn m/42, that was mobile and well protected.
+			}
+		}
+		ETH_henschel = {
+			picture = henschel
+			visible = {
+			}		
+			allowed = {
+				original_tag = ETH
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	naval_manufacturer = {
+		designer = yes
+
+		ETH_rubin_design_bureau = {
+
+			picture = SOV_rubin_design_bureau
+
+			allowed = {
+				original_tag = ETH
+			}
+
+			visible = {
+				
+			}
+
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+
+			traits = { raiding_fleet_naval_manufacturer }
+
+			modifier = {
+			}
+		}
+
+		ETH_john_brown_company = {
+			picture = john_brown_company
+			allowed = {
+				original_TAG = ETH
+			}
+			visible = {
+			}
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { coastal_defence_naval_manufacturer }
+		}
+		ETH_maizuru_naval_arsenal = {
+			picture = maizuru_naval_arsenal		
+			allowed = {
+				original_tag = ETH
+			}
+			visible = {
+			}
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { convoy_escort_naval_manufacturer } #destroyer R&D
+
+			equipment_bonus = {
+				# 
+			}
+		}
+	}
+
+	aircraft_manufacturer = {
+
+		designer = yes
+
+		ETH_mig_design_bureau = {
+			name = mig_design_bureau
+
+			picture = mig_design_bureau
+
+			allowed = {
+				original_tag = ETH
+			}
+
+			visible = {
+		
+			}
+
+			research_bonus = {
+				air_equipment = 0.15
+			}
+
+			traits = { light_aircraft_manufacturer }
+
+			modifier = {
+			}
+		}
+
+		macchi_ETH = { 
+			allowed = {
+				original_tag = ETH
+			}
+			picture = macchi
+
+			visible = {
+			
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+
+		caproni_ETH = { 		
+			allowed = {
+				original_tag = ETH
+			}
+			picture = caproni
+			visible = {
+			
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { CAS_manufacturer }
+		}
+
+		ETH_imam = { 
+			picture	= ITA_imam
+
+			allowed = {
+				original_tag = ETH
+			}
+
+			visible = {
+			
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+
+		ETH_CZE_avia = {
+
+			picture = generic_air_manufacturer_1
+
+			visible = {
+			}
+			allowed = {
+				original_tag = ETH
+			}
+
+			research_bonus = {
+				air_equipment = 0.15
+			}
+
+			traits = { light_aircraft_manufacturer }
+
+			# fighter aircraft B-534, versitile and high performing in manuverability and speed
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		ETH_fairey_aviation = {
+			picture = fairey_aviation
+			allowed = {
+				original_TAG = ETH
+			}
+			visible = {
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		ETH_bloch = {
+			picture = bloch	
+			allowed = {
+				original_tag = ETH
+			}
+			visible = {
+			}	
+			research_bonus = {
+				air_equipment = 0.1
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		ETH_junkers = { 
+			picture = junkers
+			allowed = {
+				original_tag = ETH
+			}
+			visible = {
+			}			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { CAS_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		ETH_mitsubishi = {
+			picture = mitsubishi	
+			allowed = {
+				original_tag = ETH		
+			}
+			visible = {
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer_2 }
+
+			modifier = {
+
+			}
+		}
+	}
+}
