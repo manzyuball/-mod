@@ -1,26 +1,24 @@
+
 state={
 	id=787
-	name="STATE_787" # Northern Kashmir
-	manpower = 1415800
-	
-	state_category = rural
+	name="STATE_787"
 
 	history={
-		victory_points = {
-			1910 1
-		}
+
 		owner = IVO
 		add_core_of = IVO
 		buildings = {
-			infrastructure =2
+			infrastructure = 2
+
 		}
-		add_core_of = PAK
 
 	}
 
 	provinces={
-		1910 2041 2084 10821 
+		5042 7273 10821 
 	}
-
-	local_supplies=0.0 
+	manpower=1415800
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
