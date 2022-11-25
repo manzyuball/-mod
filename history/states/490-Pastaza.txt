@@ -2,9 +2,6 @@
 state={
 	id=490
 	name="STATE_490"
-	manpower = 70020
-	
-	state_category = pastoral
 
 	history={
 		owner = PRU
@@ -12,13 +9,17 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 1
+
 		}
 		add_core_of = PRU
+
 	}
 
 	provinces={
-		8149 10942 
+		8149 10942 13812 13879 
 	}
-
-	local_supplies=15.0 
+	manpower=70020
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=15.000
 }

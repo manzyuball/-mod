@@ -1,24 +1,26 @@
+
 state={
 	id=661
 	name="STATE_661"
-	manpower = 17617
-	
-	state_category = town
-	
+
 	history={
 		owner = EGY
 		add_core_of = EGY
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+
 		}
 		add_core_of = LBA
 		add_claim_by = TUR
-	}
-	
-	provinces={
-		1174 4051 4117 4176 7154 7194 10037 10067 11940 12009 
+
 	}
 
-	local_supplies=0.0 
+	provinces={
+		1174 4051 4117 4176 7154 7194 10037 10067 11940 12009 13688 
+	}
+	manpower=17617
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

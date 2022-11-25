@@ -10,6 +10,7 @@ state={
 		owner = NZL
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			2211 1 
@@ -19,7 +20,7 @@ state={
 	}
 
 	provinces={
-		2203 2211 8232 8241 12966 12974 12980 12988 
+		2203 2211 8232 8241 12966 12974 12980 12988 13618 
 	}
 	manpower=547198
 	buildings_max_level_factor=1.000

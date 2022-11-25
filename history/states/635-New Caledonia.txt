@@ -3,18 +3,16 @@ state={
 	id=635
 	name="STATE_635"
 	resources={
-		chromium=90 # was: 178.000
+		chromium=90.000
 	}
-	
-	state_category = small_island
 
 	history={
 		owner = AST
 		victory_points = {
-			4268 1
+			4268 1 
 		}
 		victory_points = {
-			12120 1
+			12120 1 
 		}
 		buildings = {
 			infrastructure = 2
@@ -28,16 +26,18 @@ state={
 			}
 			4247 = {
 				naval_base = 1
+
 			}
+
 		}
 
 	}
 
 	provinces={
-		1237 1263 4231 4247 4268 7264 10160 12120 12132 
+		1237 1263 4231 4247 4268 7264 10160 12120 12132 13616 13617 14297 14298 14299 14300 14301 14302 14303 14304 14305 
 	}
 	manpower=51876
 	buildings_max_level_factor=1.000
-
-	local_supplies=0.0 
+	state_category=small_island
+	local_supplies=0.000
 }

@@ -5,7 +5,7 @@ state={
 	resources={
 		aluminium=4.000
 	}
-	impassable = yes
+
 	history={
 		owner = BRA
 		buildings = {
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-		1979 2035 5232 8172 10956 
+		1979 2035 2204 8172 10956 13867 13868 13869 13950 13951 13952 13953 13954 13955 13956 13957 13981 13982 13983 13984 13985 13986 13987 13988 13989 
 	}
 	manpower=979900
 	buildings_max_level_factor=1.000

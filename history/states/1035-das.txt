@@ -1,10 +1,8 @@
+
 state={
 	id=1035
 	name="STATE_1035"
-	provinces={
-		4892 5000 5056 
-	}
-	state_category = town
+
 	history={
 		owner = COL
 		buildings = {
@@ -14,7 +12,12 @@ state={
 		add_core_of = COL
 
 	}
+
+	provinces={
+		4892 5000 5056 5088 13747 13797 13800 13801 13814 13855 13895 13896 13897 13898 13990 14176 14177 14178 14179 
+	}
 	manpower=543156
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

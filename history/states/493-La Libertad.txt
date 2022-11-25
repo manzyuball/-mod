@@ -2,13 +2,9 @@
 state={
 	id=493
 	name="STATE_493"
-	manpower = 2826781
 	resources={
-		oil=15 # was: 20
-		COCA=32
+		oil=15.000
 	}
-	
-	state_category = town
 
 	history={
 		owner = COL
@@ -18,10 +14,13 @@ state={
 			air_base = 4
 			12790 = {
 				naval_base = 5
+
 			}
 			8056 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = COL
 		victory_points = {
@@ -30,12 +29,17 @@ state={
 		victory_points = {
 			12790 5 
 		}
+		victory_points = {
+			10747 10 
+		}
 
 	}
 
 	provinces={
-		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 12872 
+		2023 2085 4969 7993 10494 10747 10790 10864 12703 12790 12872 13749 13750 13751 13752 13753 13754 13755 13756 13757 13758 13760 13761 13762 13763 13764 13798 13799 13802 13823 13883 13884 13885 13900 13913 14152 14153 14169 14170 14171 
 	}
-
-	local_supplies=0.0 
+	manpower=2826781
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

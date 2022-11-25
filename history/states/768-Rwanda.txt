@@ -1,26 +1,26 @@
+
 state={
 	id=768
-	name="STATE_768" # Rwanda
-	
-	state_category = pastoral
+	name="STATE_768"
 
 	history={
 		owner = KEN
 		victory_points = {
-			9962 1
+			9962 1 
 		}
 		buildings = {
 			infrastructure = 1
 
 		}
 		add_core_of = KEN
+
 	}
 
 	provinces={
-		9962
+		4201 9962 
 	}
 	manpower=1716564
 	buildings_max_level_factor=1.000
-
-	local_supplies=1.0 
+	state_category=pastoral
+	local_supplies=1.000
 }

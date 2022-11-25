@@ -2,7 +2,7 @@
 state={
 	id=786
 	name="STATE_786"
-	impassable = yes
+
 	history={
 		owner = GNA
 		add_core_of = GNA
@@ -14,7 +14,7 @@ state={
 	}
 
 	provinces={
-		1897 1962 7943 8035 10771 10779 10814 10838 
+		1115 1897 1962 7943 8035 10771 10779 10814 10838 13679 13680 13681 13685 13700 13701 13702 13741 
 	}
 	manpower=124200
 	buildings_max_level_factor=1.000

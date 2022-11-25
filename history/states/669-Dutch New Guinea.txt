@@ -8,12 +8,13 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
 
 	}
 
 	provinces={
-		1602 1617 1629 4468 4524 4593 7269 7487 7512 7585 7627 10505 12315 12386 12457 
+		1602 1617 1629 4468 4524 4593 7269 7487 7512 7585 7627 10505 12315 12386 12457 13597 13598 13599 13600 
 	}
 	manpower=314300
 	buildings_max_level_factor=1.000

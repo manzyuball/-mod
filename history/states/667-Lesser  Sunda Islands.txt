@@ -1,8 +1,9 @@
+
 state={
 	id=667
 	name="STATE_667"
 	resources={
-		rubber=52 # was: 16
+		rubber=52.000
 	}
 
 	history={
@@ -29,11 +30,10 @@ state={
 	}
 
 	provinces={
-		1298 1339 1355 4273 4301 4358 7293 7321 10175 10191 10219 12151 12162 12219 12234 
+		1298 1339 1355 4273 4301 4358 7293 7321 10175 10191 10219 12151 12162 12219 12234 13579 13580 13581 13584 13585 
 	}
 	manpower=3460200
-	buildings_max_level_factor=1
-	state_category="town"
-
-	local_supplies=3.0 
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=3.000
 }

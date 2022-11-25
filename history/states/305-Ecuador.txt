@@ -4,7 +4,6 @@ state={
 	name="STATE_305"
 	resources={
 		oil=2.000
-		coca=12.000
 	}
 
 	history={
@@ -21,13 +20,13 @@ state={
 
 		}
 		victory_points = {
-			8252 5
+			8252 5 
 		}
 
 	}
 
 	provinces={
-		5051 5120 8252 10888 11020 
+		5051 8252 10888 11020 14154 14155 14156 14157 14158 
 	}
 	manpower=2000000
 	buildings_max_level_factor=1.000

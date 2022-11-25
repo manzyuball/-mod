@@ -1,3 +1,4 @@
+
 state={
 	id=492
 	name="STATE_492"
@@ -6,8 +7,6 @@ state={
 		tungsten=18.000
 		aluminium=29.000
 	}
-	
-	state_category = large_town
 
 	history={
 		owner = PRU
@@ -19,16 +18,16 @@ state={
 		}
 		add_core_of = PRU
 		victory_points = {
-			2210 5
+			2210 5 
 		}
 
 	}
 
 	provinces={
-		2182 2210 2225 5202 12953 13086 13175 
+		2182 2210 2225 5202 12953 13086 13175 14143 14144 14145 
 	}
 	manpower=8601278
 	buildings_max_level_factor=1.000
-
-	local_supplies=80.0 
+	state_category=large_town
+	local_supplies=80.000
 }

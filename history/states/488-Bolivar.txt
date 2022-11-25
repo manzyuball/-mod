@@ -2,9 +2,6 @@
 state={
 	id=488
 	name="STATE_488"
-	manpower = 245642
-	
-	state_category = pastoral
 
 	history={
 		owner = COL
@@ -14,13 +11,16 @@ state={
 		}
 		add_core_of = COL
 		victory_points = {
-			10879 1
+			10879 1 
 		}
+
 	}
 
 	provinces={
-		1981 5317 7915 8050 10736 10849 10879 
+		1981 5317 7915 8050 10736 10849 10879 13790 13816 13817 13818 13819 13905 13912 13962 13963 13967 14047 14220 14221 14224 14225 14226 14227 14233 14234 14235 14236 14237 14238 14249 14250 14251 14252 14254 
 	}
-
-	local_supplies=0.0 
+	manpower=245642
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

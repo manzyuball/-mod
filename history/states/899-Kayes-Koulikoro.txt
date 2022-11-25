@@ -1,13 +1,11 @@
+
 state={
 	id=899
 	name="STATE_899"
-	manpower = 1163674
-	state_category=rural
 
 	history={
 		owner = GNA
 		add_core_of = GNA
-		
 		buildings = {
 			infrastructure = 2
 
@@ -16,9 +14,10 @@ state={
 	}
 
 	provinces={
-		2012 10812 10829 10915 12751 12838 
+		2012 10812 10829 10915 12751 12838 13683 13684 
 	}
-	
+	manpower=1163674
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

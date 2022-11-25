@@ -1,43 +1,44 @@
 
 state={
 	id=279
-	name="STATE_279" # Santiago
-	manpower = 3935146
-	
-	state_category = large_city
-	
+	name="STATE_279"
 	resources={
-		steel=16 # was: 24
-		SILVER=18
+		steel=16.000
 	}
 
 	history={
 		owner = CHL
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 7
 			air_base = 3
 			8222 = {
 				naval_base = 5
+
 			}
 			5121 = {
 				naval_base = 1
+
 			}
 			650 = {
 				bunker = 1
+
 			}
+
 		}
 		add_core_of = CHL
 		victory_points = {
-			650 15
+			650 15 
 		}
 
 	}
 
 	provinces={
-		650 5121 5169 5191 8194 8222 8229 8251 12920 12954 12984 
+		650 5118 5121 5169 5191 8222 8229 8251 12920 12954 12984 14032 14033 14034 14108 14109 14110 14111 14112 14113 14114 14115 14116 14117 14118 14119 14120 14121 14122 14123 14124 14125 
 	}
-
-	local_supplies=0.0 
+	manpower=3935146
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

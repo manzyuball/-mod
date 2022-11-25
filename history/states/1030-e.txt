@@ -1,20 +1,25 @@
+
 state={
 	id=1030
 	name="STATE_1030"
-	provinces={
-		5131 8217 8231 
-	}
+
 	history={
 		owner = CHL
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
+
 		}
 		set_demilitarized_zone = yes
 		add_core_of = CHL
+
+	}
+
+	provinces={
+		5131 8217 8231 13928 14136 14137 14138 14139 14141 14142 
 	}
 	manpower=231978
-	state_category=town
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=5.000
 }

@@ -2,24 +2,26 @@
 state={
 	id=721
 	name="STATE_721"
-	manpower = 455604
-	
-	state_category = pastoral
 
 	history={
 		owner = POR
 		add_core_of = INS
 		buildings = {
 			infrastructure = 2
-			12190 ={
+			12190 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		1326 12178 12190 12206 13001 
+		1326 12178 12190 12206 13001 13582 13583 13586 
 	}
-
-	local_supplies=0.0 
+	manpower=455604
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -1,9 +1,8 @@
+
 state={
 	id=1042
 	name="STATE_1042"
-	provinces={
-		5112 5167 7553 10432 10513 
-	}
+
 	history={
 		owner = BRA
 		add_core_of = BRA
@@ -18,15 +17,19 @@ state={
 
 		}
 		victory_points = {
-			10513 25
+			10513 25 
 		}
 		victory_points = {
 			5112 1 
 		}
 
 	}
+
+	provinces={
+		5112 5167 7553 10432 10513 14072 14073 14074 14075 14076 14077 
+	}
 	manpower=987912
-	state_category=large_city
 	buildings_max_level_factor=1.000
+	state_category=large_city
 	local_supplies=0.000
 }

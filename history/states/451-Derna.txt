@@ -2,14 +2,10 @@
 state={
 	id=451
 	name="STATE_451"
-	manpower = 45628
-	
-	state_category = wasteland
 
 	history={
 		owner = EGY
 		add_core_of = EGY
-		
 		victory_points = {
 			1130 5 
 		}
@@ -18,15 +14,20 @@ state={
 			air_base = 4
 			1130 = {
 				naval_base = 6
+
 			}
+
 		}
 		add_core_of = LBA
 		add_claim_by = TUR
+
 	}
 
 	provinces={
-		1130 1204 4136 4151 7082 9992 10120 12094 
+		1130 1186 1204 4060 4063 4136 4151 7082 7206 9992 10049 10120 12025 12094 13078 
 	}
-
-	local_supplies=4.0 
+	manpower=45628
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=4.000
 }

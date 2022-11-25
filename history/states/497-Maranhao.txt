@@ -2,13 +2,8 @@
 state={
 	id=497
 	name="STATE_497"
-	manpower = 2950100
-	
-	state_category = rural
-	
 	resources={
-		rubber=23 # was: 30
-		GOLD=13
+		rubber=23.000
 	}
 
 	history={
@@ -19,7 +14,9 @@ state={
 			air_base = 1
 			12853 = {
 				naval_base = 2
+
 			}
+
 		}
 		add_core_of = BRA
 		victory_points = {
@@ -29,8 +26,10 @@ state={
 	}
 
 	provinces={
-		2150 2214 2228 5153 5204 5220 10874 10984 12853 12913 12933 12947 12999 
+		2150 2214 2228 5153 5204 5220 10874 10984 12853 12913 12933 12947 12999 13847 13848 13849 13850 13851 13852 13853 13864 13865 13866 13933 14003 14004 14005 14006 14007 14048 14049 14050 14051 14052 14053 
 	}
-
-	local_supplies=0.0 
+	manpower=2950100
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

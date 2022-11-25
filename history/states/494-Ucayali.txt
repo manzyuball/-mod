@@ -2,25 +2,26 @@
 state={
 	id=494
 	name="STATE_494"
-	manpower = 6735826
 	resources={
 		tungsten=35.000
 		steel=42.000
 	}
-	state_category = city
-	
 
 	history={
 		owner = PRU
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = PRU
+
 	}
 
 	provinces={
-		2212 2226 5166 8160 8191 10940 
+		2212 2226 5166 8160 8191 10940 13808 13809 13810 13923 13977 14255 
 	}
-
-	local_supplies=25.0 
+	manpower=6735826
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=25.000
 }

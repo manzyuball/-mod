@@ -1,23 +1,23 @@
-state=
-{
+
+state={
 	id=327
-	name="STATE_327" # Luzon
-	manpower = 3548684
+	name="STATE_327"
 	resources={
 		tungsten=41.000
 	}
-	state_category = metropolis
-	history=
-	{
+
+	history={
 		owner = PHI
 		buildings = {
-			infrastructure = 5 #was: 5
+			infrastructure = 5
 			arms_factory = 4
 			industrial_complex = 7
 			air_base = 6
 			10265 = {
 				naval_base = 5
+
 			}
+
 		}
 		victory_points = {
 			10265 15 
@@ -26,11 +26,14 @@ state=
 			1221 1 
 		}
 		add_core_of = PHI
+
 	}
 
 	provinces={
-		1221 1288 7275 7323 7351 10165 10236 10265 12236 
+		1221 1288 7275 7323 7351 10165 10236 10265 12236 13538 
 	}
-
-	local_supplies=0.0 
+	manpower=3548684
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
 }

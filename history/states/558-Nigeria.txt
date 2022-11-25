@@ -2,13 +2,11 @@
 state={
 	id=558
 	name="STATE_558"
-	manpower = 19757000
-	
-	state_category = city
 	resources={
-		rubber=14
-		steel=21 
+		rubber=14.000
+		steel=21.000
 	}
+
 	history={
 		owner = TZN
 		add_core_of = TZN
@@ -18,17 +16,21 @@ state={
 			industrial_complex = 5
 			2050 = {
 				naval_base = 3
+
 			}
+
 		}
 		victory_points = {
-			2050 10
+			2050 10 
 		}
 
 	}
 
 	provinces={
-	2050 4952 12731 12817 12900 
+		2050 4952 12731 12817 12900 13673 
 	}
-
-	local_supplies=0.0 
+	manpower=19757000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

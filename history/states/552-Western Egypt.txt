@@ -2,7 +2,7 @@
 state={
 	id=552
 	name="STATE_552"
-	impassable = yes
+
 	history={
 		owner = EGY
 		buildings = {
@@ -12,10 +12,11 @@ state={
 		add_core_of = EGY
 		add_core_of = GNA
 		add_claim_by = TUR
+
 	}
 
 	provinces={
-		992 1143 2064 5078 7117 7148 7216 10097 10127 10869 10907 12033 12091 12099 12733 12764 12816 
+		2064 7216 10097 10869 10907 12099 12733 12816 13663 13664 13689 13718 13722 13745 
 	}
 	manpower=18539
 	buildings_max_level_factor=1.000

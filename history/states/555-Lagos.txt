@@ -1,10 +1,7 @@
 
 state={
 	id=555
-	name="STATE_555" #Kuril Islands
-	manpower = 15000 
-	
-	state_category = town
+	name="STATE_555"
 
 	history={
 		owner = JAP
@@ -22,8 +19,10 @@ state={
 	}
 
 	provinces={
-		1399 1515 13037 
+		1399 1515 13037 13478 13479 13480 13481 13482 
 	}
+	manpower=15000
 	buildings_max_level_factor=1.000
-	local_supplies=0.0 
+	state_category=town
+	local_supplies=0.000
 }

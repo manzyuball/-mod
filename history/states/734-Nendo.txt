@@ -1,8 +1,7 @@
+
 state={
 	id=734
 	name="STATE_734"
-	manpower = 5167
-	state_category = tiny_island
 
 	history={
 		owner = AST
@@ -10,15 +9,18 @@ state={
 			infrastructure = 2
 			7390 = {
 				naval_base = 1
-			}
-		}
-	}
 
-	buildings_max_level_factor=1.000
+			}
+
+		}
+
+	}
 
 	provinces={
-		7390 
+		7390 13615 
 	}
-
-	local_supplies=0.0 
+	manpower=5167
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+	local_supplies=0.000
 }

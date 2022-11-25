@@ -1,9 +1,7 @@
+
 state={
 	id=942
 	name="STATE_942"
-	provinces={
-		1277 1332 1460 1648 4446 4652 7327 7463 7658 7673 8360 10209 10225 10354 10382 10509 10522 12168 12181 12184 12212 12302 12343 12488 
-	}
 	resources={
 		rubber=90.000
 		oil=122.000
@@ -14,7 +12,7 @@ state={
 		owner = INS
 		add_core_of = INS
 		victory_points = {
-			4652 5
+			4652 5 
 		}
 		buildings = {
 			infrastructure = 3
@@ -27,11 +25,16 @@ state={
 				naval_base = 1
 
 			}
+
 		}
 
 	}
+
+	provinces={
+		1277 1332 1460 1648 4446 4652 7327 7463 7658 7673 8360 10209 10225 10354 10382 10509 10522 12168 12181 12184 12212 12302 12343 12488 13517 13518 13519 13520 
+	}
 	manpower=1638412
-	state_category=city
 	buildings_max_level_factor=1.000
+	state_category=city
 	local_supplies=0.000
 }

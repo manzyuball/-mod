@@ -1,19 +1,16 @@
+
 state={
 	id=695
 	name="STATE_695"
-	manpower = 76299
-	
-	state_category = rural
-
 	resources={
-		oil=68 # was: 126
+		oil=68.000
 	}
 
 	history={
 		add_core_of = COL
 		owner = COL
 		victory_points = {
-			153 1
+			153 1 
 		}
 		buildings = {
 			fuel_silo = 1
@@ -21,13 +18,18 @@ state={
 			153 = {
 				naval_base = 1
 				coastal_bunker = 2
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		153 
+		153 14035 
 	}
-
-	local_supplies=0.0 
+	manpower=76299
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

@@ -1,30 +1,32 @@
+
 state={
 	id=687
 	name="STATE_687"
-	manpower = 309000
-	
-	state_category = pastoral
-	
 	resources={
-		aluminium=64 # was: 112
+		aluminium=64.000
 	}
 
 	history={
 		owner = ENG
 		victory_points = {
-			4982 1
+			4982 1 
 		}
 		buildings = {
 			infrastructure = 1
 			4982 = {
 				naval_base = 1
+
 			}
+
 		}
-	}
-	
-	provinces={
-		4982 8107 12716 
+
 	}
 
-	local_supplies=5.0 
+	provinces={
+		4982 8107 12716 13805 13906 13917 13970 14140 14219 
+	}
+	manpower=309000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=5.000
 }
