@@ -5,7 +5,6 @@ USA_CIVIL = {
             has_war = no
             has_full_control_of_state = 360
             NOT = { has_full_control_of_state = 261	}
-            USB = { has_full_control_of_state = 261	}
             NOT = { has_country_flag = USA_USA_STATE_ZYUNBI }
             NOT = { 261 = { has_state_flag = USA_USA_STATE } }
         }
@@ -29,7 +28,6 @@ USA_CIVIL = {
             has_war = no
             has_full_control_of_state = 360
             NOT = { has_full_control_of_state = 261	}
-            USB = { has_full_control_of_state = 261	}
             NOT = { has_country_flag = USA_USA_STATE_SEN }
             261 = { has_state_flag = USA_USA_STATE }
         }
@@ -64,7 +62,6 @@ USA_CIVIL = {
             has_war = no
             has_full_control_of_state = 360
             NOT = { has_full_control_of_state = 261	}
-            USB = { has_full_control_of_state = 261	}
             NOT = { has_country_flag = USA_USA_STATE_WAR }
             261 = { has_state_flag = USA_USA_STATE }
         }
@@ -90,7 +87,6 @@ USA_CIVIL = {
             has_war = no
             has_full_control_of_state = 360
             NOT = { has_full_control_of_state = 816	}
-            USB = { has_full_control_of_state = 816	}
             NOT = { has_country_flag = USA_USA_STATE_ZYUNBI }
             NOT = { 816 = { has_state_flag = USA_USA_STATE } }
         }
@@ -114,7 +110,6 @@ USA_CIVIL = {
             has_war = no
             has_full_control_of_state = 360
             NOT = { has_full_control_of_state = 816	}
-            USB = { has_full_control_of_state = 816	}
             NOT = { has_country_flag = USA_USA_STATE_SEN }
             816 = { has_state_flag = USA_USA_STATE }
         }
@@ -149,7 +144,6 @@ USA_CIVIL = {
             has_war = no
             has_full_control_of_state = 360
             NOT = { has_full_control_of_state = 816	}
-            USB = { has_full_control_of_state = 816	}
             NOT = { has_country_flag = USA_USA_STATE_WAR }
             816 = { has_state_flag = USA_USA_STATE }
         }
@@ -175,7 +169,6 @@ USA_CIVIL = {
                 has_war = no
                 has_full_control_of_state = 361
                 NOT = { has_full_control_of_state = 362	}
-                USB = { has_full_control_of_state = 362	}
                 NOT = { has_country_flag = USA_USA_STATE_ZYUNBI }
                 NOT = { 362 = { has_state_flag = USA_USA_STATE } }
             }
@@ -199,7 +192,6 @@ USA_CIVIL = {
                 has_war = no
                 has_full_control_of_state = 361
                 NOT = { has_full_control_of_state = 362	}
-                USB = { has_full_control_of_state = 362	}
                 NOT = { has_country_flag = USA_USA_STATE_SEN }
                 362 = { has_state_flag = USA_USA_STATE }
             }
@@ -234,7 +226,6 @@ USA_CIVIL = {
                 has_war = no
                 has_full_control_of_state = 361
                 NOT = { has_full_control_of_state = 362	}
-                USB = { has_full_control_of_state = 362	}
                 NOT = { has_country_flag = USA_USA_STATE_WAR }
                 362 = { has_state_flag = USA_USA_STATE }
             }
@@ -260,7 +251,6 @@ USA_CIVIL = {
                         has_war = no
                         has_full_control_of_state = 261
                         NOT = { has_full_control_of_state = 369	}
-                        USB = { has_full_control_of_state = 369	}
                         NOT = { has_country_flag = USA_USA_STATE_ZYUNBI }
                         NOT = { 369 = { has_state_flag = USA_USA_STATE } }
                     }
@@ -284,7 +274,6 @@ USA_CIVIL = {
                         has_war = no
                         has_full_control_of_state = 261
                         NOT = { has_full_control_of_state = 369	}
-                        USB = { has_full_control_of_state = 369	}
                         NOT = { has_country_flag = USA_USA_STATE_SEN }
                         369 = { has_state_flag = USA_USA_STATE }
                     }
@@ -319,7 +308,6 @@ USA_CIVIL = {
                         has_war = no
                         has_full_control_of_state = 261
                         NOT = { has_full_control_of_state = 369	}
-                        USB = { has_full_control_of_state = 369	}
                         NOT = { has_country_flag = USA_USA_STATE_WAR }
                         369 = { has_state_flag = USA_USA_STATE }
                     }
