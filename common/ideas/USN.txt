@@ -22,6 +22,77 @@ ideas = {
 				experience_gain_navy = 0.25
 			}
 		}
+		USN_gun = { 
+		
+			allowed = {
+				always = no
+			}
+
+			picture = tur_coordinated_balkan_armed_forces
+
+			removal_cost = -1
+		
+			modifier = {
+				army_defence_factor = 0.5
+			}
+		}
+		USN_mikkoku = { #挙国一致
+		
+			allowed = {
+				always = no
+			}
+
+			picture = tur_coordinated_balkan_armed_forces
+
+			removal_cost = -1
+		
+			modifier = {
+
+				planning_speed = 0.30
+				max_planning = 0.40
+				army_org_Factor = 0.2
+			}
+		}
+		USN_senno = { 
+		
+			allowed = {
+				always = no
+			}
+
+			picture = tur_coordinated_balkan_armed_forces
+
+			removal_cost = -1
+		
+			modifier = {
+				conscription_factor = 0.1
+				army_org_Factor = 0.3
+				army_defence_factor = 0.2
+				army_attack_factor = 0.2
+				production_speed_buildings_factor = 0.2
+			}
+		}
+		boueihou = { #国土緊急防衛法
+		
+			allowed = {
+				always = no
+			}
+
+			picture = tur_coordinated_balkan_armed_forces
+
+			removal_cost = -1
+		
+			modifier = {
+				conscription = 0.2
+				army_core_defence_factor = 0.50
+				training_time_army_factor = -0.3
+			}
+		}
+		USN_newdeal = {
+			picture = generic_industrial_concern_1
+			modifier = {
+				production_speed_buildings_factor = 0.5
+			}
+		}
 		teishi1 = { #黒人迫害停止
 		
 			allowed = {
