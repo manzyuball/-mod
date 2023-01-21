@@ -1,11 +1,9 @@
-state=
-{
-	id=645
-	name="STATE_645"
-	manpower=1018
+state = {
+	id = 645
+	name = "STATE_645"
+	manpower = 1018
 	state_category = town
-	history=
-	{
+	history = {
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
@@ -14,17 +12,30 @@ state=
 			air_base = 1
 			13025 = {
 				naval_base = 1
-
 			}
 		}
 		victory_points = {
-			13025 5
-		 }
-
+			13025
+			5
+		}
+		victory_points = {
+			14338
+			1
+		}
+		victory_points = {
+			14339
+			0
+		}
+		victory_points = {
+			14340
+			0
+		}
 	}
-	provinces={
+	provinces = {
 		13025
+		14338
+		14339
+		14340
 	}
-
-	local_supplies=0.0 
+	local_supplies = 0
 }
