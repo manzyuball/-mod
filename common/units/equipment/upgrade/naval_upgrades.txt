@@ -1,0 +1,483 @@
+upgrades = {
+	ship_mtg_naval_range_upgrade = {
+		#燃料
+		abbreviation = "eng"
+		max_level = 20		#
+		cost = naval
+		linear_cost = {
+			cost_by_level = 4
+			cost_by_level_for_licensed_equipment = 5
+		}
+		level_requirements = {
+			3 = {
+				or = {
+					always = yes
+				}
+			}
+			6 = {
+				or = {
+					always = yes
+				}
+			}
+			9 = {
+				or = {
+					always = yes
+				}
+			}
+			12 = {
+				or = {
+					always = yes
+				}
+			}
+			15 = {
+				or = {
+					always = yes
+				}
+			}
+			18 = {
+				or = {
+					always = yes
+				}
+			}
+			# 21 = {
+			# 	or = {
+			# 		always = yes
+			# 	}
+			# }
+			# 25 = {
+			# 	or = {
+			# 		always = yes
+			# 	}
+			# }
+			# 28 = {
+			# 	or = {
+			# 		always = yes
+			# 	}
+			# }
+		}
+		resource_cost_thresholds = {
+			10 = {
+				#higher level engines do require more strategic resources
+				chromium = 1
+			}
+		}
+		armor_value = -0.025
+		naval_range = 0.25
+		naval_speed = -0.01
+		fuel_consumption = 0.05
+		naval_torpedo_enemy_critical_chance_factor = -0.025
+		add_stats = {
+			naval_range = 50
+		}
+		build_cost_ic = 0.05
+	}
+	ship_mtg_engine_upgrade = {
+		#超軽エンジン
+		abbreviation = "eng"
+		max_level = 20		#
+		cost = naval
+		linear_cost = {
+			cost_by_level = 5
+			cost_by_level_for_licensed_equipment = 10
+		}
+		level_requirements = {
+			20 = {
+				or = {
+					always = yes
+				}
+			}
+			# }
+			# 25 = {
+			# 	or = {
+			# 		always = yes
+			# 	}
+			# }
+			# 28 = {
+			# 	or = {
+			# 		always = yes
+			# 	}
+			# }
+		}
+		resource_cost_thresholds = {
+			10 = {
+				#higher level engines do require more strategic resources
+				chromium = 1
+			}
+		}
+		naval_speed = 0.075
+		build_cost_ic = 0.025
+		# naval_range = 0.05
+		reliability = -0.005
+		add_stats = {
+			fuel_consumption = 0.05
+			naval_speed = 0.2
+		}
+	}
+	ship_mtg_armor_upgrade = {
+		#装甲
+		abbreviation = "eng"
+		max_level = 20		#
+		cost = naval
+		linear_cost = {
+			cost_by_level = 6
+			cost_by_level_for_licensed_equipment = 5
+		}
+		level_requirements = {
+			3 = {
+				or = {
+					always = yes
+				}
+			}
+			6 = {
+				or = {
+					always = yes
+				}
+			}
+			9 = {
+				or = {
+					always = yes
+				}
+			}
+			12 = {
+				or = {
+					always = yes
+				}
+			}
+			15 = {
+				or = {
+					always = yes
+				}
+			}
+			18 = {
+				or = {
+					always = yes
+				}
+			}
+			20 = {
+				or = {
+					always = yes
+				}
+			}
+		}
+		resource_cost_thresholds = {
+			10 = {
+				#higher level engines do require more strategic resources
+				chromium = 1
+				#higher level engines do require more strategic resources
+				steel = 1
+			}
+			5 = {
+				steel = 1
+			}
+		}
+		armor_value = 0.0965
+		naval_speed = -0.01
+		build_cost_ic = 0.05
+		naval_torpedo_enemy_critical_chance_factor = 0.025
+		naval_torpedo_damage_reduction_factor = -0.025
+		add_stats = {
+			build_cost_ic = 10
+			armor_value = 0.2
+		}
+	}
+	ship_mtg_armor_sub_upgrade = {
+		#装甲
+		abbreviation = "eng"
+		max_level = 20		#
+		cost = naval
+		linear_cost = {
+			cost_by_level = 6
+			cost_by_level_for_licensed_equipment = 5
+		}
+		level_requirements = {
+			3 = {
+				or = {
+					always = yes
+				}
+			}
+			6 = {
+				or = {
+					always = yes
+				}
+			}
+			9 = {
+				or = {
+					always = yes
+				}
+			}
+			12 = {
+				or = {
+					always = yes
+				}
+			}
+			15 = {
+				or = {
+					always = yes
+				}
+			}
+			18 = {
+				or = {
+					always = yes
+				}
+			}
+			20 = {
+				or = {
+					always = yes
+				}
+			}
+		}
+		resource_cost_thresholds = {
+			10 = {
+				#higher level engines do require more strategic resources
+				chromium = 1
+				#higher level engines do require more strategic resources
+				steel = 1
+			}
+			5 = {
+				steel = 1
+			}
+		}
+		naval_torpedo_enemy_critical_chance_factor = 0.05
+		naval_torpedo_damage_reduction_factor = -0.05
+		armor_value = 0.1
+		max_strength = 0.05
+		naval_speed = -0.01
+		build_cost_ic = 0.075
+		add_stats = {
+			build_cost_ic = 40
+			armor_value = 0.2
+		}
+	}
+	ship_mtg_carrier_armor_upgrade = {
+		#装甲
+		abbreviation = "eng"
+		max_level = 20		#
+		cost = naval
+		linear_cost = {
+			cost_by_level = 6
+			cost_by_level_for_licensed_equipment = 5
+		}
+		level_requirements = {
+			3 = {
+				or = {
+					always = yes
+				}
+			}
+			6 = {
+				or = {
+					always = yes
+				}
+			}
+			9 = {
+				or = {
+					always = yes
+				}
+			}
+			12 = {
+				or = {
+					always = yes
+				}
+			}
+			15 = {
+				or = {
+					always = yes
+				}
+			}
+			18 = {
+				or = {
+					always = yes
+				}
+			}
+			20 = {
+				or = {
+					always = yes
+				}
+			}
+		}
+		resource_cost_thresholds = {
+			10 = {
+				#higher level engines do require more strategic resources
+				chromium = 1
+				#higher level engines do require more strategic resources
+				steel = 1
+			}
+			5 = {
+				steel = 1
+			}
+		}
+		armor_value = 0.0965
+		naval_speed = -0.01
+		build_cost_ic = 0.05
+		reliability = 0.01
+		naval_torpedo_enemy_critical_chance_factor = 0.05
+		naval_torpedo_damage_reduction_factor = -0.05
+		add_stats = {
+			build_cost_ic = 20
+			armor_value = 0.2
+		}
+	}
+	ship_mtg_deck_space_upgrade = {
+		#格納庫
+		abbreviation = "eng"
+		max_level = 10		#
+		cost = naval
+		linear_cost = {
+			cost_by_level = 7.5
+			cost_by_level_for_licensed_equipment = 7.5
+		}
+		level_requirements = {
+			3 = {
+				or = {
+					always = yes
+				}
+			}
+			6 = {
+				or = {
+					always = yes
+				}
+			}
+			9 = {
+				or = {
+					always = yes
+				}
+			}
+			# 12 = {
+			# 	or = {
+			# 		always = yes
+			# 	}
+			# }
+			# 15 = {
+			# 	or = {
+			# 		always = yes
+			# 	}
+			# }
+			# 18 = {
+			# 	or = {
+			# 		always = yes
+			# 	}
+			# }
+			# 20 = {
+			# 	or = {
+			# 		always = yes
+			# 	}
+			# }
+		}
+		resource_cost_thresholds = {
+			10 = {
+				#higher level engines do require more strategic resources
+				chromium = 1
+				steel = 1
+			}
+			5 = {
+				steel = 1
+			}
+			2 = {
+				steel = 1
+			}
+		}
+		build_cost_ic = 0.15
+		naval_speed = -0.02
+		reliability = -0.025
+		armor_value = -0.01
+		fuel_consumption = 0.025
+		add_stats = {
+			carrier_size = 5
+			fuel_consumption = 0.2
+		}
+	}
+	#
+	ship_gun_upgrade = {
+		max_level = 5
+		cost = naval		# This determies how much XP it will cost, controlled by defines, there are 3 cost types: air, land and naval
+		lg_attack = 0.04
+		lg_armor_piercing = 0.05
+		hg_attack = 0.04
+		hg_armor_piercing = 0.05
+		naval_speed = -0.01
+		reliability = -0.005
+	}
+	ship_torpedo_upgrade = {
+		max_level = 5
+		cost = naval
+		torpedo_attack = 0.075
+		naval_speed = -0.01
+		naval_range = -0.01
+	}
+	ship_armor_upgrade = {
+		max_level = 5
+		cost = naval
+		armor_value = 0.05
+		naval_speed = -0.01
+	}
+	ship_engine_upgrade = {
+		max_level = 5
+		cost = naval
+		naval_speed = 0.03
+		naval_range = 0.05
+		reliability = -0.005
+	}
+	destroyer_engine_upgrade = {
+		max_level = 5
+		cost = naval
+		naval_speed = 0.03
+		naval_range = 0.05
+	}
+	ship_reliability_upgrade = {
+		max_level = 5
+		cost = naval
+		reliability = 0.015
+		naval_range = -0.04
+	}
+	torpedo_ship_reliability_upgrade = {
+		max_level = 5
+		cost = naval
+		reliability = 0.015
+		naval_range = -0.04
+	}
+	ship_anti_air_upgrade = {
+		max_level = 5
+		cost = naval
+		anti_air_attack = 0.05
+		naval_speed = -0.01
+	}
+	ship_ASW_upgrade = {
+		max_level = 5
+		cost = naval
+		sub_detection = 0.04
+		sub_attack = 0.04
+		torpedo_attack = -0.01
+	}
+	sub_torpedo_upgrade = {
+		max_level = 5
+		cost = naval
+		torpedo_attack = 0.04
+		naval_speed = -0.02
+	}
+	sub_stealth_upgrade = {
+		max_level = 5
+		cost = naval
+		sub_visibility = -0.05
+		naval_speed = -0.02
+	}
+	sub_engine_upgrade = {
+		max_level = 5
+		cost = naval
+		naval_speed = 0.075
+		naval_range = 0.05
+		reliability = -0.005
+		sub_visibility = 0.05
+	}
+	ship_deckspace_upgrade = {
+		max_level = 5
+		cost = naval
+		carrier_size = 0.075
+		armor_value = -0.05
+	}
+	carrier_armor_upgrade = {
+		max_level = 5
+		cost = naval
+		armor_value = 0.1
+		max_strength = 0.01
+		carrier_size = -0.04
+	}
+}
