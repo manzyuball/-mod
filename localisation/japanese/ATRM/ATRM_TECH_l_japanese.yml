@@ -1,4 +1,4 @@
-﻿l_japanese:0
+﻿l_japanese:
 ship_mtg_naval_range_upgrade:2 "追加の燃料庫"
 submarine_mtg_engine_upgrade:2 "エンジン"
 ship_mtg_armor_upgrade:2 "装甲"
@@ -11,9 +11,9 @@ fixed_ship_engine_slot:2 "主機"
 fixed_ship_engine_slot_2:0 "補機"
 fixed_ship_secondaries_slot:2 "副兵装1"
 fixed_ship_secondaries_slot_2:2 "副兵装2"
-fixed_ship_secondaries_slot_2:3 "副兵装3"
-fixed_ship_secondaries_slot_2:4 "副兵装4"
-fixed_ship_secondaries_slot_2:5 "副兵装5"
+fixed_ship_secondaries_slot_3:3 "副兵装3"
+fixed_ship_secondaries_slot_4:4 "副兵装4"
+fixed_ship_secondaries_slot_5:5 "副兵装5"
 fixed_ship_anti_air_slot:3 "対空兵装"
 fixed_ship_deck_slot_1:0 "航空艤装1"
 fixed_ship_deck_slot_2:0 "航空艤装2"
