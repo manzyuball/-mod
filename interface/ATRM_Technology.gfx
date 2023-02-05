@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_default_critical_damage_icons"
+		textureFile = "gfx/interface/navalcombat/critical_damage_icons.dds"
+		noOfFrames = 22
+	}
+}
