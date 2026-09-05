@@ -1,0 +1,200 @@
+focus_tree = {
+    id = EJP_focus
+    country = {
+        factor = 0
+        modifier = { add = 100 tag = EJP }
+    }
+    default = no
+    continuous_focus_position = { x = 20 y = 10 }
+
+    focus = {
+        id = EJP_operation_preparation
+        icon = GFX_goal_generic_political_pressure
+        x = 5 y = 0
+        cost = 5
+        completion_reward = { add_political_power = 75 add_war_support = 0.03 }
+        ai_will_do = { factor = 10 }
+    }
+
+    focus = {
+        id = EJP_strike_toki
+        icon = GFX_goal_generic_major_war
+        x = 5 y = 1
+        cost = 5
+        prerequisite = { focus = EJP_operation_preparation }
+        completion_reward = {
+            set_country_flag = JRK_toki_struck
+            WJP = { country_event = { id = JRK.10 days = 1 } }
+        }
+        ai_will_do = { factor = 10 }
+    }
+
+    focus = {
+        id = EJP_seize_laser_base
+        icon = GFX_goal_generic_radar
+        x = 5 y = 2
+        cost = 5
+        prerequisite = { focus = EJP_strike_toki }
+        completion_reward = {
+            set_country_flag = JRK_laser_base_seized
+            remove_dynamic_modifier = EJP_command_network_stage1
+            add_dynamic_modifier = { modifier = EJP_command_network_stage2 }
+            WJP = { country_event = { id = JRK.11 days = 1 } }
+        }
+        ai_will_do = { factor = 10 }
+    }
+
+    focus = {
+        id = EJP_hack_western_air_defense
+        icon = GFX_goal_generic_intelligence_exchange
+        x = 5 y = 3
+        cost = 5
+        prerequisite = { focus = EJP_seize_laser_base }
+        completion_reward = {
+            WJP = {
+                add_dynamic_modifier = { modifier = WJP_cyber_disruption_timed days = 35 }
+                country_event = { id = JRK.12 days = 1 }
+            }
+        }
+        ai_will_do = { factor = 10 }
+    }
+
+    focus = {
+        id = EJP_break_the_alps
+        icon = GFX_goal_generic_demand_territory
+        x = 5 y = 4
+        cost = 5
+        prerequisite = { focus = EJP_hack_western_air_defense }
+        completion_reward = {
+            declare_war_on = { target = WJP type = annex_everything }
+            add_dynamic_modifier = { modifier = EJP_alpine_offensive_timed days = 70 }
+            add_army_experience = 20
+            WJP = { country_event = { id = JRK.13 days = 1 } }
+        }
+        ai_will_do = { factor = 10 }
+    }
+
+    focus = {
+        id = EJP_press_tokai
+        icon = GFX_goal_generic_occupy_states_ongoing_war
+        x = 5 y = 5
+        cost = 5
+        prerequisite = { focus = EJP_break_the_alps }
+        available = { has_war_with = WJP }
+        completion_reward = { add_war_support = 0.05 add_command_power = 25 }
+        ai_will_do = { factor = 10 }
+    }
+
+    focus = {
+        id = EJP_drive_west
+        icon = GFX_goal_generic_major_war
+        x = 5 y = 6
+        cost = 5
+        prerequisite = { focus = EJP_press_tokai }
+        available = { has_war_with = WJP }
+        completion_reward = { add_army_experience = 25 add_political_power = 50 }
+        ai_will_do = { factor = 10 }
+    }
+
+    focus = {
+        id = EJP_expand_military_industry
+        icon = GFX_goal_generic_construct_mil_factory
+        x = 1 y = 1
+        cost = 5
+        prerequisite = { focus = EJP_operation_preparation }
+        completion_reward = {
+            282 = { add_extra_state_shared_building_slots = 1 add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+            533 = { add_extra_state_shared_building_slots = 1 add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+        }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = EJP_central_logistics
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 1 y = 2
+        cost = 5
+        prerequisite = { focus = EJP_expand_military_industry }
+        completion_reward = {
+            535 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
+            534 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
+        }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = EJP_strategic_stockpile
+        icon = GFX_goal_generic_production
+        x = 1 y = 3
+        cost = 5
+        prerequisite = { focus = EJP_central_logistics }
+        completion_reward = {
+            add_equipment_to_stockpile = { type = infantry_equipment_3 amount = 1200 producer = EJP }
+            add_equipment_to_stockpile = { type = support_equipment_1 amount = 300 producer = EJP }
+        }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = EJP_field_headquarters
+        icon = GFX_goal_generic_army_motorized
+        x = 9 y = 1
+        cost = 5
+        prerequisite = { focus = EJP_operation_preparation }
+        completion_reward = { add_army_experience = 25 add_command_power = 30 }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = EJP_modern_armor
+        icon = GFX_goal_generic_army_tanks
+        x = 9 y = 2
+        cost = 5
+        prerequisite = { focus = EJP_field_headquarters }
+        completion_reward = { add_army_experience = 20 }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = EJP_marisa_air_concept
+        icon = GFX_goal_generic_air_fighter
+        x = 11 y = 2
+        cost = 5
+        prerequisite = { focus = EJP_field_headquarters }
+        completion_reward = { add_air_experience = 35 }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = EJP_integrated_air_defense
+        icon = GFX_goal_generic_radar
+        x = 11 y = 3
+        cost = 5
+        prerequisite = { focus = EJP_marisa_air_concept }
+        completion_reward = {
+            282 = { add_building_construction = { type = anti_air_building level = 2 instant_build = yes } }
+            533 = { add_building_construction = { type = anti_air_building level = 1 instant_build = yes } }
+        }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = EJP_internal_security
+        icon = GFX_goal_generic_political_pressure
+        x = 3 y = 1
+        cost = 5
+        prerequisite = { focus = EJP_operation_preparation }
+        completion_reward = { add_ideas = EJP_internal_surveillance }
+        ai_will_do = { factor = 4 }
+    }
+
+    focus = {
+        id = EJP_war_cabinet
+        icon = GFX_goal_generic_national_unity
+        x = 3 y = 2
+        cost = 5
+        prerequisite = { focus = EJP_internal_security }
+        completion_reward = { add_stability = 0.05 add_political_power = 100 }
+        ai_will_do = { factor = 4 }
+    }
+}
