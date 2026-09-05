@@ -1,0 +1,19 @@
+state = {
+    id = 535
+    name = "STATE_535"
+    manpower = 4800000
+    state_category = large_city
+    resources = { steel = 20 tungsten = 8 }
+    history = {
+        owner = EJP
+        add_core_of = EJP
+        buildings = {
+            infrastructure = 6
+            air_base = 4
+            arms_factory = 3
+            industrial_complex = 3
+        }
+        victory_points = { 10032 15 }
+    }
+    provinces = { 998 7102 7217 10015 10032 }
+}
