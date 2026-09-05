@@ -1,0 +1,70 @@
+JRK_filming_tools = {
+    JRK_debug_toki_attack = {
+        icon = generic_intelligence_exchange
+        cost = 0
+        visible = { AND = { is_debug = yes tag = EJP } }
+        available = { NOT = { has_country_flag = JRK_toki_struck } }
+        complete_effect = {
+            set_country_flag = JRK_toki_struck
+            WJP = { country_event = { id = JRK.10 } }
+        }
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+    }
+
+    JRK_debug_laser_seizure = {
+        icon = generic_army_support
+        cost = 0
+        visible = { AND = { is_debug = yes tag = EJP } }
+        available = {
+            has_country_flag = JRK_toki_struck
+            NOT = { has_country_flag = JRK_laser_base_seized }
+        }
+        complete_effect = {
+            set_country_flag = JRK_laser_base_seized
+            if = {
+                limit = { has_dynamic_modifier = EJP_command_network_stage1 }
+                remove_dynamic_modifier = EJP_command_network_stage1
+            }
+            if = {
+                limit = { NOT = { has_dynamic_modifier = EJP_command_network_stage2 } }
+                add_dynamic_modifier = { modifier = EJP_command_network_stage2 }
+            }
+            WJP = { country_event = { id = JRK.11 } }
+        }
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+    }
+
+    JRK_debug_air_defense_hack = {
+        icon = generic_intelligence_exchange
+        cost = 0
+        visible = { AND = { is_debug = yes tag = EJP } }
+        available = {
+            has_country_flag = JRK_laser_base_seized
+            WJP = { NOT = { has_dynamic_modifier = WJP_cyber_disruption_timed } }
+        }
+        complete_effect = {
+            WJP = {
+                add_dynamic_modifier = { modifier = WJP_cyber_disruption_timed days = 35 }
+                country_event = { id = JRK.12 }
+            }
+        }
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+    }
+
+    JRK_debug_alps_breakthrough = {
+        icon = generic_army_support
+        cost = 0
+        visible = { AND = { is_debug = yes tag = EJP } }
+        available = { NOT = { has_war_with = WJP } }
+        complete_effect = {
+            declare_war_on = { target = WJP type = annex_everything }
+            add_dynamic_modifier = { modifier = EJP_alpine_offensive_timed days = 70 }
+            WJP = { country_event = { id = JRK.13 } }
+        }
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+    }
+}
