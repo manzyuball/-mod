@@ -1,0 +1,2 @@
+EJP = "countries/East_Japan.txt"
+WJP = "countries/West_Japan.txt"
