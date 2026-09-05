@@ -1,0 +1,42 @@
+bookmarks = {
+    bookmark = {
+        name = JRK_BOOKMARK_NAME
+        desc = JRK_BOOKMARK_DESC
+        date = 2005.1.1.12
+        picture = GFX_select_date_1936
+        default_country = EJP
+        default = yes
+        sort_unplayed_first = no
+        include_majors_in_minor_list = no
+
+        EJP = {
+            history = EJP_JRK_BOOKMARK_HISTORY
+            ideology = neutrality
+            ideas = {
+                JRK_divided_archipelago
+                EJP_wartime_command_structure
+                EJP_military_priority
+            }
+            focuses = {
+                EJP_operation_preparation
+                EJP_hack_western_air_defense
+                EJP_break_the_alps
+            }
+        }
+
+        WJP = {
+            history = WJP_JRK_BOOKMARK_HISTORY
+            ideology = democratic
+            ideas = {
+                JRK_divided_archipelago
+                WJP_industrial_network
+                WJP_fragmented_air_defense
+            }
+            focuses = {
+                WJP_emergency_cabinet
+                WJP_restore_air_defense
+                WJP_hold_tokai
+            }
+        }
+    }
+}
