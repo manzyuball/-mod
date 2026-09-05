@@ -1,0 +1,37 @@
+EJP_prepare_for_west = {
+    allowed = { original_tag = EJP }
+    enable = { country_exists = WJP }
+    abort_when_not_enabled = yes
+
+    ai_strategy = { type = force_build_armies value = 25 }
+    ai_strategy = { type = equipment_production_min_factories_archetype id = infantry_equipment value = 4 }
+    ai_strategy = { type = antagonize id = WJP value = 1000 }
+}
+
+EJP_war_with_west = {
+    allowed = { original_tag = EJP }
+    enable = { has_war_with = WJP }
+    abort_when_not_enabled = yes
+
+    ai_strategy = { type = conquer id = WJP value = 1000 }
+    ai_strategy = { type = force_build_armies value = 35 }
+}
+
+WJP_prepare_for_east = {
+    allowed = { original_tag = WJP }
+    enable = { country_exists = EJP }
+    abort_when_not_enabled = yes
+
+    ai_strategy = { type = force_build_armies value = 30 }
+    ai_strategy = { type = equipment_production_min_factories_archetype id = infantry_equipment value = 4 }
+    ai_strategy = { type = antagonize id = EJP value = 700 }
+}
+
+WJP_war_with_east = {
+    allowed = { original_tag = WJP }
+    enable = { has_war_with = EJP }
+    abort_when_not_enabled = yes
+
+    ai_strategy = { type = conquer id = EJP value = 800 }
+    ai_strategy = { type = force_build_armies value = 40 }
+}
