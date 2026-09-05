@@ -1,0 +1,20 @@
+state = {
+    id = 526
+    name = "STATE_526"
+    manpower = 1400000
+    state_category = small_island
+    resources = { aluminium = 2 }
+    history = {
+        owner = WJP
+        add_core_of = WJP
+        buildings = {
+            infrastructure = 5
+            air_base = 5
+            industrial_complex = 1
+            arms_factory = 1
+            11932 = { naval_base = 5 }
+        }
+        victory_points = { 11932 10 }
+    }
+    provinces = { 1123 7115 10124 11932 }
+}
