@@ -1,0 +1,45 @@
+capital = 531
+oob = "WJP_2005"
+set_research_slots = 4
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "2004.11.7"
+    election_frequency = 48
+    elections_allowed = yes
+}
+set_popularities = {
+    democratic = 66
+    neutrality = 22
+    fascism = 6
+    communism = 6
+}
+
+set_technology = {
+    infantry_weapons = 1
+    infantry_weapons1 = 1
+    support_weapons = 1
+    tech_support = 1
+    tech_engineers = 1
+    motorised_infantry = 1
+    mechanised_infantry = 1
+    basic_artillery = 1
+    interwar_artillery = 1
+    electronic_mechanical_engineering = 1
+    radio = 1
+    basic_machine_tools = 1
+    construction1 = 1
+    excavation1 = 1
+    modern_tank_chassis = 1
+    modern_small_airframe = 1
+    jet_engines = 1
+}
+
+recruit_character = WJP_sanae
+recruit_character = WJP_reimu
+
+add_ideas = {
+    JRK_divided_archipelago
+    WJP_industrial_network
+    WJP_fragmented_air_defense
+}
