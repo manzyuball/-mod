@@ -1,0 +1,11 @@
+JRK_east_operations = {
+    icon = generic_prepare_civil_war
+    allowed = { tag = EJP }
+    visible = { tag = EJP }
+}
+
+JRK_west_emergency = {
+    icon = generic_prepare_civil_war
+    allowed = { tag = WJP }
+    visible = { tag = WJP }
+}
