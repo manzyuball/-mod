@@ -1,0 +1,5 @@
+JRK_filming_tools = {
+    icon = generic_intelligence_exchange
+    allowed = { OR = { tag = EJP tag = WJP } }
+    visible = { is_debug = yes }
+}
