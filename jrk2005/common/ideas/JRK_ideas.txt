@@ -1,0 +1,75 @@
+ideas = {
+    country = {
+        JRK_divided_archipelago = {
+            allowed = { OR = { tag = EJP tag = WJP } }
+            modifier = {
+                stability_factor = -0.08
+                war_support_factor = 0.05
+                supply_consumption_factor = 0.04
+            }
+        }
+
+        EJP_wartime_command_structure = {
+            allowed = { tag = EJP }
+            modifier = {
+                political_power_gain = 0.12
+                stability_factor = 0.04
+                planning_speed = 0.05
+            }
+        }
+
+        EJP_military_priority = {
+            allowed = { tag = EJP }
+            modifier = {
+                industrial_capacity_factory = 0.08
+                production_factory_efficiency_gain_factor = 0.08
+                consumer_goods_factor = 0.02
+            }
+        }
+
+        EJP_internal_surveillance = {
+            allowed = { tag = EJP }
+            modifier = {
+                stability_factor = 0.06
+                political_power_gain = 0.08
+                mobilization_speed = 0.08
+            }
+        }
+
+        WJP_industrial_network = {
+            allowed = { tag = WJP }
+            modifier = {
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+                production_factory_efficiency_gain_factor = 0.08
+            }
+        }
+
+        WJP_fragmented_air_defense = {
+            allowed = { tag = WJP }
+            modifier = {
+                air_mission_efficiency = -0.12
+                air_accidents_factor = 0.10
+                stability_factor = -0.03
+            }
+        }
+
+        WJP_yatagarasu_program = {
+            allowed = { tag = WJP }
+            modifier = {
+                research_speed_factor = 0.06
+                industrial_capacity_factory = 0.04
+                consumer_goods_factor = 0.02
+            }
+        }
+
+        WJP_civil_defense = {
+            allowed = { tag = WJP }
+            modifier = {
+                stability_factor = 0.07
+                mobilization_speed = 0.10
+                division_defence_factor = 0.03
+            }
+        }
+    }
+}
