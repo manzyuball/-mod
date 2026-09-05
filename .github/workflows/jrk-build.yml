@@ -65,7 +65,6 @@ jobs:
               if not p.is_file() or p.suffix.lower() not in {'.txt','.mod'}:
                   continue
               txt = p.read_text(encoding='utf-8-sig', errors='replace')
-              # Remove comments and strings before brace count.
               cleaned = re.sub(r'#.*', '', txt)
               cleaned = re.sub(r'"(?:\\.|[^"\\])*"', '""', cleaned)
               bal = 0
@@ -107,7 +106,7 @@ jobs:
           print('custom map directory: absent')
           PY
 
-      - name: Build install ZIP
+      - name: Build install layout
         shell: bash
         run: |
           rm -rf stage
@@ -115,13 +114,11 @@ jobs:
           cp -R jrk2005/. stage/nihon_rettouki_2005/
           cp jrk2005/INSTALL/nihon_rettouki_2005.mod stage/nihon_rettouki_2005.mod
           rm -rf stage/nihon_rettouki_2005/INSTALL
-          cd stage
-          zip -r ../nihon_rettouki_2005_v0.1.0.zip .
 
       - name: Upload install ZIP
         uses: actions/upload-artifact@v4
         with:
           name: nihon-rettouki-2005-v0.1.0
-          path: nihon_rettouki_2005_v0.1.0.zip
+          path: stage/
           if-no-files-found: error
           retention-days: 30
