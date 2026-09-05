@@ -1,0 +1,127 @@
+name: JRK 2005 Validate and Package
+
+on:
+  push:
+    branches:
+      - chatgpt/jrk-2005-clean
+    paths:
+      - 'jrk2005/**'
+      - '.github/workflows/jrk-build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Static validation
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re, sys
+
+          root = Path('jrk2005')
+          errors = []
+
+          required = [
+              'docs/REFERENCE_AUDIT.md',
+              'docs/CONTENT_MAP.md',
+              'docs/STORY_FLOW.md',
+              'docs/SYSTEMS.md',
+              'docs/MILITARY_SETUP.md',
+              'docs/REMOVAL_LOG.md',
+              'docs/OPTIMIZATION_REPORT.md',
+              'docs/CHANGELOG_AI_WORK.md',
+              'docs/QA_REPORT.md',
+              'docs/UNRESOLVED_ISSUES.md',
+          ]
+          for rel in required:
+              if not (root / rel).exists():
+                  errors.append(f'missing required doc: {rel}')
+
+          if (root / 'map').exists():
+              errors.append('forbidden custom map directory exists')
+
+          gameplay_roots = ['common', 'events', 'history', 'localisation']
+          forbidden = ['松代統制', '東京朝', '二ッ岩マミゾウ']
+          for base in gameplay_roots:
+              pbase = root / base
+              if not pbase.exists():
+                  continue
+              for p in pbase.rglob('*'):
+                  if not p.is_file() or p.suffix.lower() not in {'.txt','.yml','.lua','.mod'}:
+                      continue
+                  txt = p.read_text(encoding='utf-8-sig', errors='replace')
+                  for term in forbidden:
+                      if term in txt:
+                          errors.append(f'forbidden obsolete lore {term!r} in {p}')
+
+          for p in root.rglob('*'):
+              if not p.is_file() or p.suffix.lower() not in {'.txt','.mod'}:
+                  continue
+              txt = p.read_text(encoding='utf-8-sig', errors='replace')
+              # Remove comments and strings before brace count.
+              cleaned = re.sub(r'#.*', '', txt)
+              cleaned = re.sub(r'"(?:\\.|[^"\\])*"', '""', cleaned)
+              bal = 0
+              for ch in cleaned:
+                  if ch == '{': bal += 1
+                  elif ch == '}': bal -= 1
+                  if bal < 0:
+                      errors.append(f'negative brace balance in {p}')
+                      break
+              if bal != 0:
+                  errors.append(f'brace balance {bal} in {p}')
+
+          focus_ids = []
+          for p in (root/'common/national_focus').glob('*.txt'):
+              txt = p.read_text(encoding='utf-8')
+              focus_ids.extend(re.findall(r'^\s+id\s*=\s*((?:EJP|WJP)_[A-Za-z0-9_]+)\s*$', txt, re.M))
+          dups = sorted({x for x in focus_ids if focus_ids.count(x) > 1})
+          if dups:
+              errors.append('duplicate focus IDs: ' + ', '.join(dups))
+
+          expected_states = {282,526,528,529,530,531,532,533,534,535,536,537}
+          actual_states = set()
+          for p in (root/'history/states').glob('*.txt'):
+              txt = p.read_text(encoding='utf-8')
+              m = re.search(r'\bid\s*=\s*(\d+)', txt)
+              if m: actual_states.add(int(m.group(1)))
+          if actual_states != expected_states:
+              errors.append(f'state set mismatch: {sorted(actual_states)}')
+
+          if errors:
+              print('STATIC VALIDATION FAILED')
+              for e in errors:
+                  print('-', e)
+              sys.exit(1)
+
+          print('STATIC VALIDATION PASS')
+          print('focus IDs:', len(focus_ids))
+          print('state overrides:', len(actual_states))
+          print('custom map directory: absent')
+          PY
+
+      - name: Build install ZIP
+        shell: bash
+        run: |
+          rm -rf stage
+          mkdir -p stage/nihon_rettouki_2005
+          cp -R jrk2005/. stage/nihon_rettouki_2005/
+          cp jrk2005/INSTALL/nihon_rettouki_2005.mod stage/nihon_rettouki_2005.mod
+          rm -rf stage/nihon_rettouki_2005/INSTALL
+          cd stage
+          zip -r ../nihon_rettouki_2005_v0.1.0.zip .
+
+      - name: Upload install ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: nihon-rettouki-2005-v0.1.0
+          path: nihon_rettouki_2005_v0.1.0.zip
+          if-no-files-found: error
+          retention-days: 30
