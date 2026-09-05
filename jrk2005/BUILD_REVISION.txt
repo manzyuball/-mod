@@ -1,0 +1,2 @@
+JRK 2005 clean rebuild 0.1.0
+Static packaging trigger after workflow installation.
