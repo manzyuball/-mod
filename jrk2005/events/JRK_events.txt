@@ -1,0 +1,86 @@
+add_namespace = JRK
+
+country_event = {
+    id = JRK.1
+    title = JRK.1.t
+    desc = JRK.1.d
+    is_triggered_only = yes
+
+    immediate = {
+        if = {
+            limit = { JAP = { exists = yes } }
+            annex_country = { target = JAP transfer_troops = no }
+        }
+        if = {
+            limit = { owns_state = 524 CHI = { exists = yes } }
+            CHI = { transfer_state = 524 }
+        }
+        if = {
+            limit = { owns_state = 525 }
+            release = KOR
+        }
+    }
+
+    option = {
+        name = JRK.1.a
+        add_political_power = 50
+    }
+}
+
+country_event = {
+    id = JRK.2
+    title = JRK.2.t
+    desc = JRK.2.d
+    is_triggered_only = yes
+    option = {
+        name = JRK.2.a
+        add_political_power = 50
+    }
+}
+
+country_event = {
+    id = JRK.10
+    title = JRK.10.t
+    desc = JRK.10.d
+    is_triggered_only = yes
+    option = {
+        name = JRK.10.a
+        add_war_support = 0.03
+        add_stability = -0.02
+    }
+}
+
+country_event = {
+    id = JRK.11
+    title = JRK.11.t
+    desc = JRK.11.d
+    is_triggered_only = yes
+    option = {
+        name = JRK.11.a
+        add_war_support = 0.03
+    }
+}
+
+country_event = {
+    id = JRK.12
+    title = JRK.12.t
+    desc = JRK.12.d
+    is_triggered_only = yes
+    option = {
+        name = JRK.12.a
+        add_war_support = 0.04
+        add_dynamic_modifier = { modifier = WJP_emergency_mobilization_timed days = 45 }
+    }
+}
+
+country_event = {
+    id = JRK.13
+    title = JRK.13.t
+    desc = JRK.13.d
+    is_triggered_only = yes
+    option = {
+        name = JRK.13.a
+        add_stability = 0.03
+        add_war_support = 0.10
+    }
+}
