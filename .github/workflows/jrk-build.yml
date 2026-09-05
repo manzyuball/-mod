@@ -115,6 +115,65 @@ jobs:
           cp jrk2005/INSTALL/nihon_rettouki_2005.mod stage/nihon_rettouki_2005.mod
           rm -rf stage/nihon_rettouki_2005/INSTALL
 
+      - name: Generate EJP and WJP flags
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import struct
+
+          root = Path('stage/nihon_rettouki_2005/gfx/flags')
+          ideologies = ['', '_democratic', '_neutrality', '_fascism', '_communism']
+
+          def tga(path, width, height, bg, fg, west=False):
+              path.parent.mkdir(parents=True, exist_ok=True)
+              header = struct.pack('<BBBHHBHHHHBB', 0, 0, 2, 0, 0, 0, 0, 0, width, height, 24, 0x20)
+              px = bytearray()
+              cx, cy = width / 2.0, height / 2.0
+              r = min(width, height) * 0.22
+              for y in range(height):
+                  for x in range(width):
+                      if west:
+                          # West: offset ring + horizon, deliberately fictional.
+                          ring = (r*0.62)**2 <= (x-cx)**2 + (y-cy)**2 <= r**2
+                          mark = ring or abs(y-cy) <= max(1, height//18)
+                      else:
+                          # East: central disc + narrow vertical axis.
+                          disc = (x-cx)**2 + (y-cy)**2 <= r**2
+                          mark = disc or abs(x-cx) <= max(1, width//24)
+                      rr, gg, bb = fg if mark else bg
+                      px.extend((bb, gg, rr))
+              path.write_bytes(header + px)
+
+          specs = {
+              'EJP': ((104, 23, 37), (235, 220, 180), False),
+              'WJP': ((28, 91, 70), (240, 240, 226), True),
+          }
+          sizes = [('', 82, 52), ('medium', 41, 26), ('small', 10, 7)]
+          for tag, (bg, fg, west) in specs.items():
+              for sub, w, h in sizes:
+                  base = root / sub if sub else root
+                  for suffix in ideologies:
+                      tga(base / f'{tag}{suffix}.tga', w, h, bg, fg, west)
+          PY
+
+      - name: Write build validation manifest
+        shell: bash
+        run: |
+          cat > stage/nihon_rettouki_2005/BUILD_VALIDATION.txt <<EOF
+          日本裂島記 - 2005 v0.1.0
+          Git commit: ${GITHUB_SHA}
+          Static validation: PASS
+          Custom map directory: absent
+          State geometry policy: vanilla state/province IDs only; newly authored ownership/history overrides
+          Forbidden obsolete AI-lore scan: PASS
+          Required docs scan: PASS
+          Brace balance: PASS
+          Duplicate focus-ID scan: PASS
+          In-engine HOI4 1.19.2 runtime test: NOT PERFORMED IN THIS BUILD ENVIRONMENT
+          See docs/QA_REPORT.md and docs/UNRESOLVED_ISSUES.md.
+          EOF
+
       - name: Upload install ZIP
         uses: actions/upload-artifact@v4
         with:
