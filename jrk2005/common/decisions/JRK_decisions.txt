@@ -1,0 +1,60 @@
+JRK_east_operations = {
+    EJP_recon_alpine_routes = {
+        icon = generic_army_support
+        cost = 40
+        available = { has_war_with = WJP }
+        complete_effect = {
+            add_dynamic_modifier = { modifier = EJP_alpine_offensive_timed days = 35 }
+            add_army_experience = 5
+        }
+        days_remove = 30
+        ai_will_do = { factor = 2 }
+    }
+
+    EJP_emergency_logistics = {
+        icon = generic_industry
+        cost = 45
+        complete_effect = {
+            add_political_power = -15
+            535 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
+        }
+        fire_only_once = yes
+        ai_will_do = { factor = 1 }
+    }
+}
+
+JRK_west_emergency = {
+    WJP_restore_backup_air_defense = {
+        icon = generic_air
+        cost = 35
+        complete_effect = {
+            add_dynamic_modifier = { modifier = WJP_air_defense_stage1 days = 45 }
+            add_air_experience = 10
+        }
+        days_remove = 30
+        ai_will_do = { factor = 2 }
+    }
+
+    WJP_counter_cyber_response = {
+        icon = generic_intelligence_exchange
+        cost = 40
+        available = { has_dynamic_modifier = WJP_cyber_disruption_timed }
+        complete_effect = {
+            remove_dynamic_modifier = WJP_cyber_disruption_timed
+            add_stability = 0.01
+        }
+        ai_will_do = { factor = 3 }
+    }
+
+    WJP_emergency_tokai_mobilization = {
+        icon = generic_army_support
+        cost = 45
+        available = { has_war_with = EJP }
+        complete_effect = {
+            add_dynamic_modifier = { modifier = WJP_emergency_mobilization_timed days = 40 }
+            add_command_power = 10
+        }
+        days_remove = 30
+        ai_will_do = { factor = 2 }
+    }
+}
