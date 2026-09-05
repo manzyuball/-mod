@@ -1,0 +1,188 @@
+focus_tree = {
+    id = WJP_focus
+    country = {
+        factor = 0
+        modifier = { add = 100 tag = WJP }
+    }
+    default = no
+    continuous_focus_position = { x = 20 y = 10 }
+
+    focus = {
+        id = WJP_emergency_cabinet
+        icon = GFX_goal_generic_political_pressure
+        x = 5 y = 0
+        cost = 5
+        completion_reward = { add_political_power = 75 add_stability = 0.03 }
+        ai_will_do = { factor = 10 }
+    }
+
+    focus = {
+        id = WJP_harden_toki
+        icon = GFX_goal_generic_defence
+        x = 5 y = 1
+        cost = 5
+        prerequisite = { focus = WJP_emergency_cabinet }
+        completion_reward = {
+            532 = { add_building_construction = { type = bunker level = 1 instant_build = yes } }
+            add_command_power = 15
+        }
+        ai_will_do = { factor = 10 }
+    }
+
+    focus = {
+        id = WJP_secure_laser_base
+        icon = GFX_goal_generic_radar
+        x = 5 y = 2
+        cost = 5
+        prerequisite = { focus = WJP_harden_toki }
+        completion_reward = { add_war_support = 0.03 add_command_power = 10 }
+        ai_will_do = { factor = 10 }
+    }
+
+    focus = {
+        id = WJP_restore_air_defense
+        icon = GFX_goal_generic_air_fighter
+        x = 5 y = 3
+        cost = 5
+        prerequisite = { focus = WJP_secure_laser_base }
+        completion_reward = {
+            remove_ideas = WJP_fragmented_air_defense
+            add_dynamic_modifier = { modifier = WJP_air_defense_stage1 }
+            add_air_experience = 20
+        }
+        ai_will_do = { factor = 10 }
+    }
+
+    focus = {
+        id = WJP_hold_tokai
+        icon = GFX_goal_generic_fortify_city
+        x = 5 y = 4
+        cost = 5
+        prerequisite = { focus = WJP_restore_air_defense }
+        completion_reward = {
+            532 = {
+                add_building_construction = { type = bunker level = 2 instant_build = yes }
+                add_building_construction = { type = anti_air_building level = 2 instant_build = yes }
+            }
+            add_dynamic_modifier = { modifier = WJP_emergency_mobilization_timed days = 70 }
+        }
+        ai_will_do = { factor = 10 }
+    }
+
+    focus = {
+        id = WJP_kansai_defense
+        icon = GFX_goal_generic_fortify_city
+        x = 5 y = 5
+        cost = 5
+        prerequisite = { focus = WJP_hold_tokai }
+        completion_reward = {
+            531 = {
+                add_building_construction = { type = bunker level = 2 instant_build = yes }
+                add_building_construction = { type = anti_air_building level = 1 instant_build = yes }
+            }
+            add_stability = 0.04
+        }
+        ai_will_do = { factor = 8 }
+    }
+
+    focus = {
+        id = WJP_counteroffensive
+        icon = GFX_goal_generic_major_war
+        x = 5 y = 6
+        cost = 5
+        prerequisite = { focus = WJP_kansai_defense }
+        available = { has_war_with = EJP }
+        completion_reward = {
+            remove_dynamic_modifier = WJP_air_defense_stage1
+            add_dynamic_modifier = { modifier = WJP_air_defense_stage2 }
+            add_army_experience = 30
+        }
+        ai_will_do = { factor = 8 }
+    }
+
+    focus = {
+        id = WJP_industrial_coordination
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1 y = 1
+        cost = 5
+        prerequisite = { focus = WJP_emergency_cabinet }
+        completion_reward = {
+            531 = { add_extra_state_shared_building_slots = 1 add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+            532 = { add_extra_state_shared_building_slots = 1 add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+        }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = WJP_disperse_industry
+        icon = GFX_goal_generic_construct_mil_factory
+        x = 1 y = 2
+        cost = 5
+        prerequisite = { focus = WJP_industrial_coordination }
+        completion_reward = {
+            529 = { add_extra_state_shared_building_slots = 1 add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+            528 = { add_extra_state_shared_building_slots = 1 add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+        }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = WJP_yatagarasu_program_focus
+        icon = GFX_goal_generic_scientific_exchange
+        x = 1 y = 3
+        cost = 5
+        prerequisite = { focus = WJP_disperse_industry }
+        completion_reward = { add_ideas = WJP_yatagarasu_program }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = WJP_field_headquarters
+        icon = GFX_goal_generic_army_motorized
+        x = 9 y = 1
+        cost = 5
+        prerequisite = { focus = WJP_emergency_cabinet }
+        completion_reward = { add_army_experience = 25 add_command_power = 30 }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = WJP_reimu_defense_concept
+        icon = GFX_goal_generic_defence
+        x = 9 y = 2
+        cost = 5
+        prerequisite = { focus = WJP_field_headquarters }
+        completion_reward = { add_army_experience = 25 }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = WJP_mechanized_reserve
+        icon = GFX_goal_generic_army_tanks
+        x = 9 y = 3
+        cost = 5
+        prerequisite = { focus = WJP_field_headquarters }
+        completion_reward = { add_army_experience = 20 }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = WJP_f15_interceptors
+        icon = GFX_goal_generic_air_fighter
+        x = 11 y = 2
+        cost = 5
+        prerequisite = { focus = WJP_field_headquarters }
+        completion_reward = { add_air_experience = 35 }
+        ai_will_do = { factor = 5 }
+    }
+
+    focus = {
+        id = WJP_civil_defense_network
+        icon = GFX_goal_generic_national_unity
+        x = 3 y = 1
+        cost = 5
+        prerequisite = { focus = WJP_emergency_cabinet }
+        completion_reward = { add_ideas = WJP_civil_defense }
+        ai_will_do = { factor = 4 }
+    }
+}
