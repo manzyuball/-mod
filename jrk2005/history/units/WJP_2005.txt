@@ -1,0 +1,162 @@
+instant_effect = {
+    if = {
+        limit = { has_dlc_nsb = yes }
+        create_equipment_variant = {
+            name = "90式戦車 西日本仕様"
+            type = modern_tank_chassis_1
+            parent_version = 0
+            modules = {
+                main_armament_slot = tank_medium_cannon_2
+                turret_type_slot = tank_modern_tank_turret
+                suspension_type_slot = tank_torsion_bar_suspension
+                armor_type_slot = tank_welded_armor
+                engine_type_slot = tank_diesel_engine
+                special_type_slot_1 = wet_ammo_storage
+                special_type_slot_2 = tank_radio_module
+                special_type_slot_3 = sloped_armor
+                special_type_slot_4 = armor_skirts
+            }
+            upgrades = {
+                tank_nsb_engine_upgrade = 8
+                tank_nsb_armor_upgrade = 7
+            }
+        }
+        add_equipment_production = {
+            equipment = {
+                type = modern_tank_chassis_1
+                version_name = "90式戦車 西日本仕様"
+            }
+            requested_factories = 3
+            efficiency = 78
+        }
+    }
+
+    if = {
+        limit = { has_dlc_bba = yes }
+        create_equipment_variant = {
+            name = "F-15J 西日本仕様"
+            type = small_plane_airframe_4
+            modules = {
+                fixed_main_weapon_slot = aircraft_cannon_2_2x
+                fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+                fixed_auxiliary_weapon_slot_2 = aircraft_cannon_2_1x
+                engine_type_slot = jet_engine_2x
+                special_type_slot_1 = fuel_tanks_small
+                special_type_slot_2 = self_sealing_fuel_tanks_small
+                special_type_slot_3 = armor_plate_small
+            }
+        }
+        add_equipment_production = {
+            equipment = {
+                type = small_plane_airframe_4
+                version_name = "F-15J 西日本仕様"
+            }
+            requested_factories = 4
+            efficiency = 78
+        }
+    }
+
+    add_equipment_production = {
+        equipment = { type = infantry_equipment_3 }
+        requested_factories = 4
+        efficiency = 80
+    }
+    add_equipment_production = {
+        equipment = { type = support_equipment_1 }
+        requested_factories = 2
+        efficiency = 80
+    }
+    add_equipment_to_stockpile = { type = infantry_equipment_3 amount = 2000 producer = WJP }
+    add_equipment_to_stockpile = { type = support_equipment_1 amount = 600 producer = WJP }
+}
+
+division_template = {
+    name = "西日本軍統合司令部"
+    template_counter = 121
+    is_army_hq = yes
+    regiments = {
+        hq_infantry = { x = 0 y = 0 }
+        hq_infantry = { x = 0 y = 1 }
+        hq_infantry = { x = 0 y = 2 }
+    }
+    support = {
+        hq_support_company = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+    name = "西日本防衛師団"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+        infantry = { x = 1 y = 3 }
+    }
+    regimental_support = {
+        field_guns = { x = 0 y = 0 }
+        anti_air_battery = { x = 1 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+        logistics_company = { x = 0 y = 2 }
+        signal_company = { x = 0 y = 3 }
+    }
+}
+
+division_template = {
+    name = "西日本機甲師団"
+    regiments = {
+        modern_armor = { x = 0 y = 0 }
+        modern_armor = { x = 0 y = 1 }
+        modern_armor = { x = 0 y = 2 }
+        mechanized = { x = 1 y = 0 }
+        mechanized = { x = 1 y = 1 }
+        mechanized = { x = 1 y = 2 }
+        mechanized = { x = 1 y = 3 }
+    }
+    regimental_support = {
+        mot_fire_support = { x = 0 y = 0 }
+        anti_air_battery = { x = 1 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        logistics_company = { x = 0 y = 1 }
+        maintenance_company = { x = 0 y = 2 }
+        signal_company = { x = 0 y = 3 }
+    }
+}
+
+division_template = {
+    name = "西日本山岳旅団"
+    regiments = {
+        mountaineers = { x = 0 y = 0 }
+        mountaineers = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 2 }
+        mountaineers = { x = 1 y = 0 }
+        mountaineers = { x = 1 y = 1 }
+        mountaineers = { x = 1 y = 2 }
+    }
+    regimental_support = {
+        field_guns = { x = 0 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        logistics_company = { x = 0 y = 1 }
+        recon = { x = 0 y = 2 }
+    }
+}
+
+units = {
+    division = { name = "西日本軍統合司令部" location = 7072 division_template = "西日本軍統合司令部" start_experience_factor = 0.5 start_equipment_factor = 1.0 }
+    division = { name = "第1防衛師団" location = 7072 division_template = "西日本防衛師団" start_experience_factor = 0.4 start_equipment_factor = 1.0 }
+    division = { name = "第2防衛師団" location = 10125 division_template = "西日本防衛師団" start_experience_factor = 0.45 start_equipment_factor = 1.0 }
+    division = { name = "第3防衛師団" location = 1092 division_template = "西日本防衛師団" start_experience_factor = 0.35 start_equipment_factor = 1.0 }
+    division = { name = "第4防衛師団" location = 9950 division_template = "西日本防衛師団" start_experience_factor = 0.35 start_equipment_factor = 1.0 }
+    division = { name = "第1機甲師団" location = 10125 division_template = "西日本機甲師団" start_experience_factor = 0.5 start_equipment_factor = 1.0 }
+    division = { name = "第1山岳旅団" location = 10125 division_template = "西日本山岳旅団" start_experience_factor = 0.55 start_equipment_factor = 1.0 }
+}
