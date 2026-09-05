@@ -12,12 +12,15 @@
 - Implemented the current outbreak route: Toki fusion-reactor attack → linked high-firepower laser-base seizure → West air-defence hack → 日本アルプス大突破.
 - Added East and West focus trees with military, industry and defence branches rather than modifier-only story spam.
 - Added focused operational decisions and outbreak events.
-- Added 1.19 Army HQ templates and Regimental Support rows.
+- Added debug-only deterministic filming controls for the four confirmed outbreak stages.
+- Added 1.19 Army HQ templates, HQ-specific support units and Regimental Support rows.
+- Kept the native Field Officer / Division Commander promotion system instead of inventing fake named division commanders.
 - Added NSB tank designer starting variants and production lines.
-- Added BBA fighter designer starting variants and production lines.
-- Added initial stockpiles and land OOBs.
-- Added primary Japanese localisation.
-- Added design/QA/reference documentation.
+- Added BBA fighter designer starting variants, production lines and starting air wings.
+- Added initial stockpiles, land OOBs and East/West AI strategy priorities.
+- Added complete Japanese country/party and gameplay localisation.
+- Added build-time generated EJP/WJP TGA flags in normal, medium and small sizes.
+- Added design/QA/reference documentation and a build validation manifest.
 
 ## Corrections applied during rebuild
 
@@ -29,7 +32,8 @@
 
 ## Not claimed as completed
 
-- Binary art assets/portraits/flags.
+- Final authored character portraits and focus/event artwork.
+- Final art-directed replacement for the generated placeholder country flags.
 - Full modern-2005 conversion of every country outside the Japanese theatre.
 - In-engine 1.19.2 `error.log` clean run.
 - Final combat/economic balance pass.
