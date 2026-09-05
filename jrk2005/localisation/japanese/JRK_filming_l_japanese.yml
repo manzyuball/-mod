@@ -1,0 +1,10 @@
+﻿l_japanese:
+ JRK_filming_tools:0 "撮影・デバッグ用ストーリー操作"
+ JRK_debug_toki_attack:0 "[DEBUG] 土岐市核融合炉への攻撃を発生"
+ JRK_debug_toki_attack_desc:0 "通常のNF進行を待たず、現在確定している開戦シーケンスの第一段階だけを発生させる。"
+ JRK_debug_laser_seizure:0 "[DEBUG] 関連レーザー基地の掌握を発生"
+ JRK_debug_laser_seizure_desc:0 "核融合炉と連携する高火力レーザー基地の掌握段階を発生させる。正式名称や実行者は設定しない。"
+ JRK_debug_air_defense_hack:0 "[DEBUG] 西日本防空網への侵入を発生"
+ JRK_debug_air_defense_hack_desc:0 "西日本へ一時的な防空・通信障害を付与し、対応イベントを表示する。"
+ JRK_debug_alps_breakthrough:0 "[DEBUG] 日本アルプス大突破を開始"
+ JRK_debug_alps_breakthrough_desc:0 "東西を開戦させ、日本アルプス大突破の一時作戦補正と西日本側イベントを発生させる。"
