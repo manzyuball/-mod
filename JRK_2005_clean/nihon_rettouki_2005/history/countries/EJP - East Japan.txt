@@ -1,0 +1,18 @@
+capital = 282
+oob = "EJP_2005"
+set_research_slots = 4
+set_politics = { ruling_party = neutrality last_election = "2001.1.1" election_frequency = 48 elections_allowed = no }
+set_popularities = { neutrality = 72 democratic = 16 fascism = 8 communism = 4 }
+set_technology = {
+    infantry_weapons = 1 infantry_weapons1 = 1 infantry_weapons2 = 1
+    support_weapons = 1 tech_support = 1 tech_engineers = 1 motorised_infantry = 1 mechanised_infantry = 1
+    basic_artillery = 1 interwar_artillery = 1 electronic_mechanical_engineering = 1 radio = 1
+    basic_machine_tools = 1 improved_machine_tools = 1 construction1 = 1 construction2 = 1 excavation1 = 1
+    modern_tank_chassis = 1 modern_small_airframe = 1 jet_engines = 1
+}
+recruit_character = EJP_miko
+recruit_character = EJP_futo
+recruit_character = EJP_marisa
+recruit_character = EJP_mamizou
+add_ideas = { JRK_divided_archipelago EJP_matsushiro_control EJP_military_priority }
+add_dynamic_modifier = { modifier = EJP_command_network_stage1 }

@@ -1,0 +1,12 @@
+ideas = {
+    country = {
+        JRK_divided_archipelago = { modifier = { stability_factor = -0.08 war_support_factor = 0.05 supply_consumption_factor = 0.04 } }
+        EJP_matsushiro_control = { modifier = { political_power_gain = 0.15 stability_factor = 0.05 consumer_goods_factor = 0.03 } }
+        EJP_military_priority = { modifier = { industrial_capacity_factory = 0.08 production_factory_efficiency_gain_factor = 0.08 consumer_goods_factor = 0.02 } }
+        EJP_surveillance_state = { modifier = { stability_factor = 0.08 political_power_gain = 0.10 mobilization_speed = 0.10 } }
+        WJP_moriya_industrial_bloc = { modifier = { industrial_capacity_factory = 0.05 industrial_capacity_dockyard = 0.05 production_factory_efficiency_gain_factor = 0.08 } }
+        WJP_fragmented_air_defense = { modifier = { air_mission_efficiency = -0.12 air_accidents_factor = 0.10 stability_factor = -0.03 } }
+        WJP_yatagarasu_program = { modifier = { research_speed_factor = 0.06 industrial_capacity_factory = 0.04 consumer_goods_factor = 0.02 } }
+        WJP_civil_defense = { modifier = { stability_factor = 0.07 mobilization_speed = 0.10 army_defence_factor = 0.03 } }
+    }
+}

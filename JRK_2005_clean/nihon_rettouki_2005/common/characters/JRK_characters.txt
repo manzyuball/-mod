@@ -1,0 +1,12 @@
+characters = {
+    EJP_miko = { name = EJP_miko country_leader = { ideology = despotism } }
+    EJP_futo = { name = EJP_futo corps_commander = { skill = 4 attack_skill = 4 defense_skill = 3 planning_skill = 4 logistics_skill = 3 } }
+    EJP_marisa = { name = EJP_marisa corps_commander = { skill = 5 attack_skill = 6 defense_skill = 3 planning_skill = 5 logistics_skill = 3 } }
+    EJP_mamizou = { name = EJP_mamizou corps_commander = { skill = 4 attack_skill = 3 defense_skill = 4 planning_skill = 4 logistics_skill = 5 } }
+
+    WJP_sanae = { name = WJP_sanae country_leader = { ideology = conservatism } }
+    WJP_reimu = { name = WJP_reimu corps_commander = { skill = 5 attack_skill = 4 defense_skill = 6 planning_skill = 5 logistics_skill = 4 } }
+    WJP_kanako = { name = WJP_kanako field_marshal = { skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5 } }
+    WJP_nitori = { name = WJP_nitori corps_commander = { skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 3 logistics_skill = 5 } }
+    WJP_tsukasa = { name = WJP_tsukasa corps_commander = { skill = 4 attack_skill = 3 defense_skill = 4 planning_skill = 5 logistics_skill = 4 } }
+}
