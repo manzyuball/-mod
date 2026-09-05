@@ -1,0 +1,37 @@
+characters = {
+    EJP_miko = {
+        name = EJP_miko
+        country_leader = {
+            ideology = despotism
+        }
+    }
+
+    EJP_marisa = {
+        name = EJP_marisa
+        corps_commander = {
+            skill = 5
+            attack_skill = 6
+            defense_skill = 3
+            planning_skill = 5
+            logistics_skill = 3
+        }
+    }
+
+    WJP_sanae = {
+        name = WJP_sanae
+        country_leader = {
+            ideology = conservatism
+        }
+    }
+
+    WJP_reimu = {
+        name = WJP_reimu
+        corps_commander = {
+            skill = 5
+            attack_skill = 4
+            defense_skill = 6
+            planning_skill = 5
+            logistics_skill = 4
+        }
+    }
+}
