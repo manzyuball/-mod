@@ -1,0 +1,19 @@
+state = {
+    id = 537
+    name = "STATE_537"
+    manpower = 400000
+    state_category = rural
+    resources = { oil = 4 }
+    history = {
+        owner = EJP
+        add_core_of = EJP
+        buildings = {
+            infrastructure = 4
+            air_base = 2
+            industrial_complex = 1
+            12446 = { naval_base = 2 }
+        }
+        victory_points = { 12446 3 }
+    }
+    provinces = { 1322 1820 12446 }
+}
