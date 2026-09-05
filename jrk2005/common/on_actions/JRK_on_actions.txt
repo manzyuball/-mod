@@ -1,0 +1,14 @@
+on_actions = {
+    on_game_start_country = {
+        effect = {
+            if = {
+                limit = { tag = EJP }
+                country_event = { id = JRK.1 days = 1 }
+            }
+            if = {
+                limit = { tag = WJP }
+                country_event = { id = JRK.2 days = 1 }
+            }
+        }
+    }
+}
