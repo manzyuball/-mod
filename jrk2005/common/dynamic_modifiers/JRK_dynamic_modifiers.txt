@@ -1,0 +1,64 @@
+EJP_command_network_stage1 = {
+    enable = { tag = EJP }
+    modifier = {
+        planning_speed = 0.08
+        max_planning_factor = 0.04
+        army_org_factor = 0.03
+    }
+}
+
+EJP_command_network_stage2 = {
+    enable = { tag = EJP }
+    modifier = {
+        planning_speed = 0.14
+        max_planning_factor = 0.08
+        army_org_factor = 0.05
+        supply_consumption_factor = -0.03
+    }
+}
+
+EJP_alpine_offensive_timed = {
+    enable = { tag = EJP }
+    modifier = {
+        division_attack_factor = 0.08
+        planning_speed = 0.10
+        supply_consumption_factor = -0.05
+    }
+}
+
+WJP_air_defense_stage1 = {
+    enable = { tag = WJP }
+    modifier = {
+        air_mission_efficiency = 0.08
+        air_accidents_factor = -0.08
+        air_attack_factor = 0.03
+    }
+}
+
+WJP_air_defense_stage2 = {
+    enable = { tag = WJP }
+    modifier = {
+        air_mission_efficiency = 0.14
+        air_accidents_factor = -0.12
+        air_attack_factor = 0.06
+        division_defence_factor = 0.02
+    }
+}
+
+WJP_cyber_disruption_timed = {
+    enable = { tag = WJP }
+    modifier = {
+        planning_speed = -0.18
+        air_mission_efficiency = -0.12
+        production_factory_efficiency_gain_factor = -0.08
+    }
+}
+
+WJP_emergency_mobilization_timed = {
+    enable = { tag = WJP }
+    modifier = {
+        mobilization_speed = 0.20
+        division_defence_factor = 0.07
+        army_org_factor = 0.03
+    }
+}
