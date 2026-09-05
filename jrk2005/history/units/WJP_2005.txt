@@ -81,6 +81,9 @@ division_template = {
     }
     support = {
         hq_support_company = { x = 0 y = 0 }
+        hq_logistics = { x = 0 y = 1 }
+        hq_maintenance = { x = 0 y = 2 }
+        hq_field_hospital = { x = 0 y = 3 }
     }
 }
 
@@ -159,4 +162,21 @@ units = {
     division = { name = "第4防衛師団" location = 9950 division_template = "西日本防衛師団" start_experience_factor = 0.35 start_equipment_factor = 1.0 }
     division = { name = "第1機甲師団" location = 10125 division_template = "西日本機甲師団" start_experience_factor = 0.5 start_equipment_factor = 1.0 }
     division = { name = "第1山岳旅団" location = 10125 division_template = "西日本山岳旅団" start_experience_factor = 0.55 start_equipment_factor = 1.0 }
+}
+
+air_wings = {
+    532 = {
+        small_plane_airframe_4 = {
+            owner = "WJP"
+            amount = 160
+            version_name = "F-15J 西日本仕様"
+        }
+    }
+    531 = {
+        small_plane_airframe_4 = {
+            owner = "WJP"
+            amount = 120
+            version_name = "F-15J 西日本仕様"
+        }
+    }
 }
