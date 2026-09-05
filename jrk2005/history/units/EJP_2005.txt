@@ -81,6 +81,9 @@ division_template = {
     }
     support = {
         hq_support_company = { x = 0 y = 0 }
+        hq_logistics = { x = 0 y = 1 }
+        hq_maintenance = { x = 0 y = 2 }
+        hq_field_hospital = { x = 0 y = 3 }
     }
 }
 
@@ -159,4 +162,21 @@ units = {
     division = { name = "第1機動師団" location = 10032 division_template = "東日本機動師団" start_experience_factor = 0.5 start_equipment_factor = 1.0 }
     division = { name = "第2機動師団" location = 1117 division_template = "東日本機動師団" start_experience_factor = 0.45 start_equipment_factor = 1.0 }
     division = { name = "第1山岳旅団" location = 10032 division_template = "東日本山岳旅団" start_experience_factor = 0.55 start_equipment_factor = 1.0 }
+}
+
+air_wings = {
+    282 = {
+        small_plane_airframe_4 = {
+            owner = "EJP"
+            amount = 160
+            version_name = "東日本制空戦闘機 I型"
+        }
+    }
+    533 = {
+        small_plane_airframe_4 = {
+            owner = "EJP"
+            amount = 80
+            version_name = "東日本制空戦闘機 I型"
+        }
+    }
 }
